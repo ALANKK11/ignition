@@ -59,6 +59,9 @@ def make_tags(components: dict, metrics: dict, extra: dict, mode: str) -> list[t
         color = "bold green" if ah_ret > 0 else "bold red"
         tags.append((f"{ext_label} {ah_ret * 100:+.1f}%", color))
 
+    if metrics.get("_pin"):
+        tags.append(("DEAL PIN · dead money", "bold magenta"))
+
     if metrics["rvol"] >= 3.0:
         tags.append((f"IGNITED {metrics['rvol']:.1f}x", "bold yellow"))
 

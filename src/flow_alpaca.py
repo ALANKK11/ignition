@@ -104,9 +104,11 @@ def radar_scan(ap: AlpacaData, base: dict, now: dt.datetime,
                 continue
             pace = v / (adv * f_now)
             hod = float(day.get("h") or 0)
+            lod = float(day.get("l") or 0)
+            rngp = ((hod - lod) / px) if (hod and lod and px) else None
             rows.append({"ticker": sym, "pace": pace, "last": px,
                          "day_pct": px / pc - 1.0, "dollar_day": v * px,
-                         "vs_adv": v / adv,
+                         "vs_adv": v / adv, "range_pct": rngp,
                          "off_hi": (px / hod - 1.0) if hod else None})
         except Exception:
             continue
@@ -126,6 +128,8 @@ def movers_from_radar(radar_rows: list[dict], fcfg: dict,
     mv.sort(key=lambda r: abs(r["day_pct"]), reverse=True)
     mv = mv[: int(fcfg.get("mover_top", 15))]
     for r in mv:
+        rp, mvv = r.get("range_pct"), abs(r["day_pct"])
+        r["pin"] = bool(rp and mvv >= 0.20 and (rp / mvv) <= 0.25)
         r["promoted"] = r["ticker"] in promoted
     return mv
 
@@ -197,7 +201,7 @@ def _sess_start(now: dt.datetime, session: str) -> dt.datetime:
 
 
 def ext_sweep(ap: AlpacaData, base: dict, now: dt.datetime, sdir: str,
-              fcfg: dict, session: str, log) -> list[dict]:
+              fcfg: dict, session: str, log) -> list[dict]:  # noqa: C901
     """Full-market extended-hours sweep, hardened against live-tape pathology:
 
     AUCTION GUARD   the AH window starts 16:01 — Alpaca's 16:00 bar contains
@@ -300,7 +304,8 @@ def ext_sweep(ap: AlpacaData, base: dict, now: dt.datetime, sdir: str,
         d15 = float((t15["Volume"] * t15["Close"]).sum())
         elapsed = max((df.index.max() - df.index.min()).total_seconds() / 60, 15)
         l15 = d15 / max(dollars, 1.0)
-        rows.append({**c, "gap": vgap, "dollars": dollars, "shares": shares,
+        pstats = path_stats(df, now) or {}
+        rows.append({**c, **pstats, "gap": vgap, "dollars": dollars, "shares": shares,
                      "minutes": minutes, "off_hi": c["last"] / hi - 1.0,
                      "hot": l15 >= min(0.9, 2.0 * 15 / elapsed),
                      "vs_adv": (shares / adv) if adv else None,
@@ -383,10 +388,14 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
             "state": st.get("state"),
             "tp": st.get("tp"),
             "hot": bool(r.get("hot") or (st.get("tp") or 0) >= 2.5),
+            "pin": bool(r.get("pin")),
+            "heat": r.get("heat"),
+            "swings": r.get("swings"),
+            "path": r.get("path"),
             "first_seen": first,
             "new": first == hm,
         })
-    out.sort(key=lambda r: abs(r["move"]), reverse=True)
+    out.sort(key=lambda r: ((r.get("heat") or 0.0), abs(r["move"])), reverse=True)
     _save(seen_path, seen)
     board = {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
              "session": session,
@@ -394,7 +403,75 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
                        "last": round(r["last"], 3),
                        "vs_adv": round(r["vs_adv"], 2) if r["vs_adv"] else None,
                        "off_hi": round(r["off_hi"], 4) if r["off_hi"] is not None else None,
-                       "tp": round(r["tp"], 1) if r.get("tp") else None}
+                       "tp": round(r["tp"], 1) if r.get("tp") else None,
+                       "heat": round(r["heat"], 1) if r.get("heat") is not None else None,
+                       "path": round(r["path"], 3) if r.get("path") is not None else None}
                       for r in out]}
     _save(os.path.join(sdir, "latest_board.json"), board)
     return board
+
+
+# ---------------------------------------------------------------------------
+# TRADABILITY — ranks what a human can actually trade, not what printed
+# ---------------------------------------------------------------------------
+def path_stats(df, now: dt.datetime, swing_th: float = 0.07) -> dict | None:
+    """From 1-minute bars: how much did this thing actually TRAVEL, in how
+    many swings, and is it still moving NOW.
+
+    path     Σ|1-min returns| — total intraday travel
+    trad     path minus the single largest 1-min print. A buyout gap is one
+             minute nobody human caught; subtracting it zeroes UTZ-shapes
+             while barely denting a real runner's travel.
+    swings   zigzag reversals ≥ swing_th — the legs, pullbacks, reclaims
+    recent   travel in the last 30 minutes
+    heat     0-100: saturating in trad, scaled hard by recency — a name that
+             died at 11:30 cools; a name whipping right now burns.
+    """
+    try:
+        if df is None or len(df) < 5:
+            return None
+        d = df[df.index <= now]
+        c = d["Close"].to_numpy(float)
+        if len(c) < 5:
+            return None
+        raw = np.abs(np.diff(c) / c[:-1])
+        r = np.where(raw >= 0.0035, raw, 0.0)   # sub-spread jitter is not travel
+        path = float(r.sum())
+        trad = float(max(path - r.max(), 0.0))
+        # zigzag: exclusive pivot tracking, direction seeded by first real leg
+        swings, piv, direction = 0, c[0], 0
+        for px in c[1:]:
+            if direction == 0:
+                if px / piv - 1.0 >= swing_th:
+                    direction, piv = 1, px
+                elif px / piv - 1.0 <= -swing_th:
+                    direction, piv = -1, px
+                continue
+            if direction > 0:
+                if px > piv:
+                    piv = px
+                elif px / piv - 1.0 <= -swing_th:
+                    swings, piv, direction = swings + 1, px, -1
+            else:
+                if px < piv:
+                    piv = px
+                elif px / piv - 1.0 >= swing_th:
+                    swings, piv, direction = swings + 1, px, 1
+        i30 = d.index.searchsorted(now - dt.timedelta(minutes=30))
+        recent = float(r[max(i30 - 1, 0):].sum()) if len(r) else 0.0
+        recency = min(recent / 0.08, 1.0)          # 8% travel in 30m = fully hot
+        heat = 100.0 * (1.0 - np.exp(-trad / 0.5)) * (0.25 + 0.75 * recency)
+        return {"path": path, "trad": trad, "swings": swings,
+                "recent": recent, "heat": round(heat, 1)}
+    except Exception:
+        return None
+
+
+def attach_heat(rows: list[dict], bars: dict, now: dt.datetime) -> None:
+    for r in rows:
+        st = path_stats(bars.get(r["ticker"]), now)
+        if st:
+            r.update(st)
+        r.setdefault("heat", abs(r.get("gap", r.get("day_pct", 0.0))) * 8)
+        if r.get("pin"):
+            r["heat"] = min(r["heat"], 2.0)        # dead money sinks

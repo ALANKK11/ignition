@@ -135,6 +135,7 @@ def compute_base_metrics(df: pd.DataFrame) -> dict | None:
         "vol_z": float(vol_z),
         "adv20": adv20,
         "dollar_adv": float(dollar_adv),
+        "range_pct": float((h[-1] - l[-1]) / c[-1]) if c[-1] else 0.0,
         "closing_strength": float(closing_strength),
         "atr_ratio": float(atr_ratio),
         "atr20_pct": float(atr20_pct),
@@ -275,3 +276,19 @@ def options_heat_component(iv: float | None, m: dict) -> tuple[float | None, dic
     vrp = safe_div(iv, max(rv, 0.05), 1.0) if rv and np.isfinite(rv) else 1.0
     heat = 0.6 * clip((vrp - 1.1) / 1.5, 0.0, 1.0) + 0.4 * clip((iv - 0.6) / 1.2, 0.0, 1.0)
     return clip01(heat), {"atm_iv": iv, "vrp": vrp}
+
+
+def is_deal_pin(m: dict) -> bool:
+    """A huge move that then went FLAT is arbitrage, not volatility.
+
+    A cash buyout prints a massive gap and the stock pins to the deal price:
+    the entire session trades in a 1-2% band and the next day it is the
+    deadest tape on the exchange. Same signature for tender offers and
+    stock-for-stock deals. This is data being RIGHT and the pick being
+    WRONG — the ranking must reject it, not the data layer.
+    """
+    r = abs(m.get("ret1") or 0.0)
+    rng = m.get("range_pct")
+    if r < 0.20 or not rng:
+        return False
+    return (rng / r) <= 0.25

@@ -81,6 +81,15 @@ def enrich_one(provider, ticker, metrics, th, mode):
 
 
 
+def _journal(cfg, no_journal: bool):
+    if no_journal:
+        return None
+    if os.environ.get("IGNITION_JSONL"):
+        from src.journal import JsonlJournal
+        return JsonlJournal(cfg["_paths"]["journal"], _state_dir(cfg))
+    return Journal(cfg["_paths"]["journal"])
+
+
 def _state_dir(cfg) -> str:
     d = os.path.join(cfg["_paths"]["data"], "state")
     os.makedirs(d, exist_ok=True)
@@ -95,7 +104,8 @@ def _dump_scan_state(cfg, meta, show, mode):
         rows.append({
             "rank": i, "ticker": r["ticker"], "score": round(r["score"], 1),
             "close": round(m["close"], 2), "day_pct": round(m["ret1"], 4),
-            "ext_pct": (round(e[ext_key], 4) if e.get(ext_key) is not None else None),
+            "ext_pct": (round(e.get(ext_key, e.get("ah_ret")), 4)
+                        if e.get(ext_key, e.get("ah_ret")) is not None else None),
             "rvol": round(m["rvol"], 2), "dollar_adv": m["dollar_adv"],
             "tags": [[t, c] for t, c in r["tags"]], "drivers": r["drivers"],
         })
@@ -225,6 +235,11 @@ def cmd_scan(args):
             r = candidates[t]
             r["score"], r["contrib"] = composite_score(r["components"], weights)
 
+    from src.signals import is_deal_pin
+    for r in candidates.values():
+        if is_deal_pin(r["metrics"]):
+            r["metrics"]["_pin"] = True
+            r["score"] *= 0.30      # correct data, dead setup — bury it
     ranked = sorted(candidates.values(), key=lambda r: r["score"], reverse=True)
     for r in ranked:
         r["drivers"] = top_drivers(r["contrib"])
@@ -315,6 +330,10 @@ def cmd_eval(args):
     provider = get_provider(args.demo, include_next=True)
     if not args.demo:
         try:
+            from src.journal import ingest_jsonl_events
+            n = ingest_jsonl_events(jr, _state_dir(cfg))
+            if n:
+                console.print(f"[dim]ingested {n} live flow events[/dim]")
             _grade_ignitions(jr, provider, console)
         except Exception as e:
             console.print(f"[dim]ignition grading skipped: {e}[/dim]")
@@ -356,7 +375,7 @@ def cmd_flow(args):
     if args.window:
         fcfg["window_min"] = args.window
     console = Console()
-    jr = None if args.no_journal else Journal(cfg["_paths"]["journal"])
+    jr = _journal(cfg, args.no_journal)
     store = flow_mod.new_state_store()
 
     if args.demo:
@@ -379,16 +398,20 @@ def cmd_flow(args):
                     "session": "rth", "rows": [
                     {"ticker": "PYRO", "move": 4.13, "last": 1.94, "dollars": 6.1e6,
                      "vs_adv": 9.4, "off_hi": -0.03, "state": "IGNITING", "tp": 8.2,
-                     "hot": True, "first_seen": "07:22", "new": False},
+                     "hot": True, "first_seen": "07:22", "new": False,
+                     "heat": 97.0, "swings": 9, "path": 3.4},
                     {"ticker": "KNDL", "move": 1.46, "last": 3.61, "dollars": 4.1e6,
                      "vs_adv": 11.2, "off_hi": -0.01, "state": "RUNNING", "tp": 4.4,
-                     "hot": True, "first_seen": "09:58", "new": True},
+                     "hot": True, "first_seen": "09:58", "new": True,
+                     "heat": 84.0, "swings": 5, "path": 2.1},
                     {"ticker": "DRIP", "move": -0.34, "last": 2.05, "dollars": 2.7e6,
                      "vs_adv": 4.8, "off_hi": -0.02, "state": "LEAVING", "tp": 1.1,
-                     "hot": False, "first_seen": "09:44", "new": False},
+                     "hot": False, "first_seen": "09:44", "new": False,
+                     "heat": 31.0, "swings": 3, "path": 0.9},
                     {"ticker": "IGNA", "move": 0.12, "last": 8.7, "dollars": 2.6e6,
                      "vs_adv": 3.9, "off_hi": -0.016, "state": "FADING", "tp": 0.7,
-                     "hot": False, "first_seen": "06:55", "new": False}]}
+                     "hot": False, "first_seen": "06:55", "new": False,
+                     "heat": 12.0, "swings": 1, "path": 0.4}]}
                 with open(os.path.join(_state_dir(cfg), "latest_board.json"), "w") as f:
                     json.dump(demo_board, f)
                 demo_ext = {"v": 3, "ts": now.isoformat(timespec="seconds"), "session": "pre",
@@ -455,6 +478,7 @@ def cmd_flow(args):
                                      fcfg["window_min"])
                     flow_alpaca.dump_radar_state(sdir, now, radar_rows)
                     flow_alpaca.dump_movers_state(sdir, now, movers)
+                    flow_alpaca.attach_heat(movers, bars, now)
                     flow_alpaca.assemble_board(
                         sdir, now, "rth", movers,
                         {r["ticker"]: r for r in rows})
@@ -572,7 +596,7 @@ def cmd_ext(args):
     from src.providers_alpaca import AlpacaData
     ap = AlpacaData(*ac)
     sdir = _state_dir(cfg)
-    jr = None if args.no_journal else Journal(cfg["_paths"]["journal"])
+    jr = _journal(cfg, args.no_journal)
     watch = read_ticker_file(Path(cfg["_paths"]["root"]) / cfg["universe"]["watchlist_file"])
     seed = list(dict.fromkeys((jr.latest_picks(False, 30) if jr else []) + watch))
     base = flow_alpaca.prepare(ap, sdir, seed, fcfg,
@@ -599,6 +623,70 @@ def cmd_ext(args):
         console.print(f"  [bold]{r['ticker']:<6}[/bold] {r['last']:>8.3f}  "
                       f"{'[bold green]' if r['gap'] > 0 else '[bold red]'}"
                       f"{r['gap']:+.0%}[/]  ${r['dollars'] / 1e6:.2f}M ext{va}{star}")
+
+
+
+def live_mode(now) -> str:
+    if now.weekday() >= 5:
+        return "off"
+    hm = (now.hour, now.minute)
+    if (7, 0) <= hm < (9, 30):
+        return "pre"
+    if (9, 32) <= hm and now.hour < 16:
+        return "open"
+    if (16, 10) <= hm and now.hour < 20:
+        return "post"
+    return "off"
+
+
+def _git_push_state(console):
+    import subprocess
+    for c in ("git add -A docs data/state",
+              "git commit -m live-tick -q",
+              "git pull --rebase --autostash -q",
+              "git push -q"):
+        r = subprocess.run(c, shell=True, capture_output=True, text=True)
+        if "commit" in c and r.returncode != 0:
+            return                       # nothing changed this tick
+    console.print("[dim]pushed[/dim]")
+
+
+def cmd_live(args):
+    """One long-running shift: tick every ~3 minutes across pre-market,
+    regular hours, and after-hours, pushing the hub each tick. This is how
+    a CPHI ignition reaches the phone in minutes instead of twenty."""
+    os.environ["IGNITION_JSONL"] = "1"
+    cfg = load_config(args.config)
+    now = ny_now()
+    until = args.until_et or ("12:52" if now.hour < 12 or
+                              (now.hour == 12 and now.minute < 30) else "18:52")
+    hh, mm = map(int, until.split(":"))
+    end = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+    console.print(f"[bold]LIVE[/bold] shift until {until} ET · "
+                  f"tick every {args.interval}s · push={bool(os.environ.get('IGNITION_GIT_PUSH'))}")
+    while ny_now() < end:
+        t0 = time.time()
+        mode = live_mode(ny_now())
+        try:
+            if mode in ("pre", "post"):
+                cmd_ext(argparse.Namespace(session=mode, no_journal=False,
+                                           config=args.config))
+            elif mode == "open":
+                cmd_flow(argparse.Namespace(demo=False, ticks=1, interval=0,
+                                            window=None, no_journal=False,
+                                            config=args.config))
+            else:
+                console.print("[dim]off-hours — idling[/dim]")
+            if mode != "off":
+                cmd_hub(argparse.Namespace(demo=False, out=None,
+                                           config=args.config))
+                if os.environ.get("IGNITION_GIT_PUSH"):
+                    _git_push_state(console)
+        except SystemExit:
+            pass
+        except Exception as e:
+            console.print(f"[yellow]tick error (continuing): {e}[/yellow]")
+        time.sleep(max(5.0, args.interval - (time.time() - t0)))
 
 
 def cmd_paths(args):
@@ -654,6 +742,12 @@ def main():
     px.add_argument("--no-journal", action="store_true")
     px.add_argument("--config", default=None)
     px.set_defaults(func=cmd_ext)
+
+    pl = sub.add_parser("live", help="long-running shift: tick pre/rth/post every ~3min")
+    pl.add_argument("--until-et", default=None, help="HH:MM ET (default: auto shift end)")
+    pl.add_argument("--interval", type=float, default=170)
+    pl.add_argument("--config", default=None)
+    pl.set_defaults(func=cmd_live)
 
     pp = sub.add_parser("paths", help="show config / journal / cache locations")
     pp.set_defaults(func=cmd_paths)

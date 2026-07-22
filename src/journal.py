@@ -251,3 +251,54 @@ class Journal:
         r = self.con.execute("SELECT SUM(hit), COUNT(*) FROM ignition_evals "
                              "WHERE day >= ?", (cut,)).fetchone()
         return (int(r[0] or 0), int(r[1] or 0))
+
+
+class JsonlJournal(Journal):
+    """Reads like Journal, but flow events append to a JSONL sidecar the
+    evening job ingests — the live looper never writes the SQLite file, so
+    concurrent scan jobs can never binary-conflict with it in git."""
+
+    def __init__(self, path: str, state_dir: str):
+        super().__init__(path)
+        self.state_dir = state_dir
+
+    def record_flow_event(self, demo: bool, ev: dict) -> None:
+        import json as _json
+        import os as _os
+        day = ev["ts"].date().isoformat() if hasattr(ev["ts"], "date") \
+            else str(ev["ts"])[:10]
+        p = _os.path.join(self.state_dir, f"flow_events_{day}.jsonl")
+        with open(p, "a") as f:
+            f.write(_json.dumps({
+                "ts": ev["ts"].isoformat() if hasattr(ev["ts"], "isoformat")
+                else str(ev["ts"]),
+                "demo": int(demo), "ticker": ev["ticker"],
+                "prev_state": ev["prev"], "state": ev["state"],
+                "price": ev["price"], "tp": ev["tp"], "note": ev["note"]}) + "\n")
+
+
+def ingest_jsonl_events(jr: Journal, state_dir: str) -> int:
+    """Fold the live looper's sidecar files into SQLite; called by eval."""
+    import glob
+    import json as _json
+    import os as _os
+    n = 0
+    for p in sorted(glob.glob(_os.path.join(state_dir, "flow_events_*.jsonl"))):
+        try:
+            with open(p) as f:
+                for line in f:
+                    try:
+                        e = _json.loads(line)
+                        jr.con.execute(
+                            "INSERT INTO flow_events (ts, demo, ticker, prev_state, "
+                            "state, price, tp, note) VALUES (?,?,?,?,?,?,?,?)",
+                            (e["ts"], e["demo"], e["ticker"], e["prev_state"],
+                             e["state"], e["price"], e["tp"], e["note"]))
+                        n += 1
+                    except Exception:
+                        continue
+            jr.con.commit()
+            _os.rename(p, p + ".done")
+        except Exception:
+            continue
+    return n

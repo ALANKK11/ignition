@@ -178,13 +178,25 @@ SESSION_LABEL = {"pre": "Pre-market board", "rth": "Live board",
                  "post": "After-hours board"}
 
 
-def _board_section(bd, closed_now):
+def _heat_meter(heat):
+    if heat is None:
+        return ""
+    n = max(0, min(5, int(round(heat / 20))))
+    col = "#f87171" if heat >= 70 else ("#facc15" if heat >= 40 else "#5b636c")
+    return (f'<span style="color:{col};letter-spacing:1px;font-size:13px">'
+            f'{"▰" * n}{"▱" * (5 - n)}</span>'
+            f'<span class="px" style="margin-left:4px">{heat:.0f}</span>')
+
+
+def _board_section(bd, closed_now, stale_day=None):
     if not bd or not bd.get("rows"):
         return ""
     ts = bd["ts"][11:16]
     label = SESSION_LABEL.get(bd.get("session"), "Board")
     if closed_now and bd.get("session") == "rth":
         label = "Today&rsquo;s board (closed)"
+    if stale_day:
+        label = f"Last board · {stale_day} {SESSION_LABEL.get(bd.get('session'), '')}"
     cards = []
     for r in bd["rows"]:
         up = r["move"] > 0
@@ -193,6 +205,8 @@ def _board_section(bd, closed_now):
             chips += _chip("NEW", "#ff5a1f")
         if r.get("hot"):
             chips += _chip("HOT NOW", "#facc15")
+        if r.get("pin"):
+            chips += _chip("PIN · DEAD", "#e879f9")
         if r.get("state"):
             chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
         meta = [f'${fmt_big(r["dollars"])}']
@@ -200,18 +214,24 @@ def _board_section(bd, closed_now):
             meta.append(f'{r["vs_adv"]:.1f}x ADV')
         if r.get("off_hi") is not None:
             meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
+        if r.get("swings"):
+            meta.append(f'{r["swings"]} swings')
+        if r.get("path") is not None:
+            meta.append(f'{r["path"] * 100:.0f}% traveled')
         if r.get("tp"):
             meta.append(f'{r["tp"]:.1f}x tape now')
         meta.append(f'since {r["first_seen"]}')
         cards.append(f"""<div class="card" style="border-left:3px solid {'#4ade80' if up else '#f87171'}">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(r["ticker"])}</span>
 <span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{r["move"] * 100:+.0f}%</span>
+{_heat_meter(r.get("heat"))}
 <span class="px">{r["last"]:.2f}</span>{chips}</div>
 <div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div></div>""")
     return (f'<h2 style="color:#ff5a1f;font-size:13px">{label} · {ts} ET</h2>'
             '<div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, '
-            'volume-verified. NEW = first appeared this run · HOT NOW = tape '
-            'concentrated in the last 15m · state = is the money still in it</div>'
+            'volume-verified, ranked by the HEAT METER: intraday travel a human could '
+            'actually trade (one-print gaps score ~0), swing count, and whether '
+            'it&rsquo;s moving RIGHT NOW</div>'
             + "".join(cards))
 
 
@@ -307,11 +327,9 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                      (flow or {}).get("ts", "")[:10])
         if mv.get("ts", "")[:10] < newest:
             mv = None
-    if bd:
-        newest = max(dt.datetime.now(NY).date().isoformat(),
-                     (flow or {}).get("ts", "")[:10])
-        if bd.get("ts", "")[:10] < newest:
-            bd = None
+    bd_stale = None
+    if bd and bd.get("ts", "")[:10] < dt.datetime.now(NY).date().isoformat():
+        bd_stale = bd["ts"][:10]      # overnight: show it, but say when it's from
     jr = Journal(cfg["_paths"]["journal"])
     hist = None
     events = []
@@ -320,8 +338,15 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     except Exception:
         pass
     if flow:
+        day = flow["ts"][:10]
         try:
-            events = jr.events_for_day(demo, flow["ts"][:10])
+            import json as _json
+            p = os.path.join(sdir, f"flow_events_{day}.jsonl")
+            if os.path.exists(p):
+                with open(p) as fh:
+                    events = [_json.loads(x) for x in fh if x.strip()]
+            else:
+                events = jr.events_for_day(demo, day)
         except Exception:
             events = []
     now = dt.datetime.now(NY)
@@ -336,7 +361,7 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                       f'are the session&rsquo;s last readings ({flow["ts"][11:16]} ET)</div>')
     is_closed = bool(closed)
     if bd:
-        body = (_board_section(bd, is_closed) + closed
+        body = (_board_section(bd, is_closed, bd_stale) + closed
                 + _transitions_only(events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
@@ -354,7 +379,7 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
 <title>IGNITION</title><style>{CSS}</style></head><body>
 <h1><s>IGNITION</s> HUB{' · DEMO' if demo else ''}</h1>
 <div class="sub">updated <span id="ago" data-ts="{ts_iso}">…</span> ·
-auto-refreshes · evening 9:15pm · premarket 7:45am · flow every 20m 9:30–4 ET
+auto-refreshes · board every 20m 7am–8pm · scan 9:15pm + 7:45am ET
 {f" · <b style='color:#4ade80'>{html.escape(flow['provider'])}</b>" if flow else ""}</div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
