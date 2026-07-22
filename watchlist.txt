@@ -1,0 +1,5 @@
+# Your personal always-watch list. One ticker per line (or comma-separated).
+# These bypass liquidity filters and ALWAYS get the full enrichment pass.
+# Example:
+# TSLA
+# NVDA
