@@ -53,6 +53,8 @@ DEFAULTS = {
         "ext_min_dollar": 50000, "ext_min_shares": 2500,
         "ext_min_minutes": 5, "ext_min_frac_adv": 0.005,
         "ext_ghost_adv_dollar": 10000, "ext_top": 20,
+        "mover_min_move": 0.15, "mover_min_dollar": 75000,
+        "mover_min_pace": 1.3, "mover_top": 15,
     },
     "thresholds": {
         "ah_move_full": 0.08,     # |AH move| that earns full component score

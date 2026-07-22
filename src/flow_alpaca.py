@@ -22,10 +22,14 @@ import json
 import os
 
 import numpy as np
+import pandas as pd
 
 from . import flow as flow_mod
 from .providers_alpaca import AlpacaData
+from .universe import ETF_EXCLUDE
 from .util import NY
+
+STATE_V = 4
 
 
 def _load(path):
@@ -54,7 +58,7 @@ def prepare(ap: AlpacaData, sdir: str, seed_monitor: list[str],
         base["curves"] = {t: np.array(c) for t, c in base["curves"].items()}
         return base
     log("alpaca: building full-market baselines (once per day)…")
-    symbols = ap.active_symbols()
+    symbols = [s for s in ap.active_symbols() if s not in ETF_EXCLUDE]
     if len(symbols) < 500:
         log(f"alpaca: assets endpoint returned {len(symbols)} symbols — check keys")
         return None
@@ -99,9 +103,11 @@ def radar_scan(ap: AlpacaData, base: dict, now: dt.datetime,
             if not adv or not pc or v <= 0 or px < float(fcfg.get("ext_min_price", 0.10)):
                 continue
             pace = v / (adv * f_now)
+            hod = float(day.get("h") or 0)
             rows.append({"ticker": sym, "pace": pace, "last": px,
-                         "day_pct": px / pc - 1.0,
-                         "dollar_day": v * px})
+                         "day_pct": px / pc - 1.0, "dollar_day": v * px,
+                         "vs_adv": v / adv,
+                         "off_hi": (px / hod - 1.0) if hod else None})
         except Exception:
             continue
     rows.sort(key=lambda r: r["pace"] * min(np.log10(max(r["dollar_day"], 10)), 8),
@@ -109,13 +115,38 @@ def radar_scan(ap: AlpacaData, base: dict, now: dt.datetime,
     return rows
 
 
+def movers_from_radar(radar_rows: list[dict], fcfg: dict,
+                      promoted: set[str]) -> list[dict]:
+    """Today's REAL tape: names that actually moved, ranked by size of move.
+    A 0.3% wiggle on an index fund cannot appear here by construction."""
+    mv = [r for r in radar_rows
+          if abs(r["day_pct"]) >= float(fcfg.get("mover_min_move", 0.15))
+          and r["dollar_day"] >= float(fcfg.get("mover_min_dollar", 75000))
+          and r["pace"] >= float(fcfg.get("mover_min_pace", 1.3))]
+    mv.sort(key=lambda r: abs(r["day_pct"]), reverse=True)
+    mv = mv[: int(fcfg.get("mover_top", 15))]
+    for r in mv:
+        r["promoted"] = r["ticker"] in promoted
+    return mv
+
+
+def dump_movers_state(sdir: str, now: dt.datetime, movers: list[dict]):
+    _save(os.path.join(sdir, "latest_movers.json"),
+          {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
+           "rows": [{"ticker": r["ticker"], "day_pct": round(r["day_pct"], 4),
+                     "last": round(r["last"], 3), "pace": round(r["pace"], 2),
+                     "dollar_day": r["dollar_day"],
+                     "promoted": bool(r.get("promoted"))} for r in movers]})
+
+
 def promotions(radar_rows: list[dict], monitor: set[str], sdir: str,
-               cap_new: int = 40) -> tuple[list[str], set[str]]:
+               cap_new: int = 40, force: list[str] | None = None
+               ) -> tuple[list[str], set[str]]:
     """Names the radar says deserve the fine-grained engine, persisted all day."""
     today = dt.datetime.now(NY).date().isoformat()
     path = os.path.join(sdir, f"radar_promoted_{today}.json")
     kept = set(_load(path) or [])
-    fresh = []
+    fresh = [t for t in (force or []) if t not in kept and t not in monitor]
     for r in radar_rows:
         if len(kept) + len(fresh) >= cap_new + len(kept):
             break
@@ -134,18 +165,21 @@ def fetch_tick(ap: AlpacaData, base: dict, monitor: list[str],
     """Everything one flow refresh needs: radar rows, updated monitor set,
     and 1-minute bars for that monitor set."""
     radar_rows = radar_scan(ap, base, now, fcfg)
-    fresh, kept = promotions(radar_rows, set(monitor), sdir)
+    movers_pre = movers_from_radar(radar_rows, fcfg, set())
+    fresh, kept = promotions(radar_rows, set(monitor), sdir,
+                             force=[r["ticker"] for r in movers_pre])
     watch = list(dict.fromkeys(monitor + sorted(kept)))[: fcfg["monitor_cap"] + 40]
     bars = ap.minute_today(watch)
     promoted = set(kept)
     for r in radar_rows:
         r["promoted"] = r["ticker"] in promoted or r["ticker"] in monitor
-    return radar_rows[:60], fresh, watch, bars
+    movers = movers_from_radar(radar_rows, fcfg, promoted | set(monitor))
+    return radar_rows[:60], movers, fresh, watch, bars
 
 
 def dump_radar_state(sdir: str, now: dt.datetime, radar_rows: list[dict]):
     _save(os.path.join(sdir, "latest_radar.json"),
-          {"ts": now.isoformat(timespec="seconds"),
+          {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
            "rows": [{"ticker": r["ticker"], "pace": round(r["pace"], 2),
                      "last": round(r["last"], 2),
                      "day_pct": round(r["day_pct"], 4),
@@ -261,8 +295,14 @@ def ext_sweep(ap: AlpacaData, base: dict, now: dt.datetime, sdir: str,
         if ca is None and _looks_like_split(vgap):
             culled["split?"] += 1          # CA feed down: clean-ratio gap =
             continue                       # split until proven otherwise
+        hi = float(df["High"].max()) if len(df) else c["last"]
+        t15 = df[df.index >= df.index.max() - pd.Timedelta(minutes=15)]
+        d15 = float((t15["Volume"] * t15["Close"]).sum())
+        elapsed = max((df.index.max() - df.index.min()).total_seconds() / 60, 15)
+        l15 = d15 / max(dollars, 1.0)
         rows.append({**c, "gap": vgap, "dollars": dollars, "shares": shares,
-                     "minutes": minutes,
+                     "minutes": minutes, "off_hi": c["last"] / hi - 1.0,
+                     "hot": l15 >= min(0.9, 2.0 * 15 / elapsed),
                      "vs_adv": (shares / adv) if adv else None,
                      "heat": abs(vgap) * np.log10(1 + dollars / 2e4)})
     rows.sort(key=lambda r: r["heat"], reverse=True)
@@ -302,7 +342,7 @@ def record_ignitions(rows: list[dict], sdir: str, now: dt.datetime,
                     "state": label, "price": r["last"], "tp": None,
                     "note": f"{r['gap']:+.0%} on ${r['dollars'] / 1e6:.2f}M ext tape"})
     _save(os.path.join(sdir, "latest_ext.json"),
-          {"ts": now.isoformat(timespec="seconds"), "session": session,
+          {"v": STATE_V, "ts": now.isoformat(timespec="seconds"), "session": session,
            "rows": [{"ticker": r["ticker"], "last": round(r["last"], 3),
                      "gap": round(r["gap"], 4),
                      "dollars": r["dollars"],
@@ -313,3 +353,48 @@ def record_ignitions(rows: list[dict], sdir: str, now: dt.datetime,
 
 def load_ignitions(sdir: str, day: dt.date) -> list[str]:
     return _load(os.path.join(sdir, f"ignitions_{day.isoformat()}.json")) or []
+
+
+# ---------------------------------------------------------------------------
+# THE BOARD — the one list: session-aware, first-seen-stamped, state-joined
+# ---------------------------------------------------------------------------
+def assemble_board(sdir: str, now: dt.datetime, session: str,
+                   rows: list[dict], states: dict[str, dict] | None = None
+                   ) -> dict:
+    """Every row: move, real tape, freshness, alive-or-dead. `rows` come from
+    ext_sweep (pre/post: r['gap']) or movers (rth: r['day_pct'])."""
+    seen_path = os.path.join(sdir, f"board_seen_{now.date().isoformat()}.json")
+    seen = _load(seen_path) or {}
+    hm = now.strftime("%H:%M")
+    out = []
+    for r in rows:
+        tk = r["ticker"]
+        first = seen.get(tk)
+        if first is None:
+            seen[tk] = first = hm
+        st = (states or {}).get(tk) or {}
+        out.append({
+            "ticker": tk,
+            "move": r.get("gap", r.get("day_pct", 0.0)),
+            "last": r["last"],
+            "dollars": r.get("dollars", r.get("dollar_day", 0.0)),
+            "vs_adv": r.get("vs_adv"),
+            "off_hi": r.get("off_hi"),
+            "state": st.get("state"),
+            "tp": st.get("tp"),
+            "hot": bool(r.get("hot") or (st.get("tp") or 0) >= 2.5),
+            "first_seen": first,
+            "new": first == hm,
+        })
+    out.sort(key=lambda r: abs(r["move"]), reverse=True)
+    _save(seen_path, seen)
+    board = {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
+             "session": session,
+             "rows": [{**r, "move": round(r["move"], 4),
+                       "last": round(r["last"], 3),
+                       "vs_adv": round(r["vs_adv"], 2) if r["vs_adv"] else None,
+                       "off_hi": round(r["off_hi"], 4) if r["off_hi"] is not None else None,
+                       "tp": round(r["tp"], 1) if r.get("tp") else None}
+                      for r in out]}
+    _save(os.path.join(sdir, "latest_board.json"), board)
+    return board

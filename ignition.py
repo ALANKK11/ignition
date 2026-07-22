@@ -375,18 +375,23 @@ def cmd_flow(args):
                                clear=console.is_terminal and k > 0)
             _dump_flow_state(cfg, now, rows, ri, ro, "demo", fcfg["window_min"])
             if k == len(marks) - 1:
-                demo_radar = [{"ticker": "ROTA", "pace": 5.3, "last": 16.5,
-                               "day_pct": 0.058, "dollar_day": 3.4e6, "promoted": True},
-                              {"ticker": "VLTA", "pace": 4.7, "last": 7.21,
-                               "day_pct": 0.132, "dollar_day": 1.9e6, "promoted": True},
-                              {"ticker": "IGNA", "pace": 3.9, "last": 8.7,
-                               "day_pct": 0.096, "dollar_day": 2.6e6, "promoted": True},
-                              {"ticker": "QRVX", "pace": 3.1, "last": 42.10,
-                               "day_pct": -0.041, "dollar_day": 8.8e6, "promoted": False}]
-                with open(os.path.join(_state_dir(cfg), "latest_radar.json"), "w") as f:
-                    json.dump({"ts": now.isoformat(timespec="seconds"),
-                               "rows": demo_radar}, f)
-                demo_ext = {"ts": now.isoformat(timespec="seconds"), "session": "pre",
+                demo_board = {"v": 4, "ts": now.isoformat(timespec="seconds"),
+                    "session": "rth", "rows": [
+                    {"ticker": "PYRO", "move": 4.13, "last": 1.94, "dollars": 6.1e6,
+                     "vs_adv": 9.4, "off_hi": -0.03, "state": "IGNITING", "tp": 8.2,
+                     "hot": True, "first_seen": "07:22", "new": False},
+                    {"ticker": "KNDL", "move": 1.46, "last": 3.61, "dollars": 4.1e6,
+                     "vs_adv": 11.2, "off_hi": -0.01, "state": "RUNNING", "tp": 4.4,
+                     "hot": True, "first_seen": "09:58", "new": True},
+                    {"ticker": "DRIP", "move": -0.34, "last": 2.05, "dollars": 2.7e6,
+                     "vs_adv": 4.8, "off_hi": -0.02, "state": "LEAVING", "tp": 1.1,
+                     "hot": False, "first_seen": "09:44", "new": False},
+                    {"ticker": "IGNA", "move": 0.12, "last": 8.7, "dollars": 2.6e6,
+                     "vs_adv": 3.9, "off_hi": -0.016, "state": "FADING", "tp": 0.7,
+                     "hot": False, "first_seen": "06:55", "new": False}]}
+                with open(os.path.join(_state_dir(cfg), "latest_board.json"), "w") as f:
+                    json.dump(demo_board, f)
+                demo_ext = {"v": 3, "ts": now.isoformat(timespec="seconds"), "session": "pre",
                             "rows": [{"ticker": "PYRO", "last": 1.94, "gap": 4.13,
                                       "dollars": 6.1e5, "vs_adv": 9.4, "new": True},
                                      {"ticker": "EMBR", "last": 0.62, "gap": 2.58,
@@ -431,7 +436,7 @@ def cmd_flow(args):
             try:
                 while True:
                     now = dt.datetime.now(NY)
-                    radar_rows, fresh, watchset, bars = flow_alpaca.fetch_tick(
+                    radar_rows, movers, fresh, watchset, bars = flow_alpaca.fetch_tick(
                         ap, base, seed, now, sdir, fcfg)
                     rows, events = flow_mod.snapshot(
                         bars, base["adv"], base["prev_close"], base["curves"],
@@ -449,6 +454,10 @@ def cmd_flow(args):
                     _dump_flow_state(cfg, now, rows, ri, ro, "alpaca-iex",
                                      fcfg["window_min"])
                     flow_alpaca.dump_radar_state(sdir, now, radar_rows)
+                    flow_alpaca.dump_movers_state(sdir, now, movers)
+                    flow_alpaca.assemble_board(
+                        sdir, now, "rth", movers,
+                        {r["ticker"]: r for r in rows})
                     with open(store_path, "w") as f:
                         json.dump(store, f)
                     tick += 1
@@ -576,6 +585,7 @@ def cmd_ext(args):
     rows = flow_alpaca.ext_sweep(ap, base, now, sdir, fcfg, session,
                                  lambda m: console.print(f"[dim]{m}[/dim]"))
     fresh = flow_alpaca.record_ignitions(rows, sdir, now, session, jr, demo=False)
+    flow_alpaca.assemble_board(sdir, now, session, rows)
     label = "PRE-MARKET" if session == "pre" else "AFTER-HOURS"
     if not rows:
         console.print(f"[dim]{label}: nothing gapping ≥"

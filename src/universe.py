@@ -7,6 +7,21 @@ download, so this stage just assembles candidates.
 """
 from __future__ import annotations
 
+# Index/levered/commodity vehicles: structurally incapable of being "the name
+# the whole market is watching tomorrow" — excluded from scan, radar, movers,
+# and promotions alike.
+ETF_EXCLUDE = {
+    "SPY", "QQQ", "QQQM", "IWM", "DIA", "VOO", "IVV", "VTI", "RSP",
+    "TQQQ", "SQQQ", "SOXL", "SOXS", "SPXL", "SPXU", "UPRO", "SDOW", "UDOW",
+    "TZA", "TNA", "LABU", "LABD", "FAS", "FAZ", "TECL", "TECS", "YINN", "YANG",
+    "UVXY", "VXX", "VIXY", "SVXY", "TLT", "TBT", "TMF", "TMV", "HYG", "LQD",
+    "GLD", "SLV", "GDX", "GDXJ", "USO", "UNG", "BOIL", "KOLD",
+    "BITO", "IBIT", "FBTC", "GBTC", "ETHA", "ETHE", "BITX", "MSTU", "MSTZ",
+    "XLF", "XLE", "XLK", "XLV", "XLI", "XLP", "XLU", "XLY", "XLB", "XLRE",
+    "SMH", "SOXX", "ARKK", "KWEB", "FXI", "EEM", "EFA", "JEPI", "SCHD",
+}
+
+
 from pathlib import Path
 
 from .config import read_ticker_file
@@ -36,5 +51,6 @@ def build_universe(cfg: dict, provider: Provider, console=None) -> tuple[list[st
                 seen.add(t)
                 ordered.append(t)
 
+    ordered = [t for t in ordered if t not in ETF_EXCLUDE]
     cap = int(ucfg.get("max_universe", 400))
     return ordered[:cap], watch

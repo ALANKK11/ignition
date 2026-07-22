@@ -93,14 +93,33 @@ def _chip(text, hexc):
             f'background:{hexc}14">{html.escape(str(text))}</span>')
 
 
-def _scan_section(scan):
+def _transitions_only(events):
+    if not events:
+        return ""
+    lines = "".join(
+        f'<div class="ev">{e["ts"][11:16]} &nbsp;<b>{html.escape(e["ticker"])}</b> '
+        f'{html.escape(e["prev_state"] or "—")} → '
+        f'<b style="color:{STATE_HEX.get(e["state"], "#e7e9ec")}">{html.escape(e["state"])}</b>'
+        f'{" &nbsp;·&nbsp; " + html.escape(e["note"]) if e["note"] else ""}</div>'
+        for e in events[-12:][::-1])
+    return f'<h2>Transitions today</h2><div class="card">{lines}</div>'
+
+
+def _scan_section(scan, confluence_only=False):
     if not scan:
         return '<h2>Scan</h2><div class="card note">No scan yet — first scheduled run will fill this in.</div>'
     ext_l = scan.get("ext_label", "AH")
     head = (f'<h2>{"Morning confirm" if scan["mode"] == "premarket" else "Tonight&rsquo;s scan"}'
             f' · {scan["trade_date"]} targets {scan["target_date"]}</h2>')
+    rows_ = scan["rows"]
+    if confluence_only:
+        rows_ = [r for r in rows_ if r["score"] >= 40][:6]
+        if not rows_:
+            return ""
+        head = (f'<h2>Tonight&rsquo;s setups · real confluence only · '
+                f'targets {scan["target_date"]}</h2>')
     cards = []
-    for r in scan["rows"]:
+    for r in rows_:
         tags = " ".join(_chip(t, TAG_HEX.get(c, "#9ca3af")) for t, c in r["tags"])
         drv = " · ".join(r["drivers"])
         cards.append(f'''<div class="card">
@@ -155,6 +174,47 @@ def _flow_section(flow, events):
     return head + rot + "".join(cards) + q + evs
 
 
+SESSION_LABEL = {"pre": "Pre-market board", "rth": "Live board",
+                 "post": "After-hours board"}
+
+
+def _board_section(bd, closed_now):
+    if not bd or not bd.get("rows"):
+        return ""
+    ts = bd["ts"][11:16]
+    label = SESSION_LABEL.get(bd.get("session"), "Board")
+    if closed_now and bd.get("session") == "rth":
+        label = "Today&rsquo;s board (closed)"
+    cards = []
+    for r in bd["rows"]:
+        up = r["move"] > 0
+        chips = ""
+        if r.get("new"):
+            chips += _chip("NEW", "#ff5a1f")
+        if r.get("hot"):
+            chips += _chip("HOT NOW", "#facc15")
+        if r.get("state"):
+            chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
+        meta = [f'${fmt_big(r["dollars"])}']
+        if r.get("vs_adv"):
+            meta.append(f'{r["vs_adv"]:.1f}x ADV')
+        if r.get("off_hi") is not None:
+            meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
+        if r.get("tp"):
+            meta.append(f'{r["tp"]:.1f}x tape now')
+        meta.append(f'since {r["first_seen"]}')
+        cards.append(f"""<div class="card" style="border-left:3px solid {'#4ade80' if up else '#f87171'}">
+<div class="row"><span class="tk" style="font-size:18px">{html.escape(r["ticker"])}</span>
+<span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{r["move"] * 100:+.0f}%</span>
+<span class="px">{r["last"]:.2f}</span>{chips}</div>
+<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div></div>""")
+    return (f'<h2 style="color:#ff5a1f;font-size:13px">{label} · {ts} ET</h2>'
+            '<div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, '
+            'volume-verified. NEW = first appeared this run · HOT NOW = tape '
+            'concentrated in the last 15m · state = is the money still in it</div>'
+            + "".join(cards))
+
+
 def _ext_section(ext):
     if not ext or not ext.get("rows"):
         return ""
@@ -176,22 +236,22 @@ def _ext_section(ext):
             'volume, auto-injected into the next scan</div>' + "".join(cards))
 
 
-def _radar_section(radar):
-    if not radar or not radar.get("rows"):
+def _movers_section(mv):
+    if not mv or not mv.get("rows"):
         return ""
-    ts = radar["ts"][11:16]
-    chips = []
-    for r in radar["rows"]:
-        hexc = "#e879f9" if r.get("promoted") else "#9ca3af"
-        chips.append(f"""<div class="card" style="border-left:3px solid {hexc}">
+    ts = mv["ts"][11:16]
+    cards = []
+    for r in mv["rows"]:
+        cards.append(f"""<div class="card" style="border-left:3px solid {'#4ade80' if r['day_pct'] > 0 else '#f87171'}">
 <div class="row"><span class="tk">{html.escape(r["ticker"])}</span>
-<span class="score">{r["pace"]:.1f}x</span><span class="px">{r["last"]:.2f}</span>
-{_pct(r["day_pct"])}<span class="px">${fmt_big(r["dollar_day"])} iex</span>
+<span class="score" style="font-size:17px;color:{'#4ade80' if r['day_pct'] > 0 else '#f87171'}">{r["day_pct"] * 100:+.0f}%</span>
+<span class="px">{r["last"]:.2f}</span><span class="px">{r["pace"]:.1f}x vol</span>
+<span class="px">${fmt_big(r["dollar_day"])} iex</span>
 {_chip("WATCHING", "#e879f9") if r.get("promoted") else ""}</div></div>""")
-    return (f'<h2>Market radar · every US listing · {ts} ET</h2>'
-            '<div class="note" style="margin:-4px 2px 8px">abnormal participation '
-            'anywhere on the tape — pink names auto-promoted into the flow engine</div>'
-            + "".join(chips))
+    return (f'<h2 style="color:#4ade80">Today&rsquo;s tape · real movers · {ts} ET</h2>'
+            '<div class="note" style="margin:-4px 2px 8px">every US listing, ETFs '
+            'excluded — only names that actually moved ≥15% on real, elevated '
+            'volume, biggest move first</div>' + "".join(cards))
 
 
 def _audit_section(hist):
@@ -227,13 +287,31 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     sdir = os.path.join(cfg["_paths"]["data"], "state")
     scan = _load(os.path.join(sdir, "latest_scan.json"))
     flow = _load(os.path.join(sdir, "latest_flow.json"))
-    radar = _load(os.path.join(sdir, "latest_radar.json"))
+    STATE_V = 4
+    bd = _load(os.path.join(sdir, "latest_board.json"))
+    if bd and bd.get("v") != STATE_V:
+        bd = None
+    mv = _load(os.path.join(sdir, "latest_movers.json"))
+    if mv and mv.get("v") != STATE_V:
+        mv = None                        # written by old code — never render
     ext = _load(os.path.join(sdir, "latest_ext.json"))
+    if ext and ext.get("v") != STATE_V:
+        ext = None
     if ext:
         newest = max(dt.datetime.now(NY).date().isoformat(),
                      (flow or {}).get("ts", "")[:10])
         if ext.get("ts", "")[:10] < newest:
             ext = None                   # an old sweep is history, not news
+    if mv:
+        newest = max(dt.datetime.now(NY).date().isoformat(),
+                     (flow or {}).get("ts", "")[:10])
+        if mv.get("ts", "")[:10] < newest:
+            mv = None
+    if bd:
+        newest = max(dt.datetime.now(NY).date().isoformat(),
+                     (flow or {}).get("ts", "")[:10])
+        if bd.get("ts", "")[:10] < newest:
+            bd = None
     jr = Journal(cfg["_paths"]["journal"])
     hist = None
     events = []
@@ -256,9 +334,17 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
             closed = ('<div class="stale" style="background:#14181d;border-color:'
                       '#242a31;color:#8b939c">market closed — flow and radar below '
                       f'are the session&rsquo;s last readings ({flow["ts"][11:16]} ET)</div>')
-    body = (_ext_section(ext) + closed + _flow_section(flow, events)
-            + _radar_section(radar) + _scan_section(scan) + _audit_section(hist)
-            + _ign_precision_line(jr))
+    is_closed = bool(closed)
+    if bd:
+        body = (_board_section(bd, is_closed) + closed
+                + _transitions_only(events)
+                + _scan_section(scan, confluence_only=True)
+                + _audit_section(hist) + _ign_precision_line(jr))
+    else:
+        body = (_ext_section(ext) + _movers_section(mv) + closed
+                + _flow_section(flow, events)
+                + _scan_section(scan, confluence_only=True)
+                + _audit_section(hist) + _ign_precision_line(jr))
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="refresh" content="300">
