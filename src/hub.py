@@ -204,7 +204,8 @@ function wcard(r){
   (dp!=null?((dp>=0?'+':'')+(dp*100).toFixed(1)+'%'):'—')+'</span>'+whm(r.heat)+
   '<span class="px">'+last+'</span>'+chips+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  (r.now_line?'<div class="note" style="color:#c9ced4">'+wesc(r.now_line)+'</div>':'')+
+  ((r.read||r.now_line)?'<div class="note" style="color:#c9ced4;font-size:13.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
+  '<div class="note" id="lv_'+t+'" style="font-size:12.5px"></div>'+
   (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
   (ev?'<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+
    '</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>':'')+
@@ -285,6 +286,110 @@ $w('wroot')&&$w('wroot').addEventListener('click',e=>{
  const x=e.target.closest('.wrm');if(x)wrm(x.dataset.t)});
 if(WDIRTY)wstat('unsynced local edits — syncing…','#facc15');
 wpoll();setInterval(wpoll,45000);
+/* ============ LIVE STRIP: the last-30-seconds read, on-device ============
+   The commit lane physically cannot answer "did the volume die in the last
+   30 seconds" (HANDOFF item 20). This can: it opens the same free IEX
+   stream TAPE uses, with the SAME keys already saved on this phone
+   (localStorage is shared across pages on this site — nothing new is
+   stored, nothing leaves the phone), and paints one line per card, every
+   second: dollars in the last 30s against the name's own best 30s burst
+   of the last 10 minutes, with an explicit downshift call. Alpaca allows
+   ONE stream connection — if TAPE is open somewhere, this strip says so
+   instead of silently showing nothing. */
+/*LIVE-BEGIN*/
+function liveRead(buf,nowMs){
+ var d30=0,dPrev=0,best30=0,lastMs=0,first=nowMs,i,bk={};
+ for(i=buf.length-1;i>=0;i--){var a=buf[i],ag=nowMs-a[0];
+  if(ag>600000)break;
+  if(ag<=30000)d30+=a[1];else if(ag<=60000)dPrev+=a[1];
+  if(a[0]>lastMs)lastMs=a[0];
+  if(a[0]<first)first=a[0];
+  var k=Math.floor(ag/30000);bk[k]=(bk[k]||0)+a[1];}
+ for(var k2 in bk)if(bk[k2]>best30)best30=bk[k2];
+ return {d30:d30,dPrev:dPrev,best30:best30,
+  lastAgo:lastMs?(nowMs-lastMs)/1000:1e9,warm:(nowMs-first)/1000};
+}
+function liveState(s){
+ if(s.warm<45)return 'WARM';
+ if(s.lastAgo>=30)return 'SILENT';
+ var r=s.best30>0?s.d30/s.best30:1;
+ if(r>=0.55)return 'FLOW';
+ if(r>=0.25)return 'MID';
+ return 'DRY';
+}
+var LVRANK={FLOW:3,MID:2,DRY:1,SILENT:0,WARM:2};
+function lvSticky(store,key,cand,nowMs){
+ var s=store[key];
+ if(!s){store[key]=s={cur:cand,cand:cand,since:nowMs};return cand}
+ if(cand===s.cur){s.cand=cand;s.since=nowMs;return s.cur}
+ if(cand!==s.cand){s.cand=cand;s.since=nowMs;return s.cur}
+ var worse=LVRANK[cand]<LVRANK[s.cur];
+ if(nowMs-s.since>=(worse?4000:8000)){s.cur=cand;s.since=nowMs}
+ return s.cur;
+}
+function liveLabel(st,s){
+ var F=x=>x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+(x/1e3).toFixed(1)+'k'):('$'+Math.round(x||0));
+ var down=s.dPrev>0&&s.d30<s.dPrev*0.5;
+ var pc=s.best30>0?Math.round(s.d30/s.best30*100):null;
+ if(st==='WARM')return ['live: reading the stream…','#5b636c'];
+ if(st==='SILENT')return ['live: NO PRINTS for '+Math.round(s.lastAgo)+'s','#f87171'];
+ if(st==='FLOW')return ['live: money flowing — '+F(s.d30)+'/30s'+
+  (pc!=null?' ('+pc+'% of its best 10-min burst)':''),'#4ade80'];
+ if(st==='MID')return ['live: '+F(s.d30)+'/30s — '+pc+'% of its burst'+
+  (down?' · DOWNSHIFT':''),'#facc15'];
+ return ['live: drying up — '+F(s.d30)+'/30s vs '+F(s.best30)+' burst'+
+  (down?' · DOWNSHIFT':''),'#fb923c'];
+}
+/*LIVE-END*/
+var LBUF={},LVS={},lws=null,ltries=0,lsubs=[];
+function lvnote(m,c){const e=$w('lvst');if(e){e.textContent=m;e.style.color=c||'#5b636c'}}
+function lkeys(){return [localStorage.tape_k||'',localStorage.tape_s||'']}
+function lmkt(){const d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
+ const h=d.getHours();return d.getDay()>0&&d.getDay()<6&&h>=4&&h<20}
+function lsub(){
+ if(!lws||lws.readyState!==1)return;
+ const want=wlist().slice(0,8);
+ const drop=lsubs.filter(t=>want.indexOf(t)<0),add=want.filter(t=>lsubs.indexOf(t)<0);
+ try{if(drop.length)lws.send(JSON.stringify({action:'unsubscribe',trades:drop}));
+  if(add.length)lws.send(JSON.stringify({action:'subscribe',trades:add}))}catch(e){}
+ lsubs=want;}
+function lconnect(){
+ const [k,s]=lkeys();
+ if(!k||!s){lvnote('live strip off — save your Alpaca keys in TAPE once on this phone');return}
+ if(!lmkt()){lvnote('live strip resumes with the tape (4a–8p ET)');return}
+ try{lws&&lws.close()}catch(e){}
+ lws=new WebSocket('wss://stream.data.alpaca.markets/v2/iex');
+ lws.onmessage=ev=>{let arr;try{arr=JSON.parse(ev.data)}catch(e){return}
+  (Array.isArray(arr)?arr:[arr]).forEach(m=>{
+   if(m.T==='success'&&m.msg==='connected')
+    lws.send(JSON.stringify({action:'auth',key:k,secret:s}));
+   else if(m.T==='success'&&m.msg==='authenticated'){ltries=0;lsubs=[];lsub();
+    lvnote('live strip ● streaming','#4ade80')}
+   else if(m.T==='error'){
+    lvnote(m.code===406?'live strip paused — TAPE is using the stream (one connection allowed); close TAPE to stream here'
+     :(m.code===401||m.code===402)?'live strip: keys rejected — re-save them in TAPE'
+     :'live strip: stream error '+(m.msg||m.code),'#f87171');
+    if(m.code===406){try{lws.close()}catch(e){};lws=null}}
+   else if(m.T==='t'&&m.S){const b=LBUF[m.S]=LBUF[m.S]||[];
+    b.push([Date.now(),(+m.p)*(+m.s),+m.p]);if(b.length>3000)b.splice(0,600)}})};
+ lws.onclose=()=>{if(!lws)return;lvnote('live strip reconnecting…','#facc15');
+  const w=Math.min(30000,1000*Math.pow(2,ltries++));setTimeout(lconnect,w)};
+ lws.onerror=()=>{try{lws.close()}catch(e){}};}
+setInterval(()=>{
+ if(!lws||lws.readyState>1)return;
+ const now=Date.now();
+ wlist().slice(0,8).forEach(t=>{
+  const el=$w('lv_'+t);if(!el)return;
+  const s=liveRead(LBUF[t]||[],now);
+  if(!(LBUF[t]||[]).length){el.textContent='';return}
+  const st=lvSticky(LVS,t,liveState(s),now);
+  const L=liveLabel(st,s);
+  el.textContent=L[0];el.style.color=L[1];});
+},1000);
+document.addEventListener('visibilitychange',()=>{
+ if(!document.hidden&&(!lws||lws.readyState>1))lconnect()});
+const _lsub0=wrender;wrender=function(){_lsub0();lsub()};
+lconnect();
 """
 
 
@@ -418,6 +523,55 @@ def _now_line(r):
     return "now: " + " · ".join(bits)
 
 
+def _story(r):
+    """The card's lead read, in plain sentences — his ask (2026-07-22): the
+    engine writes what a person watching the tape would say, instead of a
+    row of fragments he has to decode."""
+    if not r.get("present"):
+        return None
+    p1 = []
+    if r.get("day_pct") is not None:
+        p1.append(f"{r['day_pct'] * 100:+.0f}% today")
+    off = r.get("off_hi")
+    if off is not None:
+        p1.append("at the highs" if off >= -0.03
+                  else f"{abs(off) * 100:.0f}% below its high")
+    vs = r.get("vs_vwap")
+    if vs is not None:
+        p1.append("holding above vwap" if vs >= 0 else "lost the vwap")
+    mood, f15, r15 = r.get("mood"), r.get("f15"), r.get("r15")
+    sm = r.get("stalled_min")
+    if mood == "STALLED" and sm is not None:
+        s2 = ("nothing has happened for "
+              + (f"{sm // 60}h{sm % 60:02d}m" if sm >= 60 else f"{sm}m")
+              + " — dead sideways")
+    elif mood == "WARMING":
+        s2 = "first minutes of the session — still building a read"
+    elif mood == "NO TAPE" or r15 is None:
+        s2 = None
+    else:
+        peak = (f15 / r15) if (f15 and r15) else None
+        pk = f" vs ${fmt_big(peak)} at its peak" if peak else ""
+        pc = f" ({r15 * 100:.0f}%)" if r15 is not None else ""
+        if mood == "MONEY HERE":
+            s2 = f"money is here NOW — ${fmt_big(f15 or 0)}/15m, near its best pace"
+        elif mood == "COOLING":
+            s2 = f"flow is cooling — ${fmt_big(f15 or 0)}/15m{pk}{pc}"
+        elif mood == "MONEY LEAVING":
+            s2 = (f"the money is walking — ${fmt_big(f15 or 0)}/15m on the tape"
+                  f"{pk}{pc}")
+            if (r.get("day_pct") or 0) > 0.05:
+                s2 += ", while the chart still shows green"
+        else:                              # DEAD
+            s2 = f"the money that was here is gone — ${fmt_big(f15 or 0)}/15m{pk}{pc}"
+    out = ", ".join(p1)
+    if s2:
+        out = (out + ". " if out else "") + s2
+    if (r.get("swings") or 0) >= 6 and (r.get("travel15") or 0) >= 0.04:
+        out += f" — and it's still whipping ({r['swings']} legs today)"
+    return out or None
+
+
 def _watch_enrich(order, ws, intel, bd):
     """Join watch rows with intel + board headline into card-ready dicts —
     used by BOTH the server-side render and docs/watch.json, so the phone's
@@ -446,6 +600,7 @@ def _watch_enrich(order, ws, intel, bd):
         r["headline"] = b.get("headline")
         r["pr_ts"] = b.get("pr_ts")
         r["now_line"] = _now_line(r) if r["present"] else None
+        r["read"] = _story(r)
         out.append(r)
     return out
 
@@ -465,6 +620,7 @@ def _watch_section(wl, ws, intel, bd, now):
               'enterkeyhint="done"><button id="wqb">＋</button>'
               '<button id="wsync" style="flex:.6">sync</button></div>'
               '<div class="note" id="wst"></div>'
+              '<div class="note" id="lvst"></div>'
               '<div id="wsetup" class="card" hidden><b>One-time sync setup'
               '</b><div class="note">To let this page update the engine&rsquo;s '
               'list, paste a GitHub <b>fine-grained token</b>: github.com → '
@@ -543,13 +699,13 @@ def _watch_card(r):
         meta.append(f'{r["path"] * 100:.0f}% traveled')
     last = f'{r["last"]:.3f}' if isinstance(r.get("last"), (int, float)) else "—"
     ev = r.get("ev")
-    nl = r.get("now_line")
+    nl = r.get("read") or r.get("now_line")
     return f"""<div class="card" style="border-left:3px solid {MOOD_HEX.get(mood, '#4ade80' if up else '#f87171')}">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{f'{dp * 100:+.1f}%' if dp is not None else '—'}</span>
 {_heat_meter(r.get("heat"))}
 <span class="px">{last}</span>{chips}</div>
-{f'<div class="note" style="color:#c9ced4">{html.escape(nl)}</div>' if nl else ''}
+{f'<div class="note" style="color:#c9ced4;font-size:13.5px">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
 {f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b><span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>' if ev else ''}
 {f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
