@@ -21,13 +21,17 @@ console.assert(keyWrites.length === 2, 'exactly the two panel writes: ' + keyWri
 // outbound hosts: exactly the github api + the alpaca IEX stream
 const hosts = [...script.matchAll(/(?:https?|wss):\/\/([a-z0-9.\-]+)/gi)].map(m => m[1]);
 console.assert(hosts.every(h => h === 'api.github.com'
-  || h === 'stream.data.alpaca.markets'),
+  || h === 'stream.data.alpaca.markets' || h === 'ws.finnhub.io'),
   'unexpected outbound host: ' + hosts);
-console.log('hub sink audit OK (api.github.com + alpaca stream only)');
+// the finnhub URL must carry only the finnhub key, never the alpaca pair
+console.assert(/ws\.finnhub\.io\/\?token='\+encodeURIComponent\(k\)/.test(script)
+  && !/finnhub[^]*tape_k/.test(script.split('function fconnect')[1].split('fws.onopen')[0]),
+  'finnhub gets only its own key');
+console.log('hub sink audit OK (github + alpaca + finnhub, keys segregated)');
 
 // live strip: pure-function behavior
 const live = script.split('/*LIVE-BEGIN*/')[1].split('/*LIVE-END*/')[0];
-const L = new Function(live + '; return {liveRead, liveState, lvSticky, liveLabel, liveHead, liveScore};')();
+const L = new Function(live + '; return {liveRead, liveState, lvSticky, liveLabel, liveHead, liveScore, bookLine};')();
 const now = 10_000_000;
 // steady flow: $200 every 2s for 10 min -> FLOW
 let buf = [];
@@ -53,6 +57,21 @@ console.assert(outs.every(o => o === 'FLOW'), 'live sticky no flicker: ' + outs)
 // but 5s of persistent MID degrades
 L.lvSticky(st, 'X', 'MID', now + 10000);
 console.assert(L.lvSticky(st, 'X', 'MID', now + 15000) === 'MID', 'persistent MID flips');
+// side classification: same flow, all prints at the ask → BUYERS IN;
+// heavy prints at the bid → SELLERS HITTING (his exact ask: "money coming
+// in on my side buying, or more selling")
+let bbuf = [], sbuf = [];
+for (let t = now - 600000; t <= now; t += 2000) { bbuf.push([t, 200, 3, 1]); sbuf.push([t, 200, 3, -1]); }
+const sb = L.liveRead(bbuf, now), ss = L.liveRead(sbuf, now);
+console.assert(sb.bshare > 0.99 && L.liveHead('FLOW', sb)[0] === 'BUYERS IN', 'buyers head');
+console.assert(ss.bshare < 0.01 && L.liveHead('FLOW', ss)[0] === 'SELLERS HITTING', 'sellers head');
+console.assert(/buy \/ ▼/.test(L.liveLabel('FLOW', sb, null, now)[0]), 'side split in label');
+// book pressure: stacked ask reads as sellers queuing; stale quote ignored
+console.assert(/sellers queuing/.test(L.bookLine({bs: 10, as: 40, t: now - 2000}, now)), 'ask stack');
+console.assert(/buyers queuing/.test(L.bookLine({bs: 50, as: 10, t: now - 2000}, now)), 'bid stack');
+console.assert(L.bookLine({bs: 10, as: 40, t: now - 60000}, now) === '', 'stale quote ignored');
+// unclassified prints (side 0 / legacy 3-tuples) never fake a side
+console.assert(s.bshare === null, 'no-side buf → neutral');
 // headline is trade language; DRY with downshift shows the arrow
 console.assert(L.liveHead('FLOW', s)[0] === 'MONEY IN', 'FLOW head');
 console.assert(L.liveHead('SILENT', s3)[0] === 'STALLED', 'SILENT head');
