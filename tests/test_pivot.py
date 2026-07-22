@@ -249,12 +249,34 @@ def test_watch_json_rows_and_hub_now():
         hub.build(cfg, out, demo=False)
         html = open(os.path.join(out, "index.html")).read()
         ok("mood chip rendered", "MONEY HERE" in html)
-        ok("now line rendered", "of its peak 15m" in html)
+        ok("story rendered", "money is here NOW" in html)
         ok("editor present", 'id="wq"' in html and 'id="wsetup"' in html)
         wjs = json.load(open(os.path.join(out, "watch.json")))
         r = wjs["rows"][0]
         ok("watch.json card-ready", r["present"] and r["mood"] == "MONEY HERE"
-           and r["ev"] and r["now_line"], r.get("ev"))
+           and r["ev"] and r["read"], r.get("ev"))
+
+
+# ---------------------------------------------------------------------------
+# item 33 — the card speaks English (story generator)
+# ---------------------------------------------------------------------------
+def test_story():
+    from src.hub import _story
+    # his literal INLF screenshot numbers (2026-07-22)
+    r = {"present": True, "day_pct": 0.635, "off_hi": -0.27,
+         "vs_vwap": -0.112, "mood": "MONEY LEAVING", "f15": 8000, "r15": 0.14,
+         "swings": 10, "travel15": 0.123, "stalled_min": 0}
+    s = _story(r)
+    ok("INLF story: vwap", "lost the vwap" in s, s)
+    ok("INLF story: money walking", "walking" in s and "$8K" in s, s)
+    ok("INLF story: green trap named", "chart still shows green" in s, s)
+    ok("INLF story: still whipping", "whipping (10 legs" in s, s)
+    r2 = {"present": True, "day_pct": 0.4, "off_hi": -0.01, "vs_vwap": 0.02,
+          "mood": "STALLED", "f15": 500, "r15": 0.05, "stalled_min": 115,
+          "swings": 2, "travel15": 0.001}
+    s2 = _story(r2)
+    ok("stalled story", "1h55m" in s2 and "dead sideways" in s2, s2)
+    ok("no-row story is None", _story({"present": False}) is None)
 
 
 if __name__ == "__main__":
@@ -264,4 +286,5 @@ if __name__ == "__main__":
     test_hub_order_and_empty()
     test_now_and_mood()
     test_watch_json_rows_and_hub_now()
+    test_story()
     print(f"OK — {len(PASS)} checks passed")
