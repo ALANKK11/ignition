@@ -1105,3 +1105,6 @@
 {"ts": "2026-07-22T15:58:15.671714-04:00", "demo": 0, "ticker": "EE", "prev_state": "COOLING", "state": "FADING", "price": 39.55, "tp": 1.2867809570646256, "note": "pace 1.3x vs peak 4.0x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-22T15:58:15.671714-04:00", "demo": 0, "ticker": "BH", "prev_state": "COOLING", "state": "RUNNING", "price": 372.08, "tp": 2.1002672221136196, "note": "sustained 2.1x"}
 {"ts": "2026-07-22T15:58:15.671714-04:00", "demo": 0, "ticker": "CLW", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.31, "tp": 2.2363475205722034, "note": "sustained 2.2x"}
+{"ts": "2026-07-22T16:11:00.658431-04:00", "demo": 0, "ticker": "AVNS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Avanos Medical, Inc. Stockholders Approve Acquisition by American Industrial Partners"}
+{"ts": "2026-07-22T16:11:00.658431-04:00", "demo": 0, "ticker": "RELY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Remitly to Report Second Quarter Financial Results on August 5, 2026"}
+{"ts": "2026-07-22T16:11:00.658431-04:00", "demo": 0, "ticker": "NOMD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Nomad Foods Announces Pricing of Senior Secured Notes Offering"}
