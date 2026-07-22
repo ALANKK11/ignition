@@ -72,3 +72,13 @@
 {"ts": "2026-07-22T11:02:37.222374-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "COOLING", "state": "RUNNING", "price": 10.105, "tp": 2.552075222062377, "note": "sustained 2.6x"}
 {"ts": "2026-07-22T11:02:37.222374-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "COOLING", "state": "QUIET", "price": 14.815, "tp": 1.5956641641720664, "note": ""}
 {"ts": "2026-07-22T11:03:22.207929-04:00", "demo": 0, "ticker": "CCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Compass Connections, A21, Clear Channel Outdoor and Union Pacific Launch Anti-Human Trafficking Billboard Campaign"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "QUIET", "state": "RUNNING", "price": 11.015, "tp": 6.417228798559148, "note": "sustained 6.4x"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "EWC", "prev_state": "RUNNING", "state": "CHURN", "price": 59.52, "tp": 4.198625423153345, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "EUSA", "prev_state": "RUNNING", "state": "FADING", "price": 113.67, "tp": 0.0, "note": "pace 0.0x vs peak 23.3x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "RUNNING", "state": "CHURN", "price": 4.665, "tp": 2.24511866247153, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "IEV", "prev_state": "QUIET", "state": "RUNNING", "price": 73.22, "tp": 13.798580266030141, "note": "sustained 13.8x"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "LABT", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.765, "tp": 641.7568183146931, "note": "sustained 641.8x"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "CDX", "prev_state": "RUNNING", "state": "COOLING", "price": 20.79, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "EZA", "prev_state": "CHURN", "state": "RUNNING", "price": 63.04, "tp": 6.803161522713487, "note": "sustained 6.8x"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.82, "tp": 22.362019517462816, "note": "pace 22.4x and accelerating (2.1x vs prior window) \u00b7 -3.7% in window"}
+{"ts": "2026-07-22T11:05:37.222840-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "QUIET", "state": "COOLING", "price": 14.85, "tp": 1.3238744775717375, "note": "pace 1.3x off peak 2.1x"}
