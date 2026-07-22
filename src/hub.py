@@ -76,6 +76,18 @@ text-transform:uppercase}
 .pulse input::placeholder{color:var(--mut);font-weight:400;letter-spacing:.02em;
 text-transform:none}
 #pr{margin-top:8px}
+.wed{margin:2px 0 8px}
+.addrow{display:flex;gap:8px;margin:2px 0 6px}
+.addrow input{flex:1;background:var(--card);border:1px solid var(--edge);
+border-radius:10px;color:var(--tx);font-family:inherit;font-size:16px;
+font-weight:700;letter-spacing:.1em;padding:10px 12px;outline:none;
+text-transform:uppercase;min-width:0}
+.addrow input:focus{border-color:var(--hot)}
+.addrow button{background:var(--card);border:1px solid var(--edge);
+border-radius:10px;color:var(--tx);font-family:inherit;font-size:14px;
+padding:10px 14px;font-weight:700}
+.addrow button.go{background:var(--hot);border-color:var(--hot);color:#fff}
+.wrm{margin-left:auto;color:#5b636c;font-weight:700;padding:0 4px}
 """
 
 JS = """
@@ -132,6 +144,146 @@ out.innerHTML='<div class="card"><div class="row"><span class="tk">'+v+'</span>'
 '</div>'+m+'<div class="note">'+r[2]+
 (age!=null&&age>12?' \u00b7 reading is '+age+'m old':'')+'</div></div>';}
 document.getElementById('pq')?.addEventListener('input',e=>pshow(e.target.value));
+/* ================= MY NAMES: on-page editor + live refresh =================
+   The list is edited HERE, on the phone. Local edits render instantly from
+   the pulse feed; a one-time GitHub fine-grained token (localStorage ONLY,
+   sent ONLY to api.github.com) lets the page write watchlist.txt so the
+   engine's full intel follows within ~2 minutes. Explicit sync states —
+   never a silent failure. */
+const WREPO='ALANKK11/ignition',WFILE='watchlist.txt';
+const $w=i=>document.getElementById(i);
+let WV=null,WLOC=null,WDIRTY=localStorage.hub_dirty==='1',WPT=null;
+try{WLOC=JSON.parse(localStorage.hub_w)}catch(e){}
+const wsan=t=>(t||'').toUpperCase().replace(/[^A-Z0-9.\\-]/g,'').slice(0,6);
+const wesc=s=>(''+s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function wlist(){return WLOC?WLOC:((WV&&WV.tickers)||[])}
+function wsave(){localStorage.hub_w=JSON.stringify(WLOC);
+ localStorage.hub_dirty=WDIRTY?'1':'0'}
+function wstat(m,c){const e=$w('wst');if(e){e.textContent=m;e.style.color=c||'#8b939c'}}
+function wadd(t){t=wsan(t);if(!t)return;const l=wlist().slice();
+ if(l.indexOf(t)>=0)return;if(!WLOC)WLOC=l;WLOC.push(t);WDIRTY=true;wsave();
+ wrender();wpush()}
+function wrm(t){if(!WLOC)WLOC=wlist().slice();WLOC=WLOC.filter(x=>x!==t);
+ WDIRTY=true;wsave();wrender();wpush()}
+const MOODC={'MONEY HERE':'#4ade80','COOLING':'#facc15','MONEY LEAVING':'#fb923c',
+ 'DEAD':'#f87171','STALLED':'#8b939c','WARMING':'#8b939c','NO TAPE':'#5b636c'};
+const DILC={'FRESH PAPER':'#f87171','S-1 PENDING':'#facc15','OPEN SHELF':'#fb923c','CLEAN':'#4ade80'};
+const STC={'IGNITING':'#f87171','NEW MONEY':'#e879f9','RUNNING':'#facc15','CHURN':'#22d3ee',
+ 'FADING':'#fb923c','LEAVING':'#ef4444','COOLING':'#9ca3af','QUIET':'#4b5563',
+ 'OPEN DRIVE':'#fde047','PM HOT':'#4ade80','PRE-OPEN':'#4b5563'};
+const wchip=(t,c)=>'<span class="chip" style="color:'+c+';border-color:'+c+'55;background:'+c+'14">'+wesc(t)+'</span>';
+function whm(h){if(h==null)return'';const n=Math.max(0,Math.min(5,Math.round(h/20)));
+ const col=h>=70?'#f87171':h>=40?'#facc15':'#5b636c';
+ return '<span style="color:'+col+';letter-spacing:1px;font-size:13px">'+
+  '▰'.repeat(n)+'▱'.repeat(5-n)+'</span><span class="px" style="margin-left:4px">'+Math.round(h)+'</span>'}
+const wfb=x=>x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+Math.round(x/1e3)+'k'):('$'+Math.round(x||0));
+function wcard(r){
+ const t=r.ticker,dp=r.day_pct,up=(dp||0)>=0,mood=r.mood,ev=r.ev;
+ let chips='';
+ if(mood)chips+=wchip(mood,MOODC[mood]||'#9ca3af');
+ if(r.state)chips+=wchip(r.state,STC[r.state]||'#9ca3af');
+ if(r.ssr)chips+=wchip('SSR','#fb923c');
+ if(r.halts&&r.halts.n)chips+=wchip('×'+r.halts.n+' halt'+(r.halts.n>1?'s':'')+
+  (r.halts.res?' · res '+r.halts.res:''),r.halts.n>=3?'#f87171':'#facc15');
+ if(r.dil)chips+=wchip(r.dil,DILC[r.dil]||'#9ca3af');
+ if(r.rot)chips+=wchip('rot '+r.rot+'x','#e879f9');
+ if(r.headline)chips+=wchip('PR '+(r.pr_ts||''),'#ff5a1f');
+ const meta=[];
+ if(r.dollars)meta.push(wfb(r.dollars)+' iex');
+ if(r.vs_adv)meta.push(r.vs_adv.toFixed(1)+'x ADV');
+ if(r.vs_vwap!=null)meta.push((r.vs_vwap>=0?'above':'BELOW')+' vwap '+
+  (r.vs_vwap*100>=0?'+':'')+(r.vs_vwap*100).toFixed(1)+'%');
+ if(r.off_hi!=null)meta.push(Math.round(r.off_hi*100)+'% off high');
+ if(r.swings)meta.push(r.swings+' swings');
+ if(r.path!=null)meta.push(Math.round(r.path*100)+'% traveled');
+ const last=(typeof r.last==='number')?r.last.toFixed(3):'—';
+ return '<div class="card" style="border-left:3px solid '+
+  (MOODC[mood]||(up?'#4ade80':'#f87171'))+'">'+
+  '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
+  '<span class="score" style="font-size:19px;color:'+(up?'#4ade80':'#f87171')+'">'+
+  (dp!=null?((dp>=0?'+':'')+(dp*100).toFixed(1)+'%'):'—')+'</span>'+whm(r.heat)+
+  '<span class="px">'+last+'</span>'+chips+
+  '<span class="wrm" data-t="'+t+'">×</span></div>'+
+  (r.now_line?'<div class="note" style="color:#c9ced4">'+wesc(r.now_line)+'</div>':'')+
+  (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
+  (ev?'<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+
+   '</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>':'')+
+  (r.reason?'<div class="note" style="color:#8b939c;font-style:italic">'+wesc(r.reason)+'</div>':'')+
+  (r.headline?'<div class="note" style="margin-top:5px;color:#c9ced4">📰 '+wesc(r.headline)+'</div>':'')+
+  '</div>'}
+function wmini(t){
+ const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;
+ return '<div class="card" style="border-left:3px solid #5b636c">'+
+  '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
+  (v?'<span class="score" style="color:'+v[1]+'">'+v[0]+'</span>':'')+
+  (x&&x.last?'<span class="px">'+x.last+'</span>':'')+
+  (x&&x.d!=null?'<span class="px">'+((x.d>=0?'+':'')+(x.d*100).toFixed(1))+'%</span>':'')+
+  '<span class="wrm" data-t="'+t+'">×</span></div>'+
+  '<div class="note">'+(v?wesc(v[2])+' · ':'')+
+  (WDIRTY?'waiting for sync — engine intel follows':'engine picks it up next tick (≤2 min in shift hours)')+'</div></div>'}
+function wrender(){
+ const root=$w('wroot');if(!root)return;
+ const l=wlist();
+ if(!l.length){root.innerHTML='<div class="card note">no names yet — type a ticker above. '+
+  'It renders instantly from the live pulse feed; with sync set up the engine follows '+
+  'with full EDGAR/halt/fade intel within ~2 minutes.</div>';return}
+ const by={};if(WV&&WV.rows)WV.rows.forEach(r=>{by[r.ticker]=r});
+ root.innerHTML=l.map(t=>{const r=by[t];
+  return (r&&r.present)?wcard(r):wmini(t)}).join('');}
+function wtokv(){return localStorage.gh_t||''}
+function wpush(){clearTimeout(WPT);WPT=setTimeout(wpushNow,1500)}
+function wpushNow(retried){
+ if(!WDIRTY)return;
+ const tk=wtokv();
+ if(!tk){wstat('saved on this phone — tap sync once to let the engine follow your list','#facc15');return}
+ wstat('syncing to engine…','#8b939c');
+ const url='https://api.github.com/repos/'+WREPO+'/contents/'+WFILE;
+ const hdr={Authorization:'Bearer '+tk,Accept:'application/vnd.github+json'};
+ fetch(url,{headers:hdr}).then(r=>{
+  if(r.status===404)return null;
+  if(!r.ok)throw new Error('read '+r.status);
+  return r.json()})
+ .then(j=>{
+  const body='# IGNITION watchlist - edited from the hub. One ticker per line.\\n'+
+   wlist().join('\\n')+'\\n';
+  const p={message:'watchlist: from hub',content:btoa(body)};
+  if(j&&j.sha)p.sha=j.sha;
+  return fetch(url,{method:'PUT',headers:hdr,body:JSON.stringify(p)})})
+ .then(r=>{
+  if(r&&r.status===409&&!retried)return wpushNow(true);
+  if(!r||!r.ok)throw new Error('write '+(r?r.status:'?'));
+  WDIRTY=false;wsave();
+  wstat('engine list updated ✓ — full intel lands within ~2 min','#4ade80')})
+ .catch(e=>{const m=''+e;
+  wstat(/401|403/.test(m)?'sync failed — token rejected. Tap sync and re-enter it.'
+   :'sync failed ('+m.replace('Error: ','')+') — retrying on the next refresh','#f87171')})}
+function wpoll(){
+ const q='?'+Date.now();
+ fetch('watch.json'+q).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||j.v!==4)return;
+  WV=j;
+  const e=$w('wts');if(e&&j.ts)e.textContent=j.ts.slice(11,16)+' ET';
+  if(!WDIRTY&&WLOC&&JSON.stringify(j.tickers)===JSON.stringify(WLOC)){
+   WLOC=null;delete localStorage.hub_w}   // converged — engine is canonical
+  wrender()}).catch(()=>{});
+ fetch('pulse.json'+q).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!j.rows)return;PTS=Date.parse(j.ts)||0;PULSE={};
+  for(const r of j.rows)PULSE[r[0]]={last:r[1],d:r[2],dol:r[3],pace:r[4],
+   rng:r[5],offh:r[6],heat:r[7],sw:r[8],st:r[9],fs:r[10]};
+  wrender()}).catch(()=>{});
+ if(WDIRTY&&wtokv())wpushNow();}
+$w('wqb')&&($w('wqb').onclick=()=>{wadd($w('wq').value);$w('wq').value=''});
+$w('wq')&&$w('wq').addEventListener('keydown',e=>{if(e.key==='Enter'){
+ wadd($w('wq').value);$w('wq').value=''}});
+$w('wsync')&&($w('wsync').onclick=()=>{const s=$w('wsetup');
+ if(wtokv()&&WDIRTY){wpushNow()}else{s.hidden=!s.hidden}});
+$w('wtokgo')&&($w('wtokgo').onclick=()=>{const v=$w('wtok').value.trim();
+ if(v){localStorage.gh_t=v;$w('wtok').value='';$w('wsetup').hidden=true;
+  WDIRTY=true;wsave();wpushNow()}});
+$w('wroot')&&$w('wroot').addEventListener('click',e=>{
+ const x=e.target.closest('.wrm');if(x)wrm(x.dataset.t)});
+if(WDIRTY)wstat('unsynced local edits — syncing…','#facc15');
+wpoll();setInterval(wpoll,45000);
 """
 
 
@@ -242,6 +394,60 @@ SESSION_LABEL = {"pre": "Discovery · pre-market", "rth": "Discovery board",
 DIL_HEX = {"FRESH PAPER": "#f87171", "S-1 PENDING": "#facc15",
            "OPEN SHELF": "#fb923c", "CLEAN": "#4ade80"}
 
+MOOD_HEX = {"MONEY HERE": "#4ade80", "COOLING": "#facc15",
+            "MONEY LEAVING": "#fb923c", "DEAD": "#f87171",
+            "STALLED": "#8b939c", "WARMING": "#8b939c", "NO TAPE": "#5b636c"}
+
+
+def _now_line(r):
+    """One honest sentence about the CURRENT MOMENT, vs the name's own
+    session as the base."""
+    sm = r.get("stalled_min")
+    if r.get("mood") == "STALLED" and sm is not None:
+        return (f"sideways {sm // 60}h{sm % 60:02d}m — nothing happening now"
+                if sm >= 60 else f"sideways {sm}m — nothing happening now")
+    if r.get("r15") is None:
+        return None
+    bits = []
+    if r.get("f15"):
+        bits.append(f"${fmt_big(r['f15'])}/15m")
+    if r.get("travel15") is not None:
+        bits.append(f"{r['travel15'] * 100:.1f}% travel/15m")
+    bits.append(f"{r['r15'] * 100:.0f}% of its peak 15m")
+    return "now: " + " · ".join(bits)
+
+
+def _watch_enrich(order, ws, intel, bd):
+    """Join watch rows with intel + board headline into card-ready dicts —
+    used by BOTH the server-side render and docs/watch.json, so the phone's
+    45s client-side re-render shows exactly what the server would."""
+    rows_by = {r["ticker"]: r for r in (ws or {}).get("rows", [])}
+    board_by = {r["ticker"]: r for r in (bd or {}).get("rows", [])}
+    intel = intel or {}
+    out = []
+    for t in order:
+        r = dict(rows_by.get(t) or {"ticker": t})
+        r["present"] = t in rows_by
+        b = board_by.get(t) or {}
+        _dil = (intel.get("dil") or {}).get(t)
+        _hl = (intel.get("halts_by") or {}).get(t)
+        _rot = rot_of((intel.get("flo") or {}).get(t) or {})
+        if r["present"]:
+            ev_w, ev_c, ev_y = edge_verdict(r, _dil, _hl, _rot)
+            if r.get("ssr"):
+                ev_y = (ev_y + " · SSR on").strip(" ·")
+            r["ev"] = [ev_w, ev_c, ev_y]
+        grade = (_dil or {}).get("grade")
+        r["dil"] = grade if grade and grade != "UNKNOWN" else None
+        r["halts"] = ({"n": _hl["n"], "res": _hl.get("res_t")}
+                      if _hl and _hl.get("n") else None)
+        r["rot"] = round(_rot, 1) if _rot else None
+        r["headline"] = b.get("headline")
+        r["pr_ts"] = b.get("pr_ts")
+        r["now_line"] = _now_line(r) if r["present"] else None
+        out.append(r)
+    return out
+
 
 def _watch_section(wl, ws, intel, bd, now):
     """MY NAMES — the top of the page (HANDOFF item 31). One rich card per
@@ -249,89 +455,104 @@ def _watch_section(wl, ws, intel, bd, now):
     no tape for still gets a card that says exactly why — never blank,
     never 'not on radar'."""
     order = wl or (ws or {}).get("tickers") or []
-    if not order:
-        return ('<h2 style="color:#ff5a1f;font-size:13px">MY NAMES</h2>'
-                '<div class="card note">no names yet — add tickers from your '
-                'phone: repo <b>Actions</b> → <b>live shift</b> → '
-                '<b>Run workflow</b> → tickers box (or edit '
-                '<b>watchlist.txt</b>). Your names lead this page with full '
-                'telemetry, no volume or price gates.</div>')
-    rows_by = {r["ticker"]: r for r in (ws or {}).get("rows", [])}
-    board_by = {r["ticker"]: r for r in (bd or {}).get("rows", [])}
-    intel = intel or {}
     ts = (ws or {}).get("ts") or ""
     stale_day = bool(ts) and ts[:10] < now.date().isoformat()
-    cards = []
-    for t in order:
-        r = rows_by.get(t)
-        b = board_by.get(t) or {}
-        if r is None:
-            cards.append(f'''<div class="card" style="border-left:3px solid #5b636c">
+    editor = ('<div class="wed"><div class="addrow">'
+              '<input id="wq" placeholder="add ticker" maxlength="6" '
+              'autocomplete="off" autocorrect="off" '
+              'autocapitalize="characters" spellcheck="false" '
+              'enterkeyhint="done"><button id="wqb">＋</button>'
+              '<button id="wsync" style="flex:.6">sync</button></div>'
+              '<div class="note" id="wst"></div>'
+              '<div id="wsetup" class="card" hidden><b>One-time sync setup'
+              '</b><div class="note">To let this page update the engine&rsquo;s '
+              'list, paste a GitHub <b>fine-grained token</b>: github.com → '
+              'Settings → Developer settings → Fine-grained tokens → Generate. '
+              'Repository access: <b>only ALANKK11/ignition</b>. Permissions: '
+              '<b>Contents → Read and write</b>, nothing else. It is stored '
+              '<b>only on this phone</b> — never in the repo. Without it, '
+              'names you add here still show live reads from the pulse feed, '
+              'but the engine&rsquo;s EDGAR/halt intel follows only after the '
+              'list syncs.</div>'
+              '<div class="addrow"><input id="wtok" placeholder="github_pat_…" '
+              'autocomplete="off"><button class="go" id="wtokgo">SAVE</button>'
+              '</div></div></div>')
+    head = '<h2 style="color:#ff5a1f;font-size:13px">MY NAMES'
+    if ts:
+        head += f' · <span id="wts">{ts[11:16]} ET</span>'
+    if stale_day:
+        head += f' · last read {ts[:10]}'
+    head += '</h2>'
+    cards = "".join(_watch_card(r)
+                    for r in _watch_enrich(order, ws, intel, bd))
+    if not order:
+        cards = ('<div class="card note" id="wempty">no names yet — type a '
+                 'ticker above. It renders instantly from the live pulse '
+                 'feed; with sync set up the engine follows with full '
+                 'EDGAR/halt/fade intel within ~2 minutes.</div>')
+    return head + editor + f'<div id="wroot">{cards}</div>'
+
+
+def _watch_card(r):
+    """One MY NAMES card from an enriched row. MOOD leads — the slow, sticky
+    read (no green-red-green flicker by construction); the NOW line is the
+    current moment vs the name's own session."""
+    t = r["ticker"]
+    if not r.get("present"):
+        return f'''<div class="card" style="border-left:3px solid #5b636c">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="px">—</span></div>
-<div class="note">on your list — engine picks it up on the next tick
-(&le;45s during the 7a&ndash;7p ET shift)</div></div>''')
-            continue
-        dp = r.get("day_pct")
-        up = (dp or 0) >= 0
-        _dil = (intel.get("dil") or {}).get(t)
-        _hl = (intel.get("halts_by") or {}).get(t)
-        _rot = rot_of((intel.get("flo") or {}).get(t) or {})
-        ev_w, ev_c, ev_y = edge_verdict(r, _dil, _hl, _rot)
-        if r.get("ssr"):
-            ev_y = (ev_y + " · SSR on").strip(" ·")
-        chips = ""
-        if r.get("state"):
-            chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
-        if r.get("ssr"):
-            chips += _chip("SSR", "#fb923c")
-        if _hl and _hl.get("n"):
-            hlbl = f'×{_hl["n"]} halt{"s" if _hl["n"] > 1 else ""}'
-            if _hl.get("res_t"):
-                hlbl += f' · res {_hl["res_t"]}'
-            chips += _chip(hlbl, "#f87171" if _hl["n"] >= 3 else "#facc15")
-        grade = (_dil or {}).get("grade")
-        if grade and grade != "UNKNOWN":
-            chips += _chip(grade, DIL_HEX.get(grade, "#9ca3af"))
-        if b.get("catalyst"):
-            chips += _chip(f'PR {b.get("pr_ts") or ""}', "#ff5a1f")
-        meta = []
-        if r.get("dollars"):
-            meta.append(f'${fmt_big(r["dollars"])} iex')
-        if r.get("vs_adv"):
-            meta.append(f'{r["vs_adv"]:.1f}x ADV')
-        if r.get("vs_vwap") is not None:
-            meta.append(("above" if r["vs_vwap"] >= 0 else "BELOW")
-                        + f' vwap {r["vs_vwap"] * 100:+.1f}%')
-        if r.get("off_hi") is not None:
-            meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
-        if r.get("swings"):
-            meta.append(f'{r["swings"]} swings')
-        if r.get("path") is not None:
-            meta.append(f'{r["path"] * 100:.0f}% traveled')
-        if r.get("tp"):
-            meta.append(f'{r["tp"]:.1f}x tape now')
-        last = f'{r["last"]:.3f}' if isinstance(r.get("last"), (int, float)) else "—"
-        cards.append(f"""<div class="card" style="border-left:3px solid {'#4ade80' if up else '#f87171'}">
+<div class="note">on your list — engine picks it up on its next tick
+(&le;2 min during the 7a&ndash;7p ET shift)</div></div>'''
+    dp = r.get("day_pct")
+    up = (dp or 0) >= 0
+    mood = r.get("mood")
+    chips = ""
+    if mood:
+        chips += _chip(mood, MOOD_HEX.get(mood, "#9ca3af"))
+    if r.get("state"):
+        chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
+    if r.get("ssr"):
+        chips += _chip("SSR", "#fb923c")
+    hl = r.get("halts")
+    if hl:
+        hlbl = f'×{hl["n"]} halt{"s" if hl["n"] > 1 else ""}'
+        if hl.get("res"):
+            hlbl += f' · res {hl["res"]}'
+        chips += _chip(hlbl, "#f87171" if hl["n"] >= 3 else "#facc15")
+    if r.get("dil"):
+        chips += _chip(r["dil"], DIL_HEX.get(r["dil"], "#9ca3af"))
+    if r.get("rot"):
+        chips += _chip(f'rot {r["rot"]}x', "#e879f9")
+    if r.get("headline"):
+        chips += _chip(f'PR {r.get("pr_ts") or ""}', "#ff5a1f")
+    meta = []
+    if r.get("dollars"):
+        meta.append(f'${fmt_big(r["dollars"])} iex')
+    if r.get("vs_adv"):
+        meta.append(f'{r["vs_adv"]:.1f}x ADV')
+    if r.get("vs_vwap") is not None:
+        meta.append(("above" if r["vs_vwap"] >= 0 else "BELOW")
+                    + f' vwap {r["vs_vwap"] * 100:+.1f}%')
+    if r.get("off_hi") is not None:
+        meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
+    if r.get("swings"):
+        meta.append(f'{r["swings"]} swings')
+    if r.get("path") is not None:
+        meta.append(f'{r["path"] * 100:.0f}% traveled')
+    last = f'{r["last"]:.3f}' if isinstance(r.get("last"), (int, float)) else "—"
+    ev = r.get("ev")
+    nl = r.get("now_line")
+    return f"""<div class="card" style="border-left:3px solid {MOOD_HEX.get(mood, '#4ade80' if up else '#f87171')}">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{f'{dp * 100:+.1f}%' if dp is not None else '—'}</span>
 {_heat_meter(r.get("heat"))}
 <span class="px">{last}</span>{chips}</div>
+{f'<div class="note" style="color:#c9ced4">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
-<div class="note" style="margin-top:4px"><b style="color:{ev_c}">{ev_w}</b>
-<span style="color:#8b939c"> — {html.escape(ev_y)}</span></div>
+{f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b><span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>' if ev else ''}
 {f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
-{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(b["headline"])}</div>' if b.get("headline") else ''}</div>""")
-    head = '<h2 style="color:#ff5a1f;font-size:13px">MY NAMES'
-    if ts:
-        head += f' · {ts[11:16]} ET'
-    if stale_day:
-        head += f' · last read {ts[:10]}'
-    head += '</h2>'
-    return (head + '<div class="note" style="margin:-4px 2px 8px">your list, '
-            'your order — full telemetry every tick, no admission gates. '
-            'Edit: Actions → live shift → Run workflow → tickers.</div>'
-            + "".join(cards))
+{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}</div>' if r.get("headline") else ''}</div>"""
 
 
 def _no_board_notice(sdir, now=None):
@@ -671,10 +892,16 @@ advice.</div>
     if pulse:
         with open(os.path.join(out_dir, "pulse.json"), "w") as f:
             json.dump(pulse, f, separators=(",", ":"))
-    # docs/watch.json — the phone/tape side of the single source of truth:
-    # tape.html merges these tickers with its localStorage list on load
-    wjs = {"v": STATE_V, "ts": dt.datetime.now(NY).isoformat(timespec="seconds"),
-           "tickers": wl or (ws or {}).get("tickers") or []}
+    # docs/watch.json — the phone side of the single source of truth. Tape
+    # merges `tickers`; the hub's own JS re-renders MY NAMES cards from
+    # `rows` every 45s without a page reload, so the section is never
+    # staler than the last Pages deploy.
+    worder = wl or (ws or {}).get("tickers") or []
+    wjs = {"v": STATE_V,
+           "ts": (ws or {}).get("ts")
+           or dt.datetime.now(NY).isoformat(timespec="seconds"),
+           "tickers": worder,
+           "rows": _watch_enrich(worder, ws, intel, bd)}
     with open(os.path.join(out_dir, "watch.json"), "w") as f:
         json.dump(wjs, f, separators=(",", ":"))
     with open(os.path.join(out_dir, "tape.html"), "w") as f:

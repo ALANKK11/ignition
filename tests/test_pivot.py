@@ -170,9 +170,98 @@ def test_hub_order_and_empty():
         ok("empty list explained", "no names yet" in html)
 
 
+# ---------------------------------------------------------------------------
+# item 32 — NOW read + sticky MOOD (no green-red-green flicker)
+# ---------------------------------------------------------------------------
+def test_now_and_mood():
+    from src.flow_alpaca import (mood_candidate, now_stats, path_stats,
+                                 sticky_mood)
+    now = dt.datetime.now(NY).replace(hour=13, minute=0, second=0,
+                                      microsecond=0)
+    # morning runner that went SIDEWAYS for the last 2 hours
+    idx, px, vol = [], [], []
+    p = 1.0
+    for m in range(210):                       # 9:30 → 13:00
+        t_ = now - dt.timedelta(minutes=210 - m)
+        if m < 60:
+            p *= 1.012                         # runs +100%-ish into 10:30
+            v = 80_000
+        else:
+            p *= 1.0002 if m % 2 else 0.9998   # dead sideways after
+            v = 2_000
+        idx.append(t_)
+        px.append(p)
+        vol.append(v)
+    df = pd.DataFrame({"Open": px, "High": [x * 1.001 for x in px],
+                       "Low": [x * 0.999 for x in px], "Close": px,
+                       "Volume": vol}, index=pd.DatetimeIndex(idx))
+    ns = now_stats(df, now)
+    ok("sideways name reads tiny vs its peak", ns["r15"] is not None
+       and ns["r15"] < 0.12, ns)
+    ok("stalled detected", ns["stalled_min"] >= 90, ns["stalled_min"])
+    cand = mood_candidate(ns, 210)
+    ok("mood candidate stalled/dead", cand in ("STALLED", "DEAD"), cand)
+    ps = path_stats(df, now)
+    ok("stale heat sinks (floor 0.10)", ps["heat"] <= 12, ps["heat"])
+    # the same name while it was RUNNING reads alive
+    mid = now - dt.timedelta(minutes=155)      # ~10:25, mid-run
+    ns2 = now_stats(df[df.index <= mid], mid)
+    ok("running name reads alive", ns2["r15"] >= 0.55, ns2)
+    ok("running mood", mood_candidate(ns2, 55) == "MONEY HERE")
+
+    # sticky mood: borderline flicker input must NOT flip the label
+    store = {}
+    ok("mood seeds", sticky_mood(store, "X", "MONEY HERE") == "MONEY HERE")
+    seq = ["COOLING", "MONEY HERE", "COOLING", "MONEY HERE", "COOLING"]
+    outs = [sticky_mood(store, "X", c) for c in seq]
+    ok("alternating candidates never flip", set(outs) == {"MONEY HERE"}, outs)
+    # a REAL degrade (2 consecutive ticks) flips
+    sticky_mood(store, "X", "MONEY LEAVING")
+    out = sticky_mood(store, "X", "MONEY LEAVING")
+    ok("2-tick degrade flips", out == "MONEY LEAVING", out)
+    # recovery needs 3 ticks
+    a = sticky_mood(store, "X", "MONEY HERE")
+    b = sticky_mood(store, "X", "MONEY HERE")
+    c = sticky_mood(store, "X", "MONEY HERE")
+    ok("3-tick recover", (a, b, c) == ("MONEY LEAVING", "MONEY LEAVING",
+                                       "MONEY HERE"), (a, b, c))
+
+
+def test_watch_json_rows_and_hub_now():
+    """docs/watch.json carries card-ready rows; hub renders MOOD + now line."""
+    with tempfile.TemporaryDirectory() as tmp:
+        cfg = {"_paths": {"root": tmp, "data": tmp,
+                          "journal": os.path.join(tmp, "j.db")},
+               "universe": {"watchlist_file": "watchlist.txt"}}
+        sdir = os.path.join(tmp, "state")
+        os.makedirs(sdir)
+        now = dt.datetime.now(NY)
+        watch.write_watchlist(os.path.join(tmp, "watchlist.txt"), "ZZAP")
+        rows = [{"ticker": "ZZAP", "last": 2.0, "day_pct": 0.4, "move": 0.4,
+                 "open": 1.5, "off_hi": -0.02, "vs_vwap": 0.01, "ssr": False,
+                 "dollars": 3e6, "shares": 1.5e6, "vs_adv": None,
+                 "state": "RUNNING", "tp": 3.0, "heat": 80.0, "swings": 5,
+                 "path": 1.2, "mood": "MONEY HERE", "f15": 2.4e5, "r15": 0.7,
+                 "travel15": 0.04, "stalled_min": 0, "reason": None}]
+        watch.dump_state(sdir, now, rows)
+        from src import hub
+        out = os.path.join(tmp, "docs")
+        hub.build(cfg, out, demo=False)
+        html = open(os.path.join(out, "index.html")).read()
+        ok("mood chip rendered", "MONEY HERE" in html)
+        ok("now line rendered", "of its peak 15m" in html)
+        ok("editor present", 'id="wq"' in html and 'id="wsetup"' in html)
+        wjs = json.load(open(os.path.join(out, "watch.json")))
+        r = wjs["rows"][0]
+        ok("watch.json card-ready", r["present"] and r["mood"] == "MONEY HERE"
+           and r["ev"] and r["now_line"], r.get("ev"))
+
+
 if __name__ == "__main__":
     test_splits()
     test_watch_card_no_baseline()
     test_roundtrip_and_hub()
     test_hub_order_and_empty()
+    test_now_and_mood()
+    test_watch_json_rows_and_hub_now()
     print(f"OK — {len(PASS)} checks passed")
