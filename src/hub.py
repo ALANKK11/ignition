@@ -90,7 +90,11 @@ padding:10px 14px;font-weight:700}
 .wrm{margin-left:auto;color:#5b636c;font-weight:700;padding:0 4px}
 .klab{color:#8b939c;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
 margin:12px 2px 4px}
-.vhead{margin-left:8px}
+.vhead{margin-left:8px;text-shadow:0 0 14px currentColor}
+.card.sym{background:linear-gradient(180deg,#171c22,#12161b);
+box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.meta,.score,.px,.last{font-variant-numeric:tabular-nums}
+.spk{width:100%;height:44px;margin-top:6px;display:block;opacity:.95}
 """
 
 JS = """
@@ -209,6 +213,7 @@ function wcard(r){
   '<span class="px" style="margin-left:auto">'+last+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
   '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>'+
+  '<canvas class="spk" id="sp_'+t+'" width="600" height="76"></canvas>'+
   (chips?'<div class="row" style="margin-top:6px">'+chips+'</div>':'')+
   ((r.read||r.now_line)?'<div class="note" style="color:#8b939c;font-size:12.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
   (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
@@ -227,6 +232,7 @@ function wmini(t){
   '<span class="px" style="margin-left:auto">'+((x&&x.last)?x.last:'')+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
   '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>'+
+  '<canvas class="spk" id="sp_'+t+'" width="600" height="76"></canvas>'+
   '<div class="note" style="font-size:12.5px">'+(v?wesc(v[2])+' · ':'')+
   (WDIRTY?'waiting for sync — engine intel follows':'engine picks it up next tick (≤2 min in shift hours)')+'</div></div>'}
 function wrender(){
@@ -505,6 +511,37 @@ function fconnect(){
  fws.onclose=()=>{if(FDELAYED||!fws)return;
   setTimeout(fconnect,Math.min(30000,1000*Math.pow(2,ftries++)))};
  fws.onerror=()=>{try{fws.close()}catch(e){}};}
+/* the satisfying part: 2 minutes of tape per card — price line glowing in
+   the live-state color, buy/sell dollars as green/red bars underneath —
+   repainted every second, straight from the stream buffer. */
+function drawSpark(t,buf,now,color){
+ const cv=$w('sp_'+t);if(!cv)return;const g=cv.getContext('2d');
+ g.clearRect(0,0,600,76);
+ const pts=[];for(let i=buf.length-1;i>=0;i--){const a=buf[i];
+  if(now-a[0]>120000)break;pts.push(a)}
+ if(pts.length<3)return;pts.reverse();
+ let lo=1e18,hi=0;pts.forEach(a=>{lo=Math.min(lo,a[2]);hi=Math.max(hi,a[2])});
+ if(hi<=lo)hi=lo*1.0005;
+ const t0=now-120000,tw=120000;
+ // side bars: 3s buckets, buys up-green, sells down-red, sqrt-scaled
+ const bk={};pts.forEach(a=>{const k=Math.floor((a[0]-t0)/3000);
+  const b=bk[k]=bk[k]||[0,0];if(a[3]>0)b[0]+=a[1];else if(a[3]<0)b[1]+=a[1]});
+ let mx=1;Object.values(bk).forEach(b=>{mx=Math.max(mx,b[0],b[1])});
+ Object.keys(bk).forEach(k=>{const b=bk[k],x=k*15+1;
+  const hb=Math.sqrt(b[0]/mx)*16,hs=Math.sqrt(b[1]/mx)*16;
+  g.fillStyle='rgba(74,222,128,.75)';g.fillRect(x,58-hb,12,hb);
+  g.fillStyle='rgba(248,113,113,.75)';g.fillRect(x,58,12,hs)});
+ // price line with a soft glow in the live-state color
+ g.strokeStyle=color;g.lineWidth=2;g.shadowColor=color;g.shadowBlur=6;
+ g.beginPath();
+ pts.forEach((a,i)=>{const x=(a[0]-t0)/tw*598+1,
+  y=50-(a[2]-lo)/(hi-lo)*44;i?g.lineTo(x,y):g.moveTo(x,y)});
+ g.stroke();g.shadowBlur=0;
+ // last-price dot
+ const la=pts[pts.length-1];
+ g.fillStyle=color;g.beginPath();
+ g.arc((la[0]-t0)/tw*598+1,50-(la[2]-lo)/(hi-lo)*44,3,0,7);g.fill();
+}
 function cnt60(b,now){let n=0;for(let i=b.length-1;i>=0;i--){
  if(now-b[i][0]>60000)break;n++}return n}
 setInterval(()=>{
@@ -521,6 +558,7 @@ setInterval(()=>{
   if(head){head.textContent=H[0];head.style.color=H[1]}
   if(line){line.textContent=L[0]+(useF?' · via finnhub':'');line.style.color=L[1]}
   if(card)card.style.borderLeftColor=H[1];
+  drawSpark(t,buf,now,H[1]);
   scored.push([t,liveScore(st,s)]);});
  // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
  // the order from churning — only touch the DOM when the sequence changed
@@ -955,6 +993,7 @@ def _watch_card(r):
 <span class="vhead" id="lvh_{t}" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:{hc}">{html.escape(mood or "…")}</span>
 <span class="px" style="margin-left:auto">{last}</span></div>
 <div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>
+<canvas class="spk" id="sp_{t}" width="600" height="76"></canvas>
 {f'<div class="row" style="margin-top:6px">{chips}</div>' if chips else ''}
 {f'<div class="note" style="color:#8b939c;font-size:12.5px">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
