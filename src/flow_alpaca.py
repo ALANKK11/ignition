@@ -534,6 +534,55 @@ def fast_update(ap: AlpacaData, base: dict, sdir: str, now: dt.datetime,
 # ---------------------------------------------------------------------------
 # full-market candidate sourcing for the nightly SCAN
 # ---------------------------------------------------------------------------
+def dump_pulse_state(sdir: str, now: dt.datetime, radar_rows: list[dict],
+                     board: dict | None, pcfg: dict | None = None):
+    """PULSE — hot-or-not for ANY ticker, not just board winners. The user
+    holds names the board didn't pick (he traded UTX the day it swung, months
+    after it was a ghost-liquidity reject): whether a name is hot is a
+    property of TODAY'S tape, not of the ticker. So pulse carries every
+    symbol with meaningful tape this session — no price class, no ADV band —
+    overlaid with heat/state where the engine already tracks the name. The
+    hub copies it into docs/ and answers lookups client-side."""
+    p = pcfg or {}
+    min_d = float(p.get("min_dollar", 25_000))
+    min_mv = float(p.get("min_move", 0.05))
+    any_d = float(p.get("always_dollar", 100_000))
+    any_pc = float(p.get("always_pace", 2.0))
+    cap = int(p.get("cap", 3000))
+    over = {r["ticker"]: r for r in (board or {}).get("rows", [])}
+    rows, seen = [], set()
+    for r in radar_rows:                      # already sorted hottest-first
+        t = r["ticker"]
+        if not (r["dollar_day"] >= any_d or r["pace"] >= any_pc
+                or (abs(r["day_pct"]) >= min_mv and r["dollar_day"] >= min_d)
+                or t in over):
+            continue
+        b = over.get(t) or {}
+        rows.append([
+            t, round(r["last"], 3), round(r["day_pct"], 3),
+            int(r["dollar_day"]), round(r["pace"], 1),
+            round(r["range_pct"], 3) if r.get("range_pct") is not None else None,
+            round(r["off_hi"], 3) if r.get("off_hi") is not None else None,
+            round(b["heat"], 1) if b.get("heat") is not None else None,
+            b.get("swings"), b.get("state"), b.get("first_seen")])
+        seen.add(t)
+        if len(rows) >= cap:
+            break
+    for t, b in over.items():                 # board names are always present
+        if t in seen:
+            continue
+        rows.append([t, round(float(b.get("last") or 0), 3),
+                     round(float(b.get("move") or 0), 3),
+                     int(b.get("dollars") or 0), None, None, b.get("off_hi"),
+                     b.get("heat"), b.get("swings"), b.get("state"),
+                     b.get("first_seen")])
+    _save(os.path.join(sdir, "latest_pulse.json"),
+          {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
+           "cols": ["t", "last", "d", "$", "pace", "rng", "offh",
+                    "heat", "sw", "st", "fs"],
+           "rows": rows})
+
+
 def full_market_candidates(ap: AlpacaData, ucfg: dict, log, cap: int = 400
                            ) -> list[str]:
     """Stage 1 of the scan funnel: screen EVERY US listing from 30 days of

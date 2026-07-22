@@ -12,6 +12,8 @@ He is a retail trader who trades **high-volatility, high-risk/high-reward small 
 
 **Tickers he named as USELESS to him** (all of which the tool surfaced at some point, to his fury): `UTZ`, `DHR`, `AMG`, `CAVA`, `QQQ`, `UTX`. These are mega/mid-caps, index funds, or one-print gaps. If your output contains names like these at the top, **you have already failed.**
 
+**Correction (2026-07-22, from him directly): those lists are day-dependent, not permanent.** He traded `UTX` on 7/21 — the same ticker rejected earlier as ghost liquidity — because *that day* it had big swings on real volume. His words: it's "not about being sub-dollar; it's just about where the stock is." Hot is a property of today's tape, not of the ticker. Two consequences: (a) never hard-code a name as good or bad — every gate must read the current session; (b) "is X hot right now, for a name I'm already holding" is a first-class question the product must answer even when X never earned a board slot. That is what PULSE exists for (failure log 19).
+
 What he actually needs, in his own words, distilled:
 
 - **Where the money is going**, and — equally — **when the money leaves.** He described the exact pain: a stock pumps into the open, the volume quietly exits, the chart still looks green, and retail keeps buying the top. He wants that moment flagged.
@@ -110,6 +112,7 @@ Everything the hub renders comes from JSON state files in `$IGNITION_HOME/state/
 - `board_seen_<date>.json` — **first-seen timestamps** (powers "since 7:41a" and the NEW badge)
 - `ignitions_<date>.json`, `radar_promoted_<date>.json`
 - `flow_events_<date>.jsonl` — live looper's append-only event log, ingested into SQLite by `eval`
+- `latest_pulse.json` — **PULSE**: hot-or-not coverage of every symbol with meaningful tape this session (no price class, no ADV band; ~80B/row, capped 3000 rows), overlaid with heat/state/first-seen for tracked names. Written each full tick from radar rows already in hand — zero extra API calls. The hub copies it minified to `docs/pulse.json`; the page's ticker box answers lookups client-side (`pverdict()` in hub JS: heat-based when tracked, pace/|move|/range-derived when not, `FADING/LEAVING` states surface as MONEY LEAVING). Knobs under `pulse:` in config.
 
 **`STATE_V` (currently 4) is stamped into board/ext/movers state.** The hub refuses to render state written by an older code version. This exists because stale state once haunted the page for days — see §4, item 7.
 
@@ -164,6 +167,8 @@ Every item is a real defect the user caught in production. Do not regress any of
 
 18. **The hub's failure states were themselves failures.** Seven duplicate ungraded audit cards rendered as red "…" walls (same-date scans now dedupe, ungraded shows dim "grades after close", all-pending collapses to one quiet line), and a missing board at 2am fired the NO-BOARD alarm implying breakage (banner is now clock-aware: off-hours/weekend says "market closed — nothing is broken", shift-hours absence still alarms loudly).
 
+19. **The board answered "what's hot" but not "is MY name hot."** He holds names the engine didn't pick; when one wasn't a top-N winner he had no read at all — and the good/bad ticker lists in §1 turned out to be day-dependent anyway (UTX, 7/21). Fix: PULSE — see the state-model entry. The lookup box sits at the top of the page; unknown or dead names answer COLD honestly rather than silently.
+
 ### Concurrency note
 
 The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so the parallel `evening`/`premarket` jobs can never binary-conflict with the database in git. `eval` ingests the sidecars (renaming them `.done`) before grading.
@@ -187,6 +192,7 @@ The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so t
 - Complete `--demo` regression (scan → flow → eval → hub) after every change.
 - Capacity tilt calibrated on the exact 2026-07-22 offender classes (SBRA/CELH/ALLY $ADVs) and confirmed not to reorder planted demo archetypes (IGNA #1, DMPD #2 hold).
 - Audit strip fixed against the literal 7-row all-ungraded state that rendered on 2026-07-22; banner tested at 1:50am, 11am, Saturday, and Friday-evening clocks.
+- PULSE: assembly fixture (his four 7/21 tickers + ghost-liquidity exclusion + board overlay + version gate), and the *shipped* verdict JS executed under node against 11 shapes — CPHI/OMH/UTX/SLGB land HOT/HOT/HOT/WARM, flat SBRA lands COLD, churn and deal-pin and FADING→MONEY LEAVING all correct.
 
 ### NEVER verified against live services
 
@@ -197,6 +203,7 @@ The build sandbox has no network access to Yahoo, Alpaca, Finnhub, or the newswi
 - **The RSS feed URLs.** These are the newest and least certain component. Wires move their endpoints. The shift log prints per-feed HTTP status; dead feeds are skipped and named; the list is plain config (`news.feeds` in `config.yaml`) so a moved endpoint is a one-line edit.
 - GitHub Actions runtime behavior: whether a 6-hour shift survives without being killed, whether `git pull --rebase` contention between the live shift and the evening job causes push failures under real load.
 - The ignition receipts hit-rate. The grading machinery works; there is no live data in it yet.
+- PULSE against live radar output at full-market scale, and its commit-history cost: worst case ~230KB per full tick (~160s) while the market is busy — watch repo growth over the first weeks; the cap/floors under `pulse:` are the dial, and a periodic history squash is the escape hatch.
 - The widened band ($0.10 floor, $200k dollar-ADV floor) against the real Alpaca master at full scale — the in-band candidate count will be far larger than under the old $1/$5M floors; the pre-rank cut to 400 is designed for it but has only run against the 600-symbol fake API.
 
 **If the user reports something broken, first ask which of these unverified surfaces it touches.** Then get the Actions log — that is the only window into live behavior.

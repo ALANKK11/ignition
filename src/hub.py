@@ -62,6 +62,15 @@ padding:2px 7px;border-radius:999px;border:1px solid}
 .foot{color:var(--mut);font-size:11px;margin-top:26px;line-height:1.6}
 .stale{background:#3a1d12;border:1px solid #7a3010;color:#ffb08c;border-radius:10px;
 padding:8px 12px;font-size:12.5px;margin-bottom:10px}
+.pulse{margin:12px 0 6px}
+.pulse input{width:100%;background:var(--card);border:1px solid var(--edge);
+border-radius:12px;color:var(--tx);font-family:inherit;font-size:16px;
+font-weight:700;letter-spacing:.1em;padding:12px 14px;outline:none;
+text-transform:uppercase}
+.pulse input:focus{border-color:var(--hot)}
+.pulse input::placeholder{color:var(--mut);font-weight:400;letter-spacing:.02em;
+text-transform:none}
+#pr{margin-top:8px}
 """
 
 JS = """
@@ -70,6 +79,54 @@ if(el){const t=Date.parse(el.dataset.ts);const f=()=>{const m=Math.max(0,
 Math.round((Date.now()-t)/60000));el.textContent=m<1?'just now':m+' min ago';
 if(m>=45)document.getElementById('stale')?.removeAttribute('hidden')};
 f();setInterval(f,20000)}
+/* PULSE lookup */
+let PULSE=null,PTS=0;
+fetch('pulse.json?'+Date.now()).then(r=>r.ok?r.json():null).then(j=>{
+if(!j||!j.rows)return;PTS=Date.parse(j.ts)||0;PULSE={};
+for(const r of j.rows)PULSE[r[0]]={last:r[1],d:r[2],dol:r[3],pace:r[4],
+rng:r[5],offh:r[6],heat:r[7],sw:r[8],st:r[9],fs:r[10]};
+const q=document.getElementById('pq');if(q&&q.value)pshow(q.value);
+}).catch(()=>{});
+function pverdict(x){
+if(!x)return['COLD','#5b636c','no meaningful tape today'];
+const ad=Math.abs(x.d||0);
+if(x.heat!=null){
+if(x.st==='FADING'||x.st==='LEAVING')
+return['MONEY LEAVING','#fb923c','was hot \u2014 participation is exiting'];
+if(x.heat>=70)return['HOT','#ff5a1f',
+(x.sw?x.sw+' swings \u2014 ':'')+'real travel, still moving'];
+if(x.heat>=40)return['WARM','#facc15','moving on real tape'];
+if(x.heat>=15)return['COOLING','#8b939c','travel is stalling'];
+return['DEAD','#5b636c','printed, but not tradable'];}
+if((x.pace||0)>=1.3&&ad>=.15)
+return['HOT','#ff5a1f','big move on elevated participation'];
+if((x.pace||0)>=1.2&&(ad>=.07||(x.rng||0)>=.12))
+return['WARM','#facc15','elevated tape with real travel'];
+if((x.pace||0)>=3&&ad<.03&&(x.rng||0)<.05)
+return['CHURN','#8b939c','volume without travel'];
+return['COLD','#5b636c','nothing unusual today'];}
+function pshow(v){
+const out=document.getElementById('pr');if(!out)return;
+v=(v||'').trim().toUpperCase().replace(/[^A-Z0-9.\\-]/g,'').slice(0,6);
+if(!v){out.innerHTML='';return}
+if(!PULSE){out.innerHTML='<div class="card note">pulse comes alive with the '+
+'live shift (7a\u20137p ET weekdays)</div>';return}
+const x=PULSE[v],r=pverdict(x),age=PTS?Math.round((Date.now()-PTS)/60000):null;
+let m='';
+if(x){m='<div class="meta"><b>'+((x.d||0)*100).toFixed(1)+'%</b>'+
+'<span>$'+(x.dol>=1e6?(x.dol/1e6).toFixed(1)+'M':Math.round((x.dol||0)/1e3)+'k')+
+' iex</span>'+(x.pace!=null?'<span>'+x.pace+'x pace</span>':'')+
+(x.rng!=null?'<span>range '+(x.rng*100).toFixed(0)+'%</span>':'')+
+(x.st?'<span>'+x.st+'</span>':'')+(x.fs?'<span>since '+x.fs+'</span>':'')+
+'</div>'+(x.offh!=null&&x.offh<=-.25&&(x.d||0)>0?
+'<div class="note">well off the high \u2014 the top may already be in</div>':'');}
+out.innerHTML='<div class="card"><div class="row"><span class="tk">'+v+'</span>'+
+'<span class="score" style="color:'+r[1]+'">'+r[0]+'</span>'+
+(x&&x.last?'<span class="px">'+x.last+'</span>':'')+
+(x&&x.heat!=null?'<span class="px">heat '+x.heat+'</span>':'')+
+'</div>'+m+'<div class="note">'+r[2]+
+(age!=null&&age>12?' \u00b7 reading is '+age+'m old':'')+'</div></div>';}
+document.getElementById('pq')?.addEventListener('input',e=>pshow(e.target.value));
 """
 
 
@@ -362,6 +419,9 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     mv = _load(os.path.join(sdir, "latest_movers.json"))
     if mv and mv.get("v") != STATE_V:
         mv = None                        # written by old code — never render
+    pulse = _load(os.path.join(sdir, "latest_pulse.json"))
+    if pulse and pulse.get("v") != STATE_V:
+        pulse = None                     # written by old code — never serve
     ext = _load(os.path.join(sdir, "latest_ext.json"))
     if ext and ext.get("v") != STATE_V:
         ext = None
@@ -434,6 +494,9 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
 <div class="sub">updated <span id="ago" data-ts="{ts_iso}">…</span> ·
 auto-refreshes · live shift 7am–7pm (~45s) · scan 9:15pm + 7:45am ET
 {f" · <b style='color:#4ade80'>{html.escape(flow['provider'])}</b>" if flow else ""}</div>
+<div class="pulse"><input id="pq" placeholder="type a ticker \u2014 hot or not?"
+autocomplete="off" autocorrect="off" autocapitalize="characters"
+spellcheck="false" maxlength="6" enterkeyhint="search"></div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
 {body}
@@ -445,6 +508,9 @@ advice.</div>
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w") as f:
         f.write(doc)
+    if pulse:
+        with open(os.path.join(out_dir, "pulse.json"), "w") as f:
+            json.dump(pulse, f, separators=(",", ":"))
     with open(os.path.join(out_dir, "manifest.webmanifest"), "w") as f:
         json.dump({"name": "IGNITION", "short_name": "IGNITION",
                    "start_url": "./", "display": "standalone",

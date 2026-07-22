@@ -38,6 +38,13 @@ weights:
   short_fuel: 1.1                # short % float + days-to-cover, momentum-gated
   options_heat: 1.0              # ATM IV level + IV/realized ratio
 
+pulse:                           # hot-or-not lookup coverage (docs/pulse.json)
+  min_dollar: 25000              # include if |move|>=min_move and $ tape >= this
+  min_move: 0.05
+  always_dollar: 100000          # ...or $ tape alone clears this
+  always_pace: 2.0               # ...or participation pace alone clears this
+  cap: 3000
+
 thresholds:
   ah_move_full: 0.08             # |AH move| that maxes the component
   ah_vol_conf: 0.02              # AH volume / ADV for full confidence

@@ -71,6 +71,13 @@ DEFAULTS = {
             "https://www.accesswire.com/rss/latest.xml",
         ],
     },
+    "pulse": {
+        "min_dollar": 25_000,      # include if |move|>=min_move and $ tape >= this
+        "min_move": 0.05,
+        "always_dollar": 100_000,  # ...or $ tape alone clears this
+        "always_pace": 2.0,        # ...or participation pace alone clears this
+        "cap": 3000,               # hard row cap keeps the JSON phone-sized
+    },
     "thresholds": {
         "ah_move_full": 0.08,     # |AH move| that earns full component score
         "ah_vol_conf": 0.02,      # AH volume as fraction of ADV for full confidence

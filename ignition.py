@@ -508,9 +508,11 @@ def cmd_flow(args):
                     flow_alpaca.dump_radar_state(sdir, now, radar_rows)
                     flow_alpaca.dump_movers_state(sdir, now, movers)
                     flow_alpaca.attach_heat(movers, bars, now)
-                    flow_alpaca.assemble_board(
+                    _board = flow_alpaca.assemble_board(
                         sdir, now, "rth", movers,
                         {r["ticker"]: r for r in rows})
+                    flow_alpaca.dump_pulse_state(sdir, now, radar_rows,
+                                                 _board, cfg.get("pulse"))
                     with open(store_path, "w") as f:
                         json.dump(store, f)
                     tick += 1
