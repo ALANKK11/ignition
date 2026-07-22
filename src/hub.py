@@ -95,6 +95,10 @@ margin:12px 2px 4px}
 box-shadow:0 2px 10px rgba(0,0,0,.35)}
 .meta,.score,.px,.last{font-variant-numeric:tabular-nums}
 .spk{width:100%;height:44px;margin-top:6px;display:block;opacity:.95}
+.mre summary{color:#5b636c;font-size:11px;letter-spacing:.1em;
+text-transform:uppercase;cursor:pointer;margin-top:4px;list-style:none}
+.mre summary::before{content:'▸ '}
+.mre[open] summary::before{content:'▾ '}
 """
 
 JS = """
@@ -201,29 +205,25 @@ function wcard(r){
  const meta=[];
  if(dp!=null)meta.push('day '+(dp>=0?'+':'')+(dp*100).toFixed(0)+'%');
  if(r.dollars)meta.push(wfb(r.dollars)+' iex');
- if(r.vs_adv)meta.push(r.vs_adv.toFixed(1)+'x ADV');
- if(r.vs_vwap!=null)meta.push((r.vs_vwap>=0?'above':'BELOW')+' vwap '+
-  (r.vs_vwap*100>=0?'+':'')+(r.vs_vwap*100).toFixed(1)+'%');
+ if(r.vs_vwap!=null)meta.push((r.vs_vwap>=0?'above':'BELOW')+' vwap');
  if(r.off_hi!=null)meta.push(Math.round(r.off_hi*100)+'% off high');
- if(r.swings)meta.push(r.swings+' swings');
  const last=(typeof r.last==='number')?r.last.toFixed(3):'—';
+ let more=chips?('<div class="row" style="margin:4px 0">'+chips+'</div>'):'';
+ if(r.read||r.now_line)more+='<div class="note" style="color:#c9ced4;font-size:13px">'+wesc(r.read||r.now_line)+'</div>';
+ if(meta.length)more+='<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>';
+ if(ev)more+='<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+'</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>';
+ if(r.playbook)more+='<div class="note" style="color:#facc15;font-size:12.5px">'+wesc(r.playbook)+'</div>';
+ if(r.reason)more+='<div class="note" style="color:#8b939c;font-style:italic">'+wesc(r.reason)+'</div>';
+ if(r.headline)more+='<div class="note" style="color:#c9ced4">📰 '+wesc(r.headline)+'</div>';
+ if(r.dossier)more+=r.dossier.split('</summary>')[1].split('</details>')[0];
  return '<div class="card sym" id="wc_'+t+'" style="border-left:3px solid '+hc+'">'+
   '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
   '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:'+hc+'">'+wesc(mood||'…')+'</span>'+
   '<span class="px" style="margin-left:auto">'+last+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>'+
   '<canvas class="spk" id="sp_'+t+'" width="600" height="76"></canvas>'+
-  (chips?'<div class="row" style="margin-top:6px">'+chips+'</div>':'')+
-  ((r.read||r.now_line)?'<div class="note" style="color:#8b939c;font-size:12.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
-  (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
-  (ev?'<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+
-   '</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>':'')+
-  (r.playbook?'<div class="note" style="color:#facc15;font-size:12.5px">'+wesc(r.playbook)+'</div>':'')+
-  (r.reason?'<div class="note" style="color:#8b939c;font-style:italic">'+wesc(r.reason)+'</div>':'')+
-  (r.headline?'<div class="note" style="margin-top:5px;color:#c9ced4">📰 '+wesc(r.headline)+'</div>':'')+
-  (r.dossier||'')+
-  '</div>'}
+  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c"></div>'+
+  '<details class="mre"><summary>more</summary>'+more+'</details></div>'}
 function wmini(t){
  const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;const hc=v?v[1]:'#5b636c';
  return '<div class="card sym" id="wc_'+t+'" style="border-left:3px solid '+hc+'">'+
@@ -861,6 +861,11 @@ def _dossier(r):
             f'</summary>{body}</details>')
 
 
+def _dossier_body(r):
+    d = _dossier(r)
+    return d.split("</summary>", 1)[1].rsplit("</details>", 1)[0]
+
+
 def _watch_section(wl, ws, intel, bd, now):
     """MY NAMES — the top of the page (HANDOFF item 31). One rich card per
     watchlist ticker, HIS input order, always present. A name the engine has
@@ -984,24 +989,32 @@ def _watch_card(r):
     ev = r.get("ev")
     nl = r.get("read") or r.get("now_line")
     hc = MOOD_HEX.get(mood, "#4ade80" if up else "#f87171")
-    # The LIVE per-second read is the headline (filled by the stream on his
-    # phone); mood is the fallback until the first print lands. The day
-    # number is demoted to a footnote — at his cadence it's context, not
-    # signal (his words, 2026-07-22: "who cares what it's like today").
+    # MINIMAL (his call, 2026-07-22): one word, one chart, one live line.
+    # Everything else — chips, story, verdict, playbook, dossier — lives
+    # behind a single quiet "more". No competing labels, nothing static.
+    more = (f'<div class="row" style="margin:4px 0">{chips}</div>' if chips else '')
+    if nl:
+        more += f'<div class="note" style="color:#c9ced4;font-size:13px">{html.escape(nl)}</div>'
+    if meta:
+        more += f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>'
+    if ev:
+        more += (f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b>'
+                 f'<span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>')
+    if r.get("playbook"):
+        more += f'<div class="note" style="color:#facc15;font-size:12.5px">{html.escape(r["playbook"])}</div>'
+    if r.get("reason"):
+        more += f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>'
+    if r.get("headline"):
+        more += f'<div class="note" style="color:#c9ced4">📰 {html.escape(r["headline"])}</div>'
+    more += _dossier_body(r)
     return f"""<div class="card sym" id="wc_{t}" style="border-left:3px solid {hc}">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="vhead" id="lvh_{t}" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:{hc}">{html.escape(mood or "…")}</span>
-<span class="px" style="margin-left:auto">{last}</span></div>
-<div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>
+<span class="px" style="margin-left:auto">{last}</span>
+<span class="wrm" data-t="{t}">×</span></div>
 <canvas class="spk" id="sp_{t}" width="600" height="76"></canvas>
-{f'<div class="row" style="margin-top:6px">{chips}</div>' if chips else ''}
-{f'<div class="note" style="color:#8b939c;font-size:12.5px">{html.escape(nl)}</div>' if nl else ''}
-{f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
-{f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b><span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>' if ev else ''}
-{f'<div class="note" style="color:#facc15;font-size:12.5px">{html.escape(r["playbook"])}</div>' if r.get("playbook") else ''}
-{f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
-{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}</div>' if r.get("headline") else ''}
-{r.get("dossier") or ''}</div>"""
+<div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c"></div>
+<details class="mre"><summary>more</summary>{more}</details></div>"""
 
 
 def _no_board_notice(sdir, now=None):
