@@ -75,6 +75,7 @@ border-radius:999px;border:1px solid var(--edge);color:var(--dim)}
 </style></head><body>
 <h1><s>IGNITION</s> TAPE</h1>
 <div class="sub"><span class="dot" id="dot"></span><span id="cs">off</span><span id="lag" style="color:#5b636c"></span>
+<span id="eng" style="color:#5b636c"></span>
 <span style="margin-left:auto"><a href="index.html">&larr; hub</a></span></div>
 <div id="closed" class="banner" hidden>market closed — the stream is quiet;
 verdicts resume with tape</div>
@@ -236,9 +237,13 @@ function msg(t){var m=$('msg');if(!t){m.hidden=true;return}m.textContent=t;m.hid
 function etNow(){return new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}))}
 function mktOpen(){var d=etNow(),h=d.getHours();return d.getDay()>0&&d.getDay()<6&&h>=4&&h<20}
 function saveW(){LS.tape_w=JSON.stringify(W)}
+var RM={};try{RM=JSON.parse(LS.tape_wx||'{}')}catch(e){}
+function saveRM(){LS.tape_wx=JSON.stringify(RM)}
 function addSym(t){t=(t||'').toUpperCase().replace(/[^A-Z0-9.\-]/g,'').slice(0,6);
- if(!t||W.indexOf(t)>=0||W.length>=8)return;W.push(t);saveW();drawChips();sub([t]);card(t)}
-function rmSym(t){W=W.filter(function(x){return x!==t});saveW();drawChips();
+ if(!t||W.indexOf(t)>=0||W.length>=8)return;delete RM[t];saveRM();
+ W.push(t);saveW();drawChips();sub([t]);card(t)}
+function rmSym(t){W=W.filter(function(x){return x!==t});saveW();
+ RM[t]=1;saveRM();drawChips();
  try{ws&&ws.send(JSON.stringify({action:'unsubscribe',trades:[t]}))}catch(e){}
  var c=$('c_'+t);c&&c.remove();delete BUF[t];delete TR[t];delete BST[t];delete PK[t];delete VD[t]}
 function drawChips(){$('chips').innerHTML=W.map(function(t){
@@ -356,14 +361,45 @@ function connect(fresh){if(!K||!S){$('setup').hidden=false;status('need keys','b
  ws.onerror=function(){try{ws.close()}catch(e){}}}
 document.addEventListener('visibilitychange',function(){
  if(!document.hidden&&(!ws||ws.readyState>1))connect(true)});
-fetch('pulse.json?'+Date.now()).then(function(r){return r.ok?r.json():null})
- .then(function(j){if(!j||!j.rows)return;
-  j.rows.forEach(function(r){ENG[r[0]]={d:r[2],heat:r[7],st:r[9]}});
-  var hot=j.rows.filter(function(r){return r[7]!=null&&r[7]>=40&&W.indexOf(r[0])<0})
-   .slice(0,4);
-  $('sugs').innerHTML=hot.map(function(r){
-   return '<span class="chip sug" data-t="'+r[0]+'">+ '+r[0]+' · heat '+r[7]+'</span>'}).join('');
-  W.forEach(engChips)}).catch(function(){});
+/* ---- ENGINE SYNC — pullEngine (HANDOFF item 29). The old one-shot fetch
+   read pulse.json once at page load, then the engine chips lied for the
+   rest of the session. Poll every 45s (the engine's own fast cadence) and
+   say EXPLICITLY when the engine is stale or unreachable. watch.json (his
+   watchlist, written by the hub) merges into the chip list so the phone
+   list and the engine list converge; names removed on this phone stay
+   removed (tape_wx) until re-added; the add-box needs no network at all. */
+/*MERGE-BEGIN*/
+function mergeWatch(cur,removed,inc,cap){var out=cur.slice();
+ (inc||[]).forEach(function(t){t=(''+(t||'')).toUpperCase();
+  if(t&&out.indexOf(t)<0&&!removed[t]&&out.length<cap)out.push(t)});
+ return out}
+/*MERGE-END*/
+function engineNote(t,c){var el=$('eng');if(el){el.textContent=t;el.style.color=c||'#5b636c'}}
+function pullEngine(){var q='?'+Date.now();
+ var pw=fetch('watch.json'+q).then(function(r){return r.ok?r.json():null})
+  .catch(function(){return null});
+ fetch('pulse.json'+q)
+ .then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.json()})
+ .then(function(j){
+  if(!j||!j.rows){engineNote('engine: no data yet','#5b636c')}
+  else{
+   var age=j.ts?Math.round((Date.now()-Date.parse(j.ts))/60000):null;
+   ENG={};j.rows.forEach(function(r){ENG[r[0]]={d:r[2],heat:r[7],st:r[9]}});
+   engineNote(age==null?'engine: live':(age<=6?('engine: '+(age<1?'just now':age+'m ago')):
+    ('engine STALE '+age+'m — check Actions')),(age!=null&&age>6)?'#fb923c':'#5b636c');
+   var hot=j.rows.filter(function(r){return r[7]!=null&&r[7]>=40&&W.indexOf(r[0])<0})
+    .slice(0,4);
+   $('sugs').innerHTML=hot.map(function(r){
+    return '<span class="chip sug" data-t="'+r[0]+'">+ '+r[0]+' · heat '+r[7]+'</span>'}).join('');
+  }
+  W.forEach(engChips)})
+ .catch(function(){engineNote('engine feed unreachable','#f87171');W.forEach(engChips)});
+ pw.then(function(w){if(!w||!w.tickers)return;
+  var m=mergeWatch(W,RM,w.tickers,8);
+  if(m.length!==W.length){var add=m.slice(W.length);W=m;saveW();drawChips();
+   add.forEach(card);sub(add);W.forEach(engChips)}});
+}
+pullEngine();setInterval(pullEngine,45000);
 function engChips(t){var e=ENG[t],el=$('e_'+t);if(!el)return;
  el.innerHTML=e?('<span>day '+((e.d||0)*100).toFixed(1)+'%</span>'+
   (e.heat!=null?'<span>engine heat '+e.heat+'</span>':'')+

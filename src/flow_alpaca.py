@@ -25,6 +25,7 @@ import numpy as np
 import pandas as pd
 
 from . import flow as flow_mod
+from . import splits
 from .providers_alpaca import AlpacaData
 from .universe import ETF_EXCLUDE
 from .util import NY
@@ -63,14 +64,23 @@ def prepare(ap: AlpacaData, sdir: str, seed_monitor: list[str],
         log(f"alpaca: assets endpoint returned {len(symbols)} symbols — check keys")
         return None
     daily = ap.daily(symbols, days=25)
-    adv, prev_close = {}, {}
     today_d = dt.datetime.now(NY).date()
+    # split-aware ADV (item 30): a reverse split inside the window makes a
+    # raw share-volume mean overstate ADV by the split factor and the name
+    # goes invisible to pace/rvol. Authoritative ex-dates when the CA
+    # endpoint answers; clean-ratio heuristic when it doesn't.
+    ca_splits = ap.splits_range(
+        (today_d - dt.timedelta(days=45)).isoformat(), today_d.isoformat())
+    adv, prev_close = {}, {}
     for t, df in daily.items():
         hist = df[df.index.date < today_d]
         if len(hist) < 10:
             continue
-        v = float(hist["Volume"].iloc[-20:].mean())
-        if v > 0:
+        v = splits.split_aware_adv(
+            hist["Close"].to_numpy(float), hist["Volume"].to_numpy(float),
+            n=20, dates=[d.isoformat() for d in hist.index.date],
+            known=(ca_splits or {}).get(t))
+        if v:
             adv[t] = v
             prev_close[t] = float(hist["Close"].iloc[-1])
     sample = sorted(adv, key=lambda t: adv[t] * prev_close[t], reverse=True)[:250]
@@ -567,7 +577,8 @@ def refresh_pulse_from_board(sdir: str, now: dt.datetime):
 # full-market candidate sourcing for the nightly SCAN
 # ---------------------------------------------------------------------------
 def dump_pulse_state(sdir: str, now: dt.datetime, radar_rows: list[dict],
-                     board: dict | None, pcfg: dict | None = None):
+                     board: dict | None, pcfg: dict | None = None,
+                     watch_rows: list[dict] | None = None):
     """PULSE — hot-or-not for ANY ticker, not just board winners. The user
     holds names the board didn't pick (he traded UTX the day it swung, months
     after it was a ghost-liquidity reject): whether a name is hot is a
@@ -582,12 +593,13 @@ def dump_pulse_state(sdir: str, now: dt.datetime, radar_rows: list[dict],
     any_pc = float(p.get("always_pace", 2.0))
     cap = int(p.get("cap", 3000))
     over = {r["ticker"]: r for r in (board or {}).get("rows", [])}
+    wl = {r["ticker"]: r for r in (watch_rows or [])}
     rows, seen = [], set()
     for r in radar_rows:                      # already sorted hottest-first
         t = r["ticker"]
         if not (r["dollar_day"] >= any_d or r["pace"] >= any_pc
                 or (abs(r["day_pct"]) >= min_mv and r["dollar_day"] >= min_d)
-                or t in over):
+                or t in over or t in wl):     # watchlist: zero admission gates
             continue
         b = over.get(t) or {}
         rows.append([
@@ -608,6 +620,14 @@ def dump_pulse_state(sdir: str, now: dt.datetime, radar_rows: list[dict],
                      int(b.get("dollars") or 0), None, None, b.get("off_hi"),
                      b.get("heat"), b.get("swings"), b.get("state"),
                      b.get("first_seen")])
+        seen.add(t)
+    for t, w in wl.items():                   # watchlist names too — always
+        if t in seen:
+            continue
+        rows.append([t, round(float(w.get("last") or 0), 3),
+                     round(float(w.get("day_pct") or 0), 3),
+                     int(w.get("dollars") or 0), None, None, w.get("off_hi"),
+                     w.get("heat"), w.get("swings"), w.get("state"), None])
     _save(os.path.join(sdir, "latest_pulse.json"),
           {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
            "cols": ["t", "last", "d", "$", "pace", "rng", "offh",
@@ -641,7 +661,9 @@ def full_market_candidates(ap: AlpacaData, ucfg: dict, log, cap: int = 400
             if len(df) < 21:
                 continue
             c = df["Close"].to_numpy(float)
-            v = df["Volume"].to_numpy(float)
+            # split-aware shares (item 30): mixed pre/post-split units make
+            # rvol read ~0.1x after a 1:10 reverse — the INLF failure class
+            v = splits.adjusted_volumes(c, df["Volume"].to_numpy(float))
             close = float(c[-1])
             adv = float(v[-21:-1].mean())
             if adv <= 0:

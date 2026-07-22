@@ -139,6 +139,30 @@ class AlpacaData:
         start = (dt.date.today() - dt.timedelta(days=days + 4)).isoformat()
         return self.bars(symbols, "1Min", start)
 
+    def splits_range(self, start: str, end: str) -> dict | None:
+        """Splits with ex-dates in [start, end] → {sym: [(ex_date, factor)]},
+        factor = old-shares-per-new-share (10.0 for a 1:10 reverse).
+        None = endpoint unavailable (callers fall back to the heuristic in
+        src/splits.py — fail-open, HANDOFF item 30)."""
+        js = self._get(DATA, "/v1/corporate-actions",
+                       {"types": "forward_split,reverse_split",
+                        "start": start, "end": end, "limit": 1000})
+        if not isinstance(js, dict):
+            return None
+        ca = js.get("corporate_actions") or {}
+        out: dict[str, list] = {}
+        for ev in (ca.get("forward_splits") or []) + (ca.get("reverse_splits") or []):
+            try:
+                sym = ev.get("symbol")
+                new_r = float(ev.get("new_rate") or 0)
+                old_r = float(ev.get("old_rate") or 0)
+                ex = ev.get("ex_date") or ev.get("process_date")
+                if sym and new_r > 0 and old_r > 0 and ex:
+                    out.setdefault(sym, []).append((str(ex), old_r / new_r))
+            except Exception:
+                continue
+        return out
+
     def corporate_actions_today(self) -> dict | None:
         """Today's splits + cash dividends. None = endpoint unavailable
         (callers then engage the heuristic split guard)."""

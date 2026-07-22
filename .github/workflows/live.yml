@@ -4,6 +4,11 @@ on:
     - cron: "55 10 * * 1-5"   # 6:55am ET: morning shift → 12:52pm
     - cron: "55 16 * * 1-5"   # 12:55pm ET: afternoon shift → 6:52pm
   workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Today's watchlist (e.g. CPHI OMH SLGB). Overwrites watchlist.txt and leads the hub as MY NAMES."
+        required: false
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -20,6 +25,19 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: update watchlist from the Run-workflow tickers box
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.tickers != '' }}
+        env:
+          TICKERS: ${{ github.event.inputs.tickers }}
+        run: |
+          git config user.name ignition-bot
+          git config user.email ignition@users.noreply.github.com
+          python -c "import os; from src.watch import write_watchlist; \
+            print('watchlist:', write_watchlist('watchlist.txt', os.environ['TICKERS']))"
+          git add watchlist.txt
+          git commit -m "watchlist: set from phone" || true
+          git pull --rebase --autostash -q || true
+          git push || true
       - name: run the shift (ticks every ~3 min, pushes hub each tick)
         env:
           IGNITION_HOME: ${{ github.workspace }}/data

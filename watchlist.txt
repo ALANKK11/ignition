@@ -1,5 +1,4 @@
-# Your personal always-watch list. One ticker per line (or comma-separated).
-# These bypass liquidity filters and ALWAYS get the full enrichment pass.
-# Example:
-# TSLA
-# NVDA
+# IGNITION watchlist — THE spine of the system. One ticker per line (or
+# comma/space separated). Every name here gets a MY NAMES card with full
+# telemetry every tick, no admission gates. Edit here, or from your phone:
+# Actions -> live shift -> Run workflow -> tickers.
