@@ -555,7 +555,7 @@ def now_stats(df, now: dt.datetime) -> dict | None:
 
 
 MOOD_RANK = {"MONEY HERE": 4, "COOLING": 3, "MONEY LEAVING": 2, "DEAD": 1,
-             "STALLED": 1, "WARMING": 3, "NO TAPE": 0}
+             "STALLED": 1, "WARMING": 3, "NO TAPE": 0, "THIN TAPE": 1}
 
 
 def mood_candidate(ns: dict | None, elapsed_min: float) -> str:
@@ -564,6 +564,12 @@ def mood_candidate(ns: dict | None, elapsed_min: float) -> str:
         return "NO TAPE"
     if elapsed_min < 25:
         return "WARMING"
+    # a verdict needs a sample: on the free IEX slice a thin name can show
+    # minutes between prints while his broker tape flows — saying DEAD on
+    # that is a lie (his 2026-07-22 report: "orders are not even coming in,
+    # it just says dead"). Under $3k/15m of SAMPLE, say THIN TAPE instead.
+    if (ns.get("f15") or 0) < 3000 and (ns["r15"] or 0) < 0.55:
+        return "THIN TAPE"
     if ns["stalled_min"] >= 45 and (ns["r15"] or 0) < 0.5:
         return "STALLED"
     r = ns["r15"]
