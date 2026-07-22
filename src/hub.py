@@ -177,7 +177,7 @@ function wadd(t){t=wsan(t);if(!t)return;const l=wlist().slice();
 function wrm(t){if(!WLOC)WLOC=wlist().slice();WLOC=WLOC.filter(x=>x!==t);
  WDIRTY=true;wsave();wrender();wpush()}
 const MOODC={'MONEY HERE':'#4ade80','COOLING':'#facc15','MONEY LEAVING':'#fb923c',
- 'DEAD':'#f87171','STALLED':'#8b939c','WARMING':'#8b939c','NO TAPE':'#5b636c'};
+ 'DEAD':'#f87171','STALLED':'#8b939c','WARMING':'#8b939c','NO TAPE':'#5b636c','THIN TAPE':'#5b636c'};
 const DILC={'FRESH PAPER':'#f87171','S-1 PENDING':'#facc15','OPEN SHELF':'#fb923c','CLEAN':'#4ade80'};
 const STC={'IGNITING':'#f87171','NEW MONEY':'#e879f9','RUNNING':'#facc15','CHURN':'#22d3ee',
  'FADING':'#fb923c','LEAVING':'#ef4444','COOLING':'#9ca3af','QUIET':'#4b5563',
@@ -687,7 +687,8 @@ DIL_HEX = {"FRESH PAPER": "#f87171", "S-1 PENDING": "#facc15",
 
 MOOD_HEX = {"MONEY HERE": "#4ade80", "COOLING": "#facc15",
             "MONEY LEAVING": "#fb923c", "DEAD": "#f87171",
-            "STALLED": "#8b939c", "WARMING": "#8b939c", "NO TAPE": "#5b636c"}
+            "STALLED": "#8b939c", "WARMING": "#8b939c", "NO TAPE": "#5b636c",
+            "THIN TAPE": "#5b636c"}
 
 
 def _now_line(r):
@@ -732,6 +733,9 @@ def _story(r):
               + " — dead sideways")
     elif mood == "WARMING":
         s2 = "first minutes of the session — still building a read"
+    elif mood == "THIN TAPE":
+        s2 = ("feed sample too thin to judge — broker tape may show more "
+              "(free IEX slice)")
     elif mood == "NO TAPE" or r15 is None:
         s2 = None
     else:
