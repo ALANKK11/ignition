@@ -20,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from rich.console import Console
 
+from pathlib import Path
 from src import flow as flow_mod
 from src import report
 from src.config import load_config, read_ticker_file
@@ -124,11 +125,27 @@ def _dump_flow_state(cfg, now, rows, ri, ro, provider, window):
         json.dump(payload, f)
 
 
+def _attach_finnhub(provider, console, demo):
+    if demo:
+        return
+    from src.providers_finnhub import earnings_map, key
+    k = key()
+    if not k:
+        return
+    m = earnings_map(k, ny_today(), 6)
+    if m is not None:
+        provider.earnings_map = m
+        console.print(f"[dim]finnhub earnings calendar: {len(m)} symbols in window[/dim]")
+    else:
+        console.print("[dim]finnhub unavailable — using yahoo per-ticker earnings[/dim]")
+
+
 def cmd_scan(args):
     cfg = load_config(args.config)
     th = cfg["thresholds"]
     weights = dict(cfg["weights"])
     provider = get_provider(args.demo)
+    _attach_finnhub(provider, console, args.demo)
 
     with console.status("[bold]building candidate universe…"):
         universe, watchlist = build_universe(cfg, provider)
@@ -309,6 +326,18 @@ def cmd_flow(args):
                                fcfg["window_min"],
                                clear=console.is_terminal and k > 0)
             _dump_flow_state(cfg, now, rows, ri, ro, "demo", fcfg["window_min"])
+            if k == len(marks) - 1:
+                demo_radar = [{"ticker": "ROTA", "pace": 5.3, "last": 16.5,
+                               "day_pct": 0.058, "dollar_day": 3.4e6, "promoted": True},
+                              {"ticker": "VLTA", "pace": 4.7, "last": 7.21,
+                               "day_pct": 0.132, "dollar_day": 1.9e6, "promoted": True},
+                              {"ticker": "IGNA", "pace": 3.9, "last": 8.7,
+                               "day_pct": 0.096, "dollar_day": 2.6e6, "promoted": True},
+                              {"ticker": "QRVX", "pace": 3.1, "last": 42.10,
+                               "day_pct": -0.041, "dollar_day": 8.8e6, "promoted": False}]
+                with open(os.path.join(_state_dir(cfg), "latest_radar.json"), "w") as f:
+                    json.dump({"ts": now.isoformat(timespec="seconds"),
+                               "rows": demo_radar}, f)
             for ev in events:
                 if jr:
                     jr.record_flow_event(True, ev)
@@ -316,8 +345,66 @@ def cmd_flow(args):
                        (0.8 if console.is_terminal else 0))
         return
 
+    from src.providers_alpaca import creds as alpaca_creds
+    ac = alpaca_creds()
+    if ac:
+        from src import flow_alpaca
+        from src.providers_alpaca import AlpacaData
+        ap = AlpacaData(*ac)
+        sdir = _state_dir(cfg)
+        watch = read_ticker_file(Path(cfg["_paths"]["root"]) / cfg["universe"]["watchlist_file"])
+        seed = list(dict.fromkeys(
+            (jr.latest_picks(False, 30) if jr else []) + watch))
+        base = flow_alpaca.prepare(ap, sdir, seed, fcfg,
+                                   lambda m: console.print(f"[dim]{m}[/dim]"))
+        if base is None:
+            console.print("[red]alpaca baselines failed — falling back to "
+                          "yahoo flow this run[/red]")
+        else:
+            today = ny_today()
+            store_path = os.path.join(sdir, f"flow_store_{today.isoformat()}.json")
+            try:
+                with open(store_path) as f:
+                    store.update(json.load(f))
+            except Exception:
+                pass
+            console.print(f"[dim]alpaca radar: {len(base['adv'])} symbols · "
+                          f"engine seed {len(seed)} names · ctrl-c to stop[/dim]")
+            tick = 0
+            try:
+                while True:
+                    now = dt.datetime.now(NY)
+                    radar_rows, fresh, watchset, bars = flow_alpaca.fetch_tick(
+                        ap, base, seed, now, sdir, fcfg)
+                    rows, events = flow_mod.snapshot(
+                        bars, base["adv"], base["prev_close"], base["curves"],
+                        base["med"], now, fcfg, store)
+                    ri, ro = flow_mod.rotation_lists(rows)
+                    report.render_flow(console, now, rows, events, ri, ro,
+                                       "alpaca-iex", fcfg["window_min"],
+                                       clear=console.is_terminal and tick > 0)
+                    if fresh:
+                        console.print("[bold magenta]radar promoted:[/bold magenta] "
+                                      + "  ".join(fresh))
+                    for ev in events:
+                        if jr:
+                            jr.record_flow_event(False, ev)
+                    _dump_flow_state(cfg, now, rows, ri, ro, "alpaca-iex",
+                                     fcfg["window_min"])
+                    flow_alpaca.dump_radar_state(sdir, now, radar_rows)
+                    with open(store_path, "w") as f:
+                        json.dump(store, f)
+                    tick += 1
+                    if args.ticks and tick >= args.ticks:
+                        return
+                    time.sleep(args.interval if args.interval is not None
+                               else fcfg["refresh_sec"])
+            except KeyboardInterrupt:
+                console.print("\n[dim]flow monitor stopped.[/dim]")
+            return
+
     provider = get_provider(False)
-    watch = read_ticker_file(cfg["_paths"]["watchlist"])
+    watch = read_ticker_file(Path(cfg["_paths"]["root"]) / cfg["universe"]["watchlist_file"])
     monitor = list(dict.fromkeys(
         (jr.latest_picks(False, 30) if jr else [])
         + provider.screen("most_actives", 25)

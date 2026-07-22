@@ -46,6 +46,22 @@ expect occasional 3–10 minute delays. The journal (SQLite) and state files are
 committed to the repo by the bot, so history and the flow state machine's
 memory survive between runs.
 
+## Real-time data (already wired if you added the secrets)
+
+If the repo has secrets named `ALPACA_KEY_ID`, `ALPACA_SECRET_KEY`, and
+`FINNHUB_KEY` (Settings → Secrets and variables → Actions), the workflows pass
+them in automatically and the machine upgrades itself: flow runs on Alpaca's
+real-time IEX feed with a **full-market radar** (~10k US listings scanned for
+abnormal participation each snapshot; surging names are auto-promoted into the
+flow engine for the rest of the day and show on the hub under "Market radar"),
+and the scan's catalyst signal uses Finnhub's earnings calendar (one call,
+every symbol, BMO/AMC-aware) instead of Yahoo's flaky per-ticker lookups.
+No secrets → everything silently falls back to plain Yahoo. The first flow run
+each day spends ~2–3 extra minutes building full-market baselines, then caches
+them. One honest math note: IEX prints ~2–3% of consolidated tape, so all flow
+ratios are IEX-over-IEX — internally consistent, and the sample cancels out of
+every number you see.
+
 ## Cost, honestly
 
 $0.00. Public repo: Actions and Pages are free without limits that this

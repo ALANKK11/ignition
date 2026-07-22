@@ -150,6 +150,9 @@ class LiveProvider(Provider):
 
     # -- earnings ----------------------------------------------------------
     def get_next_earnings(self, ticker: str) -> dt.date | None:
+        m = getattr(self, "earnings_map", None)
+        if m is not None:                 # finnhub batch calendar takes over
+            return m.get(ticker)
         today = ny_today()
         try:
             tk = self.yf.Ticker(ticker)

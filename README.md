@@ -104,6 +104,14 @@ Everything lives in `config.yaml`: component weights (relative multipliers — c
 
 ## Data sources, and APIs worth paying for
 
+**Wired in and free:** with `ALPACA_KEY_ID`/`ALPACA_SECRET_KEY` set (free paper
+account), flow upgrades to Alpaca's real-time IEX feed plus a full-market
+radar over every active US listing, with automatic promotion of surging
+unknowns into the state machine. With `FINNHUB_KEY` set (free tier), the
+catalyst signal uses a real earnings calendar with BMO/AMC timing. Both
+degrade silently to Yahoo when absent or failing.
+
+
 Out of the box everything runs on Yahoo via `yfinance` — zero keys, zero cost. Its honest ceiling: 1-minute bars lag roughly 1–2 minutes, extended-hours volume is thin for illiquid names, and screeners are ~15-minute delayed. Fine for a 15-minute rotation window; not a scalping feed.
 
 If you want to hand the machine a key, in order of value per dollar: **Polygon.io** (Stocks Starter ~$29/mo: unlimited REST calls, 15-min-delayed full-market snapshots, all history; Advanced ~$199/mo: real-time — the single-call full-market snapshot means FLOW can watch *every* US listing instead of a 60-name monitor set, which is the true "invisible hand" detector). **Alpaca** (free with a brokerage account: real-time IEX feed via WebSocket — genuinely free real-time, ~3% of tape but directionally honest). **Finnhub** (free tier for earnings calendars, paid for real-time). **IBKR** (if you already have the account, the TWS API gives real-time everything, shorts availability included, but the integration burden is the highest). The provider layer is a small interface built for exactly this swap — Polygon support is the next stage of this build.

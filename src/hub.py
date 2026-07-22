@@ -154,6 +154,24 @@ def _flow_section(flow, events):
     return head + rot + "".join(cards) + q + evs
 
 
+def _radar_section(radar):
+    if not radar or not radar.get("rows"):
+        return ""
+    ts = radar["ts"][11:16]
+    chips = []
+    for r in radar["rows"]:
+        hexc = "#e879f9" if r.get("promoted") else "#9ca3af"
+        chips.append(f"""<div class="card" style="border-left:3px solid {hexc}">
+<div class="row"><span class="tk">{html.escape(r["ticker"])}</span>
+<span class="score">{r["pace"]:.1f}x</span><span class="px">{r["last"]:.2f}</span>
+{_pct(r["day_pct"])}<span class="px">${fmt_big(r["dollar_day"])} iex</span>
+{_chip("WATCHING", "#e879f9") if r.get("promoted") else ""}</div></div>""")
+    return (f'<h2>Market radar · every US listing · {ts} ET</h2>'
+            '<div class="note" style="margin:-4px 2px 8px">abnormal participation '
+            'anywhere on the tape — pink names auto-promoted into the flow engine</div>'
+            + "".join(chips))
+
+
 def _audit_section(hist):
     if hist is None or len(hist) == 0:
         return ""
@@ -174,6 +192,7 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     sdir = os.path.join(cfg["_paths"]["data"], "state")
     scan = _load(os.path.join(sdir, "latest_scan.json"))
     flow = _load(os.path.join(sdir, "latest_flow.json"))
+    radar = _load(os.path.join(sdir, "latest_radar.json"))
     jr = Journal(cfg["_paths"]["journal"])
     hist = None
     events = []
@@ -188,8 +207,8 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
             events = []
     now = dt.datetime.now(NY)
     ts_iso = (flow or scan or {}).get("ts", now.isoformat())
-    body = (_flow_section(flow, events) + _scan_section(scan)
-            + _audit_section(hist))
+    body = (_flow_section(flow, events) + _radar_section(radar)
+            + _scan_section(scan) + _audit_section(hist))
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="refresh" content="300">
@@ -199,7 +218,8 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
 <title>IGNITION</title><style>{CSS}</style></head><body>
 <h1><s>IGNITION</s> HUB{' · DEMO' if demo else ''}</h1>
 <div class="sub">updated <span id="ago" data-ts="{ts_iso}">…</span> ·
-auto-refreshes · evening scan 9:15pm · premarket 7:45am · flow every 20m 9:30–4 ET</div>
+auto-refreshes · evening 9:15pm · premarket 7:45am · flow every 20m 9:30–4 ET
+{f" · <b style='color:#4ade80'>{html.escape(flow['provider'])}</b>" if flow else ""}</div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
 {body}
