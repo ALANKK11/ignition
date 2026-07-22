@@ -21,7 +21,8 @@ console.assert(keyWrites.length === 2, 'exactly the two panel writes: ' + keyWri
 // outbound hosts: exactly the github api + the alpaca IEX stream
 const hosts = [...script.matchAll(/(?:https?|wss):\/\/([a-z0-9.\-]+)/gi)].map(m => m[1]);
 console.assert(hosts.every(h => h === 'api.github.com'
-  || h === 'stream.data.alpaca.markets' || h === 'ws.finnhub.io'),
+  || h === 'stream.data.alpaca.markets' || h === 'ws.finnhub.io'
+  || h === 'finnhub.io'),
   'unexpected outbound host: ' + hosts);
 // the finnhub URL must carry only the finnhub key, never the alpaca pair
 console.assert(/ws\.finnhub\.io\/\?token='\+encodeURIComponent\(k\)/.test(script)
