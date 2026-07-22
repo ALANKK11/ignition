@@ -71,3 +71,4 @@
 {"ts": "2026-07-22T11:02:37.222374-04:00", "demo": 0, "ticker": "LONZ", "prev_state": "FADING", "state": "RUNNING", "price": 49.24, "tp": 44.55868492704142, "note": "sustained 44.6x"}
 {"ts": "2026-07-22T11:02:37.222374-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "COOLING", "state": "RUNNING", "price": 10.105, "tp": 2.552075222062377, "note": "sustained 2.6x"}
 {"ts": "2026-07-22T11:02:37.222374-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "COOLING", "state": "QUIET", "price": 14.815, "tp": 1.5956641641720664, "note": ""}
+{"ts": "2026-07-22T11:03:22.207929-04:00", "demo": 0, "ticker": "CCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Compass Connections, A21, Clear Channel Outdoor and Union Pacific Launch Anti-Human Trafficking Billboard Campaign"}
