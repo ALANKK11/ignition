@@ -312,3 +312,9 @@
 {"ts": "2026-07-22T12:03:30.855200-04:00", "demo": 0, "ticker": "FDLO", "prev_state": "FADING", "state": "NEW MONEY", "price": 69.85, "tp": 25.27995339934473, "note": "quiet open (1.1x) \u2192 now 25.3x \u00b7 taking +0.4% flow share"}
 {"ts": "2026-07-22T12:03:30.855200-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 31.365, "tp": 2.7974644875465438, "note": "quiet open (1.1x) \u2192 now 2.8x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-22T12:03:30.855200-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "RUNNING", "state": "COOLING", "price": 40.53, "tp": 1.625714070672656, "note": "pace 1.6x off peak 9.4x"}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "VNM", "prev_state": "RUNNING", "state": "COOLING", "price": 16.51, "tp": 0.19919790476987206, "note": "pace 0.2x off peak 28.2x"}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "CLW", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.54, "tp": 31.982652432556254, "note": "pace 32.0x and accelerating (5.9x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "COOLING", "state": "RUNNING", "price": 40.65, "tp": 2.9721127311660123, "note": "sustained 3.0x"}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "COOLING", "state": "QUIET", "price": 4.59, "tp": 1.5534078391367139, "note": ""}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "BH", "prev_state": "RUNNING", "state": "IGNITING", "price": 378.165, "tp": 5.123190685642209, "note": "pace 5.1x and accelerating (1.7x vs prior window) \u00b7 +1.9% in window"}
+{"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "COOLING", "state": "RUNNING", "price": 1.4, "tp": 2.6828564511007507, "note": "sustained 2.7x"}
