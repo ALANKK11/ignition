@@ -480,7 +480,10 @@ def cmd_flow(args):
                      "shares": 3.2e6, "vs_adv": 9.4, "state": "IGNITING",
                      "tp": 8.2, "heat": 97.0, "swings": 9, "path": 3.4,
                      "mood": "MONEY HERE", "f15": 4.8e5, "r15": 0.82,
-                     "travel15": 0.061, "stalled_min": 0,
+                     "travel15": 0.061, "stalled_min": 0, "rsplits": 1,
+                     "shape": "RUNNER",
+                     "timeline": "open 0.42 (gap +31%) · high 2.01 @ 10:14 "
+                                 "· low 0.40 @ 09:31 · now 1.94 (-3% off high)",
                      "reason": None},
                     {"ticker": "GHST", "last": None, "day_pct": None,
                      "move": 0.0, "open": None, "off_hi": None,
@@ -566,7 +569,8 @@ def cmd_flow(args):
                                             cfg.get("intel"),
                                             log=lambda m: console.print(
                                                 f"[dim]intel: {m}[/dim]"),
-                                            priority=wl)
+                                            priority=wl,
+                                            rsplits=base.get("rsplit13"))
                     except Exception as e:
                         console.print(f"[yellow]intel skipped: {e}[/yellow]")
                     with open(store_path, "w") as f:

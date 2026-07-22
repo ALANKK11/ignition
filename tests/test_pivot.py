@@ -279,6 +279,76 @@ def test_story():
     ok("no-row story is None", _story({"present": False}) is None)
 
 
+# ---------------------------------------------------------------------------
+# item 36 — pedigree (who is this company) + day shape + playbook + dossier
+# ---------------------------------------------------------------------------
+def test_pedigree():
+    from src.pedigree import grade_pedigree
+    today = dt.date(2026, 7, 22)
+    # the archetype: Cayman shell, business in China, serial S-1/424B filer,
+    # reverse split, 2M float, first filing last year → PUMP ANATOMY
+    forms = ["424B4", "S-1/A", "S-1", "6-K", "F-1", "20-F"]
+    dates = ["2026-07-01", "2026-05-10", "2026-03-02", "2026-01-15",
+             "2025-11-20", "2025-09-01"]
+    p = grade_pedigree("E9", "F4", forms, dates, today,
+                       rsplits_13m=2, float_sh=2.1e6)
+    ok("archetype flagged", p["n"] >= 4 and p["grade"].startswith("PUMP ANATOMY"),
+       p)
+    ok("cn-linked named", any("CN-LINKED" in f for f in p["flags"]), p["flags"])
+    ok("serial diluter named", any("SERIAL DILUTER" in f for f in p["flags"]))
+    ok("reverse splits named", any("REVERSE SPLIT" in f for f in p["flags"]))
+    ok("micro float named", any("MICRO FLOAT" in f for f in p["flags"]))
+    # a boring US company with a long record → CLEAN RECORD
+    forms2 = ["10-K", "10-Q", "8-K"] * 40
+    dates2 = [f"20{y:02d}-0{m}-01" for y in range(26, 6, -1) for m in (1, 4, 7)][:120]
+    p2 = grade_pedigree("DE", "TX", forms2, dates2, today,
+                        rsplits_13m=0, float_sh=8e7)
+    ok("clean record", p2["grade"] == "CLEAN RECORD" and p2["n"] == 0, p2)
+    # one S-3 alone is not a serial diluter
+    p3 = grade_pedigree("NV", "CA", ["S-3", "10-Q"],
+                        ["2026-06-01", "2026-05-01"], today)
+    ok("single shelf not serial", all("SERIAL DILUTER" not in f
+                                      for f in p3["flags"]), p3)
+
+
+def test_day_shape_and_dossier():
+    from src.watch import day_shape
+    now = dt.datetime.now(NY).replace(hour=13, minute=0, second=0,
+                                      microsecond=0)
+    base_t = now.replace(hour=9, minute=30)
+    # gap up 40%, run to +80%, then give it all back → GAP & FADE
+    idx, px = [], []
+    p = 1.40
+    for m in range(0, 210):
+        t_ = base_t + dt.timedelta(minutes=m)
+        if t_ > now:
+            break
+        p = p * 1.01 if m < 40 else p * 0.995
+        idx.append(t_)
+        px.append(p)
+    df = pd.DataFrame({"Open": px, "High": [x * 1.005 for x in px],
+                       "Low": [x * 0.995 for x in px], "Close": px,
+                       "Volume": [10_000] * len(px)},
+                      index=pd.DatetimeIndex(idx))
+    sh = day_shape(df, now, pc=1.0)
+    ok("gap-fade named", sh["shape"] == "GAP & FADE", sh)
+    ok("timeline has times", "@" in sh["timeline"] and "gap +4" in sh["timeline"],
+       sh["timeline"])
+    # playbook + dossier render through the hub
+    from src.hub import _dossier, _playbook
+    r = {"shape": "GAP & FADE", "rsplits": 2,
+         "timeline": sh["timeline"], "filings": [["424B4", "2026-07-01"]],
+         "ped": {"grade": "PUMP ANATOMY 4/6", "n": 4,
+                 "flags": ["CN-LINKED: business in China"],
+                 "jur": "Cayman Is. inc · biz China", "cik": 1234567}}
+    pb = _playbook(r, 4)
+    ok("playbook warns", pb and "don't marry it" in pb, pb)
+    dz = _dossier(r)
+    ok("dossier has flags", "CN-LINKED" in dz and "reverse split" in dz)
+    ok("dossier links SEC", "sec.gov" in dz and "0001234567" in dz)
+    ok("dossier is details tag", dz.startswith("<details"))
+
+
 if __name__ == "__main__":
     test_splits()
     test_watch_card_no_baseline()
@@ -287,4 +357,6 @@ if __name__ == "__main__":
     test_now_and_mood()
     test_watch_json_rows_and_hub_now()
     test_story()
+    test_pedigree()
+    test_day_shape_and_dossier()
     print(f"OK — {len(PASS)} checks passed")

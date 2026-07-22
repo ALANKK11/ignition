@@ -196,7 +196,10 @@ def dilution(sym: str, sdir: str, now: dt.datetime, cache: dict,
             rec = (js.get("filings") or {}).get("recent") or {}
             g, w = _grade_filings(rec.get("form") or [],
                                   rec.get("filingDate") or [], now.date())
-            out = {"grade": g, "why": w, "_t": time.time()}
+            out = {"grade": g, "why": w, "_t": time.time(),
+                   "recent": [[f, d] for f, d in
+                              zip((rec.get("form") or [])[:5],
+                                  (rec.get("filingDate") or [])[:5])]}
         time.sleep(0.15)                 # stay far under SEC's 10 req/s
     except Exception as e:
         out = {"grade": "UNKNOWN", "why": f"edgar: {e}", "_t": time.time()}
@@ -306,21 +309,32 @@ def edge_verdict(row: dict, dil: dict | None, halts: dict | None,
 # ---------------------------------------------------------------------------
 def refresh_intel(sdir: str, now: dt.datetime, board: dict | None,
                   icfg: dict | None = None, log=None,
-                  priority: list[str] | None = None) -> dict:
+                  priority: list[str] | None = None,
+                  rsplits: dict | None = None) -> dict:
     """`priority` (the watchlist) is looked up BEFORE board names inside the
-    per-tick budget — his names get EDGAR/float intel first, always."""
+    per-tick budget — his names get EDGAR/float intel first, always.
+    Watchlist names additionally get the PEDIGREE pass (item 36): who is
+    this company, structurally — cached a week, so it's ~free per tick."""
     icfg = icfg or {}
     st = _load(os.path.join(sdir, "latest_intel.json")) or {}
     dil_c = st.get("dil") or {}
     flo_c = st.get("flo") or {}
+    ped_c = st.get("ped") or {}
     halts = poll_halts(sdir, now, log)
     tickers = list(dict.fromkeys(
         (priority or []) + [r["ticker"] for r in (board or {}).get("rows", [])]))
     for t in tickers[: int(icfg.get("max_lookups", 15))]:
         dilution(t, sdir, now, dil_c, float(icfg.get("dil_ttl_h", 6)), log)
         float_rot(t, flo_c, float(icfg.get("float_ttl_h", 24)), log)
+    from .pedigree import pedigree
+    for t in (priority or [])[: int(icfg.get("max_lookups", 15))]:
+        fr = flo_c.get(t) or {}
+        pedigree(t, sdir, now, ped_c,
+                 rsplits_13m=int((rsplits or {}).get(t, 0)),
+                 float_sh=fr.get("flo"), log=log)
     out = {"v": STATE_V, "ts": now.isoformat(timespec="seconds"),
            "halts_today": halts["today"], "halts_by": halts["by_sym"],
-           "halted_now": halts["halted_now"], "dil": dil_c, "flo": flo_c}
+           "halted_now": halts["halted_now"], "dil": dil_c, "flo": flo_c,
+           "ped": ped_c}
     _save(os.path.join(sdir, "latest_intel.json"), out)
     return out

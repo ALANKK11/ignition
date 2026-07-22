@@ -69,8 +69,13 @@ def prepare(ap: AlpacaData, sdir: str, seed_monitor: list[str],
     # raw share-volume mean overstate ADV by the split factor and the name
     # goes invisible to pace/rvol. Authoritative ex-dates when the CA
     # endpoint answers; clean-ratio heuristic when it doesn't.
+    # ~13 months of split history in one call: the recent window feeds the
+    # ADV adjustment; the full span feeds the pedigree layer's
+    # reverse-split count (item 36)
     ca_splits = ap.splits_range(
-        (today_d - dt.timedelta(days=45)).isoformat(), today_d.isoformat())
+        (today_d - dt.timedelta(days=395)).isoformat(), today_d.isoformat())
+    rsplit13 = {t: sum(1 for _, f in evs if f > 1.0)
+                for t, evs in (ca_splits or {}).items()}
     adv, prev_close = {}, {}
     for t, df in daily.items():
         hist = df[df.index.date < today_d]
@@ -88,7 +93,8 @@ def prepare(ap: AlpacaData, sdir: str, seed_monitor: list[str],
     curves_all, med = flow_mod.build_curves(curve_src)
     curves = {t: c for t, c in curves_all.items() if t in seed_monitor}
     base = {"symbols": [s for s in symbols if s in adv], "adv": adv,
-            "prev_close": prev_close, "med": med, "curves": curves}
+            "prev_close": prev_close, "med": med, "curves": curves,
+            "rsplit13": rsplit13}
     _save(path, {**base, "med": list(map(float, med)),
                  "curves": {t: list(map(float, c)) for t, c in curves.items()}})
     log(f"alpaca: baselines for {len(adv)} symbols · curves for {len(curves)} monitors")
