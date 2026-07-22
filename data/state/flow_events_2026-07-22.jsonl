@@ -330,3 +330,15 @@
 {"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "CHURN", "price": 21.765, "tp": 12.05314040371402, "note": "12.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "IGNITING", "state": "COOLING", "price": 4.735, "tp": 1.6217240028093414, "note": "pace 1.6x off peak 3.7x"}
 {"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "QUIET", "state": "RUNNING", "price": 4.61, "tp": 1.8712054094758355, "note": "sustained 1.9x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "OGG", "prev_state": "COOLING", "state": "RUNNING", "price": 2.335, "tp": 1.8011341787137398, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 130.39, "tp": 2.9909748175779733, "note": "sustained 3.0x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 31.45, "tp": 2.7726897711475913, "note": "sustained 2.8x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "COOLING", "state": "FADING", "price": 4.71, "tp": 0.9394192056050596, "note": "pace 0.9x vs peak 3.7x \u00b7 -1.7% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "RUNNING", "state": "COOLING", "price": 6.79, "tp": 1.6976754613764178, "note": "pace 1.7x off peak 30.8x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "CLW", "prev_state": "IGNITING", "state": "COOLING", "price": 16.54, "tp": 1.2874271676689537, "note": "pace 1.3x off peak 32.0x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "RUNNING", "state": "FADING", "price": 11.49, "tp": 6.346132917255064, "note": "pace 6.3x vs peak 63.6x \u00b7 -12.3% off HOD \u00b7 chart still +69% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "COOLING", "price": 22.585, "tp": 1.6428732377018422, "note": "pace 1.6x off peak 6.2x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "DYN", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.13, "tp": 2.9189117949274253, "note": "pace 2.9x and accelerating (1.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "CALM", "prev_state": "COOLING", "state": "RUNNING", "price": 86.72, "tp": 1.9247186420515263, "note": "sustained 1.9x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "TIGR", "prev_state": "FADING", "state": "RUNNING", "price": 5.02, "tp": 1.9765515495522121, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T12:12:30.856605-04:00", "demo": 0, "ticker": "BUG", "prev_state": "COOLING", "state": "RUNNING", "price": 38.43, "tp": 2.0254166376443448, "note": "sustained 2.0x"}
