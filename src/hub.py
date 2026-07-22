@@ -250,7 +250,9 @@ function wrender(){
  root.innerHTML=l.map(t=>{const r=by[t];
   return (r&&r.present)?wcard(r):wmini(t)}).join('');
  Object.keys(open).forEach(id=>{const c=$w(id);
-  const d=c&&c.querySelector('details');if(d)d.open=true});}
+  const d=c&&c.querySelector('details');if(d)d.open=true});
+ if(typeof paintCard==='function'){const nw=Date.now();
+  l.slice(0,8).forEach(t=>paintCard(t,nw))}}
 function wtokv(){return localStorage.gh_t||''}
 function wpush(){clearTimeout(WPT);WPT=setTimeout(wpushNow,1500)}
 function wpushNow(retried){
@@ -415,7 +417,7 @@ function cvdWord(buf,nowMs){
  if(c4===null)c4=0;
  if(!last||nowMs-first<45000)return ['reading…','#5b636c',0];
  if(nowMs-last>=60000)return ['NO PRINTS '+Math.round((nowMs-last)/1000)+'s','#8b939c',0];
- if(n5<6||tot<3000)return ['THIN FEED','#5b636c',0];
+ if(n5<6||tot<3000)return ['THIN FEED · '+n5+' prints/5m','#5b636c',0];
  var sl=(cum-c4)/Math.max(tot,1);
  if(sl>=0.12)return ['ACCUMULATING','#4ade80',sl];
  if(sl<=-0.12)return ['DISTRIBUTION','#f87171',sl];
@@ -542,7 +544,10 @@ function drawSpark(t,buf,now,color){
  g.clearRect(0,0,600,76);
  const pts=[];for(let i=buf.length-1;i>=0;i--){const a=buf[i];
   if(now-a[0]>600000)break;pts.push(a)}
- if(pts.length<3)return;pts.reverse();
+ pts.reverse();
+ if(pts.length<3){g.fillStyle='#5b636c';
+  pts.forEach(a=>{g.beginPath();
+   g.arc((a[0]-(now-600000))/600000*598+1,36,3,0,7);g.fill()});return}
  let lo=1e18,hi=0;pts.forEach(a=>{lo=Math.min(lo,a[2]);hi=Math.max(hi,a[2])});
  if(hi<=lo)hi=lo*1.0005;
  const t0=now-600000,tw=600000;
@@ -571,15 +576,17 @@ function drawSpark(t,buf,now,color){
 }
 function cnt60(b,now){let n=0;for(let i=b.length-1;i>=0;i--){
  if(now-b[i][0]>60000)break;n++}return n}
-setInterval(()=>{
- if(!lws||lws.readyState>1)return;
- const now=Date.now();
- const scored=[];
- wlist().slice(0,8).forEach(t=>{
+function paintCard(t,now){
   const ab=LBUF[t]||[],fb=FBUF[t]||[];
   const useF=!FDELAYED&&cnt60(fb,now)>cnt60(ab,now)*1.5;
   const buf=useF?fb:ab,line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
-  if(!buf.length){scored.push([t,-1]);return}
+  if(!buf.length){
+   const off=!lws||lws.readyState>1;
+   if(head){head.textContent=off?'STREAM OFF':'WAITING FOR PRINTS';
+    head.style.color='#5b636c';head.classList.remove('hot')}
+   if(line){line.textContent=off?'live: stream not connected — tap ⚙ keys'
+    :'live: connected — no prints on this name yet';line.style.color='#5b636c'}
+   return [t,-1];}
   const s=liveRead(buf,now),st=lvSticky(LVS,t,liveState(s),now);
   const W=cvdWord(buf,now),L=liveLabel(st,s,QB[t],now);
   if(head){if(head.textContent!==W[0]&&card&&/[A-Z]/.test(W[0])){
@@ -589,7 +596,11 @@ setInterval(()=>{
   if(line){line.textContent=L[0]+(useF?' · via finnhub':'');line.style.color=L[1]}
   if(card)card.style.borderLeftColor=W[1];
   drawSpark(t,buf,now,W[1]);
-  scored.push([t,W[2]*1e9+s.d30]);});
+  return [t,W[2]*1e9+s.d30];}
+setInterval(()=>{
+ const now=Date.now();
+ const scored=[];
+ wlist().slice(0,8).forEach(t=>{scored.push(paintCard(t,now))});
  // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
  // the order from churning — only touch the DOM when the sequence changed
  const root=$w('wroot');
