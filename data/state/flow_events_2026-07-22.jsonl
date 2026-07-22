@@ -131,3 +131,4 @@
 {"ts": "2026-07-22T11:17:37.226104-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "RUNNING", "state": "FADING", "price": 90.67, "tp": 3.202636888084967, "note": "pace 3.2x vs peak 12.2x \u00b7 -5.0% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-22T11:17:37.226104-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 30.7, "tp": 2.901603459063009, "note": "pace 2.9x and accelerating (58.0x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-07-22T11:17:37.226104-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "COOLING", "state": "RUNNING", "price": 3.5, "tp": 2.029535805277622, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T11:18:19.720553-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "CHURN", "price": 11.32, "tp": 8.11417848572781, "note": "8.1x participation, no progress at highs \u2014 absorption"}
