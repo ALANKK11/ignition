@@ -116,8 +116,8 @@ def _scan_section(scan, confluence_only=False):
         rows_ = [r for r in rows_ if r["score"] >= 40][:6]
         if not rows_:
             return ""
-        head = (f'<h2>Tonight&rsquo;s setups · real confluence only · '
-                f'targets {scan["target_date"]}</h2>')
+        head = (f'<h2>Tonight&rsquo;s setups · forecast for '
+                f'{scan["target_date"]} · not today&rsquo;s movers</h2>')
     cards = []
     for r in rows_:
         tags = " ".join(_chip(t, TAG_HEX.get(c, "#9ca3af")) for t, c in r["tags"])
@@ -176,6 +176,21 @@ def _flow_section(flow, events):
 
 SESSION_LABEL = {"pre": "Pre-market board", "rth": "Live board",
                  "post": "After-hours board"}
+
+
+def _no_board_notice(sdir):
+    """The board is the product. If it is missing, say so loudly with the
+    reason — silence here once cost days of confusion."""
+    import glob
+    ran = bool(glob.glob(os.path.join(sdir, "alpaca_base_*.json")))
+    why = ("The live shift has run, but no board was produced — likely an "
+           "Alpaca data error." if ran else
+           "The live shift has not run yet today, or it failed before "
+           "reaching Alpaca.")
+    return ('<div class="stale"><b>NO BOARD DATA</b><br>' + why +
+            '<br>Check the repo&rsquo;s <b>Actions</b> tab → latest '
+            '<b>live shift</b> run. Everything below is the nightly '
+            'forecast scan, which is a different thing.</div>')
 
 
 def _heat_meter(heat):
@@ -371,6 +386,11 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                 + _transitions_only(events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
+    elif not (ext or mv):
+        body = (_no_board_notice(sdir) + closed
+                + _flow_section(flow, events)
+                + _scan_section(scan, confluence_only=True)
+                + _audit_section(hist) + _ign_precision_line(jr))
     else:
         body = (_ext_section(ext) + _movers_section(mv) + closed
                 + _flow_section(flow, events)
@@ -385,14 +405,15 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
 <title>IGNITION</title><style>{CSS}</style></head><body>
 <h1><s>IGNITION</s> HUB{' · DEMO' if demo else ''}</h1>
 <div class="sub">updated <span id="ago" data-ts="{ts_iso}">…</span> ·
-auto-refreshes · board every 20m 7am–8pm · scan 9:15pm + 7:45am ET
+auto-refreshes · live shift 7am–7pm (~45s) · scan 9:15pm + 7:45am ET
 {f" · <b style='color:#4ade80'>{html.escape(flow['provider'])}</b>" if flow else ""}</div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
 {body}
-<div class="foot">IGNITION ranks expected <b>activity</b>, not direction — volume and
-range cut both ways. Not investment advice. Flow snapshots on the hub refresh every
-~20 min; run <code>python ignition.py flow</code> locally for the 75-second live board.</div>
+<div class="foot">The <b>board</b> is live tape ranked by tradable travel. <b>Tonight&rsquo;s
+setups</b> below it is a next-day forecast — a different thing, and never a list of
+today&rsquo;s movers. IGNITION ranks expected <b>activity</b>, not direction. Not investment
+advice.</div>
 <script>{JS}</script></body></html>"""
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w") as f:

@@ -149,13 +149,21 @@ def compute_base_metrics(df: pd.DataFrame) -> dict | None:
 
 
 def base_metrics_ok(m: dict, min_price: float, min_dollar_volume: float,
-                    is_watchlist: bool = False) -> bool:
-    """Liquidity / sanity gate. Your own watchlist bypasses the filters."""
+                    is_watchlist: bool = False, max_price: float | None = None,
+                    max_dollar_adv: float | None = None) -> bool:
+    """Tradability gate, both directions.
+
+    The floor keeps out untradeable dust. The CEILING is the part that
+    matters: a $340 stock doing $1B/day cannot go up 80% tomorrow. Names
+    that big belong on a news site, not on this board.
+    """
     if is_watchlist:
         return True
-    if m["close"] < min_price:
+    if m["close"] < min_price or m["dollar_adv"] < min_dollar_volume:
         return False
-    if m["dollar_adv"] < min_dollar_volume:
+    if max_price and m["close"] > max_price:
+        return False
+    if max_dollar_adv and m["dollar_adv"] > max_dollar_adv:
         return False
     return True
 

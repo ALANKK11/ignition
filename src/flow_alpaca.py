@@ -529,3 +529,53 @@ def fast_update(ap: AlpacaData, base: dict, sdir: str, now: dt.datetime,
     assemble_board(sdir, now, board.get("session") or "rth", rows,
                    states=None)
     return True
+
+
+# ---------------------------------------------------------------------------
+# full-market candidate sourcing for the nightly SCAN
+# ---------------------------------------------------------------------------
+def full_market_candidates(ap: AlpacaData, ucfg: dict, log, cap: int = 400
+                           ) -> list[str]:
+    """Stage 1 of the scan funnel: screen EVERY US listing from 30 days of
+    daily bars, keep only names inside the tradable band (price and dollar
+    ADV floors AND ceilings), then pre-rank by relative volume and range so
+    the expensive 130-day pass only touches names worth the calls.
+
+    This replaces a hand-written ~200-name seed list that could never have
+    contained a CPHI-class ticker — the reason the nightly scan kept
+    returning mega-caps.
+    """
+    symbols = [s for s in ap.active_symbols() if s not in ETF_EXCLUDE]
+    if len(symbols) < 500:
+        return []
+    log(f"full-market scan: screening {len(symbols)} listings…")
+    daily = ap.daily(symbols, days=30)
+    lo_p = float(ucfg.get("min_price", 0.10))
+    hi_p = float(ucfg.get("max_price") or 1e9)
+    lo_d = float(ucfg.get("min_dollar_volume", 200_000))
+    hi_d = float(ucfg.get("max_dollar_adv") or 1e15)
+    out = []
+    for t, df in daily.items():
+        try:
+            if len(df) < 21:
+                continue
+            c = df["Close"].to_numpy(float)
+            v = df["Volume"].to_numpy(float)
+            close = float(c[-1])
+            adv = float(v[-21:-1].mean())
+            if adv <= 0:
+                continue
+            dadv = adv * close
+            if not (lo_p <= close <= hi_p) or not (lo_d <= dadv <= hi_d):
+                continue
+            rvol = float(v[-1]) / adv
+            ret1 = close / float(c[-2]) - 1.0 if len(c) > 1 else 0.0
+            rng = float(np.abs(np.diff(c[-6:]) / c[-6:-1]).mean()) if len(c) > 6 else 0.0
+            pre = (np.log1p(max(rvol, 0.01)) * 1.6 + abs(ret1) * 3.0
+                   + rng * 4.0)
+            out.append((pre, t))
+        except Exception:
+            continue
+    out.sort(reverse=True)
+    log(f"full-market scan: {len(out)} in the tradable band → top {cap}")
+    return [t for _, t in out[:cap]]

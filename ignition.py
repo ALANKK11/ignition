@@ -159,6 +159,21 @@ def cmd_scan(args):
 
     with console.status("[bold]building candidate universe…"):
         universe, watchlist = build_universe(cfg, provider)
+    if not args.demo and cfg["universe"].get("full_market"):
+        try:
+            from src.flow_alpaca import full_market_candidates
+            from src.providers_alpaca import AlpacaData, creds as _ac
+            _c = _ac()
+            if _c:
+                fm = full_market_candidates(
+                    AlpacaData(*_c), cfg["universe"],
+                    lambda m: console.print(f"[dim]{m}[/dim]"),
+                    cap=int(cfg["universe"].get("max_universe", 400)))
+                if fm:
+                    universe = list(dict.fromkeys(list(watchlist) + fm))
+        except Exception as e:
+            console.print(f"[yellow]full-market sourcing failed ({e}) — "
+                          f"falling back to seed universe[/yellow]")
     if not args.demo:
         from src.flow_alpaca import load_ignitions
         ign = load_ignitions(_state_dir(cfg), ny_today())
@@ -188,7 +203,9 @@ def cmd_scan(args):
             continue
         if not base_metrics_ok(m, min_price=ucfg["min_price"],
                                min_dollar_volume=ucfg["min_dollar_volume"],
-                               is_watchlist=(t in watchlist)):
+                               is_watchlist=(t in watchlist),
+                               max_price=cfg["universe"].get("max_price"),
+                               max_dollar_adv=cfg["universe"].get("max_dollar_adv")):
             continue
         comps = base_components(m, th)
         score, contrib = composite_score(comps, weights)

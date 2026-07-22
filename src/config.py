@@ -21,9 +21,12 @@ DEFAULTS = {
             "small_cap_gainers",
             "most_shorted_stocks",
         ],
-        "min_price": 1.0,
-        "min_dollar_volume": 5_000_000,   # 20d avg $ volume floor
+        "min_price": 0.10,                # he trades sub-$1 names
+        "min_dollar_volume": 200_000,     # 20d avg $ volume floor
+        "max_price": 50.0,                # a $340 mega-cap cannot 2x — exclude
+        "max_dollar_adv": 300_000_000,    # ...and neither can a $1B/day name
         "max_universe": 400,
+        "full_market": True,              # source candidates from ALL listings
     },
     "scan": {
         "history_days": 130,      # trading-day lookback target
