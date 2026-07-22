@@ -48,3 +48,14 @@
 {"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "GJUL", "prev_state": "QUIET", "state": "RUNNING", "price": 43.79, "tp": 58.94813254712585, "note": "sustained 58.9x"}
 {"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "RUNNING", "state": "COOLING", "price": 9.34, "tp": 1.630101226490863, "note": "pace 1.6x off peak 3.5x"}
 {"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "COOLING", "price": 11.315, "tp": 1.5869722886138615, "note": "pace 1.6x off peak 3.0x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "LONZ", "prev_state": "CHURN", "state": "FADING", "price": 49.255, "tp": 0.0, "note": "pace 0.0x vs peak 3.3x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "KSCP", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.075, "tp": 26.68576744462246, "note": "sustained 26.7x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "FADING", "state": "LEAVING", "price": 90.26, "tp": 2.048879440378908, "note": "pace 2.0x off peak 12.2x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "TIGR", "prev_state": "COOLING", "state": "QUIET", "price": 5.02, "tp": 1.7028988659671234, "note": ""}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.05, "tp": 6.157914299797303, "note": "sustained 6.2x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "COOLING", "price": 10.15, "tp": 1.7691917433575102, "note": "pace 1.8x off peak 37.7x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "NEA", "prev_state": "COOLING", "state": "FADING", "price": 11.315, "tp": 0.9555294390767872, "note": "pace 1.0x vs peak 3.0x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "WASH", "prev_state": "QUIET", "state": "RUNNING", "price": 38.11, "tp": 1.8111957173499815, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "RUNNING", "state": "COOLING", "price": 6.96, "tp": 0.5813990407468894, "note": "pace 0.6x off peak 12.4x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "QUIET", "state": "COOLING", "price": 14.82, "tp": 1.471092418307831, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-07-22T10:59:37.221671-04:00", "demo": 0, "ticker": "PEGA", "prev_state": "RUNNING", "state": "LEAVING", "price": 26.75, "tp": 4.655103327500912, "note": "pace 4.7x off peak 9.7x \u00b7 VWAP lost (was +1.8% above)"}
