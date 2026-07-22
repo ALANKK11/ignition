@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-22T11:50:17-04:00", "tickers": [], "rows": []}
+{"v": 4, "ts": "2026-07-22T11:52:32-04:00", "tickers": ["INLF"], "rows": [{"ticker": "INLF", "last": 3.5, "day_pct": 0.6355, "move": 0.6355, "open": 3.06, "off_hi": -0.2723, "vs_vwap": -0.1118, "ssr": false, "dollars": 225273.66, "shares": 58839.0, "vs_adv": 0.1811, "state": null, "tp": null, "heat": 99.9, "swings": 10, "path": 3.5008, "mood": "MONEY LEAVING", "f15": 8105.32, "r15": 0.1381, "travel15": 0.1235, "stalled_min": 5, "reason": null}]}
