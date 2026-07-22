@@ -451,3 +451,10 @@
 {"ts": "2026-07-22T12:37:42.346634-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "COOLING", "price": 22.555, "tp": 1.2975017686680739, "note": "pace 1.3x off peak 6.2x"}
 {"ts": "2026-07-22T12:37:42.346634-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.77, "tp": 0.8924832802213255, "note": "pace 0.9x off peak 4.1x"}
 {"ts": "2026-07-22T12:37:42.346634-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 127.53, "tp": 6.251537132199126, "note": "sustained 6.3x"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "LEAVING", "state": "FADING", "price": 90.61, "tp": 1.8672625602391895, "note": "pace 1.9x vs peak 12.2x \u00b7 -5.0% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "DIHP", "prev_state": "RUNNING", "state": "FADING", "price": 34.15, "tp": 0.44926616828496463, "note": "pace 0.4x vs peak 3.1x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "REM", "prev_state": "CHURN", "state": "COOLING", "price": 21.75, "tp": 1.7486799440235294, "note": "pace 1.7x off peak 19.3x"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "ZCMD", "prev_state": "FADING", "state": "LEAVING", "price": 7.55, "tp": 7.511646039256055, "note": "pace 7.5x off peak 49.8x \u00b7 VWAP lost (was +43.2% above)"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "CHURN", "state": "COOLING", "price": 10.18, "tp": 1.0212932809957385, "note": "pace 1.0x off peak 37.7x"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "CHURN", "price": 11.065, "tp": 10.058542086264495, "note": "10.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.39, "tp": 3.2695657103699896, "note": "sustained 3.3x"}
