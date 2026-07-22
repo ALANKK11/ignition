@@ -829,3 +829,13 @@
 {"ts": "2026-07-22T14:32:00.654420-04:00", "demo": 0, "ticker": "EUSA", "prev_state": "FADING", "state": "RUNNING", "price": 113.65, "tp": 27.040130285427345, "note": "sustained 27.0x"}
 {"ts": "2026-07-22T14:32:00.654420-04:00", "demo": 0, "ticker": "BMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 125.37, "tp": 7.97102966224642, "note": "pace 8.0x and accelerating (1.6x vs prior window) \u00b7 +1.0% in window"}
 {"ts": "2026-07-22T14:32:00.654420-04:00", "demo": 0, "ticker": "OGG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.275, "tp": 9.43275062854935, "note": "sustained 9.4x"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "CLW", "prev_state": "RUNNING", "state": "COOLING", "price": 16.55, "tp": 1.0738805904543953, "note": "pace 1.1x off peak 32.0x"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "RUNNING", "state": "CHURN", "price": 40.91, "tp": 7.296253858132745, "note": "7.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6237, "tp": 30.157305859754626, "note": "pace 30.2x and accelerating (3.5x vs prior window) \u00b7 +5.7% in window"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "BEP", "prev_state": "COOLING", "state": "RUNNING", "price": 32.41, "tp": 1.9073437557109256, "note": "sustained 1.9x"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "EE", "prev_state": "NEW MONEY", "state": "FADING", "price": 39.55, "tp": 0.22993175360645474, "note": "pace 0.2x vs peak 4.0x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "INM", "prev_state": "FADING", "state": "LEAVING", "price": 1.695, "tp": 4.769348546405471, "note": "pace 4.8x off peak 1459.8x \u00b7 VWAP lost (was +3.9% above)"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 125.37, "tp": 3.3116288794841306, "note": "sustained 3.3x"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "CHURN", "state": "COOLING", "price": 29.575, "tp": 0.8787707605748759, "note": "pace 0.9x off peak 23.5x"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "FADING", "state": "CHURN", "price": 11.065, "tp": 9.403007446405041, "note": "9.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "COF", "prev_state": "COOLING", "state": "RUNNING", "price": 201.45, "tp": 2.1630018133943234, "note": "sustained 2.2x"}
