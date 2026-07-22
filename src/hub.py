@@ -179,6 +179,7 @@ function whm(h){if(h==null)return'';const n=Math.max(0,Math.min(5,Math.round(h/2
 const wfb=x=>x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+Math.round(x/1e3)+'k'):('$'+Math.round(x||0));
 function wcard(r){
  const t=r.ticker,dp=r.day_pct,up=(dp||0)>=0,mood=r.mood,ev=r.ev;
+ const hc=MOODC[mood]||(up?'#4ade80':'#f87171');
  let chips='';
  if(mood)chips+=wchip(mood,MOODC[mood]||'#9ca3af');
  if(r.state)chips+=wchip(r.state,STC[r.state]||'#9ca3af');
@@ -189,23 +190,22 @@ function wcard(r){
  if(r.rot)chips+=wchip('rot '+r.rot+'x','#e879f9');
  if(r.headline)chips+=wchip('PR '+(r.pr_ts||''),'#ff5a1f');
  const meta=[];
+ if(dp!=null)meta.push('day '+(dp>=0?'+':'')+(dp*100).toFixed(0)+'%');
  if(r.dollars)meta.push(wfb(r.dollars)+' iex');
  if(r.vs_adv)meta.push(r.vs_adv.toFixed(1)+'x ADV');
  if(r.vs_vwap!=null)meta.push((r.vs_vwap>=0?'above':'BELOW')+' vwap '+
   (r.vs_vwap*100>=0?'+':'')+(r.vs_vwap*100).toFixed(1)+'%');
  if(r.off_hi!=null)meta.push(Math.round(r.off_hi*100)+'% off high');
  if(r.swings)meta.push(r.swings+' swings');
- if(r.path!=null)meta.push(Math.round(r.path*100)+'% traveled');
  const last=(typeof r.last==='number')?r.last.toFixed(3):'—';
- return '<div class="card" style="border-left:3px solid '+
-  (MOODC[mood]||(up?'#4ade80':'#f87171'))+'">'+
+ return '<div class="card sym" id="wc_'+t+'" style="border-left:3px solid '+hc+'">'+
   '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
-  '<span class="score" style="font-size:19px;color:'+(up?'#4ade80':'#f87171')+'">'+
-  (dp!=null?((dp>=0?'+':'')+(dp*100).toFixed(1)+'%'):'—')+'</span>'+whm(r.heat)+
-  '<span class="px">'+last+'</span>'+chips+
+  '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:'+hc+'">'+wesc(mood||'…')+'</span>'+
+  '<span class="px" style="margin-left:auto">'+last+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  ((r.read||r.now_line)?'<div class="note" style="color:#c9ced4;font-size:13.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
-  '<div class="note" id="lv_'+t+'" style="font-size:12.5px"></div>'+
+  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>'+
+  (chips?'<div class="row" style="margin-top:6px">'+chips+'</div>':'')+
+  ((r.read||r.now_line)?'<div class="note" style="color:#8b939c;font-size:12.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
   (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
   (ev?'<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+
    '</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>':'')+
@@ -213,14 +213,14 @@ function wcard(r){
   (r.headline?'<div class="note" style="margin-top:5px;color:#c9ced4">📰 '+wesc(r.headline)+'</div>':'')+
   '</div>'}
 function wmini(t){
- const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;
- return '<div class="card" style="border-left:3px solid #5b636c">'+
+ const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;const hc=v?v[1]:'#5b636c';
+ return '<div class="card sym" id="wc_'+t+'" style="border-left:3px solid '+hc+'">'+
   '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
-  (v?'<span class="score" style="color:'+v[1]+'">'+v[0]+'</span>':'')+
-  (x&&x.last?'<span class="px">'+x.last+'</span>':'')+
-  (x&&x.d!=null?'<span class="px">'+((x.d>=0?'+':'')+(x.d*100).toFixed(1))+'%</span>':'')+
+  '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;color:'+hc+'">'+wesc(v?v[0]:'…')+'</span>'+
+  '<span class="px" style="margin-left:auto">'+((x&&x.last)?x.last:'')+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  '<div class="note">'+(v?wesc(v[2])+' · ':'')+
+  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>'+
+  '<div class="note" style="font-size:12.5px">'+(v?wesc(v[2])+' · ':'')+
   (WDIRTY?'waiting for sync — engine intel follows':'engine picks it up next tick (≤2 min in shift hours)')+'</div></div>'}
 function wrender(){
  const root=$w('wroot');if(!root)return;
@@ -340,6 +340,18 @@ function liveLabel(st,s){
  return ['live: drying up — '+F(s.d30)+'/30s vs '+F(s.best30)+' burst'+
   (down?' · DOWNSHIFT':''),'#fb923c'];
 }
+/* the big word — trade language, the one thing he reads at a glance */
+function liveHead(st,s){
+ var down=s.dPrev>0&&s.d30<s.dPrev*0.5;
+ if(st==='WARM')return ['reading…','#5b636c'];
+ if(st==='SILENT')return ['STALLED','#f87171'];
+ if(st==='FLOW')return ['MONEY IN','#4ade80'];
+ if(st==='MID')return [down?'EASING ↓':'EASING','#facc15'];
+ return [down?'DRAINING ↓':'DRAINING','#fb923c'];  // DRY
+}
+/* rank his names by who's hottest RIGHT NOW — state first (relative to each
+   name's own burst), dollar flow breaks ties. His "relative to the others". */
+function liveScore(st,s){return (LVRANK[st]||0)*1e12+(s.d30||0);}
 /*LIVE-END*/
 var LBUF={},LVS={},lws=null,ltries=0,lsubs=[];
 function lvnote(m,c){const e=$w('lvst');if(e){e.textContent=m;e.style.color=c||'#5b636c'}}
@@ -378,13 +390,26 @@ function lconnect(){
 setInterval(()=>{
  if(!lws||lws.readyState>1)return;
  const now=Date.now();
+ const scored=[];
  wlist().slice(0,8).forEach(t=>{
-  const el=$w('lv_'+t);if(!el)return;
-  const s=liveRead(LBUF[t]||[],now);
-  if(!(LBUF[t]||[]).length){el.textContent='';return}
-  const st=lvSticky(LVS,t,liveState(s),now);
-  const L=liveLabel(st,s);
-  el.textContent=L[0];el.style.color=L[1];});
+  const buf=LBUF[t]||[],line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
+  if(!buf.length){scored.push([t,-1]);return}
+  const s=liveRead(buf,now),st=lvSticky(LVS,t,liveState(s),now);
+  const H=liveHead(st,s),L=liveLabel(st,s);
+  if(head){head.textContent=H[0];head.style.color=H[1]}
+  if(line){line.textContent=L[0];line.style.color=L[1]}
+  if(card)card.style.borderLeftColor=H[1];
+  scored.push([t,liveScore(st,s)]);});
+ // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
+ // the order from churning — only touch the DOM when the sequence changed
+ const root=$w('wroot');
+ if(root&&scored.length){
+  scored.sort((a,b)=>b[1]-a[1]);
+  const want=scored.map(x=>'wc_'+x[0]);
+  const cur=Array.from(root.children).map(c=>c.id);
+  if(want.join()!==cur.join())
+   want.forEach(id=>{const el=$w(id);if(el)root.appendChild(el)});
+ }
 },1000);
 document.addEventListener('visibilitychange',()=>{
  if(!document.hidden&&(!lws||lws.readyState>1))lconnect()});
@@ -684,6 +709,8 @@ def _watch_card(r):
     if r.get("headline"):
         chips += _chip(f'PR {r.get("pr_ts") or ""}', "#ff5a1f")
     meta = []
+    if dp is not None:
+        meta.append(f'day {dp * 100:+.0f}%')
     if r.get("dollars"):
         meta.append(f'${fmt_big(r["dollars"])} iex')
     if r.get("vs_adv"):
@@ -695,17 +722,21 @@ def _watch_card(r):
         meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
     if r.get("swings"):
         meta.append(f'{r["swings"]} swings')
-    if r.get("path") is not None:
-        meta.append(f'{r["path"] * 100:.0f}% traveled')
     last = f'{r["last"]:.3f}' if isinstance(r.get("last"), (int, float)) else "—"
     ev = r.get("ev")
     nl = r.get("read") or r.get("now_line")
-    return f"""<div class="card" style="border-left:3px solid {MOOD_HEX.get(mood, '#4ade80' if up else '#f87171')}">
+    hc = MOOD_HEX.get(mood, "#4ade80" if up else "#f87171")
+    # The LIVE per-second read is the headline (filled by the stream on his
+    # phone); mood is the fallback until the first print lands. The day
+    # number is demoted to a footnote — at his cadence it's context, not
+    # signal (his words, 2026-07-22: "who cares what it's like today").
+    return f"""<div class="card sym" id="wc_{t}" style="border-left:3px solid {hc}">
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
-<span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{f'{dp * 100:+.1f}%' if dp is not None else '—'}</span>
-{_heat_meter(r.get("heat"))}
-<span class="px">{last}</span>{chips}</div>
-{f'<div class="note" style="color:#c9ced4;font-size:13.5px">{html.escape(nl)}</div>' if nl else ''}
+<span class="vhead" id="lvh_{t}" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:{hc}">{html.escape(mood or "…")}</span>
+<span class="px" style="margin-left:auto">{last}</span></div>
+<div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>
+{f'<div class="row" style="margin-top:6px">{chips}</div>' if chips else ''}
+{f'<div class="note" style="color:#8b939c;font-size:12.5px">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
 {f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b><span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>' if ev else ''}
 {f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
@@ -952,6 +983,8 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
         wl = load_watchlist(cfg)
     except Exception:
         wl = []
+    if demo:                     # demo is self-contained: use its planted list
+        wl = (ws or {}).get("tickers") or wl
     ext = _load(os.path.join(sdir, "latest_ext.json"))
     if ext and ext.get("v") != STATE_V:
         ext = None

@@ -27,7 +27,7 @@ console.log('hub sink audit OK (api.github.com + alpaca stream only)');
 
 // live strip: pure-function behavior
 const live = script.split('/*LIVE-BEGIN*/')[1].split('/*LIVE-END*/')[0];
-const L = new Function(live + '; return {liveRead, liveState, lvSticky, liveLabel};')();
+const L = new Function(live + '; return {liveRead, liveState, lvSticky, liveLabel, liveHead, liveScore};')();
 const now = 10_000_000;
 // steady flow: $200 every 2s for 10 min -> FLOW
 let buf = [];
@@ -53,5 +53,12 @@ console.assert(outs.every(o => o === 'FLOW'), 'live sticky no flicker: ' + outs)
 // but 5s of persistent MID degrades
 L.lvSticky(st, 'X', 'MID', now + 10000);
 console.assert(L.lvSticky(st, 'X', 'MID', now + 15000) === 'MID', 'persistent MID flips');
-console.log('live strip OK');
+// headline is trade language; DRY with downshift shows the arrow
+console.assert(L.liveHead('FLOW', s)[0] === 'MONEY IN', 'FLOW head');
+console.assert(L.liveHead('SILENT', s3)[0] === 'STALLED', 'SILENT head');
+console.assert(/DRAINING/.test(L.liveHead('DRY', s2)[0]), 'DRY head');
+// ranking: a MONEY-IN name outranks a DRAINING one regardless of size
+console.assert(L.liveScore('FLOW', {d30: 1}) > L.liveScore('DRY', {d30: 1e9}),
+  'state ranks above raw dollars');
+console.log('live strip + ranking OK');
 console.log('ALL HUB JS TESTS PASS');
