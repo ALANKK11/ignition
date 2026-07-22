@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-22T08:43:14-04:00", "session": "pre", "rows": [{"ticker": "LABT", "last": 6.41, "gap": 2.1795, "dollars": 294725.24, "vs_adv": 83.61, "new": false}, {"ticker": "INM", "last": 1.98, "gap": 0.4142, "dollars": 102029.5, "vs_adv": 25.85, "new": true}]}
+{"v": 4, "ts": "2026-07-22T08:46:59-04:00", "session": "pre", "rows": [{"ticker": "LABT", "last": 6.72, "gap": 2.2157, "dollars": 319728.24, "vs_adv": 89.68, "new": false}, {"ticker": "INM", "last": 2.02, "gap": 0.4102, "dollars": 107884.12, "vs_adv": 27.41, "new": false}]}
