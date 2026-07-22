@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta http-equiv="refresh" content="300">
+<meta http-equiv="refresh" content="150">
 <meta name="theme-color" content="#0b0d10">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon.svg">
@@ -40,6 +40,9 @@ padding:2px 7px;border-radius:999px;border:1px solid}
 .foot{color:var(--mut);font-size:11px;margin-top:26px;line-height:1.6}
 .stale{background:#3a1d12;border:1px solid #7a3010;color:#ffb08c;border-radius:10px;
 padding:8px 12px;font-size:12.5px;margin-bottom:10px}
+.tapelink{display:block;margin:12px 0 0;padding:11px 14px;border-radius:12px;
+background:linear-gradient(135deg,#2a1408,#1b0f08);border:1px solid #7a3010;
+color:#ffb08c;font-size:13.5px;font-weight:700;text-decoration:none}
 .pulse{margin:12px 0 6px}
 .pulse input{width:100%;background:var(--card);border:1px solid var(--edge);
 border-radius:12px;color:var(--tx);font-family:inherit;font-size:16px;
@@ -54,73 +57,132 @@ text-transform:none}
 <div class="sub">updated <span id="ago" data-ts="2026-07-22T09:40:14-04:00">…</span> ·
 auto-refreshes · live shift 7am–7pm (~45s) · scan 9:15pm + 7:45am ET
  · <b style='color:#4ade80'>alpaca-iex</b></div>
+<a class="tapelink" href="tape.html">&#9889; LIVE TAPE &mdash; second-by-second
+drain meter for names you&rsquo;re holding</a>
 <div class="pulse"><input id="pq" placeholder="type a ticker — hot or not?"
 autocomplete="off" autocorrect="off" autocapitalize="characters"
 spellcheck="false" maxlength="6" enterkeyhint="search"></div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
-<h2 style="color:#ff5a1f;font-size:13px">Live board · 09:41 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
+<h2 style="color:#ff5a1f;font-size:13px">Live board · 09:43 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">LABT</span>
-<span class="score" style="font-size:19px;color:#4ade80">+222%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+208%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">100</span>
-<span class="px">5.79</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$688K</span><span>189.5x ADV</span><span>-14% off high</span><span>12 swings</span><span>387% traveled</span><span>since 08:24</span></div>
+<span class="px">5.55</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$688K</span><span>189.5x ADV</span><span>-14% off high</span><span>13 swings</span><span>398% traveled</span><span>since 08:24</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">INM</span>
 <span class="score" style="font-size:19px;color:#4ade80">+39%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">96</span>
 <span class="px">2.08</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$249K</span><span>65.0x ADV</span><span>-11% off high</span><span>4 swings</span><span>170% traveled</span><span>since 08:43</span></div>
+<div class="meta"><span>$249K</span><span>65.0x ADV</span><span>-11% off high</span><span>4 swings</span><span>173% traveled</span><span>since 08:43</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">ZCMD</span>
 <span class="score" style="font-size:19px;color:#4ade80">+96%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▱</span><span class="px" style="margin-left:4px">89</span>
 <span class="px">2.88</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
 <div class="meta"><span>$138K</span><span>1.3x ADV</span><span>+0% off high</span><span>4 swings</span><span>124% traveled</span><span>since 09:16</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">CBRG</span>
-<span class="score" style="font-size:19px;color:#4ade80">+16%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">28</span>
-<span class="px">5.51</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$124K</span><span>0.4x ADV</span><span>-1% off high</span><span>25% traveled</span><span>since 09:40</span></div>
+<span class="score" style="font-size:19px;color:#4ade80">+18%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">30</span>
+<span class="px">5.63</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$124K</span><span>0.4x ADV</span><span>-1% off high</span><span>26% traveled</span><span>since 09:40</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">ADTN</span>
-<span class="score" style="font-size:19px;color:#f87171">-18%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">13</span>
-<span class="px">9.97</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$303K</span><span>0.4x ADV</span><span>-1% off high</span><span>10% traveled</span><span>since 09:32</span></div>
+<span class="score" style="font-size:19px;color:#f87171">-17%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">17</span>
+<span class="px">10.07</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$303K</span><span>0.4x ADV</span><span>-1% off high</span><span>12% traveled</span><span>since 09:32</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">SMCX</span>
-<span class="score" style="font-size:19px;color:#4ade80">+37%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">12</span>
-<span class="px">8.88</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$119K</span><span>0.5x ADV</span><span>-0% off high</span><span>11% traveled</span><span>since 09:36</span></div>
+<span class="score" style="font-size:19px;color:#4ade80">+39%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">14</span>
+<span class="px">8.99</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$119K</span><span>0.5x ADV</span><span>-0% off high</span><span>12% traveled</span><span>since 09:36</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">SMCI</span>
-<span class="score" style="font-size:19px;color:#4ade80">+19%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">10</span>
-<span class="px">30.40</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$17.6M</span><span>0.3x ADV</span><span>+0% off high</span><span>8% traveled</span><span>since 09:36</span></div>
+<span class="score" style="font-size:19px;color:#4ade80">+20%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">12</span>
+<span class="px">30.57</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$17.6M</span><span>0.3x ADV</span><span>+0% off high</span><span>9% traveled</span><span>since 09:36</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">ARWR</span>
 <span class="score" style="font-size:19px;color:#4ade80">+19%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">5</span>
-<span class="px">88.92</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<span class="px">88.95</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
 <div class="meta"><span>$2.8M</span><span>0.3x ADV</span><span>-2% off high</span><span>6% traveled</span><span>since 09:32</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">JZXN</span>
 <span class="score" style="font-size:19px;color:#f87171">-32%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">2</span>
 <span class="px">1.32</span></div>
 <div class="meta"><span>$119K</span><span>2.5x ADV</span><span>-32% off high</span><span>since 09:32</span></div>
-</div><h2>Transitions today</h2><div class="card"><div class="ev">09:40 &nbsp;<b>XXI</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:36 &nbsp;<b>OBE</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:36 &nbsp;<b>MGY</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:33 &nbsp;<b>BLKB</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Blackbaud Announces New Agents for Good™, Embedded AI Capabilities for a Reimagined Cloud-Native, AI-First Connected Pla</div><div class="ev">09:27 &nbsp;<b>CPHI</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; China Pharma Announces Pricing of $5 Million Registered Direct Offering</div><div class="ev">09:25 &nbsp;<b>ALSN</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Allison Transmission to Supply Fully Automatic Transmissions to General Dynamics European Land Systems for EAGLE Series </div><div class="ev">09:16 &nbsp;<b>ZCMD</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +56% on $0.07M ext tape</div><div class="ev">09:10 &nbsp;<b>HIHO</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; HIGHWAY HOLDINGS SIGNS LOI TO LAUNCH MAJORITY-OWNED ENERGY STORAGE VENTURE WITH WOWTIGER BRAND OWNER HUAHU</div><div class="ev">09:03 &nbsp;<b>WDAY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Workday Learning, Powered by Sana, Now Generally Available as an AI-Native Learning Experience Built on Workday&#x27;s Truste</div><div class="ev">09:01 &nbsp;<b>KD</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Arizona Counties and Kyndryl Strengthen Community Re‑entry Services</div><div class="ev">09:01 &nbsp;<b>HUHU</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; HUHUTECH Begins Construction on Fourth Arizona Semiconductor Facility Project as First Three Projects Remain on Track fo</div><div class="ev">08:43 &nbsp;<b>INM</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +41% on $0.10M ext tape</div></div><h2>Tonight&rsquo;s setups · forecast for 2026-07-22 · not today&rsquo;s movers</h2><div class="card">
-<div class="row"><span class="px">#1</span><span class="tk">CPHI</span>
-<span class="score" style="color:#facc15">48.2</span>
-<span class="px">8.10</span><span class="up">+790.1%</span><span class="px">PM</span><span class="dn">-14.1%</span>
-<span class="px">13.5x</span></div>
-<div class="bar"><i style="width:48%"></i></div>
-<div class="row" style="margin-top:7px"><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">PM -14.1%</span> <span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">IGNITED 13.5x</span> <span class="chip" style="color:#4ade80;border-color:#4ade8055;background:#4ade8014">20D HIGH</span></div>
-<div class="note">rvol · atr_expansion · breakout</div></div><h2>Self-audit · rank IC per scan</h2><div class="quiet">no graded scans yet — each forecast is scored against the next session&rsquo;s realized tape, so the first grades land after tomorrow&rsquo;s close</div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
+</div><h2>Transitions today</h2><div class="card"><div class="ev">09:40 &nbsp;<b>XXI</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:36 &nbsp;<b>OBE</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:36 &nbsp;<b>MGY</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:33 &nbsp;<b>BLKB</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Blackbaud Announces New Agents for Good™, Embedded AI Capabilities for a Reimagined Cloud-Native, AI-First Connected Pla</div><div class="ev">09:27 &nbsp;<b>CPHI</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; China Pharma Announces Pricing of $5 Million Registered Direct Offering</div><div class="ev">09:25 &nbsp;<b>ALSN</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Allison Transmission to Supply Fully Automatic Transmissions to General Dynamics European Land Systems for EAGLE Series </div><div class="ev">09:16 &nbsp;<b>ZCMD</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +56% on $0.07M ext tape</div><div class="ev">09:10 &nbsp;<b>HIHO</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; HIGHWAY HOLDINGS SIGNS LOI TO LAUNCH MAJORITY-OWNED ENERGY STORAGE VENTURE WITH WOWTIGER BRAND OWNER HUAHU</div><div class="ev">09:03 &nbsp;<b>WDAY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Workday Learning, Powered by Sana, Now Generally Available as an AI-Native Learning Experience Built on Workday&#x27;s Truste</div><div class="ev">09:01 &nbsp;<b>KD</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Arizona Counties and Kyndryl Strengthen Community Re‑entry Services</div><div class="ev">09:01 &nbsp;<b>HUHU</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; HUHUTECH Begins Construction on Fourth Arizona Semiconductor Facility Project as First Three Projects Remain on Track fo</div><div class="ev">08:43 &nbsp;<b>INM</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +41% on $0.10M ext tape</div></div><h2>Tonight&rsquo;s setups · forecast for 2026-07-23 · not today&rsquo;s movers</h2><div class="card">
+<div class="row"><span class="px">#1</span><span class="tk">LABT</span>
+<span class="score" style="color:#f87171">64.4</span>
+<span class="px">4.88</span><span class="up">+162.4%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">158.5x</span></div>
+<div class="bar"><i style="width:64%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">IGNITED 158.5x</span> <span class="chip" style="color:#4ade80;border-color:#4ade8055;background:#4ade8014">20D HIGH</span></div>
+<div class="note">rvol · atr_expansion · breakout</div></div><div class="card">
+<div class="row"><span class="px">#2</span><span class="tk">INM</span>
+<span class="score" style="color:#f87171">61.4</span>
+<span class="px">2.01</span><span class="up">+30.3%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">1101.2x</span></div>
+<div class="bar"><i style="width:61%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">IGNITED 1101.2x</span> <span class="chip" style="color:#4ade80;border-color:#4ade8055;background:#4ade8014">20D HIGH</span></div>
+<div class="note">rvol · atr_expansion · breakout</div></div><div class="card">
+<div class="row"><span class="px">#3</span><span class="tk">ZCMD</span>
+<span class="score" style="color:#facc15">52.8</span>
+<span class="px">4.18</span><span class="up">+184.3%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">8.4x</span></div>
+<div class="bar"><i style="width:53%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">IGNITED 8.4x</span> <span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">SQUEEZE 33%SI</span> <span class="chip" style="color:#4ade80;border-color:#4ade8055;background:#4ade8014">20D HIGH</span></div>
+<div class="note">rvol · breakout · short_fuel</div></div><div class="card">
+<div class="row"><span class="px">#4</span><span class="tk">CPF</span>
+<span class="score" style="color:#facc15">46.1</span>
+<span class="px">38.82</span><span class="dn">-0.7%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">0.0x</span></div>
+<div class="bar"><i style="width:46%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">EARNINGS Jul 23</span> <span class="chip" style="color:#22d3ee;border-color:#22d3ee55;background:#22d3ee14">COILED</span> <span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">IV 101%</span></div>
+<div class="note">catalyst · squeeze · options_heat</div></div><div class="card">
+<div class="row"><span class="px">#5</span><span class="tk">FSBC</span>
+<span class="score" style="color:#facc15">45.5</span>
+<span class="px">48.79</span><span class="dn">-1.1%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">0.0x</span></div>
+<div class="bar"><i style="width:46%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">EARNINGS Jul 22</span> <span class="chip" style="color:#22d3ee;border-color:#22d3ee55;background:#22d3ee14">COILED</span> <span class="chip" style="color:#22d3ee;border-color:#22d3ee55;background:#22d3ee14">NR7</span> <span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">IV 102%</span></div>
+<div class="note">catalyst · squeeze · options_heat</div></div><div class="card">
+<div class="row"><span class="px">#6</span><span class="tk">AMAL</span>
+<span class="score" style="color:#facc15">43.6</span>
+<span class="px">47.19</span><span class="dn">-0.8%</span><span class="px">AH</span><span class="px">--</span>
+<span class="px">0.0x</span></div>
+<div class="bar"><i style="width:44%"></i></div>
+<div class="row" style="margin-top:7px"><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">EARNINGS Jul 23</span> <span class="chip" style="color:#22d3ee;border-color:#22d3ee55;background:#22d3ee14">COILED</span> <span class="chip" style="color:#22d3ee;border-color:#22d3ee55;background:#22d3ee14">NR7</span> <span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">IV 72%</span></div>
+<div class="note">catalyst · squeeze · options_heat</div></div><h2>Self-audit · rank IC per scan</h2><div class="audit"><div class="card"><div class="px">2026-07-22</div>
+<div class="big" style="color:#5b636c">·&nbsp;·&nbsp;·</div>
+<div class="px">grades after close</div></div><div class="card"><div class="px">2026-07-21</div>
+<div class="big" style="color:#4ade80">+0.04</div>
+<div class="px">IC · edge 2.4x</div></div></div>
 <div class="foot">The <b>board</b> is live tape ranked by tradable travel. <b>Tonight&rsquo;s
 setups</b> below it is a next-day forecast — a different thing, and never a list of
 today&rsquo;s movers. IGNITION ranks expected <b>activity</b>, not direction. Not investment
