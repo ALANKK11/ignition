@@ -225,3 +225,10 @@
 {"ts": "2026-07-22T11:38:54.926065-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.085, "tp": 4.105691876508073, "note": "sustained 4.1x"}
 {"ts": "2026-07-22T11:38:54.926065-04:00", "demo": 0, "ticker": "WASH", "prev_state": "QUIET", "state": "NEW MONEY", "price": 38.1, "tp": 2.1515743046334705, "note": "quiet open (1.2x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-22T11:38:54.926065-04:00", "demo": 0, "ticker": "BUG", "prev_state": "RUNNING", "state": "COOLING", "price": 38.305, "tp": 1.5597455959639852, "note": "pace 1.6x off peak 4.5x"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "FADING", "price": 25.15, "tp": 0.9080494765483608, "note": "pace 0.9x vs peak 3.2x \u00b7 -2.7% off HOD \u00b7 chart still +20% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "APPN", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.45, "tp": 3.4487070495607735, "note": "sustained 3.4x"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "CHURN", "state": "RUNNING", "price": 3.5, "tp": 2.0463392876122484, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "RUNNING", "state": "LEAVING", "price": 10.235, "tp": 30.155458250985696, "note": "pace 30.2x off peak 63.6x \u00b7 VWAP lost (was +6.8% above)"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "COOLING", "state": "QUIET", "price": 4.555, "tp": 1.6587020749859362, "note": ""}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.72, "tp": 2.4973164375973407, "note": "sustained 2.5x"}
+{"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.075, "tp": 4.771651759678119, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 -0.7% in window"}
