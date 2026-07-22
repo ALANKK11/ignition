@@ -265,6 +265,24 @@ def cmd_scan(args):
         if is_deal_pin(r["metrics"]):
             r["metrics"]["_pin"] = True
             r["score"] *= 0.30      # correct data, dead setup — bury it
+    if not args.demo and cfg["scan"].get("dilution_check"):
+        # a forecast pick with an offering printing is a trap, not a setup
+        try:
+            from src import intel as _intel
+            _dc, _sd = {}, cfg["_paths"]["state"]
+            _now = ny_now()
+            _mult = {"FRESH PAPER": cfg["scan"]["dil_mult_fresh"],
+                     "S-1 PENDING": cfg["scan"]["dil_mult_s1"],
+                     "OPEN SHELF": cfg["scan"]["dil_mult_shelf"]}
+            for r in sorted(candidates.values(), key=lambda x: x["score"],
+                            reverse=True)[:25]:
+                d = _intel.dilution(r["ticker"], _sd, _now, _dc)
+                m = _mult.get(d["grade"])
+                if m:
+                    r["score"] *= m
+                    r["metrics"]["_dil"] = f'{d["grade"]}: {d["why"]}'
+        except Exception as e:
+            console.print(f"[yellow]dilution check skipped: {e}[/yellow]")
     ranked = sorted(candidates.values(), key=lambda r: r["score"], reverse=True)
     for r in ranked:
         r["drivers"] = top_drivers(r["contrib"])
@@ -513,6 +531,14 @@ def cmd_flow(args):
                         {r["ticker"]: r for r in rows})
                     flow_alpaca.dump_pulse_state(sdir, now, radar_rows,
                                                  _board, cfg.get("pulse"))
+                    try:
+                        from src import intel
+                        intel.refresh_intel(sdir, now, _board,
+                                            cfg.get("intel"),
+                                            log=lambda m: console.print(
+                                                f"[dim]intel: {m}[/dim]"))
+                    except Exception as e:
+                        console.print(f"[yellow]intel skipped: {e}[/yellow]")
                     with open(store_path, "w") as f:
                         json.dump(store, f)
                     tick += 1

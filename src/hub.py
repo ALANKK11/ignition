@@ -13,6 +13,8 @@ import html
 import json
 import os
 
+from .intel import edge_verdict, ext_of, rot_of
+from .tape import TAPE_HTML
 from .util import NY, fmt_big
 
 TAG_HEX = {"bold magenta": "#e879f9", "magenta": "#e879f9", "cyan": "#22d3ee",
@@ -62,6 +64,9 @@ padding:2px 7px;border-radius:999px;border:1px solid}
 .foot{color:var(--mut);font-size:11px;margin-top:26px;line-height:1.6}
 .stale{background:#3a1d12;border:1px solid #7a3010;color:#ffb08c;border-radius:10px;
 padding:8px 12px;font-size:12.5px;margin-bottom:10px}
+.tapelink{display:block;margin:12px 0 0;padding:11px 14px;border-radius:12px;
+background:linear-gradient(135deg,#2a1408,#1b0f08);border:1px solid #7a3010;
+color:#ffb08c;font-size:13.5px;font-weight:700;text-decoration:none}
 .pulse{margin:12px 0 6px}
 .pulse input{width:100%;background:var(--card);border:1px solid var(--edge);
 border-radius:12px;color:var(--tx);font-family:inherit;font-size:16px;
@@ -281,8 +286,15 @@ def _board_section(bd, closed_now, stale_day=None):
     if stale_day:
         label = f"Last board · {stale_day} {SESSION_LABEL.get(bd.get('session'), '')}"
     cards = []
+    intel = _INTEL.get("cur") or {}
     for r in bd["rows"]:
         up = r["move"] > 0
+        _dil = (intel.get("dil") or {}).get(r["ticker"])
+        _hl = (intel.get("halts_by") or {}).get(r["ticker"])
+        _rot = rot_of((intel.get("flo") or {}).get(r["ticker"]) or {})
+        ev_w, ev_c, ev_y = edge_verdict(r, _dil, _hl, _rot)
+        if r.get("ssr"):
+            ev_y = (ev_y + " · SSR on").strip(" ·")
         chips = ""
         if r.get("new"):
             chips += _chip("NEW", "#ff5a1f")
@@ -312,6 +324,8 @@ def _board_section(bd, closed_now, stale_day=None):
 {_heat_meter(r.get("heat"))}
 <span class="px">{r["last"]:.2f}</span>{chips}</div>
 <div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>
+<div class="note" style="margin-top:4px"><b style="color:{ev_c}">{ev_w}</b>
+<span style="color:#8b939c"> — {html.escape(ev_y)}</span></div>
 {f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}'
  + ("".join(" " + _chip(fl, "#f87171" if fl.startswith("⚠") else "#8b939c")
             for fl in (r.get("flags") or [])[:3])) + "</div>"
@@ -322,6 +336,38 @@ def _board_section(bd, closed_now, stale_day=None):
             'actually trade (one-print gaps score ~0), swing count, and whether '
             'it&rsquo;s moving RIGHT NOW</div>'
             + "".join(cards))
+
+
+_INTEL = {"cur": None}
+
+
+def _halt_section(intel):
+    if not intel:
+        return ""
+    today = intel.get("halts_today") or []
+    if not today:
+        return ""
+    code_hex = {"LUDP": "#fb923c", "LUDS": "#fb923c", "T1": "#60a5fa",
+                "T2": "#60a5fa", "T3": "#60a5fa", "T12": "#f87171",
+                "H10": "#f87171", "H11": "#f87171"}
+    by = intel.get("halts_by") or {}
+    rows = []
+    for i in reversed(today[-14:]):          # newest first
+        n = (by.get(i["sym"]) or {}).get("n", 1)
+        bits = [f'<span class="tk">{html.escape(i["sym"])}</span>',
+                _chip(i["code"], code_hex.get(i["code"], "#9ca3af")),
+                f'<span class="px">{i.get("hm") or ""}</span>']
+        if i.get("thr"):
+            bits.append(f'<span class="px">thr {html.escape(i["thr"])}</span>')
+        bits.append(f'<span class="px">{"resumes " + i["res_t"] if i.get("res_t") else "HALTED"}</span>')
+        if n >= 3:
+            bits.append(_chip(f"×{n} EXHAUSTION?", "#f87171"))
+        elif n > 1:
+            bits.append(_chip(f"×{n}", "#facc15"))
+        rows.append('<div class="row" style="margin:5px 0">' + "".join(bits)
+                    + '</div>')
+    return ('<h2>HALT RADAR · every LULD pause is a ±10%-in-5-min move</h2>'
+            '<div class="card">' + "".join(rows) + '</div>')
 
 
 def _ext_section(ext):
@@ -419,6 +465,10 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     mv = _load(os.path.join(sdir, "latest_movers.json"))
     if mv and mv.get("v") != STATE_V:
         mv = None                        # written by old code — never render
+    intel = _load(os.path.join(sdir, "latest_intel.json"))
+    if intel and intel.get("v") != STATE_V:
+        intel = None
+    _INTEL["cur"] = intel
     pulse = _load(os.path.join(sdir, "latest_pulse.json"))
     if pulse and pulse.get("v") != STATE_V:
         pulse = None                     # written by old code — never serve
@@ -469,7 +519,8 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                       f'are the session&rsquo;s last readings ({flow["ts"][11:16]} ET)</div>')
     is_closed = bool(closed)
     if bd:
-        body = (_board_section(bd, is_closed, bd_stale) + closed
+        body = (_board_section(bd, is_closed, bd_stale) + _halt_section(intel)
+                + closed
                 + _transitions_only(events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
@@ -479,13 +530,14 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
     else:
-        body = (_ext_section(ext) + _movers_section(mv) + closed
+        body = (_ext_section(ext) + _movers_section(mv) + _halt_section(intel)
+                + closed
                 + _flow_section(flow, events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta http-equiv="refresh" content="300">
+<meta http-equiv="refresh" content="150">
 <meta name="theme-color" content="#0b0d10">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon.svg">
@@ -494,6 +546,8 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
 <div class="sub">updated <span id="ago" data-ts="{ts_iso}">…</span> ·
 auto-refreshes · live shift 7am–7pm (~45s) · scan 9:15pm + 7:45am ET
 {f" · <b style='color:#4ade80'>{html.escape(flow['provider'])}</b>" if flow else ""}</div>
+<a class="tapelink" href="tape.html">&#9889; LIVE TAPE &mdash; second-by-second
+drain meter for names you&rsquo;re holding</a>
 <div class="pulse"><input id="pq" placeholder="type a ticker \u2014 hot or not?"
 autocomplete="off" autocorrect="off" autocapitalize="characters"
 spellcheck="false" maxlength="6" enterkeyhint="search"></div>
@@ -511,6 +565,8 @@ advice.</div>
     if pulse:
         with open(os.path.join(out_dir, "pulse.json"), "w") as f:
             json.dump(pulse, f, separators=(",", ":"))
+    with open(os.path.join(out_dir, "tape.html"), "w") as f:
+        f.write(TAPE_HTML)
     with open(os.path.join(out_dir, "manifest.webmanifest"), "w") as f:
         json.dump({"name": "IGNITION", "short_name": "IGNITION",
                    "start_url": "./", "display": "standalone",

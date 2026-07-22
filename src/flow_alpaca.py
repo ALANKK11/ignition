@@ -109,6 +109,8 @@ def radar_scan(ap: AlpacaData, base: dict, now: dt.datetime,
             rows.append({"ticker": sym, "pace": pace, "last": px,
                          "day_pct": px / pc - 1.0, "dollar_day": v * px,
                          "vs_adv": v / adv, "range_pct": rngp,
+                         "open": float(day.get("o") or 0) or None,
+                         "ssr": bool(lod and lod <= 0.9 * pc),
                          "off_hi": (px / hod - 1.0) if hod else None})
         except Exception:
             continue
@@ -388,6 +390,8 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
             "vs_adv": r.get("vs_adv"),
             "off_hi": r.get("off_hi"),
             "state": st.get("state") or r.get("state"),
+            "open": r.get("open"), "ssr": bool(r.get("ssr")),
+            "vs_vwap": st.get("vs_vwap", r.get("vs_vwap")),
             "tp": st.get("tp"),
             "hot": bool(r.get("hot") or (st.get("tp") or 0) >= 2.5),
             "pin": bool(r.get("pin")),
@@ -528,7 +532,35 @@ def fast_update(ap: AlpacaData, base: dict, sdir: str, now: dt.datetime,
         return False
     assemble_board(sdir, now, board.get("session") or "rth", rows,
                    states=None)
+    refresh_pulse_from_board(sdir, now)
     return True
+
+
+def refresh_pulse_from_board(sdir: str, now: dt.datetime):
+    """45-second lane: splice the just-refreshed board rows into the last
+    pulse dump and bump its timestamp, so the phone's hot-or-not answer for
+    tracked names is never older than the fast tick. Full-market rows keep
+    their last full-tick values — refreshing 11k names every 45s would be
+    two more API calls for nothing."""
+    p = _load(os.path.join(sdir, "latest_pulse.json"))
+    board = _load(os.path.join(sdir, "latest_board.json"))
+    if not p or p.get("v") != STATE_V or not board:
+        return
+    idx = {r[0]: i for i, r in enumerate(p["rows"])}
+    for b in board.get("rows", []):
+        row = [b["ticker"], round(float(b.get("last") or 0), 3),
+               round(float(b.get("move") or 0), 3), int(b.get("dollars") or 0),
+               None, None, b.get("off_hi"), b.get("heat"), b.get("swings"),
+               b.get("state"), b.get("first_seen")]
+        i = idx.get(b["ticker"])
+        if i is None:
+            p["rows"].append(row)
+        else:                              # keep radar pace/range from full tick
+            old = p["rows"][i]
+            row[4], row[5] = old[4], old[5]
+            p["rows"][i] = row
+    p["ts"] = now.isoformat(timespec="seconds")
+    _save(os.path.join(sdir, "latest_pulse.json"), p)
 
 
 # ---------------------------------------------------------------------------

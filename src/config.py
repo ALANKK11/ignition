@@ -36,6 +36,10 @@ DEFAULTS = {
         "workers": 6,             # enrichment thread pool
         "capacity_full_below": 5_000_000,   # $ADV at/below this keeps full score
         "capacity_floor": 0.35,             # score mult at the ADV ceiling
+        "dilution_check": True,   # EDGAR pass on the scan's top names
+        "dil_mult_fresh": 0.45,   # 424B*/S-1 this week: shares selling NOW
+        "dil_mult_s1": 0.80,
+        "dil_mult_shelf": 0.85,   # effective S-3: can sell into strength
     },
     "weights": {
         "rvol": 2.2,              # today's volume vs 20d average (log-scaled)
@@ -58,7 +62,7 @@ DEFAULTS = {
         "ext_min_dollar": 50000, "ext_min_shares": 2500,
         "ext_min_minutes": 5, "ext_min_frac_adv": 0.005,
         "ext_ghost_adv_dollar": 10000, "ext_top": 20,
-        "mover_min_move": 0.15, "mover_min_dollar": 75000,
+        "mover_min_move": 0.10, "mover_min_dollar": 75000,
         "fast_sec": 45, "full_sec": 160,
         "mover_min_pace": 1.3, "mover_top": 15,
     },
@@ -70,6 +74,11 @@ DEFAULTS = {
             "https://www.prnewswire.com/rss/news-releases-list.rss",
             "https://www.accesswire.com/rss/latest.xml",
         ],
+    },
+    "intel": {
+        "max_lookups": 15,        # EDGAR/float lookups per tick (board names)
+        "dil_ttl_h": 6,           # dilution grade cache
+        "float_ttl_h": 24,        # float cache
     },
     "pulse": {
         "min_dollar": 25_000,      # include if |move|>=min_move and $ tape >= this

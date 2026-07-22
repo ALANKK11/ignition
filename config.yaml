@@ -25,6 +25,12 @@ scan:
   show_top: 25
   control_sample: 25             # random names journaled as a baseline
   workers: 6
+  capacity_full_below: 5000000   # $ADV at/below this keeps full scan score
+  capacity_floor: 0.35           # score mult at the ADV ceiling
+  dilution_check: true           # EDGAR pass on the scan's top names
+  dil_mult_fresh: 0.45           # 424B*/S-1 this week: shares selling NOW
+  dil_mult_s1: 0.80
+  dil_mult_shelf: 0.85           # effective S-3: can sell into strength
 
 weights:
   rvol: 2.2                      # today's volume vs 20d average (log-scaled)
@@ -37,6 +43,11 @@ weights:
   catalyst: 2.2                  # earnings tonight / tomorrow (0.35 if this week)
   short_fuel: 1.1                # short % float + days-to-cover, momentum-gated
   options_heat: 1.0              # ATM IV level + IV/realized ratio
+
+intel:                           # halts + EDGAR + float layer
+  max_lookups: 15                # EDGAR/float lookups per tick (board names)
+  dil_ttl_h: 6
+  float_ttl_h: 24
 
 pulse:                           # hot-or-not lookup coverage (docs/pulse.json)
   min_dollar: 25000              # include if |move|>=min_move and $ tape >= this
@@ -53,6 +64,7 @@ thresholds:
   dtc_full: 10.0
 
 flow:
+  mover_min_move: 0.10           # his spec: >10% swings, any direction
   window_min: 15                 # trailing participation window
   refresh_sec: 75                # live refresh cadence (Yahoo 1m lags ~1-2min)
   monitor_cap: 60

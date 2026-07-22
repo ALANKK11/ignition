@@ -1,0 +1,274 @@
+"""TAPE — the live lane. The board/pulse lane goes data -> Actions -> commit
+-> Pages -> phone refresh: minutes, floor ~1-2 min, physically incapable of
+"did the money dry up in the last 10-30 seconds". So TAPE inverts it: the
+PAGE opens a websocket from the phone straight to Alpaca's free IEX stream
+and computes rolling 10s/30s/60s/5m dollar-flow per watched name on-device,
+re-evaluated every second. GitHub only ever serves the static HTML.
+
+SECURITY (repo is PUBLIC): API keys are entered on the phone and live in
+localStorage ONLY. They are never committed, never in any state file, never
+in this repo. Future instances: keep it that way.
+
+HONESTY: this reads the IEX tape (~a few % of consolidated volume). On names
+where IEX prints are sparse the meter says THIN TAPE instead of guessing —
+the ghost-liquidity lesson (failure log 3) applies doubly at 1-second scale.
+"""
+
+TAPE_HTML = r"""<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0d10"><title>IGNITION TAPE</title>
+<link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon.svg">
+<style>
+:root{--bg:#0b0d10;--card:#14181d;--edge:#242a31;--tx:#e7e9ec;--dim:#8b939c;
+--mut:#5b636c;--hot:#ff5a1f;--ok:#4ade80;--bad:#f87171;--warn:#facc15;--org:#fb923c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font:15px/1.45 -apple-system,
+BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:14px 12px 70px;
+max-width:640px;margin:0 auto;-webkit-font-smoothing:antialiased}
+h1{font-size:20px;letter-spacing:.06em}h1 s{color:var(--hot);text-decoration:none}
+.sub{color:var(--dim);font-size:12px;margin-top:2px;display:flex;gap:8px;align-items:center}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mut);flex:none}
+.dot.live{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.dot.mid{background:var(--warn)}.dot.bad{background:var(--bad)}
+a{color:var(--dim)} .card{background:var(--card);border:1px solid var(--edge);
+border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.note{color:var(--dim);font-size:12.5px;margin-top:4px}
+.banner{background:#14181d;border:1px solid #242a31;color:#8b939c;border-radius:10px;
+padding:8px 12px;font-size:12.5px;margin:10px 0}
+.err{background:#3a1d12;border-color:#7a3010;color:#ffb08c}
+input,button{font-family:inherit;font-size:16px;color:var(--tx)}
+input{background:var(--bg);border:1px solid var(--edge);border-radius:10px;
+padding:10px 12px;width:100%;outline:none}
+input:focus{border-color:var(--hot)}
+button{background:var(--card);border:1px solid var(--edge);border-radius:10px;
+padding:10px 14px;font-weight:700}
+button.go{background:var(--hot);border-color:var(--hot);color:#fff}
+.krow{display:flex;gap:8px;margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px}
+.chip{border:1px solid var(--edge);background:var(--card);border-radius:999px;
+padding:5px 11px;font-size:13px;font-weight:700;letter-spacing:.05em}
+.chip b{color:var(--bad);margin-left:6px;font-weight:700}
+.chip.sug{border-style:dashed;color:var(--dim);font-weight:400}
+.addrow{display:flex;gap:8px;margin-top:6px}
+.addrow input{text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+.sym{margin-bottom:10px;transition:box-shadow .2s}
+.sym.flash{box-shadow:0 0 0 2px var(--org);animation:fl .5s 3}
+@keyframes fl{50%{box-shadow:0 0 0 4px var(--org)}}
+.top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.tk{font-weight:800;font-size:19px;letter-spacing:.04em}
+.last{font-size:16px;font-weight:700}
+.vd{margin-left:auto;font-weight:800;font-size:15px;letter-spacing:.06em}
+.lay{display:flex;gap:8px;align-items:center;margin-top:7px;font-size:12.5px;
+color:var(--dim)}
+.lay .lab{width:46px;flex:none;font-size:10px;letter-spacing:.12em;color:var(--mut)}
+.lay .val{flex:1}
+.meter{height:5px;border-radius:3px;background:#20262d;overflow:hidden;flex:1.2}
+.meter i{display:block;height:100%;transition:width .4s}
+canvas{width:100%;height:34px;margin-top:8px;display:block}
+.eng{display:flex;gap:6px;margin-top:7px;flex-wrap:wrap}
+.eng span{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:2px 7px;
+border-radius:999px;border:1px solid var(--edge);color:var(--dim)}
+.foot{color:var(--mut);font-size:11.5px;margin-top:22px;line-height:1.5}
+.toggles{display:flex;gap:8px;margin:10px 0}
+.toggles button{flex:1;font-size:13px}
+.toggles button.on{border-color:var(--ok);color:var(--ok)}
+</style></head><body>
+<h1><s>IGNITION</s> TAPE</h1>
+<div class="sub"><span class="dot" id="dot"></span><span id="cs">off</span>
+<span style="margin-left:auto"><a href="index.html">&larr; hub</a></span></div>
+<div id="closed" class="banner" hidden>market closed — the stream is quiet;
+verdicts resume with tape</div>
+<div id="msg" class="banner err" hidden></div>
+
+<div id="setup" class="card" hidden>
+<b>One-time setup</b>
+<div class="note">Paste your Alpaca <b>API key + secret</b> (same ones in your
+GitHub secrets). They are stored <b>only on this phone</b> — never uploaded,
+never in the repo.</div>
+<div class="krow"><input id="k" placeholder="APCA key" autocomplete="off"></div>
+<div class="krow"><input id="s" placeholder="APCA secret" autocomplete="off">
+<button class="go" id="save">GO</button></div>
+</div>
+
+<div class="toggles"><button id="beep">🔔 sound off</button>
+<button id="keys" style="flex:.5">keys</button></div>
+<div class="chips" id="chips"></div>
+<div class="addrow"><input id="add" placeholder="add ticker" maxlength="6"
+autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false"
+enterkeyhint="done"><button id="addb">＋</button></div>
+<div class="chips" id="sugs"></div>
+<div id="cards"></div>
+<div class="foot">Reads the free <b>IEX tape</b> (a slice of total volume) via a
+direct stream to your phone — nothing here waits on GitHub. FLOW compares the
+last 10–30s of dollars/sec against the name&rsquo;s own last-5-minutes pace.
+<b>DRAINED / MONEY LEAVING</b> fire within seconds of the tape thinning. THIN
+TAPE means IEX prints are too sparse to read at second scale — trust the hub
+board for that name. Not investment advice.</div>
+<script>
+/*CORE-BEGIN*/
+function tapeStats(buf, nowMs, hi){
+  // buf: array of [ms, dollars, price], oldest first, pruned to ~6 min
+  var d10=0,d30=0,d60=0,d300=0,n300=0,vs=0,vd=0,last=null,lastMs=0,first=nowMs;
+  for(var i=buf.length-1;i>=0;i--){
+    var a=buf[i],age=nowMs-a[0];
+    if(age>300000){first=Math.min(first,a[0]);break}
+    d300+=a[1];n300++;
+    if(age<=60000){d60+=a[1];vd+=a[1];vs+=a[1]/a[2]}
+    if(age<=30000)d30+=a[1];
+    if(age<=10000)d10+=a[1];
+    if(a[0]>lastMs){lastMs=a[0];last=a[2]}
+    first=Math.min(first,a[0]);
+  }
+  var span=Math.max(1,Math.min(300,(nowMs-first)/1000));
+  var base=d300/span;                       // $/s over up to 5 min
+  return {r10:base>0?(d10/10)/base:0, r30:base>0?(d30/30)/base:0,
+    base:base, d10:d10, d30:d30, d60:d60, n300:n300,
+    lastAgo:lastMs?(nowMs-lastMs)/1000:1e9, last:last,
+    vwap60:vs>0?vd/vs:null, warm:(nowMs-first)/1000,
+    offHi:(hi&&last)?last/hi-1:null};
+}
+function tapeVerdict(st, prevCount){
+  // prevCount: consecutive ticks the raw condition has held (hysteresis)
+  if(st.warm<75) return ['WARMING','#5b636c','need ~60s of tape first',0];
+  if(st.n300<8)  return ['THIN TAPE','#5b636c',
+    'iex prints too sparse for a second read — trust the board',0];
+  var below=st.vwap60&&st.last&&st.last<st.vwap60*0.998;
+  var raw=null;
+  if(st.lastAgo>=25||st.r30<=0.15) raw='DRAINED';
+  else if(st.r30<=0.4) raw=below?'LEAVING':'THINNING';
+  else if(st.r30>=2&&st.d10>0) raw='SURGING';
+  var need=raw==='DRAINED'?3:2;
+  if(raw&&prevCount+1>=need){
+    if(raw==='DRAINED')return['DRAINED','#f87171',
+      st.lastAgo>=25?('no prints for '+Math.round(st.lastAgo)+'s'):'flow ~gone vs its own pace',need];
+    if(raw==='LEAVING')return['MONEY LEAVING','#fb923c',
+      'flow fading and price under 1-min vwap',need];
+    if(raw==='THINNING')return['THINNING','#facc15','flow at '+
+      Math.round(st.r30*100)+'% of its 5-min pace',need];
+    return['SURGING','#ff5a1f','flow '+st.r30.toFixed(1)+'x its 5-min pace',need];
+  }
+  return raw?['…'+raw,'#8b939c','confirming',0]:['STEADY','#4ade80',
+    'flow holding its pace',0];
+}
+/*CORE-END*/
+var LS=localStorage,K=LS.tape_k||'',S=LS.tape_s||'';
+var W=[];try{W=JSON.parse(LS.tape_w||'[]')}catch(e){}
+var BUF={},HI={},CNT={},VD={},SPK={},ENG={},ws=null,tries=0,armed=false,ac=null;
+var $=function(i){return document.getElementById(i)};
+function status(t,c){$('cs').textContent=t;$('dot').className='dot '+(c||'')}
+function msg(t){var m=$('msg');if(!t){m.hidden=true;return}m.textContent=t;m.hidden=false}
+function etNow(){return new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}))}
+function mktOpen(){var d=etNow(),h=d.getHours();return d.getDay()>0&&d.getDay()<6&&h>=4&&h<20}
+function saveW(){LS.tape_w=JSON.stringify(W)}
+function addSym(t){t=(t||'').toUpperCase().replace(/[^A-Z0-9.\-]/g,'').slice(0,6);
+ if(!t||W.indexOf(t)>=0||W.length>=8)return;W.push(t);saveW();drawChips();sub([t]);card(t)}
+function rmSym(t){W=W.filter(function(x){return x!==t});saveW();drawChips();
+ try{ws&&ws.send(JSON.stringify({action:'unsubscribe',trades:[t]}))}catch(e){}
+ var c=$('c_'+t);c&&c.remove();delete BUF[t];delete CNT[t];delete VD[t]}
+function drawChips(){$('chips').innerHTML=W.map(function(t){
+ return '<span class="chip" data-t="'+t+'">'+t+'<b>×</b></span>'}).join('')}
+$('chips').addEventListener('click',function(e){
+ var c=e.target.closest('.chip');if(c)rmSym(c.dataset.t)});
+$('addb').onclick=function(){addSym($('add').value);$('add').value=''};
+$('add').addEventListener('keydown',function(e){if(e.key==='Enter'){
+ addSym($('add').value);$('add').value=''}});
+function card(t){if($('c_'+t))return;var d=document.createElement('div');
+ d.className='card sym';d.id='c_'+t;d.innerHTML=
+ '<div class="top"><span class="tk">'+t+'</span><span class="last" id="p_'+t+'">—</span>'+
+ '<span class="vd" id="v_'+t+'">…</span></div>'+
+ '<div class="lay"><span class="lab">FLOW</span><span class="val" id="f_'+t+'">—</span>'+
+ '<span class="meter"><i id="fm_'+t+'"></i></span></div>'+
+ '<div class="lay"><span class="lab">PRICE</span><span class="val" id="pc_'+t+'">—</span></div>'+
+ '<div class="lay"><span class="lab">PRINTS</span><span class="val" id="pr_'+t+'">—</span></div>'+
+ '<canvas id="cv_'+t+'" width="600" height="68"></canvas>'+
+ '<div class="eng" id="e_'+t+'"></div>';
+ $('cards').appendChild(d)}
+function beepNow(){if(!armed)return;try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();
+ var o=ac.createOscillator(),g=ac.createGain();o.frequency.value=880;
+ o.connect(g);g.connect(ac.destination);g.gain.setValueAtTime(.15,ac.currentTime);
+ g.gain.exponentialRampToValueAtTime(.001,ac.currentTime+.25);
+ o.start();o.stop(ac.currentTime+.25)}catch(e){}
+ try{navigator.vibrate&&navigator.vibrate([120,60,120])}catch(e){}}
+$('beep').onclick=function(){armed=!armed;this.textContent=armed?'🔔 sound on':'🔔 sound off';
+ this.className=armed?'on':'';if(armed)beepNow()};
+$('keys').onclick=function(){$('setup').hidden=false};
+$('save').onclick=function(){K=$('k').value.trim();S=$('s').value.trim();
+ LS.tape_k=K;LS.tape_s=S;$('setup').hidden=true;connect(true)};
+function fmt$(x){return x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+Math.round(x/1e3)+'k'):('$'+Math.round(x))}
+function onTrade(t,p,s){var now=Date.now(),b=BUF[t]=BUF[t]||[];
+ b.push([now,p*s,p]);if(b.length>4000)b.splice(0,800);
+ HI[t]=Math.max(HI[t]||0,p);(SPK[t]=SPK[t]||[]).push([now,p]);
+ if(SPK[t].length>800)SPK[t].splice(0,200)}
+function prune(t){var b=BUF[t];if(!b)return;var cut=Date.now()-370000,i=0;
+ while(i<b.length&&b[i][0]<cut)i++;if(i)b.splice(0,i)}
+function spark(t,color){var cv=$('cv_'+t);if(!cv)return;var g=cv.getContext('2d');
+ g.clearRect(0,0,600,68);var pts=(SPK[t]||[]).filter(function(a){
+  return Date.now()-a[0]<120000});if(pts.length<2)return;
+ var lo=1e18,hi=0;pts.forEach(function(a){lo=Math.min(lo,a[1]);hi=Math.max(hi,a[1])});
+ if(hi<=lo){hi=lo*1.001}g.strokeStyle=color;g.lineWidth=2;g.beginPath();
+ var t0=pts[0][0],tw=Math.max(1,pts[pts.length-1][0]-t0);
+ pts.forEach(function(a,i){var x=(a[0]-t0)/tw*592+4,
+  y=62-(a[1]-lo)/(hi-lo)*56;i?g.lineTo(x,y):g.moveTo(x,y)});g.stroke()}
+function evalAll(){var open=mktOpen();$('closed').hidden=open;
+ W.forEach(function(t){prune(t);var st=tapeStats(BUF[t]||[],Date.now(),HI[t]);
+  var raw=(st.warm>=75&&st.n300>=8)?(st.lastAgo>=25||st.r30<=0.15?'DRAINED':
+   st.r30<=0.4?'THIN':st.r30>=2&&st.d10>0?'SURG':null):null;
+  CNT[t]=raw&&raw===CNT['_'+t]?(CNT[t]||0)+1:0;CNT['_'+t]=raw;
+  var v=tapeVerdict(st,CNT[t]);
+  var el=$('v_'+t);if(el){el.textContent=v[0];el.style.color=v[1]}
+  if(st.last){var pe=$('p_'+t);pe.textContent=st.last.toFixed(st.last<1?4:2)}
+  $('f_'+t)&&($('f_'+t).textContent=st.base>0?(fmt$(st.d30/30)+'/s now · '+
+   fmt$(st.base)+'/s pace · '+st.r30.toFixed(2)+'x'):'no tape yet');
+  var fm=$('fm_'+t);if(fm){fm.style.width=Math.min(100,st.r30*50)+'%';
+   fm.style.background=v[1]}
+  $('pc_'+t)&&($('pc_'+t).textContent=(st.vwap60&&st.last?('vs 1m vwap '+
+   (((st.last/st.vwap60)-1)*100).toFixed(2)+'%'):'—')+
+   (st.offHi!=null?(' · off high '+(st.offHi*100).toFixed(1)+'%'):''));
+  $('pr_'+t)&&($('pr_'+t).textContent=st.n300+' prints/5m · last '+
+   (st.lastAgo>900?'—':Math.round(st.lastAgo)+'s ago'));
+  spark(t,v[1]);
+  if((v[0]==='DRAINED'||v[0]==='MONEY LEAVING'||v[0]==='SURGING')&&VD[t]!==v[0]){
+   var c=$('c_'+t);if(c){c.classList.remove('flash');void c.offsetWidth;
+    c.classList.add('flash')}beepNow()}
+  if(v[0].charAt(0)!=='…')VD[t]=v[0]});}
+function sub(ts){try{ws&&ws.readyState===1&&ts.length&&
+ ws.send(JSON.stringify({action:'subscribe',trades:ts}))}catch(e){}}
+function connect(fresh){if(!K||!S){$('setup').hidden=false;status('need keys','bad');return}
+ if(fresh)tries=0;msg('');status('connecting…','mid');
+ try{ws&&ws.close()}catch(e){}
+ ws=new WebSocket('wss://stream.data.alpaca.markets/v2/iex');
+ ws.onopen=function(){/* wait for server hello */};
+ ws.onmessage=function(ev){var arr;try{arr=JSON.parse(ev.data)}catch(e){return}
+  (Array.isArray(arr)?arr:[arr]).forEach(function(m){
+   if(m.T==='success'&&m.msg==='connected')
+    ws.send(JSON.stringify({action:'auth',key:K,secret:S}));
+   else if(m.T==='success'&&m.msg==='authenticated'){tries=0;
+    status('LIVE · iex stream','live');sub(W)}
+   else if(m.T==='error'){status('stream error','bad');
+    msg(m.code===406?'Alpaca allows ONE live connection — close TAPE on any other device, then tap keys → GO.':
+     m.code===402||m.code===401?'Auth failed — re-enter keys (keys button).':
+     'stream: '+(m.msg||m.code))}
+   else if(m.T==='t'&&m.S)onTrade(m.S,+m.p,+m.s)})};
+ ws.onclose=function(){status('reconnecting…','mid');
+  var w=Math.min(30000,1000*Math.pow(2,tries++));setTimeout(connect,w)};
+ ws.onerror=function(){try{ws.close()}catch(e){}}}
+document.addEventListener('visibilitychange',function(){
+ if(!document.hidden&&(!ws||ws.readyState>1))connect(true)});
+fetch('pulse.json?'+Date.now()).then(function(r){return r.ok?r.json():null})
+ .then(function(j){if(!j||!j.rows)return;
+  j.rows.forEach(function(r){ENG[r[0]]={d:r[2],heat:r[7],st:r[9]}});
+  var hot=j.rows.filter(function(r){return r[7]!=null&&r[7]>=40&&W.indexOf(r[0])<0})
+   .slice(0,4);
+  $('sugs').innerHTML=hot.map(function(r){
+   return '<span class="chip sug" data-t="'+r[0]+'">+ '+r[0]+' · heat '+r[7]+'</span>'}).join('');
+  W.forEach(engChips)}).catch(function(){});
+function engChips(t){var e=ENG[t],el=$('e_'+t);if(!el)return;
+ el.innerHTML=e?('<span>day '+((e.d||0)*100).toFixed(1)+'%</span>'+
+  (e.heat!=null?'<span>engine heat '+e.heat+'</span>':'')+
+  (e.st?'<span>'+e.st+'</span>':'')):'<span>not on engine radar — tape only</span>'}
+$('sugs').addEventListener('click',function(e){var c=e.target.closest('.chip');
+ if(c){addSym(c.dataset.t);c.remove()}});
+W.forEach(card);drawChips();W.forEach(engChips);
+if(!K||!S)$('setup').hidden=false;else connect(true);
+setInterval(evalAll,1000);
+</script></body></html>"""
