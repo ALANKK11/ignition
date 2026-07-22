@@ -12,8 +12,11 @@ universe:
     - day_losers
     - small_cap_gainers
     - most_shorted_stocks
-  min_price: 1.0                 # drop sub-$1 names (set 0 to allow)
-  min_dollar_volume: 5000000     # 20d average dollar-volume floor
+  min_price: 0.10                # sub-$1 names are the whole point — keep them
+  min_dollar_volume: 200000      # 20d average dollar-ADV floor
+  max_price: 50.0                # a $340 mega-cap cannot 2x — out
+  max_dollar_adv: 300000000      # neither can a $1B/day name — out
+  full_market: true              # candidates from the entire Alpaca master
   max_universe: 400
 
 scan:

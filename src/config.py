@@ -34,6 +34,8 @@ DEFAULTS = {
         "show_top": 25,           # rows printed in the report
         "control_sample": 25,     # random non-picks journaled for self-audit baseline
         "workers": 6,             # enrichment thread pool
+        "capacity_full_below": 5_000_000,   # $ADV at/below this keeps full score
+        "capacity_floor": 0.35,             # score mult at the ADV ceiling
     },
     "weights": {
         "rvol": 2.2,              # today's volume vs 20d average (log-scaled)

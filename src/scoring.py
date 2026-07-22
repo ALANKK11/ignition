@@ -39,6 +39,23 @@ def composite_score(components: dict, weights: dict) -> tuple[float, dict]:
     return score, contrib
 
 
+def capacity_mult(dollar_adv: float | None,
+                  full_below: float = 5_000_000.0,
+                  ceiling: float = 300_000_000.0,
+                  floor: float = 0.35) -> float:
+    """Scan-rank multiplier for *capacity to travel*. A name doing $200M/day
+    is structurally incapable of the 50-800% legs the user trades, no matter
+    how clean its signals are — and clean signals are exactly why liquid
+    mid-caps (SBRA/ALLY class) kept out-scoring nano-caps even inside the
+    band. Full weight at/below `full_below` dollar ADV, log-tapering to
+    `floor` at the band ceiling. Never zero: a monstrous signal on a liquid
+    name can still surface — it just has to be monstrous."""
+    if dollar_adv is None or dollar_adv <= full_below:
+        return 1.0
+    f = (np.log(dollar_adv) - np.log(full_below)) / (np.log(ceiling) - np.log(full_below))
+    return float(max(floor, 1.0 - (1.0 - floor) * min(1.0, f)))
+
+
 def top_drivers(contrib: dict, n: int = 3) -> list[str]:
     ranked = sorted(contrib.items(), key=lambda kv: kv[1], reverse=True)
     return [k for k, v in ranked[:n] if v > 0.03]

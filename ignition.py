@@ -27,7 +27,7 @@ from src.config import load_config, read_ticker_file
 from src.journal import Journal
 from src.report import (export_csv, export_json, export_tradingview,
                         render_eval, render_history, render_scan)
-from src.scoring import composite_score, make_tags, top_drivers
+from src.scoring import capacity_mult, composite_score, make_tags, top_drivers
 from src.signals import (afterhours_component, base_components, base_metrics_ok,
                          catalyst_component, compute_base_metrics,
                          options_heat_component, short_fuel_component)
@@ -209,6 +209,10 @@ def cmd_scan(args):
             continue
         comps = base_components(m, th)
         score, contrib = composite_score(comps, weights)
+        score *= capacity_mult(m.get("dollar_adv"),
+                               full_below=cfg["scan"]["capacity_full_below"],
+                               ceiling=float(ucfg.get("max_dollar_adv") or 3e8),
+                               floor=cfg["scan"]["capacity_floor"])
         candidates[t] = {"ticker": t, "metrics": m, "components": comps,
                          "score": score, "contrib": contrib, "extra": {}}
     if not candidates:
@@ -251,6 +255,10 @@ def cmd_scan(args):
         for t in targets:
             r = candidates[t]
             r["score"], r["contrib"] = composite_score(r["components"], weights)
+            r["score"] *= capacity_mult(r["metrics"].get("dollar_adv"),
+                                        full_below=cfg["scan"]["capacity_full_below"],
+                                        ceiling=float(ucfg.get("max_dollar_adv") or 3e8),
+                                        floor=cfg["scan"]["capacity_floor"])
 
     from src.signals import is_deal_pin
     for r in candidates.values():

@@ -178,10 +178,21 @@ SESSION_LABEL = {"pre": "Pre-market board", "rth": "Live board",
                  "post": "After-hours board"}
 
 
-def _no_board_notice(sdir):
+def _no_board_notice(sdir, now=None):
     """The board is the product. If it is missing, say so loudly with the
-    reason — silence here once cost days of confusion."""
+    reason — silence here once cost days of confusion. But a missing board
+    outside shift hours is *expected*, and framing it as a failure at 2am
+    made a healthy deploy look broken."""
     import glob
+    now = now or dt.datetime.now(NY)
+    off_hours = now.weekday() >= 5 or now.hour < 7 or now.hour >= 19
+    if off_hours:
+        when = ("Monday" if now.weekday() >= 5 or (now.weekday() == 4 and now.hour >= 19)
+                else "today")
+        return ('<div class="stale" style="background:#12233a;border-color:#1e3a5f;'
+                'color:#93c5fd"><b>BOARD OFFLINE — market closed</b><br>'
+                f'The live board starts with the 6:55a ET shift {when}. '
+                'Nothing is broken. Below is the nightly forecast scan.</div>')
     ran = bool(glob.glob(os.path.join(sdir, "alpaca_base_*.json")))
     why = ("The live shift has run, but no board was produced — likely an "
            "Alpaca data error." if ran else
@@ -298,14 +309,30 @@ def _movers_section(mv):
 def _audit_section(hist):
     if hist is None or len(hist) == 0:
         return ""
-    cards = []
-    for _, r in list(hist.iterrows())[:8]:
+    cards, seen, any_graded = [], set(), False
+    for _, r in hist.iterrows():           # newest first; one card per day
+        if r["trade_date"] in seen:
+            continue                       # re-runs of the same scan are noise
+        seen.add(r["trade_date"])
         ic = r.get("ic")
         edge = r.get("edge_rvol")
-        cards.append(f'''<div class="card"><div class="px">{r["trade_date"]}</div>
-<div class="big" style="color:{'#4ade80' if (ic or 0) > 0 else '#f87171'}">
-{f"{ic:+.2f}" if ic == ic and ic is not None else "…"}</div>
+        graded = ic is not None and ic == ic
+        if graded:
+            any_graded = True
+            cards.append(f'''<div class="card"><div class="px">{r["trade_date"]}</div>
+<div class="big" style="color:{'#4ade80' if ic > 0 else '#f87171'}">{ic:+.2f}</div>
 <div class="px">IC · edge {f"{edge:.1f}x" if edge and edge == edge else "--"}</div></div>''')
+        else:
+            cards.append(f'''<div class="card"><div class="px">{r["trade_date"]}</div>
+<div class="big" style="color:#5b636c">·&nbsp;·&nbsp;·</div>
+<div class="px">grades after close</div></div>''')
+        if len(cards) >= 8:
+            break
+    if not any_graded:
+        return ('<h2>Self-audit · rank IC per scan</h2>'
+                '<div class="quiet">no graded scans yet — each forecast is '
+                'scored against the next session&rsquo;s realized tape, so the '
+                'first grades land after tomorrow&rsquo;s close</div>')
     return ('<h2>Self-audit · rank IC per scan</h2>'
             f'<div class="audit">{"".join(cards)}</div>')
 

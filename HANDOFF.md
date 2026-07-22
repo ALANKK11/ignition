@@ -158,6 +158,12 @@ Every item is a real defect the user caught in production. Do not regress any of
 
 15. **No news awareness.** The user pointed out these moves are known before the tape confirms. **Fix:** `newswire.py` — the press release *is* t=0 of the move. Free RSS, polled every ~45s, tickers extracted and validated, catalysts scored, name pushed onto the board with the headline attached and a heat floor so it surfaces before volume confirms.
 
+16. **config.yaml silently negated the universe-band fix (2026-07-22, caught same night).** The band was fixed in `DEFAULTS` (config.py) but `config.yaml` still carried `min_price: 1.0` / `min_dollar_volume: 5000000` — and **yaml deep-merges OVER defaults, so yaml always wins.** The 1:47am scan therefore ran the new full-market engine inside a $1–$50 / $5M–$300M band: liquid-mid-caps-only by construction. Top of the forecast: SBRA, AS, KLAR, CELH, ALLY, RRC — the exact class from items UTZ/DHR/AMG, seventh occurrence. **Rule: any change to `DEFAULTS` must be mirrored in `config.yaml` in the same commit.**
+
+17. **Even inside the correct band, liquid names out-rank small ones** — rvol/squeeze/vol_trend are cleaner on liquid tape. Fix: `capacity_mult()` in scoring.py, applied to scan score at both passes (ignition.py). Full weight ≤$5M dollar ADV, log-taper to ×0.35 at the $300M ceiling: SBRA-class pays ×0.63, ALLY-class ×0.41, CPHI-class untouched. Knobs: `scan.capacity_full_below`, `scan.capacity_floor`. Intraday board is unaffected (heat already handles this).
+
+18. **The hub's failure states were themselves failures.** Seven duplicate ungraded audit cards rendered as red "…" walls (same-date scans now dedupe, ungraded shows dim "grades after close", all-pending collapses to one quiet line), and a missing board at 2am fired the NO-BOARD alarm implying breakage (banner is now clock-aware: off-hours/weekend says "market closed — nothing is broken", shift-hours absence still alarms loudly).
+
 ### Concurrency note
 
 The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so the parallel `evening`/`premarket` jobs can never binary-conflict with the database in git. `eval` ingests the sidecars (renaming them `.done`) before grading.
@@ -179,6 +185,8 @@ The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so t
 - Full-market radar and promotion persistence against a 600-symbol fake Alpaca API.
 - Board assembly: first-seen survives session changes, `NEW` fires exactly once per name per day, states join onto rows, heat sort correct.
 - Complete `--demo` regression (scan → flow → eval → hub) after every change.
+- Capacity tilt calibrated on the exact 2026-07-22 offender classes (SBRA/CELH/ALLY $ADVs) and confirmed not to reorder planted demo archetypes (IGNA #1, DMPD #2 hold).
+- Audit strip fixed against the literal 7-row all-ungraded state that rendered on 2026-07-22; banner tested at 1:50am, 11am, Saturday, and Friday-evening clocks.
 
 ### NEVER verified against live services
 
@@ -189,6 +197,7 @@ The build sandbox has no network access to Yahoo, Alpaca, Finnhub, or the newswi
 - **The RSS feed URLs.** These are the newest and least certain component. Wires move their endpoints. The shift log prints per-feed HTTP status; dead feeds are skipped and named; the list is plain config (`news.feeds` in `config.yaml`) so a moved endpoint is a one-line edit.
 - GitHub Actions runtime behavior: whether a 6-hour shift survives without being killed, whether `git pull --rebase` contention between the live shift and the evening job causes push failures under real load.
 - The ignition receipts hit-rate. The grading machinery works; there is no live data in it yet.
+- The widened band ($0.10 floor, $200k dollar-ADV floor) against the real Alpaca master at full scale — the in-band candidate count will be far larger than under the old $1/$5M floors; the pre-rank cut to 400 is designed for it but has only run against the 600-symbol fake API.
 
 **If the user reports something broken, first ask which of these unverified surfaces it touches.** Then get the Actions log — that is the only window into live behavior.
 
