@@ -64,6 +64,12 @@ el('lvh_INLF').textContent = 'COOLING';
 env.paintCard('INLF', now0 + 31000);
 console.assert(/THIN FEED/.test(el('lvh_INLF').textContent),
   'repaint after rebuild kills the stale mood word');
+// heartbeat must TICK every painted second even though the tape is quiet
+const beats = new Set();
+for (let k = 0; k < 8; k++) { env.paintCard('INLF', now0 + 40000 + k * 1000);
+  beats.add(el('hb_INLF').textContent); }
+console.assert(beats.size >= 3, 'heartbeat ticks between prints: ' + [...beats]);
+console.log('heartbeat ticks OK — ' + [...beats].slice(0,4).join(' '));
 console.log('sparse scenario OK — stable "' + w + '"');
 
 // (b) EMPTY buffer: waiting words, never stale
