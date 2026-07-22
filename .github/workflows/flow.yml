@@ -1,7 +1,7 @@
 name: flow snapshot
 on:
   schedule:
-    - cron: "*/20 13-20 * * 1-5"   # every 20 min through the US session (UTC)
+    - cron: "*/20 11-23 * * 1-5"   # 7:00am–7:59pm ET session coverage (UTC cron)
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,27 +11,35 @@ concurrency:
 jobs:
   snap:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - id: gate                       # only do work while the market is open
+      - id: gate                       # pre-market sweep / open engine / AH sweep
         run: |
           python - <<'PY'
           import datetime, zoneinfo, os
           now = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York"))
-          ok = now.weekday() < 5 and (9, 32) <= (now.hour, now.minute) and now.hour < 16
+          hm = (now.hour, now.minute)
+          mode = "off"
+          if now.weekday() < 5:
+              if (7, 0) <= hm < (9, 30):
+                  mode = "pre"
+              elif (9, 32) <= hm and now.hour < 16:
+                  mode = "open"
+              elif (16, 10) <= hm and now.hour < 20:
+                  mode = "post"
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"open={'yes' if ok else 'no'}\n")
+              f.write(f"mode={mode}\n")
           PY
-      - if: steps.gate.outputs.open == 'yes'
+      - if: steps.gate.outputs.mode != 'off'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
-      - if: steps.gate.outputs.open == 'yes'
+      - if: steps.gate.outputs.mode != 'off'
         run: pip install -r requirements.txt
-      - if: steps.gate.outputs.open == 'yes'
-        name: one flow reading · render hub
+      - if: steps.gate.outputs.mode == 'open'
+        name: flow reading · render hub
         env:
           IGNITION_HOME: ${{ github.workspace }}/data
           ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
@@ -40,7 +48,16 @@ jobs:
         run: |
           python ignition.py flow --ticks 1 --interval 0
           python ignition.py hub
-      - if: steps.gate.outputs.open == 'yes'
+      - if: steps.gate.outputs.mode == 'pre' || steps.gate.outputs.mode == 'post'
+        name: extended-hours ignition sweep · render hub
+        env:
+          IGNITION_HOME: ${{ github.workspace }}/data
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: |
+          python ignition.py ext --session ${{ steps.gate.outputs.mode }}
+          python ignition.py hub
+      - if: steps.gate.outputs.mode != 'off'
         name: publish
         run: |
           git config user.name ignition-bot
