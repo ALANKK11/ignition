@@ -232,3 +232,13 @@
 {"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "COOLING", "state": "QUIET", "price": 4.555, "tp": 1.6587020749859362, "note": ""}
 {"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.72, "tp": 2.4973164375973407, "note": "sustained 2.5x"}
 {"ts": "2026-07-22T11:41:54.926624-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.075, "tp": 4.771651759678119, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "RUNNING", "state": "CHURN", "price": 3.505, "tp": 2.209565754338494, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "RUNNING", "state": "COOLING", "price": 1.4, "tp": 1.113545763739193, "note": "pace 1.1x off peak 5.1x"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "RUNNING", "state": "COOLING", "price": 4.7, "tp": 1.4110142926231592, "note": "pace 1.4x off peak 3.6x"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "CHURN", "price": 21.74, "tp": 6.417879566232735, "note": "6.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "COF", "prev_state": "RUNNING", "state": "IGNITING", "price": 200.79, "tp": 3.9551502700090215, "note": "pace 4.0x and accelerating (1.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "VNM", "prev_state": "COOLING", "state": "CHURN", "price": 16.505, "tp": 2.2110947606244116, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "DIHP", "prev_state": "FADING", "state": "RUNNING", "price": 34.155, "tp": 2.3682345612739413, "note": "sustained 2.4x"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "TIGR", "prev_state": "COOLING", "state": "FADING", "price": 5.02, "tp": 0.434557893696871, "note": "pace 0.4x vs peak 2.4x \u00b7 -0.8% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "CALM", "prev_state": "IGNITING", "state": "RUNNING", "price": 87.38, "tp": 9.722015509947127, "note": "sustained 9.7x"}
+{"ts": "2026-07-22T11:44:54.927218-04:00", "demo": 0, "ticker": "BUG", "prev_state": "COOLING", "state": "RUNNING", "price": 38.32, "tp": 3.1049920249073164, "note": "sustained 3.1x"}
