@@ -305,13 +305,17 @@ def edge_verdict(row: dict, dil: dict | None, halts: dict | None,
 # orchestration — called once per full tick from the live loop
 # ---------------------------------------------------------------------------
 def refresh_intel(sdir: str, now: dt.datetime, board: dict | None,
-                  icfg: dict | None = None, log=None) -> dict:
+                  icfg: dict | None = None, log=None,
+                  priority: list[str] | None = None) -> dict:
+    """`priority` (the watchlist) is looked up BEFORE board names inside the
+    per-tick budget — his names get EDGAR/float intel first, always."""
     icfg = icfg or {}
     st = _load(os.path.join(sdir, "latest_intel.json")) or {}
     dil_c = st.get("dil") or {}
     flo_c = st.get("flo") or {}
     halts = poll_halts(sdir, now, log)
-    tickers = [r["ticker"] for r in (board or {}).get("rows", [])]
+    tickers = list(dict.fromkeys(
+        (priority or []) + [r["ticker"] for r in (board or {}).get("rows", [])]))
     for t in tickers[: int(icfg.get("max_lookups", 15))]:
         dilution(t, sdir, now, dil_c, float(icfg.get("dil_ttl_h", 6)), log)
         float_rot(t, flo_c, float(icfg.get("float_ttl_h", 24)), log)

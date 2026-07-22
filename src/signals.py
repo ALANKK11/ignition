@@ -62,11 +62,15 @@ def compute_base_metrics(df: pd.DataFrame) -> dict | None:
     """Raw, human-readable metrics from a daily OHLCV frame (ascending index)."""
     if df is None or len(df) < 45:
         return None
+    from .splits import adjusted_volumes
     c = df["Close"].values.astype(float)
     h = df["High"].values.astype(float)
     l = df["Low"].values.astype(float)
     o = df["Open"].values.astype(float)
-    v = df["Volume"].values.astype(float)
+    # split-aware shares (item 30): providers usually pre-adjust daily data,
+    # in which case no clean-ratio jump exists and this is a no-op — but a
+    # split the vendor hasn't folded in yet would poison rvol/ADV otherwise
+    v = adjusted_volumes(c, df["Volume"].values.astype(float))
 
     close, prev_close = c[-1], c[-2]
     if not np.isfinite(close) or close <= 0:

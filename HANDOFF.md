@@ -84,6 +84,8 @@ Required repo settings, already done: **Settings → Pages** → branch `main`, 
 | `signals.py` | Yang-Zhang volatility, ATR, Bollinger squeeze, NR7, RVOL, closing strength, breakout proximity; `base_components()` maps everything to fixed [0,1] scales; `is_deal_pin()`. |
 | `scoring.py` | Weighted composite (available components only), driver attribution, archetype tags. |
 | `universe.py` | Funnel construction + `ETF_EXCLUDE` (74 index/levered/commodity vehicles, hard-excluded everywhere). |
+| `splits.py` | Split-aware share-volume adjustment + ADV (item 30). Authoritative Alpaca corporate-actions ex-dates merged with a clean-ratio heuristic. |
+| `watch.py` | **The watchlist lane (item 31).** Zero-gate telemetry rows for every `watchlist.txt` name, every tick; honest reason lines for missing data; `write_watchlist()` backs the workflow_dispatch tickers input. |
 | `flow.py` | Intraday state machine. Time-of-day-normalized `PACE`/`TP`; states: `IGNITING`, `NEW MONEY`, `RUNNING`, `CHURN`, `FADING`, `LEAVING`, `COOLING`, `QUIET`, `OPEN DRIVE`, `PM HOT`. Hysteresis on downgrades. |
 | `flow_alpaca.py` | Full-market radar, `ext_sweep()` (hardened), `movers_from_radar()`, `path_stats()`/heat, `assemble_board()`, `fast_update()` (45s lane), promotions. |
 | `journal.py` | SQLite: scans, picks, flow_events, evals, ignition_evals. Rank-IC and edge-vs-control grading. `JsonlJournal` sidecar for the live looper + `ingest_jsonl_events()`. |
@@ -95,7 +97,7 @@ Required repo settings, already done: **Settings → Pages** → branch `main`, 
 
 | File | Schedule (ET) | Purpose |
 |---|---|---|
-| `live.yml` | 6:55am and 12:55pm, Mon–Fri | Two long shifts covering 7am–6:52pm. Ticks the fast lane every ~45s, full discovery every ~160s, pushes the hub each tick. |
+| `live.yml` | 6:55am and 12:55pm, Mon–Fri | Two long shifts covering 7am–6:52pm. Ticks the fast lane every ~45s, full discovery every ~160s, pushes the hub each tick. `workflow_dispatch` has a **tickers** input: it overwrites `watchlist.txt`, commits it, and starts a fresh shift (canceling any running one) — this is how he edits his list from the phone. |
 | `evening.yml` | 9:15pm Mon–Fri | Grades yesterday, runs tonight's scan, renders hub. |
 | `premarket.yml` | 7:45am Mon–Fri | Pre-market re-rank scan. |
 
@@ -112,6 +114,7 @@ Everything the hub renders comes from JSON state files in `$IGNITION_HOME/state/
 - `board_seen_<date>.json` — **first-seen timestamps** (powers "since 7:41a" and the NEW badge)
 - `ignitions_<date>.json`, `radar_promoted_<date>.json`
 - `flow_events_<date>.jsonl` — live looper's append-only event log, ingested into SQLite by `eval`
+- `latest_watch.json` — **MY NAMES** (item 31): one row per watchlist ticker, his order, zero gates, honest reason lines; refreshed by every lane including the 45s fast tick. The hub renders it as the page's TOP section and writes `docs/watch.json` (tickers only) for the tape page to merge.
 - `latest_pulse.json` — **PULSE**: hot-or-not coverage of every symbol with meaningful tape this session (no price class, no ADV band; ~80B/row, capped 3000 rows), overlaid with heat/state/first-seen for tracked names. Written each full tick from radar rows already in hand — zero extra API calls. The hub copies it minified to `docs/pulse.json`; the page's ticker box answers lookups client-side (`pverdict()` in hub JS: heat-based when tracked, pace/|move|/range-derived when not, `FADING/LEAVING` states surface as MONEY LEAVING). Knobs under `pulse:` in config.
 
 **`STATE_V` (currently 4) is stamped into board/ext/movers state.** The hub refuses to render state written by an older code version. This exists because stale state once haunted the page for days — see §4, item 7.
@@ -190,6 +193,22 @@ Every item is a real defect the user caught in production. Do not regress any of
 
 28. **The tape's two reads, final semantics (all node-verified):** TREND = f60 vs session peak flow (whale-robust), sticky 3s-to-degrade / 10s-to-recover: FLOW ALIVE ≥55% of peak, COOLING ≥25%, MONEY LEAVING ≥10%, MONEY GONE <10%, DRIED UP at 25s of silence. Zero flicker across 25 noisy-healthy seeds; slow bleed called at COOLING@+3min, MONEY LEAVING@+6min. BURST = last 12s vs the name's own observed 12s buckets (median+MAD, phantom-empty buckets excluded, ≥2.5 min judged tape required), BUY/SELL by tick rule, rendered as an event with an age, alerts at z≥4, 0-0.25s detection latency in replay. **The NEXT-60s forecast + scoreboard were retired** — regime-dependent (item 26), contributed to the flicker complaint, and BURST answers the "something is happening NOW" need without pretending to know the future.
 
+29. **The tape's engine chips lied after load — pullEngine (recreated 2026-07-22).** tape.html fetched `pulse.json` ONCE at page load; the engine chips and suggestions then showed that snapshot forever, with no indication the engine had moved on, stalled, or died. Fix: `pullEngine()` polls `pulse.json` + `watch.json` every 45s (the engine's own fast cadence) with EXPLICIT states in the header — "engine: 2m ago" (fresh), "engine STALE Xm — check Actions" (orange, >6m), "engine feed unreachable" (red, fetch failed). Never silent, never a stale read presented as live. *Note: this fix and item 30 originally shipped in `ignition_splits.zip`, which never got uploaded — both were recreated from spec by the next instance and pushed directly.*
+
+30. **Split-aware ADV everywhere a volume baseline is computed (recreated 2026-07-22).** A reverse split rescales the share unit mid-window: after a 1:10, a raw 20-day mean mixes pre- and post-split share counts and overstates ADV ~10x, so pace/rvol read ~0.1x reality and the name goes structurally invisible — INLF, exactly the class he trades. Dollar volume is split-invariant but pace, rvol, and the radar all run on SHARES. Fix: `src/splits.py` — `adjusted_volumes()` converts every pre-split bar into today's share unit; `split_aware_adv()` is the drop-in mean. Two layers merged per name: authoritative ex-dates from Alpaca corporate actions (`AlpacaData.splits_range`, one call/day, fail-open) and a heuristic (close-over-close jump within 2% of a clean split ratio WITHOUT elevated volume — a real CPHI-class double prints on 10-50x tape, guard is rvol < 3x, so real moves are never eaten). Wired into `prepare()` (radar/flow baselines), `full_market_candidates()` (scan funnel), and `compute_base_metrics()` (scan metrics). Fixture-proven on INLF-shaped reverse, forward 4:1, real-double-kept, and the authoritative-date path (`tests/test_pivot.py`).
+
+31. **THE PIVOT — watchlist-first (2026-07-22, his decision, his words: discovery is "bullshit — I'm still better… not something that finds the things, but where I already put the tickers in, and then it helps me do what I do").**
+   **Cause:** discovery kept losing to his own judgment; what he actually wanted graded was the names he already chose.
+   **Decision:** `watchlist.txt` is the spine. His names get first-class treatment in every lane, every tick, with ZERO admission gates — no ADV baseline, no mover threshold, no pulse dollar floor, no price band. Discovery stays (it caught LABT +208% legitimately) but is demoted below.
+   **Mechanism:**
+   - `src/watch.py` — the watch lane. `refresh()` runs on every full tick, every ext sweep, and the 45s fast lane: 2 API calls (snapshots + 1-min bars from 4am) for the whole list. `build_rows()` emits one row per ticker in HIS input order, always; missing data degrades to an honest `reason` string ("no IEX prints yet today", "thin IEX tape: $2.1k today", "no prior close on file"), never to a missing row. Prev close falls back to the snapshot's `prevDailyBar` so a fresh-split/new-listing name (no engine baseline) still gets day% — the INLF class can't be hidden because nothing gates it.
+   - State: `latest_watch.json` (STATE_V-gated). Hub renders **MY NAMES** as the TOP section — one rich card per name: last, day%, heat meter, state, vwap side, off-high, swings/travel, $tape, x ADV, SSR, halt count + resume, dilution grade chip, EDGE verdict with reason line, PR headline if the board has one. Empty list renders a how-to card, never nothing.
+   - Phone editing: `live.yml` `workflow_dispatch` gained a `tickers` input → `src.watch.write_watchlist()` overwrites `watchlist.txt`, commits, pushes, then the shift starts. Dispatching mid-shift is safe and useful: concurrency cancels the old shift and the new one reads the new list. A direct GitHub edit of watchlist.txt also reaches a RUNNING shift within a tick, because `_git_push_state` rebases against origin every push.
+   - Intel: `refresh_intel(priority=watchlist)` — his names consume the EDGAR/float budget before board names. Pulse: watchlist rows are always present (zero gates) so the lookup box always answers. Scan: watchlist already bypassed `base_metrics_ok` and always enriched — unchanged.
+   - TAPE: hub writes `docs/watch.json` (tickers only); `pullEngine()` merges it into the chip list each poll — capped at 8 (the stream limit), names removed on the phone stay removed (`tape_wx` in localStorage) until re-added, and the add-box still works with zero network.
+   **Proven** (`tests/test_pivot.py`, `tests/test_tape.js`, full `--demo` regression): the $2k-tape/no-baseline/no-history card renders complete with the honest reason; dispatch input round-trips input→watchlist.txt→docs/watch.json; MY NAMES renders above the discovery board; mergeWatch order/cap/removed-set; page script parses; TREND/BURST core invariants (item 28) re-verified untouched; tape network sinks audited — still exactly three (pulse.json, watch.json, Alpaca wss), keys still localStorage-only.
+   **Unproven:** the watch lane against live Alpaca snapshots/bars at real scale; the dispatch→commit→shift sequence on a real Actions runner; whether 2 extra calls per 45s tick matter to the rate budget (they shouldn't: ~25/tick full, budget 200/min).
+
 ### Concurrency note
 
 The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so the parallel `evening`/`premarket` jobs can never binary-conflict with the database in git. `eval` ingests the sidecars (renaming them `.done`) before grading.
@@ -217,6 +236,7 @@ The live looper writes flow events to a **JSONL sidecar**, never to SQLite, so t
 - Forecast backtested under node against 40 seeded replays of two tape regimes with a noise control, exactly as shipped; the negative control result drove the inversion advisory. Latency changes verified not to break the verdict ladder (full scenario suite re-run green).
 - TAPE core (`tapeStats`/`tapeVerdict`) executed under node against simulated streams, timeline measured: tape stops → THINNING +20s, DRAINED +27s; burst → SURGING +3s; fade-under-vwap → MONEY LEAVING +22s; 1-print-per-50s name → THIN TAPE with zero false alarms; noisy-steady flow → zero verdict flicker over 300s; <75s of tape → WARMING. The 45s pulse splice (board overlay, ts bump, insert, radar-field preservation) is fixture-tested.
 - PULSE: assembly fixture (his four 7/21 tickers + ghost-liquidity exclusion + board overlay + version gate), and the *shipped* verdict JS executed under node against 11 shapes — CPHI/OMH/UTX/SLGB land HOT/HOT/HOT/WARM, flat SBRA lands COLD, churn and deal-pin and FADING→MONEY LEAVING all correct.
+- Split-aware ADV (item 30) and the whole watchlist-first lane (item 31): `tests/test_pivot.py` (29 checks) + `tests/test_tape.js` (page parse, mergeWatch, TREND/BURST core invariants) — run both after touching any of it.
 
 ### NEVER verified against live services
 
@@ -241,8 +261,8 @@ The build sandbox has no network access to Yahoo, Alpaca, Finnhub, or the newswi
 ## 6. IMMEDIATE OPEN ITEMS
 
 1. **First live shift is the real test.** Watch the Actions log for per-feed newswire status and Alpaca errors.
-2. **Repo hygiene:** the repo root has ~16 duplicate files (`config.py`, `flow.py`, `hub.py`, etc.) from a bad drag-and-drop upload. They are harmless — Python imports from `src/`, Actions reads `.github/workflows/` — but they should be deleted. The user found manual deletion infuriating; do not make him do it file by file.
-3. **Deployment friction is the user's biggest ongoing annoyance.** He has re-uploaded the whole folder many times by hand. There is **no GitHub connector in the Anthropic directory** (checked). The only path for an assistant to push directly is a fine-grained PAT (repo-scoped, Contents + Workflows read/write) pasted into chat — offered, not yet done. If he offers a token, use it, push a clean tree (which also fixes item 2 in one commit), and tell him to revoke it after.
+2. **Repo hygiene: DONE (2026-07-22).** The ~16 stale root duplicates from the drag-upload era are deleted; imports verified. `.gitignore` now covers `__pycache__`.
+3. **Deployment friction: SOLVED (2026-07-22).** Sessions now have direct push access to the repo. Rules that come with it: never push to main while a live shift is mid-run without handling the contention (the shift commits `live-tick` to main every tick — merge, then cancel-and-redispatch `live shift` so it picks the code up), prefer deploying before 6:55am / after 7pm ET, and never commit demo-rendered `docs/` — the shift regenerates docs from real state within a tick.
 4. **DST:** shift cron lines +1 hour in November.
 5. **Universe band (fixed 2026-07-22, item 14 in the failure log):** the scan
    ran with `min_price 1.0` / `min_dollar_volume $5M` and no ceiling, which

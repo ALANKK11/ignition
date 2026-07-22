@@ -236,8 +236,102 @@ def _flow_section(flow, events):
     return head + rot + "".join(cards) + q + evs
 
 
-SESSION_LABEL = {"pre": "Pre-market board", "rth": "Live board",
-                 "post": "After-hours board"}
+SESSION_LABEL = {"pre": "Discovery · pre-market", "rth": "Discovery board",
+                 "post": "Discovery · after-hours"}
+
+DIL_HEX = {"FRESH PAPER": "#f87171", "S-1 PENDING": "#facc15",
+           "OPEN SHELF": "#fb923c", "CLEAN": "#4ade80"}
+
+
+def _watch_section(wl, ws, intel, bd, now):
+    """MY NAMES — the top of the page (HANDOFF item 31). One rich card per
+    watchlist ticker, HIS input order, always present. A name the engine has
+    no tape for still gets a card that says exactly why — never blank,
+    never 'not on radar'."""
+    order = wl or (ws or {}).get("tickers") or []
+    if not order:
+        return ('<h2 style="color:#ff5a1f;font-size:13px">MY NAMES</h2>'
+                '<div class="card note">no names yet — add tickers from your '
+                'phone: repo <b>Actions</b> → <b>live shift</b> → '
+                '<b>Run workflow</b> → tickers box (or edit '
+                '<b>watchlist.txt</b>). Your names lead this page with full '
+                'telemetry, no volume or price gates.</div>')
+    rows_by = {r["ticker"]: r for r in (ws or {}).get("rows", [])}
+    board_by = {r["ticker"]: r for r in (bd or {}).get("rows", [])}
+    intel = intel or {}
+    ts = (ws or {}).get("ts") or ""
+    stale_day = bool(ts) and ts[:10] < now.date().isoformat()
+    cards = []
+    for t in order:
+        r = rows_by.get(t)
+        b = board_by.get(t) or {}
+        if r is None:
+            cards.append(f'''<div class="card" style="border-left:3px solid #5b636c">
+<div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
+<span class="px">—</span></div>
+<div class="note">on your list — engine picks it up on the next tick
+(&le;45s during the 7a&ndash;7p ET shift)</div></div>''')
+            continue
+        dp = r.get("day_pct")
+        up = (dp or 0) >= 0
+        _dil = (intel.get("dil") or {}).get(t)
+        _hl = (intel.get("halts_by") or {}).get(t)
+        _rot = rot_of((intel.get("flo") or {}).get(t) or {})
+        ev_w, ev_c, ev_y = edge_verdict(r, _dil, _hl, _rot)
+        if r.get("ssr"):
+            ev_y = (ev_y + " · SSR on").strip(" ·")
+        chips = ""
+        if r.get("state"):
+            chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
+        if r.get("ssr"):
+            chips += _chip("SSR", "#fb923c")
+        if _hl and _hl.get("n"):
+            hlbl = f'×{_hl["n"]} halt{"s" if _hl["n"] > 1 else ""}'
+            if _hl.get("res_t"):
+                hlbl += f' · res {_hl["res_t"]}'
+            chips += _chip(hlbl, "#f87171" if _hl["n"] >= 3 else "#facc15")
+        grade = (_dil or {}).get("grade")
+        if grade and grade != "UNKNOWN":
+            chips += _chip(grade, DIL_HEX.get(grade, "#9ca3af"))
+        if b.get("catalyst"):
+            chips += _chip(f'PR {b.get("pr_ts") or ""}', "#ff5a1f")
+        meta = []
+        if r.get("dollars"):
+            meta.append(f'${fmt_big(r["dollars"])} iex')
+        if r.get("vs_adv"):
+            meta.append(f'{r["vs_adv"]:.1f}x ADV')
+        if r.get("vs_vwap") is not None:
+            meta.append(("above" if r["vs_vwap"] >= 0 else "BELOW")
+                        + f' vwap {r["vs_vwap"] * 100:+.1f}%')
+        if r.get("off_hi") is not None:
+            meta.append(f'{r["off_hi"] * 100:+.0f}% off high')
+        if r.get("swings"):
+            meta.append(f'{r["swings"]} swings')
+        if r.get("path") is not None:
+            meta.append(f'{r["path"] * 100:.0f}% traveled')
+        if r.get("tp"):
+            meta.append(f'{r["tp"]:.1f}x tape now')
+        last = f'{r["last"]:.3f}' if isinstance(r.get("last"), (int, float)) else "—"
+        cards.append(f"""<div class="card" style="border-left:3px solid {'#4ade80' if up else '#f87171'}">
+<div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
+<span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{f'{dp * 100:+.1f}%' if dp is not None else '—'}</span>
+{_heat_meter(r.get("heat"))}
+<span class="px">{last}</span>{chips}</div>
+{f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
+<div class="note" style="margin-top:4px"><b style="color:{ev_c}">{ev_w}</b>
+<span style="color:#8b939c"> — {html.escape(ev_y)}</span></div>
+{f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
+{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(b["headline"])}</div>' if b.get("headline") else ''}</div>""")
+    head = '<h2 style="color:#ff5a1f;font-size:13px">MY NAMES'
+    if ts:
+        head += f' · {ts[11:16]} ET'
+    if stale_day:
+        head += f' · last read {ts[:10]}'
+    head += '</h2>'
+    return (head + '<div class="note" style="margin:-4px 2px 8px">your list, '
+            'your order — full telemetry every tick, no admission gates. '
+            'Edit: Actions → live shift → Run workflow → tickers.</div>'
+            + "".join(cards))
 
 
 def _no_board_notice(sdir, now=None):
@@ -472,6 +566,14 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     pulse = _load(os.path.join(sdir, "latest_pulse.json"))
     if pulse and pulse.get("v") != STATE_V:
         pulse = None                     # written by old code — never serve
+    ws = _load(os.path.join(sdir, "latest_watch.json"))
+    if ws and ws.get("v") != STATE_V:
+        ws = None
+    from .watch import load_watchlist
+    try:
+        wl = load_watchlist(cfg)
+    except Exception:
+        wl = []
     ext = _load(os.path.join(sdir, "latest_ext.json"))
     if ext and ext.get("v") != STATE_V:
         ext = None
@@ -518,19 +620,22 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
                       '#242a31;color:#8b939c">market closed — flow and radar below '
                       f'are the session&rsquo;s last readings ({flow["ts"][11:16]} ET)</div>')
     is_closed = bool(closed)
+    my_names = _watch_section(wl, ws, intel, bd, now)
     if bd:
-        body = (_board_section(bd, is_closed, bd_stale) + _halt_section(intel)
+        body = (my_names
+                + _board_section(bd, is_closed, bd_stale) + _halt_section(intel)
                 + closed
                 + _transitions_only(events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
     elif not (ext or mv):
-        body = (_no_board_notice(sdir) + closed
+        body = (my_names + _no_board_notice(sdir) + closed
                 + _flow_section(flow, events)
                 + _scan_section(scan, confluence_only=True)
                 + _audit_section(hist) + _ign_precision_line(jr))
     else:
-        body = (_ext_section(ext) + _movers_section(mv) + _halt_section(intel)
+        body = (my_names
+                + _ext_section(ext) + _movers_section(mv) + _halt_section(intel)
                 + closed
                 + _flow_section(flow, events)
                 + _scan_section(scan, confluence_only=True)
@@ -554,8 +659,9 @@ spellcheck="false" maxlength="6" enterkeyhint="search"></div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
 {body}
-<div class="foot">The <b>board</b> is live tape ranked by tradable travel. <b>Tonight&rsquo;s
-setups</b> below it is a next-day forecast — a different thing, and never a list of
+<div class="foot"><b>MY NAMES</b> is your watchlist — full telemetry, no gates, your
+order. The <b>discovery board</b> below it is live tape ranked by tradable travel.
+<b>Tonight&rsquo;s setups</b> is a next-day forecast — a different thing, and never a list of
 today&rsquo;s movers. IGNITION ranks expected <b>activity</b>, not direction. Not investment
 advice.</div>
 <script>{JS}</script></body></html>"""
@@ -565,6 +671,12 @@ advice.</div>
     if pulse:
         with open(os.path.join(out_dir, "pulse.json"), "w") as f:
             json.dump(pulse, f, separators=(",", ":"))
+    # docs/watch.json — the phone/tape side of the single source of truth:
+    # tape.html merges these tickers with its localStorage list on load
+    wjs = {"v": STATE_V, "ts": dt.datetime.now(NY).isoformat(timespec="seconds"),
+           "tickers": wl or (ws or {}).get("tickers") or []}
+    with open(os.path.join(out_dir, "watch.json"), "w") as f:
+        json.dump(wjs, f, separators=(",", ":"))
     with open(os.path.join(out_dir, "tape.html"), "w") as f:
         f.write(TAPE_HTML)
     with open(os.path.join(out_dir, "manifest.webmanifest"), "w") as f:

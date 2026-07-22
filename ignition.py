@@ -269,7 +269,7 @@ def cmd_scan(args):
         # a forecast pick with an offering printing is a trap, not a setup
         try:
             from src import intel as _intel
-            _dc, _sd = {}, cfg["_paths"]["state"]
+            _dc, _sd = {}, _state_dir(cfg)
             _now = ny_now()
             _mult = {"FRESH PAPER": cfg["scan"]["dil_mult_fresh"],
                      "S-1 PENDING": cfg["scan"]["dil_mult_s1"],
@@ -470,6 +470,24 @@ def cmd_flow(args):
                                       "dollars": 1.9e6, "vs_adv": 2.2, "new": False}]}
                 with open(os.path.join(_state_dir(cfg), "latest_ext.json"), "w") as f:
                     json.dump(demo_ext, f)
+                # demo watch state: one name with real tape, one with none —
+                # exercises both MY NAMES card paths in the regression
+                demo_watch = {"v": 4, "ts": now.isoformat(timespec="seconds"),
+                    "tickers": ["PYRO", "GHST"], "rows": [
+                    {"ticker": "PYRO", "last": 1.94, "day_pct": 4.13,
+                     "move": 4.13, "open": 0.41, "off_hi": -0.03,
+                     "vs_vwap": 0.021, "ssr": False, "dollars": 6.1e6,
+                     "shares": 3.2e6, "vs_adv": 9.4, "state": "IGNITING",
+                     "tp": 8.2, "heat": 97.0, "swings": 9, "path": 3.4,
+                     "reason": None},
+                    {"ticker": "GHST", "last": None, "day_pct": None,
+                     "move": 0.0, "open": None, "off_hi": None,
+                     "vs_vwap": None, "ssr": False, "dollars": 0.0,
+                     "shares": 0.0, "vs_adv": None, "state": None, "tp": None,
+                     "heat": None, "swings": None, "path": None,
+                     "reason": "no IEX prints yet today"}]}
+                with open(os.path.join(_state_dir(cfg), "latest_watch.json"), "w") as f:
+                    json.dump(demo_watch, f)
             for ev in events:
                 if jr:
                     jr.record_flow_event(True, ev)
@@ -529,14 +547,22 @@ def cmd_flow(args):
                     _board = flow_alpaca.assemble_board(
                         sdir, now, "rth", movers,
                         {r["ticker"]: r for r in rows})
+                    from src import watch as watch_mod
+                    wl = watch_mod.load_watchlist(cfg)
+                    wrows = watch_mod.refresh(
+                        ap, sdir, now, wl, base=base,
+                        states={r["ticker"]: r for r in rows},
+                        log=lambda m: console.print(f"[dim]watch: {m}[/dim]"))
                     flow_alpaca.dump_pulse_state(sdir, now, radar_rows,
-                                                 _board, cfg.get("pulse"))
+                                                 _board, cfg.get("pulse"),
+                                                 watch_rows=wrows)
                     try:
                         from src import intel
                         intel.refresh_intel(sdir, now, _board,
                                             cfg.get("intel"),
                                             log=lambda m: console.print(
-                                                f"[dim]intel: {m}[/dim]"))
+                                                f"[dim]intel: {m}[/dim]"),
+                                            priority=wl)
                     except Exception as e:
                         console.print(f"[yellow]intel skipped: {e}[/yellow]")
                     with open(store_path, "w") as f:
@@ -667,6 +693,9 @@ def cmd_ext(args):
                                  lambda m: console.print(f"[dim]{m}[/dim]"))
     fresh = flow_alpaca.record_ignitions(rows, sdir, now, session, jr, demo=False)
     flow_alpaca.assemble_board(sdir, now, session, rows)
+    from src import watch as watch_mod
+    watch_mod.refresh(ap, sdir, now, watch_mod.load_watchlist(cfg), base=base,
+                      log=lambda m: console.print(f"[dim]watch: {m}[/dim]"))
     label = "PRE-MARKET" if session == "pre" else "AFTER-HOURS"
     if not rows:
         console.print(f"[dim]{label}: nothing gapping ≥"
@@ -787,6 +816,14 @@ def cmd_live(args):
                     base["med"] = base.get("med") or []
                     changed = flow_alpaca.fast_update(
                         ap, base, _state_dir(cfg), now, fcfg, events)
+                    # watchlist lane rides the 45s cadence too — his names
+                    # are never staler than the fast tick
+                    from src import watch as watch_mod
+                    wl = watch_mod.load_watchlist(cfg)
+                    if wl:
+                        watch_mod.refresh(ap, _state_dir(cfg), now, wl,
+                                          base=base)
+                        changed = True
                 if changed or events:
                     cmd_hub(argparse.Namespace(demo=False, out=None,
                                                config=args.config))
