@@ -1,0 +1,48 @@
+name: flow snapshot
+on:
+  schedule:
+    - cron: "*/20 13-20 * * 1-5"   # every 20 min through the US session (UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ignition
+  cancel-in-progress: false
+jobs:
+  snap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - id: gate                       # only do work while the market is open
+        run: |
+          python - <<'PY'
+          import datetime, zoneinfo, os
+          now = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York"))
+          ok = now.weekday() < 5 and (9, 32) <= (now.hour, now.minute) and now.hour < 16
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"open={'yes' if ok else 'no'}\n")
+          PY
+      - if: steps.gate.outputs.open == 'yes'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - if: steps.gate.outputs.open == 'yes'
+        run: pip install -r requirements.txt
+      - if: steps.gate.outputs.open == 'yes'
+        name: one flow reading · render hub
+        env:
+          IGNITION_HOME: ${{ github.workspace }}/data
+        run: |
+          python ignition.py flow --ticks 1 --interval 0
+          python ignition.py hub
+      - if: steps.gate.outputs.open == 'yes'
+        name: publish
+        run: |
+          git config user.name ignition-bot
+          git config user.email ignition@users.noreply.github.com
+          git add -A data docs
+          git commit -m "flow $(date -u +%FT%H:%M)" || exit 0
+          git pull --rebase --autostash
+          git push
