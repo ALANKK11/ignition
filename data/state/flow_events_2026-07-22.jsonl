@@ -693,3 +693,9 @@
 {"ts": "2026-07-22T13:49:43.420805-04:00", "demo": 0, "ticker": "REM", "prev_state": "COOLING", "state": "RUNNING", "price": 21.7, "tp": 2.0355503464307625, "note": "sustained 2.0x"}
 {"ts": "2026-07-22T13:49:43.420805-04:00", "demo": 0, "ticker": "DYN", "prev_state": "CHURN", "state": "COOLING", "price": 22.99, "tp": 1.7078219305306466, "note": "pace 1.7x off peak 10.4x"}
 {"ts": "2026-07-22T13:49:43.420805-04:00", "demo": 0, "ticker": "BKU", "prev_state": "IGNITING", "state": "RUNNING", "price": 45.49, "tp": 3.875070220531089, "note": "sustained 3.9x"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "EQPT", "prev_state": "RUNNING", "state": "COOLING", "price": 17.24, "tp": 1.7706034715433714, "note": "pace 1.8x off peak 3.0x"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "ENZL", "prev_state": "FADING", "state": "CHURN", "price": 46.92, "tp": 2.7629071535963545, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "BLFS", "prev_state": "FADING", "state": "CHURN", "price": 31.33, "tp": 9.472508935494254, "note": "9.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "COOLING", "price": 22.47, "tp": 0.0, "note": "pace 0.0x off peak 6.2x"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "BLDP", "prev_state": "IGNITING", "state": "FADING", "price": 3.16, "tp": 3.9106179345795984, "note": "pace 3.9x vs peak 14.7x \u00b7 -0.3% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T13:52:43.421286-04:00", "demo": 0, "ticker": "EUFN", "prev_state": "CHURN", "state": "RUNNING", "price": 40.755, "tp": 2.079659987853379, "note": "sustained 2.1x"}
