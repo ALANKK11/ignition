@@ -479,12 +479,16 @@ def cmd_flow(args):
                      "vs_vwap": 0.021, "ssr": False, "dollars": 6.1e6,
                      "shares": 3.2e6, "vs_adv": 9.4, "state": "IGNITING",
                      "tp": 8.2, "heat": 97.0, "swings": 9, "path": 3.4,
+                     "mood": "MONEY HERE", "f15": 4.8e5, "r15": 0.82,
+                     "travel15": 0.061, "stalled_min": 0,
                      "reason": None},
                     {"ticker": "GHST", "last": None, "day_pct": None,
                      "move": 0.0, "open": None, "off_hi": None,
                      "vs_vwap": None, "ssr": False, "dollars": 0.0,
                      "shares": 0.0, "vs_adv": None, "state": None, "tp": None,
                      "heat": None, "swings": None, "path": None,
+                     "mood": "NO TAPE", "f15": None, "r15": None,
+                     "travel15": None, "stalled_min": None,
                      "reason": "no IEX prints yet today"}]}
                 with open(os.path.join(_state_dir(cfg), "latest_watch.json"), "w") as f:
                     json.dump(demo_watch, f)

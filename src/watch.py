@@ -21,7 +21,8 @@ import os
 import re
 from pathlib import Path
 
-from .flow_alpaca import STATE_V, path_stats
+from .flow_alpaca import (STATE_V, mood_candidate, now_stats, path_stats,
+                          sticky_mood)
 from .util import NY
 
 _TOK = re.compile(r"^[A-Z0-9.\-]{1,6}$")
@@ -82,12 +83,16 @@ def _sess_vwap(df, now: dt.datetime):
 
 def build_rows(watchlist: list[str], snaps: dict, bars: dict,
                base: dict | None, states: dict | None,
-               now: dt.datetime) -> list[dict]:
+               now: dt.datetime, mood_store: dict | None = None) -> list[dict]:
     """One row per watchlist ticker, in HIS input order, always. Missing
-    data degrades to a `reason` string, never to a missing row."""
+    data degrades to a `reason` string, never to a missing row. When a
+    `mood_store` is passed, each row carries the sticky MOOD + NOW read
+    (item 32): last-15-min flow/travel anchored to the session's own peak."""
     base = base or {}
     states = states or {}
     rows = []
+    open_t = dt.datetime.combine(now.date(), dt.time(9, 30), tzinfo=NY)
+    elapsed = max((now - open_t).total_seconds() / 60.0, 0.0)
     for t in watchlist:
         s = snaps.get(t) or {}
         day = s.get("dailyBar") or {}
@@ -118,6 +123,10 @@ def build_rows(watchlist: list[str], snaps: dict, bars: dict,
                 opn = float(d_["Open"].iloc[0])
         vwap = _sess_vwap(df, now) if df is not None else None
         ps = path_stats(df, now) if df is not None else None
+        ns = now_stats(df, now) if df is not None else None
+        mood = None
+        if mood_store is not None:
+            mood = sticky_mood(mood_store, t, mood_candidate(ns, elapsed))
 
         adv = (base.get("adv") or {}).get(t)
         r = {
@@ -138,6 +147,11 @@ def build_rows(watchlist: list[str], snaps: dict, bars: dict,
             "heat": (ps or {}).get("heat"),
             "swings": (ps or {}).get("swings"),
             "path": (ps or {}).get("path"),
+            "mood": mood,
+            "f15": (ns or {}).get("f15"),
+            "r15": (ns or {}).get("r15"),
+            "travel15": (ns or {}).get("travel15"),
+            "stalled_min": (ns or {}).get("stalled_min"),
         }
         # the honest reason line — a card is NEVER blank
         if last is None:
@@ -191,6 +205,19 @@ def refresh(ap, sdir: str, now: dt.datetime, watchlist: list[str],
             bars = {}
             if log:
                 log(f"watch bars: {e}")
-    rows = build_rows(watchlist, snaps, bars, base, states, now)
+    # sticky-mood memory survives across ticks (and shift restarts)
+    mood_p = os.path.join(sdir, f"watch_mood_{now.date().isoformat()}.json")
+    try:
+        with open(mood_p) as f:
+            mood_store = json.load(f)
+    except Exception:
+        mood_store = {}
+    rows = build_rows(watchlist, snaps, bars, base, states, now,
+                      mood_store=mood_store)
+    try:
+        with open(mood_p, "w") as f:
+            json.dump(mood_store, f)
+    except Exception:
+        pass
     dump_state(sdir, now, rows)
     return rows

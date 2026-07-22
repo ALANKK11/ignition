@@ -403,7 +403,11 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
             "open": r.get("open"), "ssr": bool(r.get("ssr")),
             "vs_vwap": st.get("vs_vwap", r.get("vs_vwap")),
             "tp": st.get("tp"),
-            "hot": bool(r.get("hot") or (st.get("tp") or 0) >= 2.5),
+            # HOT NOW must mean now: heavy tape on a price that stopped
+            # moving is churn, not heat — gate the chip on recent travel
+            "hot": bool((r.get("hot") or (st.get("tp") or 0) >= 2.5)
+                        and (r.get("recent") is None
+                             or r.get("recent") >= 0.015)),
             "pin": bool(r.get("pin")),
             "heat": r.get("heat"),
             "swings": r.get("swings"),
@@ -478,11 +482,115 @@ def path_stats(df, now: dt.datetime, swing_th: float = 0.07) -> dict | None:
         i30 = d.index.searchsorted(now - dt.timedelta(minutes=30))
         recent = float(r[max(i30 - 1, 0):].sum()) if len(r) else 0.0
         recency = min(recent / 0.08, 1.0)          # 8% travel in 30m = fully hot
-        heat = 100.0 * (1.0 - np.exp(-trad / 0.5)) * (0.25 + 0.75 * recency)
+        # stale floor 0.10 (was 0.25): a name sideways for two hours is
+        # useless on a "hot" screen no matter how far it ran this morning —
+        # his exact complaint, 2026-07-22. Dead-recency heat caps at 10.
+        heat = 100.0 * (1.0 - np.exp(-trad / 0.5)) * (0.10 + 0.90 * recency)
         return {"path": path, "trad": trad, "swings": swings,
                 "recent": recent, "heat": round(heat, 1)}
     except Exception:
         return None
+
+
+def now_stats(df, now: dt.datetime) -> dict | None:
+    """THE CURRENT MOMENT (item 32): what is this name doing in the last 15
+    minutes, against ITS OWN session as the base. Anchored to the session's
+    peak 15-minute window — never a trailing average, which sinks along with
+    a bleeding name and reads healthy forever (the item-27 lesson, now at
+    minute scale).
+
+    f15         dollar flow, last 15 minutes, minus the single largest
+                minute (one whale print is not a wave — peakCand's logic)
+    peak15      the best whale-robust 15-minute window of the session
+    r15         f15 / peak15 — "how alive is it right now vs its best"
+    travel15    Σ|1-min returns| in the last 15 minutes
+    stalled_min minutes since the last 5-min window that traveled ≥1.5%
+    """
+    try:
+        if df is None or not len(df):
+            return None
+        d = df[df.index <= now]
+        if len(d) < 3:
+            return None
+        v = d["Volume"].to_numpy(float)
+        c = d["Close"].to_numpy(float)
+        dol = v * c
+        idx = d.index
+        raw = np.abs(np.diff(c) / c[:-1])
+        r = np.where(raw >= 0.0035, raw, 0.0)
+        # whale-robust rolling 15m dollar windows across the session
+        peak15, f15 = 0.0, 0.0
+        t15 = now - dt.timedelta(minutes=15)
+        for i in range(len(d)):
+            j = idx.searchsorted(idx[i] - dt.timedelta(minutes=15))
+            w = dol[j:i + 1]
+            wr = float(w.sum() - w.max()) if len(w) > 1 else 0.0
+            peak15 = max(peak15, wr)
+        j = idx.searchsorted(t15)
+        w = dol[j:]
+        f15 = float(w.sum() - w.max()) if len(w) > 1 else 0.0
+        travel15 = float(r[max(j - 1, 0):].sum()) if len(r) else 0.0
+        # stalled: walk back in 5-min windows until one actually traveled
+        stalled = None
+        for back in range(0, 241, 5):
+            a = idx.searchsorted(now - dt.timedelta(minutes=back + 5))
+            b = idx.searchsorted(now - dt.timedelta(minutes=back))
+            seg = r[max(a - 1, 0):max(b - 1, 0)] if b > a else r[0:0]
+            if len(seg) and float(seg.sum()) >= 0.015:
+                stalled = back
+                break
+        if stalled is None:
+            stalled = 240
+        return {"f15": f15, "peak15": peak15,
+                "r15": (f15 / peak15) if peak15 > 0 else None,
+                "travel15": travel15, "stalled_min": stalled}
+    except Exception:
+        return None
+
+
+MOOD_RANK = {"MONEY HERE": 4, "COOLING": 3, "MONEY LEAVING": 2, "DEAD": 1,
+             "STALLED": 1, "WARMING": 3, "NO TAPE": 0}
+
+
+def mood_candidate(ns: dict | None, elapsed_min: float) -> str:
+    """Raw mood from the NOW read. Sticky-ness is applied by the caller."""
+    if not ns or ns.get("r15") is None:
+        return "NO TAPE"
+    if elapsed_min < 25:
+        return "WARMING"
+    if ns["stalled_min"] >= 45 and (ns["r15"] or 0) < 0.5:
+        return "STALLED"
+    r = ns["r15"]
+    if r >= 0.55:
+        return "MONEY HERE"
+    if r >= 0.30:
+        return "COOLING"
+    if r >= 0.12:
+        return "MONEY LEAVING"
+    return "DEAD"
+
+
+def sticky_mood(store: dict, tkr: str, cand: str,
+                degrade_n: int = 2, recover_n: int = 3) -> str:
+    """Green→red→green flicker is useless to him (his words). A mood flip
+    needs the candidate to hold for N consecutive ticks: 2 to degrade
+    (~1.5-3 min), 3 to recover — same shape as TAPE's sticky(), at minute
+    scale, persisted across ticks in a state file."""
+    s = store.get(tkr)
+    if not s:
+        store[tkr] = {"cur": cand, "cand": cand, "n": 1}
+        return cand
+    if cand == s["cur"]:
+        s["cand"], s["n"] = cand, 1
+        return s["cur"]
+    if cand != s["cand"]:
+        s["cand"], s["n"] = cand, 1
+        return s["cur"]
+    s["n"] += 1
+    worse = MOOD_RANK.get(cand, 0) < MOOD_RANK.get(s["cur"], 0)
+    if s["n"] >= (degrade_n if worse else recover_n):
+        s["cur"], s["n"] = cand, 1
+    return s["cur"]
 
 
 def attach_heat(rows: list[dict], bars: dict, now: dt.datetime) -> None:
