@@ -133,3 +133,18 @@
 {"ts": "2026-07-22T11:17:37.226104-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "COOLING", "state": "RUNNING", "price": 3.5, "tp": 2.029535805277622, "note": "sustained 2.0x"}
 {"ts": "2026-07-22T11:18:19.720553-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "CHURN", "price": 11.32, "tp": 8.11417848572781, "note": "8.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T11:19:04.705668-04:00", "demo": 0, "ticker": "CCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Compass Connections, A21, Clear Channel Outdoor and Union Pacific Launch Anti-Human Trafficking Billboard Campaign"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "EQPT", "prev_state": "RUNNING", "state": "COOLING", "price": 17.04, "tp": 1.711371814476051, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "EZA", "prev_state": "FADING", "state": "CHURN", "price": 63.045, "tp": 3.594343019634537, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "UAE", "prev_state": "RUNNING", "state": "CHURN", "price": 18.755, "tp": 5.711517253119022, "note": "5.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "INM", "prev_state": "LEAVING", "state": "FADING", "price": 1.92, "tp": 78.10814847318522, "note": "pace 78.1x vs peak 1459.8x \u00b7 -17.2% off HOD \u00b7 chart still +28% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "FADING", "state": "RUNNING", "price": 4.695, "tp": 1.8931110931062496, "note": "sustained 1.9x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "CPSL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.06, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "COOLING", "price": 25.16, "tp": 1.1953376138551424, "note": "pace 1.2x off peak 3.2x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "BKU", "prev_state": "IGNITING", "state": "RUNNING", "price": 45.49, "tp": 12.408110063353044, "note": "sustained 12.4x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "COF", "prev_state": "COOLING", "state": "RUNNING", "price": 200.605, "tp": 1.8448917724118703, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "NEA", "prev_state": "CHURN", "state": "RUNNING", "price": 11.31, "tp": 13.430113673075306, "note": "sustained 13.4x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "AIR", "prev_state": "IGNITING", "state": "RUNNING", "price": 129.2, "tp": 2.2495598854770753, "note": "sustained 2.2x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.27, "tp": 22.163418419347824, "note": "sustained 22.2x"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "CLSE", "prev_state": "FADING", "state": "CHURN", "price": 34.21, "tp": 6.8491413603490425, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 30.7, "tp": 2.456147805913174, "note": "quiet open (0.2x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-22T11:21:19.720194-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "COOLING", "state": "QUIET", "price": 14.88, "tp": 1.7924751953091782, "note": ""}
