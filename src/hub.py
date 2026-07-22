@@ -276,7 +276,8 @@ $w('wqb')&&($w('wqb').onclick=()=>{wadd($w('wq').value);$w('wq').value=''});
 $w('wq')&&$w('wq').addEventListener('keydown',e=>{if(e.key==='Enter'){
  wadd($w('wq').value);$w('wq').value=''}});
 $w('wsync')&&($w('wsync').onclick=()=>{const s=$w('wsetup');
- if(wtokv()&&WDIRTY){wpushNow()}else{s.hidden=!s.hidden}});
+ s.hidden=!s.hidden;                 // ALWAYS allow re-entering the token
+ if(wtokv()&&WDIRTY)wpushNow()});
 $w('wtokgo')&&($w('wtokgo').onclick=()=>{const v=$w('wtok').value.trim();
  if(v){localStorage.gh_t=v;$w('wtok').value='';$w('wsetup').hidden=true;
   WDIRTY=true;wsave();wpushNow()}});
