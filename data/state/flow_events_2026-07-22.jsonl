@@ -949,3 +949,12 @@
 {"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "CLW", "prev_state": "COOLING", "state": "RUNNING", "price": 16.46, "tp": 1.8303574115606707, "note": "sustained 1.8x"}
 {"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "WTI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.71, "tp": 1.5680694653980465, "note": "pace 1.6x off peak 2.4x"}
 {"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "BH", "prev_state": "RUNNING", "state": "COOLING", "price": 372.74, "tp": 0.9145080022060216, "note": "pace 0.9x off peak 6.9x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "CNXN", "prev_state": "RUNNING", "state": "COOLING", "price": 79.39, "tp": 0.0, "note": "pace 0.0x off peak 13.1x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6124, "tp": 3.4045808004081044, "note": "sustained 3.4x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "FADING", "state": "IGNITING", "price": 20.565, "tp": 12.261434913541633, "note": "pace 12.3x and accelerating (18.4x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.3, "tp": 6.2249232539346755, "note": "pace 6.2x and accelerating (4.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "AVES", "prev_state": "FADING", "state": "RUNNING", "price": 63.975, "tp": 19.246317452155356, "note": "sustained 19.2x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "BMI", "prev_state": "RUNNING", "state": "COOLING", "price": 126.29, "tp": 1.2341213586789417, "note": "pace 1.2x off peak 10.7x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "EE", "prev_state": "FADING", "state": "COOLING", "price": 39.41, "tp": 0.1823144400525786, "note": "pace 0.2x off peak 4.0x"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "BNDW", "prev_state": "QUIET", "state": "NEW MONEY", "price": 67.585, "tp": 2.128388403613025, "note": "quiet open (0.2x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-22T15:17:00.663552-04:00", "demo": 0, "ticker": "ACT", "prev_state": "FADING", "state": "NEW MONEY", "price": 45.6, "tp": 4.924078563358507, "note": "quiet open (0.1x) \u2192 now 4.9x \u00b7 taking +0.6% flow share"}
