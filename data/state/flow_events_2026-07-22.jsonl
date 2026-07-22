@@ -839,3 +839,12 @@
 {"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "CHURN", "state": "COOLING", "price": 29.575, "tp": 0.8787707605748759, "note": "pace 0.9x off peak 23.5x"}
 {"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "FADING", "state": "CHURN", "price": 11.065, "tp": 9.403007446405041, "note": "9.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T14:35:45.655236-04:00", "demo": 0, "ticker": "COF", "prev_state": "COOLING", "state": "RUNNING", "price": 201.45, "tp": 2.1630018133943234, "note": "sustained 2.2x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "COOLING", "price": 21.705, "tp": 0.5742725067803207, "note": "pace 0.6x off peak 19.3x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "BLDP", "prev_state": "FADING", "state": "IGNITING", "price": 3.105, "tp": 6.285779130622789, "note": "pace 6.3x and accelerating (2.9x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "CHURN", "state": "RUNNING", "price": 11.055, "tp": 9.575503578297631, "note": "sustained 9.6x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "CHURN", "state": "RUNNING", "price": 40.8, "tp": 3.8476864768187085, "note": "sustained 3.8x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "CHAI", "prev_state": "IGNITING", "state": "FADING", "price": 0.4836, "tp": 53.45754453065126, "note": "pace 53.5x vs peak 258.2x \u00b7 -15.3% off HOD \u00b7 chart still +23% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "INM", "prev_state": "LEAVING", "state": "FADING", "price": 1.72, "tp": 10.175032750386716, "note": "pace 10.2x vs peak 1459.8x \u00b7 -25.9% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "BEP", "prev_state": "RUNNING", "state": "COOLING", "price": 32.32, "tp": 1.559420446123631, "note": "pace 1.6x off peak 10.9x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "BAR", "prev_state": "QUIET", "state": "RUNNING", "price": 40.7, "tp": 2.020052031339145, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T14:39:30.656212-04:00", "demo": 0, "ticker": "CDX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.815, "tp": 0.0, "note": "pace 0.0x off peak 2.6x"}
