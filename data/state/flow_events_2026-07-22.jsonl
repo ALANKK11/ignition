@@ -940,3 +940,12 @@
 {"ts": "2026-07-22T15:09:30.661987-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "FADING", "state": "LEAVING", "price": 90.635, "tp": 1.4403910601362033, "note": "pace 1.4x off peak 12.2x \u00b7 VWAP lost (was +2.3% above)"}
 {"ts": "2026-07-22T15:09:30.661987-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 31.36, "tp": 3.1258992512406967, "note": "quiet open (1.1x) \u2192 now 3.1x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-22T15:09:30.661987-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 125.23, "tp": 4.448375273788989, "note": "sustained 4.4x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "DYN", "prev_state": "COOLING", "state": "RUNNING", "price": 23.25, "tp": 1.8133593476740588, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "RUNNING", "state": "COOLING", "price": 34.2, "tp": 0.0, "note": "pace 0.0x off peak 4.2x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "COOLING", "state": "NEW MONEY", "price": 30.985, "tp": 5.819254589596853, "note": "quiet open (0.2x) \u2192 now 5.8x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "CANE", "prev_state": "COOLING", "state": "RUNNING", "price": 9.72, "tp": 12.964982198477953, "note": "sustained 13.0x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "BSCV", "prev_state": "CHURN", "state": "COOLING", "price": 16.215, "tp": 0.0, "note": "pace 0.0x off peak 56.9x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.245, "tp": 2.9725069995228277, "note": "pace 3.0x and accelerating (1.7x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "CLW", "prev_state": "COOLING", "state": "RUNNING", "price": 16.46, "tp": 1.8303574115606707, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "WTI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.71, "tp": 1.5680694653980465, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-07-22T15:13:15.663321-04:00", "demo": 0, "ticker": "BH", "prev_state": "RUNNING", "state": "COOLING", "price": 372.74, "tp": 0.9145080022060216, "note": "pace 0.9x off peak 6.9x"}
