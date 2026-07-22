@@ -38,3 +38,13 @@
 {"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "QUIET", "state": "RUNNING", "price": 4.65, "tp": 2.371761621695898, "note": "sustained 2.4x"}
 {"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "CPF", "prev_state": "QUIET", "state": "NEW MONEY", "price": 38.6, "tp": 4.5454623786813375, "note": "quiet open (0.1x) \u2192 now 4.5x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "PEGA", "prev_state": "CHURN", "state": "RUNNING", "price": 26.975, "tp": 6.793243202544353, "note": "sustained 6.8x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "FJUL", "prev_state": "RUNNING", "state": "COOLING", "price": 60.05, "tp": 0.0, "note": "pace 0.0x off peak 14.4x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "VNM", "prev_state": "RUNNING", "state": "COOLING", "price": 16.455, "tp": 0.15736545834889284, "note": "pace 0.2x off peak 16.8x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "RUNNING", "state": "QUIET", "price": 14.835, "tp": 1.7766579135959784, "note": ""}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.155, "tp": 4.518696035147737, "note": "sustained 4.5x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.05, "tp": 6.8258454064707115, "note": "pace 6.8x and accelerating (1.7x vs prior window) \u00b7 -8.6% in window"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "LEAVING", "state": "FADING", "price": 91.04, "tp": 1.9957428860434143, "note": "pace 2.0x vs peak 12.2x \u00b7 -4.6% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "WASH", "prev_state": "RUNNING", "state": "QUIET", "price": 38.11, "tp": 1.7547184721203197, "note": ""}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "GJUL", "prev_state": "QUIET", "state": "RUNNING", "price": 43.79, "tp": 58.94813254712585, "note": "sustained 58.9x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "RUNNING", "state": "COOLING", "price": 9.34, "tp": 1.630101226490863, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-07-22T10:56:37.220479-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "COOLING", "price": 11.315, "tp": 1.5869722886138615, "note": "pace 1.6x off peak 3.0x"}
