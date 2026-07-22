@@ -14,10 +14,10 @@ console.log('hub script parses');
 console.assert(script.includes("'ALANKK11/ignition'"), 'repo constant');
 console.assert((script.match(/api\.github\.com/g) || []).length >= 1, 'api host');
 console.assert(/localStorage\.gh_t/.test(script), 'token in localStorage only');
-// alpaca keys: READ-only reuse of tape's saved keys; the hub must never
-// write them and never send them anywhere but the alpaca stream auth
-console.assert(!/localStorage\.tape_k\s*=|localStorage\.tape_s\s*=/.test(script),
-  'hub must not write alpaca keys');
+// alpaca keys: the ⚙ panel is the ONLY writer (user-typed input → the same
+// localStorage slots TAPE uses), and keys go nowhere but the alpaca auth
+const keyWrites = [...script.matchAll(/localStorage\.tape_[ks]\s*=/g)];
+console.assert(keyWrites.length === 2, 'exactly the two panel writes: ' + keyWrites.length);
 // outbound hosts: exactly the github api + the alpaca IEX stream
 const hosts = [...script.matchAll(/(?:https?|wss):\/\/([a-z0-9.\-]+)/gi)].map(m => m[1]);
 console.assert(hosts.every(h => h === 'api.github.com'
@@ -61,4 +61,16 @@ console.assert(/DRAINING/.test(L.liveHead('DRY', s2)[0]), 'DRY head');
 console.assert(L.liveScore('FLOW', {d30: 1}) > L.liveScore('DRY', {d30: 1e9}),
   'state ranks above raw dollars');
 console.log('live strip + ranking OK');
+
+// feed auto-select: SIP probed first, IEX fallback wired, entitlement cached
+console.assert(script.includes("'wss://stream.data.alpaca.markets/v2/'+LFEED"),
+  'feed-parameterized stream URL');
+console.assert(/feed_sip/.test(script) && /feed_pref/.test(script),
+  'feed pref + entitlement cache');
+console.assert(/insufficient\|subscription/.test(script),
+  'entitlement rejection fallback');
+// unified keys panel: one save path writes the SAME storage tape uses
+console.assert(/localStorage\.tape_k=k/.test(script)
+  && /localStorage\.tape_s=s2/.test(script), 'panel writes shared key slots');
+console.log('feed auto-select + keys panel OK');
 console.log('ALL HUB JS TESTS PASS');

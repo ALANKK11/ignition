@@ -88,6 +88,9 @@ border-radius:10px;color:var(--tx);font-family:inherit;font-size:14px;
 padding:10px 14px;font-weight:700}
 .addrow button.go{background:var(--hot);border-color:var(--hot);color:#fff}
 .wrm{margin-left:auto;color:#5b636c;font-weight:700;padding:0 4px}
+.klab{color:#8b939c;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+margin:12px 2px 4px}
+.vhead{margin-left:8px}
 """
 
 JS = """
@@ -203,7 +206,7 @@ function wcard(r){
   '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:'+hc+'">'+wesc(mood||'…')+'</span>'+
   '<span class="px" style="margin-left:auto">'+last+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>'+
+  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>'+
   (chips?'<div class="row" style="margin-top:6px">'+chips+'</div>':'')+
   ((r.read||r.now_line)?'<div class="note" style="color:#8b939c;font-size:12.5px">'+wesc(r.read||r.now_line)+'</div>':'')+
   (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
@@ -219,7 +222,7 @@ function wmini(t){
   '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;color:'+hc+'">'+wesc(v?v[0]:'…')+'</span>'+
   '<span class="px" style="margin-left:auto">'+((x&&x.last)?x.last:'')+'</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
-  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>'+
+  '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>'+
   '<div class="note" style="font-size:12.5px">'+(v?wesc(v[2])+' · ':'')+
   (WDIRTY?'waiting for sync — engine intel follows':'engine picks it up next tick (≤2 min in shift hours)')+'</div></div>'}
 function wrender(){
@@ -276,12 +279,35 @@ function wpoll(){
 $w('wqb')&&($w('wqb').onclick=()=>{wadd($w('wq').value);$w('wq').value=''});
 $w('wq')&&$w('wq').addEventListener('keydown',e=>{if(e.key==='Enter'){
  wadd($w('wq').value);$w('wq').value=''}});
-$w('wsync')&&($w('wsync').onclick=()=>{const s=$w('wsetup');
- s.hidden=!s.hidden;                 // ALWAYS allow re-entering the token
+/* ⚙ keys — ONE panel for every key, enter once and forget. Values live in
+   this browser's localStorage only (shared with TAPE, so either page's
+   entry covers both). A public page cannot read repo secrets — that is why
+   the phone needs its own copy of the same values. */
+function fsDraw(){const p=localStorage.feed_pref||'auto';const e=$w('feedsel');
+ if(e)e.textContent='feed: '+p.toUpperCase()+(p==='auto'?' — fullest your plan allows':'')}
+$w('wkeys')&&($w('wkeys').onclick=()=>{const s=$w('wsetup');
+ s.hidden=!s.hidden;                 // ALWAYS reopenable — re-entry never locked
+ if(!s.hidden){const kk=lkeys();
+  $w('akey').placeholder=kk[0]?'Alpaca key — saved ✓ (paste to replace)':'Alpaca API key';
+  $w('asec').placeholder=kk[1]?'Alpaca secret — saved ✓ (paste to replace)':'Alpaca secret';
+  $w('wtok').placeholder=wtokv()?'GitHub token — saved ✓ (paste to replace)':'github_pat_…';
+  fsDraw()}
  if(wtokv()&&WDIRTY)wpushNow()});
-$w('wtokgo')&&($w('wtokgo').onclick=()=>{const v=$w('wtok').value.trim();
- if(v){localStorage.gh_t=v;$w('wtok').value='';$w('wsetup').hidden=true;
-  WDIRTY=true;wsave();wpushNow()}});
+$w('feedsel')&&($w('feedsel').onclick=()=>{const seq=['auto','sip','iex'];
+ const p=localStorage.feed_pref||'auto';
+ localStorage.feed_pref=seq[(seq.indexOf(p)+1)%3];
+ delete localStorage.feed_sip;fsDraw()});
+$w('ksave')&&($w('ksave').onclick=()=>{
+ const k=$w('akey').value.trim(),s2=$w('asec').value.trim(),g=$w('wtok').value.trim();
+ if(k)localStorage.tape_k=k;
+ if(s2)localStorage.tape_s=s2;
+ if(g)localStorage.gh_t=g;
+ $w('akey').value='';$w('asec').value='';$w('wtok').value='';
+ $w('wsetup').hidden=true;
+ wstat('keys saved on this phone ✓','#4ade80');
+ if(g){WDIRTY=true;wsave();wpushNow()}
+ if(k||s2){delete localStorage.feed_sip}   // re-probe SIP with the new keys
+ ltries=0;try{lws&&lws.close()}catch(e){};lws=null;setTimeout(lconnect,200)});
 $w('wroot')&&$w('wroot').addEventListener('click',e=>{
  const x=e.target.closest('.wrm');if(x)wrm(x.dataset.t)});
 if(WDIRTY)wstat('unsynced local edits — syncing…','#facc15');
@@ -353,11 +379,22 @@ function liveHead(st,s){
    name's own burst), dollar flow breaks ties. His "relative to the others". */
 function liveScore(st,s){return (LVRANK[st]||0)*1e12+(s.d30||0);}
 /*LIVE-END*/
-var LBUF={},LVS={},lws=null,ltries=0,lsubs=[];
+var LBUF={},LVS={},lws=null,ltries=0,lsubs=[],LFEED='iex';
 function lvnote(m,c){const e=$w('lvst');if(e){e.textContent=m;e.style.color=c||'#5b636c'}}
 function lkeys(){return [localStorage.tape_k||'',localStorage.tape_s||'']}
 function lmkt(){const d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
  const h=d.getHours();return d.getDay()>0&&d.getDay()<6&&h>=4&&h<20}
+/* ACCURACY: SIP is the full consolidated tape (every US exchange); IEX is a
+   ~3% sample. Auto mode probes SIP with his keys and falls back to IEX the
+   moment Alpaca says his plan doesn't include it — cached, so it costs one
+   reconnect ever, and re-probed whenever keys change or he flips the pref. */
+function lfeed(){const p=localStorage.feed_pref||'auto';
+ if(p==='sip')return 'sip';
+ if(p==='iex')return 'iex';
+ return localStorage.feed_sip==='0'?'iex':'sip'}
+function lNoSip(){localStorage.feed_sip='0';
+ lvnote('SIP not in your Alpaca plan — using IEX sample (upgrade Alpaca and it switches itself)','#facc15');
+ try{lws&&lws.close()}catch(e){};lws=null;setTimeout(lconnect,300)}
 function lsub(){
  if(!lws||lws.readyState!==1)return;
  const want=wlist().slice(0,8);
@@ -367,19 +404,27 @@ function lsub(){
  lsubs=want;}
 function lconnect(){
  const [k,s]=lkeys();
- if(!k||!s){lvnote('live strip off — save your Alpaca keys in TAPE once on this phone');return}
+ if(!k||!s){lvnote('live per-second read is OFF — tap ⚙ keys above, paste your Alpaca key once','#facc15');return}
  if(!lmkt()){lvnote('live strip resumes with the tape (4a–8p ET)');return}
  try{lws&&lws.close()}catch(e){}
- lws=new WebSocket('wss://stream.data.alpaca.markets/v2/iex');
+ LFEED=lfeed();
+ const auto=(localStorage.feed_pref||'auto')==='auto';
+ lws=new WebSocket('wss://stream.data.alpaca.markets/v2/'+LFEED);
  lws.onmessage=ev=>{let arr;try{arr=JSON.parse(ev.data)}catch(e){return}
   (Array.isArray(arr)?arr:[arr]).forEach(m=>{
    if(m.T==='success'&&m.msg==='connected')
     lws.send(JSON.stringify({action:'auth',key:k,secret:s}));
    else if(m.T==='success'&&m.msg==='authenticated'){ltries=0;lsubs=[];lsub();
-    lvnote('live strip ● streaming','#4ade80')}
+    if(LFEED==='sip')localStorage.feed_sip='1';
+    lvnote(LFEED==='sip'?'live ● SIP full tape — every exchange, every print'
+     :'live ● IEX sample (~3% of volume)'+(localStorage.feed_sip==='0'?' — SIP needs a paid Alpaca plan':''),
+     LFEED==='sip'?'#4ade80':'#facc15')}
    else if(m.T==='error'){
+    // entitlement rejections while probing SIP: drop to IEX, remember, move on
+    if(LFEED==='sip'&&auto&&(m.code===409||m.code===402
+      ||/insufficient|subscription/i.test(m.msg||''))){lNoSip();return}
     lvnote(m.code===406?'live strip paused — TAPE is using the stream (one connection allowed); close TAPE to stream here'
-     :(m.code===401||m.code===402)?'live strip: keys rejected — re-save them in TAPE'
+     :(m.code===401||m.code===402)?'live strip: keys rejected — tap ⚙ keys and re-enter them'
      :'live strip: stream error '+(m.msg||m.code),'#f87171');
     if(m.code===406){try{lws.close()}catch(e){};lws=null}}
    else if(m.T==='t'&&m.S){const b=LBUF[m.S]=LBUF[m.S]||[];
@@ -643,22 +688,36 @@ def _watch_section(wl, ws, intel, bd, now):
               'autocomplete="off" autocorrect="off" '
               'autocapitalize="characters" spellcheck="false" '
               'enterkeyhint="done"><button id="wqb">＋</button>'
-              '<button id="wsync" style="flex:.6">sync</button></div>'
+              '<button id="wkeys" style="flex:.7">⚙ keys</button></div>'
               '<div class="note" id="wst"></div>'
               '<div class="note" id="lvst"></div>'
-              '<div id="wsetup" class="card" hidden><b>One-time sync setup'
-              '</b><div class="note">To let this page update the engine&rsquo;s '
-              'list, paste a GitHub <b>fine-grained token</b>: github.com → '
-              'Settings → Developer settings → Fine-grained tokens → Generate. '
-              'Repository access: <b>only ALANKK11/ignition</b>. Permissions: '
-              '<b>Contents → Read and write</b>, nothing else. It is stored '
-              '<b>only on this phone</b> — never in the repo. Without it, '
-              'names you add here still show live reads from the pulse feed, '
-              'but the engine&rsquo;s EDGAR/halt intel follows only after the '
-              'list syncs.</div>'
+              '<div id="wsetup" class="card" hidden>'
+              '<b>Keys — enter once, only on this phone</b>'
+              '<div class="note">Saved in this browser alone (localStorage) and '
+              'used across the hub and TAPE. Never committed, never in the repo, '
+              'never sent anywhere but the data vendor and GitHub. These are the '
+              'same values as your repo secrets — the page needs its own copy '
+              'because a public web page can&rsquo;t read repo secrets (anyone '
+              'could). Enter once; it sticks.</div>'
+              '<div class="klab">Alpaca — the live per-second tape</div>'
+              '<div class="addrow"><input id="akey" placeholder="Alpaca API key" '
+              'autocomplete="off" autocapitalize="none" spellcheck="false"></div>'
+              '<div class="addrow"><input id="asec" placeholder="Alpaca secret" '
+              'autocomplete="off" autocapitalize="none" spellcheck="false"></div>'
+              '<div class="klab">Data feed — accuracy</div>'
+              '<div class="addrow"><button id="feedsel" style="flex:1"></button></div>'
+              '<div class="note" style="margin-top:2px">Auto uses the fullest '
+              'tape your Alpaca plan allows — <b>SIP</b> is every US exchange '
+              '(most accurate). A free plan falls back to <b>IEX</b> (~3% of '
+              'volume) automatically; upgrade Alpaca and it switches itself.</div>'
+              '<div class="klab">GitHub token — syncs your list to the engine</div>'
+              '<div class="note">Fine-grained token, repo <b>only '
+              'ALANKK11/ignition</b>, permission <b>Contents → Read and '
+              'write</b>. Leave blank to keep the one already saved.</div>'
               '<div class="addrow"><input id="wtok" placeholder="github_pat_…" '
-              'autocomplete="off"><button class="go" id="wtokgo">SAVE</button>'
-              '</div></div></div>')
+              'autocomplete="off" autocapitalize="none" spellcheck="false"></div>'
+              '<div class="addrow"><button class="go" id="ksave" style="flex:1">'
+              'SAVE KEYS</button></div></div></div>')
     head = '<h2 style="color:#ff5a1f;font-size:13px">MY NAMES'
     if ts:
         head += f' · <span id="wts">{ts[11:16]} ET</span>'
@@ -734,7 +793,7 @@ def _watch_card(r):
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="vhead" id="lvh_{t}" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:{hc}">{html.escape(mood or "…")}</span>
 <span class="px" style="margin-left:auto">{last}</span></div>
-<div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c">live: save your Alpaca keys in TAPE for the per-second read</div>
+<div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c">live: tap ⚙ keys once for the per-second read</div>
 {f'<div class="row" style="margin-top:6px">{chips}</div>' if chips else ''}
 {f'<div class="note" style="color:#8b939c;font-size:12.5px">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
