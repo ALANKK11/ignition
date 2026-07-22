@@ -1,5 +1,4 @@
 # IGNITION watchlist - edited from the hub. One ticker per line.
 INLF
-LABT
 ADVB
 KSCP
