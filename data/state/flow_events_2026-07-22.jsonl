@@ -525,3 +525,4 @@
 {"ts": "2026-07-22T12:57:34.790898-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "FADING", "state": "RUNNING", "price": 11.075, "tp": 16.70552719221019, "note": "sustained 16.7x"}
 {"ts": "2026-07-22T12:57:34.790898-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "LEAVING", "state": "FADING", "price": 4.67, "tp": 0.5943599769805467, "note": "pace 0.6x vs peak 3.7x \u00b7 -2.5% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-22T12:57:34.790898-04:00", "demo": 0, "ticker": "CANE", "prev_state": "RUNNING", "state": "CHURN", "price": 9.695, "tp": 36.62354266111931, "note": "36.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T12:58:19.774756-04:00", "demo": 0, "ticker": "ERAS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "NASDAQ: ERAS CLASS ACTION NOTICE: Berger Montague Encourages Erasca, Inc. (NASDAQ: ERAS) Investors to Inquire About a Se"}
