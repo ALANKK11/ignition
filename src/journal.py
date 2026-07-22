@@ -50,6 +50,11 @@ CREATE TABLE IF NOT EXISTS flow_events (
     prev_state TEXT, state TEXT,
     price REAL, tp REAL, note TEXT
 );
+CREATE TABLE IF NOT EXISTS ignition_evals (
+    day TEXT, ticker TEXT, session TEXT,
+    hit INTEGER, rvol REAL, dollar REAL,
+    PRIMARY KEY (day, ticker)
+);
 CREATE TABLE IF NOT EXISTS evals (
     scan_id INTEGER NOT NULL,
     ticker TEXT NOT NULL,
@@ -224,3 +229,25 @@ class Journal:
             "WHERE demo=? AND ts LIKE ? ORDER BY id", (int(demo), day_prefix + "%"))
         return [{"ts": r[0], "ticker": r[1], "prev_state": r[2],
                  "state": r[3], "note": r[4]} for r in cur.fetchall()]
+
+    def pending_ignitions(self, demo: bool, before_day: str) -> list[tuple[str, str, str]]:
+        cur = self.con.execute(
+            "SELECT DISTINCT substr(f.ts,1,10) d, f.ticker, f.state "
+            "FROM flow_events f LEFT JOIN ignition_evals e "
+            "ON e.day = substr(f.ts,1,10) AND e.ticker = f.ticker "
+            "WHERE f.demo=? AND f.state LIKE '%IGNITION' AND e.day IS NULL "
+            "AND substr(f.ts,1,10) < ?", (int(demo), before_day))
+        return [(r[0], r[1], r[2]) for r in cur.fetchall()]
+
+    def record_ignition_eval(self, day, ticker, session, hit, rvol, dollar):
+        self.con.execute(
+            "INSERT OR REPLACE INTO ignition_evals VALUES (?,?,?,?,?,?)",
+            (day, ticker, session, int(hit), rvol, dollar))
+        self.con.commit()
+
+    def ignition_stats(self, days: int = 30) -> tuple[int, int]:
+        import datetime as _dt
+        cut = (_dt.date.today() - _dt.timedelta(days=days)).isoformat()
+        r = self.con.execute("SELECT SUM(hit), COUNT(*) FROM ignition_evals "
+                             "WHERE day >= ?", (cut,)).fetchone()
+        return (int(r[0] or 0), int(r[1] or 0))

@@ -21,7 +21,8 @@ TAG_HEX = {"bold magenta": "#e879f9", "magenta": "#e879f9", "cyan": "#22d3ee",
 STATE_HEX = {"IGNITING": "#f87171", "NEW MONEY": "#e879f9", "RUNNING": "#facc15",
              "CHURN": "#22d3ee", "FADING": "#fb923c", "LEAVING": "#ef4444",
              "COOLING": "#9ca3af", "QUIET": "#4b5563", "OPEN DRIVE": "#fde047",
-             "PM HOT": "#4ade80", "PRE-OPEN": "#4b5563"}
+             "PM HOT": "#4ade80", "PRE-OPEN": "#4b5563",
+             "PM IGNITION": "#ff5a1f", "AH IGNITION": "#ff5a1f"}
 INTERESTING = ["LEAVING", "FADING", "IGNITING", "NEW MONEY", "CHURN",
                "OPEN DRIVE", "PM HOT", "RUNNING"]
 
@@ -154,6 +155,27 @@ def _flow_section(flow, events):
     return head + rot + "".join(cards) + q + evs
 
 
+def _ext_section(ext):
+    if not ext or not ext.get("rows"):
+        return ""
+    pre = ext.get("session") == "pre"
+    ts = ext["ts"][11:16]
+    cards = []
+    for r in ext["rows"]:
+        va = f'{r["vs_adv"]:.1f}x ADV' if r.get("vs_adv") else ""
+        cards.append(f"""<div class="card" style="border-left:3px solid #ff5a1f">
+<div class="row"><span class="tk">{html.escape(r["ticker"])}</span>
+<span class="score" style="color:{'#4ade80' if r["gap"] > 0 else '#f87171'}">{r["gap"] * 100:+.0f}%</span>
+<span class="px">{r["last"]:.3f}</span>
+<span class="px">${fmt_big(r["dollars"])} ext</span><span class="px">{va}</span>
+{_chip("NEW", "#ff5a1f") if r.get("new") else ""}</div></div>""")
+    title = "Pre-market ignitions" if pre else "After-hours ignitions"
+    return (f'<h2 style="color:#ff5a1f">{title} · full market · {ts} ET</h2>'
+            '<div class="note" style="margin:-4px 2px 8px">every US listing, '
+            'price floor $0.10 — gaps confirmed by real extended-hours dollar '
+            'volume, auto-injected into the next scan</div>' + "".join(cards))
+
+
 def _radar_section(radar):
     if not radar or not radar.get("rows"):
         return ""
@@ -187,12 +209,31 @@ def _audit_section(hist):
             f'<div class="audit">{"".join(cards)}</div>')
 
 
+def _ign_precision_line(jr):
+    try:
+        h_, n = jr.ignition_stats()
+    except Exception:
+        return ""
+    if not n:
+        return ""
+    col = "#4ade80" if h_ / n >= 0.5 else "#f87171"
+    return (f'<div class="note" style="margin-top:6px">ignition receipts, 30d: '
+            f'<b style="color:{col}">{h_}/{n} hit</b> — an ignition "hits" if it '
+            f'then trades ≥2x its ADV or ≥$1M in the regular session</div>')
+
+
 def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
     from .journal import Journal
     sdir = os.path.join(cfg["_paths"]["data"], "state")
     scan = _load(os.path.join(sdir, "latest_scan.json"))
     flow = _load(os.path.join(sdir, "latest_flow.json"))
     radar = _load(os.path.join(sdir, "latest_radar.json"))
+    ext = _load(os.path.join(sdir, "latest_ext.json"))
+    if ext:
+        newest = max(dt.datetime.now(NY).date().isoformat(),
+                     (flow or {}).get("ts", "")[:10])
+        if ext.get("ts", "")[:10] < newest:
+            ext = None                   # an old sweep is history, not news
     jr = Journal(cfg["_paths"]["journal"])
     hist = None
     events = []
@@ -207,8 +248,17 @@ def build(cfg: dict, out_dir: str, demo: bool = False) -> str:
             events = []
     now = dt.datetime.now(NY)
     ts_iso = (flow or scan or {}).get("ts", now.isoformat())
-    body = (_flow_section(flow, events) + _radar_section(radar)
-            + _scan_section(scan) + _audit_section(hist))
+    closed = ""
+    if flow:
+        wd = now.weekday() < 5
+        rth = wd and (dt.time(9, 30) <= now.time() < dt.time(16, 0))
+        if not rth:
+            closed = ('<div class="stale" style="background:#14181d;border-color:'
+                      '#242a31;color:#8b939c">market closed — flow and radar below '
+                      f'are the session&rsquo;s last readings ({flow["ts"][11:16]} ET)</div>')
+    body = (_ext_section(ext) + closed + _flow_section(flow, events)
+            + _radar_section(radar) + _scan_section(scan) + _audit_section(hist)
+            + _ign_precision_line(jr))
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="refresh" content="300">

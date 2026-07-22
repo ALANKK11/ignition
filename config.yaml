@@ -1,50 +1,57 @@
-"""Finnhub earnings calendar — one HTTP call covers every listed symbol,
-with BMO/AMC timing, replacing Yahoo's flaky per-ticker earnings lookups."""
+# IGNITION configuration. Everything here overrides the built-in defaults.
+# Weights are relative multipliers on each component's 0-1 signal — they don't
+# need to sum to anything. Crank what you trust, zero what you don't.
 
-from __future__ import annotations
+universe:
+  seed_file: universe_seed.txt
+  watchlist_file: watchlist.txt
+  use_screeners: true            # pull Yahoo's live screeners into the funnel
+  screeners:
+    - most_actives
+    - day_gainers
+    - day_losers
+    - small_cap_gainers
+    - most_shorted_stocks
+  min_price: 1.0                 # drop sub-$1 names (set 0 to allow)
+  min_dollar_volume: 5000000     # 20d average dollar-volume floor
+  max_universe: 400
 
-import datetime as dt
-import os
+scan:
+  history_days: 130
+  enrich_top: 60                 # names that get after-hours/earnings/shorts/IV
+  show_top: 25
+  control_sample: 25             # random names journaled as a baseline
+  workers: 6
 
-import requests
+weights:
+  rvol: 2.2                      # today's volume vs 20d average (log-scaled)
+  vol_trend: 0.7                 # volume z-score vs own history
+  atr_expansion: 1.1             # ATR(5)/ATR(20) regime shift
+  squeeze: 1.0                   # Bollinger-width compression + NR7
+  closing_strength: 0.6          # close pinned at high or low
+  breakout: 0.9                  # pressing 20d high / breaking 20d low
+  afterhours: 2.4                # extended-hours move, volume-confidence weighted
+  catalyst: 2.2                  # earnings tonight / tomorrow (0.35 if this week)
+  short_fuel: 1.1                # short % float + days-to-cover, momentum-gated
+  options_heat: 1.0              # ATM IV level + IV/realized ratio
 
-from .util import NY
+thresholds:
+  ah_move_full: 0.08             # |AH move| that maxes the component
+  ah_vol_conf: 0.02              # AH volume / ADV for full confidence
+  rvol_log2_full: 3.0            # log2(RVOL)=3 → 8x volume maxes it
+  short_pct_full: 0.20
+  dtc_full: 10.0
 
-
-def key() -> str | None:
-    k = os.environ.get("FINNHUB_KEY", "").strip()
-    return k or None
-
-
-def earnings_map(token: str, start: dt.date, days: int = 6) -> dict[str, dt.date] | None:
-    """symbol → next earnings date within the window. Returns None on any
-    failure so callers fall back to the Yahoo per-ticker path.
-
-    Timing refinement: a BMO report whose date is already behind us in session
-    terms (this morning, and it's now after the close) is a *spent* catalyst —
-    excluded so it can't masquerade as tomorrow's event."""
-    try:
-        r = requests.get("https://finnhub.io/api/v1/calendar/earnings",
-                         params={"from": start.isoformat(),
-                                 "to": (start + dt.timedelta(days=days)).isoformat(),
-                                 "token": token}, timeout=20)
-        if r.status_code != 200:
-            return None
-        rows = (r.json() or {}).get("earningsCalendar") or []
-    except Exception:
-        return None
-    now = dt.datetime.now(NY)
-    after_close = now.hour >= 16
-    out: dict[str, dt.date] = {}
-    for e in rows:
-        try:
-            sym = (e.get("symbol") or "").upper()
-            d = dt.date.fromisoformat(e["date"])
-            hour = (e.get("hour") or "").lower()      # bmo / amc / dmh / ""
-            if d == now.date() and hour == "bmo" and after_close:
-                continue                               # already reported today
-            if sym and (sym not in out or d < out[sym]):
-                out[sym] = d
-        except Exception:
-            continue
-    return out
+flow:
+  window_min: 15                 # trailing participation window
+  refresh_sec: 75                # live refresh cadence (Yahoo 1m lags ~1-2min)
+  monitor_cap: 60
+  fade_ratio: 0.35               # TP below this fraction of peak = fade
+  fade_peak_tp: 2.0              # ...but only if it actually ran (peak >= this)
+  hod_prox: 0.03                 # "chart still looks fine" proximity to HOD
+  ignite_tp: 2.8
+  accel: 1.6
+  newmoney_tp: 2.0
+  run_tp: 1.8
+  churn_tp: 2.2
+  churn_progress: 0.2

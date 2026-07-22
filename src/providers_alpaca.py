@@ -138,3 +138,27 @@ class AlpacaData:
     def minute_recent(self, symbols: list[str], days: int = 5) -> dict[str, pd.DataFrame]:
         start = (dt.date.today() - dt.timedelta(days=days + 4)).isoformat()
         return self.bars(symbols, "1Min", start)
+
+    def corporate_actions_today(self) -> dict | None:
+        """Today's splits + cash dividends. None = endpoint unavailable
+        (callers then engage the heuristic split guard)."""
+        d = dt.date.today().isoformat()
+        js = self._get(DATA, "/v1/corporate-actions",
+                       {"types": "forward_split,reverse_split,cash_dividend",
+                        "start": d, "end": d, "limit": 1000})
+        if not isinstance(js, dict):
+            return None
+        ca = js.get("corporate_actions") or {}
+        splits, divs = {}, {}
+        try:
+            for ev in (ca.get("forward_splits") or []) + (ca.get("reverse_splits") or []):
+                sym = ev.get("symbol")
+                if sym:
+                    splits[sym] = ev
+            for ev in ca.get("cash_dividends") or []:
+                sym, rate = ev.get("symbol"), ev.get("rate")
+                if sym and rate:
+                    divs[sym] = float(rate)
+        except Exception:
+            pass
+        return {"splits": splits, "dividends": divs}

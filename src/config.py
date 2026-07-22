@@ -49,6 +49,10 @@ DEFAULTS = {
         "fade_ratio": 0.35, "fade_peak_tp": 2.0, "hod_prox": 0.03,
         "ignite_tp": 2.8, "accel": 1.6, "newmoney_tp": 2.0,
         "run_tp": 1.8, "churn_tp": 2.2, "churn_progress": 0.2,
+        "ext_gap_min": 0.15, "ext_min_price": 0.10,
+        "ext_min_dollar": 50000, "ext_min_shares": 2500,
+        "ext_min_minutes": 5, "ext_min_frac_adv": 0.005,
+        "ext_ghost_adv_dollar": 10000, "ext_top": 20,
     },
     "thresholds": {
         "ah_move_full": 0.08,     # |AH move| that earns full component score
