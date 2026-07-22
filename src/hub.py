@@ -620,14 +620,25 @@ function paintCard(t,now){
     card.classList.remove('flash');void card.offsetWidth;card.classList.add('flash')}
    head.textContent=W[0];head.style.color=W[1];
    head.classList.toggle('hot',/RIPPING|DUMPING|ROLLING|BOUNCING/.test(W[0]))}
-  if(line){line.textContent='live: '+W[3]+(useF?' \u00b7 finnhub':'');line.style.color=W[1]}
+  const rate=cnt60(buf,now),src=useF?'finnhub':'IEX';
+  if(line){line.textContent='live: '+W[3]+' \u00b7 '+src+' '+rate+'/min';line.style.color=W[1]}
   if(card)card.style.borderLeftColor=W[1];
   drawSpark(t,buf,now,W[1]);
   return [t,W[2]*1e9];}
 setInterval(()=>{
  const now=Date.now();
- const scored=[];
- wlist().slice(0,8).forEach(t=>{scored.push(paintCard(t,now))});
+ const scored=[];let totRate=0;
+ wlist().slice(0,8).forEach(t=>{scored.push(paintCard(t,now));
+  totRate+=cnt60(LBUF[t]||[],now)+cnt60(FBUF[t]||[],now)});
+ const fw=$w('feedwarn');
+ if(fw){const on=lws&&lws.readyState===1;
+  if(on&&lmkt()&&wlist().length&&totRate<3){fw.style.display='block';
+   fw.innerHTML='⚠ Your free feed is delivering <b>'+totRate+' prints/min</b> across these '+
+    'names. Sub-dollar movers trade ~60%+ OFF-exchange, which the free IEX feed '+
+    'can&rsquo;t see — so a name can rip on your broker while this stays quiet. '+
+    'The only fix is a paid full-tape feed (Polygon ~$29/mo, drop-in). Not a bug '+
+    'in the read — a limit of free data.';}
+  else fw.style.display='none';}
  // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
  // the order from churning — only touch the DOM when the sequence changed
  const root=$w('wroot');
@@ -977,6 +988,7 @@ def _watch_section(wl, ws, intel, bd, now):
               '<button id="wkeys" style="flex:.7">⚙ keys</button></div>'
               '<div class="note" id="wst"></div>'
               '<div class="note" id="lvst"></div>'
+              '<div id="feedwarn" class="stale" style="display:none;font-size:12.5px"></div>'
               '<div id="wsetup" class="card" hidden>'
               '<b>Keys — enter once, only on this phone</b>'
               '<div class="note">Saved in this browser alone (localStorage) and '
