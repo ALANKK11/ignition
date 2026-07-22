@@ -223,6 +223,7 @@ function wcard(r){
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
   '<canvas class="spk" id="sp_'+t+'" width="600" height="76"></canvas>'+
   '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c"></div>'+
+  '<div class="note" id="nw_'+t+'" style="font-size:12.5px;color:#c9ced4;display:none"></div>'+
   '<details class="mre"><summary>more</summary>'+more+'</details></div>'}
 function wmini(t){
  const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;const hc=v?v[1]:'#5b636c';
@@ -577,6 +578,29 @@ setInterval(()=>{
 },1000);
 document.addEventListener('visibilitychange',()=>{
  if(!document.hidden&&(!lws||lws.readyState>1))lconnect()});
+/* NEWS on the card face — client-side, per-second-fresh enough (60s poll),
+   straight from finnhub with his existing key. Newest headline <12h old
+   renders top-level with its age; red chip when <2h. No GitHub in path. */
+var NEWSS={};
+function npoll(){
+ const k=localStorage.fh_k||'';if(!k)return;
+ const d=new Date(),iso=x=>x.toISOString().slice(0,10);
+ const to=iso(d),from=iso(new Date(d-86400000*2));
+ wlist().slice(0,8).forEach((t,i)=>{setTimeout(()=>{
+  fetch('https://finnhub.io/api/v1/company-news?symbol='+t+'&from='+from+'&to='+to+'&token='+encodeURIComponent(k))
+  .then(r=>r.ok?r.json():null).then(js=>{
+   if(!js||!js.length)return;
+   const n=js.sort((a,b)=>b.datetime-a.datetime)[0];
+   if(!n||!n.headline)return;
+   const age=Date.now()/1000-n.datetime;
+   if(age>43200)return;
+   NEWSS[t]={h:n.headline,age:age};
+   const el=$w('nw_'+t);if(el){
+    const am=age<3600?Math.round(age/60)+'m':(age/3600).toFixed(1)+'h';
+    el.innerHTML=(age<7200?'<b style="color:#f87171">NEWS '+am+'</b> ':'<span style="color:#8b939c">news '+am+'</span> ')+wesc(n.headline);
+    el.style.display='block'}
+  }).catch(()=>{})},i*300)});}
+npoll();setInterval(npoll,60000);
 const _lsub0=wrender;wrender=function(){_lsub0();lsub()};
 lconnect();fconnect();
 """
@@ -1022,6 +1046,7 @@ def _watch_card(r):
 <span class="wrm" data-t="{t}">×</span></div>
 <canvas class="spk" id="sp_{t}" width="600" height="76"></canvas>
 <div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c"></div>
+<div class="note" id="nw_{t}" style="font-size:12.5px;color:#c9ced4;display:none"></div>
 <details class="mre"><summary>more</summary>{more}</details></div>"""
 
 
