@@ -782,3 +782,4 @@
 {"ts": "2026-07-22T14:20:45.652894-04:00", "demo": 0, "ticker": "BMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 124.29, "tp": 7.919027617695889, "note": "pace 7.9x and accelerating (1.6x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-07-22T14:20:45.652894-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "RUNNING", "state": "CHURN", "price": 40.94, "tp": 5.405745924154936, "note": "5.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T14:20:45.652894-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.295, "tp": 7.648272757730573, "note": "pace 7.6x and accelerating (2.0x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-07-22T14:21:30.636785-04:00", "demo": 0, "ticker": "CDZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cadiz and RIC Energy Sign MOU to Advance Solar / Hydrogen Development at Cadiz Ranch"}
