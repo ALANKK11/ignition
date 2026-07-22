@@ -99,6 +99,7 @@ box-shadow:0 2px 10px rgba(0,0,0,.35)}
 .card.flash{animation:cflash .6s}
 @keyframes vpulse{50%{opacity:.5}}
 .vhead.hot{animation:vpulse 1.5s infinite}
+.hb{font-size:11px;margin-left:6px;font-variant-numeric:tabular-nums}
 .mre summary{color:#5b636c;font-size:11px;letter-spacing:.1em;
 text-transform:uppercase;cursor:pointer;margin-top:4px;list-style:none}
 .mre summary::before{content:'▸ '}
@@ -222,6 +223,7 @@ function wcard(r){
   '<div class="row"><span class="tk" style="font-size:18px">'+wesc(t)+'</span>'+
   '<span class="vhead" id="lvh_'+t+'" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:'+hc+'">'+wesc(mood||'…')+'</span>'+
   '<span class="px" style="margin-left:auto">'+last+'</span>'+
+  '<span class="hb" id="hb_'+t+'" title="seconds since last print">●</span>'+
   '<span class="wrm" data-t="'+t+'">×</span></div>'+
   '<canvas class="spk" id="sp_'+t+'" width="600" height="76"></canvas>'+
   '<div class="note" id="lv_'+t+'" style="font-size:13px;color:#5b636c"></div>'+
@@ -580,6 +582,13 @@ function paintCard(t,now){
   const ab=LBUF[t]||[],fb=FBUF[t]||[];
   const useF=!FDELAYED&&cnt60(fb,now)>cnt60(ab,now)*1.5;
   const buf=useF?fb:ab,line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
+  // heartbeat: ticks EVERY second so liveness is visible even between the
+  // sparse prints these names actually produce (his 'update every second'
+  // confusion — the page is live; the tape is just quiet between trades)
+  const hb=$w('hb_'+t),la=buf.length?buf[buf.length-1][0]:0;
+  if(hb){const ago=la?Math.round((now-la)/1000):null;
+   hb.textContent='●'+(ago==null?'':(ago<1?' now':' '+ago+'s'));
+   hb.style.color=(ago!=null&&ago<2)?'#4ade80':(ago!=null&&ago<30?'#8b939c':'#5b636c');}
   if(!buf.length){
    const off=!lws||lws.readyState>1;
    if(head){head.textContent=off?'STREAM OFF':'WAITING FOR PRINTS';
@@ -1076,6 +1085,7 @@ def _watch_card(r):
 <div class="row"><span class="tk" style="font-size:18px">{html.escape(t)}</span>
 <span class="vhead" id="lvh_{t}" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:{hc}">{html.escape(mood or "…")}</span>
 <span class="px" style="margin-left:auto">{last}</span>
+<span class="hb" id="hb_{t}" title="seconds since last print">●</span>
 <span class="wrm" data-t="{t}">×</span></div>
 <canvas class="spk" id="sp_{t}" width="600" height="76"></canvas>
 <div class="note" id="lv_{t}" style="font-size:13px;color:#5b636c"></div>
