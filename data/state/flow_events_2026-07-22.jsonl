@@ -161,3 +161,15 @@
 {"ts": "2026-07-22T11:25:04.720827-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "CHURN", "price": 10.115, "tp": 3.2625042349037447, "note": "3.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T11:25:04.720827-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.71, "tp": 3.849392363662094, "note": "pace 3.8x and accelerating (2.1x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-07-22T11:25:04.720827-04:00", "demo": 0, "ticker": "FXC", "prev_state": "CHURN", "state": "FADING", "price": 69.39, "tp": 0.0, "note": "pace 0.0x vs peak 42.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.14, "tp": 2.1450519129537593, "note": "sustained 2.1x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.4, "tp": 4.782128570323211, "note": "pace 4.8x and accelerating (1.6x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "RUNNING", "state": "QUIET", "price": 14.9, "tp": 1.6375928047095618, "note": ""}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.72, "tp": 2.500287526908501, "note": "sustained 2.5x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.72, "tp": 3.8715428403599983, "note": "sustained 3.9x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "COOLING", "state": "RUNNING", "price": 25.38, "tp": 2.1752051554598673, "note": "sustained 2.2x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "DIHP", "prev_state": "RUNNING", "state": "FADING", "price": 34.135, "tp": 0.0, "note": "pace 0.0x vs peak 2.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "AIR", "prev_state": "RUNNING", "state": "COOLING", "price": 127.0, "tp": 0.7833750294402894, "note": "pace 0.8x off peak 5.5x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 136.38, "tp": 2.715786508736653, "note": "sustained 2.7x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "CALM", "prev_state": "RUNNING", "state": "COOLING", "price": 86.98, "tp": 1.618622021526266, "note": "pace 1.6x off peak 5.5x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "IGNITING", "state": "COOLING", "price": 30.81, "tp": 0.8654573016165304, "note": "pace 0.9x off peak 2.9x"}
+{"ts": "2026-07-22T11:28:04.721657-04:00", "demo": 0, "ticker": "EUFN", "prev_state": "COOLING", "state": "FADING", "price": 40.74, "tp": 1.1366205591858103, "note": "pace 1.1x vs peak 3.3x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
