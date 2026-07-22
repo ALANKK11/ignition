@@ -14,3 +14,5 @@
 {"ts": "2026-07-22T09:25:14.227941-04:00", "demo": 0, "ticker": "ALSN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Allison Transmission to Supply Fully Automatic Transmissions to General Dynamics European Land Systems for EAGLE Series "}
 {"ts": "2026-07-22T09:27:29.228445-04:00", "demo": 0, "ticker": "CPHI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "China Pharma Announces Pricing of $5 Million Registered Direct Offering"}
 {"ts": "2026-07-22T09:33:29.229659-04:00", "demo": 0, "ticker": "BLKB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Blackbaud Announces New Agents for Good\u2122, Embedded AI Capabilities for a Reimagined Cloud-Native, AI-First Connected Pla"}
+{"ts": "2026-07-22T09:36:29.243988-04:00", "demo": 0, "ticker": "MGY", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.54, "tp": 2.440881285771177, "note": ""}
+{"ts": "2026-07-22T09:36:29.243988-04:00", "demo": 0, "ticker": "OBE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.255, "tp": 1.8843438452008672, "note": ""}
