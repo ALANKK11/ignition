@@ -1,0 +1,33 @@
+name: live shift
+on:
+  schedule:
+    - cron: "55 10 * * 1-5"   # 6:55am ET: morning shift → 12:52pm
+    - cron: "55 16 * * 1-5"   # 12:55pm ET: afternoon shift → 6:52pm
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ignition-live
+  cancel-in-progress: true
+jobs:
+  shift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: run the shift (ticks every ~3 min, pushes hub each tick)
+        env:
+          IGNITION_HOME: ${{ github.workspace }}/data
+          IGNITION_GIT_PUSH: "1"
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+        run: |
+          git config user.name ignition-bot
+          git config user.email ignition@users.noreply.github.com
+          python ignition.py live
