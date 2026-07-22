@@ -58,7 +58,7 @@ border-radius:999px;border:1px solid var(--edge);color:var(--dim)}
 .toggles button.on{border-color:var(--ok);color:var(--ok)}
 </style></head><body>
 <h1><s>IGNITION</s> TAPE</h1>
-<div class="sub"><span class="dot" id="dot"></span><span id="cs">off</span>
+<div class="sub"><span class="dot" id="dot"></span><span id="cs">off</span><span id="lag" style="color:#5b636c"></span>
 <span style="margin-left:auto"><a href="index.html">&larr; hub</a></span></div>
 <div id="closed" class="banner" hidden>market closed — the stream is quiet;
 verdicts resume with tape</div>
@@ -83,61 +83,137 @@ enterkeyhint="done"><button id="addb">＋</button></div>
 <div class="chips" id="sugs"></div>
 <div id="cards"></div>
 <div class="foot">Reads the free <b>IEX tape</b> (a slice of total volume) via a
-direct stream to your phone — nothing here waits on GitHub. FLOW compares the
-last 10–30s of dollars/sec against the name&rsquo;s own last-5-minutes pace.
-<b>DRAINED / MONEY LEAVING</b> fire within seconds of the tape thinning. THIN
-TAPE means IEX prints are too sparse to read at second scale — trust the hub
-board for that name. Not investment advice.</div>
+direct stream to your phone — nothing waits on GitHub. Two independent reads:
+<b>TREND</b> (the big word) is flow now vs the <b>peak flow this move has shown</b>
+— slow and sticky by design: it takes 3s of evidence to downgrade and 10s to
+re-trust, so it cannot whipsaw green/red. <b>MONEY LEAVING at 18% of peak</b>
+means exactly that, even if price still looks fine. <b>BURST</b> is your
+anomaly detector: the last 12 seconds of dollars scored against this name&rsquo;s
+own normal (robust σ), tagged BUY or SELL by tick direction, shown as an event
+with an age — not a mood ring. THIN TAPE = too few IEX prints to read at second
+scale; trust the hub board for that name. Not investment advice.</div>
 <script>
 /*CORE-BEGIN*/
+/* TWO INDEPENDENT READS. The old single verdict did both jobs badly:
+   it compared 30s against a TRAILING 5-min baseline, so on a name bleeding
+   out for ten minutes the baseline sank with it and the label kept saying
+   STEADY. And its hysteresis counted ticks, not seconds, so speeding up the
+   loop quartered the confirmation time and it whipsawed.
+     TREND  = slow, ANCHORED to the peak flow actually observed on this name.
+              Cannot be fooled by a decaying denominator. Sticky in
+              milliseconds: 3s to degrade, 10s to recover.
+     BURST  = fast, DISCRETE. Robust z-score of the last 12s of dollars
+              against this name's own distribution of 12s buckets (median +
+              MAD, so the spikes we hunt don't inflate their own baseline).
+              An event with an age, not a label that flickers. */
 function tapeStats(buf, nowMs, hi){
-  // buf: array of [ms, dollars, price], oldest first, pruned to ~6 min
-  var d10=0,d30=0,d60=0,d300=0,n300=0,vs=0,vd=0,last=null,lastMs=0,first=nowMs;
+  var d10=0,d30=0,d60=0,d300=0,n300=0,vs=0,vd=0,big60=0,last=null,lastMs=0,first=nowMs;
   for(var i=buf.length-1;i>=0;i--){
     var a=buf[i],age=nowMs-a[0];
     if(age>300000){first=Math.min(first,a[0]);break}
     d300+=a[1];n300++;
-    if(age<=60000){d60+=a[1];vd+=a[1];vs+=a[1]/a[2]}
+    if(age<=60000){d60+=a[1];vd+=a[1];vs+=a[1]/a[2];
+      if(a[1]>big60)big60=a[1]}
     if(age<=30000)d30+=a[1];
     if(age<=10000)d10+=a[1];
     if(a[0]>lastMs){lastMs=a[0];last=a[2]}
     first=Math.min(first,a[0]);
   }
   var span=Math.max(1,Math.min(300,(nowMs-first)/1000));
-  var base=d300/span;                       // $/s over up to 5 min
-  return {r10:base>0?(d10/10)/base:0, r30:base>0?(d30/30)/base:0,
-    base:base, d10:d10, d30:d30, d60:d60, n300:n300,
-    lastAgo:lastMs?(nowMs-lastMs)/1000:1e9, last:last,
+  return {f60:d60/60, f30:d30/30, f10:d10/10, big60:big60, base:d300/span,
+    d10:d10, d30:d30, n300:n300, last:last,
+    lastAgo:lastMs?(nowMs-lastMs)/1000:1e9,
     vwap60:vs>0?vd/vs:null, warm:(nowMs-first)/1000,
     offHi:(hi&&last)?last/hi-1:null};
 }
-function tapeVerdict(st, prevCount){
-  // prevCount: consecutive ticks the raw condition has held (hysteresis)
-  if(st.warm<75) return ['WARMING','#5b636c','need ~60s of tape first',0];
-  if(st.n300<8)  return ['THIN TAPE','#5b636c',
-    'iex prints too sparse for a second read — trust the board',0];
-  var below=st.vwap60&&st.last&&st.last<st.vwap60*0.998;
-  var raw=null;
-  if(st.lastAgo>=25||st.r30<=0.15) raw='DRAINED';
-  else if(st.r30<=0.4) raw=below?'LEAVING':'THINNING';
-  else if(st.r30>=2&&st.d10>0) raw='SURGING';
-  var need=raw==='DRAINED'?3:2;
-  if(raw&&prevCount+1>=need){
-    if(raw==='DRAINED')return['DRAINED','#f87171',
-      st.lastAgo>=25?('no prints for '+Math.round(st.lastAgo)+'s'):'flow ~gone vs its own pace',need];
-    if(raw==='LEAVING')return['MONEY LEAVING','#fb923c',
-      'flow fading and price under 1-min vwap',need];
-    if(raw==='THINNING')return['THINNING','#facc15','flow at '+
-      Math.round(st.r30*100)+'% of its 5-min pace',need];
-    return['SURGING','#ff5a1f','flow '+st.r30.toFixed(1)+'x its 5-min pace',need];
+function med(a){var b=a.slice().sort(function(x,y){return x-y}),n=b.length;
+  if(!n)return 0;return n%2?b[(n-1)>>1]:(b[n/2-1]+b[n/2])/2;}
+function madOf(a,m){var d=[],i;for(i=0;i<a.length;i++)d.push(Math.abs(a[i]-m));
+  return med(d);}
+
+/* ---- TREND: flow now vs the peak this name has actually shown ---- */
+function peakCand(st){return Math.max(0,st.f60-(st.big60||0)/60)}
+var TRANK={ALIVE:4,COOLING:3,FADING:2,DEAD:1,DRY:0};
+function trendRaw(st, peak){
+  if(st.warm<40) return 'WARM';
+  if(st.n300<8)  return 'THIN';
+  if(st.lastAgo>=25) return 'DRY';
+  if(!(peak>0))  return 'ALIVE';
+  var r=st.f60/peak;
+  if(r>=0.55)return 'ALIVE';
+  if(r>=0.25)return 'COOLING';
+  if(r>=0.10)return 'FADING';
+  return 'DEAD';
+}
+function sticky(store, key, cand, nowMs, degradeMs, recoverMs){
+  var s=store[key];
+  if(!s){store[key]=s={cur:cand,cand:cand,since:nowMs};return cand}
+  if(cand===s.cur){s.cand=cand;s.since=nowMs;return s.cur}
+  if(cand!==s.cand){s.cand=cand;s.since=nowMs;return s.cur}
+  var worse=(TRANK[cand]!==undefined&&TRANK[s.cur]!==undefined)
+            ?TRANK[cand]<TRANK[s.cur]:true;
+  if(nowMs-s.since>=(worse?degradeMs:recoverMs)){s.cur=cand;s.since=nowMs}
+  return s.cur;
+}
+function trendRead(state, st, peak){
+  var r=peak>0?st.f60/peak:null;
+  var pct=r==null?null:Math.round(r*100);
+  if(state==='WARM')return['WARMING','#5b636c','building the first read',pct];
+  if(state==='THIN')return['THIN TAPE','#5b636c',
+    'iex prints too sparse to read — trust the hub board',pct];
+  if(state==='DRY') return['DRIED UP','#f87171',
+    'no prints for '+Math.round(st.lastAgo)+'s',pct];
+  if(state==='DEAD')return['MONEY GONE','#f87171',
+    pct+'% of this move\u2019s peak flow',pct];
+  if(state==='FADING')return['MONEY LEAVING','#fb923c',
+    pct+'% of peak flow and falling',pct];
+  if(state==='COOLING')return['COOLING','#facc15',
+    pct+'% of peak flow',pct];
+  return['FLOW ALIVE','#4ade80',pct+'% of peak flow',pct];
+}
+
+/* ---- BURST: is the last 12s anomalous for THIS name? ---- */
+function burstScan(buf, nowMs, minDollars){
+  var W=12000, SPAN=480000, nb=Math.floor((SPAN-W)/W);
+  var hist=[],cur=0,up=0,dn=0,prev=null,i,k,firstMs=nowMs;
+  for(k=0;k<nb;k++)hist.push(0);
+  for(i=0;i<buf.length;i++){                 // oldest->newest for tick rule
+    var a=buf[i],age=nowMs-a[0];
+    if(age>=SPAN||age<0)continue;
+    if(a[0]<firstMs)firstMs=a[0];
+    if(age<W){cur+=a[1];
+      if(prev!==null){if(a[2]>prev)up+=a[1];else if(a[2]<prev)dn+=a[1]}}
+    else{k=Math.floor((age-W)/W);if(k>=0&&k<nb)hist[k]+=a[1]}
+    prev=a[2];
   }
-  return raw?['…'+raw,'#8b939c','confirming',0]:['STEADY','#4ade80',
-    'flow holding its pace',0];
+  // a bucket only counts if the tape was already flowing when it happened:
+  // zeros from before the session's first print are absence of DATA, not of
+  // FLOW, and treating them as flow made early-session medians ~0 and z ~1000x
+  var kMax=Math.floor((nowMs-firstMs)/W)-2;
+  if(kMax<hist.length)hist=hist.slice(0,Math.max(0,kMax));
+  if(hist.length<12) return null;             // need ~2.5 min of judged tape
+  var nz=0;for(i=0;i<hist.length;i++)if(hist[i]>0)nz++;
+  if(nz<6) return null;                       // not enough history to judge
+  var m=med(hist), s=1.4826*madOf(hist,m);
+  if(!(s>0)) s=Math.max(m*0.35, 1);           // degenerate spread guard
+  var z=(cur-m)/s;
+  var imb=(up+dn)>0?((up-dn)/(up+dn)):0;
+  var big=cur>=(minDollars||1500);
+  return {z:z, cur:cur, med:m, imb:imb, ok:big};
+}
+function burstRead(b){
+  if(!b||!b.ok||b.z<3) return null;
+  var side=b.imb>=0.15?'BUY':(b.imb<=-0.15?'SELL':'MIXED');
+  var col=side==='BUY'?'#ff5a1f':(side==='SELL'?'#f87171':'#facc15');
+  return {label:(b.z>=5?'\u26a1 MAJOR ':'\u26a1 ')+side+' BURST',
+          col:col, z:b.z,
+          why:b.z.toFixed(1)+'\u03c3 vs its own 12s norm \u00b7 '+
+              (b.med>0?(b.cur/b.med).toFixed(1)+'x median':'from nothing')};
 }
 /*CORE-END*/
 var LS=localStorage,K=LS.tape_k||'',S=LS.tape_s||'';
 var W=[];try{W=JSON.parse(LS.tape_w||'[]')}catch(e){}
-var BUF={},HI={},CNT={},VD={},SPK={},ENG={},ws=null,tries=0,armed=false,ac=null;
+var BUF={},HI={},VD={},SPK={},ENG={},TR={},PK={day:''},BST={},LASTB={},ws=null,tries=0,armed=false,ac=null;
 var $=function(i){return document.getElementById(i)};
 function status(t,c){$('cs').textContent=t;$('dot').className='dot '+(c||'')}
 function msg(t){var m=$('msg');if(!t){m.hidden=true;return}m.textContent=t;m.hidden=false}
@@ -148,7 +224,7 @@ function addSym(t){t=(t||'').toUpperCase().replace(/[^A-Z0-9.\-]/g,'').slice(0,6
  if(!t||W.indexOf(t)>=0||W.length>=8)return;W.push(t);saveW();drawChips();sub([t]);card(t)}
 function rmSym(t){W=W.filter(function(x){return x!==t});saveW();drawChips();
  try{ws&&ws.send(JSON.stringify({action:'unsubscribe',trades:[t]}))}catch(e){}
- var c=$('c_'+t);c&&c.remove();delete BUF[t];delete CNT[t];delete VD[t]}
+ var c=$('c_'+t);c&&c.remove();delete BUF[t];delete TR[t];delete BST[t];delete PK[t];delete VD[t]}
 function drawChips(){$('chips').innerHTML=W.map(function(t){
  return '<span class="chip" data-t="'+t+'">'+t+'<b>×</b></span>'}).join('')}
 $('chips').addEventListener('click',function(e){
@@ -164,6 +240,7 @@ function card(t){if($('c_'+t))return;var d=document.createElement('div');
  '<span class="meter"><i id="fm_'+t+'"></i></span></div>'+
  '<div class="lay"><span class="lab">PRICE</span><span class="val" id="pc_'+t+'">—</span></div>'+
  '<div class="lay"><span class="lab">PRINTS</span><span class="val" id="pr_'+t+'">—</span></div>'+
+ '<div class="lay"><span class="lab">BURST</span><span class="val" id="bx_'+t+'">—</span></div>'+
  '<canvas id="cv_'+t+'" width="600" height="68"></canvas>'+
  '<div class="eng" id="e_'+t+'"></div>';
  $('cards').appendChild(d)}
@@ -179,6 +256,13 @@ $('keys').onclick=function(){$('setup').hidden=false};
 $('save').onclick=function(){K=$('k').value.trim();S=$('s').value.trim();
  LS.tape_k=K;LS.tape_s=S;$('setup').hidden=true;connect(true)};
 function fmt$(x){return x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+Math.round(x/1e3)+'k'):('$'+Math.round(x))}
+var LAG=[];
+function noteLag(iso){ // Alpaca sends RFC3339 w/ nanoseconds; trim to ms
+ if(!iso)return;var m=/^(.*\.\d{3})\d*Z$/.exec(iso);
+ var ms=Date.parse(m?m[1]+'Z':iso);if(!ms)return;
+ var d=Date.now()-ms;if(d>-5000&&d<60000){LAG.push(d);if(LAG.length>200)LAG.shift()}}
+function medLag(){if(LAG.length<5)return null;
+ var a=LAG.slice().sort(function(x,y){return x-y});return a[a.length>>1]}
 function onTrade(t,p,s){var now=Date.now(),b=BUF[t]=BUF[t]||[];
  b.push([now,p*s,p]);if(b.length>4000)b.splice(0,800);
  HI[t]=Math.max(HI[t]||0,p);(SPK[t]=SPK[t]||[]).push([now,p]);
@@ -193,28 +277,46 @@ function spark(t,color){var cv=$('cv_'+t);if(!cv)return;var g=cv.getContext('2d'
  var t0=pts[0][0],tw=Math.max(1,pts[pts.length-1][0]-t0);
  pts.forEach(function(a,i){var x=(a[0]-t0)/tw*592+4,
   y=62-(a[1]-lo)/(hi-lo)*56;i?g.lineTo(x,y):g.moveTo(x,y)});g.stroke()}
+var paintT=0;
 function evalAll(){var open=mktOpen();$('closed').hidden=open;
- W.forEach(function(t){prune(t);var st=tapeStats(BUF[t]||[],Date.now(),HI[t]);
-  var raw=(st.warm>=75&&st.n300>=8)?(st.lastAgo>=25||st.r30<=0.15?'DRAINED':
-   st.r30<=0.4?'THIN':st.r30>=2&&st.d10>0?'SURG':null):null;
-  CNT[t]=raw&&raw===CNT['_'+t]?(CNT[t]||0)+1:0;CNT['_'+t]=raw;
-  var v=tapeVerdict(st,CNT[t]);
+ var _now=Date.now(),paint=_now-paintT>=1000;if(paint)paintT=_now;
+ var ml=medLag(),ls=$('lag');
+ if(ls)ls.textContent=ml==null?'':('feed lag ~'+ml+'ms');
+ var day=etNow().toDateString();
+ if(PK.day!==day)PK={day:day};                 // peak is a per-session anchor
+ W.forEach(function(t){prune(t);
+  var now=Date.now(), st=tapeStats(BUF[t]||[],now,HI[t]);
+  var pf=peakCand(st);                          // peak w/o the largest print
+  if(st.warm>=40&&pf>(PK[t]||0))PK[t]=pf;
+  var cur=sticky(TR,t,trendRaw(st,PK[t]||0),now,3000,10000);
+  var v=trendRead(cur,st,PK[t]||0);
   var el=$('v_'+t);if(el){el.textContent=v[0];el.style.color=v[1]}
   if(st.last){var pe=$('p_'+t);pe.textContent=st.last.toFixed(st.last<1?4:2)}
-  $('f_'+t)&&($('f_'+t).textContent=st.base>0?(fmt$(st.d30/30)+'/s now · '+
-   fmt$(st.base)+'/s pace · '+st.r30.toFixed(2)+'x'):'no tape yet');
-  var fm=$('fm_'+t);if(fm){fm.style.width=Math.min(100,st.r30*50)+'%';
+  $('f_'+t)&&($('f_'+t).textContent=st.base>0?(fmt$(st.f30)+'/s now · peak '+
+   fmt$(PK[t]||0)+'/s'+(v[3]!=null?(' · '+v[3]+'% of peak'):'')):'no tape yet');
+  var fm=$('fm_'+t);if(fm){fm.style.width=Math.max(0,Math.min(100,v[3]||0))+'%';
    fm.style.background=v[1]}
   $('pc_'+t)&&($('pc_'+t).textContent=(st.vwap60&&st.last?('vs 1m vwap '+
    (((st.last/st.vwap60)-1)*100).toFixed(2)+'%'):'—')+
    (st.offHi!=null?(' · off high '+(st.offHi*100).toFixed(1)+'%'):''));
   $('pr_'+t)&&($('pr_'+t).textContent=st.n300+' prints/5m · last '+
    (st.lastAgo>900?'—':Math.round(st.lastAgo)+'s ago'));
-  spark(t,v[1]);
-  if((v[0]==='DRAINED'||v[0]==='MONEY LEAVING'||v[0]==='SURGING')&&VD[t]!==v[0]){
+  var b=burstRead(burstScan(BUF[t]||[],now,1500));
+  if(b&&(!BST[t]||now-BST[t].at>15000||b.z>BST[t].z))
+   BST[t]={label:b.label,col:b.col,why:b.why,z:b.z,at:now};
+  var bb=BST[t],bx=$('bx_'+t);
+  if(bx){if(bb&&now-bb.at<90000){var age=Math.round((now-bb.at)/1000);
+    bx.innerHTML='<b style="color:'+bb.col+'">'+bb.label+'</b> '+
+     '<span style="color:#5b636c">'+bb.why+' · '+(age<2?'now':age+'s ago')+'</span>';}
+   else bx.innerHTML='<span style="color:#5b636c">quiet — nothing anomalous in the last 12s</span>';}
+  if(paint)spark(t,v[1]);
+  var bad=(v[0]==='MONEY LEAVING'||v[0]==='MONEY GONE'||v[0]==='DRIED UP');
+  var newBurst=bb&&bb.at!==LASTB[t]&&bb.z>=4;
+  if((bad&&VD[t]!==v[0])||newBurst){
    var c=$('c_'+t);if(c){c.classList.remove('flash');void c.offsetWidth;
-    c.classList.add('flash')}beepNow()}
-  if(v[0].charAt(0)!=='…')VD[t]=v[0]});}
+    c.classList.add('flash')}beepNow();
+   if(newBurst)LASTB[t]=bb.at;}
+  VD[t]=v[0]});}
 function sub(ts){try{ws&&ws.readyState===1&&ts.length&&
  ws.send(JSON.stringify({action:'subscribe',trades:ts}))}catch(e){}}
 function connect(fresh){if(!K||!S){$('setup').hidden=false;status('need keys','bad');return}
@@ -232,7 +334,7 @@ function connect(fresh){if(!K||!S){$('setup').hidden=false;status('need keys','b
     msg(m.code===406?'Alpaca allows ONE live connection — close TAPE on any other device, then tap keys → GO.':
      m.code===402||m.code===401?'Auth failed — re-enter keys (keys button).':
      'stream: '+(m.msg||m.code))}
-   else if(m.T==='t'&&m.S)onTrade(m.S,+m.p,+m.s)})};
+   else if(m.T==='t'&&m.S){noteLag(m.t);onTrade(m.S,+m.p,+m.s)}})};
  ws.onclose=function(){status('reconnecting…','mid');
   var w=Math.min(30000,1000*Math.pow(2,tries++));setTimeout(connect,w)};
  ws.onerror=function(){try{ws.close()}catch(e){}}}
@@ -254,5 +356,5 @@ $('sugs').addEventListener('click',function(e){var c=e.target.closest('.chip');
  if(c){addSym(c.dataset.t);c.remove()}});
 W.forEach(card);drawChips();W.forEach(engChips);
 if(!K||!S)$('setup').hidden=false;else connect(true);
-setInterval(evalAll,1000);
+setInterval(evalAll,250);
 </script></body></html>
