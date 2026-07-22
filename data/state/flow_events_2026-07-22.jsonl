@@ -318,3 +318,15 @@
 {"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "COOLING", "state": "QUIET", "price": 4.59, "tp": 1.5534078391367139, "note": ""}
 {"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "BH", "prev_state": "RUNNING", "state": "IGNITING", "price": 378.165, "tp": 5.123190685642209, "note": "pace 5.1x and accelerating (1.7x vs prior window) \u00b7 +1.9% in window"}
 {"ts": "2026-07-22T12:06:30.855428-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "COOLING", "state": "RUNNING", "price": 1.4, "tp": 2.6828564511007507, "note": "sustained 2.7x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.335, "tp": 1.6174893341514835, "note": "pace 1.6x off peak 10.7x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "RUNNING", "state": "COOLING", "price": 10.13, "tp": 1.0036204049433868, "note": "pace 1.0x off peak 37.7x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "EQPT", "prev_state": "RUNNING", "state": "COOLING", "price": 17.23, "tp": 0.7685078859667961, "note": "pace 0.8x off peak 3.0x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "CHURN", "state": "RUNNING", "price": 11.065, "tp": 17.762926760021763, "note": "sustained 17.8x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "UAE", "prev_state": "RUNNING", "state": "COOLING", "price": 18.715, "tp": 0.8037582921275536, "note": "pace 0.8x off peak 9.5x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "WASH", "prev_state": "COOLING", "state": "NEW MONEY", "price": 38.135, "tp": 2.2434269125837947, "note": "quiet open (1.2x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "INM", "prev_state": "FADING", "state": "LEAVING", "price": 1.78, "tp": 63.29352762900504, "note": "pace 63.3x off peak 1459.8x \u00b7 VWAP lost (was +3.9% above)"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "CB", "prev_state": "RUNNING", "state": "COOLING", "price": 342.36, "tp": 1.607950137429121, "note": "pace 1.6x off peak 3.1x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "CLSE", "prev_state": "FADING", "state": "RUNNING", "price": 34.24, "tp": 39.03725938866312, "note": "sustained 39.0x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "CHURN", "price": 21.765, "tp": 12.05314040371402, "note": "12.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "IGNITING", "state": "COOLING", "price": 4.735, "tp": 1.6217240028093414, "note": "pace 1.6x off peak 3.7x"}
+{"ts": "2026-07-22T12:09:30.855930-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "QUIET", "state": "RUNNING", "price": 4.61, "tp": 1.8712054094758355, "note": "sustained 1.9x"}
