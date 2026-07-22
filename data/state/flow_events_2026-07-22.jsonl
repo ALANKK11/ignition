@@ -778,3 +778,4 @@
 {"ts": "2026-07-22T14:19:19.109841-04:00", "demo": 0, "ticker": "BUG", "prev_state": "RUNNING", "state": "COOLING", "price": 38.12, "tp": 1.3579233053394681, "note": "pace 1.4x off peak 17.5x"}
 {"ts": "2026-07-22T14:19:19.109841-04:00", "demo": 0, "ticker": "CALM", "prev_state": "RUNNING", "state": "FADING", "price": 87.375, "tp": 1.206390505031991, "note": "pace 1.2x vs peak 9.7x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-22T14:19:19.109841-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 123.33, "tp": 6.268367783025106, "note": "sustained 6.3x"}
+{"ts": "2026-07-22T14:20:04.095993-04:00", "demo": 0, "ticker": "CDZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cadiz and RIC Energy Sign MOU to Advance Solar / Hydrogen Development at Cadiz Ranch"}
