@@ -915,3 +915,10 @@
 {"ts": "2026-07-22T15:02:00.661049-04:00", "demo": 0, "ticker": "DYN", "prev_state": "RUNNING", "state": "COOLING", "price": 23.14, "tp": 1.3882356337398276, "note": "pace 1.4x off peak 10.4x"}
 {"ts": "2026-07-22T15:02:00.661049-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "COOLING", "price": 22.155, "tp": 1.4398995596394824, "note": "pace 1.4x off peak 6.2x"}
 {"ts": "2026-07-22T15:02:00.661049-04:00", "demo": 0, "ticker": "ACT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 45.495, "tp": 2.2385418837657594, "note": "sustained 2.2x"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "JMIA", "prev_state": "QUIET", "state": "IGNITING", "price": 6.02, "tp": 6.667497165556969, "note": "pace 6.7x and accelerating (6.0x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.405, "tp": 2.8836170330580315, "note": "sustained 2.9x"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "FADING", "state": "LEAVING", "price": 9.3, "tp": 1.2167352111016663, "note": "pace 1.2x off peak 5.1x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "BEP", "prev_state": "RUNNING", "state": "COOLING", "price": 32.255, "tp": 1.5350029354219443, "note": "pace 1.5x off peak 10.9x"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "COOLING", "state": "RUNNING", "price": 31.38, "tp": 1.9762486970737991, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "COOLING", "state": "RUNNING", "price": 0.6124, "tp": 10.479449349716443, "note": "sustained 10.5x"}
+{"ts": "2026-07-22T15:05:45.661713-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "CHURN", "price": 45.505, "tp": 2.6489674941903143, "note": "2.6x participation, no progress at highs \u2014 absorption"}
