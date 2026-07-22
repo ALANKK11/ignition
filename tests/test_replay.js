@@ -1,99 +1,65 @@
 #!/usr/bin/env node
-/* REPLAY — his bug report driven through the REAL page script with a DOM
-   stub: "goes from cooling to reading to grey to cooling… doesn't have
-   bars, has bars… it's not getting the information."
-   Scenarios: (a) sparse name (1 print/45s) across a page rebuild — the
-   headline must never regress to an engine mood word and must stay a
-   stable THIN FEED with counts; (b) empty buffer — WAITING FOR PRINTS /
-   STREAM OFF, never a stale word; (c) dense buying — ACCUMULATING, sticky.
-   Run: node tests/test_replay.js */
+/* REPLAY — NFLV, the case that broke it: hyper-volatile, the free feed
+   prints ~every 6s, but PRICE rips then rolls. The word MUST read the MOVE
+   (RIPPING / ROLLING OVER / DUMPING), never "THIN", on the REAL page code. */
 const {execSync} = require('child_process');
+function A(c, m){ if(!c) throw new Error('FAIL: ' + m); }
 const js = execSync(`python3 -c 'from src.hub import JS; print(JS)'`, {maxBuffer: 1 << 24}).toString();
 
-// ---- minimal DOM/browser stub -------------------------------------------
 const els = {};
-function el(id) {
-  if (!els[id]) els[id] = {
-    id, textContent: '', innerHTML: '', style: {}, hidden: false, dataset: {},
-    classList: {add(){}, remove(){}, toggle(){}, contains(){return false}},
-    addEventListener(){}, appendChild(){}, querySelector(){return null},
-    querySelectorAll(){return []}, closest(){return null},
-    getContext(){return new Proxy({}, {get:()=>()=>{}})},
-    width: 600, height: 76, value: '', placeholder: '', offsetWidth: 0,
-    remove(){},
-  };
-  return els[id];
-}
-const document = {
-  getElementById: el, addEventListener(){}, hidden: false,
-  createElement: () => el('tmp_' + Math.random()),
-};
-const localStorage = {tape_k: 'k', tape_s: 's'};
-const stubs = {
-  document, localStorage,
-  fetch: () => new Promise(() => {}),      // network never resolves in replay
-  WebSocket: function(){ this.readyState = 1; this.send = () => {};
-    this.close = () => {}; },
-  setInterval: () => 0, setTimeout: () => 0, clearTimeout: () => {},
-  console, Date, JSON, Math, Promise, navigator: {},
-  window: {},
-};
-const fn = new Function(...Object.keys(stubs),
-  js + `; return {paintCard, cvdWord, LBUF, lwsSet:(w)=>{lws=w}, wrenderRef:()=>wrender};`);
-const env = fn(...Object.values(stubs));
-
-const now0 = Date.now();
-
-// (a) SPARSE: one $150 print every 45s for 12 min, page "reloaded" midway
-els['lvh_INLF'] = undefined; // fresh
-const buf = env.LBUF['INLF'] = [];
-for (let t = now0 - 720000; t <= now0; t += 45000) buf.push([t, 150, 3.5, 1]);
+function el(id){ if(!els[id]) els[id]={id,textContent:'',innerHTML:'',style:{},dataset:{},
+  classList:{add(){},remove(){},toggle(){},contains(){return false}},
+  addEventListener(){},appendChild(){},querySelector(){return null},
+  querySelectorAll(){return[]},closest(){return null},
+  getContext(){return new Proxy({},{get:()=>()=>{}})},width:600,height:76,
+  value:'',placeholder:'',offsetWidth:0,remove(){}}; return els[id]; }
+const stubs={document:{getElementById:el,addEventListener(){},hidden:false,createElement:()=>el('t'+Math.random())},
+  localStorage:{tape_k:'k',tape_s:'s'},fetch:()=>new Promise(()=>{}),
+  WebSocket:function(){this.readyState=1;this.send=()=>{};this.close=()=>{}},
+  setInterval:()=>0,setTimeout:()=>0,clearTimeout:()=>{},console,Date,JSON,Math,Promise,navigator:{},window:{}};
+const env=(new Function(...Object.keys(stubs),
+  js+`;return {paintCard,moveRead,LBUF,lwsSet:(w)=>{lws=w}};`))(...Object.values(stubs));
 env.lwsSet(new stubs.WebSocket());
-let words = new Set();
-for (let k = 0; k < 30; k++) {                     // 30 painted seconds
-  env.paintCard('INLF', now0 + k * 1000);
-  words.add(el('lvh_INLF').textContent);
-}
-console.assert(words.size === 1, 'sparse word is STABLE, got: ' + [...words]);
-const w = [...words][0];
-console.assert(/THIN FEED · \d+ prints/.test(w),
-  'sparse reads THIN FEED with counts, got: ' + w);
-console.assert(!/COOLING|DEAD|MONEY/.test(w), 'no engine mood leakage: ' + w);
-// simulated wrender rebuild: headline element recreated with mood text
-el('lvh_INLF').textContent = 'COOLING';
-env.paintCard('INLF', now0 + 31000);
-console.assert(/THIN FEED/.test(el('lvh_INLF').textContent),
-  'repaint after rebuild kills the stale mood word');
-// heartbeat must TICK every painted second even though the tape is quiet
-const beats = new Set();
-for (let k = 0; k < 8; k++) { env.paintCard('INLF', now0 + 40000 + k * 1000);
-  beats.add(el('hb_INLF').textContent); }
-console.assert(beats.size >= 3, 'heartbeat ticks between prints: ' + [...beats]);
-console.log('heartbeat ticks OK — ' + [...beats].slice(0,4).join(' '));
-console.log('sparse scenario OK — stable "' + w + '"');
+const now=Date.now();
 
-// (b) EMPTY buffer: waiting words, never stale
-env.LBUF['ZCMD'] = [];
-el('lvh_ZCMD').textContent = 'FADING';
-env.paintCard('ZCMD', now0);
-console.assert(el('lvh_ZCMD').textContent === 'WAITING FOR PRINTS',
-  'empty buffer overrides stale word: ' + el('lvh_ZCMD').textContent);
-env.lwsSet(null);
-env.paintCard('ZCMD', now0);
-console.assert(el('lvh_ZCMD').textContent === 'STREAM OFF', 'stream-off state');
-env.lwsSet(new stubs.WebSocket());
-console.log('empty scenario OK');
+// vertical: +20% inside the last 5s (his literal words) -> RIPPING, top rank
+let vb=[[now-4500,400,1.00,1],[now-2000,600,1.10,1],[now-300,900,1.20,1]];
+let W=env.moveRead(vb,null,now);
+A(W[0]==='RIPPING ↑','vertical 5s move = RIPPING, got '+W[0]+' | '+W[3]);
+A(W[2]>2,'vertical rip ranks top: '+W[2]);
+A(!/THIN|NO PRINTS|QUIET/.test(W[0]),'never thin while vertical');
+console.log('vertical OK — "'+W[0]+'" · '+W[3]);
 
-// (c) DENSE buying: $400 at the ask every 2s → ACCUMULATING and sticky
-const b2 = env.LBUF['LABT'] = [];
-for (let t = now0 - 600000; t <= now0; t += 2000)
-  b2.push([t, 400, 5, t > now0 - 240000 ? 1 : 0]);
-words = new Set();
-for (let k = 0; k < 20; k++) {
-  env.paintCard('LABT', now0 + k * 1000);
-  words.add(el('lvh_LABT').textContent);
-}
-console.assert(words.size === 1 && words.has('ACCUMULATING'),
-  'dense buying = stable ACCUMULATING: ' + [...words]);
-console.log('dense scenario OK');
+// steady rip: +18% over 30s, 1 print/6s -> RIPPING or RUNNING, never thin
+let sb=[];let p=1.0;for(let t=now-30000;t<=now;t+=6000){p*=1.032;sb.push([t,500,+p.toFixed(4),1])}
+W=env.moveRead(sb,null,now);
+A(/RIPPING|RUNNING/.test(W[0]),'steady rip reads up, got '+W[0]);
+A(!/THIN|QUIET/.test(W[0]),'sparse-but-moving is never thin: '+W[0]);
+console.log('steady-rip OK — "'+W[0]+'"');
+
+// rolled over: up +16% over 15s but last 5s -5% off the high -> ROLLING OVER
+let rb=[[now-15000,300,1.00,1],[now-10000,400,1.15,1],[now-6000,500,1.22,1],
+        [now-2000,600,1.18,-1],[now-200,700,1.16,-1]];
+W=env.moveRead(rb,null,now);
+A(W[0]==='ROLLING OVER','up-15s down-5s = ROLLING OVER, got '+W[0]+' | '+W[3]);
+console.log('rollover OK — "'+W[0]+'" · '+W[3]);
+
+// dumping: -18% over 15s
+let db=[];p=2.0;for(let t=now-15000;t<=now;t+=5000){p*=0.94;db.push([t,800,+p.toFixed(4),-1])}
+A(env.moveRead(db,null,now)[0]==='DUMPING ↓','dump = DUMPING');
+console.log('dump OK');
+
+// flat but ask stacked (quotes only) -> SELLERS STACKED
+A(env.moveRead([[now-3000,300,1.0,0],[now-800,300,1.001,0]],{bs:10,as:40,t:now-800},now)[0]==='SELLERS STACKED','quote sellers');
+console.log('quote-pressure OK');
+
+// STABLE headline across 20 paints; heartbeat ticks; empty never stale
+env.LBUF['NFLV']=sb; let words=new Set();
+for(let k=0;k<20;k++){env.paintCard('NFLV',now+k*300);words.add(el('lvh_NFLV').textContent)}
+A([...words].every(w=>/RIPPING|RUNNING/.test(w)),'stable while ripping: '+[...words]);
+let beats=new Set();for(let k=0;k<6;k++){env.paintCard('NFLV',now+40000+k*1000);beats.add(el('hb_NFLV').textContent)}
+A(beats.size>=3,'heartbeat ticks: '+[...beats]);
+env.LBUF['ZCMD']=[];el('lvh_ZCMD').textContent='RIPPING ↑';env.paintCard('ZCMD',now);
+A(el('lvh_ZCMD').textContent==='WAITING FOR PRINTS','empty overrides stale');
+console.log('stability + heartbeat + empty OK');
 console.log('ALL REPLAY TESTS PASS');
