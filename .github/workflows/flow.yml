@@ -34,6 +34,9 @@ jobs:
         name: one flow reading · render hub
         env:
           IGNITION_HOME: ${{ github.workspace }}/data
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
         run: |
           python ignition.py flow --ticks 1 --interval 0
           python ignition.py hub
