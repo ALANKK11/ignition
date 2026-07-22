@@ -379,13 +379,15 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
             seen[tk] = first = hm
         st = (states or {}).get(tk) or {}
         out.append({
+            "headline": r.get("headline"), "pr_ts": r.get("pr_ts"),
+            "catalyst": bool(r.get("catalyst")), "flags": r.get("flags"),
             "ticker": tk,
             "move": r.get("gap", r.get("day_pct", 0.0)),
             "last": r["last"],
             "dollars": r.get("dollars", r.get("dollar_day", 0.0)),
             "vs_adv": r.get("vs_adv"),
             "off_hi": r.get("off_hi"),
-            "state": st.get("state"),
+            "state": st.get("state") or r.get("state"),
             "tp": st.get("tp"),
             "hot": bool(r.get("hot") or (st.get("tp") or 0) >= 2.5),
             "pin": bool(r.get("pin")),
@@ -405,7 +407,9 @@ def assemble_board(sdir: str, now: dt.datetime, session: str,
                        "off_hi": round(r["off_hi"], 4) if r["off_hi"] is not None else None,
                        "tp": round(r["tp"], 1) if r.get("tp") else None,
                        "heat": round(r["heat"], 1) if r.get("heat") is not None else None,
-                       "path": round(r["path"], 3) if r.get("path") is not None else None}
+                       "path": round(r["path"], 3) if r.get("path") is not None else None,
+                       "headline": r.get("headline"), "pr_ts": r.get("pr_ts"),
+                       "catalyst": bool(r.get("catalyst")), "flags": r.get("flags")}
                       for r in out]}
     _save(os.path.join(sdir, "latest_board.json"), board)
     return board
@@ -475,3 +479,53 @@ def attach_heat(rows: list[dict], bars: dict, now: dt.datetime) -> None:
         r.setdefault("heat", abs(r.get("gap", r.get("day_pct", 0.0))) * 8)
         if r.get("pin"):
             r["heat"] = min(r["heat"], 2.0)        # dead money sinks
+
+
+def fast_update(ap: AlpacaData, base: dict, sdir: str, now: dt.datetime,
+                fcfg: dict, news_events: list[dict]) -> bool:
+    """The 45-second lane: refresh ONLY the hot set (current board + fresh
+    catalyst names) — two API calls — and re-rank. Catalyst rows land with a
+    heat floor so a PR surfaces before its volume has confirmed."""
+    board = _load(os.path.join(sdir, "latest_board.json")) or {}
+    prev = {r["ticker"]: dict(r) for r in board.get("rows", [])}
+    tickers = list(prev)
+    for e in news_events:
+        if e["symbol"] not in tickers:
+            tickers.append(e["symbol"])
+    tickers = tickers[:50]
+    if not tickers:
+        return False
+    snaps = ap.snapshots(tickers)
+    bars = ap.minute_today(tickers)
+    news_by = {}
+    for e in news_events:
+        news_by.setdefault(e["symbol"], e)
+    rows = []
+    for t in tickers:
+        s = snaps.get(t) or {}
+        lt = s.get("latestTrade") or {}
+        day = s.get("dailyBar") or {}
+        px = float(lt.get("p") or 0) or float(prev.get(t, {}).get("last") or 0)
+        pc = base["prev_close"].get(t)
+        if not px or not pc:
+            continue
+        r = dict(prev.get(t) or {})
+        r.update({"ticker": t, "last": px, "day_pct": px / pc - 1.0,
+                  "dollar_day": float(day.get("v") or 0) * px
+                  or r.get("dollars", 0.0)})
+        st = path_stats(bars.get(t), now)
+        if st:
+            r.update(st)
+        ne = news_by.get(t)
+        if ne:
+            r["headline"] = ne["headline"]
+            r["pr_ts"] = ne["ts"].strftime("%H:%M")
+            r["catalyst"] = True
+            r["flags"] = ne["flags"]
+            r["heat"] = max(float(r.get("heat") or 0), 55.0)
+        rows.append(r)
+    if not rows:
+        return False
+    assemble_board(sdir, now, board.get("session") or "rth", rows,
+                   states=None)
+    return True

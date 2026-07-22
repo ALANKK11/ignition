@@ -54,7 +54,17 @@ DEFAULTS = {
         "ext_min_minutes": 5, "ext_min_frac_adv": 0.005,
         "ext_ghost_adv_dollar": 10000, "ext_top": 20,
         "mover_min_move": 0.15, "mover_min_dollar": 75000,
+        "fast_sec": 45, "full_sec": 160,
         "mover_min_pace": 1.3, "mover_top": 15,
+    },
+    "news": {
+        "enabled": True, "min_score": 2,
+        "feeds": [
+            "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/"
+            "GlobeNewswire%20-%20News%20about%20Public%20Companies",
+            "https://www.prnewswire.com/rss/news-releases-list.rss",
+            "https://www.accesswire.com/rss/latest.xml",
+        ],
     },
     "thresholds": {
         "ah_move_full": 0.08,     # |AH move| that earns full component score

@@ -399,7 +399,11 @@ def cmd_flow(args):
                     {"ticker": "PYRO", "move": 4.13, "last": 1.94, "dollars": 6.1e6,
                      "vs_adv": 9.4, "off_hi": -0.03, "state": "IGNITING", "tp": 8.2,
                      "hot": True, "first_seen": "07:22", "new": False,
-                     "heat": 97.0, "swings": 9, "path": 3.4},
+                     "heat": 97.0, "swings": 9, "path": 3.4, "catalyst": True,
+                     "pr_ts": "07:19",
+                     "headline": "PYRO Therapeutics Announces Strategic AI "
+                                 "Partnership and $14M Purchase Order",
+                     "flags": ["AI", "PARTNERSHIP", "PURCHASE ORDER"]},
                     {"ticker": "KNDL", "move": 1.46, "last": 3.61, "dollars": 4.1e6,
                      "vs_adv": 11.2, "off_hi": -0.01, "state": "RUNNING", "tp": 4.4,
                      "hot": True, "first_seen": "09:58", "new": True,
@@ -662,31 +666,84 @@ def cmd_live(args):
                               (now.hour == 12 and now.minute < 30) else "18:52")
     hh, mm = map(int, until.split(":"))
     end = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
-    console.print(f"[bold]LIVE[/bold] shift until {until} ET · "
-                  f"tick every {args.interval}s · push={bool(os.environ.get('IGNITION_GIT_PUSH'))}")
+    fcfg = dict(cfg["flow"])
+    ncfg = dict(cfg.get("news") or {})
+    fast_sec = float(fcfg.get("fast_sec", 45))
+    full_sec = args.interval or float(fcfg.get("full_sec", 160))
+    console.print(f"[bold]LIVE[/bold] shift until {until} ET · full tick {full_sec:.0f}s "
+                  f"· catalyst/fast lane {fast_sec:.0f}s · "
+                  f"push={bool(os.environ.get('IGNITION_GIT_PUSH'))}")
+    from src import flow_alpaca, newswire
+    from src.providers_alpaca import AlpacaData, creds as _acreds
+    seen: set = set()
+    next_full = 0.0
     while ny_now() < end:
         t0 = time.time()
-        mode = live_mode(ny_now())
+        now = ny_now()
+        mode = live_mode(now)
         try:
-            if mode in ("pre", "post"):
-                cmd_ext(argparse.Namespace(session=mode, no_journal=False,
-                                           config=args.config))
-            elif mode == "open":
-                cmd_flow(argparse.Namespace(demo=False, ticks=1, interval=0,
-                                            window=None, no_journal=False,
-                                            config=args.config))
-            else:
+            if mode == "off":
                 console.print("[dim]off-hours — idling[/dim]")
-            if mode != "off":
+            elif t0 >= next_full:
+                # ---- full discovery tick -------------------------------
+                if mode in ("pre", "post"):
+                    cmd_ext(argparse.Namespace(session=mode, no_journal=False,
+                                               config=args.config))
+                else:
+                    cmd_flow(argparse.Namespace(demo=False, ticks=1, interval=0,
+                                                window=None, no_journal=False,
+                                                config=args.config))
+                next_full = time.time() + full_sec
                 cmd_hub(argparse.Namespace(demo=False, out=None,
                                            config=args.config))
                 if os.environ.get("IGNITION_GIT_PUSH"):
                     _git_push_state(console)
+            else:
+                # ---- 45s lane: press wires + hot-set refresh -----------
+                changed = False
+                ac = _acreds()
+                base = None
+                if ac:
+                    today = ny_today().isoformat()
+                    bp = os.path.join(_state_dir(cfg), f"alpaca_base_{today}.json")
+                    try:
+                        with open(bp) as fh:
+                            base = json.load(fh)
+                    except Exception:
+                        base = None
+                events = []
+                if ncfg.get("enabled") and base:
+                    from src.universe import ETF_EXCLUDE
+                    events = newswire.poll(
+                        ncfg.get("feeds") or [], seen,
+                        valid=set(base["adv"]), exclude=ETF_EXCLUDE,
+                        min_score=int(ncfg.get("min_score", 2)),
+                        log=lambda m: console.print(f"[dim]{m}[/dim]"))
+                    jrl = _journal(cfg, False)
+                    for e in events:
+                        console.print(f"[bold red]📰 CATALYST[/bold red] "
+                                      f"[bold]{e['symbol']}[/bold] "
+                                      f"({e['ts'].strftime('%H:%M')}) {e['headline'][:90]}")
+                        if jrl:
+                            jrl.record_flow_event(False, {
+                                "ts": now, "ticker": e["symbol"], "prev": None,
+                                "state": "CATALYST", "price": 0.0, "tp": None,
+                                "note": e["headline"][:120]})
+                if ac and base:
+                    ap = AlpacaData(*ac)
+                    base["med"] = base.get("med") or []
+                    changed = flow_alpaca.fast_update(
+                        ap, base, _state_dir(cfg), now, fcfg, events)
+                if changed or events:
+                    cmd_hub(argparse.Namespace(demo=False, out=None,
+                                               config=args.config))
+                    if os.environ.get("IGNITION_GIT_PUSH"):
+                        _git_push_state(console)
         except SystemExit:
             pass
         except Exception as e:
             console.print(f"[yellow]tick error (continuing): {e}[/yellow]")
-        time.sleep(max(5.0, args.interval - (time.time() - t0)))
+        time.sleep(max(3.0, fast_sec - (time.time() - t0)))
 
 
 def cmd_paths(args):

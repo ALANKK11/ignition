@@ -207,6 +207,8 @@ def _board_section(bd, closed_now, stale_day=None):
             chips += _chip("HOT NOW", "#facc15")
         if r.get("pin"):
             chips += _chip("PIN · DEAD", "#e879f9")
+        if r.get("catalyst"):
+            chips += _chip(f'PR {r.get("pr_ts") or ""}', "#ff5a1f")
         if r.get("state"):
             chips += _chip(r["state"], STATE_HEX.get(r["state"], "#9ca3af"))
         meta = [f'${fmt_big(r["dollars"])}']
@@ -226,7 +228,11 @@ def _board_section(bd, closed_now, stale_day=None):
 <span class="score" style="font-size:19px;color:{'#4ade80' if up else '#f87171'}">{r["move"] * 100:+.0f}%</span>
 {_heat_meter(r.get("heat"))}
 <span class="px">{r["last"]:.2f}</span>{chips}</div>
-<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div></div>""")
+<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>
+{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}'
+ + ("".join(" " + _chip(fl, "#f87171" if fl.startswith("⚠") else "#8b939c")
+            for fl in (r.get("flags") or [])[:3])) + "</div>"
+ if r.get("headline") else ""}</div>""")
     return (f'<h2 style="color:#ff5a1f;font-size:13px">{label} · {ts} ET</h2>'
             '<div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, '
             'volume-verified, ranked by the HEAT METER: intraday travel a human could '
