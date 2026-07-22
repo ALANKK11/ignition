@@ -757,3 +757,12 @@
 {"ts": "2026-07-22T14:13:21.028887-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 28.78, "tp": 1.9338399550648198, "note": "sustained 1.9x"}
 {"ts": "2026-07-22T14:13:21.028887-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "IGNITING", "state": "COOLING", "price": 7.24, "tp": 0.0, "note": "pace 0.0x off peak 30.8x"}
 {"ts": "2026-07-22T14:13:21.028887-04:00", "demo": 0, "ticker": "ACT", "prev_state": "FADING", "state": "NEW MONEY", "price": 45.66, "tp": 3.414077998007885, "note": "quiet open (0.1x) \u2192 now 3.4x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "BMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 124.08, "tp": 6.930208110216665, "note": "pace 6.9x and accelerating (2.2x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "FADING", "state": "LEAVING", "price": 3.41, "tp": 0.9978605798174891, "note": "pace 1.0x off peak 4.8x \u00b7 VWAP lost (was +2.6% above)"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "FADING", "price": 11.06, "tp": 4.874955503070253, "note": "pace 4.9x vs peak 24.3x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "DYN", "prev_state": "RUNNING", "state": "COOLING", "price": 23.02, "tp": 0.8902014235819306, "note": "pace 0.9x off peak 10.4x"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "FADING", "state": "COOLING", "price": 14.975, "tp": 1.75968862251578, "note": "pace 1.8x off peak 2.7x"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 31.48, "tp": 1.7250015724057546, "note": "pace 1.7x off peak 3.9x"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "INM", "prev_state": "FADING", "state": "LEAVING", "price": 1.65, "tp": 25.842622087741084, "note": "pace 25.8x off peak 1459.8x \u00b7 VWAP lost (was +3.9% above)"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "EQPT", "prev_state": "COOLING", "state": "RUNNING", "price": 17.13, "tp": 1.8499474988658944, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T14:15:34.110153-04:00", "demo": 0, "ticker": "GTY", "prev_state": "QUIET", "state": "COOLING", "price": 36.095, "tp": 1.5398457065692217, "note": "pace 1.5x off peak 2.1x"}
