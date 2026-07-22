@@ -783,3 +783,17 @@
 {"ts": "2026-07-22T14:20:45.652894-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "RUNNING", "state": "CHURN", "price": 40.94, "tp": 5.405745924154936, "note": "5.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T14:20:45.652894-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.295, "tp": 7.648272757730573, "note": "pace 7.6x and accelerating (2.0x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-07-22T14:21:30.636785-04:00", "demo": 0, "ticker": "CDZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cadiz and RIC Energy Sign MOU to Advance Solar / Hydrogen Development at Cadiz Ranch"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "FADING", "state": "CHURN", "price": 11.065, "tp": 9.949020195397908, "note": "9.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.59, "tp": 9.191538851780027, "note": "pace 9.2x and accelerating (2.2x vs prior window) \u00b7 +2.2% in window"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "BIP", "prev_state": "FADING", "state": "RUNNING", "price": 40.54, "tp": 6.787160198546305, "note": "sustained 6.8x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "CDX", "prev_state": "COOLING", "state": "NEW MONEY", "price": 20.815, "tp": 2.632381933316863, "note": "quiet open (0.5x) \u2192 now 2.6x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "OGG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.305, "tp": 7.963783613515831, "note": "sustained 8.0x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "BMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 124.655, "tp": 7.488261868276182, "note": "sustained 7.5x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "CNXN", "prev_state": "RUNNING", "state": "COOLING", "price": 79.27, "tp": 0.6294739126659702, "note": "pace 0.6x off peak 13.1x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "WTI", "prev_state": "COOLING", "state": "FADING", "price": 3.72, "tp": 0.7436682194082525, "note": "pace 0.7x vs peak 2.4x \u00b7 -2.2% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.78, "tp": 0.0, "note": "pace 0.0x off peak 4.1x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.0, "tp": 2.4460054300190293, "note": "sustained 2.4x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "REM", "prev_state": "COOLING", "state": "RUNNING", "price": 21.715, "tp": 1.9914355753911746, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "CHURN", "state": "RUNNING", "price": 41.01, "tp": 7.910652918203438, "note": "sustained 7.9x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "BH", "prev_state": "RUNNING", "state": "COOLING", "price": 377.57, "tp": 1.585223067012636, "note": "pace 1.6x off peak 6.9x"}
+{"ts": "2026-07-22T14:24:30.652621-04:00", "demo": 0, "ticker": "DYN", "prev_state": "COOLING", "state": "RUNNING", "price": 23.19, "tp": 2.024288476340561, "note": "sustained 2.0x"}
