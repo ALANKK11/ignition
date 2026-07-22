@@ -458,3 +458,14 @@
 {"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "CHURN", "state": "COOLING", "price": 10.18, "tp": 1.0212932809957385, "note": "pace 1.0x off peak 37.7x"}
 {"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "CHURN", "price": 11.065, "tp": 10.058542086264495, "note": "10.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T12:40:42.347204-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.39, "tp": 3.2695657103699896, "note": "sustained 3.3x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "COOLING", "state": "RUNNING", "price": 32.78, "tp": 1.8922812814435797, "note": "sustained 1.9x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "COOK", "prev_state": "FADING", "state": "RUNNING", "price": 66.0, "tp": 5.270595374262574, "note": "sustained 5.3x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "ENZL", "prev_state": "FADING", "state": "RUNNING", "price": 46.92, "tp": 2.50157186260561, "note": "sustained 2.5x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "VNM", "prev_state": "RUNNING", "state": "COOLING", "price": 16.505, "tp": 0.8555139155731687, "note": "pace 0.9x off peak 28.2x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "CALM", "prev_state": "COOLING", "state": "FADING", "price": 87.31, "tp": 1.5921241107735684, "note": "pace 1.6x vs peak 9.7x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "BUG", "prev_state": "RUNNING", "state": "CHURN", "price": 38.255, "tp": 2.99669806477998, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "COOLING", "state": "RUNNING", "price": 14.885, "tp": 2.0405010657447287, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "REM", "prev_state": "COOLING", "state": "RUNNING", "price": 21.76, "tp": 2.0774794465330158, "note": "sustained 2.1x"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "FADING", "state": "CHURN", "price": 9.34, "tp": 2.8127004426903155, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "FADING", "state": "LEAVING", "price": 5.025, "tp": 0.7494636653594379, "note": "pace 0.7x off peak 10.2x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-07-22T12:43:50.499589-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "CHURN", "state": "RUNNING", "price": 11.065, "tp": 12.217755200706094, "note": "sustained 12.2x"}
