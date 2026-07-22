@@ -99,8 +99,10 @@ autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="fal
 enterkeyhint="done"><button id="addb">＋</button></div>
 <div class="chips" id="sugs"></div>
 <div id="cards"></div>
-<div class="foot">Reads the free <b>IEX tape</b> (a slice of total volume) via a
-direct stream to your phone — nothing waits on GitHub. Two independent reads:
+<div class="foot">Streams straight to your phone — nothing waits on GitHub. Feed:
+<b>SIP</b> (the full consolidated tape, every exchange) when your Alpaca plan
+includes it, otherwise the free <b>IEX sample</b> (~3% of volume) — chosen
+automatically, shown in the status line. Two independent reads:
 <b>TREND</b> (the big word) is flow now vs the <b>peak flow this move has shown</b>
 — slow and sticky by design: it takes 3s of evidence to downgrade and 10s to
 re-trust, so it cannot whipsaw green/red. <b>MONEY LEAVING at 18% of peak</b>
@@ -340,18 +342,32 @@ function evalAll(){var open=mktOpen();$('closed').hidden=open;
   VD[t]=v[0]});}
 function sub(ts){try{ws&&ws.readyState===1&&ts.length&&
  ws.send(JSON.stringify({action:'subscribe',trades:ts}))}catch(e){}}
+/* feed choice is SHARED with the hub (⚙ keys panel): SIP = full consolidated
+   tape when his plan allows it, IEX sample otherwise; entitlement cached in
+   feed_sip so the fallback costs one reconnect ever. */
+function feedPick(){var p=LS.feed_pref||'auto';
+ if(p==='sip')return 'sip';if(p==='iex')return 'iex';
+ return LS.feed_sip==='0'?'iex':'sip'}
+var FEED='iex';
 function connect(fresh){if(!K||!S){$('setup').hidden=false;status('need keys','bad');return}
  if(fresh)tries=0;msg('');status('connecting…','mid');
  try{ws&&ws.close()}catch(e){}
- ws=new WebSocket('wss://stream.data.alpaca.markets/v2/iex');
+ FEED=feedPick();
+ ws=new WebSocket('wss://stream.data.alpaca.markets/v2/'+FEED);
  ws.onopen=function(){/* wait for server hello */};
  ws.onmessage=function(ev){var arr;try{arr=JSON.parse(ev.data)}catch(e){return}
   (Array.isArray(arr)?arr:[arr]).forEach(function(m){
    if(m.T==='success'&&m.msg==='connected')
     ws.send(JSON.stringify({action:'auth',key:K,secret:S}));
    else if(m.T==='success'&&m.msg==='authenticated'){tries=0;
-    status('LIVE · iex stream','live');sub(W)}
-   else if(m.T==='error'){status('stream error','bad');
+    if(FEED==='sip')LS.feed_sip='1';
+    status('LIVE · '+(FEED==='sip'?'SIP full tape':'iex sample'),'live');sub(W)}
+   else if(m.T==='error'){
+    if(FEED==='sip'&&(LS.feed_pref||'auto')==='auto'&&(m.code===409||m.code===402
+      ||/insufficient|subscription/i.test(m.msg||''))){
+     LS.feed_sip='0';status('SIP not in plan — IEX','mid');
+     try{ws.close()}catch(e){};setTimeout(function(){connect(true)},300);return}
+    status('stream error','bad');
     msg(m.code===406?'Alpaca allows ONE live connection — close TAPE on any other device, then tap keys → GO.':
      m.code===402||m.code===401?'Auth failed — re-enter keys (keys button).':
      'stream: '+(m.msg||m.code))}
