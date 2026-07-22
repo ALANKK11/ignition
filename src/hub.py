@@ -518,29 +518,33 @@ function drawSpark(t,buf,now,color){
  const cv=$w('sp_'+t);if(!cv)return;const g=cv.getContext('2d');
  g.clearRect(0,0,600,76);
  const pts=[];for(let i=buf.length-1;i>=0;i--){const a=buf[i];
-  if(now-a[0]>120000)break;pts.push(a)}
+  if(now-a[0]>600000)break;pts.push(a)}
  if(pts.length<3)return;pts.reverse();
  let lo=1e18,hi=0;pts.forEach(a=>{lo=Math.min(lo,a[2]);hi=Math.max(hi,a[2])});
  if(hi<=lo)hi=lo*1.0005;
- const t0=now-120000,tw=120000;
- // side bars: 3s buckets, buys up-green, sells down-red, sqrt-scaled
- const bk={};pts.forEach(a=>{const k=Math.floor((a[0]-t0)/3000);
-  const b=bk[k]=bk[k]||[0,0];if(a[3]>0)b[0]+=a[1];else if(a[3]<0)b[1]+=a[1]});
- let mx=1;Object.values(bk).forEach(b=>{mx=Math.max(mx,b[0],b[1])});
- Object.keys(bk).forEach(k=>{const b=bk[k],x=k*15+1;
-  const hb=Math.sqrt(b[0]/mx)*16,hs=Math.sqrt(b[1]/mx)*16;
-  g.fillStyle='rgba(74,222,128,.75)';g.fillRect(x,58-hb,12,hb);
-  g.fillStyle='rgba(248,113,113,.75)';g.fillRect(x,58,12,hs)});
- // price line with a soft glow in the live-state color
+ const t0=now-600000,tw=600000;
+ // CVD — the read that accumulates: buyer $ minus seller $, running sum.
+ // Climbing = money coming in on his side; rolling over while price holds
+ // = distribution. Cannot flicker: a cumulative line only bends.
+ let cum=0,cmin=0,cmax=0;const dl=pts.map(a=>{
+  if(a[3]>0)cum+=a[1];else if(a[3]<0)cum-=a[1];
+  cmin=Math.min(cmin,cum);cmax=Math.max(cmax,cum);
+  return [a[0],cum]});
+ const cs=Math.max(cmax-cmin,1);
+ g.strokeStyle='rgba(139,147,156,.5)';g.setLineDash([3,4]);g.beginPath();
+ const zy=74-(0-cmin)/cs*30;g.moveTo(0,zy);g.lineTo(600,zy);g.stroke();g.setLineDash([]);
+ g.strokeStyle='#e7e9ec';g.lineWidth=2;g.beginPath();
+ dl.forEach((d,i)=>{const x=(d[0]-t0)/tw*598+1,y=74-(d[1]-cmin)/cs*30;
+  i?g.lineTo(x,y):g.moveTo(x,y)});g.stroke();
+ // price line above, glowing in the live-state color
  g.strokeStyle=color;g.lineWidth=2;g.shadowColor=color;g.shadowBlur=6;
  g.beginPath();
  pts.forEach((a,i)=>{const x=(a[0]-t0)/tw*598+1,
-  y=50-(a[2]-lo)/(hi-lo)*44;i?g.lineTo(x,y):g.moveTo(x,y)});
+  y=36-(a[2]-lo)/(hi-lo)*32;i?g.lineTo(x,y):g.moveTo(x,y)});
  g.stroke();g.shadowBlur=0;
- // last-price dot
  const la=pts[pts.length-1];
  g.fillStyle=color;g.beginPath();
- g.arc((la[0]-t0)/tw*598+1,50-(la[2]-lo)/(hi-lo)*44,3,0,7);g.fill();
+ g.arc((la[0]-t0)/tw*598+1,36-(la[2]-lo)/(hi-lo)*32,3,0,7);g.fill();
 }
 function cnt60(b,now){let n=0;for(let i=b.length-1;i>=0;i--){
  if(now-b[i][0]>60000)break;n++}return n}
