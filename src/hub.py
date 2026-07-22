@@ -405,25 +405,44 @@ function liveLabel(st,s,qb,nowMs){
  return ['live: drying up — '+F(s.d30)+'/30s vs '+F(s.best30)+' burst'+
   (down?' · DOWNSHIFT':'')+side+bk,'#fb923c'];
 }
-/* THE word (item 41): derived from the cumulative money line's slope over
-   the last ~4 minutes — an accumulating read at minute scale, so it can
-   bend but never flicker. Sparse sample says THIN FEED, never a verdict. */
-function cvdWord(buf,nowMs){
- var cum=0,c4=null,tot=0,n5=0,last=0,first=nowMs,i;
- for(i=0;i<buf.length;i++){var x=buf[i];if(nowMs-x[0]>600000)continue;
-  if(x[0]<first)first=x[0];
-  cum+=x[3]>0?x[1]:x[3]<0?-x[1]:0;tot+=x[1];
-  if(nowMs-x[0]>240000)c4=cum;
-  if(nowMs-x[0]<=300000)n5++;
-  if(x[0]>last)last=x[0];}
- if(c4===null)c4=0;
- if(!last||nowMs-first<45000)return ['reading…','#5b636c',0];
- if(nowMs-last>=60000)return ['NO PRINTS '+Math.round((nowMs-last)/1000)+'s','#8b939c',0];
- if(n5<6||tot<3000)return ['THIN FEED · '+n5+' prints/5m','#5b636c',0];
- var sl=(cum-c4)/Math.max(tot,1);
- if(sl>=0.12)return ['ACCUMULATING','#4ade80',sl];
- if(sl<=-0.12)return ['DISTRIBUTION','#f87171',sl];
- return ['BALANCED','#facc15',sl];
+/* THE READ — price-momentum first (rebuilt 2026-07-22 after NFLV: the
+   free feed samples ~3% of PRINTS so dollar-flow undercounts, but every
+   print's PRICE is exact. So the word is driven by the MOVE, which is loud
+   even on a thin sample, and NEVER says "thin" while price is moving.
+   Flow/quotes are the secondary "is the move still being fed" read. */
+function priceAt(pts,nowMs,ms){         // pts newest-first: price ~ms ago
+ for(var j=0;j<pts.length;j++){if(nowMs-pts[j][0]>=ms)return pts[j][2];}
+ return pts.length?pts[pts.length-1][2]:null;}
+function moveRead(buf,qb,nowMs){
+ var pts=[],last=0,bd=0,sd=0,i;
+ for(i=buf.length-1;i>=0;i--){var a=buf[i],ag=nowMs-a[0];
+  if(ag>65000)break;pts.push(a);if(a[0]>last)last=a[0];
+  if(ag<=15000){if(a[3]>0)bd+=a[1];else if(a[3]<0)sd+=a[1];}}
+ if(!pts.length)return ['NO PRINTS'+(last?' '+Math.round((nowMs-last)/1000)+'s':''),'#5b636c',0,'no tape on this name yet'];
+ var pnow=pts[0][2];
+ var m5=pnow/priceAt(pts,nowMs,5000)-1,
+     m15=pnow/priceAt(pts,nowMs,15000)-1,
+     m60=pnow/priceAt(pts,nowMs,60000)-1;
+ var side=(bd+sd)>0?bd/(bd+sd):null;
+ var qf=qb&&(nowMs-qb.t)<8000&&qb.bs&&qb.as, book=qf?qb.as/qb.bs:null;
+ function P(x){return (x>=0?'+':'')+(x*100).toFixed(1)+'%';}
+ var det='15s '+P(m15)+' · 5s '+P(m5)+(side!=null?' · '+Math.round(side*100)+'% buyers':'');
+ var BIG=0.03,SM=0.008;
+ if(m5>=0.05)return ['RIPPING \u2191','#4ade80',m5+2,det+' — VERTICAL, last 5s'];
+ if(m5<=-0.05)return ['DUMPING \u2193','#f87171',Math.abs(m5)+2,det+' — VERTICAL drop, last 5s'];
+ if(m15>=BIG){
+  if(m5<=-0.01)return ['ROLLING OVER','#fb923c',m15,det+' — pulling back off the run'];
+  if(m5>=m15/3)return ['RIPPING ↑','#4ade80',m15+1,det+' — still accelerating'];
+  return ['RUNNING ↑','#4ade80',m15,det+(side!=null&&side<0.4?' — but sellers hitting':'')];}
+ if(m15<=-BIG){
+  if(m5>=0.01)return ['BOUNCING','#facc15',Math.abs(m15),det+' — bid stepping up'];
+  return ['DUMPING ↓','#f87171',Math.abs(m15)+1,det+' — sellers in control'];}
+ if(m5>=SM)return ['TICKING UP','#4ade80',Math.abs(m5),det];
+ if(m5<=-SM)return ['TICKING DOWN','#fb923c',Math.abs(m5),det];
+ if(book!=null&&book>=2.5)return ['SELLERS STACKED','#fb923c',0,det+' · ask '+book.toFixed(1)+'x bid'];
+ if(book!=null&&book<=0.4)return ['BIDS STACKED','#4ade80',0,det+' · bid '+(1/book).toFixed(1)+'x ask'];
+ if(pts.length<4&&Math.abs(m60)<0.01)return ['QUIET','#5b636c',0,'flat · '+pts.length+' prints/min'];
+ return ['COILING','#8b939c',0,det];
 }
 /* the big word — trade language, side-aware: WHOSE money is it right now */
 function liveHead(st,s){
@@ -596,16 +615,15 @@ function paintCard(t,now){
    if(line){line.textContent=off?'live: stream not connected — tap ⚙ keys'
     :'live: connected — no prints on this name yet';line.style.color='#5b636c'}
    return [t,-1];}
-  const s=liveRead(buf,now),st=lvSticky(LVS,t,liveState(s),now);
-  const W=cvdWord(buf,now),L=liveLabel(st,s,QB[t],now);
+  const W=moveRead(buf,QB[t],now);
   if(head){if(head.textContent!==W[0]&&card&&/[A-Z]/.test(W[0])){
     card.classList.remove('flash');void card.offsetWidth;card.classList.add('flash')}
    head.textContent=W[0];head.style.color=W[1];
-   head.classList.toggle('hot',W[0]==='ACCUMULATING'||W[0]==='DISTRIBUTION')}
-  if(line){line.textContent=L[0]+(useF?' · via finnhub':'');line.style.color=L[1]}
+   head.classList.toggle('hot',/RIPPING|DUMPING|ROLLING|BOUNCING/.test(W[0]))}
+  if(line){line.textContent='live: '+W[3]+(useF?' \u00b7 finnhub':'');line.style.color=W[1]}
   if(card)card.style.borderLeftColor=W[1];
   drawSpark(t,buf,now,W[1]);
-  return [t,W[2]*1e9+s.d30];}
+  return [t,W[2]*1e9];}
 setInterval(()=>{
  const now=Date.now();
  const scored=[];
