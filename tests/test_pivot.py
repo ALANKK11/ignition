@@ -249,7 +249,8 @@ def test_watch_json_rows_and_hub_now():
         hub.build(cfg, out, demo=False)
         html = open(os.path.join(out, "index.html")).read()
         ok("mood chip rendered", "MONEY HERE" in html)
-        ok("story rendered", "money is here NOW" in html)
+        ok("more is stamped, story stays in data",
+           "engine research" in html)
         ok("editor present", 'id="wq"' in html and 'id="wsetup"' in html)
         wjs = json.load(open(os.path.join(out, "watch.json")))
         r = wjs["rows"][0]
