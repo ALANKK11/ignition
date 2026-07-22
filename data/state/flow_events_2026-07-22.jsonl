@@ -670,3 +670,5 @@
 {"ts": "2026-07-22T13:39:10.302110-04:00", "demo": 0, "ticker": "ACWV", "prev_state": "RUNNING", "state": "COOLING", "price": 121.64, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
 {"ts": "2026-07-22T13:39:10.302110-04:00", "demo": 0, "ticker": "BUG", "prev_state": "COOLING", "state": "RUNNING", "price": 38.415, "tp": 2.7206035320006507, "note": "sustained 2.7x"}
 {"ts": "2026-07-22T13:39:10.302110-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.15, "tp": 2.485067403475854, "note": "sustained 2.5x"}
+{"ts": "2026-07-22T13:40:43.419146-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "RUNNING", "state": "COOLING", "price": 4.655, "tp": 1.4278126432474012, "note": "pace 1.4x off peak 2.7x"}
+{"ts": "2026-07-22T13:40:43.419146-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "RUNNING", "state": "COOLING", "price": 31.37, "tp": 0.8557361226085481, "note": "pace 0.9x off peak 3.9x"}
