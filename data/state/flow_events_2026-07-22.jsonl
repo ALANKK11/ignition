@@ -867,3 +867,11 @@
 {"ts": "2026-07-22T14:47:00.657650-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "COOLING", "state": "RUNNING", "price": 7.19, "tp": 2.2822272024115886, "note": "sustained 2.3x"}
 {"ts": "2026-07-22T14:47:00.657650-04:00", "demo": 0, "ticker": "APPN", "prev_state": "COOLING", "state": "RUNNING", "price": 22.26, "tp": 3.137620550620825, "note": "sustained 3.1x"}
 {"ts": "2026-07-22T14:47:00.657650-04:00", "demo": 0, "ticker": "BEP", "prev_state": "COOLING", "state": "RUNNING", "price": 32.43, "tp": 1.9617474172779146, "note": "sustained 2.0x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.616, "tp": 71.10531242252254, "note": "sustained 71.1x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "CB", "prev_state": "COOLING", "state": "RUNNING", "price": 341.365, "tp": 1.8094663115985041, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "GTY", "prev_state": "RUNNING", "state": "COOLING", "price": 36.0, "tp": 1.3870134003631718, "note": "pace 1.4x off peak 6.3x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "FADING", "state": "LEAVING", "price": 90.59, "tp": 1.3668254889246505, "note": "pace 1.4x off peak 12.2x \u00b7 VWAP lost (was +2.3% above)"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "DYN", "prev_state": "COOLING", "state": "RUNNING", "price": 23.04, "tp": 2.533498011254585, "note": "sustained 2.5x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "FADING", "state": "RUNNING", "price": 4.62, "tp": 2.5723208991200903, "note": "sustained 2.6x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "BSCV", "prev_state": "CHURN", "state": "COOLING", "price": 16.215, "tp": 0.0, "note": "pace 0.0x off peak 56.9x"}
+{"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "LEAVING", "state": "FADING", "price": 3.395, "tp": 0.03801607788324283, "note": "pace 0.0x vs peak 4.8x \u00b7 -4.1% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
