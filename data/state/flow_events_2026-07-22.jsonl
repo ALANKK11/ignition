@@ -29,3 +29,12 @@
 {"ts": "2026-07-22T10:50:37.219297-04:00", "demo": 0, "ticker": "PEGA", "prev_state": "RUNNING", "state": "CHURN", "price": 27.26, "tp": 7.572856432883191, "note": "7.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T10:50:37.219297-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "CHURN", "price": 21.63, "tp": 3.7591882493956543, "note": "3.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-22T10:50:37.219297-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "CHURN", "state": "IGNITING", "price": 9.315, "tp": 2.8818890007061517, "note": "pace 2.9x and accelerating (1.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.355, "tp": 7.360439256638987, "note": "pace 7.4x and accelerating (1.7x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "WASH", "prev_state": "QUIET", "state": "RUNNING", "price": 38.11, "tp": 1.8361913311440332, "note": "sustained 1.8x"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "SLGB", "prev_state": "QUIET", "state": "IGNITING", "price": 0.741, "tp": 6.391662547451814, "note": "pace 6.4x and accelerating (10.9x vs prior window) \u00b7 -3.9% in window"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "FMNB", "prev_state": "COOLING", "state": "RUNNING", "price": 14.835, "tp": 2.088359641444744, "note": "sustained 2.1x"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.35, "tp": 3.5004953674416788, "note": "sustained 3.5x"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "REM", "prev_state": "CHURN", "state": "RUNNING", "price": 21.67, "tp": 5.085293301924578, "note": "sustained 5.1x"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "QUIET", "state": "RUNNING", "price": 4.65, "tp": 2.371761621695898, "note": "sustained 2.4x"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "CPF", "prev_state": "QUIET", "state": "NEW MONEY", "price": 38.6, "tp": 4.5454623786813375, "note": "quiet open (0.1x) \u2192 now 4.5x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-22T10:53:37.219792-04:00", "demo": 0, "ticker": "PEGA", "prev_state": "CHURN", "state": "RUNNING", "price": 26.975, "tp": 6.793243202544353, "note": "sustained 6.8x"}
