@@ -875,3 +875,5 @@
 {"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "AIRJ", "prev_state": "FADING", "state": "RUNNING", "price": 4.62, "tp": 2.5723208991200903, "note": "sustained 2.6x"}
 {"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "BSCV", "prev_state": "CHURN", "state": "COOLING", "price": 16.215, "tp": 0.0, "note": "pace 0.0x off peak 56.9x"}
 {"ts": "2026-07-22T14:50:45.658466-04:00", "demo": 0, "ticker": "VZLA", "prev_state": "LEAVING", "state": "FADING", "price": 3.395, "tp": 0.03801607788324283, "note": "pace 0.0x vs peak 4.8x \u00b7 -4.1% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-22T14:53:45.643355-04:00", "demo": 0, "ticker": "WBD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "EUROPEAN COMMISSION APPROVES PARAMOUNT SKYDANCE CORPORATION ACQUISITION OF WARNER BROS. DISCOVERY MARKING MAJOR MILESTON"}
+{"ts": "2026-07-22T14:53:45.643355-04:00", "demo": 0, "ticker": "PSKY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "EUROPEAN COMMISSION APPROVES PARAMOUNT SKYDANCE CORPORATION ACQUISITION OF WARNER BROS. DISCOVERY MARKING MAJOR MILESTON"}
