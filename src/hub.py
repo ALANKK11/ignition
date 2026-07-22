@@ -190,6 +190,8 @@ function wcard(r){
  if(r.halts&&r.halts.n)chips+=wchip('×'+r.halts.n+' halt'+(r.halts.n>1?'s':'')+
   (r.halts.res?' · res '+r.halts.res:''),r.halts.n>=3?'#f87171':'#facc15');
  if(r.dil)chips+=wchip(r.dil,DILC[r.dil]||'#9ca3af');
+ if(r.ped&&r.ped.n)chips+=wchip(r.ped.grade,r.ped.n>=3?'#f87171':'#facc15');
+ if(r.shape)chips+=wchip(r.shape,'#22d3ee');
  if(r.rot)chips+=wchip('rot '+r.rot+'x','#e879f9');
  if(r.headline)chips+=wchip('PR '+(r.pr_ts||''),'#ff5a1f');
  const meta=[];
@@ -212,8 +214,10 @@ function wcard(r){
   (meta.length?'<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>':'')+
   (ev?'<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+
    '</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>':'')+
+  (r.playbook?'<div class="note" style="color:#facc15;font-size:12.5px">'+wesc(r.playbook)+'</div>':'')+
   (r.reason?'<div class="note" style="color:#8b939c;font-style:italic">'+wesc(r.reason)+'</div>':'')+
   (r.headline?'<div class="note" style="margin-top:5px;color:#c9ced4">📰 '+wesc(r.headline)+'</div>':'')+
+  (r.dossier||'')+
   '</div>'}
 function wmini(t){
  const x=PULSE?PULSE[t]:null;const v=x?pverdict(x):null;const hc=v?v[1]:'#5b636c';
@@ -232,8 +236,12 @@ function wrender(){
   'It renders instantly from the live pulse feed; with sync set up the engine follows '+
   'with full EDGAR/halt/fade intel within ~2 minutes.</div>';return}
  const by={};if(WV&&WV.rows)WV.rows.forEach(r=>{by[r.ticker]=r});
+ const open={};root.querySelectorAll('.card details[open]').forEach(d=>{
+  const c=d.closest('.card');if(c&&c.id)open[c.id]=1});
  root.innerHTML=l.map(t=>{const r=by[t];
-  return (r&&r.present)?wcard(r):wmini(t)}).join('');}
+  return (r&&r.present)?wcard(r):wmini(t)}).join('');
+ Object.keys(open).forEach(id=>{const c=$w(id);
+  const d=c&&c.querySelector('details');if(d)d.open=true});}
 function wtokv(){return localStorage.gh_t||''}
 function wpush(){clearTimeout(WPT);WPT=setTimeout(wpushNow,1500)}
 function wpushNow(retried){
@@ -642,6 +650,29 @@ def _story(r):
     return out or None
 
 
+def _playbook(r, ped_n: int):
+    """One line fusing today's shape with the company's anatomy. Priors are
+    labeled hist and never dressed up as calls — the item-26 rule."""
+    sh = r.get("shape")
+    if not sh:
+        return None
+    if sh in ("GAP & FADE", "FADED RUNNER") and ped_n >= 2:
+        return ("playbook: classic pump-fade anatomy — scalp the bounces, "
+                "don't marry it (hist: these close weak)")
+    if sh in ("GAP & GO", "RUNNER") and ped_n >= 3:
+        return ("playbook: running, but built to rug — momentum is real "
+                "until the offering prints (hist)")
+    if sh in ("GAP & GO", "RUNNER", "MIDDAY POP") and ped_n <= 1:
+        return ("playbook: clean momentum profile — vwap dips historically "
+                "get bought (hist, not a call)")
+    if sh == "BLEEDER":
+        return "playbook: supply in control all day (hist: bounces fade)"
+    if sh == "GAP & CHOP":
+        return ("playbook: gap without follow-through — let it pick a "
+                "direction first")
+    return None
+
+
 def _watch_enrich(order, ws, intel, bd):
     """Join watch rows with intel + board headline into card-ready dicts —
     used by BOTH the server-side render and docs/watch.json, so the phone's
@@ -669,10 +700,58 @@ def _watch_enrich(order, ws, intel, bd):
         r["rot"] = round(_rot, 1) if _rot else None
         r["headline"] = b.get("headline")
         r["pr_ts"] = b.get("pr_ts")
+        ped = (intel.get("ped") or {}).get(t)
+        if ped and ped.get("grade") not in (None, "UNKNOWN"):
+            r["ped"] = {k: ped.get(k) for k in
+                        ("grade", "n", "flags", "jur", "cik")}
+        r["filings"] = (_dil or {}).get("recent")
         r["now_line"] = _now_line(r) if r["present"] else None
         r["read"] = _story(r)
-        out.append(r)
+        r["playbook"] = _playbook(r, (r.get("ped") or {}).get("n", 0))
+        r["dossier"] = _dossier(r)   # pre-rendered: JS injects it verbatim,
+        out.append(r)                # so both renders are the same HTML
     return out
+
+
+def _dossier(r):
+    """The tap-to-open deep dive: everything on file about this name, with
+    the receipts (a link into the actual SEC record). Static HTML <details>
+    — works with zero JS, renders identically server- and client-side."""
+    ped = r.get("ped")
+    lines = []
+    if ped:
+        col = ("#f87171" if ped.get("n", 0) >= 3
+               else "#facc15" if ped.get("n", 0) else "#4ade80")
+        lines.append(f'<b style="color:{col}">{html.escape(ped["grade"])}</b>'
+                     + (f' <span style="color:#8b939c">· {html.escape(ped.get("jur") or "")}</span>'
+                        if ped.get("jur") else ""))
+        for fl in (ped.get("flags") or []):
+            lines.append("⚠ " + html.escape(fl))
+        if not ped.get("flags"):
+            lines.append("no structural red flags on file")
+    else:
+        lines.append('<span style="color:#5b636c">company record not pulled '
+                     "yet — lands with the intel pass (&le;2 min)</span>")
+    if r.get("rsplits"):
+        lines.append(f'⚠ {r["rsplits"]} reverse split'
+                     f'{"s" if r["rsplits"] > 1 else ""} in ~13mo')
+    if r.get("timeline"):
+        lines.append("today: " + html.escape(r["timeline"]))
+    fl_ = r.get("filings")
+    if fl_:
+        lines.append("filings: " + " · ".join(
+            f"{html.escape(str(f))} {html.escape(str(d))}" for f, d in fl_[:5]))
+    cik = (ped or {}).get("cik")
+    if cik:
+        lines.append(f'<a style="color:#60a5fa" href="https://www.sec.gov/cgi-bin/'
+                     f'browse-edgar?action=getcompany&CIK={cik:010d}'
+                     f'&type=&dateb=&owner=include&count=40" target="_blank" '
+                     'rel="noopener">→ full SEC filing history</a>')
+    body = "".join(f'<div class="note" style="font-size:12.5px">{x}</div>'
+                   for x in lines)
+    return (f'<details style="margin-top:6px"><summary style="color:#8b939c;'
+            'font-size:12px;cursor:pointer">deep dive — who is this company'
+            f'</summary>{body}</details>')
 
 
 def _watch_section(wl, ws, intel, bd, now):
@@ -763,6 +842,12 @@ def _watch_card(r):
         chips += _chip(hlbl, "#f87171" if hl["n"] >= 3 else "#facc15")
     if r.get("dil"):
         chips += _chip(r["dil"], DIL_HEX.get(r["dil"], "#9ca3af"))
+    ped = r.get("ped")
+    if ped and ped.get("n"):
+        chips += _chip(ped["grade"],
+                       "#f87171" if ped["n"] >= 3 else "#facc15")
+    if r.get("shape"):
+        chips += _chip(r["shape"], "#22d3ee")
     if r.get("rot"):
         chips += _chip(f'rot {r["rot"]}x', "#e879f9")
     if r.get("headline"):
@@ -798,8 +883,10 @@ def _watch_card(r):
 {f'<div class="note" style="color:#8b939c;font-size:12.5px">{html.escape(nl)}</div>' if nl else ''}
 {f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>' if meta else ''}
 {f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b><span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>' if ev else ''}
+{f'<div class="note" style="color:#facc15;font-size:12.5px">{html.escape(r["playbook"])}</div>' if r.get("playbook") else ''}
 {f'<div class="note" style="color:#8b939c;font-style:italic">{html.escape(r["reason"])}</div>' if r.get("reason") else ''}
-{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}</div>' if r.get("headline") else ''}</div>"""
+{f'<div class="note" style="margin-top:5px;color:#c9ced4">📰 {html.escape(r["headline"])}</div>' if r.get("headline") else ''}
+{r.get("dossier") or ''}</div>"""
 
 
 def _no_board_notice(sdir, now=None):

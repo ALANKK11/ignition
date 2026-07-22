@@ -81,6 +81,54 @@ def _sess_vwap(df, now: dt.datetime):
         return None
 
 
+def day_shape(df, now: dt.datetime, pc: float | None = None) -> dict | None:
+    """Name today's session shape, with times — 'how it did', factually.
+    No prediction lives here; the playbook line (hub) attaches historical
+    priors to the shape and says 'hist' when it does."""
+    try:
+        d = df[df.index <= now]
+        reg = d.between_time("09:30", "15:59")
+        use = reg if len(reg) >= 5 else d
+        if use is None or len(use) < 5:
+            return None
+        c = use["Close"].to_numpy(float)
+        h = use["High"].to_numpy(float)
+        lo = use["Low"].to_numpy(float)
+        opn = float(use["Open"].iloc[0])
+        last = float(c[-1])
+        hi, li = float(h.max()), int(h.argmax())
+        lov, loi = float(lo.min()), int(lo.argmin())
+        hod_t = use.index[li].strftime("%H:%M")
+        lod_t = use.index[loi].strftime("%H:%M")
+        gap = (opn / pc - 1.0) if pc else None
+        run = hi / opn - 1.0 if opn else 0.0
+        off = last / hi - 1.0 if hi else 0.0
+        vs_open = last / opn - 1.0 if opn else 0.0
+        late_hi = use.index[li] >= use.index[0] + dt.timedelta(hours=2)
+        if gap is not None and gap >= 0.15:
+            if vs_open < 0:
+                shape = "GAP & FADE"
+            elif off >= -0.10:
+                shape = "GAP & GO"
+            else:
+                shape = "GAP & CHOP"
+        elif run >= 0.30:
+            shape = "RUNNER" if off >= -0.15 else "FADED RUNNER"
+        elif vs_open <= -0.15:
+            shape = "BLEEDER"
+        elif run >= 0.10 and late_hi:
+            shape = "MIDDAY POP"
+        else:
+            shape = "DRIFT"
+        tl = (f"open {opn:.2f}"
+              + (f" (gap {gap:+.0%})" if gap is not None else "")
+              + f" · high {hi:.2f} @ {hod_t} · low {lov:.2f} @ {lod_t}"
+              + f" · now {last:.2f} ({off:+.0%} off high)")
+        return {"shape": shape, "timeline": tl}
+    except Exception:
+        return None
+
+
 def build_rows(watchlist: list[str], snaps: dict, bars: dict,
                base: dict | None, states: dict | None,
                now: dt.datetime, mood_store: dict | None = None) -> list[dict]:
@@ -152,7 +200,11 @@ def build_rows(watchlist: list[str], snaps: dict, bars: dict,
             "r15": (ns or {}).get("r15"),
             "travel15": (ns or {}).get("travel15"),
             "stalled_min": (ns or {}).get("stalled_min"),
+            "rsplits": int((base.get("rsplit13") or {}).get(t, 0)),
         }
+        sh = day_shape(df, now, pc) if df is not None else None
+        r["shape"] = (sh or {}).get("shape")
+        r["timeline"] = (sh or {}).get("timeline")
         # the honest reason line — a card is NEVER blank
         if last is None:
             r["reason"] = "no IEX prints yet today"
