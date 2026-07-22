@@ -95,6 +95,10 @@ margin:12px 2px 4px}
 box-shadow:0 2px 10px rgba(0,0,0,.35)}
 .meta,.score,.px,.last{font-variant-numeric:tabular-nums}
 .spk{width:100%;height:44px;margin-top:6px;display:block;opacity:.95}
+@keyframes cflash{30%{box-shadow:0 0 0 3px var(--hot)}}
+.card.flash{animation:cflash .6s}
+@keyframes vpulse{50%{opacity:.5}}
+.vhead.hot{animation:vpulse 1.5s infinite}
 .mre summary{color:#5b636c;font-size:11px;letter-spacing:.1em;
 text-transform:uppercase;cursor:pointer;margin-top:4px;list-style:none}
 .mre summary::before{content:'▸ '}
@@ -208,9 +212,7 @@ function wcard(r){
  if(r.vs_vwap!=null)meta.push((r.vs_vwap>=0?'above':'BELOW')+' vwap');
  if(r.off_hi!=null)meta.push(Math.round(r.off_hi*100)+'% off high');
  const last=(typeof r.last==='number')?r.last.toFixed(3):'—';
- let more=chips?('<div class="row" style="margin:4px 0">'+chips+'</div>'):'';
- if(r.read||r.now_line)more+='<div class="note" style="color:#c9ced4;font-size:13px">'+wesc(r.read||r.now_line)+'</div>';
- if(meta.length)more+='<div class="meta">'+meta.map(m=>'<span>'+m+'</span>').join('')+'</div>';
+ let more='<div class="note" style="color:#5b636c;font-size:11px">engine research · as of '+((WV&&WV.ts)?WV.ts.slice(11,16):'—')+' ET · not live</div>';
  if(ev)more+='<div class="note" style="margin-top:4px"><b style="color:'+ev[1]+'">'+wesc(ev[0])+'</b><span style="color:#8b939c"> — '+wesc(ev[2])+'</span></div>';
  if(r.playbook)more+='<div class="note" style="color:#facc15;font-size:12.5px">'+wesc(r.playbook)+'</div>';
  if(r.reason)more+='<div class="note" style="color:#8b939c;font-style:italic">'+wesc(r.reason)+'</div>';
@@ -399,6 +401,26 @@ function liveLabel(st,s,qb,nowMs){
  return ['live: drying up — '+F(s.d30)+'/30s vs '+F(s.best30)+' burst'+
   (down?' · DOWNSHIFT':'')+side+bk,'#fb923c'];
 }
+/* THE word (item 41): derived from the cumulative money line's slope over
+   the last ~4 minutes — an accumulating read at minute scale, so it can
+   bend but never flicker. Sparse sample says THIN FEED, never a verdict. */
+function cvdWord(buf,nowMs){
+ var cum=0,c4=null,tot=0,n5=0,last=0,first=nowMs,i;
+ for(i=0;i<buf.length;i++){var x=buf[i];if(nowMs-x[0]>600000)continue;
+  if(x[0]<first)first=x[0];
+  cum+=x[3]>0?x[1]:x[3]<0?-x[1]:0;tot+=x[1];
+  if(nowMs-x[0]>240000)c4=cum;
+  if(nowMs-x[0]<=300000)n5++;
+  if(x[0]>last)last=x[0];}
+ if(c4===null)c4=0;
+ if(!last||nowMs-first<45000)return ['reading…','#5b636c',0];
+ if(nowMs-last>=60000)return ['NO PRINTS '+Math.round((nowMs-last)/1000)+'s','#8b939c',0];
+ if(n5<6||tot<3000)return ['THIN FEED','#5b636c',0];
+ var sl=(cum-c4)/Math.max(tot,1);
+ if(sl>=0.12)return ['ACCUMULATING','#4ade80',sl];
+ if(sl<=-0.12)return ['DISTRIBUTION','#f87171',sl];
+ return ['BALANCED','#facc15',sl];
+}
 /* the big word — trade language, side-aware: WHOSE money is it right now */
 function liveHead(st,s){
  var down=s.dPrev>0&&s.d30<s.dPrev*0.5,b=s.bshare;
@@ -559,12 +581,15 @@ setInterval(()=>{
   const buf=useF?fb:ab,line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
   if(!buf.length){scored.push([t,-1]);return}
   const s=liveRead(buf,now),st=lvSticky(LVS,t,liveState(s),now);
-  const H=liveHead(st,s),L=liveLabel(st,s,QB[t],now);
-  if(head){head.textContent=H[0];head.style.color=H[1]}
+  const W=cvdWord(buf,now),L=liveLabel(st,s,QB[t],now);
+  if(head){if(head.textContent!==W[0]&&card&&/[A-Z]/.test(W[0])){
+    card.classList.remove('flash');void card.offsetWidth;card.classList.add('flash')}
+   head.textContent=W[0];head.style.color=W[1];
+   head.classList.toggle('hot',W[0]==='ACCUMULATING'||W[0]==='DISTRIBUTION')}
   if(line){line.textContent=L[0]+(useF?' · via finnhub':'');line.style.color=L[1]}
-  if(card)card.style.borderLeftColor=H[1];
-  drawSpark(t,buf,now,H[1]);
-  scored.push([t,liveScore(st,s)]);});
+  if(card)card.style.borderLeftColor=W[1];
+  drawSpark(t,buf,now,W[1]);
+  scored.push([t,W[2]*1e9+s.d30]);});
  // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
  // the order from churning — only touch the DOM when the sequence changed
  const root=$w('wroot');
@@ -1024,11 +1049,8 @@ def _watch_card(r):
     # MINIMAL (his call, 2026-07-22): one word, one chart, one live line.
     # Everything else — chips, story, verdict, playbook, dossier — lives
     # behind a single quiet "more". No competing labels, nothing static.
-    more = (f'<div class="row" style="margin:4px 0">{chips}</div>' if chips else '')
-    if nl:
-        more += f'<div class="note" style="color:#c9ced4;font-size:13px">{html.escape(nl)}</div>'
-    if meta:
-        more += f'<div class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</div>'
+    more = ('<div class="note" style="color:#5b636c;font-size:11px">'
+            'engine research · not live</div>')
     if ev:
         more += (f'<div class="note" style="margin-top:4px"><b style="color:{ev[1]}">{ev[0]}</b>'
                  f'<span style="color:#8b939c"> — {html.escape(ev[2])}</span></div>')
