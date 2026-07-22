@@ -307,10 +307,13 @@ $w('feedsel')&&($w('feedsel').onclick=()=>{const seq=['auto','sip','iex'];
  delete localStorage.feed_sip;fsDraw()});
 $w('ksave')&&($w('ksave').onclick=()=>{
  const k=$w('akey').value.trim(),s2=$w('asec').value.trim(),g=$w('wtok').value.trim();
+ const fh=$w('fhkey').value.trim();
  if(k)localStorage.tape_k=k;
  if(s2)localStorage.tape_s=s2;
  if(g)localStorage.gh_t=g;
- $w('akey').value='';$w('asec').value='';$w('wtok').value='';
+ if(fh){localStorage.fh_k=fh;FDELAYED=false;ftries=0;
+  try{fws&&fws.close()}catch(e){};fws=null;setTimeout(fconnect,300)}
+ $w('akey').value='';$w('asec').value='';$w('wtok').value='';$w('fhkey').value='';
  $w('wsetup').hidden=true;
  wstat('keys saved on this phone ✓','#4ade80');
  if(g){WDIRTY=true;wsave();wpushNow()}
@@ -332,16 +335,28 @@ wpoll();setInterval(wpoll,45000);
    instead of silently showing nothing. */
 /*LIVE-BEGIN*/
 function liveRead(buf,nowMs){
- var d30=0,dPrev=0,best30=0,lastMs=0,first=nowMs,i,bk={};
+ var d30=0,dPrev=0,best30=0,lastMs=0,first=nowMs,i,bk={},b30=0,s30=0;
  for(i=buf.length-1;i>=0;i--){var a=buf[i],ag=nowMs-a[0];
   if(ag>600000)break;
-  if(ag<=30000)d30+=a[1];else if(ag<=60000)dPrev+=a[1];
+  if(ag<=30000){d30+=a[1];if(a[3]>0)b30+=a[1];else if(a[3]<0)s30+=a[1]}
+  else if(ag<=60000)dPrev+=a[1];
   if(a[0]>lastMs)lastMs=a[0];
   if(a[0]<first)first=a[0];
   var k=Math.floor(ag/30000);bk[k]=(bk[k]||0)+a[1];}
  for(var k2 in bk)if(bk[k2]>best30)best30=bk[k2];
- return {d30:d30,dPrev:dPrev,best30:best30,
+ return {d30:d30,dPrev:dPrev,best30:best30,b30:b30,s30:s30,
+  bshare:(b30+s30)>0?b30/(b30+s30):null,
   lastAgo:lastMs?(nowMs-lastMs)/1000:1e9,warm:(nowMs-first)/1000};
+}
+/* top-of-book pressure — the free proxy for "sell orders queuing": when
+   one side of the NBBO stacks 2.5x+ over the other, say so. Ratio only —
+   unit-independent, so lot-size conventions can't lie to us. */
+function bookLine(qb,nowMs){
+ if(!qb||!qb.bs||!qb.as||nowMs-qb.t>15000)return '';
+ var r=qb.as/qb.bs;
+ if(r>=2.5)return ' · book: ask '+r.toFixed(1)+'× stacked — sellers queuing';
+ if(r<=0.4)return ' · book: bid '+(1/r).toFixed(1)+'× stacked — buyers queuing';
+ return '';
 }
 function liveState(s){
  if(s.warm<45)return 'WARM';
@@ -361,26 +376,32 @@ function lvSticky(store,key,cand,nowMs){
  if(nowMs-s.since>=(worse?4000:8000)){s.cur=cand;s.since=nowMs}
  return s.cur;
 }
-function liveLabel(st,s){
+function liveLabel(st,s,qb,nowMs){
  var F=x=>x>=1e6?('$'+(x/1e6).toFixed(1)+'M'):x>=1e3?('$'+(x/1e3).toFixed(1)+'k'):('$'+Math.round(x||0));
  var down=s.dPrev>0&&s.d30<s.dPrev*0.5;
  var pc=s.best30>0?Math.round(s.d30/s.best30*100):null;
+ var side=(s.bshare!=null&&(s.b30+s.s30)>0)?
+  (' · ▲'+F(s.b30)+' buy / ▼'+F(s.s30)+' sell ('+Math.round(s.bshare*100)+'% buyers)'):'';
+ var bk=bookLine(qb,nowMs||0);
  if(st==='WARM')return ['live: reading the stream…','#5b636c'];
- if(st==='SILENT')return ['live: NO PRINTS for '+Math.round(s.lastAgo)+'s','#f87171'];
- if(st==='FLOW')return ['live: money flowing — '+F(s.d30)+'/30s'+
-  (pc!=null?' ('+pc+'% of its best 10-min burst)':''),'#4ade80'];
+ if(st==='SILENT')return ['live: NO PRINTS for '+Math.round(s.lastAgo)+'s'+bk,'#f87171'];
+ if(st==='FLOW')return ['live: '+F(s.d30)+'/30s'+
+  (pc!=null?' ('+pc+'% of its best burst)':'')+side+bk,'#4ade80'];
  if(st==='MID')return ['live: '+F(s.d30)+'/30s — '+pc+'% of its burst'+
-  (down?' · DOWNSHIFT':''),'#facc15'];
+  (down?' · DOWNSHIFT':'')+side+bk,'#facc15'];
  return ['live: drying up — '+F(s.d30)+'/30s vs '+F(s.best30)+' burst'+
-  (down?' · DOWNSHIFT':''),'#fb923c'];
+  (down?' · DOWNSHIFT':'')+side+bk,'#fb923c'];
 }
-/* the big word — trade language, the one thing he reads at a glance */
+/* the big word — trade language, side-aware: WHOSE money is it right now */
 function liveHead(st,s){
- var down=s.dPrev>0&&s.d30<s.dPrev*0.5;
+ var down=s.dPrev>0&&s.d30<s.dPrev*0.5,b=s.bshare;
  if(st==='WARM')return ['reading…','#5b636c'];
  if(st==='SILENT')return ['STALLED','#f87171'];
- if(st==='FLOW')return ['MONEY IN','#4ade80'];
- if(st==='MID')return [down?'EASING ↓':'EASING','#facc15'];
+ if(st==='FLOW'){
+  if(b!=null&&b>=0.65)return ['BUYERS IN','#4ade80'];
+  if(b!=null&&b<=0.35)return ['SELLERS HITTING','#f87171'];
+  return ['MONEY IN','#4ade80'];}
+ if(st==='MID')return [b!=null&&b<=0.35?'SELLERS · EASING':(down?'EASING ↓':'EASING'),'#facc15'];
  return [down?'DRAINING ↓':'DRAINING','#fb923c'];  // DRY
 }
 /* rank his names by who's hottest RIGHT NOW — state first (relative to each
@@ -407,9 +428,15 @@ function lsub(){
  if(!lws||lws.readyState!==1)return;
  const want=wlist().slice(0,8);
  const drop=lsubs.filter(t=>want.indexOf(t)<0),add=want.filter(t=>lsubs.indexOf(t)<0);
- try{if(drop.length)lws.send(JSON.stringify({action:'unsubscribe',trades:drop}));
-  if(add.length)lws.send(JSON.stringify({action:'subscribe',trades:add}))}catch(e){}
- lsubs=want;}
+ try{if(drop.length)lws.send(JSON.stringify({action:'unsubscribe',trades:drop,quotes:drop}));
+  if(add.length)lws.send(JSON.stringify({action:'subscribe',trades:add,quotes:add}))}catch(e){}
+ lsubs=want;fsub();}
+var QB={},LASTP={};
+function classify(t,p){const q=QB[t];
+ if(q&&q.ap&&p>=q.ap)return 1;
+ if(q&&q.bp&&p<=q.bp)return -1;
+ const lp=LASTP[t];LASTP[t]=p;
+ return lp==null?0:(p>lp?1:p<lp?-1:0)}
 function lconnect(){
  const [k,s]=lkeys();
  if(!k||!s){lvnote('live per-second read is OFF — tap ⚙ keys above, paste your Alpaca key once','#facc15');return}
@@ -435,22 +462,64 @@ function lconnect(){
      :(m.code===401||m.code===402)?'live strip: keys rejected — tap ⚙ keys and re-enter them'
      :'live strip: stream error '+(m.msg||m.code),'#f87171');
     if(m.code===406){try{lws.close()}catch(e){};lws=null}}
+   else if(m.T==='q'&&m.S){QB[m.S]={bp:+m.bp,bs:+m.bs,ap:+m.ap,as:+m.as,t:Date.now()}}
    else if(m.T==='t'&&m.S){const b=LBUF[m.S]=LBUF[m.S]||[];
-    b.push([Date.now(),(+m.p)*(+m.s),+m.p]);if(b.length>3000)b.splice(0,600)}})};
+    b.push([Date.now(),(+m.p)*(+m.s),+m.p,classify(m.S,+m.p)]);
+    if(b.length>3000)b.splice(0,600)}})};
  lws.onclose=()=>{if(!lws)return;lvnote('live strip reconnecting…','#facc15');
   const w=Math.min(30000,1000*Math.pow(2,ltries++));setTimeout(lconnect,w)};
  lws.onerror=()=>{try{lws.close()}catch(e){}};}
+/* FINNHUB — the free second pipe. His FINNHUB_KEY (same value as the repo
+   secret) opens finnhub's own live US trade stream: different source, no
+   conflict with Alpaca's one-connection rule. Per name we feed the strip
+   from whichever pipe printed more in the last minute, and if finnhub's
+   prints arrive >5s late (free tiers sometimes delay) we drop it and say
+   so — a delayed feed shown as live would be a lie. */
+var FBUF={},fws=null,ftries=0,FSUBS=[],FLAG=[],FDELAYED=false;
+function fsub(){
+ if(!fws||fws.readyState!==1)return;
+ const want=wlist().slice(0,8);
+ FSUBS.filter(t=>want.indexOf(t)<0).forEach(t=>{
+  try{fws.send(JSON.stringify({type:'unsubscribe',symbol:t}))}catch(e){}});
+ want.filter(t=>FSUBS.indexOf(t)<0).forEach(t=>{
+  try{fws.send(JSON.stringify({type:'subscribe',symbol:t}))}catch(e){}});
+ FSUBS=want;}
+function fconnect(){
+ const k=localStorage.fh_k||'';
+ if(!k||FDELAYED||!lmkt())return;
+ try{fws&&fws.close()}catch(e){}
+ fws=new WebSocket('wss://ws.finnhub.io/?token='+encodeURIComponent(k));
+ fws.onopen=()=>{ftries=0;FSUBS=[];fsub()};
+ fws.onmessage=ev=>{let m;try{m=JSON.parse(ev.data)}catch(e){return}
+  if(m.type!=='trade'||!m.data)return;
+  const now=Date.now();
+  m.data.forEach(d=>{if(!d.s)return;
+   if(d.t){FLAG.push(now-d.t);if(FLAG.length>200)FLAG.shift()}
+   const b=FBUF[d.s]=FBUF[d.s]||[];
+   b.push([now,(+d.p)*(+d.v||0),+d.p,0]);
+   if(b.length>3000)b.splice(0,600)});
+  if(FLAG.length>=30){
+   const a=FLAG.slice().sort((x,y)=>x-y),med=a[a.length>>1];
+   if(med>5000){FDELAYED=true;try{fws.close()}catch(e){};fws=null;
+    console.log('finnhub feed delayed '+Math.round(med/1000)+'s — dropped')}}};
+ fws.onclose=()=>{if(FDELAYED||!fws)return;
+  setTimeout(fconnect,Math.min(30000,1000*Math.pow(2,ftries++)))};
+ fws.onerror=()=>{try{fws.close()}catch(e){}};}
+function cnt60(b,now){let n=0;for(let i=b.length-1;i>=0;i--){
+ if(now-b[i][0]>60000)break;n++}return n}
 setInterval(()=>{
  if(!lws||lws.readyState>1)return;
  const now=Date.now();
  const scored=[];
  wlist().slice(0,8).forEach(t=>{
-  const buf=LBUF[t]||[],line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
+  const ab=LBUF[t]||[],fb=FBUF[t]||[];
+  const useF=!FDELAYED&&cnt60(fb,now)>cnt60(ab,now)*1.5;
+  const buf=useF?fb:ab,line=$w('lv_'+t),head=$w('lvh_'+t),card=$w('wc_'+t);
   if(!buf.length){scored.push([t,-1]);return}
   const s=liveRead(buf,now),st=lvSticky(LVS,t,liveState(s),now);
-  const H=liveHead(st,s),L=liveLabel(st,s);
+  const H=liveHead(st,s),L=liveLabel(st,s,QB[t],now);
   if(head){head.textContent=H[0];head.style.color=H[1]}
-  if(line){line.textContent=L[0];line.style.color=L[1]}
+  if(line){line.textContent=L[0]+(useF?' · via finnhub':'');line.style.color=L[1]}
   if(card)card.style.borderLeftColor=H[1];
   scored.push([t,liveScore(st,s)]);});
  // reorder MY NAMES so the hottest-right-now sits on top; sticky states keep
@@ -467,7 +536,7 @@ setInterval(()=>{
 document.addEventListener('visibilitychange',()=>{
  if(!document.hidden&&(!lws||lws.readyState>1))lconnect()});
 const _lsub0=wrender;wrender=function(){_lsub0();lsub()};
-lconnect();
+lconnect();fconnect();
 """
 
 
@@ -789,6 +858,13 @@ def _watch_section(wl, ws, intel, bd, now):
               'tape your Alpaca plan allows — <b>SIP</b> is every US exchange '
               '(most accurate). A free plan falls back to <b>IEX</b> (~3% of '
               'volume) automatically; upgrade Alpaca and it switches itself.</div>'
+              '<div class="klab">Finnhub — free second tape pipe (optional)</div>'
+              '<div class="note">Same value as your FINNHUB_KEY repo secret. '
+              'Adds finnhub&rsquo;s own live trade stream next to Alpaca — '
+              'per name the denser pipe wins; if it turns out delayed the '
+              'page drops it automatically.</div>'
+              '<div class="addrow"><input id="fhkey" placeholder="Finnhub key" '
+              'autocomplete="off" autocapitalize="none" spellcheck="false"></div>'
               '<div class="klab">GitHub token — syncs your list to the engine</div>'
               '<div class="note">Fine-grained token, repo <b>only '
               'ALANKK11/ignition</b>, permission <b>Contents → Read and '
