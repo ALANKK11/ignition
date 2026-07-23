@@ -369,3 +369,9 @@
 {"ts": "2026-07-23T15:00:03.937595-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "FADING", "state": "LEAVING", "price": 155.785, "tp": 2.3618952800454833, "note": "pace 2.4x off peak 5.2x \u00b7 VWAP lost (was +2.2% above)"}
 {"ts": "2026-07-23T15:00:03.937595-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 33.75, "tp": 2.7682794967593747, "note": "quiet open (0.7x) \u2192 now 2.8x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-23T15:00:03.937595-04:00", "demo": 0, "ticker": "BXDC", "prev_state": "FADING", "state": "RUNNING", "price": 20.305, "tp": 3.2413231607459316, "note": "sustained 3.2x"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "ACI", "prev_state": "COOLING", "state": "RUNNING", "price": 11.185, "tp": 1.8589057133995934, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "COOLING", "price": 28.805, "tp": 0.0, "note": "pace 0.0x off peak 7.5x"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "BATL", "prev_state": "COOLING", "state": "FADING", "price": 1.79, "tp": 1.0012158324278126, "note": "pace 1.0x vs peak 3.4x \u00b7 -3.8% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "COOLING", "price": 10.88, "tp": 0.8799148134275296, "note": "pace 0.9x off peak 4.6x"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "RUNNING", "state": "FADING", "price": 24.77, "tp": 0.6892497985709637, "note": "pace 0.7x vs peak 3.4x \u00b7 -1.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "CAC", "prev_state": "COOLING", "state": "RUNNING", "price": 53.64, "tp": 2.257995771301032, "note": "sustained 2.3x"}
