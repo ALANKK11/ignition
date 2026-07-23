@@ -116,3 +116,11 @@
 {"ts": "2026-07-23T10:25:32.253614-04:00", "demo": 0, "ticker": "FMAY", "prev_state": "RUNNING", "state": "COOLING", "price": 55.89, "tp": 0.0, "note": "pace 0.0x off peak 19.4x"}
 {"ts": "2026-07-23T10:25:32.253614-04:00", "demo": 0, "ticker": "GARP", "prev_state": "CHURN", "state": "COOLING", "price": 79.17, "tp": 1.1932067930651662, "note": "pace 1.2x off peak 64.1x"}
 {"ts": "2026-07-23T10:27:47.239817-04:00", "demo": 0, "ticker": "CBZ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CBIZ Launches CBIZ Retirement Advantage PEP (Pooled Employer Plan) to Help Middle-Market Businesses Attract, Retain and "}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 1.85, "tp": 1.8213287126189637, "note": "sustained 1.8x"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "DPST", "prev_state": "RUNNING", "state": "CHURN", "price": 135.7, "tp": 3.594188718803875, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "KREF", "prev_state": "QUIET", "state": "IGNITING", "price": 7.255, "tp": 2.9573812869821188, "note": "pace 3.0x and accelerating (3.3x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "EVSD", "prev_state": "RUNNING", "state": "CHURN", "price": 50.685, "tp": 13.168021280710668, "note": "13.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "TWO", "prev_state": "QUIET", "state": "RUNNING", "price": 12.08, "tp": 1.8574366543397207, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "FAX", "prev_state": "NEW MONEY", "state": "CHURN", "price": 14.505, "tp": 7.4822831060402875, "note": "7.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "BGT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 10.81, "tp": 1.3643007044218745, "note": "pace 1.4x off peak 7.1x"}
+{"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "EFSC", "prev_state": "RUNNING", "state": "CHURN", "price": 63.08, "tp": 4.838170536409665, "note": "4.8x participation, no progress at highs \u2014 absorption"}
