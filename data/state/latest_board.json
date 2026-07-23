@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-23T16:22:33-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-07-23T16:24:03-04:00", "session": "post", "rows": [{"headline": "Moody\u2019s Updates Phillips Edison & Company Outlook to Positive", "pr_ts": "16:22", "catalyst": true, "flags": ["PARTNERSHIP"], "ticker": "PECO", "move": -0.0165, "last": 42.68, "dollars": 2547569.2, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.0, "first_seen": "16:24", "new": true}]}
