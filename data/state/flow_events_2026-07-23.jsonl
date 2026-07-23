@@ -149,3 +149,4 @@
 {"ts": "2026-07-23T10:36:47.255856-04:00", "demo": 0, "ticker": "EFSC", "prev_state": "RUNNING", "state": "COOLING", "price": 63.08, "tp": 1.2876947750297472, "note": "pace 1.3x off peak 4.8x"}
 {"ts": "2026-07-23T10:36:47.255856-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "RUNNING", "state": "COOLING", "price": 72.16, "tp": 0.0, "note": "pace 0.0x off peak 5.5x"}
 {"ts": "2026-07-23T10:36:47.255856-04:00", "demo": 0, "ticker": "ATI", "prev_state": "IGNITING", "state": "RUNNING", "price": 196.0, "tp": 5.556724547290225, "note": "sustained 5.6x"}
+{"ts": "2026-07-23T10:37:32.241730-04:00", "demo": 0, "ticker": "UFPI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Edge Introduces Arris and Redefines the Exterior Trim Category"}
