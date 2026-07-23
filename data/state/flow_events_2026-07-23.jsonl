@@ -115,3 +115,4 @@
 {"ts": "2026-07-23T10:25:32.253614-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 1.85, "tp": 2.0122111658147346, "note": "quiet open (0.8x) \u2192 now 2.0x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-23T10:25:32.253614-04:00", "demo": 0, "ticker": "FMAY", "prev_state": "RUNNING", "state": "COOLING", "price": 55.89, "tp": 0.0, "note": "pace 0.0x off peak 19.4x"}
 {"ts": "2026-07-23T10:25:32.253614-04:00", "demo": 0, "ticker": "GARP", "prev_state": "CHURN", "state": "COOLING", "price": 79.17, "tp": 1.1932067930651662, "note": "pace 1.2x off peak 64.1x"}
+{"ts": "2026-07-23T10:27:47.239817-04:00", "demo": 0, "ticker": "CBZ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CBIZ Launches CBIZ Retirement Advantage PEP (Pooled Employer Plan) to Help Middle-Market Businesses Attract, Retain and "}
