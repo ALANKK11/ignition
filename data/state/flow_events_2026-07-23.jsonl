@@ -303,3 +303,9 @@
 {"ts": "2026-07-23T14:39:03.933675-04:00", "demo": 0, "ticker": "DC", "prev_state": "QUIET", "state": "COOLING", "price": 4.64, "tp": 0.7517799231357799, "note": "pace 0.8x off peak 2.2x"}
 {"ts": "2026-07-23T14:39:03.933675-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "RUNNING", "state": "COOLING", "price": 6.63, "tp": 0.0, "note": "pace 0.0x off peak 57.7x"}
 {"ts": "2026-07-23T14:39:03.933675-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 31.83, "tp": 2.885322972808776, "note": "sustained 2.9x"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "CHURN", "price": 62.15, "tp": 2.777077434839465, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.125, "tp": 0.5236471894761524, "note": "pace 0.5x off peak 13.5x"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "FADING", "state": "LEAVING", "price": 156.0, "tp": 1.5037913073400841, "note": "pace 1.5x off peak 5.2x \u00b7 VWAP lost (was +2.2% above)"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "BATL", "prev_state": "QUIET", "state": "RUNNING", "price": 1.84, "tp": 2.5206299444173386, "note": "sustained 2.5x"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "REM", "prev_state": "COOLING", "state": "RUNNING", "price": 21.365, "tp": 1.8221229136662063, "note": "sustained 1.8x"}
+{"ts": "2026-07-23T14:42:03.934353-04:00", "demo": 0, "ticker": "CLW", "prev_state": "QUIET", "state": "IGNITING", "price": 16.41, "tp": 4.248827223939519, "note": "pace 4.2x and accelerating (85.0x vs prior window) \u00b7 +2.2% in window"}
