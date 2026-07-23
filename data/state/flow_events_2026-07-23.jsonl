@@ -497,3 +497,11 @@
 {"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 45.7, "tp": 2.8505188836445954, "note": "quiet open (0.2x) \u2192 now 2.9x \u00b7 taking +0.6% flow share"}
 {"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 18.5, "tp": 1.9614688997054885, "note": "sustained 2.0x"}
 {"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "ACES", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 31.55, "tp": 2.915313123169353, "note": "quiet open (0.4x) \u2192 now 2.9x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 62.16, "tp": 5.61411029222451, "note": "quiet open (0.3x) \u2192 now 5.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "BATL", "prev_state": "FADING", "state": "LEAVING", "price": 1.73, "tp": 0.0976464264661, "note": "pace 0.1x off peak 3.4x \u00b7 VWAP lost (was +6.1% above)"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 2.12, "tp": 0.19763111065220704, "note": "pace 0.2x off peak 13.5x"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "COOLING", "price": 10.9, "tp": 0.960704737745557, "note": "pace 1.0x off peak 4.6x"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "DC", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 4.67, "tp": 2.8929891579984273, "note": "pace 2.9x and accelerating (3.5x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "BDN", "prev_state": "RUNNING", "state": "COOLING", "price": 3.045, "tp": 1.5393874630375755, "note": "pace 1.5x off peak 4.0x"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "FADING", "state": "LEAVING", "price": 1.835, "tp": 2.8171414205470033, "note": "pace 2.8x off peak 9.6x \u00b7 VWAP lost (was +4.1% above)"}
+{"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "COOLING", "state": "RUNNING", "price": 4.695, "tp": 1.85208956606436, "note": "sustained 1.9x"}
