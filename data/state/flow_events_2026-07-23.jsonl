@@ -187,3 +187,14 @@
 {"ts": "2026-07-23T14:06:03.926932-04:00", "demo": 0, "ticker": "USAS", "prev_state": "RUNNING", "state": "COOLING", "price": 4.03, "tp": 1.0933298451287043, "note": "pace 1.1x off peak 5.4x"}
 {"ts": "2026-07-23T14:06:03.926932-04:00", "demo": 0, "ticker": "AVB", "prev_state": "COOLING", "state": "RUNNING", "price": 190.59, "tp": 4.20849476798199, "note": "sustained 4.2x"}
 {"ts": "2026-07-23T14:06:03.926932-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "COOLING", "state": "QUIET", "price": 2.1, "tp": 1.5637847149904847, "note": ""}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "QUIET", "state": "COOLING", "price": 2.1, "tp": 1.1033662370056814, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "USAS", "prev_state": "COOLING", "state": "LEAVING", "price": 4.015, "tp": 0.18703793104466437, "note": "pace 0.2x off peak 5.4x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "ADX", "prev_state": "RUNNING", "state": "COOLING", "price": 26.115, "tp": 0.8554358570152674, "note": "pace 0.9x off peak 6.7x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "CSX", "prev_state": "CHURN", "state": "RUNNING", "price": 52.715, "tp": 2.3281697360008557, "note": "sustained 2.3x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "IGNITING", "state": "CHURN", "price": 1.85, "tp": 4.4275721961034735, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 25.31, "tp": 0.0, "note": "pace 0.0x off peak 12.6x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "CHURN", "state": "RUNNING", "price": 22.25, "tp": 12.278706881703563, "note": "sustained 12.3x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "AVB", "prev_state": "RUNNING", "state": "IGNITING", "price": 191.01, "tp": 4.886894236485914, "note": "pace 4.9x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "DC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 4.63, "tp": 2.038999209422932, "note": "quiet open (1.2x) \u2192 now 2.0x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.51, "tp": 3.3515740390356608, "note": "sustained 3.4x"}
+{"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "QUIET", "price": 2.28, "tp": 1.6006700932667646, "note": ""}
