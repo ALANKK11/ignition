@@ -452,3 +452,14 @@
 {"ts": "2026-07-23T15:27:03.942251-04:00", "demo": 0, "ticker": "ADX", "prev_state": "COOLING", "state": "RUNNING", "price": 26.03, "tp": 5.6477633515839445, "note": "sustained 5.6x"}
 {"ts": "2026-07-23T15:27:03.942251-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "NEW MONEY", "price": 62.03, "tp": 2.0980481406470615, "note": "quiet open (0.3x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-23T15:27:03.942251-04:00", "demo": 0, "ticker": "ASG", "prev_state": "RUNNING", "state": "COOLING", "price": 5.02, "tp": 0.7702898456651562, "note": "pace 0.8x off peak 129.2x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "KREF", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 7.17, "tp": 11.15887095066185, "note": "pace 11.2x and accelerating (1.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 2.125, "tp": 2.9568193229916124, "note": "sustained 3.0x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "ACT", "prev_state": "COOLING", "state": "RUNNING", "price": 45.63, "tp": 1.8517152902871914, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "COOLING", "state": "QUIET", "price": 20.35, "tp": 1.5123492685011641, "note": ""}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "NEW MONEY", "state": "COOLING", "price": 62.03, "tp": 1.01926557628327, "note": "pace 1.0x off peak 8.9x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "BDN", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.05, "tp": 4.031664836434204, "note": "sustained 4.0x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "CHURN", "state": "RUNNING", "price": 10.9, "tp": 3.068744168826852, "note": "sustained 3.1x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "COOLING", "state": "IGNITING", "price": 34.75, "tp": 6.564611754795079, "note": "pace 6.6x and accelerating (131.3x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "LXEO", "prev_state": "COOLING", "state": "LEAVING", "price": 4.705, "tp": 1.0635224482303618, "note": "pace 1.1x off peak 2.5x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "COOLING", "price": 21.49, "tp": 1.2823124723472605, "note": "pace 1.3x off peak 7.9x"}
+{"ts": "2026-07-23T15:30:03.943009-04:00", "demo": 0, "ticker": "ACES", "prev_state": "COOLING", "state": "RUNNING", "price": 31.54, "tp": 2.180326048847488, "note": "sustained 2.2x"}
