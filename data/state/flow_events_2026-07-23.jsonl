@@ -579,3 +579,4 @@
 {"ts": "2026-07-23T15:57:03.948355-04:00", "demo": 0, "ticker": "CLW", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 16.315, "tp": 2.5089149626296607, "note": "sustained 2.5x"}
 {"ts": "2026-07-23T16:11:18.936102-04:00", "demo": 0, "ticker": "DLNG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dynagas LNG Partners LP Declares Cash Distribution on Its Series A Preferred Units"}
 {"ts": "2026-07-23T16:11:18.936102-04:00", "demo": 0, "ticker": "SVCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Silvaco Announces Date of Second Quarter 2026 Financial Results Conference Call"}
+{"ts": "2026-07-23T16:12:48.936342-04:00", "demo": 0, "ticker": "PRIM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PRIM Investor Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Primo"}
