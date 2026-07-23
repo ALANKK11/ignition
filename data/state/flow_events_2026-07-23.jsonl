@@ -84,3 +84,4 @@
 {"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "EHGO", "prev_state": "FADING", "state": "LEAVING", "price": 3.23, "tp": 18.046810215565603, "note": "pace 18.0x off peak 102.9x \u00b7 VWAP lost (was +6.3% above)"}
 {"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.89, "tp": 2.496450143975507, "note": "sustained 2.5x"}
 {"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "FAX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 14.52, "tp": 7.8150114669382695, "note": "quiet open (0.1x) \u2192 now 7.8x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-07-23T10:11:17.236719-04:00", "demo": 0, "ticker": "INTU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INTU Stockholders Have Rights - If You Lost Money Investing in Intuit, Inc. Contact Robbins LLP for Information About Re"}
