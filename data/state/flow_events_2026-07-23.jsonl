@@ -488,3 +488,12 @@
 {"ts": "2026-07-23T15:36:03.944572-04:00", "demo": 0, "ticker": "ACI", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.225, "tp": 6.113048295575773, "note": "sustained 6.1x"}
 {"ts": "2026-07-23T15:36:03.944572-04:00", "demo": 0, "ticker": "ETON", "prev_state": "FADING", "state": "NEW MONEY", "price": 44.605, "tp": 2.045914820813313, "note": "quiet open (0.8x) \u2192 now 2.0x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-07-23T15:36:03.944572-04:00", "demo": 0, "ticker": "CCB", "prev_state": "COOLING", "state": "RUNNING", "price": 71.53, "tp": 2.388497795608338, "note": "sustained 2.4x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "TEO", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.62, "tp": 1.8692917803433138, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "CRSR", "prev_state": "QUIET", "state": "COOLING", "price": 10.14, "tp": 1.1619331163862892, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "KODK", "prev_state": "RUNNING", "state": "COOLING", "price": 7.925, "tp": 1.5180017356611144, "note": "pace 1.5x off peak 7.3x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "BRTR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 49.44, "tp": 6.498625951211583, "note": "sustained 6.5x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "DC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 4.675, "tp": 2.6893835378020396, "note": "quiet open (1.2x) \u2192 now 2.7x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "CLW", "prev_state": "RUNNING", "state": "COOLING", "price": 16.38, "tp": 1.7288314668215286, "note": "pace 1.7x off peak 4.8x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 45.7, "tp": 2.8505188836445954, "note": "quiet open (0.2x) \u2192 now 2.9x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 18.5, "tp": 1.9614688997054885, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T15:39:03.945022-04:00", "demo": 0, "ticker": "ACES", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 31.55, "tp": 2.915313123169353, "note": "quiet open (0.4x) \u2192 now 2.9x \u00b7 taking +0.2% flow share"}
