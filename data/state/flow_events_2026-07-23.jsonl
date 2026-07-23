@@ -124,3 +124,21 @@
 {"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "FAX", "prev_state": "NEW MONEY", "state": "CHURN", "price": 14.505, "tp": 7.4822831060402875, "note": "7.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "BGT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 10.81, "tp": 1.3643007044218745, "note": "pace 1.4x off peak 7.1x"}
 {"ts": "2026-07-23T10:29:17.254371-04:00", "demo": 0, "ticker": "EFSC", "prev_state": "RUNNING", "state": "CHURN", "price": 63.08, "tp": 4.838170536409665, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "FDIS", "prev_state": "RUNNING", "state": "COOLING", "price": 96.58, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "CLF", "prev_state": "FADING", "state": "LEAVING", "price": 11.08, "tp": 3.098324759073467, "note": "pace 3.1x off peak 10.6x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "AEM", "prev_state": "IGNITING", "state": "RUNNING", "price": 144.875, "tp": 8.711838064224622, "note": "sustained 8.7x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "KODK", "prev_state": "QUIET", "state": "COOLING", "price": 8.16, "tp": 1.277427815126745, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "KREF", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 7.25, "tp": 3.1599864158758693, "note": "quiet open (0.7x) \u2192 now 3.2x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "BGT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.78, "tp": 4.311898396770785, "note": "sustained 4.3x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "AOM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 48.84, "tp": 1.683391466777351, "note": "pace 1.7x off peak 2.7x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "FAX", "prev_state": "CHURN", "state": "COOLING", "price": 14.505, "tp": 0.472957969229983, "note": "pace 0.5x off peak 29.0x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "APPN", "prev_state": "COOLING", "state": "QUIET", "price": 22.45, "tp": 1.4547885432209708, "note": ""}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "UROY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.14, "tp": 1.795517630345076, "note": "pace 1.8x off peak 2.8x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 29.495, "tp": 0.0, "note": "pace 0.0x off peak 2.3x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "COOLING", "state": "FADING", "price": 35.83, "tp": 1.1121311141739136, "note": "pace 1.1x vs peak 4.1x \u00b7 -1.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "FSBC", "prev_state": "RUNNING", "state": "COOLING", "price": 46.66, "tp": 1.0549371400297332, "note": "pace 1.1x off peak 25.7x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "ETON", "prev_state": "COOLING", "state": "FADING", "price": 43.8, "tp": 0.4797011936444024, "note": "pace 0.5x vs peak 3.5x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "EFSC", "prev_state": "CHURN", "state": "RUNNING", "price": 63.08, "tp": 4.672947384710044, "note": "sustained 4.7x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "EVSD", "prev_state": "CHURN", "state": "RUNNING", "price": 50.685, "tp": 2.853790793351121, "note": "sustained 2.9x"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 1.83, "tp": 2.4375032253939235, "note": "quiet open (0.8x) \u2192 now 2.4x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-23T10:33:02.255406-04:00", "demo": 0, "ticker": "DPST", "prev_state": "CHURN", "state": "RUNNING", "price": 135.41, "tp": 3.371631896626602, "note": "sustained 3.4x"}
