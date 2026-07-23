@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-22T18:59:36-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-07-23T08:22:13-04:00", "session": "pre", "rows": [{"ticker": "WBUY", "last": 1.27, "gap": 0.8511, "dollars": 524563.02, "vs_adv": 609.55, "new": true}, {"ticker": "DOMO", "last": 4.24, "gap": 0.371, "dollars": 233962.76, "vs_adv": 0.67, "new": true}]}
