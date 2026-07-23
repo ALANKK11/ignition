@@ -162,3 +162,4 @@
 {"ts": "2026-07-23T10:40:32.256635-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.9, "tp": 1.628438014372929, "note": "pace 1.6x off peak 29.3x"}
 {"ts": "2026-07-23T10:40:32.256635-04:00", "demo": 0, "ticker": "BBJP", "prev_state": "QUIET", "state": "RUNNING", "price": 73.59, "tp": 2.312463036295115, "note": "sustained 2.3x"}
 {"ts": "2026-07-23T10:40:32.256635-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "IGNITING", "state": "CHURN", "price": 4.09, "tp": 4.787713359342198, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:41:17.242442-04:00", "demo": 0, "ticker": "GBFH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GBank Financial Holdings Inc. is Pleased To Share the Press Release of Bankroll LLC [BVNKROLL]"}
