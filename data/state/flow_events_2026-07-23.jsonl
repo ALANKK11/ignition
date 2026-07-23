@@ -206,3 +206,14 @@
 {"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "ACI", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.21, "tp": 8.073184491485124, "note": "pace 8.1x and accelerating (1.9x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.36, "tp": 1.9885180695385698, "note": "sustained 2.0x"}
 {"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "CYH", "prev_state": "RUNNING", "state": "COOLING", "price": 2.795, "tp": 1.7788605504304986, "note": "pace 1.8x off peak 5.6x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "UROY", "prev_state": "COOLING", "state": "NEW MONEY", "price": 3.08, "tp": 5.178606734263064, "note": "quiet open (0.5x) \u2192 now 5.2x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "KODK", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 7.98, "tp": 4.659758001698632, "note": "quiet open (1.0x) \u2192 now 4.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "ACYS", "prev_state": "QUIET", "state": "CHURN", "price": 20.4, "tp": 3.391612789306682, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "INLF", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.68, "tp": 1.0396472873859974, "note": "pace 1.0x off peak 2.7x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "OGG", "prev_state": "QUIET", "state": "COOLING", "price": 2.28, "tp": 0.6126415879034786, "note": "pace 0.6x off peak 1.8x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "ACI", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.17, "tp": 8.20612232861128, "note": "sustained 8.2x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "ADX", "prev_state": "COOLING", "state": "RUNNING", "price": 26.085, "tp": 2.607275894777424, "note": "sustained 2.6x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "RUNNING", "state": "QUIET", "price": 20.36, "tp": 1.6452888624329838, "note": ""}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 2.08, "tp": 9.252066491696576, "note": "pace 9.3x and accelerating (16.2x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "QUIET", "state": "RUNNING", "price": 33.26, "tp": 2.1244299152587365, "note": "sustained 2.1x"}
+{"ts": "2026-07-23T14:15:03.928378-04:00", "demo": 0, "ticker": "BMNP", "prev_state": "RUNNING", "state": "FADING", "price": 87.1, "tp": 0.0, "note": "pace 0.0x vs peak 5.3x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
