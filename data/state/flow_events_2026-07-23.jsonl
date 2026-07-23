@@ -37,3 +37,5 @@
 {"ts": "2026-07-23T09:44:17.245609-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 35.455, "tp": 2.885984689721572, "note": ""}
 {"ts": "2026-07-23T09:48:02.246399-04:00", "demo": 0, "ticker": "TSLT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.86, "tp": 2.4701059531572516, "note": ""}
 {"ts": "2026-07-23T09:51:47.247206-04:00", "demo": 0, "ticker": "USAS", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 4.025, "tp": 3.8528188011888274, "note": "3.9x tape out of the gate"}
+{"ts": "2026-07-23T09:55:32.247772-04:00", "demo": 0, "ticker": "SKYQ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.25, "tp": 2.7124897118928195, "note": ""}
+{"ts": "2026-07-23T09:55:32.247772-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 22.03, "tp": 4.420646602328741, "note": "4.4x tape out of the gate"}
