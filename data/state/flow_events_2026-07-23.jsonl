@@ -375,3 +375,8 @@
 {"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "CLBK", "prev_state": "RUNNING", "state": "COOLING", "price": 10.88, "tp": 0.8799148134275296, "note": "pace 0.9x off peak 4.6x"}
 {"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "RUNNING", "state": "FADING", "price": 24.77, "tp": 0.6892497985709637, "note": "pace 0.7x vs peak 3.4x \u00b7 -1.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-23T15:03:03.938504-04:00", "demo": 0, "ticker": "CAC", "prev_state": "COOLING", "state": "RUNNING", "price": 53.64, "tp": 2.257995771301032, "note": "sustained 2.3x"}
+{"ts": "2026-07-23T15:06:03.938815-04:00", "demo": 0, "ticker": "XAGG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 49.505, "tp": 1.977263271533088, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T15:06:03.938815-04:00", "demo": 0, "ticker": "USAS", "prev_state": "COOLING", "state": "LEAVING", "price": 4.015, "tp": 1.8780410941645869, "note": "pace 1.9x off peak 5.4x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-07-23T15:06:03.938815-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.83, "tp": 0.0, "note": "pace 0.0x off peak 29.3x"}
+{"ts": "2026-07-23T15:06:03.938815-04:00", "demo": 0, "ticker": "ACI", "prev_state": "RUNNING", "state": "COOLING", "price": 11.165, "tp": 1.7134270465976724, "note": "pace 1.7x off peak 11.9x"}
+{"ts": "2026-07-23T15:06:03.938815-04:00", "demo": 0, "ticker": "BWET", "prev_state": "QUIET", "state": "RUNNING", "price": 253.25, "tp": 1.848824124912184, "note": "sustained 1.8x"}
