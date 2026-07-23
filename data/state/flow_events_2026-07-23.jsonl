@@ -31,3 +31,4 @@
 {"ts": "2026-07-23T09:27:47.228566-04:00", "demo": 0, "ticker": "GE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "National Airlines Orders More GE Aerospace CF6 and GE90 Engines"}
 {"ts": "2026-07-23T09:29:17.242092-04:00", "demo": 0, "ticker": "LGCL", "prev_state": null, "state": "PM IGNITION", "price": 1.66, "tp": null, "note": "+65% on $0.05M ext tape"}
 {"ts": "2026-07-23T09:36:47.244383-04:00", "demo": 0, "ticker": "ETON", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 43.72, "tp": 2.1490219657358898, "note": ""}
+{"ts": "2026-07-23T09:37:32.230479-04:00", "demo": 0, "ticker": "RMSG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Real Messenger Announces Receipt of Nasdaq Notification Letter Regarding Minimum Price Deficiency"}

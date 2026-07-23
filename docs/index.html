@@ -92,7 +92,7 @@ autocomplete="off" autocorrect="off" autocapitalize="characters"
 spellcheck="false" maxlength="6" enterkeyhint="search"></div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
-<h2 style="color:#ff5a1f;font-size:13px">MY NAMES · <span id="wts">09:36 ET</span></h2><div class="wed"><div class="addrow"><input id="wq" placeholder="add ticker" maxlength="6" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done"><button id="wqb">＋</button><button id="wkeys" style="flex:.7">⚙ keys</button></div><div class="note" id="wst"></div><div class="note" id="lvst"></div><div id="feedwarn" class="stale" style="display:none;font-size:12.5px"></div><div id="wsetup" class="card" hidden><b>Keys — enter once, only on this phone</b><div class="note">Saved in this browser alone (localStorage) and used across the hub and TAPE. Never committed, never in the repo, never sent anywhere but the data vendor and GitHub. These are the same values as your repo secrets — the page needs its own copy because a public web page can&rsquo;t read repo secrets (anyone could). Enter once; it sticks.</div><div class="klab">Alpaca — the live per-second tape</div><div class="addrow"><input id="akey" placeholder="Alpaca API key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><input id="asec" placeholder="Alpaca secret" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">Data feed — accuracy</div><div class="addrow"><button id="feedsel" style="flex:1"></button></div><div class="note" style="margin-top:2px">Auto uses the fullest tape your Alpaca plan allows — <b>SIP</b> is every US exchange (most accurate). A free plan falls back to <b>IEX</b> (~3% of volume) automatically; upgrade Alpaca and it switches itself.</div><div class="klab">Finnhub — free second tape pipe (optional)</div><div class="note">Same value as your FINNHUB_KEY repo secret. Adds finnhub&rsquo;s own live trade stream next to Alpaca — per name the denser pipe wins; if it turns out delayed the page drops it automatically.</div><div class="addrow"><input id="fhkey" placeholder="Finnhub key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">GitHub token — syncs your list to the engine</div><div class="note">Fine-grained token, repo <b>only ALANKK11/ignition</b>, permission <b>Contents → Read and write</b>. Leave blank to keep the one already saved.</div><div class="addrow"><input id="wtok" placeholder="github_pat_…" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><button class="go" id="ksave" style="flex:1">SAVE KEYS</button></div></div></div><div id="wroot"><div class="card sym" id="wc_INLF" style="border-left:3px solid #5b636c">
+<h2 style="color:#ff5a1f;font-size:13px">MY NAMES · <span id="wts">09:37 ET</span></h2><div class="wed"><div class="addrow"><input id="wq" placeholder="add ticker" maxlength="6" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done"><button id="wqb">＋</button><button id="wkeys" style="flex:.7">⚙ keys</button></div><div class="note" id="wst"></div><div class="note" id="lvst"></div><div id="feedwarn" class="stale" style="display:none;font-size:12.5px"></div><div id="wsetup" class="card" hidden><b>Keys — enter once, only on this phone</b><div class="note">Saved in this browser alone (localStorage) and used across the hub and TAPE. Never committed, never in the repo, never sent anywhere but the data vendor and GitHub. These are the same values as your repo secrets — the page needs its own copy because a public web page can&rsquo;t read repo secrets (anyone could). Enter once; it sticks.</div><div class="klab">Alpaca — the live per-second tape</div><div class="addrow"><input id="akey" placeholder="Alpaca API key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><input id="asec" placeholder="Alpaca secret" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">Data feed — accuracy</div><div class="addrow"><button id="feedsel" style="flex:1"></button></div><div class="note" style="margin-top:2px">Auto uses the fullest tape your Alpaca plan allows — <b>SIP</b> is every US exchange (most accurate). A free plan falls back to <b>IEX</b> (~3% of volume) automatically; upgrade Alpaca and it switches itself.</div><div class="klab">Finnhub — free second tape pipe (optional)</div><div class="note">Same value as your FINNHUB_KEY repo secret. Adds finnhub&rsquo;s own live trade stream next to Alpaca — per name the denser pipe wins; if it turns out delayed the page drops it automatically.</div><div class="addrow"><input id="fhkey" placeholder="Finnhub key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">GitHub token — syncs your list to the engine</div><div class="note">Fine-grained token, repo <b>only ALANKK11/ignition</b>, permission <b>Contents → Read and write</b>. Leave blank to keep the one already saved.</div><div class="addrow"><input id="wtok" placeholder="github_pat_…" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><button class="go" id="ksave" style="flex:1">SAVE KEYS</button></div></div></div><div id="wroot"><div class="card sym" id="wc_INLF" style="border-left:3px solid #5b636c">
 <div class="row"><span class="tk" style="font-size:18px">INLF</span>
 <span class="vhead" id="lvh_INLF" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:#5b636c">NO TAPE</span>
 <span class="px" style="margin-left:auto">3.750</span>
@@ -110,127 +110,135 @@ market closed, or check the Actions tab of your repo.</div>
 <canvas class="spk" id="sp_ADVB" width="600" height="76"></canvas>
 <div class="note" id="lv_ADVB" style="font-size:13px;color:#5b636c"></div>
 <div class="note" id="nw_ADVB" style="font-size:12.5px;color:#c9ced4;display:none"></div>
-<details class="mre"><summary>more</summary><div class="note" style="color:#5b636c;font-size:11px">engine research · not live</div><div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b><span style="color:#8b939c"> — no lift off open · ext +10% → 93% fade hist · BELOW vwap</span></div><div class="note" style="font-size:12.5px"><span style="color:#5b636c">company record not pulled yet — lands with the intel pass (&le;2 min)</span></div><div class="note" style="font-size:12.5px">⚠ 1 reverse split in ~13mo</div><div class="note" style="font-size:12.5px">today: open 16.12 (gap +37%) · high 17.68 @ 09:32 · low 16.00 @ 09:35 · now 16.09 (-9% off high)</div></details></div></div><h2 style="color:#ff5a1f;font-size:13px">Discovery board · 09:36 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
-<div class="row"><span class="tk" style="font-size:18px">NVCR</span>
-<span class="score" style="font-size:19px;color:#4ade80">+29%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">15</span>
-<span class="px">20.12</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$158K</span><span>0.1x ADV</span><span>+0% off high</span><span>16% traveled</span><span>5.8x tape now</span><span>since 09:36</span></div>
+<details class="mre"><summary>more</summary><div class="note" style="color:#5b636c;font-size:11px">engine research · not live</div><div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b><span style="color:#8b939c"> — no lift off open · ext +10% → 93% fade hist · BELOW vwap</span></div><div class="note" style="font-size:12.5px"><span style="color:#5b636c">company record not pulled yet — lands with the intel pass (&le;2 min)</span></div><div class="note" style="font-size:12.5px">⚠ 1 reverse split in ~13mo</div><div class="note" style="font-size:12.5px">today: open 16.12 (gap +37%) · high 17.68 @ 09:32 · low 16.00 @ 09:35 · now 16.09 (-9% off high)</div></details></div></div><h2 style="color:#ff5a1f;font-size:13px">Discovery board · 09:37 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
+<div class="row"><span class="tk" style="font-size:18px">WBUY</span>
+<span class="score" style="font-size:19px;color:#4ade80">+96%</span>
+<span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">99</span>
+<span class="px">1.24</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$3.3M</span><span>3680.6x ADV</span><span>-7% off high</span><span>8 swings</span><span>243% traveled</span><span>since 08:22</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +11% → 74% fade hist · above vwap · rot 0.0x</span></div>
+<span style="color:#8b939c"> — no lift off open · ext -0% → 93% fade hist · above vwap</span></div>
+</div><div class="card" style="border-left:3px solid #4ade80">
+<div class="row"><span class="tk" style="font-size:18px">EHGO</span>
+<span class="score" style="font-size:19px;color:#4ade80">+119%</span>
+<span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">98</span>
+<span class="px">3.97</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$1.2M</span><span>9.6x ADV</span><span>-11% off high</span><span>6 swings</span><span>244% traveled</span><span>since 08:33</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — no lift off open · ext +5% → 93% fade hist · above vwap</span></div>
+</div><div class="card" style="border-left:3px solid #f87171">
+<div class="row"><span class="tk" style="font-size:18px">RMSG</span>
+<span class="score" style="font-size:19px;color:#f87171">+0%</span>
+<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▰▱▱</span><span class="px" style="margin-left:4px">55</span>
+<span class="px">0.38</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">PR 09:35</span></div>
+<div class="meta"><span>$286</span><span>since 09:37</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
+<span style="color:#8b939c"> — reading the tape</span></div>
+<div class="note" style="margin-top:5px;color:#c9ced4">📰 Real Messenger Announces Receipt of Nasdaq Notification Letter Regarding Minimum Price Deficiency <span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">⚠COMPLIANCE</span> <span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">⚠DEFICIENCY</span></div></div><div class="card" style="border-left:3px solid #4ade80">
+<div class="row"><span class="tk" style="font-size:18px">DOMO</span>
+<span class="score" style="font-size:19px;color:#4ade80">+33%</span>
+<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▰▱▱</span><span class="px" style="margin-left:4px">52</span>
+<span class="px">4.18</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$575K</span><span>1.7x ADV</span><span>-6% off high</span><span>38% traveled</span><span>since 08:22</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — no lift off open · ext +3% → 93% fade hist · BELOW vwap</span></div>
+</div><div class="card" style="border-left:3px solid #f87171">
+<div class="row"><span class="tk" style="font-size:18px">TSLL</span>
+<span class="score" style="font-size:19px;color:#f87171">-21%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">15</span>
+<span class="px">8.65</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$1.4M</span><span>0.1x ADV</span><span>-4% off high</span><span>11% traveled</span><span>since 09:21</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — ext -0% → 93% fade hist · BELOW vwap · SSR on</span></div>
+</div><div class="card" style="border-left:3px solid #4ade80">
+<div class="row"><span class="tk" style="font-size:18px">NVCR</span>
+<span class="score" style="font-size:19px;color:#4ade80">+27%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">15</span>
+<span class="px">19.82</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$158K</span><span>0.1x ADV</span><span>+0% off high</span><span>16% traveled</span><span>since 09:36</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — no lift off open · ext +10% → 93% fade hist · above vwap</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">CLF</span>
 <span class="score" style="font-size:19px;color:#4ade80">+17%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">12</span>
-<span class="px">11.02</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$2.0M</span><span>0.2x ADV</span><span>-2% off high</span><span>10% traveled</span><span>9.8x tape now</span><span>since 09:33</span></div>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">14</span>
+<span class="px">11.06</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$2.0M</span><span>0.2x ADV</span><span>-2% off high</span><span>11% traveled</span><span>since 09:33</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +5% → 93% fade hist · above vwap · rot 0.0x</span></div>
+<span style="color:#8b939c"> — ext +6% → 93% fade hist · above vwap · rot 0.0x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">MEDP</span>
 <span class="score" style="font-size:19px;color:#4ade80">+24%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">9</span>
 <span class="px">652.88</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$3.8M</span><span>0.2x ADV</span><span>-4% off high</span><span>10% traveled</span><span>14.3x tape now</span><span>since 09:33</span></div>
+<div class="meta"><span>$3.8M</span><span>0.2x ADV</span><span>-4% off high</span><span>10% traveled</span><span>since 09:33</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
 <span style="color:#8b939c"> — ext +4% → 93% fade hist · BELOW vwap · rot 0.0x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">URI</span>
 <span class="score" style="font-size:19px;color:#4ade80">+12%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">8</span>
-<span class="px">1155.00</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$7.1M</span><span>0.2x ADV</span><span>-0% off high</span><span>7% traveled</span><span>11.6x tape now</span><span>since 09:33</span></div>
+<span class="px">1155.67</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$7.1M</span><span>0.2x ADV</span><span>-0% off high</span><span>7% traveled</span><span>since 09:33</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
 <span style="color:#8b939c"> — ext +6% → 93% fade hist · above vwap · rot 0.0x</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">ROL</span>
 <span class="score" style="font-size:19px;color:#f87171">-13%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">6</span>
-<span class="px">37.70</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$537K</span><span>0.0x ADV</span><span>-2% off high</span><span>6% traveled</span><span>8.0x tape now</span><span>since 09:36</span></div>
+<span class="px">37.85</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$537K</span><span>0.0x ADV</span><span>-2% off high</span><span>6% traveled</span><span>since 09:36</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +4% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
+<span style="color:#8b939c"> — ext +5% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">TSLT</span>
-<span class="score" style="font-size:19px;color:#f87171">-20%</span>
+<span class="score" style="font-size:19px;color:#f87171">-21%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">5</span>
-<span class="px">12.28</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$82K</span><span>0.1x ADV</span><span>-2% off high</span><span>6% traveled</span><span>7.1x tape now</span><span>since 09:36</span></div>
+<span class="px">12.10</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$82K</span><span>0.1x ADV</span><span>-2% off high</span><span>6% traveled</span><span>since 09:36</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +0% → 93% fade hist · BELOW vwap · SSR on</span></div>
+<span style="color:#8b939c"> — ext -1% → 93% fade hist · BELOW vwap · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">ACI</span>
-<span class="score" style="font-size:19px;color:#f87171">-19%</span>
+<span class="score" style="font-size:19px;color:#f87171">-20%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">4</span>
-<span class="px">11.81</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$529K</span><span>0.1x ADV</span><span>-6% off high</span><span>6% traveled</span><span>4.4x tape now</span><span>since 09:36</span></div>
+<span class="px">11.69</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$529K</span><span>0.1x ADV</span><span>-6% off high</span><span>6% traveled</span><span>since 09:36</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +0% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
+<span style="color:#8b939c"> — ext -1% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">NVEC</span>
-<span class="score" style="font-size:19px;color:#4ade80">+36%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+42%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">3</span>
-<span class="px">117.45</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$230K</span><span>0.3x ADV</span><span>+0% off high</span><span>14.1x tape now</span><span>since 09:36</span></div>
+<span class="px">122.29</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$230K</span><span>0.3x ADV</span><span>+0% off high</span><span>since 09:36</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — no lift off open · ext +0% → 93% fade hist · above vwap</span></div>
-</div><div class="card" style="border-left:3px solid #4ade80">
-<div class="row"><span class="tk" style="font-size:18px">EHGO</span>
-<span class="score" style="font-size:19px;color:#4ade80">+144%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">2</span>
-<span class="px">4.41</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$1.2M</span><span>9.6x ADV</span><span>-11% off high</span><span>6 swings</span><span>243% traveled</span><span>68.2x tape now</span><span>since 08:33</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +17% → 74% fade hist · above vwap · rot 35.5x</span></div>
-</div><div class="card" style="border-left:3px solid #4ade80">
-<div class="row"><span class="tk" style="font-size:18px">WBUY</span>
-<span class="score" style="font-size:19px;color:#4ade80">+96%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">2</span>
-<span class="px">1.24</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$3.3M</span><span>3680.6x ADV</span><span>-7% off high</span><span>8 swings</span><span>243% traveled</span><span>9939.9x tape now</span><span>since 08:22</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — no lift off open · ext -0% → 93% fade hist · above vwap</span></div>
-</div><div class="card" style="border-left:3px solid #4ade80">
-<div class="row"><span class="tk" style="font-size:18px">DOMO</span>
-<span class="score" style="font-size:19px;color:#4ade80">+33%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">2</span>
-<span class="px">4.17</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$575K</span><span>1.7x ADV</span><span>-6% off high</span><span>38% traveled</span><span>30.2x tape now</span><span>since 08:22</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — no lift off open · ext +3% → 93% fade hist · BELOW vwap</span></div>
-</div><div class="card" style="border-left:3px solid #f87171">
-<div class="row"><span class="tk" style="font-size:18px">TSLL</span>
-<span class="score" style="font-size:19px;color:#f87171">-20%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">2</span>
-<span class="px">8.71</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$1.4M</span><span>0.1x ADV</span><span>-4% off high</span><span>11% traveled</span><span>7.2x tape now</span><span>since 09:21</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +0% → 93% fade hist · BELOW vwap · SSR on</span></div>
-</div><div class="card" style="border-left:3px solid #f87171">
-<div class="row"><span class="tk" style="font-size:18px">STM</span>
-<span class="score" style="font-size:19px;color:#f87171">-18%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">1</span>
-<span class="px">53.75</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$7.3M</span><span>0.2x ADV</span><span>-2% off high</span><span>2% traveled</span><span>10.2x tape now</span><span>since 09:33</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +1% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
+<span style="color:#8b939c"> — no lift off open · ext +4% → 93% fade hist · above vwap</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">GGLL</span>
 <span class="score" style="font-size:19px;color:#f87171">-12%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">1</span>
 <span class="px">91.08</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
-<div class="meta"><span>$220K</span><span>0.1x ADV</span><span>-0% off high</span><span>4.1x tape now</span><span>since 09:33</span></div>
+<div class="meta"><span>$220K</span><span>0.1x ADV</span><span>-0% off high</span><span>4% traveled</span><span>since 09:33</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
 <span style="color:#8b939c"> — ext +1% → 93% fade hist · BELOW vwap · SSR on</span></div>
+</div><div class="card" style="border-left:3px solid #f87171">
+<div class="row"><span class="tk" style="font-size:18px">STM</span>
+<span class="score" style="font-size:19px;color:#f87171">-18%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">1</span>
+<span class="px">54.03</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fde047;border-color:#fde04755;background:#fde04714">OPEN DRIVE</span></div>
+<div class="meta"><span>$7.3M</span><span>0.2x ADV</span><span>-2% off high</span><span>2% traveled</span><span>since 09:33</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — ext +1% → 93% fade hist · BELOW vwap · rot 0.0x · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">TSLQ</span>
-<span class="score" style="font-size:19px;color:#4ade80">+20%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+21%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">0</span>
-<span class="px">24.10</span><span class="chip" style="color:#ff5a1f;border-color:#ff5a1f55;background:#ff5a1f14">NEW</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#4b5563;border-color:#4b556355;background:#4b556314">QUIET</span></div>
-<div class="meta"><span>$152K</span><span>0.1x ADV</span><span>+0% off high</span><span>2% traveled</span><span>2.8x tape now</span><span>since 09:36</span></div>
+<span class="px">24.23</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#e879f9;border-color:#e879f955;background:#e879f914">PIN · DEAD</span><span class="chip" style="color:#4b5563;border-color:#4b556355;background:#4b556314">QUIET</span></div>
+<div class="meta"><span>$152K</span><span>0.1x ADV</span><span>+0% off high</span><span>2% traveled</span><span>since 09:36</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +2% → 93% fade hist · above vwap</span></div>
-</div><h2>HALT RADAR · every LULD pause is a ±10%-in-5-min move</h2><div class="card"><div class="row" style="margin:5px 0"><span class="tk">XLFX</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div><div class="row" style="margin:5px 0"><span class="tk">OKLC</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div><div class="row" style="margin:5px 0"><span class="tk">ZCMD</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">09:30</span><span class="px">HALTED</span></div><div class="row" style="margin:5px 0"><span class="tk">KRKR</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div></div><h2>Transitions today</h2><div class="card"><div class="ev">09:36 &nbsp;<b>ETON</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:29 &nbsp;<b>LGCL</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +65% on $0.05M ext tape</div><div class="ev">09:27 &nbsp;<b>GE</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; National Airlines Orders More GE Aerospace CF6 and GE90 Engines</div><div class="ev">09:26 &nbsp;<b>WDAY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Workday Adaptive Planning Achieves FedRAMP Moderate Authorization to Support Federal Workforce and Budget Planning</div><div class="ev">09:25 &nbsp;<b>TSLG</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; -16% on $0.07M ext tape</div><div class="ev">09:25 &nbsp;<b>TSDD</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +16% on $0.08M ext tape</div><div class="ev">09:23 &nbsp;<b>AVAV</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; DEADLINE NEXT WEEK: Berger Montague Advises AeroVironment, Inc. (NASDAQ: AVAV) Investors to Contact the Firm Before July</div><div class="ev">09:21 &nbsp;<b>TSLL</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; -16% on $0.08M ext tape</div><div class="ev">09:15 &nbsp;<b>INFY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Infosys: AI Revenues at 8.2% in Q1; Resilient Operating Margin of 21.1%</div><div class="ev">09:07 &nbsp;<b>HYFT</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; An AI Biotech Just Reported a 46% Revenue Jump and Its First Recurring Platform Contracts, as Its Pivot Starts Showing U</div><div class="ev">09:05 &nbsp;<b>SSTK</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Shutterstock Expands Global Access to its Unlimited Downloads Subscription</div><div class="ev">09:05 &nbsp;<b>REGN</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; INVESTOR ALERT: Regeneron Pharmaceuticals, Inc. (REGN) Investors with Substantial Losses Have Opportunity to Lead Regene</div></div><h2>Tonight&rsquo;s setups · forecast for 2026-07-23 · not today&rsquo;s movers</h2><div class="card">
+<span style="color:#8b939c"> — ext +3% → 93% fade hist · above vwap</span></div>
+</div><h2>HALT RADAR · every LULD pause is a ±10%-in-5-min move</h2><div class="card"><div class="row" style="margin:5px 0"><span class="tk">XLFX</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div><div class="row" style="margin:5px 0"><span class="tk">OKLC</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div><div class="row" style="margin:5px 0"><span class="tk">ZCMD</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">09:30</span><span class="px">HALTED</span></div><div class="row" style="margin:5px 0"><span class="tk">KRKR</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">09:30</span><span class="px">resumes 09:35</span></div></div><h2>Transitions today</h2><div class="card"><div class="ev">09:37 &nbsp;<b>RMSG</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Real Messenger Announces Receipt of Nasdaq Notification Letter Regarding Minimum Price Deficiency</div><div class="ev">09:36 &nbsp;<b>ETON</b> OPEN DRIVE → <b style="color:#4b5563">QUIET</b></div><div class="ev">09:29 &nbsp;<b>LGCL</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +65% on $0.05M ext tape</div><div class="ev">09:27 &nbsp;<b>GE</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; National Airlines Orders More GE Aerospace CF6 and GE90 Engines</div><div class="ev">09:26 &nbsp;<b>WDAY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Workday Adaptive Planning Achieves FedRAMP Moderate Authorization to Support Federal Workforce and Budget Planning</div><div class="ev">09:25 &nbsp;<b>TSLG</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; -16% on $0.07M ext tape</div><div class="ev">09:25 &nbsp;<b>TSDD</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; +16% on $0.08M ext tape</div><div class="ev">09:23 &nbsp;<b>AVAV</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; DEADLINE NEXT WEEK: Berger Montague Advises AeroVironment, Inc. (NASDAQ: AVAV) Investors to Contact the Firm Before July</div><div class="ev">09:21 &nbsp;<b>TSLL</b> — → <b style="color:#ff5a1f">PM IGNITION</b> &nbsp;·&nbsp; -16% on $0.08M ext tape</div><div class="ev">09:15 &nbsp;<b>INFY</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Infosys: AI Revenues at 8.2% in Q1; Resilient Operating Margin of 21.1%</div><div class="ev">09:07 &nbsp;<b>HYFT</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; An AI Biotech Just Reported a 46% Revenue Jump and Its First Recurring Platform Contracts, as Its Pivot Starts Showing U</div><div class="ev">09:05 &nbsp;<b>SSTK</b> — → <b style="color:#e7e9ec">CATALYST</b> &nbsp;·&nbsp; Shutterstock Expands Global Access to its Unlimited Downloads Subscription</div></div><h2>Tonight&rsquo;s setups · forecast for 2026-07-23 · not today&rsquo;s movers</h2><div class="card">
 <div class="row"><span class="px">#1</span><span class="tk">HAFC</span>
 <span class="score" style="color:#facc15">42.7</span>
 <span class="px">31.40</span><span class="dn">-3.3%</span><span class="px">PM</span><span class="px">--</span>
