@@ -94,3 +94,12 @@
 {"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "APPN", "prev_state": "QUIET", "state": "COOLING", "price": 22.33, "tp": 0.4499797371739484, "note": "pace 0.4x off peak 1.9x"}
 {"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "CHURN", "price": 39.84, "tp": 20.688592190689036, "note": "20.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "GARP", "prev_state": "IGNITING", "state": "RUNNING", "price": 79.17, "tp": 64.09315810729893, "note": "sustained 64.1x"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "DPST", "prev_state": "CHURN", "state": "RUNNING", "price": 136.34, "tp": 11.166411597750967, "note": "sustained 11.2x"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "FTA", "prev_state": "NEW MONEY", "state": "FADING", "price": 99.04, "tp": 0.0, "note": "pace 0.0x vs peak 3.0x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "KODK", "prev_state": "COOLING", "state": "QUIET", "price": 8.15, "tp": 1.7812606704261198, "note": ""}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "GARP", "prev_state": "RUNNING", "state": "CHURN", "price": 79.17, "tp": 49.74965874023612, "note": "49.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "RUNNING", "state": "FADING", "price": 22.325, "tp": 3.374882975616645, "note": "pace 3.4x vs peak 12.2x \u00b7 -0.7% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "COOLING", "state": "FADING", "price": 24.97, "tp": 0.4241915925362077, "note": "pace 0.4x vs peak 3.4x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "UROY", "prev_state": "QUIET", "state": "RUNNING", "price": 3.1, "tp": 1.888658366561556, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "BAR", "prev_state": "CHURN", "state": "RUNNING", "price": 39.85, "tp": 28.748130051230852, "note": "sustained 28.7x"}
+{"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "COOLING", "state": "RUNNING", "price": 33.91, "tp": 1.8106183295111695, "note": "sustained 1.8x"}
