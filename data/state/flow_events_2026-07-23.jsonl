@@ -163,3 +163,16 @@
 {"ts": "2026-07-23T10:40:32.256635-04:00", "demo": 0, "ticker": "BBJP", "prev_state": "QUIET", "state": "RUNNING", "price": 73.59, "tp": 2.312463036295115, "note": "sustained 2.3x"}
 {"ts": "2026-07-23T10:40:32.256635-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "IGNITING", "state": "CHURN", "price": 4.09, "tp": 4.787713359342198, "note": "4.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-23T10:41:17.242442-04:00", "demo": 0, "ticker": "GBFH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GBank Financial Holdings Inc. is Pleased To Share the Press Release of Bankroll LLC [BVNKROLL]"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "USAS", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.03, "tp": 1.9690124942925578, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "BXBL", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.55, "tp": 2.193528635915676, "note": "sustained 2.2x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "FADING", "state": "IGNITING", "price": 0.6789, "tp": 50.69294650188236, "note": "pace 50.7x and accelerating (7.7x vs prior window) \u00b7 -8.9% in window"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "REM", "prev_state": "CHURN", "state": "RUNNING", "price": 21.34, "tp": 5.489277585381444, "note": "sustained 5.5x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "FADING", "state": "LEAVING", "price": 3.975, "tp": 4.381401913065875, "note": "pace 4.4x off peak 40.7x \u00b7 VWAP lost (was +2.1% above)"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "BGRN", "prev_state": "CHURN", "state": "COOLING", "price": 46.87, "tp": 0.0, "note": "pace 0.0x off peak 900.0x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "CSX", "prev_state": "FADING", "state": "CHURN", "price": 52.665, "tp": 2.372422111666063, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "CSQ", "prev_state": "RUNNING", "state": "COOLING", "price": 20.02, "tp": 0.0, "note": "pace 0.0x off peak 4.5x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "CHURN", "state": "IGNITING", "price": 157.465, "tp": 5.160611458737909, "note": "pace 5.2x and accelerating (3.4x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "KODK", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 7.99, "tp": 2.0319535864555065, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "COOLING", "state": "RUNNING", "price": 34.025, "tp": 1.8311835227773678, "note": "sustained 1.8x"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "CLF", "prev_state": "FADING", "state": "LEAVING", "price": 11.045, "tp": 2.339564024957544, "note": "pace 2.3x off peak 10.6x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-07-23T14:03:03.927313-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.79, "tp": 1.1845251218145292, "note": "pace 1.2x off peak 29.3x"}
