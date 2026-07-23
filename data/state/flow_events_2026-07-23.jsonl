@@ -411,3 +411,6 @@
 {"ts": "2026-07-23T15:15:03.940522-04:00", "demo": 0, "ticker": "BDN", "prev_state": "COOLING", "state": "RUNNING", "price": 3.065, "tp": 1.9637034857098874, "note": "sustained 2.0x"}
 {"ts": "2026-07-23T15:15:03.940522-04:00", "demo": 0, "ticker": "LXEO", "prev_state": "COOLING", "state": "RUNNING", "price": 4.71, "tp": 1.896851511881732, "note": "sustained 1.9x"}
 {"ts": "2026-07-23T15:15:03.940522-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "COOLING", "state": "RUNNING", "price": 101.835, "tp": 1.9017745376457036, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T15:18:03.940751-04:00", "demo": 0, "ticker": "BWET", "prev_state": "QUIET", "state": "COOLING", "price": 253.25, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
+{"ts": "2026-07-23T15:18:03.940751-04:00", "demo": 0, "ticker": "BDN", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.05, "tp": 3.677569623869521, "note": "pace 3.7x and accelerating (7.7x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-07-23T15:18:03.940751-04:00", "demo": 0, "ticker": "ACI", "prev_state": "COOLING", "state": "RUNNING", "price": 11.185, "tp": 2.0512557580192214, "note": "sustained 2.1x"}
