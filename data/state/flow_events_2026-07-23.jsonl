@@ -505,3 +505,17 @@
 {"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "BDN", "prev_state": "RUNNING", "state": "COOLING", "price": 3.045, "tp": 1.5393874630375755, "note": "pace 1.5x off peak 4.0x"}
 {"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "FADING", "state": "LEAVING", "price": 1.835, "tp": 2.8171414205470033, "note": "pace 2.8x off peak 9.6x \u00b7 VWAP lost (was +4.1% above)"}
 {"ts": "2026-07-23T15:42:03.945422-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "COOLING", "state": "RUNNING", "price": 4.695, "tp": 1.85208956606436, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "ETON", "prev_state": "NEW MONEY", "state": "COOLING", "price": 44.6, "tp": 1.5676693358591, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "COOLING", "price": 4.685, "tp": 1.6562042003060946, "note": "pace 1.7x off peak 10.1x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "AVB", "prev_state": "FADING", "state": "RUNNING", "price": 190.34, "tp": 6.777076957714626, "note": "sustained 6.8x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "DC", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 4.665, "tp": 3.2620045901420176, "note": "quiet open (1.2x) \u2192 now 3.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "BRTR", "prev_state": "RUNNING", "state": "COOLING", "price": 49.44, "tp": 0.0, "note": "pace 0.0x off peak 22.3x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "RUNNING", "state": "QUIET", "price": 18.5, "tp": 1.7751912670086596, "note": ""}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "ACES", "prev_state": "NEW MONEY", "state": "COOLING", "price": 31.55, "tp": 1.0304499187715752, "note": "pace 1.0x off peak 2.9x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "CCAP", "prev_state": "COOLING", "state": "RUNNING", "price": 10.715, "tp": 8.347992321857799, "note": "sustained 8.3x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "ADX", "prev_state": "RUNNING", "state": "COOLING", "price": 26.0, "tp": 1.3891621660191267, "note": "pace 1.4x off peak 14.4x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.105, "tp": 4.178609836462974, "note": "sustained 4.2x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "CLW", "prev_state": "COOLING", "state": "NEW MONEY", "price": 16.37, "tp": 4.39504677202164, "note": "quiet open (0.3x) \u2192 now 4.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "BSM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 14.56, "tp": 2.4133996695452167, "note": "quiet open (0.1x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "RUNNING", "state": "COOLING", "price": 39.74, "tp": 1.4152783762850834, "note": "pace 1.4x off peak 21.8x"}
+{"ts": "2026-07-23T15:45:03.945880-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "RUNNING", "state": "COOLING", "price": 33.46, "tp": 1.623147904713734, "note": "pace 1.6x off peak 3.1x"}
