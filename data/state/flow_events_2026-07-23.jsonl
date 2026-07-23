@@ -577,3 +577,5 @@
 {"ts": "2026-07-23T15:57:03.948355-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "RUNNING", "state": "COOLING", "price": 33.58, "tp": 1.6176633162661282, "note": "pace 1.6x off peak 3.1x"}
 {"ts": "2026-07-23T15:57:03.948355-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 32.14, "tp": 2.064496478896394, "note": "quiet open (0.5x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-23T15:57:03.948355-04:00", "demo": 0, "ticker": "CLW", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 16.315, "tp": 2.5089149626296607, "note": "sustained 2.5x"}
+{"ts": "2026-07-23T16:11:18.936102-04:00", "demo": 0, "ticker": "DLNG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dynagas LNG Partners LP Declares Cash Distribution on Its Series A Preferred Units"}
+{"ts": "2026-07-23T16:11:18.936102-04:00", "demo": 0, "ticker": "SVCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Silvaco Announces Date of Second Quarter 2026 Financial Results Conference Call"}
