@@ -320,3 +320,4 @@
 {"ts": "2026-07-23T14:45:03.935046-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "COOLING", "price": 62.15, "tp": 1.418794902739074, "note": "pace 1.4x off peak 8.9x"}
 {"ts": "2026-07-23T14:45:03.935046-04:00", "demo": 0, "ticker": "BXBL", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.04, "tp": 32.11858339312821, "note": "pace 32.1x and accelerating (3.1x vs prior window) \u00b7 -8.7% in window"}
 {"ts": "2026-07-23T14:45:03.935046-04:00", "demo": 0, "ticker": "CPF", "prev_state": "NEW MONEY", "state": "COOLING", "price": 38.49, "tp": 1.1336876658224193, "note": "pace 1.1x off peak 2.1x"}
+{"ts": "2026-07-23T14:47:18.920655-04:00", "demo": 0, "ticker": "GRMN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Garmin Pilot adds Mobile Clearance Delivery for streamlined IFR clearances"}
