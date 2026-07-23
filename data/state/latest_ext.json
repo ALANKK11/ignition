@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-23T08:25:32-04:00", "session": "pre", "rows": [{"ticker": "WBUY", "last": 1.28, "gap": 0.893, "dollars": 632693.0700000001, "vs_adv": 718.93, "new": false}, {"ticker": "DOMO", "last": 4.18, "gap": 0.3699, "dollars": 243853.66999999998, "vs_adv": 0.7, "new": false}]}
+{"v": 4, "ts": "2026-07-23T08:29:17-04:00", "session": "pre", "rows": [{"ticker": "WBUY", "last": 1.24, "gap": 0.9037, "dollars": 744407.92, "vs_adv": 841.14, "new": false}, {"ticker": "DOMO", "last": 4.2, "gap": 0.3692, "dollars": 249867.11999999997, "vs_adv": 0.72, "new": false}]}
