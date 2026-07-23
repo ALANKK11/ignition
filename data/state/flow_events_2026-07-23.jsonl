@@ -85,3 +85,12 @@
 {"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.89, "tp": 2.496450143975507, "note": "sustained 2.5x"}
 {"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "FAX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 14.52, "tp": 7.8150114669382695, "note": "quiet open (0.1x) \u2192 now 7.8x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-23T10:11:17.236719-04:00", "demo": 0, "ticker": "INTU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INTU Stockholders Have Rights - If You Lost Money Investing in Intuit, Inc. Contact Robbins LLP for Information About Re"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "FSBC", "prev_state": "CHURN", "state": "RUNNING", "price": 45.99, "tp": 22.402684125229325, "note": "sustained 22.4x"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 33.91, "tp": 1.688397226594607, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "EHGO", "prev_state": "LEAVING", "state": "FADING", "price": 2.98, "tp": 24.03337826781814, "note": "pace 24.0x vs peak 102.9x \u00b7 -39.6% off HOD \u00b7 chart still +65% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "RUNNING", "state": "COOLING", "price": 24.89, "tp": 1.2591765157933321, "note": "pace 1.3x off peak 3.4x"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "KODK", "prev_state": "RUNNING", "state": "COOLING", "price": 8.18, "tp": 1.3557178830077843, "note": "pace 1.4x off peak 2.0x"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "CJMB", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.34, "tp": 12.369465145998452, "note": "pace 12.4x off peak 67.6x \u00b7 VWAP lost (was +6.6% above)"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "APPN", "prev_state": "QUIET", "state": "COOLING", "price": 22.33, "tp": 0.4499797371739484, "note": "pace 0.4x off peak 1.9x"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "CHURN", "price": 39.84, "tp": 20.688592190689036, "note": "20.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:14:17.251729-04:00", "demo": 0, "ticker": "GARP", "prev_state": "IGNITING", "state": "RUNNING", "price": 79.17, "tp": 64.09315810729893, "note": "sustained 64.1x"}
