@@ -198,3 +198,11 @@
 {"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "DC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 4.63, "tp": 2.038999209422932, "note": "quiet open (1.2x) \u2192 now 2.0x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "DAMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.51, "tp": 3.3515740390356608, "note": "sustained 3.4x"}
 {"ts": "2026-07-23T14:09:03.927232-04:00", "demo": 0, "ticker": "OGG", "prev_state": "RUNNING", "state": "QUIET", "price": 2.28, "tp": 1.6006700932667646, "note": ""}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "IGNITING", "state": "RUNNING", "price": 157.2, "tp": 3.922456909396812, "note": "sustained 3.9x"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "COOLING", "state": "NEW MONEY", "price": 2.09, "tp": 4.037049577960818, "note": "quiet open (0.2x) \u2192 now 4.0x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "LBRX", "prev_state": "RUNNING", "state": "COOLING", "price": 34.025, "tp": 1.2598071497858767, "note": "pace 1.3x off peak 4.1x"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "AVB", "prev_state": "IGNITING", "state": "RUNNING", "price": 191.01, "tp": 4.686320726488645, "note": "sustained 4.7x"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "KODK", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 7.955, "tp": 3.7785050340615456, "note": "pace 3.8x and accelerating (2.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "ACI", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.21, "tp": 8.073184491485124, "note": "pace 8.1x and accelerating (1.9x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.36, "tp": 1.9885180695385698, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T14:12:03.927956-04:00", "demo": 0, "ticker": "CYH", "prev_state": "RUNNING", "state": "COOLING", "price": 2.795, "tp": 1.7788605504304986, "note": "pace 1.8x off peak 5.6x"}
