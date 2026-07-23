@@ -76,3 +76,11 @@
 {"ts": "2026-07-23T10:06:47.250122-04:00", "demo": 0, "ticker": "KODK", "prev_state": "QUIET", "state": "NEW MONEY", "price": 8.23, "tp": 2.0282613512406984, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-23T10:06:47.250122-04:00", "demo": 0, "ticker": "FSBC", "prev_state": "RUNNING", "state": "CHURN", "price": 45.935, "tp": 22.894701213833795, "note": "22.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-23T10:06:47.250122-04:00", "demo": 0, "ticker": "USAS", "prev_state": "IGNITING", "state": "LEAVING", "price": 4.01, "tp": 2.7142937105326963, "note": "pace 2.7x off peak 5.4x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "KODK", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.21, "tp": 1.9742224173980247, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "QUIET", "price": 22.33, "tp": 1.5808382302831674, "note": ""}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "GGLL", "prev_state": "CHURN", "state": "RUNNING", "price": 89.105, "tp": 13.47720749286604, "note": "sustained 13.5x"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "DGX", "prev_state": "RUNNING", "state": "FADING", "price": 231.38, "tp": 4.36836395946779, "note": "pace 4.4x vs peak 13.9x \u00b7 -2.4% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.345, "tp": 9.451757050618435, "note": "sustained 9.5x"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "EHGO", "prev_state": "FADING", "state": "LEAVING", "price": 3.23, "tp": 18.046810215565603, "note": "pace 18.0x off peak 102.9x \u00b7 VWAP lost (was +6.3% above)"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.89, "tp": 2.496450143975507, "note": "sustained 2.5x"}
+{"ts": "2026-07-23T10:10:32.250843-04:00", "demo": 0, "ticker": "FAX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 14.52, "tp": 7.8150114669382695, "note": "quiet open (0.1x) \u2192 now 7.8x \u00b7 taking +0.3% flow share"}
