@@ -246,3 +246,8 @@
 {"ts": "2026-07-23T14:24:03.930899-04:00", "demo": 0, "ticker": "CRMG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.01, "tp": 1.361857336728648, "note": "pace 1.4x off peak 5.2x"}
 {"ts": "2026-07-23T14:24:03.930899-04:00", "demo": 0, "ticker": "HAFC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 31.75, "tp": 2.688314332455727, "note": "quiet open (0.5x) \u2192 now 2.7x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-23T14:24:03.930899-04:00", "demo": 0, "ticker": "LXEO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 4.665, "tp": 2.456881711381076, "note": "quiet open (0.4x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-23T14:27:03.931366-04:00", "demo": 0, "ticker": "BBJP", "prev_state": "RUNNING", "state": "CHURN", "price": 73.495, "tp": 5.9014893166218885, "note": "5.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:27:03.931366-04:00", "demo": 0, "ticker": "CAC", "prev_state": "QUIET", "state": "RUNNING", "price": 53.51, "tp": 2.214388164102553, "note": "sustained 2.2x"}
+{"ts": "2026-07-23T14:27:03.931366-04:00", "demo": 0, "ticker": "KODK", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 7.98, "tp": 4.725489398780885, "note": "sustained 4.7x"}
+{"ts": "2026-07-23T14:27:03.931366-04:00", "demo": 0, "ticker": "BDN", "prev_state": "RUNNING", "state": "COOLING", "price": 3.08, "tp": 1.426442715496357, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-07-23T14:27:03.931366-04:00", "demo": 0, "ticker": "CRMG", "prev_state": "COOLING", "state": "RUNNING", "price": 3.995, "tp": 2.999230165546945, "note": "sustained 3.0x"}
