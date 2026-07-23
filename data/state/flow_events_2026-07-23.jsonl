@@ -28,3 +28,4 @@
 {"ts": "2026-07-23T09:25:32.241513-04:00", "demo": 0, "ticker": "TSDD", "prev_state": null, "state": "PM IGNITION", "price": 9.82, "tp": null, "note": "+16% on $0.08M ext tape"}
 {"ts": "2026-07-23T09:25:32.241513-04:00", "demo": 0, "ticker": "TSLG", "prev_state": null, "state": "PM IGNITION", "price": 4.56, "tp": null, "note": "-16% on $0.07M ext tape"}
 {"ts": "2026-07-23T09:26:17.228273-04:00", "demo": 0, "ticker": "WDAY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Workday Adaptive Planning Achieves FedRAMP Moderate Authorization to Support Federal Workforce and Budget Planning"}
+{"ts": "2026-07-23T09:27:47.228566-04:00", "demo": 0, "ticker": "GE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "National Airlines Orders More GE Aerospace CF6 and GE90 Engines"}
