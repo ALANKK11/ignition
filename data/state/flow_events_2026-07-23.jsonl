@@ -269,3 +269,15 @@
 {"ts": "2026-07-23T14:30:03.931629-04:00", "demo": 0, "ticker": "BATL", "prev_state": "COOLING", "state": "QUIET", "price": 1.8, "tp": 1.700110429038615, "note": ""}
 {"ts": "2026-07-23T14:30:03.931629-04:00", "demo": 0, "ticker": "BBJP", "prev_state": "CHURN", "state": "RUNNING", "price": 73.515, "tp": 4.488704887108698, "note": "sustained 4.5x"}
 {"ts": "2026-07-23T14:30:03.931629-04:00", "demo": 0, "ticker": "ADX", "prev_state": "RUNNING", "state": "CHURN", "price": 26.05, "tp": 11.892571011824076, "note": "11.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "BXBL", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.52, "tp": 10.2373152969307, "note": "sustained 10.2x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "BXDC", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.42, "tp": 2.031615221631096, "note": "sustained 2.0x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "BEPC", "prev_state": "COOLING", "state": "RUNNING", "price": 33.29, "tp": 3.1311194822139483, "note": "sustained 3.1x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "ADX", "prev_state": "CHURN", "state": "RUNNING", "price": 26.05, "tp": 12.60546938661475, "note": "sustained 12.6x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "BATL", "prev_state": "QUIET", "state": "RUNNING", "price": 1.81, "tp": 1.8877100346848963, "note": "sustained 1.9x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "COM", "prev_state": "FADING", "state": "COOLING", "price": 34.29, "tp": 1.7697088550797115, "note": "pace 1.8x off peak 28.0x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "COOLING", "state": "NEW MONEY", "price": 25.31, "tp": 19.416573697987854, "note": "quiet open (0.3x) \u2192 now 19.4x \u00b7 taking +2.3% flow share"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 45.615, "tp": 2.205872783236716, "note": "quiet open (0.2x) \u2192 now 2.2x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "LEAVING", "price": 13.26, "tp": 0.6984613295362738, "note": "pace 0.7x off peak 15.7x \u00b7 VWAP lost (was +8.3% above)"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "BMNP", "prev_state": "RUNNING", "state": "FADING", "price": 87.09, "tp": 6.0059414782727, "note": "pace 6.0x vs peak 18.5x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "USAS", "prev_state": "IGNITING", "state": "COOLING", "price": 4.03, "tp": 1.1130618043514693, "note": "pace 1.1x off peak 5.4x"}
+{"ts": "2026-07-23T14:33:03.932248-04:00", "demo": 0, "ticker": "GEVO", "prev_state": "IGNITING", "state": "LEAVING", "price": 1.825, "tp": 3.2825360297740893, "note": "pace 3.3x off peak 9.6x \u00b7 VWAP lost (was +4.1% above)"}
