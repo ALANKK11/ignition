@@ -103,3 +103,8 @@
 {"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "UROY", "prev_state": "QUIET", "state": "RUNNING", "price": 3.1, "tp": 1.888658366561556, "note": "sustained 1.9x"}
 {"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "BAR", "prev_state": "CHURN", "state": "RUNNING", "price": 39.85, "tp": 28.748130051230852, "note": "sustained 28.7x"}
 {"ts": "2026-07-23T10:18:02.252509-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "COOLING", "state": "RUNNING", "price": 33.91, "tp": 1.8106183295111695, "note": "sustained 1.8x"}
+{"ts": "2026-07-23T10:21:47.252894-04:00", "demo": 0, "ticker": "EHGO", "prev_state": "FADING", "state": "LEAVING", "price": 2.82, "tp": 24.48781399192896, "note": "pace 24.5x off peak 102.9x \u00b7 VWAP lost (was +6.3% above)"}
+{"ts": "2026-07-23T10:21:47.252894-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "CHURN", "price": 39.8, "tp": 28.65076847327949, "note": "28.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-23T10:21:47.252894-04:00", "demo": 0, "ticker": "IAI", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 187.7, "tp": 2.058406423530683, "note": "quiet open (0.7x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-23T10:21:47.252894-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "RUNNING", "state": "COOLING", "price": 33.91, "tp": 0.0, "note": "pace 0.0x off peak 3.4x"}
+{"ts": "2026-07-23T10:21:47.252894-04:00", "demo": 0, "ticker": "UROY", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.12, "tp": 2.8184364956109373, "note": "pace 2.8x and accelerating (8.0x vs prior window) \u00b7 +1.5% in window"}
