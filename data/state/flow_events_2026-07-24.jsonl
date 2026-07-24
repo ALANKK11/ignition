@@ -306,3 +306,14 @@
 {"ts": "2026-07-24T11:28:51.427621-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 36.18, "tp": 8.424493870147957, "note": "sustained 8.4x"}
 {"ts": "2026-07-24T11:28:51.427621-04:00", "demo": 0, "ticker": "CPA", "prev_state": "IGNITING", "state": "FADING", "price": 138.83, "tp": 0.8240792852361969, "note": "pace 0.8x vs peak 9.8x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T11:28:51.427621-04:00", "demo": 0, "ticker": "BUFZ", "prev_state": "NEW MONEY", "state": "COOLING", "price": 27.985, "tp": 1.7252403536056518, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 13.525, "tp": 0.527119911116645, "note": "pace 0.5x off peak 2.5x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "RUNNING", "state": "CHURN", "price": 25.515, "tp": 2.66649672272481, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "DBO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 22.24, "tp": 0.5622991019909912, "note": "pace 0.6x off peak 7.7x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "NEW MONEY", "state": "FADING", "price": 28.75, "tp": 0.0, "note": "pace 0.0x vs peak 4.6x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "BELFA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 233.93, "tp": 0.0, "note": "pace 0.0x off peak 3.2x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "IGNITING", "state": "RUNNING", "price": 29.92, "tp": 17.337250461040565, "note": "sustained 17.3x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "RUNNING", "state": "COOLING", "price": 62.61, "tp": 0.0, "note": "pace 0.0x off peak 8.4x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "AERO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 15.33, "tp": 1.4560332712783233, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.72, "tp": 4.455918732889651, "note": "sustained 4.5x"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "RUNNING", "state": "FADING", "price": 36.18, "tp": 3.5437527911278024, "note": "pace 3.5x vs peak 13.6x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:32:36.428150-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "LEAVING", "price": 18.015, "tp": 0.20522624753651175, "note": "pace 0.2x off peak 4.0x \u00b7 VWAP lost (was +4.8% above)"}
