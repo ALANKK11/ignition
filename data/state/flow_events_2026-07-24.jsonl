@@ -411,3 +411,11 @@
 {"ts": "2026-07-24T12:10:06.436399-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "IGNITING", "state": "CHURN", "price": 22.41, "tp": 4.9040410826453185, "note": "4.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T12:10:06.436399-04:00", "demo": 0, "ticker": "CLF", "prev_state": "RUNNING", "state": "FADING", "price": 11.55, "tp": 1.3493810583692591, "note": "pace 1.3x vs peak 3.9x \u00b7 -3.2% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T12:10:06.436399-04:00", "demo": 0, "ticker": "THRM", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 44.93, "tp": 1.725460226558871, "note": "pace 1.7x off peak 6.3x \u00b7 VWAP lost (was +1.7% above)"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "FADING", "state": "RUNNING", "price": 22.63, "tp": 5.589912233669789, "note": "sustained 5.6x"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "CHTR", "prev_state": "LEAVING", "state": "RUNNING", "price": 119.76, "tp": 2.891357645041166, "note": "sustained 2.9x"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "FADING", "state": "COOLING", "price": 4.345, "tp": 0.7720785984002293, "note": "pace 0.8x off peak 5.3x"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.48, "tp": 3.7238363544565165, "note": "pace 3.7x and accelerating (10.9x vs prior window) \u00b7 +3.1% in window"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "AXP", "prev_state": "COOLING", "state": "RUNNING", "price": 323.15, "tp": 1.819574915084435, "note": "sustained 1.8x"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "BWX", "prev_state": "QUIET", "state": "RUNNING", "price": 21.415, "tp": 4.7421835698258, "note": "sustained 4.7x"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "CHURN", "price": 30.04, "tp": 3.342123220488461, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T12:13:51.437120-04:00", "demo": 0, "ticker": "AERO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 15.265, "tp": 4.435267843533089, "note": "quiet open (0.0x) \u2192 now 4.4x \u00b7 taking +0.2% flow share"}
