@@ -241,3 +241,15 @@
 {"ts": "2026-07-24T11:10:06.423795-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 17.335, "tp": 46.65465096207492, "note": "46.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T11:10:06.423795-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "LEAVING", "state": "FADING", "price": 17.36, "tp": 0.3899325250728571, "note": "pace 0.4x vs peak 4.0x \u00b7 -24.5% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T11:10:06.423795-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.48, "tp": 2.403481365011674, "note": "sustained 2.4x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "CHURN", "price": 29.73, "tp": 4.547775236698537, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.32, "tp": 39.147570439033764, "note": "sustained 39.1x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 2.62, "tp": 2.087274946845768, "note": "quiet open (0.2x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "CHURN", "state": "NEW MONEY", "price": 25.505, "tp": 6.750642240277601, "note": "quiet open (0.8x) \u2192 now 6.8x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "CRC", "prev_state": "IGNITING", "state": "COOLING", "price": 53.935, "tp": 1.0413628797734809, "note": "pace 1.0x off peak 3.0x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "QUIET", "state": "RUNNING", "price": 62.55, "tp": 2.432997098175188, "note": "sustained 2.4x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "COOLING", "state": "RUNNING", "price": 4.345, "tp": 1.923708198897203, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "CJMB", "prev_state": "FADING", "state": "LEAVING", "price": 2.42, "tp": 0.385174937761812, "note": "pace 0.4x off peak 27.1x \u00b7 VWAP lost (was +15.8% above)"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "TSLZ", "prev_state": "FADING", "state": "RUNNING", "price": 17.48, "tp": 2.4815510636842912, "note": "sustained 2.5x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "NVCR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.74, "tp": 1.2063723856285362, "note": "pace 1.2x off peak 5.3x"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "DBO", "prev_state": "COOLING", "state": "IGNITING", "price": 22.51, "tp": 3.211949858189073, "note": "pace 3.2x and accelerating (2.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-24T11:13:51.424720-04:00", "demo": 0, "ticker": "CPA", "prev_state": "FADING", "state": "RUNNING", "price": 137.86, "tp": 8.539576084634795, "note": "sustained 8.5x"}
