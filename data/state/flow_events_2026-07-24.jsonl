@@ -163,3 +163,9 @@
 {"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "EALT", "prev_state": "COOLING", "state": "RUNNING", "price": 35.56, "tp": 2.276130970451725, "note": "sustained 2.3x"}
 {"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "DRAL", "prev_state": "RUNNING", "state": "COOLING", "price": 10.46, "tp": 1.6470773423803768, "note": "pace 1.6x off peak 247.6x"}
 {"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "CHURN", "state": "RUNNING", "price": 42.065, "tp": 4.2159529019919155, "note": "sustained 4.2x"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "FADING", "state": "NEW MONEY", "price": 4.36, "tp": 2.1890567211014105, "note": "quiet open (1.0x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 17.28, "tp": 26.154542646869878, "note": "26.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "RUNNING", "state": "COOLING", "price": 3.885, "tp": 1.2428646461435033, "note": "pace 1.2x off peak 3.2x"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "DRAL", "prev_state": "COOLING", "state": "RUNNING", "price": 10.44, "tp": 7.814763843585795, "note": "sustained 7.8x"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "DIV", "prev_state": "CHURN", "state": "RUNNING", "price": 19.955, "tp": 7.020616850637883, "note": "sustained 7.0x"}
+{"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "LEAVING", "price": 17.605, "tp": 0.8357075585728725, "note": "pace 0.8x off peak 4.0x \u00b7 VWAP lost (was +4.8% above)"}
