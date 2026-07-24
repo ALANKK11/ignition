@@ -217,3 +217,14 @@
 {"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "FADING", "price": 27.895, "tp": 0.8058085062351363, "note": "pace 0.8x vs peak 8.1x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "NEW MONEY", "state": "COOLING", "price": 25.505, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
 {"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "IKT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 2.455, "tp": 3.69187484096025, "note": "sustained 3.7x"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 13.055, "tp": 1.4865014420051257, "note": "pace 1.5x off peak 2.5x"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "ACOG", "prev_state": "COOLING", "state": "RUNNING", "price": 7.92, "tp": 2.1182586073664353, "note": "sustained 2.1x"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "CPS", "prev_state": "RUNNING", "state": "QUIET", "price": 29.06, "tp": 1.7653084679988904, "note": ""}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "TSLZ", "prev_state": "COOLING", "state": "FADING", "price": 17.44, "tp": 0.732540521226461, "note": "pace 0.7x vs peak 2.8x \u00b7 -0.9% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "HYLS", "prev_state": "NEW MONEY", "state": "FADING", "price": 40.4, "tp": 0.0, "note": "pace 0.0x vs peak 2.3x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "RUNNING", "state": "FADING", "price": 42.085, "tp": 3.2839969000062696, "note": "pace 3.3x vs peak 11.8x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "RUNNING", "state": "COOLING", "price": 87.53, "tp": 1.5578153309350578, "note": "pace 1.6x off peak 4.9x"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "CHURN", "price": 29.72, "tp": 2.5893417446032916, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "COOLING", "price": 4.345, "tp": 1.6489423479780445, "note": "pace 1.6x off peak 5.3x"}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "RUNNING", "state": "QUIET", "price": 24.5, "tp": 1.7219252353196313, "note": ""}
+{"ts": "2026-07-24T11:06:21.423493-04:00", "demo": 0, "ticker": "EVH", "prev_state": "RUNNING", "state": "COOLING", "price": 4.49, "tp": 1.2482049915242697, "note": "pace 1.2x off peak 4.0x"}
