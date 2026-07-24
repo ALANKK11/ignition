@@ -523,3 +523,11 @@
 {"ts": "2026-07-24T14:11:02.285630-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "NEW MONEY", "state": "COOLING", "price": 25.525, "tp": 0.0, "note": "pace 0.0x off peak 22.5x"}
 {"ts": "2026-07-24T14:11:02.285630-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "FADING", "state": "COOLING", "price": 32.42, "tp": 1.7613291708979104, "note": "pace 1.8x off peak 2.6x"}
 {"ts": "2026-07-24T14:11:02.285630-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "QUIET", "state": "RUNNING", "price": 25.41, "tp": 2.696424502285055, "note": "sustained 2.7x"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "BILZ", "prev_state": "FADING", "state": "CHURN", "price": 100.875, "tp": 124.12163519056807, "note": "124.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "CHT", "prev_state": "RUNNING", "state": "QUIET", "price": 42.82, "tp": 1.530818584049885, "note": ""}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "EVH", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 4.295, "tp": 5.859862239232596, "note": "quiet open (0.9x) \u2192 now 5.9x \u00b7 taking +0.7% flow share"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "COOLING", "state": "RUNNING", "price": 32.42, "tp": 1.9599522702833532, "note": "sustained 2.0x"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "COOLING", "state": "RUNNING", "price": 62.7, "tp": 2.2894940875639858, "note": "sustained 2.3x"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "AXP", "prev_state": "COOLING", "state": "RUNNING", "price": 323.78, "tp": 2.285287817273093, "note": "sustained 2.3x"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "CDXS", "prev_state": "LEAVING", "state": "CHURN", "price": 1.54, "tp": 4.791531032438611, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.63, "tp": 2.064706171599957, "note": "sustained 2.1x"}
