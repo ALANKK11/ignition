@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-24T08:16:34-04:00", "session": "pre", "rows": [{"ticker": "VIVK", "last": 3.11, "gap": 0.4339, "dollars": 207487.63, "vs_adv": 1.83, "new": true}, {"ticker": "BNRG", "last": 1.14, "gap": 0.3953, "dollars": 77910.22, "vs_adv": 5.54, "new": true}]}
+{"v": 4, "ts": "2026-07-24T08:19:51-04:00", "session": "pre", "rows": [{"ticker": "VIVK", "last": 3.1, "gap": 0.4409, "dollars": 248566.82, "vs_adv": 2.18, "new": false}, {"ticker": "BNRG", "last": 1.11, "gap": 0.3946, "dollars": 81036.22, "vs_adv": 5.77, "new": false}]}
