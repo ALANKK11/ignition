@@ -514,3 +514,4 @@
 {"ts": "2026-07-24T14:07:17.285591-04:00", "demo": 0, "ticker": "BBIN", "prev_state": "QUIET", "state": "RUNNING", "price": 77.89, "tp": 84.52537975157533, "note": "sustained 84.5x"}
 {"ts": "2026-07-24T14:07:17.285591-04:00", "demo": 0, "ticker": "ATCL", "prev_state": "CHURN", "state": "FADING", "price": 24.6, "tp": 0.0, "note": "pace 0.0x vs peak 28.3x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T14:07:17.285591-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "CHURN", "state": "NEW MONEY", "price": 25.525, "tp": 2.9946828144256807, "note": "quiet open (0.8x) \u2192 now 3.0x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-24T14:08:02.270963-04:00", "demo": 0, "ticker": "RUBI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Rubico Inc. Announces Letter of Intent for Acquisition of a High Specification Newbuilding MR Tanker"}
