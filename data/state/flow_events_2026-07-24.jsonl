@@ -694,3 +694,10 @@
 {"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "FADING", "state": "RUNNING", "price": 22.755, "tp": 6.509316700450954, "note": "sustained 6.5x"}
 {"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "BFLX", "prev_state": "FADING", "state": "NEW MONEY", "price": 25.23, "tp": 6.671172121399426, "note": "quiet open (0.6x) \u2192 now 6.7x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "VNM", "prev_state": "COOLING", "state": "RUNNING", "price": 16.475, "tp": 1.9211848697989078, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "CAC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 54.77, "tp": 1.8961888842746182, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "BELFA", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 233.885, "tp": 3.180695741309075, "note": "quiet open (0.3x) \u2192 now 3.2x \u00b7 taking +1.5% flow share"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "BAH", "prev_state": "RUNNING", "state": "IGNITING", "price": 73.51, "tp": 3.0065841374684052, "note": "pace 3.0x and accelerating (2.4x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "BLFS", "prev_state": "COOLING", "state": "RUNNING", "price": 30.29, "tp": 1.830601238556408, "note": "sustained 1.8x"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "EVH", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.27, "tp": 7.3165428528067284, "note": "pace 7.3x and accelerating (3.8x vs prior window) \u00b7 -1.7% in window"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "VNM", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 16.475, "tp": 2.178224506147656, "note": "quiet open (0.8x) \u2192 now 2.2x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-07-24T15:14:47.298607-04:00", "demo": 0, "ticker": "UVSP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 44.45, "tp": 1.9889752901364135, "note": "sustained 2.0x"}
