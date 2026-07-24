@@ -825,3 +825,4 @@
 {"ts": "2026-07-24T15:56:02.306136-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 32.33, "tp": 1.5446309619559426, "note": "pace 1.5x off peak 3.1x"}
 {"ts": "2026-07-24T15:56:02.306136-04:00", "demo": 0, "ticker": "UVSP", "prev_state": "FADING", "state": "COOLING", "price": 44.13, "tp": 1.2538905481263576, "note": "pace 1.3x off peak 5.4x"}
 {"ts": "2026-07-24T15:56:02.306136-04:00", "demo": 0, "ticker": "BLFS", "prev_state": "RUNNING", "state": "COOLING", "price": 30.06, "tp": 1.373336397384752, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-07-24T15:59:02.292009-04:00", "demo": 0, "ticker": "EQPT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "EQPT Stockholder Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Eq"}
