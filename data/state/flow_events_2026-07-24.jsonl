@@ -154,3 +154,7 @@
 {"ts": "2026-07-24T10:36:21.417153-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "IGNITING", "price": 18.06, "tp": 3.517183405334886, "note": "pace 3.5x and accelerating (15.3x vs prior window) \u00b7 -2.8% in window"}
 {"ts": "2026-07-24T10:36:21.417153-04:00", "demo": 0, "ticker": "EVH", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 4.465, "tp": 3.692076211710184, "note": "sustained 3.7x"}
 {"ts": "2026-07-24T10:38:36.402832-04:00", "demo": 0, "ticker": "RUBI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Rubico Inc. Announces Letter of Intent for Acquisition of a High Specification Newbuilding MR Tanker"}
+{"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "DLR", "prev_state": "RUNNING", "state": "CHURN", "price": 203.91, "tp": 9.05435553067603, "note": "9.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "IKT", "prev_state": "CHURN", "state": "RUNNING", "price": 2.415, "tp": 3.348284617387493, "note": "sustained 3.3x"}
+{"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "DSTX", "prev_state": "CHURN", "state": "RUNNING", "price": 33.82, "tp": 4.703842529603014, "note": "sustained 4.7x"}
+{"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.89, "tp": 2.0410325603520985, "note": "sustained 2.0x"}
