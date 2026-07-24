@@ -439,3 +439,9 @@
 {"ts": "2026-07-24T12:21:21.438539-04:00", "demo": 0, "ticker": "NVCR", "prev_state": "IGNITING", "state": "COOLING", "price": 18.38, "tp": 1.275298609559893, "note": "pace 1.3x off peak 5.3x"}
 {"ts": "2026-07-24T12:21:21.438539-04:00", "demo": 0, "ticker": "SFL", "prev_state": "COOLING", "state": "FADING", "price": 11.88, "tp": 0.7113415070389847, "note": "pace 0.7x vs peak 3.1x \u00b7 -1.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T12:21:21.438539-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.48, "tp": 2.769151305700003, "note": "sustained 2.8x"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "CAC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 54.89, "tp": 2.6295094822849294, "note": "quiet open (0.2x) \u2192 now 2.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.48, "tp": 1.308613020575837, "note": "pace 1.3x off peak 4.1x"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "AERO", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 15.195, "tp": 6.0238592366198525, "note": "pace 6.0x and accelerating (6.5x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "AXP", "prev_state": "CHURN", "state": "RUNNING", "price": 323.52, "tp": 2.5501929194090716, "note": "sustained 2.6x"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.38, "tp": 2.061136904590008, "note": "sustained 2.1x"}
+{"ts": "2026-07-24T12:25:06.439226-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "RUNNING", "state": "FADING", "price": 22.59, "tp": 2.345393163921786, "note": "pace 2.3x vs peak 8.5x \u00b7 -2.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
