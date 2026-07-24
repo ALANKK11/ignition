@@ -459,3 +459,9 @@
 {"ts": "2026-07-24T12:32:36.440510-04:00", "demo": 0, "ticker": "DBO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 22.39, "tp": 2.932896336639655, "note": "quiet open (0.9x) \u2192 now 2.9x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-24T12:32:36.440510-04:00", "demo": 0, "ticker": "CCB", "prev_state": "FADING", "state": "NEW MONEY", "price": 73.155, "tp": 5.651635427340965, "note": "quiet open (0.4x) \u2192 now 5.7x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-07-24T12:32:36.440510-04:00", "demo": 0, "ticker": "CDXS", "prev_state": "IGNITING", "state": "LEAVING", "price": 1.5, "tp": 12.809388193224674, "note": "pace 12.8x off peak 33.6x \u00b7 VWAP lost (was +3.2% above)"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "AXP", "prev_state": "RUNNING", "state": "COOLING", "price": 323.57, "tp": 1.4058458200202413, "note": "pace 1.4x off peak 2.6x"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "CLF", "prev_state": "FADING", "state": "RUNNING", "price": 11.71, "tp": 2.400857169288285, "note": "sustained 2.4x"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "BAB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.42, "tp": 5.8649611160529, "note": "quiet open (0.2x) \u2192 now 5.9x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "CAC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 55.03, "tp": 1.8665704798331637, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "COOLING", "state": "LEAVING", "price": 3.73, "tp": 0.7187766882612786, "note": "pace 0.7x off peak 18.1x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-24T12:36:21.441555-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "COOLING", "price": 29.95, "tp": 1.799046693427145, "note": "pace 1.8x off peak 17.5x"}
