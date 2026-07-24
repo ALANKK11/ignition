@@ -591,3 +591,10 @@
 {"ts": "2026-07-24T14:37:17.291277-04:00", "demo": 0, "ticker": "UVSP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 44.495, "tp": 2.33689236407954, "note": "sustained 2.3x"}
 {"ts": "2026-07-24T14:37:17.291277-04:00", "demo": 0, "ticker": "NVCR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.49, "tp": 0.9207826580718184, "note": "pace 0.9x off peak 5.3x"}
 {"ts": "2026-07-24T14:37:17.291277-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.75, "tp": 4.033550127344455, "note": "sustained 4.0x"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.06, "tp": 2.023344065505361, "note": "sustained 2.0x"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "BNRG", "prev_state": "LEAVING", "state": "IGNITING", "price": 0.708, "tp": 5.875352723902539, "note": "pace 5.9x and accelerating (1.9x vs prior window) \u00b7 +4.5% in window"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 25.005, "tp": 2.811548257142832, "note": "quiet open (0.3x) \u2192 now 2.8x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "NEW MONEY", "state": "COOLING", "price": 2.605, "tp": 1.5396068824241125, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "BBIN", "prev_state": "RUNNING", "state": "FADING", "price": 77.69, "tp": 43.88786432270551, "note": "pace 43.9x vs peak 178.6x \u00b7 -0.6% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "AXP", "prev_state": "RUNNING", "state": "CHURN", "price": 323.095, "tp": 2.669534029147413, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T14:41:02.291921-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "RUNNING", "state": "COOLING", "price": 17.32, "tp": 0.0, "note": "pace 0.0x off peak 80.2x"}
