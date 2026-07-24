@@ -332,3 +332,9 @@
 {"ts": "2026-07-24T11:40:06.430184-04:00", "demo": 0, "ticker": "BUFZ", "prev_state": "COOLING", "state": "FADING", "price": 27.985, "tp": 0.0, "note": "pace 0.0x vs peak 2.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-24T11:40:06.430184-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "RUNNING", "state": "COOLING", "price": 87.34, "tp": 0.9435442763009761, "note": "pace 0.9x off peak 4.9x"}
 {"ts": "2026-07-24T11:40:06.430184-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "CHURN", "state": "NEW MONEY", "price": 25.515, "tp": 6.795748257778934, "note": "quiet open (0.8x) \u2192 now 6.8x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "IGNITING", "state": "LEAVING", "price": 3.78, "tp": 6.089662225882539, "note": "pace 6.1x off peak 11.3x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "COOLING", "state": "RUNNING", "price": 62.7, "tp": 2.931394358056665, "note": "sustained 2.9x"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "NEA", "prev_state": "FADING", "state": "COOLING", "price": 11.27, "tp": 1.3133852015742231, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "DBO", "prev_state": "COOLING", "state": "RUNNING", "price": 22.34, "tp": 3.5124172335143173, "note": "sustained 3.5x"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "CJMB", "prev_state": "FADING", "state": "LEAVING", "price": 2.335, "tp": 0.2921542381221144, "note": "pace 0.3x off peak 27.1x \u00b7 VWAP lost (was +15.8% above)"}
+{"ts": "2026-07-24T11:43:51.431090-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.37, "tp": 13.260639915181267, "note": "sustained 13.3x"}
