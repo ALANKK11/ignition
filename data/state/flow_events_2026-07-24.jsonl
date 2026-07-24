@@ -635,3 +635,4 @@
 {"ts": "2026-07-24T14:52:17.293649-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "RUNNING", "state": "CHURN", "price": 36.155, "tp": 10.203751920240835, "note": "10.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T14:52:17.293649-04:00", "demo": 0, "ticker": "ELPC", "prev_state": "COOLING", "state": "RUNNING", "price": 11.5, "tp": 1.9981879331485637, "note": "sustained 2.0x"}
 {"ts": "2026-07-24T14:52:17.293649-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "FADING", "state": "RUNNING", "price": 32.35, "tp": 1.9253351442550672, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T14:53:02.279409-04:00", "demo": 0, "ticker": "PRIM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PRIM INVESTOR ALERT: Primoris Services Corporation Investors with Substantial Losses Have Opportunity to Lead the Primor"}
