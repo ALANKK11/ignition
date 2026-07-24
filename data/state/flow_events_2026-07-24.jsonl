@@ -685,3 +685,12 @@
 {"ts": "2026-07-24T15:07:17.296831-04:00", "demo": 0, "ticker": "CAC", "prev_state": "FADING", "state": "NEW MONEY", "price": 54.86, "tp": 2.345070795249037, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-24T15:07:17.296831-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "IGNITING", "state": "RUNNING", "price": 62.45, "tp": 4.265346028874516, "note": "sustained 4.3x"}
 {"ts": "2026-07-24T15:07:17.296831-04:00", "demo": 0, "ticker": "BELFA", "prev_state": "COOLING", "state": "RUNNING", "price": 233.885, "tp": 3.404401337101703, "note": "sustained 3.4x"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "BDN", "prev_state": "LEAVING", "state": "FADING", "price": 3.155, "tp": 1.9822461767883952, "note": "pace 2.0x vs peak 8.1x \u00b7 -2.5% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "RUNNING", "state": "COOLING", "price": 62.45, "tp": 1.5536490036965067, "note": "pace 1.6x off peak 8.4x"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "ADX", "prev_state": "COOLING", "state": "IGNITING", "price": 25.81, "tp": 4.464435606042218, "note": "pace 4.5x and accelerating (89.3x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "FADING", "state": "COOLING", "price": 22.265, "tp": 0.24779837694820311, "note": "pace 0.2x off peak 10.9x"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "CHURN", "state": "RUNNING", "price": 87.56, "tp": 4.748283632263726, "note": "sustained 4.7x"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "RUNNING", "state": "FADING", "price": 36.165, "tp": 3.3367418191190046, "note": "pace 3.3x vs peak 13.6x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "FADING", "state": "RUNNING", "price": 22.755, "tp": 6.509316700450954, "note": "sustained 6.5x"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "BFLX", "prev_state": "FADING", "state": "NEW MONEY", "price": 25.23, "tp": 6.671172121399426, "note": "quiet open (0.6x) \u2192 now 6.7x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-24T15:11:02.297358-04:00", "demo": 0, "ticker": "VNM", "prev_state": "COOLING", "state": "RUNNING", "price": 16.475, "tp": 1.9211848697989078, "note": "sustained 1.9x"}
