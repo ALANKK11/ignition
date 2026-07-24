@@ -730,3 +730,10 @@
 {"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "RUNNING", "state": "COOLING", "price": 62.31, "tp": 1.107222455463211, "note": "pace 1.1x off peak 8.4x"}
 {"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "BBCQ", "prev_state": "RUNNING", "state": "CHURN", "price": 10.245, "tp": 3.708343480368987, "note": "3.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.33, "tp": 63.37021214833186, "note": "sustained 63.4x"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.55, "tp": 2.8270987477351843, "note": "sustained 2.8x"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "COOLING", "state": "RUNNING", "price": 62.305, "tp": 2.155197720437538, "note": "sustained 2.2x"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "RUNNING", "state": "CHURN", "price": 22.755, "tp": 5.333964268026836, "note": "5.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "NEA", "prev_state": "FADING", "state": "RUNNING", "price": 11.23, "tp": 1.8500347589861856, "note": "sustained 1.9x"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "BDN", "prev_state": "FADING", "state": "LEAVING", "price": 3.165, "tp": 1.3937799186500797, "note": "pace 1.4x off peak 8.1x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "BNRG", "prev_state": "LEAVING", "state": "IGNITING", "price": 0.6999, "tp": 3.7361381003747636, "note": "pace 3.7x and accelerating (4.7x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-07-24T15:29:47.300877-04:00", "demo": 0, "ticker": "EVH", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.26, "tp": 2.9116181931817495, "note": "sustained 2.9x"}
