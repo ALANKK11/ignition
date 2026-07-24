@@ -16,3 +16,5 @@
 {"ts": "2026-07-24T09:36:21.404047-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.36, "tp": 1.0534389614478985, "note": ""}
 {"ts": "2026-07-24T09:36:21.404047-04:00", "demo": 0, "ticker": "NVCR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.835, "tp": 1.8813012708788222, "note": ""}
 {"ts": "2026-07-24T09:36:21.404047-04:00", "demo": 0, "ticker": "BDN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.09, "tp": 1.2618392504800908, "note": ""}
+{"ts": "2026-07-24T09:40:06.405105-04:00", "demo": 0, "ticker": "RNG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 47.095, "tp": 3.082877967621961, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-24T09:40:06.405105-04:00", "demo": 0, "ticker": "THRM", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 47.625, "tp": 2.5332224511147405, "note": ""}
