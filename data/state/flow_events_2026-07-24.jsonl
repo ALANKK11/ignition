@@ -562,3 +562,13 @@
 {"ts": "2026-07-24T14:26:02.288913-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.35, "tp": 1.8427740127430536, "note": "sustained 1.8x"}
 {"ts": "2026-07-24T14:26:02.288913-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "FADING", "state": "COOLING", "price": 2.605, "tp": 1.4091398903112615, "note": "pace 1.4x off peak 2.3x"}
 {"ts": "2026-07-24T14:26:02.288913-04:00", "demo": 0, "ticker": "CHT", "prev_state": "QUIET", "state": "COOLING", "price": 42.82, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "COOLING", "state": "NEW MONEY", "price": 2.6, "tp": 2.3101354049897704, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "RUNNING", "state": "COOLING", "price": 62.7, "tp": 0.0, "note": "pace 0.0x off peak 8.4x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "ADX", "prev_state": "FADING", "state": "COOLING", "price": 25.92, "tp": 0.6207393696904961, "note": "pace 0.6x off peak 6.0x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "RUNNING", "state": "COOLING", "price": 87.265, "tp": 1.5573129868023308, "note": "pace 1.6x off peak 4.9x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "BKTI", "prev_state": "NEW MONEY", "state": "FADING", "price": 78.27, "tp": 0.0, "note": "pace 0.0x vs peak 2.4x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "NTGR", "prev_state": "RUNNING", "state": "COOLING", "price": 25.35, "tp": 1.443358314036693, "note": "pace 1.4x off peak 3.4x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "AVLC", "prev_state": "FADING", "state": "RUNNING", "price": 88.835, "tp": 6.085337597115202, "note": "sustained 6.1x"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "HTH", "prev_state": "FADING", "state": "NEW MONEY", "price": 39.99, "tp": 2.6979246502735283, "note": "quiet open (0.5x) \u2192 now 2.7x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "IKT", "prev_state": "FADING", "state": "LEAVING", "price": 2.385, "tp": 0.23759422683671289, "note": "pace 0.2x off peak 4.9x \u00b7 VWAP lost (was +4.0% above)"}
+{"ts": "2026-07-24T14:29:47.289826-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "COOLING", "state": "RUNNING", "price": 32.38, "tp": 2.0217854410152545, "note": "sustained 2.0x"}
