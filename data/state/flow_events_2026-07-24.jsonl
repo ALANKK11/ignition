@@ -26,3 +26,5 @@
 {"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "RNG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 48.74, "tp": 3.211889152462556, "note": "3.2x tape out of the gate"}
 {"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "BAH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 74.05, "tp": 2.002031077561585, "note": ""}
 {"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "SSNC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 74.42, "tp": 2.509576992311206, "note": ""}
+{"ts": "2026-07-24T09:55:06.408198-04:00", "demo": 0, "ticker": "NBIZ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.38, "tp": 1.081361839887559, "note": ""}
+{"ts": "2026-07-24T09:55:06.408198-04:00", "demo": 0, "ticker": "LODE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.23, "tp": 2.2469580074276974, "note": ""}
