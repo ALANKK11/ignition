@@ -531,3 +531,13 @@
 {"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "AXP", "prev_state": "COOLING", "state": "RUNNING", "price": 323.78, "tp": 2.285287817273093, "note": "sustained 2.3x"}
 {"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "CDXS", "prev_state": "LEAVING", "state": "CHURN", "price": 1.54, "tp": 4.791531032438611, "note": "4.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T14:14:47.286679-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "COOLING", "state": "RUNNING", "price": 87.63, "tp": 2.064706171599957, "note": "sustained 2.1x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "BAB", "prev_state": "FADING", "state": "RUNNING", "price": 26.4, "tp": 6.320476668010578, "note": "sustained 6.3x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "NVCR", "prev_state": "COOLING", "state": "RUNNING", "price": 18.48, "tp": 2.15031685001679, "note": "sustained 2.2x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "CDXS", "prev_state": "CHURN", "state": "RUNNING", "price": 1.545, "tp": 3.997142726571777, "note": "sustained 4.0x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "RUNNING", "state": "COOLING", "price": 87.525, "tp": 1.4522642088954627, "note": "pace 1.5x off peak 4.9x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "MSBI", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 32.42, "tp": 3.1276496880749636, "note": "quiet open (0.2x) \u2192 now 3.1x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "LEAVING", "state": "RUNNING", "price": 12.99, "tp": 2.2417327388449237, "note": "sustained 2.2x"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "EVH", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 4.29, "tp": 5.461137226621894, "note": "pace 5.5x and accelerating (11.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 3.67, "tp": 1.8837425358910125, "note": "pace 1.9x off peak 18.1x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "FADING", "state": "IGNITING", "price": 16.03, "tp": 20.17567690214604, "note": "pace 20.2x and accelerating (403.5x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-07-24T14:18:32.287166-04:00", "demo": 0, "ticker": "ITM", "prev_state": "FADING", "state": "NEW MONEY", "price": 45.945, "tp": 4.595086614278305, "note": "quiet open (0.6x) \u2192 now 4.6x \u00b7 taking +0.4% flow share"}
