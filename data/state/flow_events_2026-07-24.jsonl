@@ -202,3 +202,18 @@
 {"ts": "2026-07-24T10:58:51.421546-04:00", "demo": 0, "ticker": "CAC", "prev_state": "QUIET", "state": "COOLING", "price": 54.31, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
 {"ts": "2026-07-24T10:58:51.421546-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "QUIET", "state": "RUNNING", "price": 13.16, "tp": 2.3788099150993647, "note": "sustained 2.4x"}
 {"ts": "2026-07-24T10:58:51.421546-04:00", "demo": 0, "ticker": "BNTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 89.68, "tp": 10.247592732595457, "note": "sustained 10.2x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "CCIX", "prev_state": "CHURN", "state": "COOLING", "price": 10.87, "tp": 0.0, "note": "pace 0.0x off peak 23.8x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "ACOG", "prev_state": "FADING", "state": "COOLING", "price": 7.955, "tp": 0.8796501869164488, "note": "pace 0.9x off peak 4.7x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 42.085, "tp": 5.188167334752154, "note": "sustained 5.2x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "CPA", "prev_state": "RUNNING", "state": "FADING", "price": 137.465, "tp": 2.8051008511405557, "note": "pace 2.8x vs peak 9.8x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BELFA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 232.88, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BLFS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 30.105, "tp": 0.902081788910518, "note": "pace 0.9x off peak 3.2x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BWX", "prev_state": "QUIET", "state": "COOLING", "price": 21.375, "tp": 1.083484234753682, "note": "pace 1.1x off peak 2.0x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "QUIET", "state": "NEW MONEY", "price": 2.63, "tp": 2.290509857924863, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BNRG", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.7052, "tp": 17.477152133517027, "note": "pace 17.5x off peak 36.5x \u00b7 VWAP lost (was +4.7% above)"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "IGNITING", "state": "RUNNING", "price": 87.28, "tp": 2.004850444429749, "note": "sustained 2.0x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "CHURN", "state": "FADING", "price": 16.35, "tp": 4.956347470744564, "note": "pace 5.0x vs peak 25.0x \u00b7 -0.8% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 36.145, "tp": 9.09168402910094, "note": "quiet open (0.5x) \u2192 now 9.1x \u00b7 taking +11.2% flow share"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "FADING", "price": 27.895, "tp": 0.8058085062351363, "note": "pace 0.8x vs peak 8.1x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "BSJU", "prev_state": "NEW MONEY", "state": "COOLING", "price": 25.505, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
+{"ts": "2026-07-24T11:02:36.422422-04:00", "demo": 0, "ticker": "IKT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 2.455, "tp": 3.69187484096025, "note": "sustained 3.7x"}
