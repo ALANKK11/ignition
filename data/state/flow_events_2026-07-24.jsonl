@@ -169,3 +169,4 @@
 {"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "DRAL", "prev_state": "COOLING", "state": "RUNNING", "price": 10.44, "tp": 7.814763843585795, "note": "sustained 7.8x"}
 {"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "DIV", "prev_state": "CHURN", "state": "RUNNING", "price": 19.955, "tp": 7.020616850637883, "note": "sustained 7.0x"}
 {"ts": "2026-07-24T10:47:36.419001-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "LEAVING", "price": 17.605, "tp": 0.8357075585728725, "note": "pace 0.8x off peak 4.0x \u00b7 VWAP lost (was +4.8% above)"}
+{"ts": "2026-07-24T10:49:06.404971-04:00", "demo": 0, "ticker": "INTU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: Intuit Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit - INTU"}
