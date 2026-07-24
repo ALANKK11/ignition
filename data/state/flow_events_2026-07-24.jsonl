@@ -158,3 +158,8 @@
 {"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "IKT", "prev_state": "CHURN", "state": "RUNNING", "price": 2.415, "tp": 3.348284617387493, "note": "sustained 3.3x"}
 {"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "DSTX", "prev_state": "CHURN", "state": "RUNNING", "price": 33.82, "tp": 4.703842529603014, "note": "sustained 4.7x"}
 {"ts": "2026-07-24T10:40:06.417800-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.89, "tp": 2.0410325603520985, "note": "sustained 2.0x"}
+{"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "TSLZ", "prev_state": "COOLING", "state": "RUNNING", "price": 17.55, "tp": 2.0904152357573365, "note": "sustained 2.1x"}
+{"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "DLR", "prev_state": "CHURN", "state": "RUNNING", "price": 204.45, "tp": 9.524815313282913, "note": "sustained 9.5x"}
+{"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "EALT", "prev_state": "COOLING", "state": "RUNNING", "price": 35.56, "tp": 2.276130970451725, "note": "sustained 2.3x"}
+{"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "DRAL", "prev_state": "RUNNING", "state": "COOLING", "price": 10.46, "tp": 1.6470773423803768, "note": "pace 1.6x off peak 247.6x"}
+{"ts": "2026-07-24T10:43:51.418388-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "CHURN", "state": "RUNNING", "price": 42.065, "tp": 4.2159529019919155, "note": "sustained 4.2x"}
