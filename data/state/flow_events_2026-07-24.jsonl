@@ -724,3 +724,9 @@
 {"ts": "2026-07-24T15:22:17.299378-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 17.335, "tp": 38.509907340923895, "note": "38.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-24T15:22:17.299378-04:00", "demo": 0, "ticker": "ACP", "prev_state": "RUNNING", "state": "COOLING", "price": 5.08, "tp": 0.0, "note": "pace 0.0x off peak 6.7x"}
 {"ts": "2026-07-24T15:22:17.299378-04:00", "demo": 0, "ticker": "AVGV", "prev_state": "RUNNING", "state": "FADING", "price": 85.45, "tp": 6.365991537347745, "note": "pace 6.4x vs peak 20.8x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "ABCB", "prev_state": "RUNNING", "state": "COOLING", "price": 87.53, "tp": 1.705557016932085, "note": "pace 1.7x off peak 4.9x"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "BOW", "prev_state": "FADING", "state": "COOLING", "price": 30.82, "tp": 1.4619697463361285, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "ADX", "prev_state": "IGNITING", "state": "COOLING", "price": 25.82, "tp": 1.0406376541973592, "note": "pace 1.0x off peak 19.7x"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "ACNB", "prev_state": "RUNNING", "state": "COOLING", "price": 62.31, "tp": 1.107222455463211, "note": "pace 1.1x off peak 8.4x"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "BBCQ", "prev_state": "RUNNING", "state": "CHURN", "price": 10.245, "tp": 3.708343480368987, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-24T15:26:02.300129-04:00", "demo": 0, "ticker": "CHIQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.33, "tp": 63.37021214833186, "note": "sustained 63.4x"}
