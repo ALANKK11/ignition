@@ -23,3 +23,6 @@
 {"ts": "2026-07-24T09:47:36.406902-04:00", "demo": 0, "ticker": "HCSG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 22.875, "tp": 4.083833241591142, "note": "4.1x tape out of the gate"}
 {"ts": "2026-07-24T09:47:36.406902-04:00", "demo": 0, "ticker": "NBBK", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 22.36, "tp": 3.6105057690671467, "note": "3.6x tape out of the gate"}
 {"ts": "2026-07-24T09:47:36.406902-04:00", "demo": 0, "ticker": "VIVK", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.91, "tp": 1.816926845487023, "note": ""}
+{"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "RNG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 48.74, "tp": 3.211889152462556, "note": "3.2x tape out of the gate"}
+{"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "BAH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 74.05, "tp": 2.002031077561585, "note": ""}
+{"ts": "2026-07-24T09:51:21.407401-04:00", "demo": 0, "ticker": "SSNC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 74.42, "tp": 2.509576992311206, "note": ""}
