@@ -38,3 +38,13 @@
 {"ts": "2026-07-27T14:19:27.371420-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.18, "tp": 16.665171400370586, "note": "sustained 16.7x"}
 {"ts": "2026-07-27T14:19:27.371420-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.16, "tp": 0.7430760410887223, "note": "pace 0.7x off peak 2.2x"}
 {"ts": "2026-07-27T14:19:27.371420-04:00", "demo": 0, "ticker": "LVWR", "prev_state": "FADING", "state": "LEAVING", "price": 2.58, "tp": 7.081867336617145, "note": "pace 7.1x off peak 37.8x \u00b7 VWAP lost (was +27.1% above)"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "COOLING", "state": "QUIET", "price": 28.19, "tp": 1.6913679709132652, "note": ""}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "GMOI", "prev_state": "QUIET", "state": "RUNNING", "price": 39.42, "tp": 18.483804440143153, "note": "sustained 18.5x"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "FNKO", "prev_state": "RUNNING", "state": "FADING", "price": 6.165, "tp": 2.2397566572089107, "note": "pace 2.2x vs peak 10.9x \u00b7 -1.2% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.56, "tp": 4.2561989180051185, "note": "sustained 4.3x"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "HRTG", "prev_state": "QUIET", "state": "RUNNING", "price": 28.66, "tp": 1.90680235255268, "note": "sustained 1.9x"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "CGHM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 25.53, "tp": 2.054754828290052, "note": "quiet open (1.2x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.77, "tp": 2.000961660491065, "note": "sustained 2.0x"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.865, "tp": 5.94179566747488, "note": "pace 5.9x and accelerating (9.0x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.1, "tp": 15.788378636829448, "note": "sustained 15.8x"}
+{"ts": "2026-07-27T14:22:27.372149-04:00", "demo": 0, "ticker": "UHT", "prev_state": "NEW MONEY", "state": "FADING", "price": 44.37, "tp": 0.0, "note": "pace 0.0x vs peak 2.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
