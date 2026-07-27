@@ -277,3 +277,13 @@
 {"ts": "2026-07-27T15:41:12.387650-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.83, "tp": 8.736494534558643, "note": "sustained 8.7x"}
 {"ts": "2026-07-27T15:41:12.387650-04:00", "demo": 0, "ticker": "BMNR", "prev_state": "COOLING", "state": "FADING", "price": 18.035, "tp": 1.1405691088455063, "note": "pace 1.1x vs peak 3.9x \u00b7 -1.6% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-27T15:41:12.387650-04:00", "demo": 0, "ticker": "EDRY", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.35, "tp": 17.30951828915447, "note": "pace 17.3x and accelerating (7.2x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "COOLING", "price": 11.17, "tp": 1.7973688643360084, "note": "pace 1.8x off peak 14.0x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "COOLING", "state": "RUNNING", "price": 28.885, "tp": 2.566276129799022, "note": "sustained 2.6x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "RUNNING", "state": "FADING", "price": 1.83, "tp": 5.806501839567643, "note": "pace 5.8x vs peak 18.8x \u00b7 -12.6% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "EDBL", "prev_state": "FADING", "state": "COOLING", "price": 2.99, "tp": 0.9358723078547049, "note": "pace 0.9x off peak 212.7x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "CHURN", "state": "RUNNING", "price": 110.57, "tp": 4.299168024470967, "note": "sustained 4.3x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "FNKO", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.08, "tp": 7.548193937068759, "note": "sustained 7.5x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "LEAVING", "state": "IGNITING", "price": 10.66, "tp": 35.44900574581528, "note": "pace 35.4x and accelerating (1.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "GREK", "prev_state": "FADING", "state": "RUNNING", "price": 78.16, "tp": 2.2472493995976626, "note": "sustained 2.2x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.3, "tp": 2.5216241714822525, "note": "sustained 2.5x"}
+{"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "GEM", "prev_state": "RUNNING", "state": "CHURN", "price": 48.63, "tp": 11.133222487142387, "note": "11.1x participation, no progress at highs \u2014 absorption"}
