@@ -99,3 +99,16 @@
 {"ts": "2026-07-27T14:40:27.375471-04:00", "demo": 0, "ticker": "HLN", "prev_state": "RUNNING", "state": "FADING", "price": 10.025, "tp": 1.9302935230360945, "note": "pace 1.9x vs peak 8.2x \u00b7 -0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-27T14:40:27.375471-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1928, "tp": 13.54138827291259, "note": "pace 13.5x and accelerating (1.6x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-07-27T14:40:27.375471-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.29, "tp": 42.58405628316275, "note": "sustained 42.6x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "FRBT", "prev_state": "RUNNING", "state": "CHURN", "price": 20.03, "tp": 7.422093258179139, "note": "7.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "FCOR", "prev_state": "QUIET", "state": "RUNNING", "price": 46.365, "tp": 4.829185987941881, "note": "sustained 4.8x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "HIBS", "prev_state": "QUIET", "state": "RUNNING", "price": 23.45, "tp": 1.8687923460097378, "note": "sustained 1.9x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "BKAG", "prev_state": "QUIET", "state": "RUNNING", "price": 41.415, "tp": 8.877403143091296, "note": "sustained 8.9x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "CHURN", "state": "RUNNING", "price": 109.92, "tp": 4.902818608504178, "note": "sustained 4.9x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "ETHU", "prev_state": "FADING", "state": "COOLING", "price": 16.81, "tp": 1.697300599881673, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "AMR", "prev_state": "QUIET", "state": "RUNNING", "price": 144.26, "tp": 3.6343471478166434, "note": "sustained 3.6x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 28.24, "tp": 2.2270548283758007, "note": "quiet open (0.9x) \u2192 now 2.2x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.89, "tp": 27.148405310271265, "note": "pace 27.1x and accelerating (4.0x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.05, "tp": 2.8733502488899325, "note": "sustained 2.9x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "FNDX", "prev_state": "FADING", "state": "RUNNING", "price": 31.6, "tp": 1.9141750006392944, "note": "sustained 1.9x"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "QUIET", "state": "NEW MONEY", "price": 15.27, "tp": 3.0046583530994404, "note": "quiet open (1.1x) \u2192 now 3.0x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-27T14:43:27.376384-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.83, "tp": 68.14397846156186, "note": "pace 68.1x and accelerating (2.3x vs prior window) \u00b7 -0.7% in window"}
