@@ -259,3 +259,7 @@
 {"ts": "2026-07-27T15:30:42.385384-04:00", "demo": 0, "ticker": "AMR", "prev_state": "RUNNING", "state": "FADING", "price": 145.8, "tp": 0.9627805717262468, "note": "pace 1.0x vs peak 4.8x \u00b7 -0.8% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-27T15:30:42.385384-04:00", "demo": 0, "ticker": "EGGY", "prev_state": "RUNNING", "state": "COOLING", "price": 32.96, "tp": 1.6311439847889235, "note": "pace 1.6x off peak 22.5x"}
 {"ts": "2026-07-27T15:30:42.385384-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "RUNNING", "state": "LEAVING", "price": 10.72, "tp": 17.45764336018, "note": "pace 17.5x off peak 34.1x \u00b7 VWAP lost (was +13.2% above)"}
+{"ts": "2026-07-27T15:34:27.386146-04:00", "demo": 0, "ticker": "HRTG", "prev_state": "RUNNING", "state": "QUIET", "price": 28.565, "tp": 1.5779892711085133, "note": ""}
+{"ts": "2026-07-27T15:34:27.386146-04:00", "demo": 0, "ticker": "BMNR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.18, "tp": 1.6503005568085136, "note": "pace 1.7x off peak 3.9x"}
+{"ts": "2026-07-27T15:34:27.386146-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "COOLING", "price": 13.18, "tp": 1.4755783680553898, "note": "pace 1.5x off peak 17.8x"}
+{"ts": "2026-07-27T15:34:27.386146-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "IGNITING", "price": 13.0, "tp": 33.460073304177804, "note": "pace 33.5x and accelerating (2.0x vs prior window) \u00b7 +12.6% in window"}
