@@ -3,3 +3,5 @@
 {"ts": "2026-07-27T09:37:25.241882-04:00", "demo": 0, "ticker": "TRIN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Trinity Capital Celebrates First Day of Trading on NYSE"}
 {"ts": "2026-07-27T09:37:25.241882-04:00", "demo": 0, "ticker": "PICS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PICS INVESTOR NOTICE: PicS N.V. Investors with Substantial Losses Have Opportunity to Lead Investor Class Action- HBSS"}
 {"ts": "2026-07-27T09:37:25.241882-04:00", "demo": 0, "ticker": "CISS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "C3is Inc. Announces Pricing of\u00a0$6.0 Million Underwritten Public Offering"}
+{"ts": "2026-07-27T09:40:25.256557-04:00", "demo": 0, "ticker": "QBTS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 18.93, "tp": 2.4808883877435224, "note": ""}
+{"ts": "2026-07-27T09:40:25.256557-04:00", "demo": 0, "ticker": "RGTI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.755, "tp": 2.3994425231140357, "note": ""}
