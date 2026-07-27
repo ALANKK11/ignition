@@ -78,3 +78,13 @@
 {"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "FRBT", "prev_state": "CHURN", "state": "RUNNING", "price": 20.03, "tp": 14.64010026448674, "note": "sustained 14.6x"}
 {"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "CGHM", "prev_state": "NEW MONEY", "state": "FADING", "price": 25.53, "tp": 0.7804538369766304, "note": "pace 0.8x vs peak 2.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.24, "tp": 12.388457804684196, "note": "sustained 12.4x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "EWD", "prev_state": "CHURN", "state": "RUNNING", "price": 50.955, "tp": 11.011587146675014, "note": "sustained 11.0x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "UHT", "prev_state": "FADING", "state": "COOLING", "price": 44.45, "tp": 1.458217324056481, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "FADING", "state": "LEAVING", "price": 4.0, "tp": 3070.5397387728926, "note": "pace 3070.5x off peak 9675.5x \u00b7 VWAP lost (was +12.0% above)"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "GMOI", "prev_state": "RUNNING", "state": "FADING", "price": 39.42, "tp": 0.0, "note": "pace 0.0x vs peak 18.9x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "CHURN", "state": "RUNNING", "price": 4.82, "tp": 13.32845099539979, "note": "sustained 13.3x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "QUIET", "state": "IGNITING", "price": 18.92, "tp": 3.2247641556491833, "note": "pace 3.2x and accelerating (2.4x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.84, "tp": 30.110713942422787, "note": "sustained 30.1x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "FADING", "state": "RUNNING", "price": 0.1926, "tp": 13.580720047978964, "note": "sustained 13.6x"}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "QUIET", "price": 12.2, "tp": 1.7888877670427328, "note": ""}
+{"ts": "2026-07-27T14:37:27.375049-04:00", "demo": 0, "ticker": "GREK", "prev_state": "QUIET", "state": "RUNNING", "price": 78.08, "tp": 2.3009475848841583, "note": "sustained 2.3x"}
