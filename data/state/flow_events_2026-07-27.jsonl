@@ -64,3 +64,12 @@
 {"ts": "2026-07-27T14:28:27.372848-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "QUIET", "state": "RUNNING", "price": 12.2, "tp": 1.9114570345873214, "note": "sustained 1.9x"}
 {"ts": "2026-07-27T14:28:27.372848-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "RUNNING", "state": "COOLING", "price": 109.96, "tp": 1.7284224486040443, "note": "pace 1.7x off peak 3.5x"}
 {"ts": "2026-07-27T14:28:27.372848-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.89, "tp": 4.181020339061722, "note": "sustained 4.2x"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "RUNNING", "state": "FADING", "price": 0.1919, "tp": 1.3806772442532347, "note": "pace 1.4x vs peak 14.6x \u00b7 -10.2% off HOD \u00b7 chart still +43% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "COOLING", "state": "RUNNING", "price": 110.02, "tp": 3.3162470756155464, "note": "sustained 3.3x"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "RUNNING", "state": "FADING", "price": 7.91, "tp": 1.7189865595607337, "note": "pace 1.7x vs peak 5.9x \u00b7 -3.4% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "CHURN", "price": 4.835, "tp": 16.46399247865427, "note": "16.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.485, "tp": 18.430143520976593, "note": "sustained 18.4x"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "EDBL", "prev_state": "IGNITING", "state": "COOLING", "price": 3.05, "tp": 0.0, "note": "pace 0.0x off peak 212.7x"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "COOLING", "price": 11.335, "tp": 0.0, "note": "pace 0.0x off peak 14.0x"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "EWD", "prev_state": "QUIET", "state": "CHURN", "price": 50.99, "tp": 10.607202988964493, "note": "10.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "ETY", "prev_state": "RUNNING", "state": "COOLING", "price": 14.2, "tp": 1.2342649319804662, "note": "pace 1.2x off peak 3.2x"}
