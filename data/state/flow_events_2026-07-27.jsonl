@@ -295,3 +295,8 @@
 {"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "CHURN", "price": 28.89, "tp": 2.6317277714541043, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "FADING", "state": "LEAVING", "price": 3.56, "tp": 149.7041346508313, "note": "pace 149.7x off peak 9675.5x \u00b7 VWAP lost (was +12.0% above)"}
 {"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "COOLING", "state": "RUNNING", "price": 11.13, "tp": 1.8078478294718017, "note": "sustained 1.8x"}
+{"ts": "2026-07-27T15:50:12.389263-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "RUNNING", "state": "COOLING", "price": 110.57, "tp": 1.4122349054453198, "note": "pace 1.4x off peak 5.3x"}
+{"ts": "2026-07-27T15:50:12.389263-04:00", "demo": 0, "ticker": "GOOGN", "prev_state": "FADING", "state": "QUIET", "price": 47.585, "tp": 1.6579558244570518, "note": ""}
+{"ts": "2026-07-27T15:50:12.389263-04:00", "demo": 0, "ticker": "HRTG", "prev_state": "COOLING", "state": "RUNNING", "price": 28.62, "tp": 1.9994326009015138, "note": "sustained 2.0x"}
+{"ts": "2026-07-27T15:50:12.389263-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "FADING", "state": "IGNITING", "price": 7.695, "tp": 4.465580889068106, "note": "pace 4.5x and accelerating (2.4x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-07-27T15:50:12.389263-04:00", "demo": 0, "ticker": "FNKO", "prev_state": "RUNNING", "state": "FADING", "price": 6.055, "tp": 0.8959694804471938, "note": "pace 0.9x vs peak 14.8x \u00b7 -3.0% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
