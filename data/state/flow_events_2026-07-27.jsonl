@@ -73,3 +73,8 @@
 {"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "COOLING", "price": 11.335, "tp": 0.0, "note": "pace 0.0x off peak 14.0x"}
 {"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "EWD", "prev_state": "QUIET", "state": "CHURN", "price": 50.99, "tp": 10.607202988964493, "note": "10.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-27T14:31:27.373912-04:00", "demo": 0, "ticker": "ETY", "prev_state": "RUNNING", "state": "COOLING", "price": 14.2, "tp": 1.2342649319804662, "note": "pace 1.2x off peak 3.2x"}
+{"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "UTZ", "prev_state": "QUIET", "state": "RUNNING", "price": 14.09, "tp": 1.9858628671137386, "note": "sustained 2.0x"}
+{"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "IGNITING", "price": 10.75, "tp": 61.00573346814841, "note": "pace 61.0x and accelerating (2.6x vs prior window) \u00b7 -3.8% in window"}
+{"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "FRBT", "prev_state": "CHURN", "state": "RUNNING", "price": 20.03, "tp": 14.64010026448674, "note": "sustained 14.6x"}
+{"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "CGHM", "prev_state": "NEW MONEY", "state": "FADING", "price": 25.53, "tp": 0.7804538369766304, "note": "pace 0.8x vs peak 2.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T14:34:27.374442-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.24, "tp": 12.388457804684196, "note": "sustained 12.4x"}
