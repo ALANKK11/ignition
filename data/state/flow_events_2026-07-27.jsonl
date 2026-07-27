@@ -206,3 +206,12 @@
 {"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "LEAVING", "state": "IGNITING", "price": 0.1834, "tp": 8.587818089999109, "note": "pace 8.6x and accelerating (2.7x vs prior window) \u00b7 -3.5% in window"}
 {"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "FCOR", "prev_state": "RUNNING", "state": "COOLING", "price": 46.36, "tp": 0.0, "note": "pace 0.0x off peak 45.4x"}
 {"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "QUIET", "state": "RUNNING", "price": 24.29, "tp": 1.8537224327087836, "note": "sustained 1.9x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "RUNNING", "state": "QUIET", "price": 24.29, "tp": 1.7433212518929024, "note": ""}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.1829, "tp": 7.3102793492088685, "note": "pace 7.3x off peak 14.6x \u00b7 VWAP lost (was +5.5% above)"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.32, "tp": 2.9832606284119016, "note": "sustained 3.0x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "VCX", "prev_state": "RUNNING", "state": "COOLING", "price": 40.785, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "QUIET", "state": "RUNNING", "price": 28.895, "tp": 1.82847048071852, "note": "sustained 1.8x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "DBP", "prev_state": "RUNNING", "state": "CHURN", "price": 93.57, "tp": 61.24115984407202, "note": "61.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.5, "tp": 4.304840444592836, "note": "sustained 4.3x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "EGGY", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.93, "tp": 10.64749589996412, "note": "sustained 10.6x"}
+{"ts": "2026-07-27T15:17:57.382872-04:00", "demo": 0, "ticker": "HLN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.005, "tp": 5.295955164073103, "note": "sustained 5.3x"}
