@@ -327,3 +327,4 @@
 {"ts": "2026-07-27T15:59:12.390813-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.18, "tp": 3.822668121058932, "note": "sustained 3.8x"}
 {"ts": "2026-07-27T16:11:12.378386-04:00", "demo": 0, "ticker": "DH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Definitive Healthcare Corp. reports inducement grants under Nasdaq Listing Rule 5635(c)(4)"}
 {"ts": "2026-07-27T16:11:12.378386-04:00", "demo": 0, "ticker": "FDS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "FactSet Announces Appointment of Chief People & Workforce Transformation Officer"}
+{"ts": "2026-07-27T16:17:12.379512-04:00", "demo": 0, "ticker": "TALO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Talos Energy Announces Strategic Offshore Mexico Development Farm-In"}
