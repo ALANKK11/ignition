@@ -325,3 +325,5 @@
 {"ts": "2026-07-27T15:59:12.390813-04:00", "demo": 0, "ticker": "FTH", "prev_state": "FADING", "state": "IGNITING", "price": 29.49, "tp": 4.4080325009806165, "note": "pace 4.4x and accelerating (3.3x vs prior window) \u00b7 +1.7% in window"}
 {"ts": "2026-07-27T15:59:12.390813-04:00", "demo": 0, "ticker": "AMR", "prev_state": "IGNITING", "state": "CHURN", "price": 145.12, "tp": 7.1304473822271195, "note": "7.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-27T15:59:12.390813-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.18, "tp": 3.822668121058932, "note": "sustained 3.8x"}
+{"ts": "2026-07-27T16:11:12.378386-04:00", "demo": 0, "ticker": "DH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Definitive Healthcare Corp. reports inducement grants under Nasdaq Listing Rule 5635(c)(4)"}
+{"ts": "2026-07-27T16:11:12.378386-04:00", "demo": 0, "ticker": "FDS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "FactSet Announces Appointment of Chief People & Workforce Transformation Officer"}
