@@ -8,3 +8,5 @@
 {"ts": "2026-07-27T09:44:10.257174-04:00", "demo": 0, "ticker": "IKT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.355, "tp": 2.8733410085217606, "note": ""}
 {"ts": "2026-07-27T09:44:10.257174-04:00", "demo": 0, "ticker": "INDY", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.95, "tp": 2.1643107790376717, "note": ""}
 {"ts": "2026-07-27T09:51:40.258763-04:00", "demo": 0, "ticker": "EDBL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.61, "tp": 0.0, "note": ""}
+{"ts": "2026-07-27T09:55:25.260358-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 44.0, "tp": 1.8968107193413846, "note": ""}
+{"ts": "2026-07-27T09:55:25.260358-04:00", "demo": 0, "ticker": "RGTI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 16.0, "tp": 3.101991763773328, "note": "3.1x tape out of the gate"}
