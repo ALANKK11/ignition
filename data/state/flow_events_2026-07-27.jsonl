@@ -180,3 +180,10 @@
 {"ts": "2026-07-27T15:05:57.380549-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "COOLING", "state": "RUNNING", "price": 7.86, "tp": 2.101540690278178, "note": "sustained 2.1x"}
 {"ts": "2026-07-27T15:05:57.380549-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.41, "tp": 6.626831906152806, "note": "pace 6.6x and accelerating (2.3x vs prior window) \u00b7 +3.7% in window"}
 {"ts": "2026-07-27T15:05:57.380549-04:00", "demo": 0, "ticker": "BITW", "prev_state": "FADING", "state": "IGNITING", "price": 41.58, "tp": 34.52546024862443, "note": "pace 34.5x and accelerating (4.4x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "FADING", "state": "IGNITING", "price": 4.825, "tp": 12.219016596087707, "note": "pace 12.2x and accelerating (2.7x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "BKIE", "prev_state": "FADING", "state": "RUNNING", "price": 33.43, "tp": 4.599472590639977, "note": "sustained 4.6x"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "COOLING", "price": 11.175, "tp": 1.712909911178966, "note": "pace 1.7x off peak 14.0x"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "FBRX", "prev_state": "FADING", "state": "RUNNING", "price": 76.47, "tp": 13.876523681231035, "note": "sustained 13.9x"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "HIBS", "prev_state": "QUIET", "state": "COOLING", "price": 23.24, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "RUNNING", "state": "FADING", "price": 12.3, "tp": 26.351923654375238, "note": "pace 26.4x vs peak 86.4x \u00b7 -2.5% off HOD \u00b7 chart still +170% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-27T15:08:57.381486-04:00", "demo": 0, "ticker": "BITW", "prev_state": "IGNITING", "state": "CHURN", "price": 41.79, "tp": 75.73992812176337, "note": "75.7x participation, no progress at highs \u2014 absorption"}
