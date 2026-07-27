@@ -136,3 +136,8 @@
 {"ts": "2026-07-27T14:49:27.377311-04:00", "demo": 0, "ticker": "UTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 14.09, "tp": 0.6297921501649798, "note": "pace 0.6x off peak 2.1x"}
 {"ts": "2026-07-27T14:49:27.377311-04:00", "demo": 0, "ticker": "EWD", "prev_state": "RUNNING", "state": "FADING", "price": 50.93, "tp": 4.9468806609261415, "note": "pace 4.9x vs peak 15.6x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-27T14:49:27.377311-04:00", "demo": 0, "ticker": "HLN", "prev_state": "FADING", "state": "CHURN", "price": 10.015, "tp": 3.19390947881437, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T14:52:27.377826-04:00", "demo": 0, "ticker": "HLN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.015, "tp": 2.9505980090492674, "note": "sustained 3.0x"}
+{"ts": "2026-07-27T14:52:27.377826-04:00", "demo": 0, "ticker": "ENFR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.39, "tp": 1.702845376984785, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-07-27T14:52:27.377826-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "IGNITING", "state": "LEAVING", "price": 4.0, "tp": 4849.744525429239, "note": "pace 4849.7x off peak 9675.5x \u00b7 VWAP lost (was +12.0% above)"}
+{"ts": "2026-07-27T14:52:27.377826-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.78, "tp": 3.05754091517291, "note": "sustained 3.1x"}
+{"ts": "2026-07-27T14:52:27.377826-04:00", "demo": 0, "ticker": "BBCQ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 10.22, "tp": 2.1654473023317578, "note": "quiet open (1.2x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
