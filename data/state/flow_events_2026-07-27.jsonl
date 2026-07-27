@@ -199,3 +199,10 @@
 {"ts": "2026-07-27T15:11:57.381763-04:00", "demo": 0, "ticker": "ETHU", "prev_state": "FADING", "state": "IGNITING", "price": 17.04, "tp": 4.920912747346443, "note": "pace 4.9x and accelerating (8.6x vs prior window) \u00b7 +1.7% in window"}
 {"ts": "2026-07-27T15:11:57.381763-04:00", "demo": 0, "ticker": "HLN", "prev_state": "FADING", "state": "CHURN", "price": 10.015, "tp": 5.281424978828461, "note": "5.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-27T15:11:57.381763-04:00", "demo": 0, "ticker": "SMIG", "prev_state": "QUIET", "state": "RUNNING", "price": 33.34, "tp": 2.6041385268606634, "note": "sustained 2.6x"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "QUIET", "price": 28.9, "tp": 1.7547997572321483, "note": ""}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "GDXY", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.76, "tp": 23.48452250054937, "note": "sustained 23.5x"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.37, "tp": 2.9268460765657647, "note": "sustained 2.9x"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.825, "tp": 18.09585029504591, "note": "sustained 18.1x"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "GOSS", "prev_state": "LEAVING", "state": "IGNITING", "price": 0.1834, "tp": 8.587818089999109, "note": "pace 8.6x and accelerating (2.7x vs prior window) \u00b7 -3.5% in window"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "FCOR", "prev_state": "RUNNING", "state": "COOLING", "price": 46.36, "tp": 0.0, "note": "pace 0.0x off peak 45.4x"}
+{"ts": "2026-07-27T15:14:57.382042-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "QUIET", "state": "RUNNING", "price": 24.29, "tp": 1.8537224327087836, "note": "sustained 1.9x"}
