@@ -287,3 +287,11 @@
 {"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "GREK", "prev_state": "FADING", "state": "RUNNING", "price": 78.16, "tp": 2.2472493995976626, "note": "sustained 2.2x"}
 {"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.3, "tp": 2.5216241714822525, "note": "sustained 2.5x"}
 {"ts": "2026-07-27T15:44:12.388000-04:00", "demo": 0, "ticker": "GEM", "prev_state": "RUNNING", "state": "CHURN", "price": 48.63, "tp": 11.133222487142387, "note": "11.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "IGNITING", "state": "LEAVING", "price": 7.89, "tp": 13.3682395097052, "note": "pace 13.4x off peak 33.9x \u00b7 VWAP lost (was +2.9% above)"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "HRTG", "prev_state": "QUIET", "state": "COOLING", "price": 28.61, "tp": 1.2042902146264955, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.615, "tp": 26.139212915750072, "note": "sustained 26.1x"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "GEM", "prev_state": "CHURN", "state": "RUNNING", "price": 48.63, "tp": 9.651844633124636, "note": "sustained 9.7x"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "EDBL", "prev_state": "COOLING", "state": "IGNITING", "price": 2.825, "tp": 11.770112449895004, "note": "pace 11.8x and accelerating (235.4x vs prior window) \u00b7 -10.3% in window"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "CHURN", "price": 28.89, "tp": 2.6317277714541043, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "FADING", "state": "LEAVING", "price": 3.56, "tp": 149.7041346508313, "note": "pace 149.7x off peak 9675.5x \u00b7 VWAP lost (was +12.0% above)"}
+{"ts": "2026-07-27T15:47:12.388646-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "COOLING", "state": "RUNNING", "price": 11.13, "tp": 1.8078478294718017, "note": "sustained 1.8x"}
