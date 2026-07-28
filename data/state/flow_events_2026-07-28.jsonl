@@ -119,3 +119,12 @@
 {"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.07, "tp": 1.2208866868044628, "note": "pace 1.2x off peak 2.8x"}
 {"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "QUIET", "state": "COOLING", "price": 1.6, "tp": 1.1843541953398706, "note": "pace 1.2x off peak 2.1x"}
 {"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.58, "tp": 13.813064686744358, "note": "sustained 13.8x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "PHG", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.11, "tp": 3.117873716005822, "note": "sustained 3.1x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "CVLT", "prev_state": "COOLING", "state": "RUNNING", "price": 121.77, "tp": 2.0305895135565035, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 2.88, "tp": 2.439320853439801, "note": "quiet open (0.5x) \u2192 now 2.4x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "VCX", "prev_state": "IGNITING", "state": "COOLING", "price": 36.0, "tp": 1.3555737284300258, "note": "pace 1.4x off peak 4.4x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.91, "tp": 4.721900399235968, "note": "sustained 4.7x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "COHX", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.26, "tp": 2.9155833225617727, "note": "sustained 2.9x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 10.23, "tp": 2.550737027071453, "note": "quiet open (1.1x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "IGNITING", "state": "COOLING", "price": 7.25, "tp": 1.0533700980366245, "note": "pace 1.1x off peak 5.5x"}
+{"ts": "2026-07-28T10:24:35.358404-04:00", "demo": 0, "ticker": "ENFR", "prev_state": "RUNNING", "state": "FADING", "price": 39.45, "tp": 0.9646297825172624, "note": "pace 1.0x vs peak 5.9x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
