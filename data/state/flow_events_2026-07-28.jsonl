@@ -713,3 +713,11 @@
 {"ts": "2026-07-28T14:14:17.853186-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "CHURN", "price": 59.04, "tp": 7.247730627662902, "note": "7.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-28T14:14:17.853186-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "QUIET", "state": "RUNNING", "price": 41.77, "tp": 2.220344274895103, "note": "sustained 2.2x"}
 {"ts": "2026-07-28T14:14:17.853186-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "COOLING", "state": "QUIET", "price": 29.14, "tp": 1.4287917822407796, "note": ""}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BUFD", "prev_state": "CHURN", "state": "FADING", "price": 29.79, "tp": 0.0, "note": "pace 0.0x vs peak 21.1x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "CDNS", "prev_state": "LEAVING", "state": "FADING", "price": 346.07, "tp": 1.7193037177982156, "note": "pace 1.7x vs peak 6.8x \u00b7 -2.5% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "CIG", "prev_state": "RUNNING", "state": "CHURN", "price": 2.16, "tp": 3.6308837671051513, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BCAL", "prev_state": "COOLING", "state": "RUNNING", "price": 21.58, "tp": 1.9548413232519088, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "RUNNING", "state": "CHURN", "price": 28.655, "tp": 3.4248402894434937, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "RUNNING", "price": 59.04, "tp": 5.820522090666324, "note": "sustained 5.8x"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 77.99, "tp": 0.2887053415836766, "note": "pace 0.3x off peak 10.5x"}
+{"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "QUIET", "state": "COOLING", "price": 29.14, "tp": 0.49888564277254915, "note": "pace 0.5x off peak 1.9x"}
