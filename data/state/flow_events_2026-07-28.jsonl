@@ -879,3 +879,10 @@
 {"ts": "2026-07-28T15:02:17.862781-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "RUNNING", "price": 58.965, "tp": 4.915846771053083, "note": "sustained 4.9x"}
 {"ts": "2026-07-28T15:02:17.862781-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "FADING", "state": "LEAVING", "price": 41.78, "tp": 0.2736497819041669, "note": "pace 0.3x off peak 2.2x \u00b7 VWAP lost (was +2.5% above)"}
 {"ts": "2026-07-28T15:02:17.862781-04:00", "demo": 0, "ticker": "STVN", "prev_state": "FADING", "state": "CHURN", "price": 19.97, "tp": 2.6844775011080366, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "COOLING", "price": 6.92, "tp": 1.660522521992095, "note": "pace 1.7x off peak 7.0x"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "ABG", "prev_state": "FADING", "state": "IGNITING", "price": 235.645, "tp": 4.99880158038955, "note": "pace 5.0x and accelerating (4.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "CXM", "prev_state": "FADING", "state": "LEAVING", "price": 6.35, "tp": 0.5021585759087445, "note": "pace 0.5x off peak 7.5x \u00b7 VWAP lost (was +2.1% above)"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "HYT", "prev_state": "FADING", "state": "CHURN", "price": 8.325, "tp": 5.702578303446375, "note": "5.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "COOLING", "state": "RUNNING", "price": 29.08, "tp": 1.9984820313164484, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 43.01, "tp": 6.684554034778778, "note": "pace 6.7x and accelerating (7.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-07-28T15:05:17.863292-04:00", "demo": 0, "ticker": "STVN", "prev_state": "CHURN", "state": "RUNNING", "price": 19.97, "tp": 4.226899171745236, "note": "sustained 4.2x"}
