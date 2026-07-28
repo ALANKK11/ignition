@@ -306,3 +306,18 @@
 {"ts": "2026-07-28T11:20:50.370916-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "COOLING", "state": "QUIET", "price": 29.91, "tp": 1.5782292866924281, "note": ""}
 {"ts": "2026-07-28T11:20:50.370916-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "COOLING", "state": "RUNNING", "price": 10.05, "tp": 1.9306965696695126, "note": "sustained 1.9x"}
 {"ts": "2026-07-28T11:20:50.370916-04:00", "demo": 0, "ticker": "ALKT", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.24, "tp": 8.13421593789817, "note": "pace 8.1x and accelerating (12.8x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "CORZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.915, "tp": 3.9027667353181807, "note": "sustained 3.9x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "COOLING", "price": 27.83, "tp": 1.770050364936159, "note": "pace 1.8x off peak 2.6x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "CEVA", "prev_state": "RUNNING", "state": "COOLING", "price": 32.42, "tp": 1.1674263842796933, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "RUNNING", "price": 18.31, "tp": 1.8159006890407081, "note": "sustained 1.8x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "UROY", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 2.73, "tp": 2.651571487912946, "note": "quiet open (0.8x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.23, "tp": 22.398077756475004, "note": "pace 22.4x and accelerating (28.7x vs prior window) \u00b7 +2.7% in window"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "ALKT", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.26, "tp": 5.05001820819293, "note": "sustained 5.1x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "COOLING", "state": "RUNNING", "price": 77.915, "tp": 1.811335088623389, "note": "sustained 1.8x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "RUNNING", "state": "COOLING", "price": 32.82, "tp": 1.448816334896022, "note": "pace 1.4x off peak 6.4x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "LBTYA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 9.945, "tp": 1.9633143167796652, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "AURA", "prev_state": "RUNNING", "state": "COOLING", "price": 7.1, "tp": 0.8191296149164637, "note": "pace 0.8x off peak 14.9x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "BKLC", "prev_state": "IGNITING", "state": "RUNNING", "price": 47.27, "tp": 2.5518943204372446, "note": "sustained 2.6x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "FADING", "price": 26.59, "tp": 0.25655565208169634, "note": "pace 0.3x vs peak 4.4x \u00b7 -2.7% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "CNC", "prev_state": "IGNITING", "state": "RUNNING", "price": 61.355, "tp": 2.4431288049086897, "note": "sustained 2.4x"}
+{"ts": "2026-07-28T11:24:35.371884-04:00", "demo": 0, "ticker": "ARRY", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.165, "tp": 3.1896882860898725, "note": "sustained 3.2x"}
