@@ -13,3 +13,4 @@
 {"ts": "2026-07-28T09:35:50.346601-04:00", "demo": 0, "ticker": "VCX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 39.325, "tp": 1.1194252437995815, "note": ""}
 {"ts": "2026-07-28T09:35:50.346601-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 43.2, "tp": 2.285478338958612, "note": ""}
 {"ts": "2026-07-28T09:37:20.331919-04:00", "demo": 0, "ticker": "RUBI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Rubico Announces Acquisition of 3rd Newbuilding MR Tanker and a 24% Increase of Potential Gross Revenue Backlog to About"}
+{"ts": "2026-07-28T09:39:35.347797-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.98, "tp": 2.4385625582403305, "note": ""}
