@@ -992,3 +992,9 @@
 {"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "ACGC", "prev_state": "CHURN", "state": "COOLING", "price": 9.96, "tp": 0.0, "note": "pace 0.0x off peak 264.9x"}
 {"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "COOLING", "state": "RUNNING", "price": 42.68, "tp": 1.8210413812551873, "note": "sustained 1.8x"}
 {"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "COOLING", "state": "NEW MONEY", "price": 10.645, "tp": 2.7231443102587862, "note": "quiet open (1.1x) \u2192 now 2.7x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "IGNITING", "state": "FADING", "price": 3.745, "tp": 3.1026501104302255, "note": "pace 3.1x vs peak 9.0x \u00b7 -2.9% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "BTDR", "prev_state": "RUNNING", "state": "LEAVING", "price": 10.345, "tp": 5.903495433411701, "note": "pace 5.9x off peak 12.7x \u00b7 VWAP lost (was +3.6% above)"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.13, "tp": 2.464378285908502, "note": "sustained 2.5x"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "AIBZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.965, "tp": 7.4610943872431, "note": "pace 7.5x and accelerating (2.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 59.32, "tp": 2.0432455560469363, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T15:41:17.870412-04:00", "demo": 0, "ticker": "HYT", "prev_state": "FADING", "state": "COOLING", "price": 8.32, "tp": 0.9508940593539981, "note": "pace 1.0x off peak 5.7x"}
