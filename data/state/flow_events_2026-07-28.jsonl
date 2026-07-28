@@ -234,3 +234,14 @@
 {"ts": "2026-07-28T11:02:05.367085-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "FADING", "state": "NEW MONEY", "price": 10.11, "tp": 8.376465800524011, "note": "quiet open (0.6x) \u2192 now 8.4x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-07-28T11:02:05.367085-04:00", "demo": 0, "ticker": "CDNS", "prev_state": "IGNITING", "state": "RUNNING", "price": 344.53, "tp": 6.7391559146181885, "note": "sustained 6.7x"}
 {"ts": "2026-07-28T11:02:05.367085-04:00", "demo": 0, "ticker": "ECL", "prev_state": "RUNNING", "state": "CHURN", "price": 281.965, "tp": 2.6362289119547295, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.17, "tp": 2.0726399473284194, "note": "sustained 2.1x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "COOLING", "price": 15.52, "tp": 1.2899406796215378, "note": "pace 1.3x off peak 6.9x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "LEAVING", "state": "IGNITING", "price": 26.47, "tp": 3.1385745890620287, "note": "pace 3.1x and accelerating (1.9x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "RUNNING", "state": "COOLING", "price": 33.8, "tp": 1.395931571251921, "note": "pace 1.4x off peak 2.5x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "RUNNING", "state": "COOLING", "price": 10.01, "tp": 1.7544368395891514, "note": "pace 1.8x off peak 61.7x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "VCX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 32.735, "tp": 2.4338507915673744, "note": "sustained 2.4x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "FADING", "price": 4.94, "tp": 1.6472011021559068, "note": "pace 1.6x vs peak 8.4x \u00b7 -0.4% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "CNC", "prev_state": "COOLING", "state": "RUNNING", "price": 59.925, "tp": 1.8767692642030465, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 77.17, "tp": 6.763223270342099, "note": "sustained 6.8x"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.99, "tp": 8.519254816985796, "note": "pace 8.5x and accelerating (1.6x vs prior window) \u00b7 +3.5% in window"}
+{"ts": "2026-07-28T11:05:50.367774-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "COOLING", "state": "RUNNING", "price": 6.94, "tp": 3.690137597744026, "note": "sustained 3.7x"}
