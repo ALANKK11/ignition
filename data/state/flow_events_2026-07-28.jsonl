@@ -977,3 +977,11 @@
 {"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "CBNK", "prev_state": "NEW MONEY", "state": "COOLING", "price": 38.15, "tp": 1.5283564864743073, "note": "pace 1.5x off peak 3.8x"}
 {"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.11, "tp": 2.8613561007886026, "note": "sustained 2.9x"}
 {"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "STVN", "prev_state": "RUNNING", "state": "FADING", "price": 19.95, "tp": 3.398173556174122, "note": "pace 3.4x vs peak 13.3x \u00b7 -1.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "RUNNING", "state": "COOLING", "price": 7.675, "tp": 1.2465657518794862, "note": "pace 1.2x off peak 10.3x"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "BAMG", "prev_state": "CHURN", "state": "COOLING", "price": 43.1, "tp": 0.0, "note": "pace 0.0x off peak 55.8x"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "FADING", "price": 29.205, "tp": 0.33848586169972944, "note": "pace 0.3x vs peak 28.0x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "RUNNING", "state": "COOLING", "price": 29.125, "tp": 1.7973557868271421, "note": "pace 1.8x off peak 2.8x"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "CBNK", "prev_state": "COOLING", "state": "FADING", "price": 38.15, "tp": 0.0, "note": "pace 0.0x vs peak 3.8x \u00b7 -1.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "RUNNING", "state": "COOLING", "price": 6.11, "tp": 1.4851719715554068, "note": "pace 1.5x off peak 114.1x"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "COOLING", "price": 7.34, "tp": 1.7066457218824975, "note": "pace 1.7x off peak 9.1x"}
+{"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "ALT", "prev_state": "COOLING", "state": "RUNNING", "price": 2.96, "tp": 6.67338844682166, "note": "sustained 6.7x"}
