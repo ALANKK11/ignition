@@ -75,3 +75,16 @@
 {"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.67, "tp": 2.696195000867384, "note": "sustained 2.7x"}
 {"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "COOLING", "state": "QUIET", "price": 1.54, "tp": 1.4595750563013903, "note": ""}
 {"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "KNSA", "prev_state": "RUNNING", "state": "LEAVING", "price": 77.1, "tp": 2.4033969836546247, "note": "pace 2.4x off peak 6.4x \u00b7 VWAP lost (was +6.2% above)"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "LITX", "prev_state": "QUIET", "state": "COOLING", "price": 15.91, "tp": 0.8681156327948021, "note": "pace 0.9x off peak 1.9x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "STVN", "prev_state": "FADING", "state": "RUNNING", "price": 20.175, "tp": 2.6435085317552574, "note": "sustained 2.6x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "IGNITING", "price": 17.86, "tp": 3.740898540578285, "note": "pace 3.7x and accelerating (1.6x vs prior window) \u00b7 -2.9% in window"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 1.6, "tp": 2.127499364474483, "note": "quiet open (0.7x) \u2192 now 2.1x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "COOLING", "state": "IGNITING", "price": 9.72, "tp": 3.2271900703524916, "note": "pace 3.2x and accelerating (6.3x vs prior window) \u00b7 +3.4% in window"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "RUNNING", "state": "COOLING", "price": 6.28, "tp": 1.3528380420200308, "note": "pace 1.4x off peak 4.7x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "RUNNING", "state": "QUIET", "price": 10.42, "tp": 1.4883991786229993, "note": ""}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "BEX", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.08, "tp": 4.479713797178171, "note": "sustained 4.5x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "LEAVING", "state": "RUNNING", "price": 6.02, "tp": 3.7833707718365317, "note": "sustained 3.8x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "IONX", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.33, "tp": 37.85767018004491, "note": "sustained 37.9x"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "VCX", "prev_state": "COOLING", "state": "IGNITING", "price": 36.8, "tp": 3.669986412292016, "note": "pace 3.7x and accelerating (6.8x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "QUIET", "state": "IGNITING", "price": 7.425, "tp": 5.395577476194982, "note": "pace 5.4x and accelerating (107.9x vs prior window) \u00b7 -6.5% in window"}
+{"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "PHG", "prev_state": "COOLING", "state": "RUNNING", "price": 24.91, "tp": 2.1506549761297937, "note": "sustained 2.2x"}
