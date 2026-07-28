@@ -835,3 +835,9 @@
 {"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "RUNNING", "state": "COOLING", "price": 3.985, "tp": 1.7754665278257784, "note": "pace 1.8x off peak 3.1x"}
 {"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "LEAVING", "state": "FADING", "price": 42.03, "tp": 0.7182424905224637, "note": "pace 0.7x vs peak 2.2x \u00b7 -1.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.65, "tp": 1.9269010390737533, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "FADING", "state": "IGNITING", "price": 6.41, "tp": 3.9412724397112675, "note": "pace 3.9x and accelerating (1.7x vs prior window) \u00b7 +8.1% in window"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "RUNNING", "state": "COOLING", "price": 5.76, "tp": 0.0, "note": "pace 0.0x off peak 114.1x"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.985, "tp": 1.9269216853355078, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "MMED", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 17.93, "tp": 4.639086956909504, "note": "pace 4.6x and accelerating (2.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "RUNNING", "state": "COOLING", "price": 10.64, "tp": 1.2377726092104464, "note": "pace 1.2x off peak 5.6x"}
+{"ts": "2026-07-28T14:53:17.861357-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "FADING", "state": "NEW MONEY", "price": 43.125, "tp": 3.921564273279294, "note": "quiet open (0.5x) \u2192 now 3.9x \u00b7 taking +0.6% flow share"}
