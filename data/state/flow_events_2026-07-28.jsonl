@@ -827,3 +827,11 @@
 {"ts": "2026-07-28T14:47:17.860361-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "LEAVING", "price": 23.075, "tp": 14.239962675341586, "note": "pace 14.2x off peak 104.7x \u00b7 VWAP lost (was +30.1% above)"}
 {"ts": "2026-07-28T14:47:17.860361-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.05, "tp": 4.222823018119922, "note": "sustained 4.2x"}
 {"ts": "2026-07-28T14:47:17.860361-04:00", "demo": 0, "ticker": "INDY", "prev_state": "FADING", "state": "NEW MONEY", "price": 43.57, "tp": 2.0858978796291106, "note": "quiet open (0.2x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 77.93, "tp": 1.2412989485214174, "note": "pace 1.2x off peak 10.5x"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "AVIV", "prev_state": "FADING", "state": "RUNNING", "price": 79.51, "tp": 1.9246605906184167, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "ABG", "prev_state": "IGNITING", "state": "FADING", "price": 237.0, "tp": 1.0178093573796674, "note": "pace 1.0x vs peak 9.4x \u00b7 -0.1% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "AESI", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.19, "tp": 3.7136039172487996, "note": "sustained 3.7x"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "SVV", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.19, "tp": 10.530347651060122, "note": "sustained 10.5x"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "RUNNING", "state": "COOLING", "price": 3.985, "tp": 1.7754665278257784, "note": "pace 1.8x off peak 3.1x"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "LEAVING", "state": "FADING", "price": 42.03, "tp": 0.7182424905224637, "note": "pace 0.7x vs peak 2.2x \u00b7 -1.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T14:50:17.860982-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.65, "tp": 1.9269010390737533, "note": "sustained 1.9x"}
