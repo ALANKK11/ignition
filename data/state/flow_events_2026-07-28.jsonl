@@ -985,3 +985,10 @@
 {"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "RUNNING", "state": "COOLING", "price": 6.11, "tp": 1.4851719715554068, "note": "pace 1.5x off peak 114.1x"}
 {"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "COOLING", "price": 7.34, "tp": 1.7066457218824975, "note": "pace 1.7x off peak 9.1x"}
 {"ts": "2026-07-28T15:35:17.869336-04:00", "demo": 0, "ticker": "ALT", "prev_state": "COOLING", "state": "RUNNING", "price": 2.96, "tp": 6.67338844682166, "note": "sustained 6.7x"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "COOLING", "state": "RUNNING", "price": 6.06, "tp": 9.329468739551965, "note": "sustained 9.3x"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "ALT", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.945, "tp": 7.435214916215168, "note": "pace 7.4x and accelerating (3.3x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "AESI", "prev_state": "RUNNING", "state": "LEAVING", "price": 10.975, "tp": 2.31340723822754, "note": "pace 2.3x off peak 7.0x \u00b7 VWAP lost (was +3.5% above)"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "FADING", "state": "IGNITING", "price": 3.75, "tp": 3.587021387053296, "note": "pace 3.6x and accelerating (3.5x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "ACGC", "prev_state": "CHURN", "state": "COOLING", "price": 9.96, "tp": 0.0, "note": "pace 0.0x off peak 264.9x"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "COOLING", "state": "RUNNING", "price": 42.68, "tp": 1.8210413812551873, "note": "sustained 1.8x"}
+{"ts": "2026-07-28T15:38:17.869903-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "COOLING", "state": "NEW MONEY", "price": 10.645, "tp": 2.7231443102587862, "note": "quiet open (1.1x) \u2192 now 2.7x \u00b7 taking +0.4% flow share"}
