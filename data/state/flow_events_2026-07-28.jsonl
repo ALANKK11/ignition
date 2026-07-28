@@ -721,3 +721,9 @@
 {"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "RUNNING", "price": 59.04, "tp": 5.820522090666324, "note": "sustained 5.8x"}
 {"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 77.99, "tp": 0.2887053415836766, "note": "pace 0.3x off peak 10.5x"}
 {"ts": "2026-07-28T14:17:17.853936-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "QUIET", "state": "COOLING", "price": 29.14, "tp": 0.49888564277254915, "note": "pace 0.5x off peak 1.9x"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "AGM", "prev_state": "RUNNING", "state": "COOLING", "price": 212.05, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "BCAL", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 21.585, "tp": 3.3393222284519917, "note": "quiet open (0.4x) \u2192 now 3.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "BNO", "prev_state": "RUNNING", "state": "COOLING", "price": 46.86, "tp": 1.7560064299532119, "note": "pace 1.8x off peak 8.7x"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "AMD", "prev_state": "COOLING", "state": "LEAVING", "price": 455.39, "tp": 1.7301886299468732, "note": "pace 1.7x off peak 4.7x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "AIBZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.0, "tp": 15.812658413145272, "note": "sustained 15.8x"}
+{"ts": "2026-07-28T14:20:17.854874-04:00", "demo": 0, "ticker": "TRAX", "prev_state": "RUNNING", "state": "LEAVING", "price": 41.615, "tp": 1.2142006276197777, "note": "pace 1.2x off peak 2.2x \u00b7 VWAP lost (was +2.5% above)"}
