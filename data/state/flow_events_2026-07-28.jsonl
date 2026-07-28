@@ -751,3 +751,10 @@
 {"ts": "2026-07-28T14:26:17.856246-04:00", "demo": 0, "ticker": "INLF", "prev_state": "LEAVING", "state": "FADING", "price": 4.36, "tp": 0.6791057341733953, "note": "pace 0.7x vs peak 39.3x \u00b7 -46.0% off HOD \u00b7 chart still +37% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-28T14:26:17.856246-04:00", "demo": 0, "ticker": "CDNS", "prev_state": "LEAVING", "state": "FADING", "price": 345.615, "tp": 1.178136104121165, "note": "pace 1.2x vs peak 6.8x \u00b7 -2.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-28T14:26:17.856246-04:00", "demo": 0, "ticker": "MMED", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 17.97, "tp": 2.412147570306743, "note": "sustained 2.4x"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "VCX", "prev_state": "COOLING", "state": "RUNNING", "price": 34.24, "tp": 1.9615257060595768, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "BCAL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 21.585, "tp": 1.2994137464177975, "note": "pace 1.3x off peak 3.3x"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "MMED", "prev_state": "RUNNING", "state": "COOLING", "price": 17.97, "tp": 1.1800865358100008, "note": "pace 1.2x off peak 2.5x"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "UROY", "prev_state": "LEAVING", "state": "FADING", "price": 2.73, "tp": 0.37535174414793904, "note": "pace 0.4x vs peak 3.7x \u00b7 -2.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 33.45, "tp": 0.26810201419494223, "note": "pace 0.3x off peak 8.8x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "AWI", "prev_state": "IGNITING", "state": "RUNNING", "price": 180.97, "tp": 6.985773982830131, "note": "sustained 7.0x"}
+{"ts": "2026-07-28T14:29:17.856657-04:00", "demo": 0, "ticker": "AIBZ", "prev_state": "RUNNING", "state": "COOLING", "price": 5.0, "tp": 0.0, "note": "pace 0.0x off peak 21.6x"}
