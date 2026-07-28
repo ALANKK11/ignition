@@ -337,3 +337,19 @@
 {"ts": "2026-07-28T11:28:20.372528-04:00", "demo": 0, "ticker": "PHG", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.21, "tp": 9.124877347411537, "note": "sustained 9.1x"}
 {"ts": "2026-07-28T11:28:20.372528-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "QUIET", "state": "COOLING", "price": 29.91, "tp": 1.2842659170802715, "note": "pace 1.3x off peak 1.9x"}
 {"ts": "2026-07-28T11:28:20.372528-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 77.96, "tp": 1.4416145726317797, "note": "pace 1.4x off peak 10.5x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "COOLING", "state": "RUNNING", "price": 10.13, "tp": 2.6666243814821216, "note": "sustained 2.7x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "HYT", "prev_state": "RUNNING", "state": "COOLING", "price": 8.32, "tp": 0.0, "note": "pace 0.0x off peak 2.9x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "AIA", "prev_state": "COOLING", "state": "RUNNING", "price": 127.775, "tp": 3.684244147961578, "note": "sustained 3.7x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "ABG", "prev_state": "FADING", "state": "IGNITING", "price": 234.17, "tp": 4.362235026995299, "note": "pace 4.4x and accelerating (7.2x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "COOLING", "price": 26.685, "tp": 1.7903787998860259, "note": "pace 1.8x off peak 5.9x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "SMIG", "prev_state": "FADING", "state": "RUNNING", "price": 33.53, "tp": 5.199087155986907, "note": "sustained 5.2x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "VCX", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.53, "tp": 8.611483823927925, "note": "sustained 8.6x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.11, "tp": 2.0028462226347274, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "BTDR", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.625, "tp": 5.737799660961661, "note": "sustained 5.7x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "CRAK", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 53.59, "tp": 3.5984846948541027, "note": "quiet open (0.1x) \u2192 now 3.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "COOLING", "state": "RUNNING", "price": 77.915, "tp": 2.039308789402725, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 18.31, "tp": 1.1670313990487942, "note": "pace 1.2x off peak 16.3x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "RUNNING", "state": "FADING", "price": 10.2, "tp": 2.504036029351046, "note": "pace 2.5x vs peak 12.9x \u00b7 -2.7% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "LEAVING", "price": 27.43, "tp": 11.228246640456325, "note": "pace 11.2x off peak 104.7x \u00b7 VWAP lost (was +30.1% above)"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.32, "tp": 0.4944270591468876, "note": "pace 0.5x off peak 22.4x"}
+{"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "COOLING", "state": "FADING", "price": 4.005, "tp": 0.3370315628316492, "note": "pace 0.3x vs peak 2.5x \u00b7 -1.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
