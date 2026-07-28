@@ -498,3 +498,14 @@
 {"ts": "2026-07-28T12:05:50.380997-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "COOLING", "price": 7.0, "tp": 0.8368933408295446, "note": "pace 0.8x off peak 7.0x"}
 {"ts": "2026-07-28T12:05:50.380997-04:00", "demo": 0, "ticker": "CLS", "prev_state": "CHURN", "state": "RUNNING", "price": 341.98, "tp": 4.7564583659690065, "note": "sustained 4.8x"}
 {"ts": "2026-07-28T12:05:50.380997-04:00", "demo": 0, "ticker": "HYT", "prev_state": "CHURN", "state": "RUNNING", "price": 8.33, "tp": 4.0186556987014015, "note": "sustained 4.0x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "CXM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 6.365, "tp": 2.784122250085567, "note": "quiet open (1.0x) \u2192 now 2.8x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "BNO", "prev_state": "IGNITING", "state": "RUNNING", "price": 46.595, "tp": 8.212274265100834, "note": "sustained 8.2x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "CHAI", "prev_state": "LEAVING", "state": "FADING", "price": 0.4676, "tp": 6.126006377363733, "note": "pace 6.1x vs peak 113.9x \u00b7 -11.5% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "RUNNING", "price": 19.13, "tp": 4.386895182426209, "note": "sustained 4.4x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "ALT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.905, "tp": 8.239470474120374, "note": "sustained 8.2x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "AIA", "prev_state": "IGNITING", "state": "RUNNING", "price": 128.5, "tp": 5.302170846332033, "note": "sustained 5.3x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "AESI", "prev_state": "RUNNING", "state": "COOLING", "price": 11.08, "tp": 1.6607849016366576, "note": "pace 1.7x off peak 7.0x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "CARR", "prev_state": "IGNITING", "state": "RUNNING", "price": 65.72, "tp": 3.953196258321235, "note": "sustained 4.0x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "COOLING", "price": 59.54, "tp": 1.2467611560529868, "note": "pace 1.2x off peak 13.2x"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "NEW MONEY", "state": "FADING", "price": 10.2, "tp": 3.4308357920794754, "note": "pace 3.4x vs peak 13.0x \u00b7 -2.7% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "CHURN", "state": "COOLING", "price": 10.12, "tp": 0.8650062744864915, "note": "pace 0.9x off peak 61.7x"}
