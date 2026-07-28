@@ -549,3 +549,4 @@
 {"ts": "2026-07-28T12:20:50.384206-04:00", "demo": 0, "ticker": "BTT", "prev_state": "FADING", "state": "NEW MONEY", "price": 22.62, "tp": 2.6782672704285964, "note": "quiet open (0.6x) \u2192 now 2.7x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-28T12:20:50.384206-04:00", "demo": 0, "ticker": "CHAI", "prev_state": "FADING", "state": "LEAVING", "price": 0.4559, "tp": 3.7790395943790775, "note": "pace 3.8x off peak 113.9x \u00b7 VWAP lost (was +15.3% above)"}
 {"ts": "2026-07-28T12:20:50.384206-04:00", "demo": 0, "ticker": "ARX", "prev_state": "COOLING", "state": "RUNNING", "price": 14.6, "tp": 1.9327291689517379, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T12:22:20.368907-04:00", "demo": 0, "ticker": "GRAL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GRAIL, Inc. (NASDAQ: GRAL) Deadline Approaching: Berger Montague Advises Investors of Deadline in Securities Fraud Lawsu"}
