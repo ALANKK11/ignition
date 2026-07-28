@@ -88,3 +88,4 @@
 {"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "VCX", "prev_state": "COOLING", "state": "IGNITING", "price": 36.8, "tp": 3.669986412292016, "note": "pace 3.7x and accelerating (6.8x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "QUIET", "state": "IGNITING", "price": 7.425, "tp": 5.395577476194982, "note": "pace 5.4x and accelerating (107.9x vs prior window) \u00b7 -6.5% in window"}
 {"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "PHG", "prev_state": "COOLING", "state": "RUNNING", "price": 24.91, "tp": 2.1506549761297937, "note": "sustained 2.2x"}
+{"ts": "2026-07-28T10:10:20.339540-04:00", "demo": 0, "ticker": "ACI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ACI SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Albertsons Companie"}
