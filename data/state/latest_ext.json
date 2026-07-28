@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-28T09:17:05-04:00", "session": "pre", "rows": [{"ticker": "FIRY", "last": 12.43, "gap": 0.404, "dollars": 52880.560000000005, "vs_adv": 1.32, "new": true}, {"ticker": "KORU", "last": 14.44, "gap": -0.1697, "dollars": 191660.98, "vs_adv": 0.05, "new": false}]}
+{"v": 4, "ts": "2026-07-28T09:20:50-04:00", "session": "pre", "rows": [{"ticker": "FIRY", "last": 12.98, "gap": 0.4252, "dollars": 61975.600000000006, "vs_adv": 1.52, "new": false}, {"ticker": "KORU", "last": 14.44, "gap": -0.1691, "dollars": 207236.98, "vs_adv": 0.05, "new": false}]}
