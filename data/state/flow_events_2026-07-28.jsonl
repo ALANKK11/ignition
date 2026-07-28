@@ -210,3 +210,15 @@
 {"ts": "2026-07-28T10:54:35.364608-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 33.8, "tp": 2.5052608320682483, "note": "quiet open (0.6x) \u2192 now 2.5x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-28T10:54:35.364608-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.175, "tp": 1.8579140898764825, "note": "sustained 1.9x"}
 {"ts": "2026-07-28T10:54:35.364608-04:00", "demo": 0, "ticker": "VCX", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.56, "tp": 3.1150413514327084, "note": "sustained 3.1x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.62, "tp": 4.2162036976925075, "note": "sustained 4.2x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 58.675, "tp": 2.0183755802562118, "note": "sustained 2.0x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "DFAR", "prev_state": "RUNNING", "state": "FADING", "price": 27.53, "tp": 0.8277769380334501, "note": "pace 0.8x vs peak 3.4x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.015, "tp": 32.9341483811378, "note": "sustained 32.9x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "AESI", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.9, "tp": 6.114042499260301, "note": "pace 6.1x and accelerating (2.3x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "CNC", "prev_state": "QUIET", "state": "COOLING", "price": 59.59, "tp": 1.4064279577330965, "note": "pace 1.4x off peak 2.2x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "AWI", "prev_state": "IGNITING", "state": "RUNNING", "price": 184.81, "tp": 6.429193475049832, "note": "sustained 6.4x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 15.52, "tp": 2.5189901380094932, "note": "sustained 2.5x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "INDY", "prev_state": "NEW MONEY", "state": "QUIET", "price": 43.42, "tp": 1.641734647437671, "note": ""}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 4.01, "tp": 2.043646517376681, "note": "quiet open (0.6x) \u2192 now 2.0x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "COOLING", "state": "RUNNING", "price": 7.03, "tp": 2.5410527551875557, "note": "sustained 2.5x"}
+{"ts": "2026-07-28T10:58:20.366279-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "IGNITING", "price": 77.28, "tp": 4.853288164478186, "note": "pace 4.9x and accelerating (4.2x vs prior window) \u00b7 +0.6% in window"}
