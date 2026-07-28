@@ -89,3 +89,9 @@
 {"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "QUIET", "state": "IGNITING", "price": 7.425, "tp": 5.395577476194982, "note": "pace 5.4x and accelerating (107.9x vs prior window) \u00b7 -6.5% in window"}
 {"ts": "2026-07-28T10:09:35.354819-04:00", "demo": 0, "ticker": "PHG", "prev_state": "COOLING", "state": "RUNNING", "price": 24.91, "tp": 2.1506549761297937, "note": "sustained 2.2x"}
 {"ts": "2026-07-28T10:10:20.339540-04:00", "demo": 0, "ticker": "ACI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ACI SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Albertsons Companie"}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "FOTO", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.83, "tp": 13.479425437956701, "note": "sustained 13.5x"}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "HYNX", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.83, "tp": 19.857353297343543, "note": "pace 19.9x and accelerating (2.4x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "LITX", "prev_state": "COOLING", "state": "QUIET", "price": 15.8, "tp": 1.6248717584054018, "note": ""}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "PTLO", "prev_state": "QUIET", "state": "COOLING", "price": 4.675, "tp": 0.5162840683784086, "note": "pace 0.5x off peak 1.8x"}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "CVLT", "prev_state": "RUNNING", "state": "COOLING", "price": 121.45, "tp": 1.3067704585320454, "note": "pace 1.3x off peak 3.7x"}
+{"ts": "2026-07-28T10:13:20.355645-04:00", "demo": 0, "ticker": "FIEE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 2.685, "tp": 2.797505242515775, "note": "quiet open (0.5x) \u2192 now 2.8x \u00b7 taking +0.0% flow share"}
