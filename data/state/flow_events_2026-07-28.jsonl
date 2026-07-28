@@ -354,3 +354,4 @@
 {"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.32, "tp": 0.4944270591468876, "note": "pace 0.5x off peak 22.4x"}
 {"ts": "2026-07-28T11:32:05.373330-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "COOLING", "state": "FADING", "price": 4.005, "tp": 0.3370315628316492, "note": "pace 0.3x vs peak 2.5x \u00b7 -1.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-28T11:32:50.358160-04:00", "demo": 0, "ticker": "TOPS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "TOP Ships Announces Sale of a Newbuilding MR Tanker for about $6.5 million"}
+{"ts": "2026-07-28T11:34:20.358461-04:00", "demo": 0, "ticker": "ALLY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Ally Financial Earns National Recognition for Digital Banking, Workplace Culture and Innovation"}
