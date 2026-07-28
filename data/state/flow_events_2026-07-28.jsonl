@@ -109,3 +109,13 @@
 {"ts": "2026-07-28T10:17:05.356059-04:00", "demo": 0, "ticker": "FOTO", "prev_state": "RUNNING", "state": "COOLING", "price": 16.83, "tp": 0.0, "note": "pace 0.0x off peak 55.9x"}
 {"ts": "2026-07-28T10:17:05.356059-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "FADING", "state": "COOLING", "price": 3.955, "tp": 0.7491416737357698, "note": "pace 0.7x off peak 2.0x"}
 {"ts": "2026-07-28T10:17:05.356059-04:00", "demo": 0, "ticker": "HYNX", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.83, "tp": 15.487357741439139, "note": "sustained 15.5x"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "EMLP", "prev_state": "RUNNING", "state": "FADING", "price": 44.69, "tp": 6.1193990014280235, "note": "pace 6.1x vs peak 25.3x \u00b7 -0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "HYNX", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.62, "tp": 19.72105341118124, "note": "pace 19.7x and accelerating (2.3x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "PHG", "prev_state": "FADING", "state": "IGNITING", "price": 25.185, "tp": 3.656962976119028, "note": "pace 3.7x and accelerating (2.6x vs prior window) \u00b7 +2.3% in window"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "STVN", "prev_state": "RUNNING", "state": "FADING", "price": 19.965, "tp": 0.9418060776853471, "note": "pace 0.9x vs peak 3.7x \u00b7 -1.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.48, "tp": 2.3639039382535145, "note": "sustained 2.4x"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "COOLING", "state": "QUIET", "price": 10.205, "tp": 1.4383228757493147, "note": ""}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "LEAVING", "price": 3.7, "tp": 3.7370508152167305, "note": "pace 3.7x off peak 9.2x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.07, "tp": 1.2208866868044628, "note": "pace 1.2x off peak 2.8x"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "QUIET", "state": "COOLING", "price": 1.6, "tp": 1.1843541953398706, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-07-28T10:20:50.357449-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.58, "tp": 13.813064686744358, "note": "sustained 13.8x"}
