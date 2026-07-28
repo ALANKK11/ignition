@@ -14,3 +14,6 @@
 {"ts": "2026-07-28T09:35:50.346601-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 43.2, "tp": 2.285478338958612, "note": ""}
 {"ts": "2026-07-28T09:37:20.331919-04:00", "demo": 0, "ticker": "RUBI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Rubico Announces Acquisition of 3rd Newbuilding MR Tanker and a 24% Increase of Potential Gross Revenue Backlog to About"}
 {"ts": "2026-07-28T09:39:35.347797-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.98, "tp": 2.4385625582403305, "note": ""}
+{"ts": "2026-07-28T09:43:20.349091-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 6.91, "tp": 3.0298392165476735, "note": "3.0x tape out of the gate"}
+{"ts": "2026-07-28T09:43:20.349091-04:00", "demo": 0, "ticker": "CVLT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 124.37, "tp": 2.159633017179877, "note": ""}
+{"ts": "2026-07-28T09:43:20.349091-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.92, "tp": 2.701820307858474, "note": ""}
