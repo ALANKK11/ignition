@@ -143,3 +143,11 @@
 {"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.26, "tp": 5.696199834623739, "note": "sustained 5.7x"}
 {"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "FADING", "state": "COOLING", "price": 7.715, "tp": 0.887548156681603, "note": "pace 0.9x off peak 8.4x"}
 {"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.26, "tp": 1.7004445376462063, "note": "pace 1.7x off peak 16.3x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "CIEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 332.03, "tp": 13.730755957061886, "note": "sustained 13.7x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.21, "tp": 39.30637651577391, "note": "pace 39.3x and accelerating (2.8x vs prior window) \u00b7 +9.6% in window"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "COOLING", "price": 14.68, "tp": 1.5768672882562749, "note": "pace 1.6x off peak 6.9x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 46.43, "tp": 19.721568131296404, "note": "pace 19.7x and accelerating (2.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "VCX", "prev_state": "COOLING", "state": "RUNNING", "price": 36.205, "tp": 2.142159733398418, "note": "sustained 2.1x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.26, "tp": 1.5007062666425963, "note": "pace 1.5x off peak 18.9x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "COOLING", "state": "RUNNING", "price": 17.01, "tp": 2.097736614127012, "note": "sustained 2.1x"}
+{"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.165, "tp": 2.104035724847139, "note": "sustained 2.1x"}
