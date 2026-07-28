@@ -151,3 +151,20 @@
 {"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.26, "tp": 1.5007062666425963, "note": "pace 1.5x off peak 18.9x"}
 {"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "COOLING", "state": "RUNNING", "price": 17.01, "tp": 2.097736614127012, "note": "sustained 2.1x"}
 {"ts": "2026-07-28T10:35:50.361145-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.165, "tp": 2.104035724847139, "note": "sustained 2.1x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "AESI", "prev_state": "COOLING", "state": "RUNNING", "price": 10.68, "tp": 2.9203325541496143, "note": "sustained 2.9x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "LEAVING", "price": 27.88, "tp": 9.08898803179325, "note": "pace 9.1x off peak 104.7x \u00b7 VWAP lost (was +30.1% above)"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "IGNITING", "price": 58.135, "tp": 13.212063437484298, "note": "pace 13.2x and accelerating (4.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "DXJ", "prev_state": "RUNNING", "state": "COOLING", "price": 174.51, "tp": 1.3616056859276295, "note": "pace 1.4x off peak 10.2x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "CHURN", "price": 4.895, "tp": 5.319829558953508, "note": "5.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 76.77, "tp": 1.6735568169872395, "note": "pace 1.7x off peak 10.5x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "RUNNING", "price": 17.38, "tp": 2.6353971035213517, "note": "sustained 2.6x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "COOLING", "state": "IGNITING", "price": 7.055, "tp": 3.661552380573187, "note": "pace 3.7x and accelerating (3.5x vs prior window) \u00b7 -2.7% in window"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.05, "tp": 25.56559280739656, "note": "sustained 25.6x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "QUIET", "state": "RUNNING", "price": 29.725, "tp": 1.8745368609213322, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "CIG", "prev_state": "CHURN", "state": "RUNNING", "price": 2.19, "tp": 2.952591114587876, "note": "sustained 3.0x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 46.61, "tp": 10.773866966675293, "note": "sustained 10.8x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "VCX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 36.105, "tp": 2.867061418312734, "note": "quiet open (0.7x) \u2192 now 2.9x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "CVLT", "prev_state": "IGNITING", "state": "RUNNING", "price": 120.73, "tp": 3.084321186661651, "note": "sustained 3.1x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "EVI", "prev_state": "NEW MONEY", "state": "FADING", "price": 15.43, "tp": 0.0, "note": "pace 0.0x vs peak 2.4x \u00b7 +0.0% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "NEXT", "prev_state": "RUNNING", "state": "COOLING", "price": 6.175, "tp": 1.666294933460901, "note": "pace 1.7x off peak 4.7x"}
+{"ts": "2026-07-28T10:39:35.361868-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "RUNNING", "state": "COOLING", "price": 10.17, "tp": 1.0984371969606272, "note": "pace 1.1x off peak 2.8x"}
