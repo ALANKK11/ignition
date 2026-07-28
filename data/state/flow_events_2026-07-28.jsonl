@@ -609,3 +609,12 @@
 {"ts": "2026-07-28T12:39:35.387677-04:00", "demo": 0, "ticker": "AESI", "prev_state": "RUNNING", "state": "COOLING", "price": 11.15, "tp": 1.1837534458150618, "note": "pace 1.2x off peak 7.0x"}
 {"ts": "2026-07-28T12:39:35.387677-04:00", "demo": 0, "ticker": "BUCK", "prev_state": "RUNNING", "state": "COOLING", "price": 23.36, "tp": 0.0, "note": "pace 0.0x off peak 30.2x"}
 {"ts": "2026-07-28T12:39:35.387677-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "FADING", "price": 4.975, "tp": 4.76624071248165, "note": "pace 4.8x vs peak 13.8x \u00b7 -1.2% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "ALT", "prev_state": "RUNNING", "state": "COOLING", "price": 2.855, "tp": 1.5975799405546842, "note": "pace 1.6x off peak 14.7x"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "BUCK", "prev_state": "COOLING", "state": "CHURN", "price": 23.36, "tp": 6.334538301448568, "note": "6.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "CXM", "prev_state": "CHURN", "state": "RUNNING", "price": 6.36, "tp": 6.565509365124982, "note": "sustained 6.6x"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "FADING", "state": "NEW MONEY", "price": 10.87, "tp": 12.15532906072026, "note": "quiet open (0.6x) \u2192 now 12.2x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "CHAI", "prev_state": "FADING", "state": "LEAVING", "price": 0.4548, "tp": 7.085888080352264, "note": "pace 7.1x off peak 113.9x \u00b7 VWAP lost (was +15.3% above)"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "COOLING", "state": "RUNNING", "price": 10.51, "tp": 2.6435357998602105, "note": "sustained 2.6x"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "FADING", "state": "RUNNING", "price": 5.09, "tp": 2.5722112629676377, "note": "sustained 2.6x"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "CIEN", "prev_state": "RUNNING", "state": "COOLING", "price": 342.0, "tp": 1.5579290132493222, "note": "pace 1.6x off peak 13.7x"}
+{"ts": "2026-07-28T12:43:20.388814-04:00", "demo": 0, "ticker": "AESI", "prev_state": "COOLING", "state": "IGNITING", "price": 11.2, "tp": 3.550377745672655, "note": "pace 3.6x and accelerating (1.9x vs prior window) \u00b7 +0.6% in window"}
