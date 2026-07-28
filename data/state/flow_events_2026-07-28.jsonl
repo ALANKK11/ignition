@@ -27,3 +27,5 @@
 {"ts": "2026-07-28T09:47:05.349744-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 7.865, "tp": 7.3813286127190185, "note": "7.4x tape out of the gate"}
 {"ts": "2026-07-28T09:50:50.350781-04:00", "demo": 0, "ticker": "LVWR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.55, "tp": 2.643463591286481, "note": ""}
 {"ts": "2026-07-28T09:50:50.350781-04:00", "demo": 0, "ticker": "COHX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 18.64, "tp": 1.9197057009184106, "note": ""}
+{"ts": "2026-07-28T09:54:35.351019-04:00", "demo": 0, "ticker": "NBIZ", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.19, "tp": 3.0753577334896676, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-28T09:54:35.351019-04:00", "demo": 0, "ticker": "INLF", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 5.81, "tp": 7.1818965399864165, "note": "7.2x tape out of the gate"}
