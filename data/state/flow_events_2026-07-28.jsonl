@@ -943,3 +943,12 @@
 {"ts": "2026-07-28T15:20:17.866385-04:00", "demo": 0, "ticker": "BCS", "prev_state": "COOLING", "state": "RUNNING", "price": 27.055, "tp": 1.9870757054232118, "note": "sustained 2.0x"}
 {"ts": "2026-07-28T15:20:17.866385-04:00", "demo": 0, "ticker": "ALOT", "prev_state": "COOLING", "state": "RUNNING", "price": 28.69, "tp": 2.214103761806467, "note": "sustained 2.2x"}
 {"ts": "2026-07-28T15:20:17.866385-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 42.91, "tp": 1.8725292322277638, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "COOLING", "price": 27.045, "tp": 1.7722298230631741, "note": "pace 1.8x off peak 5.9x"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 78.47, "tp": 0.6182200292998946, "note": "pace 0.6x off peak 10.5x"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "CHAI", "prev_state": "LEAVING", "state": "FADING", "price": 0.4304, "tp": 1.5110674316822654, "note": "pace 1.5x vs peak 113.9x \u00b7 -18.5% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "ACGC", "prev_state": "CHURN", "state": "COOLING", "price": 9.96, "tp": 0.0, "note": "pace 0.0x off peak 264.9x"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "CBNK", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 38.15, "tp": 3.1179312561956487, "note": "sustained 3.1x"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 7.245, "tp": 9.112210394133259, "note": "pace 9.1x and accelerating (5.4x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "VCX", "prev_state": "COOLING", "state": "IGNITING", "price": 34.125, "tp": 2.881272228889854, "note": "pace 2.9x and accelerating (57.6x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "STVN", "prev_state": "RUNNING", "state": "CHURN", "price": 19.98, "tp": 9.702135815605445, "note": "9.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T15:23:17.867130-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "RUNNING", "state": "COOLING", "price": 42.875, "tp": 1.7252890880185465, "note": "pace 1.7x off peak 9.3x"}
