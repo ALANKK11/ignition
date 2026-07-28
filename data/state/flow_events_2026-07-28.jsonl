@@ -509,3 +509,13 @@
 {"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "CHURN", "state": "COOLING", "price": 59.54, "tp": 1.2467611560529868, "note": "pace 1.2x off peak 13.2x"}
 {"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "NEW MONEY", "state": "FADING", "price": 10.2, "tp": 3.4308357920794754, "note": "pace 3.4x vs peak 13.0x \u00b7 -2.7% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-28T12:09:35.381583-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "CHURN", "state": "COOLING", "price": 10.12, "tp": 0.8650062744864915, "note": "pace 0.9x off peak 61.7x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "CLS", "prev_state": "RUNNING", "state": "CHURN", "price": 338.2, "tp": 3.850571154657761, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 59.365, "tp": 2.517200313316311, "note": "sustained 2.5x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "RUNNING", "state": "COOLING", "price": 10.38, "tp": 1.0679020388492653, "note": "pace 1.1x off peak 2.8x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "FADING", "state": "COOLING", "price": 42.84, "tp": 1.516559738125093, "note": "pace 1.5x off peak 8.6x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "LEAVING", "price": 15.35, "tp": 4.085846835781678, "note": "pace 4.1x off peak 9.5x \u00b7 VWAP lost (was +4.7% above)"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "STVN", "prev_state": "FADING", "state": "RUNNING", "price": 19.85, "tp": 4.868914019729301, "note": "sustained 4.9x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "AIA", "prev_state": "RUNNING", "state": "CHURN", "price": 128.57, "tp": 2.3633022520957887, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "LEAVING", "price": 5.21, "tp": 2.7024411273704696, "note": "pace 2.7x off peak 39.3x \u00b7 VWAP lost (was +21.3% above)"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "CIEN", "prev_state": "COOLING", "state": "RUNNING", "price": 343.33, "tp": 2.346773288543613, "note": "sustained 2.3x"}
+{"ts": "2026-07-28T12:13:20.382853-04:00", "demo": 0, "ticker": "AWI", "prev_state": "FADING", "state": "RUNNING", "price": 182.57, "tp": 10.181733444224928, "note": "sustained 10.2x"}
