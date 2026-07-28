@@ -137,3 +137,9 @@
 {"ts": "2026-07-28T10:28:20.359483-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.14, "tp": 2.17244496063124, "note": "sustained 2.2x"}
 {"ts": "2026-07-28T10:28:20.359483-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "COOLING", "price": 16.48, "tp": 0.8645175891778554, "note": "pace 0.9x off peak 3.2x"}
 {"ts": "2026-07-28T10:28:20.359483-04:00", "demo": 0, "ticker": "FFLC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 57.955, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "MPLT", "prev_state": "RUNNING", "state": "FADING", "price": 10.19, "tp": 2.9966733379003734, "note": "pace 3.0x vs peak 10.8x \u00b7 -0.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "PUMP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.15, "tp": 2.7969022462953816, "note": "sustained 2.8x"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "CVLT", "prev_state": "RUNNING", "state": "IGNITING", "price": 120.77, "tp": 3.3668929983969584, "note": "pace 3.4x and accelerating (3.4x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.26, "tp": 5.696199834623739, "note": "sustained 5.7x"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "IMMR", "prev_state": "FADING", "state": "COOLING", "price": 7.715, "tp": 0.887548156681603, "note": "pace 0.9x off peak 8.4x"}
+{"ts": "2026-07-28T10:32:05.359902-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.26, "tp": 1.7004445376462063, "note": "pace 1.7x off peak 16.3x"}
