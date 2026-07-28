@@ -71,3 +71,7 @@
 {"ts": "2026-07-28T10:02:05.353275-04:00", "demo": 0, "ticker": "SNDA", "prev_state": "QUIET", "state": "COOLING", "price": 42.92, "tp": 0.3443409632890878, "note": "pace 0.3x off peak 8.6x"}
 {"ts": "2026-07-28T10:02:05.353275-04:00", "demo": 0, "ticker": "UROY", "prev_state": "QUIET", "state": "COOLING", "price": 2.67, "tp": 0.3791183397146967, "note": "pace 0.4x off peak 3.7x"}
 {"ts": "2026-07-28T10:02:05.353275-04:00", "demo": 0, "ticker": "VCX", "prev_state": "QUIET", "state": "COOLING", "price": 36.56, "tp": 0.7186188229370589, "note": "pace 0.7x off peak 4.2x"}
+{"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "HYNX", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.91, "tp": 8.755003740053711, "note": "sustained 8.8x"}
+{"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.67, "tp": 2.696195000867384, "note": "sustained 2.7x"}
+{"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "COOLING", "state": "QUIET", "price": 1.54, "tp": 1.4595750563013903, "note": ""}
+{"ts": "2026-07-28T10:05:50.354045-04:00", "demo": 0, "ticker": "KNSA", "prev_state": "RUNNING", "state": "LEAVING", "price": 77.1, "tp": 2.4033969836546247, "note": "pace 2.4x off peak 6.4x \u00b7 VWAP lost (was +6.2% above)"}
