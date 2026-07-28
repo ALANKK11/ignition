@@ -972,3 +972,8 @@
 {"ts": "2026-07-28T15:29:17.868314-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.11, "tp": 7.480929363737928, "note": "pace 7.5x and accelerating (2.9x vs prior window) \u00b7 +1.5% in window"}
 {"ts": "2026-07-28T15:29:17.868314-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 33.515, "tp": 0.4424518007545289, "note": "pace 0.4x off peak 12.4x \u00b7 VWAP lost (was +1.6% above)"}
 {"ts": "2026-07-28T15:29:17.868314-04:00", "demo": 0, "ticker": "VCX", "prev_state": "RUNNING", "state": "COOLING", "price": 34.125, "tp": 1.7085475881148886, "note": "pace 1.7x off peak 13.5x"}
+{"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "COOLING", "state": "RUNNING", "price": 29.125, "tp": 1.9237857988554303, "note": "sustained 1.9x"}
+{"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "RUNNING", "state": "COOLING", "price": 4.035, "tp": 1.5979465289195063, "note": "pace 1.6x off peak 3.1x"}
+{"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "CBNK", "prev_state": "NEW MONEY", "state": "COOLING", "price": 38.15, "tp": 1.5283564864743073, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "AMKL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.11, "tp": 2.8613561007886026, "note": "sustained 2.9x"}
+{"ts": "2026-07-28T15:32:17.868716-04:00", "demo": 0, "ticker": "STVN", "prev_state": "RUNNING", "state": "FADING", "price": 19.95, "tp": 3.398173556174122, "note": "pace 3.4x vs peak 13.3x \u00b7 -1.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
