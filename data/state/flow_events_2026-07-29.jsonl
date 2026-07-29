@@ -148,3 +148,13 @@
 {"ts": "2026-07-29T10:28:50.278187-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "CHURN", "state": "RUNNING", "price": 7.36, "tp": 4.0509409362901, "note": "sustained 4.1x"}
 {"ts": "2026-07-29T10:28:50.278187-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "CHURN", "price": 2.41, "tp": 25.645186414017026, "note": "25.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-29T10:28:50.278187-04:00", "demo": 0, "ticker": "SBS", "prev_state": "COOLING", "state": "NEW MONEY", "price": 5.45, "tp": 2.0384384859758002, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "ARKQ", "prev_state": "RUNNING", "state": "COOLING", "price": 112.06, "tp": 1.7639049384722636, "note": "pace 1.8x off peak 5.0x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "CHURN", "state": "RUNNING", "price": 3.585, "tp": 22.877962987557364, "note": "sustained 22.9x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "BBCA", "prev_state": "RUNNING", "state": "CHURN", "price": 102.715, "tp": 3.7255657212815514, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "CII", "prev_state": "QUIET", "state": "IGNITING", "price": 23.56, "tp": 3.500934540402222, "note": "pace 3.5x and accelerating (70.0x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "ATHM", "prev_state": "COOLING", "state": "RUNNING", "price": 22.72, "tp": 1.8880813396125444, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "AVES", "prev_state": "CHURN", "state": "RUNNING", "price": 60.96, "tp": 11.355862638621115, "note": "sustained 11.4x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "BEG", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.94, "tp": 31.48314478743792, "note": "sustained 31.5x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "SBS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 5.44, "tp": 1.475699374650363, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "REPL", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.815, "tp": 2.556824396726928, "note": "sustained 2.6x"}
+{"ts": "2026-07-29T10:32:35.278679-04:00", "demo": 0, "ticker": "EBC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.215, "tp": 1.8319872056069204, "note": "sustained 1.8x"}
