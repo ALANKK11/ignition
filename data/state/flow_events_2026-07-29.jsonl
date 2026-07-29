@@ -224,3 +224,18 @@
 {"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "DJD", "prev_state": "CHURN", "state": "COOLING", "price": 65.16, "tp": 0.0, "note": "pace 0.0x off peak 4.9x"}
 {"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CBRE", "prev_state": "CHURN", "state": "RUNNING", "price": 150.29, "tp": 3.8151639596260387, "note": "sustained 3.8x"}
 {"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CNC", "prev_state": "RUNNING", "state": "CHURN", "price": 63.25, "tp": 6.122852634077665, "note": "6.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "ARKQ", "prev_state": "IGNITING", "state": "RUNNING", "price": 111.49, "tp": 12.23324491683169, "note": "sustained 12.2x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "ASH", "prev_state": "QUIET", "state": "IGNITING", "price": 72.25, "tp": 3.206921020758607, "note": "pace 3.2x and accelerating (3.9x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "DGP", "prev_state": "NEW MONEY", "state": "COOLING", "price": 128.58, "tp": 0.0, "note": "pace 0.0x off peak 2.3x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "BANC", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.415, "tp": 6.152981436477837, "note": "pace 6.2x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "COOLING", "state": "RUNNING", "price": 7.31, "tp": 2.854738618794518, "note": "sustained 2.9x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "CNC", "prev_state": "CHURN", "state": "RUNNING", "price": 63.23, "tp": 2.461990003273819, "note": "sustained 2.5x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "CAKE", "prev_state": "CHURN", "state": "RUNNING", "price": 99.0, "tp": 2.405041000991429, "note": "sustained 2.4x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "CHEF", "prev_state": "RUNNING", "state": "CHURN", "price": 109.87, "tp": 4.532614956047706, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "SONY", "prev_state": "QUIET", "state": "RUNNING", "price": 23.235, "tp": 1.815013336785902, "note": "sustained 1.8x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "OPK", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.415, "tp": 2.1139378531066435, "note": "sustained 2.1x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "PEY", "prev_state": "RUNNING", "state": "CHURN", "price": 24.96, "tp": 5.435136959186085, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "CORZ", "prev_state": "RUNNING", "state": "COOLING", "price": 19.2, "tp": 1.2622885515420987, "note": "pace 1.3x off peak 7.3x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "RUNNING", "state": "FADING", "price": 23.9, "tp": 3.029370584746092, "note": "pace 3.0x vs peak 9.2x \u00b7 -4.0% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "FADING", "state": "RUNNING", "price": 4.73, "tp": 6.684715731522766, "note": "sustained 6.7x"}
+{"ts": "2026-07-29T10:55:05.282994-04:00", "demo": 0, "ticker": "AOD", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.3, "tp": 2.0163188615185073, "note": "sustained 2.0x"}
