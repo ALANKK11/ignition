@@ -763,3 +763,12 @@
 {"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "FADING", "state": "RUNNING", "price": 42.4, "tp": 1.8889075851806394, "note": "sustained 1.9x"}
 {"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "OPK", "prev_state": "COOLING", "state": "RUNNING", "price": 1.415, "tp": 2.2552425239165705, "note": "sustained 2.3x"}
 {"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "SBS", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 5.27, "tp": 5.774690696722454, "note": "quiet open (1.0x) \u2192 now 5.8x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "AXIA", "prev_state": "RUNNING", "state": "COOLING", "price": 10.06, "tp": 1.7489393251590284, "note": "pace 1.7x off peak 11.6x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "ACDC", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.64, "tp": 2.316698776155725, "note": "sustained 2.3x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "BMNP", "prev_state": "FADING", "state": "RUNNING", "price": 88.645, "tp": 2.052986884434034, "note": "sustained 2.1x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "ADP", "prev_state": "IGNITING", "state": "RUNNING", "price": 274.04, "tp": 7.9743264203139, "note": "sustained 8.0x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "PEY", "prev_state": "FADING", "state": "COOLING", "price": 24.76, "tp": 1.6935229589589127, "note": "pace 1.7x off peak 19.0x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "REPL", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.285, "tp": 3.7381502897210352, "note": "pace 3.7x and accelerating (2.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "SBS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 5.285, "tp": 4.689801474343536, "note": "sustained 4.7x"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "SONY", "prev_state": "FADING", "state": "CHURN", "price": 23.32, "tp": 2.719343545204939, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T15:44:27.682605-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 10.28, "tp": 5.620793897715989, "note": "quiet open (0.6x) \u2192 now 5.6x \u00b7 taking +0.1% flow share"}
