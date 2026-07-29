@@ -757,3 +757,9 @@
 {"ts": "2026-07-29T15:36:57.680879-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 21.845, "tp": 1.332535343570985, "note": "pace 1.3x off peak 4.5x"}
 {"ts": "2026-07-29T15:36:57.680879-04:00", "demo": 0, "ticker": "SBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.27, "tp": 2.3872931877479022, "note": "sustained 2.4x"}
 {"ts": "2026-07-29T15:36:57.680879-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "FADING", "state": "LEAVING", "price": 20.57, "tp": 2.6285085857790467, "note": "pace 2.6x off peak 25.6x \u00b7 VWAP lost (was +4.0% above)"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "BSX", "prev_state": "RUNNING", "state": "LEAVING", "price": 45.575, "tp": 1.6155242372716858, "note": "pace 1.6x off peak 4.4x \u00b7 VWAP lost (was +3.4% above)"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "EBC", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.06, "tp": 4.857051647397115, "note": "sustained 4.9x"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "BTU", "prev_state": "RUNNING", "state": "LEAVING", "price": 20.7, "tp": 3.876123598401698, "note": "pace 3.9x off peak 8.6x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "FADING", "state": "RUNNING", "price": 42.4, "tp": 1.8889075851806394, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "OPK", "prev_state": "COOLING", "state": "RUNNING", "price": 1.415, "tp": 2.2552425239165705, "note": "sustained 2.3x"}
+{"ts": "2026-07-29T15:40:42.681528-04:00", "demo": 0, "ticker": "SBS", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 5.27, "tp": 5.774690696722454, "note": "quiet open (1.0x) \u2192 now 5.8x \u00b7 taking +0.4% flow share"}
