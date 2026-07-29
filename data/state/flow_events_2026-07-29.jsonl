@@ -210,3 +210,17 @@
 {"ts": "2026-07-29T10:47:35.281351-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "IGNITING", "state": "FADING", "price": 4.73, "tp": 1.164691808891524, "note": "pace 1.2x vs peak 9.0x \u00b7 -1.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-29T10:47:35.281351-04:00", "demo": 0, "ticker": "BLKB", "prev_state": "COOLING", "state": "FADING", "price": 43.58, "tp": 0.9322070099971012, "note": "pace 0.9x vs peak 3.6x \u00b7 -0.7% off HOD \u00b7 chart still +21% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-29T10:47:35.281351-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "LEAVING", "price": 33.42, "tp": 1.8259851046793658, "note": "pace 1.8x off peak 18.5x \u00b7 VWAP lost (was +3.8% above)"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "AAUC", "prev_state": "RUNNING", "state": "LEAVING", "price": 17.295, "tp": 9.578694968329172, "note": "pace 9.6x off peak 28.5x \u00b7 VWAP lost (was +3.0% above)"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "PEY", "prev_state": "FADING", "state": "RUNNING", "price": 24.95, "tp": 4.666013429100867, "note": "sustained 4.7x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CAKE", "prev_state": "FADING", "state": "CHURN", "price": 98.63, "tp": 2.8622934372463775, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "FADING", "state": "COOLING", "price": 7.39, "tp": 1.5917139891682408, "note": "pace 1.6x off peak 6.2x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "AVTR", "prev_state": "LEAVING", "state": "FADING", "price": 14.0, "tp": 3.368037499525403, "note": "pace 3.4x vs peak 9.8x \u00b7 -4.2% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "DEO", "prev_state": "QUIET", "state": "RUNNING", "price": 88.0, "tp": 2.334642835416987, "note": "sustained 2.3x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "EBC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.3, "tp": 1.846251467861959, "note": "sustained 1.8x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "QUIET", "state": "RUNNING", "price": 111.61, "tp": 2.2517840139636887, "note": "sustained 2.3x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "BEG", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.435, "tp": 36.63056346159555, "note": "sustained 36.6x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "REPL", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.03, "tp": 3.3175835019830413, "note": "sustained 3.3x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CHEF", "prev_state": "IGNITING", "state": "RUNNING", "price": 109.28, "tp": 6.526065455362986, "note": "sustained 6.5x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "DJD", "prev_state": "CHURN", "state": "COOLING", "price": 65.16, "tp": 0.0, "note": "pace 0.0x off peak 4.9x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CBRE", "prev_state": "CHURN", "state": "RUNNING", "price": 150.29, "tp": 3.8151639596260387, "note": "sustained 3.8x"}
+{"ts": "2026-07-29T10:51:20.282196-04:00", "demo": 0, "ticker": "CNC", "prev_state": "RUNNING", "state": "CHURN", "price": 63.25, "tp": 6.122852634077665, "note": "6.1x participation, no progress at highs \u2014 absorption"}
