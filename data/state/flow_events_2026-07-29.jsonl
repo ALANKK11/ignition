@@ -318,3 +318,4 @@
 {"ts": "2026-07-29T13:59:27.661136-04:00", "demo": 0, "ticker": "EBC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 23.24, "tp": 2.8027723581652797, "note": "quiet open (0.8x) \u2192 now 2.8x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-07-29T13:59:27.661136-04:00", "demo": 0, "ticker": "SBS", "prev_state": "RUNNING", "state": "COOLING", "price": 5.315, "tp": 1.7708676777498424, "note": "pace 1.8x off peak 4.0x"}
 {"ts": "2026-07-29T13:59:27.661136-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "QUIET", "state": "RUNNING", "price": 42.27, "tp": 1.9296173459692703, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T14:00:57.646873-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "REGN INVESTOR ALERT: Regeneron Pharmaceuticals, Inc. Investors with Substantial Losses Have Opportunity to Lead Regenero"}
