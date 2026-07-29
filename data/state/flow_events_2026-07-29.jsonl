@@ -9,3 +9,4 @@
 {"ts": "2026-07-29T09:18:20.250412-04:00", "demo": 0, "ticker": "MKZR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "MacKenzie Realty Capital completes successful tender offer; MacKenzie Apartment Communities declares first dividend"}
 {"ts": "2026-07-29T09:24:20.265398-04:00", "demo": 0, "ticker": "VRRM", "prev_state": null, "state": "PM IGNITION", "price": 5.49, "tp": null, "note": "+32% on $0.05M ext tape"}
 {"ts": "2026-07-29T09:33:20.253155-04:00", "demo": 0, "ticker": "ALVO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Alvotech announces successful closure of FDA inspection of manufacturing facility"}
+{"ts": "2026-07-29T09:34:05.253306-04:00", "demo": 0, "ticker": "SPCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SuperCom Wins 6th New Electronic Monitoring Contract in New York, Displacing Incumbent Provider"}
