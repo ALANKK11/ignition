@@ -40,3 +40,4 @@
 {"ts": "2026-07-29T09:55:05.272636-04:00", "demo": 0, "ticker": "QURE", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 38.125, "tp": 4.156821257939768, "note": "4.2x tape out of the gate"}
 {"ts": "2026-07-29T09:55:05.272636-04:00", "demo": 0, "ticker": "MANH", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 208.46, "tp": 4.5438055494530465, "note": "4.5x tape out of the gate"}
 {"ts": "2026-07-29T09:55:05.272636-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 23.75, "tp": 3.5235881602816366, "note": "3.5x tape out of the gate"}
+{"ts": "2026-07-29T09:58:50.273103-04:00", "demo": 0, "ticker": "BLKB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 43.0, "tp": 3.3090052778439962, "note": "3.3x tape out of the gate"}
