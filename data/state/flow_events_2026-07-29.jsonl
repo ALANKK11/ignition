@@ -368,3 +368,20 @@
 {"ts": "2026-07-29T14:06:57.661675-04:00", "demo": 0, "ticker": "SONY", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.41, "tp": 2.044435009277125, "note": "sustained 2.0x"}
 {"ts": "2026-07-29T14:06:57.661675-04:00", "demo": 0, "ticker": "SHYG", "prev_state": "RUNNING", "state": "COOLING", "price": 42.1, "tp": 1.1348388295810763, "note": "pace 1.1x off peak 7.3x"}
 {"ts": "2026-07-29T14:06:57.661675-04:00", "demo": 0, "ticker": "AXIA", "prev_state": "COOLING", "state": "RUNNING", "price": 10.07, "tp": 2.7541720709307147, "note": "sustained 2.8x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "BELFA", "prev_state": "COOLING", "state": "IGNITING", "price": 205.38, "tp": 3.5341223458029853, "note": "pace 3.5x and accelerating (70.7x vs prior window) \u00b7 +4.8% in window"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "BE", "prev_state": "IGNITING", "state": "RUNNING", "price": 172.62, "tp": 4.3744501968009795, "note": "sustained 4.4x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "ATHM", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.8, "tp": 9.042825456869288, "note": "sustained 9.0x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "LEAVING", "state": "FADING", "price": 3.465, "tp": 0.37134874932687306, "note": "pace 0.4x vs peak 56.8x \u00b7 -4.0% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "CALM", "prev_state": "RUNNING", "state": "IGNITING", "price": 94.44, "tp": 8.241875986133376, "note": "pace 8.2x and accelerating (3.0x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "QUIET", "state": "COOLING", "price": 12.5, "tp": 1.3580085561254367, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "FADING", "state": "LEAVING", "price": 23.62, "tp": 1.0117084012812332, "note": "pace 1.0x off peak 5.9x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.255, "tp": 3.500977221425634, "note": "sustained 3.5x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "GCO", "prev_state": "IGNITING", "state": "COOLING", "price": 38.67, "tp": 0.5756853557609053, "note": "pace 0.6x off peak 4.5x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "AVS", "prev_state": "FADING", "state": "COOLING", "price": 7.76, "tp": 0.09112473408787564, "note": "pace 0.1x off peak 4.8x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "SVV", "prev_state": "NEW MONEY", "state": "COOLING", "price": 10.065, "tp": 1.6107029732856861, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "ASH", "prev_state": "IGNITING", "state": "RUNNING", "price": 73.04, "tp": 5.805822161531835, "note": "sustained 5.8x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "SONY", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 23.37, "tp": 3.293999472710186, "note": "quiet open (1.0x) \u2192 now 3.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "EBC", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.28, "tp": 2.1399538570159704, "note": "sustained 2.1x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "AXIA", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.06, "tp": 3.6391414369028836, "note": "pace 3.6x and accelerating (7.4x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "BLKB", "prev_state": "IGNITING", "state": "RUNNING", "price": 43.74, "tp": 3.7952364257056788, "note": "sustained 3.8x"}
+{"ts": "2026-07-29T14:10:42.662501-04:00", "demo": 0, "ticker": "PEY", "prev_state": "RUNNING", "state": "CHURN", "price": 24.91, "tp": 16.793948906998693, "note": "16.8x participation, no progress at highs \u2014 absorption"}
