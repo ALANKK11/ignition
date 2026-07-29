@@ -89,3 +89,4 @@
 {"ts": "2026-07-29T10:06:20.274314-04:00", "demo": 0, "ticker": "MANH", "prev_state": "RUNNING", "state": "IGNITING", "price": 209.04, "tp": 7.92119929256428, "note": "pace 7.9x and accelerating (2.4x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-07-29T10:06:20.274314-04:00", "demo": 0, "ticker": "PEY", "prev_state": "FADING", "state": "RUNNING", "price": 24.96, "tp": 3.936357759252544, "note": "sustained 3.9x"}
 {"ts": "2026-07-29T10:06:20.274314-04:00", "demo": 0, "ticker": "EPU", "prev_state": "IGNITING", "state": "RUNNING", "price": 83.48, "tp": 51.833900927691154, "note": "sustained 51.8x"}
+{"ts": "2026-07-29T10:07:05.259308-04:00", "demo": 0, "ticker": "BTGO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "BTGO Stock Drop: BitGo Investors Who Lost Money May Be Eligible to Participate in Securities Class Action; Contact Robbi"}
