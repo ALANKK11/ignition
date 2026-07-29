@@ -10,3 +10,8 @@
 {"ts": "2026-07-29T09:24:20.265398-04:00", "demo": 0, "ticker": "VRRM", "prev_state": null, "state": "PM IGNITION", "price": 5.49, "tp": null, "note": "+32% on $0.05M ext tape"}
 {"ts": "2026-07-29T09:33:20.253155-04:00", "demo": 0, "ticker": "ALVO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Alvotech announces successful closure of FDA inspection of manufacturing facility"}
 {"ts": "2026-07-29T09:34:05.253306-04:00", "demo": 0, "ticker": "SPCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SuperCom Wins 6th New Electronic Monitoring Contract in New York, Displacing Incumbent Provider"}
+{"ts": "2026-07-29T09:36:20.271639-04:00", "demo": 0, "ticker": "WPP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 21.19, "tp": 1.1666488110943551, "note": ""}
+{"ts": "2026-07-29T09:36:20.271639-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.01, "tp": 0.9607117772604464, "note": ""}
+{"ts": "2026-07-29T09:36:20.271639-04:00", "demo": 0, "ticker": "REPL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 5.15, "tp": 1.6937784328877, "note": ""}
+{"ts": "2026-07-29T09:36:20.271639-04:00", "demo": 0, "ticker": "SBS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 5.465, "tp": 2.371206607336918, "note": ""}
+{"ts": "2026-07-29T09:36:20.271639-04:00", "demo": 0, "ticker": "OPK", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.59, "tp": 2.064407199344431, "note": ""}
