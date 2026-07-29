@@ -661,3 +661,20 @@
 {"ts": "2026-07-29T15:10:42.675829-04:00", "demo": 0, "ticker": "CARY", "prev_state": "FADING", "state": "COOLING", "price": 20.76, "tp": 0.5261549095075156, "note": "pace 0.5x off peak 2.1x"}
 {"ts": "2026-07-29T15:10:42.675829-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.21, "tp": 5.149469641466705, "note": "sustained 5.1x"}
 {"ts": "2026-07-29T15:10:42.675829-04:00", "demo": 0, "ticker": "PEY", "prev_state": "FADING", "state": "RUNNING", "price": 24.83, "tp": 4.735981792339709, "note": "sustained 4.7x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "AVES", "prev_state": "COOLING", "state": "RUNNING", "price": 61.605, "tp": 1.859626158309031, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BBT", "prev_state": "IGNITING", "state": "RUNNING", "price": 29.725, "tp": 2.6370975850010683, "note": "sustained 2.6x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BEX", "prev_state": "FADING", "state": "LEAVING", "price": 16.51, "tp": 7.334776935591839, "note": "pace 7.3x off peak 34.1x \u00b7 VWAP lost (was +10.5% above)"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "EBC", "prev_state": "RUNNING", "state": "COOLING", "price": 23.265, "tp": 1.465629909793856, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "ALT", "prev_state": "FADING", "state": "RUNNING", "price": 3.0, "tp": 15.877489541318655, "note": "sustained 15.9x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 45.32, "tp": 3.691760614630788, "note": "sustained 3.7x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "ALKS", "prev_state": "IGNITING", "state": "RUNNING", "price": 48.815, "tp": 3.7410428668786606, "note": "sustained 3.7x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "ATHM", "prev_state": "CHURN", "state": "RUNNING", "price": 22.86, "tp": 6.85685948760787, "note": "sustained 6.9x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BSX", "prev_state": "CHURN", "state": "RUNNING", "price": 46.16, "tp": 4.304952917978162, "note": "sustained 4.3x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "CHURN", "state": "FADING", "price": 28.945, "tp": 0.40070286456358695, "note": "pace 0.4x vs peak 14.7x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "RUNNING", "state": "LEAVING", "price": 9.17, "tp": 4.70291368349666, "note": "pace 4.7x off peak 11.9x \u00b7 VWAP lost (was +2.8% above)"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "AAMI", "prev_state": "RUNNING", "state": "COOLING", "price": 82.645, "tp": 1.4415571923093724, "note": "pace 1.4x off peak 13.0x"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "LEAVING", "state": "FADING", "price": 23.535, "tp": 1.6223975657599956, "note": "pace 1.6x vs peak 5.9x \u00b7 -1.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BKE", "prev_state": "COOLING", "state": "CHURN", "price": 45.21, "tp": 2.3239695311673527, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "BAND", "prev_state": "RUNNING", "state": "IGNITING", "price": 38.87, "tp": 5.5120569910661565, "note": "pace 5.5x and accelerating (3.5x vs prior window) \u00b7 -1.7% in window"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "RUNNING", "state": "IGNITING", "price": 23.94, "tp": 15.463673327323631, "note": "pace 15.5x and accelerating (4.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-07-29T15:14:27.675976-04:00", "demo": 0, "ticker": "SHYG", "prev_state": "FADING", "state": "COOLING", "price": 42.09, "tp": 0.40931042895757636, "note": "pace 0.4x off peak 15.7x"}
