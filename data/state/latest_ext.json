@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-29T09:28:05-04:00", "session": "pre", "rows": [{"ticker": "NCRA", "last": 3.52, "gap": 1.4398, "dollars": 382675.55, "vs_adv": 15.19, "new": false}, {"ticker": "VIVK", "last": 3.07, "gap": 0.4402, "dollars": 473608.32999999996, "vs_adv": 3.19, "new": false}, {"ticker": "VRRM", "last": 5.78, "gap": 0.3242, "dollars": 76979.55, "vs_adv": 0.07, "new": false}]}
+{"v": 4, "ts": "2026-07-29T16:10:42-04:00", "session": "post", "rows": [{"ticker": "CVNA", "last": 53.72, "gap": -0.1402, "dollars": 195974.04, "vs_adv": 0.01, "new": true}]}

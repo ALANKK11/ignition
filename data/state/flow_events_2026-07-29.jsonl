@@ -842,3 +842,4 @@
 {"ts": "2026-07-29T15:59:27.685160-04:00", "demo": 0, "ticker": "WPP", "prev_state": "FADING", "state": "NEW MONEY", "price": 21.615, "tp": 2.3079399868636687, "note": "quiet open (0.6x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-29T15:59:27.685160-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "RUNNING", "state": "COOLING", "price": 12.025, "tp": 1.5897770037718408, "note": "pace 1.6x off peak 8.0x"}
 {"ts": "2026-07-29T15:59:27.685160-04:00", "demo": 0, "ticker": "PLSE", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 34.56, "tp": 3.858436491303714, "note": "quiet open (0.2x) \u2192 now 3.9x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-07-29T16:10:42.686894-04:00", "demo": 0, "ticker": "CVNA", "prev_state": null, "state": "AH IGNITION", "price": 53.72, "tp": null, "note": "-14% on $0.20M ext tape"}
