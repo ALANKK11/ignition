@@ -695,3 +695,20 @@
 {"ts": "2026-07-29T15:18:12.677332-04:00", "demo": 0, "ticker": "SBS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 5.295, "tp": 2.144363241695309, "note": "sustained 2.1x"}
 {"ts": "2026-07-29T15:18:12.677332-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.98, "tp": 12.08896499209315, "note": "sustained 12.1x"}
 {"ts": "2026-07-29T15:18:12.677332-04:00", "demo": 0, "ticker": "OPK", "prev_state": "COOLING", "state": "RUNNING", "price": 1.435, "tp": 1.908162501401096, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "EBC", "prev_state": "COOLING", "state": "RUNNING", "price": 23.22, "tp": 3.0644390519686238, "note": "sustained 3.1x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "BKE", "prev_state": "RUNNING", "state": "COOLING", "price": 45.27, "tp": 1.2103340003374248, "note": "pace 1.2x off peak 14.9x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "AOD", "prev_state": "RUNNING", "state": "COOLING", "price": 10.34, "tp": 1.6597166175338884, "note": "pace 1.7x off peak 48.4x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "BTU", "prev_state": "RUNNING", "state": "CHURN", "price": 21.045, "tp": 5.515361582249955, "note": "5.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "BUYW", "prev_state": "FADING", "state": "COOLING", "price": 14.49, "tp": 0.5398611400026118, "note": "pace 0.5x off peak 5.9x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "AGL", "prev_state": "COOLING", "state": "LEAVING", "price": 95.05, "tp": 0.4656814127776624, "note": "pace 0.5x off peak 12.8x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "COOLING", "state": "RUNNING", "price": 111.4, "tp": 2.2678789895608853, "note": "sustained 2.3x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "FADING", "state": "LEAVING", "price": 20.635, "tp": 4.200809226522646, "note": "pace 4.2x off peak 25.6x \u00b7 VWAP lost (was +4.0% above)"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "CAT", "prev_state": "COOLING", "state": "RUNNING", "price": 789.36, "tp": 1.8507859040179662, "note": "sustained 1.9x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "FADING", "state": "COOLING", "price": 28.885, "tp": 0.22016128520314787, "note": "pace 0.2x off peak 14.7x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "AXTA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 34.93, "tp": 1.3575874267344803, "note": "pace 1.4x off peak 9.3x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "BAND", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.255, "tp": 4.885277586375439, "note": "sustained 4.9x"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "BLKB", "prev_state": "RUNNING", "state": "LEAVING", "price": 42.95, "tp": 2.765438829959933, "note": "pace 2.8x off peak 7.8x \u00b7 VWAP lost (was +4.2% above)"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "RUNNING", "state": "FADING", "price": 49.415, "tp": 6.553816100138949, "note": "pace 6.6x vs peak 20.7x \u00b7 -18.2% off HOD \u00b7 chart still +104% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "LEAVING", "state": "IGNITING", "price": 9.285, "tp": 5.398731492720495, "note": "pace 5.4x and accelerating (1.7x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "COOLING", "state": "NEW MONEY", "price": 21.83, "tp": 2.2778158807054774, "note": "quiet open (0.8x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-29T15:21:57.677966-04:00", "demo": 0, "ticker": "REPL", "prev_state": "FADING", "state": "COOLING", "price": 5.285, "tp": 1.265996941586341, "note": "pace 1.3x off peak 9.1x"}
