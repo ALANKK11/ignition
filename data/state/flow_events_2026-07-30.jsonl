@@ -671,3 +671,5 @@
 {"ts": "2026-07-30T14:05:27.693933-04:00", "demo": 0, "ticker": "LILA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.14, "tp": 1.8640934536724207, "note": "sustained 1.9x"}
 {"ts": "2026-07-30T14:05:27.693933-04:00", "demo": 0, "ticker": "HIW", "prev_state": "QUIET", "state": "RUNNING", "price": 33.37, "tp": 1.8430621603308828, "note": "sustained 1.8x"}
 {"ts": "2026-07-30T14:05:27.693933-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "RUNNING", "price": 4.76, "tp": 3.1744436801129714, "note": "sustained 3.2x"}
+{"ts": "2026-07-30T14:06:12.678037-04:00", "demo": 0, "ticker": "HITI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "High Tide Closes Acquisition of Northern Helm, Adding Four Retail Cannabis Stores in Ontario"}
+{"ts": "2026-07-30T14:06:12.678037-04:00", "demo": 0, "ticker": "SRXH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SRX Global Acquires Shares in Jersey Mike\u2019s $1 Billion Initial Public Offering"}
