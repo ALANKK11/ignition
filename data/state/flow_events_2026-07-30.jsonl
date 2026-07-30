@@ -18,3 +18,7 @@
 {"ts": "2026-07-30T09:33:08.251690-04:00", "demo": 0, "ticker": "DXST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Decent Holding Advances AI-Powered Health Data Infrastructure Alongside Community Healthcare Network Expansion"}
 {"ts": "2026-07-30T09:39:53.267495-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.125, "tp": 2.1972913514901653, "note": ""}
 {"ts": "2026-07-30T09:39:53.267495-04:00", "demo": 0, "ticker": "STVN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.01, "tp": 1.9561221273260785, "note": ""}
+{"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "SLGN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.385, "tp": 1.868817101087858, "note": ""}
+{"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "CGAU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 17.435, "tp": 2.4854028289929664, "note": ""}
+{"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 73.63, "tp": 2.3149502408392175, "note": ""}
+{"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "SNDU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 14.23, "tp": 2.7109550751825995, "note": ""}
