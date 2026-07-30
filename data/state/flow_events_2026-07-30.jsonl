@@ -16,3 +16,5 @@
 {"ts": "2026-07-30T09:26:23.264048-04:00", "demo": 0, "ticker": "SKHX", "prev_state": null, "state": "PM IGNITION", "price": 10.4, "tp": null, "note": "+11% on $0.35M ext tape"}
 {"ts": "2026-07-30T09:33:08.251690-04:00", "demo": 0, "ticker": "CAPR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Capricor Therapeutics Provides Update on FDA Advisory Committee Meeting for Deramiocel"}
 {"ts": "2026-07-30T09:33:08.251690-04:00", "demo": 0, "ticker": "DXST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Decent Holding Advances AI-Powered Health Data Infrastructure Alongside Community Healthcare Network Expansion"}
+{"ts": "2026-07-30T09:39:53.267495-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.125, "tp": 2.1972913514901653, "note": ""}
+{"ts": "2026-07-30T09:39:53.267495-04:00", "demo": 0, "ticker": "STVN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.01, "tp": 1.9561221273260785, "note": ""}
