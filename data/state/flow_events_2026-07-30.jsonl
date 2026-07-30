@@ -729,3 +729,11 @@
 {"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 22.71, "tp": 3.562283960984659, "note": "pace 3.6x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "LILA", "prev_state": "COOLING", "state": "RUNNING", "price": 8.17, "tp": 1.811712857532964, "note": "sustained 1.8x"}
 {"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "NOMD", "prev_state": "COOLING", "state": "RUNNING", "price": 12.46, "tp": 1.9130612396819076, "note": "sustained 1.9x"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "CHURN", "state": "RUNNING", "price": 45.26, "tp": 99.50297904196378, "note": "sustained 99.5x"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "COOLING", "state": "RUNNING", "price": 13.75, "tp": 2.2134708320103504, "note": "sustained 2.2x"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "BHC", "prev_state": "RUNNING", "state": "FADING", "price": 5.95, "tp": 5.414713051087338, "note": "pace 5.4x vs peak 17.3x \u00b7 -1.8% off HOD \u00b7 chart still +27% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "LILA", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 8.18, "tp": 2.0278567634699565, "note": "quiet open (0.3x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "IGNITING", "state": "LEAVING", "price": 22.7, "tp": 3.016609413183362, "note": "pace 3.0x off peak 6.0x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.01, "tp": 9.045109219015835, "note": "sustained 9.0x"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "COOLING", "price": 5.41, "tp": 1.4940596662023713, "note": "pace 1.5x off peak 2.4x"}
+{"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "IGNITING", "price": 4.91, "tp": 3.4174470702231776, "note": "pace 3.4x and accelerating (3.1x vs prior window) \u00b7 +3.4% in window"}
