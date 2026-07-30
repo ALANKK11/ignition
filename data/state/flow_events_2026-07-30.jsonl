@@ -908,3 +908,10 @@
 {"ts": "2026-07-30T15:20:27.709117-04:00", "demo": 0, "ticker": "ALNY", "prev_state": "RUNNING", "state": "IGNITING", "price": 201.04, "tp": 6.94744093816223, "note": "pace 6.9x and accelerating (2.0x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-07-30T15:20:27.709117-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "COOLING", "state": "RUNNING", "price": 10.05, "tp": 1.8932141619239962, "note": "sustained 1.9x"}
 {"ts": "2026-07-30T15:20:27.709117-04:00", "demo": 0, "ticker": "LODE", "prev_state": "QUIET", "state": "COOLING", "price": 2.805, "tp": 1.4358498884015187, "note": "pace 1.4x off peak 2.2x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "BBUS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 133.76, "tp": 1.2397385097419558, "note": "pace 1.2x off peak 2.7x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "ADTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.42, "tp": 14.189129951568933, "note": "sustained 14.2x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "ALNY", "prev_state": "IGNITING", "state": "RUNNING", "price": 200.535, "tp": 8.184951362943378, "note": "sustained 8.2x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "RUNNING", "state": "COOLING", "price": 10.05, "tp": 1.7223482860322936, "note": "pace 1.7x off peak 4.5x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "FADING", "state": "RUNNING", "price": 271.0, "tp": 4.2804013436619925, "note": "sustained 4.3x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "CHURN", "state": "RUNNING", "price": 3.085, "tp": 3.4193938783290134, "note": "sustained 3.4x"}
+{"ts": "2026-07-30T15:23:27.709162-04:00", "demo": 0, "ticker": "ZG", "prev_state": "RUNNING", "state": "COOLING", "price": 33.37, "tp": 1.3915008141037124, "note": "pace 1.4x off peak 14.1x"}
