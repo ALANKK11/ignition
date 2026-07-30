@@ -71,3 +71,7 @@
 {"ts": "2026-07-30T10:03:53.272179-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "QUIET", "state": "FADING", "price": 2.88, "tp": 0.2884310939981478, "note": "pace 0.3x vs peak 3.1x \u00b7 +0.0% off HOD \u00b7 chart still +40% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-30T10:03:53.272179-04:00", "demo": 0, "ticker": "FXY", "prev_state": "OPEN DRIVE", "state": "RUNNING", "price": 57.41, "tp": 18.246627369326383, "note": "sustained 18.2x"}
 {"ts": "2026-07-30T10:03:53.272179-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "OPEN DRIVE", "state": "IGNITING", "price": 16.53, "tp": 10.374075599573404, "note": "pace 10.4x and accelerating (3.0x vs prior window) \u00b7 -2.2% in window"}
+{"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.885, "tp": 5.6570828538613664, "note": "sustained 5.7x"}
+{"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "EDZ", "prev_state": "CHURN", "state": "COOLING", "price": 18.11, "tp": 0.0, "note": "pace 0.0x off peak 51.6x"}
+{"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "COOLING", "price": 22.42, "tp": 1.649488879824984, "note": "pace 1.6x off peak 4.1x"}
+{"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "EPU", "prev_state": "QUIET", "state": "COOLING", "price": 86.16, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
