@@ -546,3 +546,7 @@
 {"ts": "2026-07-30T12:10:38.295895-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 10.355, "tp": 2.7202844400390025, "note": "quiet open (0.0x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-30T12:10:38.295895-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "COOLING", "state": "RUNNING", "price": 12.83, "tp": 1.9516763627119682, "note": "sustained 2.0x"}
 {"ts": "2026-07-30T12:10:38.295895-04:00", "demo": 0, "ticker": "SLGN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 40.93, "tp": 1.9880111326044867, "note": "sustained 2.0x"}
+{"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "ZG", "prev_state": "RUNNING", "state": "COOLING", "price": 32.74, "tp": 1.3938099521668728, "note": "pace 1.4x off peak 14.1x"}
+{"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "ALGN", "prev_state": "IGNITING", "state": "RUNNING", "price": 173.15, "tp": 1.9563086922249933, "note": "sustained 2.0x"}
+{"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "RUNNING", "state": "FADING", "price": 49.57, "tp": 1.3191302735095523, "note": "pace 1.3x vs peak 4.4x \u00b7 -2.9% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "COOLING", "state": "QUIET", "price": 34.26, "tp": 1.5138915050416655, "note": ""}
