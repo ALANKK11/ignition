@@ -75,3 +75,5 @@
 {"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "EDZ", "prev_state": "CHURN", "state": "COOLING", "price": 18.11, "tp": 0.0, "note": "pace 0.0x off peak 51.6x"}
 {"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "COOLING", "price": 22.42, "tp": 1.649488879824984, "note": "pace 1.6x off peak 4.1x"}
 {"ts": "2026-07-30T10:06:53.272994-04:00", "demo": 0, "ticker": "EPU", "prev_state": "QUIET", "state": "COOLING", "price": 86.16, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
+{"ts": "2026-07-30T10:09:08.258456-04:00", "demo": 0, "ticker": "WGS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of August 3, 2026 in GeneDx Holdings Corp. Lawsuit - WGS"}
+{"ts": "2026-07-30T10:09:08.258456-04:00", "demo": 0, "ticker": "MSFT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lost Money on Microsoft Corporation (MSFT)? Join Class Action Suit Seeking Recovery - Contact SueWallSt"}
