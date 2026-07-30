@@ -136,3 +136,12 @@
 {"ts": "2026-07-30T10:24:53.276301-04:00", "demo": 0, "ticker": "DBND", "prev_state": "NEW MONEY", "state": "COOLING", "price": 45.065, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
 {"ts": "2026-07-30T10:24:53.276301-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "LEAVING", "price": 11.47, "tp": 6.913724138883095, "note": "pace 6.9x off peak 14.6x \u00b7 VWAP lost (was +3.2% above)"}
 {"ts": "2026-07-30T10:24:53.276301-04:00", "demo": 0, "ticker": "CVNA", "prev_state": "CHURN", "state": "RUNNING", "price": 59.325, "tp": 7.115280347228983, "note": "sustained 7.1x"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "EDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 55.175, "tp": 15.006461215216099, "note": "pace 15.0x and accelerating (2.0x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "TDAY", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 8.595, "tp": 4.071494100016492, "note": "quiet open (0.2x) \u2192 now 4.1x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "AVGV", "prev_state": "NEW MONEY", "state": "COOLING", "price": 85.32, "tp": 0.0, "note": "pace 0.0x off peak 3.6x"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "NOMD", "prev_state": "QUIET", "state": "COOLING", "price": 12.41, "tp": 0.9541419485753599, "note": "pace 1.0x off peak 1.9x"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "QUIET", "state": "COOLING", "price": 23.64, "tp": 1.341888957953559, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 13.48, "tp": 5.684962301961084, "note": "pace 5.7x and accelerating (2.3x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "MNRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.28, "tp": 2.928759184006256, "note": "pace 2.9x and accelerating (3.2x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "BEG", "prev_state": "QUIET", "state": "RUNNING", "price": 33.48, "tp": 2.8393790174173863, "note": "sustained 2.8x"}
+{"ts": "2026-07-30T10:27:53.276825-04:00", "demo": 0, "ticker": "BHC", "prev_state": "CHURN", "state": "RUNNING", "price": 5.975, "tp": 9.573532672901377, "note": "sustained 9.6x"}
