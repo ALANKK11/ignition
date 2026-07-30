@@ -550,3 +550,13 @@
 {"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "ALGN", "prev_state": "IGNITING", "state": "RUNNING", "price": 173.15, "tp": 1.9563086922249933, "note": "sustained 2.0x"}
 {"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "RUNNING", "state": "FADING", "price": 49.57, "tp": 1.3191302735095523, "note": "pace 1.3x vs peak 4.4x \u00b7 -2.9% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-30T12:13:38.296517-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "COOLING", "state": "QUIET", "price": 34.26, "tp": 1.5138915050416655, "note": ""}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "FADING", "state": "COOLING", "price": 49.46, "tp": 0.5179076419820068, "note": "pace 0.5x off peak 4.4x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "IGNITING", "state": "COOLING", "price": 2.725, "tp": 0.05432135314316525, "note": "pace 0.1x off peak 9.6x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "LILA", "prev_state": "COOLING", "state": "NEW MONEY", "price": 8.15, "tp": 2.650656682937794, "note": "quiet open (0.3x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "SLGN", "prev_state": "RUNNING", "state": "COOLING", "price": 40.79, "tp": 1.420362494281757, "note": "pace 1.4x off peak 9.9x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "ARM", "prev_state": "RUNNING", "state": "IGNITING", "price": 244.235, "tp": 3.963887259145831, "note": "pace 4.0x and accelerating (1.8x vs prior window) \u00b7 +4.1% in window"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "QUIET", "state": "COOLING", "price": 34.27, "tp": 0.8164101834138213, "note": "pace 0.8x off peak 1.8x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "AGI", "prev_state": "RUNNING", "state": "COOLING", "price": 28.23, "tp": 1.5874715193357283, "note": "pace 1.6x off peak 3.2x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "RUNNING", "state": "COOLING", "price": 12.69, "tp": 1.3042774981127034, "note": "pace 1.3x off peak 2.3x"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "ORN", "prev_state": "NEW MONEY", "state": "FADING", "price": 9.575, "tp": 2.435483931774256, "note": "pace 2.4x vs peak 10.3x \u00b7 -1.0% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T12:16:38.297130-04:00", "demo": 0, "ticker": "ALGN", "prev_state": "RUNNING", "state": "COOLING", "price": 173.15, "tp": 1.4979893024722715, "note": "pace 1.5x off peak 3.8x"}
