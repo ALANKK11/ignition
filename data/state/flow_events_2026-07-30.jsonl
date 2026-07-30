@@ -689,3 +689,7 @@
 {"ts": "2026-07-30T14:11:27.693935-04:00", "demo": 0, "ticker": "HIW", "prev_state": "QUIET", "state": "RUNNING", "price": 33.35, "tp": 1.817730942149929, "note": "sustained 1.8x"}
 {"ts": "2026-07-30T14:11:27.693935-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.75, "tp": 3.4995450081418777, "note": "pace 3.5x and accelerating (2.2x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-07-30T14:11:27.693935-04:00", "demo": 0, "ticker": "BGIG", "prev_state": "QUIET", "state": "RUNNING", "price": 36.4, "tp": 3.972475522866047, "note": "sustained 4.0x"}
+{"ts": "2026-07-30T14:14:27.694328-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "RUNNING", "state": "IGNITING", "price": 270.05, "tp": 3.0208201614747443, "note": "pace 3.0x and accelerating (2.1x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-30T14:14:27.694328-04:00", "demo": 0, "ticker": "AOR", "prev_state": "RUNNING", "state": "CHURN", "price": 68.39, "tp": 5.999024536483095, "note": "6.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-30T14:14:27.694328-04:00", "demo": 0, "ticker": "VFC", "prev_state": "COOLING", "state": "RUNNING", "price": 15.055, "tp": 1.8087761896080492, "note": "sustained 1.8x"}
+{"ts": "2026-07-30T14:14:27.694328-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "COOLING", "state": "FADING", "price": 8.94, "tp": 0.8571947953544715, "note": "pace 0.9x vs peak 3.0x \u00b7 -4.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
