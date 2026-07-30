@@ -947,3 +947,14 @@
 {"ts": "2026-07-30T15:35:27.711637-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "COOLING", "state": "IGNITING", "price": 14.31, "tp": 4.254591231614658, "note": "pace 4.3x and accelerating (3.6x vs prior window) \u00b7 -1.1% in window"}
 {"ts": "2026-07-30T15:35:27.711637-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.2, "tp": 4.50290180896365, "note": "sustained 4.5x"}
 {"ts": "2026-07-30T15:35:27.711637-04:00", "demo": 0, "ticker": "AGNT", "prev_state": "COOLING", "state": "NEW MONEY", "price": 3.87, "tp": 2.1976882166089915, "note": "quiet open (0.8x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "LILA", "prev_state": "RUNNING", "state": "COOLING", "price": 7.98, "tp": 1.5241181918089088, "note": "pace 1.5x off peak 10.6x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "RUNNING", "state": "FADING", "price": 271.58, "tp": 1.7359291811476736, "note": "pace 1.7x vs peak 5.4x \u00b7 -2.5% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "BAX", "prev_state": "FADING", "state": "IGNITING", "price": 26.07, "tp": 3.663632150705475, "note": "pace 3.7x and accelerating (1.8x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AER", "prev_state": "FADING", "state": "RUNNING", "price": 151.845, "tp": 5.708363265483908, "note": "sustained 5.7x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "ALGN", "prev_state": "RUNNING", "state": "COOLING", "price": 173.68, "tp": 1.7780904698467808, "note": "pace 1.8x off peak 3.8x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AMTB", "prev_state": "COOLING", "state": "FADING", "price": 29.725, "tp": 0.41901091184830197, "note": "pace 0.4x vs peak 2.1x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AGCO", "prev_state": "COOLING", "state": "RUNNING", "price": 107.73, "tp": 1.8730702374851893, "note": "sustained 1.9x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AGIO", "prev_state": "COOLING", "state": "RUNNING", "price": 32.69, "tp": 2.365195638450169, "note": "sustained 2.4x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AMKR", "prev_state": "IGNITING", "state": "RUNNING", "price": 48.18, "tp": 2.8114049357289286, "note": "sustained 2.8x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "AOA", "prev_state": "FADING", "state": "RUNNING", "price": 96.49, "tp": 1.9577594502702125, "note": "sustained 2.0x"}
+{"ts": "2026-07-30T15:38:27.712201-04:00", "demo": 0, "ticker": "DOG", "prev_state": "QUIET", "state": "RUNNING", "price": 21.76, "tp": 1.8431723987542727, "note": "sustained 1.8x"}
