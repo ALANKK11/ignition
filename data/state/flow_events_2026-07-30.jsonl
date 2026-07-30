@@ -417,3 +417,8 @@
 {"ts": "2026-07-30T11:30:53.288632-04:00", "demo": 0, "ticker": "AMKR", "prev_state": "FADING", "state": "IGNITING", "price": 47.73, "tp": 3.623543592952151, "note": "pace 3.6x and accelerating (2.7x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-07-30T11:30:53.288632-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "RUNNING", "state": "COOLING", "price": 8.915, "tp": 1.452817057244932, "note": "pace 1.5x off peak 2.6x"}
 {"ts": "2026-07-30T11:30:53.288632-04:00", "demo": 0, "ticker": "AVGV", "prev_state": "CHURN", "state": "COOLING", "price": 85.02, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
+{"ts": "2026-07-30T11:33:53.289162-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "RUNNING", "state": "COOLING", "price": 23.13, "tp": 1.6100748783903378, "note": "pace 1.6x off peak 6.0x"}
+{"ts": "2026-07-30T11:33:53.289162-04:00", "demo": 0, "ticker": "SLGN", "prev_state": "RUNNING", "state": "COOLING", "price": 40.825, "tp": 1.418411949332192, "note": "pace 1.4x off peak 9.9x"}
+{"ts": "2026-07-30T11:33:53.289162-04:00", "demo": 0, "ticker": "ALGN", "prev_state": "COOLING", "state": "RUNNING", "price": 173.43, "tp": 2.3409888255728992, "note": "sustained 2.3x"}
+{"ts": "2026-07-30T11:33:53.289162-04:00", "demo": 0, "ticker": "ARM", "prev_state": "COOLING", "state": "RUNNING", "price": 235.13, "tp": 1.9803221975527305, "note": "sustained 2.0x"}
+{"ts": "2026-07-30T11:33:53.289162-04:00", "demo": 0, "ticker": "AMKR", "prev_state": "IGNITING", "state": "RUNNING", "price": 47.82, "tp": 4.131226601170232, "note": "sustained 4.1x"}
