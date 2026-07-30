@@ -705,3 +705,8 @@
 {"ts": "2026-07-30T14:20:27.696825-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 39.9, "tp": 2.567507408208454, "note": "quiet open (0.1x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-30T14:20:27.696825-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "RUNNING", "state": "IGNITING", "price": 35.955, "tp": 6.7960551965879645, "note": "pace 6.8x and accelerating (2.3x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-07-30T14:20:27.696825-04:00", "demo": 0, "ticker": "VFC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 15.04, "tp": 1.633083229302593, "note": "pace 1.6x off peak 2.6x"}
+{"ts": "2026-07-30T14:23:27.697472-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.09, "tp": 5.527742288434875, "note": "sustained 5.5x"}
+{"ts": "2026-07-30T14:23:27.697472-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "FADING", "state": "IGNITING", "price": 9.015, "tp": 3.6479681356952445, "note": "pace 3.6x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-07-30T14:23:27.697472-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 39.9, "tp": 1.5931376839523093, "note": "pace 1.6x off peak 6.7x"}
+{"ts": "2026-07-30T14:23:27.697472-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "FADING", "state": "RUNNING", "price": 12.67, "tp": 3.41995952653076, "note": "sustained 3.4x"}
+{"ts": "2026-07-30T14:23:27.697472-04:00", "demo": 0, "ticker": "BHC", "prev_state": "CHURN", "state": "RUNNING", "price": 5.97, "tp": 7.526473018531416, "note": "sustained 7.5x"}
