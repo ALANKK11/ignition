@@ -829,3 +829,8 @@
 {"ts": "2026-07-30T14:56:27.703407-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 14.27, "tp": 2.8371302097293567, "note": "pace 2.8x and accelerating (2.5x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-07-30T14:56:27.703407-04:00", "demo": 0, "ticker": "AGNT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.805, "tp": 1.567824765660382, "note": "pace 1.6x off peak 2.5x"}
 {"ts": "2026-07-30T14:56:27.703407-04:00", "demo": 0, "ticker": "ZG", "prev_state": "CHURN", "state": "RUNNING", "price": 33.26, "tp": 2.222747567570548, "note": "sustained 2.2x"}
+{"ts": "2026-07-30T14:59:27.704421-04:00", "demo": 0, "ticker": "AMKR", "prev_state": "CHURN", "state": "RUNNING", "price": 48.05, "tp": 3.336952036951402, "note": "sustained 3.3x"}
+{"ts": "2026-07-30T14:59:27.704421-04:00", "demo": 0, "ticker": "AGIO", "prev_state": "IGNITING", "state": "CHURN", "price": 32.845, "tp": 4.230052136685961, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-30T14:59:27.704421-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 14.25, "tp": 2.4937865380469617, "note": "quiet open (1.1x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-30T14:59:27.704421-04:00", "demo": 0, "ticker": "MNRO", "prev_state": "FADING", "state": "RUNNING", "price": 13.52, "tp": 3.6975485811063207, "note": "sustained 3.7x"}
+{"ts": "2026-07-30T14:59:27.704421-04:00", "demo": 0, "ticker": "BAI", "prev_state": "CHURN", "state": "RUNNING", "price": 40.72, "tp": 3.207832093511707, "note": "sustained 3.2x"}
