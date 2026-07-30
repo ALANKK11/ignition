@@ -160,3 +160,4 @@
 {"ts": "2026-07-30T10:33:53.277808-04:00", "demo": 0, "ticker": "MNRO", "prev_state": "IGNITING", "state": "CHURN", "price": 13.34, "tp": 2.4744420993036624, "note": "2.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-30T10:33:53.277808-04:00", "demo": 0, "ticker": "TDAY", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 8.585, "tp": 3.4817832156783353, "note": "pace 3.5x and accelerating (2.3x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-07-30T10:33:53.277808-04:00", "demo": 0, "ticker": "ARTY", "prev_state": "IGNITING", "state": "RUNNING", "price": 66.23, "tp": 9.65915498705923, "note": "sustained 9.7x"}
+{"ts": "2026-07-30T10:34:38.263311-04:00", "demo": 0, "ticker": "BTGO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of August 7, 2026 in BitGo Holdings, Inc. Lawsuit - BTGO"}
