@@ -22,3 +22,4 @@
 {"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "CGAU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 17.435, "tp": 2.4854028289929664, "note": ""}
 {"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 73.63, "tp": 2.3149502408392175, "note": ""}
 {"ts": "2026-07-30T09:42:53.268013-04:00", "demo": 0, "ticker": "SNDU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 14.23, "tp": 2.7109550751825995, "note": ""}
+{"ts": "2026-07-30T09:45:53.268864-04:00", "demo": 0, "ticker": "ZG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 33.32, "tp": 1.415634528088373, "note": ""}
