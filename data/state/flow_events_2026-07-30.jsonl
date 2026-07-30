@@ -858,3 +858,12 @@
 {"ts": "2026-07-30T15:05:27.705968-04:00", "demo": 0, "ticker": "ZG", "prev_state": "RUNNING", "state": "COOLING", "price": 33.38, "tp": 1.4029105910515036, "note": "pace 1.4x off peak 14.1x"}
 {"ts": "2026-07-30T15:05:27.705968-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "RUNNING", "state": "LEAVING", "price": 22.61, "tp": 3.272015614354101, "note": "pace 3.3x off peak 6.0x \u00b7 VWAP lost (was +1.5% above)"}
 {"ts": "2026-07-30T15:05:27.705968-04:00", "demo": 0, "ticker": "STVN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 19.965, "tp": 2.0778696693244028, "note": "quiet open (0.6x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "BDC", "prev_state": "COOLING", "state": "FADING", "price": 115.83, "tp": 1.1572683910633075, "note": "pace 1.2x vs peak 4.3x \u00b7 -0.4% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "BAX", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.41, "tp": 9.238980007289253, "note": "sustained 9.2x"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "AGIO", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.7, "tp": 5.83617363933291, "note": "pace 5.8x and accelerating (5.5x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "HTRB", "prev_state": "RUNNING", "state": "COOLING", "price": 33.2, "tp": 1.7425607067109206, "note": "pace 1.7x off peak 3.2x"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "BEX", "prev_state": "FADING", "state": "LEAVING", "price": 22.42, "tp": 0.24354572764614674, "note": "pace 0.2x off peak 11.0x \u00b7 VWAP lost (was +8.9% above)"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "RUNNING", "state": "COOLING", "price": 14.31, "tp": 1.2304687888949275, "note": "pace 1.2x off peak 8.1x"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "BBUS", "prev_state": "COOLING", "state": "QUIET", "price": 133.615, "tp": 1.4396048288444445, "note": ""}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "COOLING", "price": 5.24, "tp": 1.4757496911249792, "note": "pace 1.5x off peak 2.4x"}
+{"ts": "2026-07-30T15:08:27.706391-04:00", "demo": 0, "ticker": "ZG", "prev_state": "COOLING", "state": "RUNNING", "price": 33.34, "tp": 1.8290273063692668, "note": "sustained 1.8x"}
