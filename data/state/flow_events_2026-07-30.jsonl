@@ -737,3 +737,10 @@
 {"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.01, "tp": 9.045109219015835, "note": "sustained 9.0x"}
 {"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "COOLING", "price": 5.41, "tp": 1.4940596662023713, "note": "pace 1.5x off peak 2.4x"}
 {"ts": "2026-07-30T14:32:27.698859-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "IGNITING", "price": 4.91, "tp": 3.4174470702231776, "note": "pace 3.4x and accelerating (3.1x vs prior window) \u00b7 +3.4% in window"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "AGNT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.765, "tp": 0.9479180079390003, "note": "pace 0.9x off peak 2.5x"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "FADING", "state": "IGNITING", "price": 49.96, "tp": 3.0140168426718796, "note": "pace 3.0x and accelerating (1.8x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.65, "tp": 2.042687196298288, "note": "sustained 2.0x"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "LILA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 8.18, "tp": 1.5634543404303485, "note": "pace 1.6x off peak 10.6x"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "BDC", "prev_state": "RUNNING", "state": "IGNITING", "price": 115.35, "tp": 2.965728076505452, "note": "pace 3.0x and accelerating (2.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "RUNNING", "price": 5.6, "tp": 1.9316440111234363, "note": "sustained 1.9x"}
+{"ts": "2026-07-30T14:35:27.698797-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "FADING", "state": "RUNNING", "price": 270.03, "tp": 4.326497381627276, "note": "sustained 4.3x"}
