@@ -719,3 +719,13 @@
 {"ts": "2026-07-30T14:26:27.697979-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "RUNNING", "state": "CHURN", "price": 45.26, "tp": 103.27558223469507, "note": "103.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-30T14:26:27.697979-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "LEAVING", "state": "FADING", "price": 13.42, "tp": 1.075170460337677, "note": "pace 1.1x vs peak 5.9x \u00b7 -1.7% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-30T14:26:27.697979-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.6, "tp": 4.257810390184604, "note": "pace 4.3x and accelerating (4.0x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "BHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.93, "tp": 6.2797679484246185, "note": "sustained 6.3x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "BDC", "prev_state": "FADING", "state": "RUNNING", "price": 115.35, "tp": 2.845299082859024, "note": "sustained 2.8x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "FADING", "state": "RUNNING", "price": 34.25, "tp": 2.300202878275434, "note": "sustained 2.3x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "BAX", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.59, "tp": 5.956605897178793, "note": "sustained 6.0x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "BEX", "prev_state": "LEAVING", "state": "FADING", "price": 22.01, "tp": 0.3378832075817526, "note": "pace 0.3x vs peak 11.0x \u00b7 -10.5% off HOD \u00b7 chart still +46% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "MNRO", "prev_state": "FADING", "state": "RUNNING", "price": 13.48, "tp": 3.3617845036597624, "note": "sustained 3.4x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "AVY", "prev_state": "IGNITING", "state": "RUNNING", "price": 176.045, "tp": 2.478853433924005, "note": "sustained 2.5x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 22.71, "tp": 3.562283960984659, "note": "pace 3.6x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "LILA", "prev_state": "COOLING", "state": "RUNNING", "price": 8.17, "tp": 1.811712857532964, "note": "sustained 1.8x"}
+{"ts": "2026-07-30T14:29:27.697938-04:00", "demo": 0, "ticker": "NOMD", "prev_state": "COOLING", "state": "RUNNING", "price": 12.46, "tp": 1.9130612396819076, "note": "sustained 1.9x"}
