@@ -31,3 +31,6 @@
 {"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "IRE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 8.77, "tp": 2.9480897214484183, "note": ""}
 {"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "IREZ", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 19.89, "tp": 3.0947367161465706, "note": "3.1x tape out of the gate"}
 {"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "OI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.865, "tp": 1.8612595575543303, "note": ""}
+{"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 17.07, "tp": 2.284877478824679, "note": ""}
+{"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "CORT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 116.125, "tp": 1.0277678069613234, "note": ""}
+{"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "CGAU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 17.58, "tp": 3.4799159523727274, "note": "3.5x tape out of the gate"}
