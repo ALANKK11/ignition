@@ -34,3 +34,7 @@
 {"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 17.07, "tp": 2.284877478824679, "note": ""}
 {"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "CORT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 116.125, "tp": 1.0277678069613234, "note": ""}
 {"ts": "2026-07-30T09:57:53.270978-04:00", "demo": 0, "ticker": "CGAU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 17.58, "tp": 3.4799159523727274, "note": "3.5x tape out of the gate"}
+{"ts": "2026-07-30T10:00:53.272349-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 16.5, "tp": 11.313065323109257, "note": "11.3x tape out of the gate"}
+{"ts": "2026-07-30T10:00:53.272349-04:00", "demo": 0, "ticker": "CIFR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.29, "tp": 1.9723632674146137, "note": ""}
+{"ts": "2026-07-30T10:00:53.272349-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.88, "tp": 1.8373467480285468, "note": ""}
+{"ts": "2026-07-30T10:00:53.272349-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 22.42, "tp": 4.060671248852975, "note": "4.1x tape out of the gate"}
