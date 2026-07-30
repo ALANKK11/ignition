@@ -589,3 +589,6 @@
 {"ts": "2026-07-30T12:25:38.298821-04:00", "demo": 0, "ticker": "AMTB", "prev_state": "QUIET", "state": "RUNNING", "price": 29.69, "tp": 1.899646366835861, "note": "sustained 1.9x"}
 {"ts": "2026-07-30T12:25:38.298821-04:00", "demo": 0, "ticker": "CVLG", "prev_state": "COOLING", "state": "IGNITING", "price": 36.115, "tp": 2.972570707426425, "note": "pace 3.0x and accelerating (3.3x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-07-30T12:25:38.298821-04:00", "demo": 0, "ticker": "FRNM", "prev_state": "COOLING", "state": "FADING", "price": 10.355, "tp": 0.0, "note": "pace 0.0x vs peak 2.7x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T12:28:38.299313-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "IGNITING", "state": "RUNNING", "price": 274.005, "tp": 2.7351339752652826, "note": "sustained 2.7x"}
+{"ts": "2026-07-30T12:28:38.299313-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "COOLING", "state": "FADING", "price": 12.66, "tp": 0.5705037542222225, "note": "pace 0.6x vs peak 2.3x \u00b7 -1.7% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T12:28:38.299313-04:00", "demo": 0, "ticker": "LILA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.14, "tp": 2.4101472545318137, "note": "sustained 2.4x"}
