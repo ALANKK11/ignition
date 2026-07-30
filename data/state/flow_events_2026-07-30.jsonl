@@ -650,3 +650,12 @@
 {"ts": "2026-07-30T12:46:38.302561-04:00", "demo": 0, "ticker": "AVGV", "prev_state": "COOLING", "state": "NEW MONEY", "price": 85.52, "tp": 5.283071456911969, "note": "quiet open (1.2x) \u2192 now 5.3x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-30T12:46:38.302561-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "FADING", "state": "RUNNING", "price": 8.965, "tp": 2.0079718879508444, "note": "sustained 2.0x"}
 {"ts": "2026-07-30T12:46:38.302561-04:00", "demo": 0, "ticker": "BBUS", "prev_state": "RUNNING", "state": "COOLING", "price": 133.17, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "LILA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.1, "tp": 6.002471326089515, "note": "sustained 6.0x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "FADING", "state": "COOLING", "price": 9.19, "tp": 0.5902209874922775, "note": "pace 0.6x off peak 55.2x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 12.98, "tp": 0.0, "note": "pace 0.0x off peak 14.6x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "TDAY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 8.575, "tp": 1.053526535066616, "note": "pace 1.1x off peak 4.1x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "AGCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 107.41, "tp": 2.4082751379443303, "note": "sustained 2.4x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "AGNT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 3.755, "tp": 2.224506214923693, "note": "quiet open (0.8x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "FADING", "state": "RUNNING", "price": 45.285, "tp": 41.566713239536035, "note": "sustained 41.6x"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "FADING", "price": 5.25, "tp": 0.0, "note": "pace 0.0x vs peak 2.4x \u00b7 -9.5% off HOD \u00b7 chart still +25% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T12:49:38.303181-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 23.115, "tp": 1.0314929277308311, "note": "pace 1.0x off peak 6.0x \u00b7 VWAP lost (was +1.5% above)"}
