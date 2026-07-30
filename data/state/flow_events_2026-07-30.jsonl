@@ -923,3 +923,8 @@
 {"ts": "2026-07-30T15:26:27.710041-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "RUNNING", "state": "COOLING", "price": 3.085, "tp": 1.3576592123298565, "note": "pace 1.4x off peak 23.7x"}
 {"ts": "2026-07-30T15:26:27.710041-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "FADING", "price": 49.09, "tp": 2.1131849646774414, "note": "pace 2.1x vs peak 9.9x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-30T15:26:27.710041-04:00", "demo": 0, "ticker": "AMTB", "prev_state": "FADING", "state": "COOLING", "price": 29.77, "tp": 1.268428771679346, "note": "pace 1.3x off peak 2.1x"}
+{"ts": "2026-07-30T15:29:27.710286-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "CHURN", "price": 26.37, "tp": 2.253571418908637, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-30T15:29:27.710286-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "LEAVING", "state": "IGNITING", "price": 48.895, "tp": 4.988223696631836, "note": "pace 5.0x and accelerating (1.6x vs prior window) \u00b7 -2.2% in window"}
+{"ts": "2026-07-30T15:29:27.710286-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 22.54, "tp": 6.2000887338859725, "note": "quiet open (1.2x) \u2192 now 6.2x \u00b7 taking +0.9% flow share"}
+{"ts": "2026-07-30T15:29:27.710286-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "IGNITING", "state": "RUNNING", "price": 270.99, "tp": 4.478462639013625, "note": "sustained 4.5x"}
+{"ts": "2026-07-30T15:29:27.710286-04:00", "demo": 0, "ticker": "APG", "prev_state": "RUNNING", "state": "COOLING", "price": 38.85, "tp": 1.5700016302859658, "note": "pace 1.6x off peak 3.5x"}
