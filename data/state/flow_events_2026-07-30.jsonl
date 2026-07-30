@@ -27,3 +27,7 @@
 {"ts": "2026-07-30T09:48:53.269240-04:00", "demo": 0, "ticker": "ZG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 33.02, "tp": 4.461717354038789, "note": "4.5x tape out of the gate"}
 {"ts": "2026-07-30T09:48:53.269240-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 16.91, "tp": 3.4788981413587603, "note": "3.5x tape out of the gate"}
 {"ts": "2026-07-30T09:48:53.269240-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.14, "tp": 0.257227263928494, "note": ""}
+{"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "EME", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 796.905, "tp": 3.1128254500309653, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "IRE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 8.77, "tp": 2.9480897214484183, "note": ""}
+{"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "IREZ", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 19.89, "tp": 3.0947367161465706, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-30T09:51:53.269930-04:00", "demo": 0, "ticker": "OI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.865, "tp": 1.8612595575543303, "note": ""}
