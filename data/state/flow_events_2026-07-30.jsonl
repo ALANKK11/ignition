@@ -673,3 +673,12 @@
 {"ts": "2026-07-30T14:05:27.693933-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "RUNNING", "price": 4.76, "tp": 3.1744436801129714, "note": "sustained 3.2x"}
 {"ts": "2026-07-30T14:06:12.678037-04:00", "demo": 0, "ticker": "HITI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "High Tide Closes Acquisition of Northern Helm, Adding Four Retail Cannabis Stores in Ontario"}
 {"ts": "2026-07-30T14:06:12.678037-04:00", "demo": 0, "ticker": "SRXH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SRX Global Acquires Shares in Jersey Mike\u2019s $1 Billion Initial Public Offering"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "BAI", "prev_state": "RUNNING", "state": "CHURN", "price": 40.86, "tp": 2.8659095095801495, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "HIW", "prev_state": "RUNNING", "state": "QUIET", "price": 33.37, "tp": 1.7266422503917886, "note": ""}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "RUNNING", "state": "FADING", "price": 34.27, "tp": 0.4597549249056837, "note": "pace 0.5x vs peak 3.6x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "BAX", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.325, "tp": 3.2317454501454748, "note": "sustained 3.2x"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "SLGN", "prev_state": "RUNNING", "state": "COOLING", "price": 41.11, "tp": 1.4776718939186195, "note": "pace 1.5x off peak 10.7x"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "APG", "prev_state": "COOLING", "state": "RUNNING", "price": 39.0, "tp": 1.8747871719261222, "note": "sustained 1.9x"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "LILA", "prev_state": "RUNNING", "state": "COOLING", "price": 8.125, "tp": 0.4746976354414386, "note": "pace 0.5x off peak 10.6x"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "AOR", "prev_state": "CHURN", "state": "RUNNING", "price": 68.39, "tp": 14.691164588980637, "note": "sustained 14.7x"}
+{"ts": "2026-07-30T14:08:27.693189-04:00", "demo": 0, "ticker": "AVY", "prev_state": "RUNNING", "state": "COOLING", "price": 176.32, "tp": 1.7261174946984768, "note": "pace 1.7x off peak 4.9x"}
