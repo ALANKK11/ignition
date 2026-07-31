@@ -455,3 +455,12 @@
 {"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "CVI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 35.75, "tp": 3.037475919446235, "note": "sustained 3.0x"}
 {"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "AMR", "prev_state": "QUIET", "state": "RUNNING", "price": 137.64, "tp": 2.573553595048845, "note": "sustained 2.6x"}
 {"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "FADING", "state": "COOLING", "price": 3.83, "tp": 0.2821315347662966, "note": "pace 0.3x off peak 11.5x"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "CCB", "prev_state": "IGNITING", "state": "FADING", "price": 41.4, "tp": 4.14959890860784, "note": "pace 4.1x vs peak 14.4x \u00b7 -4.1% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "BHC", "prev_state": "FADING", "state": "IGNITING", "price": 6.835, "tp": 7.71181127444107, "note": "pace 7.7x and accelerating (3.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "BTSG", "prev_state": "COOLING", "state": "RUNNING", "price": 59.625, "tp": 2.1522345417294253, "note": "sustained 2.2x"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "CHURN", "state": "RUNNING", "price": 14.57, "tp": 2.115566711586488, "note": "sustained 2.1x"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "ARLP", "prev_state": "RUNNING", "state": "QUIET", "price": 25.81, "tp": 1.3587577917477693, "note": ""}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "RUNNING", "state": "LEAVING", "price": 15.545, "tp": 4.0003341989993615, "note": "pace 4.0x off peak 9.6x \u00b7 VWAP lost (was +7.8% above)"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 11.94, "tp": 1.7060128998088553, "note": "pace 1.7x off peak 8.7x"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "RUNNING", "state": "CHURN", "price": 271.34, "tp": 4.499033366630849, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-31T15:04:46.306430-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.115, "tp": 1.8483050981127602, "note": "sustained 1.8x"}
