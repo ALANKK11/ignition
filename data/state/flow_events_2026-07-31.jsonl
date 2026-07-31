@@ -378,3 +378,4 @@
 {"ts": "2026-07-31T14:31:01.301715-04:00", "demo": 0, "ticker": "BTSG", "prev_state": "IGNITING", "state": "RUNNING", "price": 59.71, "tp": 2.152435802054518, "note": "sustained 2.2x"}
 {"ts": "2026-07-31T14:31:01.301715-04:00", "demo": 0, "ticker": "HNI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 44.06, "tp": 1.4427497858049887, "note": "pace 1.4x off peak 2.8x"}
 {"ts": "2026-07-31T14:31:01.301715-04:00", "demo": 0, "ticker": "AMCX", "prev_state": "CHURN", "state": "FADING", "price": 11.385, "tp": 5.399246002025918, "note": "pace 5.4x vs peak 26.3x \u00b7 -2.2% off HOD \u00b7 chart still +17% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T14:33:16.289443-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Regeneron Pharmaceuticals, Inc. (REGN) Faces Securities Class Action Amid Disclosures About Key Trial's Protocol and Ult"}
