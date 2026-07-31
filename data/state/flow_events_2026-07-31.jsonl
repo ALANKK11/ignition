@@ -436,3 +436,10 @@
 {"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "CHURN", "state": "RUNNING", "price": 14.615, "tp": 2.270885690866588, "note": "sustained 2.3x"}
 {"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "DOLE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.09, "tp": 2.299971103093226, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "ATNI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.81, "tp": 2.322987147488169, "note": "sustained 2.3x"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.46, "tp": 31.76082616490662, "note": "pace 31.8x and accelerating (1.9x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "RUNNING", "state": "CHURN", "price": 14.615, "tp": 2.5452945429186387, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "HNI", "prev_state": "RUNNING", "state": "COOLING", "price": 43.99, "tp": 1.2257019450250164, "note": "pace 1.2x off peak 2.8x"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.915, "tp": 5.029519783071665, "note": "sustained 5.0x"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "FADING", "state": "RUNNING", "price": 271.51, "tp": 2.735116368103672, "note": "sustained 2.7x"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "CSTL", "prev_state": "IGNITING", "state": "LEAVING", "price": 28.95, "tp": 4.1500739904589175, "note": "pace 4.2x off peak 15.0x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "FADING", "state": "RUNNING", "price": 117.73, "tp": 2.1641109333088284, "note": "sustained 2.2x"}
