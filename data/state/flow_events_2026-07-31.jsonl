@@ -96,3 +96,4 @@
 {"ts": "2026-07-31T10:13:30.664577-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "RUNNING", "state": "COOLING", "price": 3.105, "tp": 1.262044431778095, "note": "pace 1.3x off peak 5.5x"}
 {"ts": "2026-07-31T10:13:30.664577-04:00", "demo": 0, "ticker": "CCB", "prev_state": "COOLING", "state": "RUNNING", "price": 38.63, "tp": 2.3512102987026924, "note": "sustained 2.4x"}
 {"ts": "2026-07-31T10:13:30.664577-04:00", "demo": 0, "ticker": "GDDY", "prev_state": "IGNITING", "state": "RUNNING", "price": 78.515, "tp": 9.350340814583623, "note": "sustained 9.4x"}
+{"ts": "2026-07-31T10:15:00.653922-04:00", "demo": 0, "ticker": "MBRX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Moleculin Announces Pricing of $9.3 Million Public Offering"}
