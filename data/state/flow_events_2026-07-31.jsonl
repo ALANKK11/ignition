@@ -149,3 +149,4 @@
 {"ts": "2026-07-31T10:36:00.668884-04:00", "demo": 0, "ticker": "EA", "prev_state": "RUNNING", "state": "COOLING", "price": 209.865, "tp": 1.4372081292660406, "note": "pace 1.4x off peak 2.9x"}
 {"ts": "2026-07-31T10:36:00.668884-04:00", "demo": 0, "ticker": "AOK", "prev_state": "QUIET", "state": "NEW MONEY", "price": 40.84, "tp": 5.153672913809614, "note": "quiet open (0.5x) \u2192 now 5.2x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-31T10:36:00.668884-04:00", "demo": 0, "ticker": "EWJV", "prev_state": "RUNNING", "state": "COOLING", "price": 46.39, "tp": 0.9093880666598384, "note": "pace 0.9x off peak 17.2x"}
+{"ts": "2026-07-31T10:36:45.657903-04:00", "demo": 0, "ticker": "RXT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "RXT Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Against"}
