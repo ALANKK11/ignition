@@ -18,3 +18,5 @@
 {"ts": "2026-07-31T09:47:15.659763-04:00", "demo": 0, "ticker": "PWP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 16.97, "tp": 2.702860586725449, "note": ""}
 {"ts": "2026-07-31T09:47:15.659763-04:00", "demo": 0, "ticker": "CONI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 53.0, "tp": 0.0, "note": ""}
 {"ts": "2026-07-31T09:47:15.659763-04:00", "demo": 0, "ticker": "AMZU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 40.45, "tp": 2.5574799667109875, "note": ""}
+{"ts": "2026-07-31T09:51:00.660538-04:00", "demo": 0, "ticker": "AMZU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 40.95, "tp": 3.494981904127815, "note": "3.5x tape out of the gate"}
+{"ts": "2026-07-31T09:51:00.660538-04:00", "demo": 0, "ticker": "LABX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 13.745, "tp": 1.9722796669400597, "note": ""}
