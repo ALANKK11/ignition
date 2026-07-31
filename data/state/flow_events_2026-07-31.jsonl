@@ -341,3 +341,12 @@
 {"ts": "2026-07-31T14:19:46.297851-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "COOLING", "state": "FADING", "price": 3.845, "tp": 0.7054783521635698, "note": "pace 0.7x vs peak 11.5x \u00b7 -2.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-31T14:19:46.297851-04:00", "demo": 0, "ticker": "LNC", "prev_state": "RUNNING", "state": "COOLING", "price": 45.72, "tp": 1.5488926211704064, "note": "pace 1.5x off peak 2.1x"}
 {"ts": "2026-07-31T14:19:46.297851-04:00", "demo": 0, "ticker": "HNI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 43.915, "tp": 1.6741246988985805, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "DOLE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.1, "tp": 2.10351502894589, "note": "quiet open (0.2x) \u2192 now 2.1x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "LNC", "prev_state": "COOLING", "state": "QUIET", "price": 45.745, "tp": 1.7540661615249522, "note": ""}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "AU", "prev_state": "IGNITING", "state": "RUNNING", "price": 78.22, "tp": 12.472482296994755, "note": "sustained 12.5x"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "AN", "prev_state": "QUIET", "state": "IGNITING", "price": 211.965, "tp": 7.843062762035957, "note": "pace 7.8x and accelerating (7.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "QUIET", "state": "RUNNING", "price": 55.145, "tp": 2.6215146651480037, "note": "sustained 2.6x"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "AMBA", "prev_state": "RUNNING", "state": "IGNITING", "price": 86.88, "tp": 5.211886135414809, "note": "pace 5.2x and accelerating (1.8x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "BTSG", "prev_state": "RUNNING", "state": "IGNITING", "price": 59.81, "tp": 3.9002754822994055, "note": "pace 3.9x and accelerating (2.7x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "XRX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.02, "tp": 1.1696081638753792, "note": "pace 1.2x off peak 15.5x"}
+{"ts": "2026-07-31T14:23:31.298686-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "COOLING", "state": "RUNNING", "price": 271.345, "tp": 1.8119044670398883, "note": "sustained 1.8x"}
