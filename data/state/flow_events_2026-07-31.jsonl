@@ -559,3 +559,11 @@
 {"ts": "2026-07-31T15:38:31.313129-04:00", "demo": 0, "ticker": "FIVA", "prev_state": "QUIET", "state": "RUNNING", "price": 39.18, "tp": 2.944041002327316, "note": "sustained 2.9x"}
 {"ts": "2026-07-31T15:38:31.313129-04:00", "demo": 0, "ticker": "RES", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 5.535, "tp": 2.0647431518133947, "note": "quiet open (0.3x) \u2192 now 2.1x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-07-31T15:38:31.313129-04:00", "demo": 0, "ticker": "CANC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 40.61, "tp": 0.0, "note": "pace 0.0x off peak 7.4x"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "AXTI", "prev_state": "FADING", "state": "LEAVING", "price": 59.87, "tp": 1.7037578236367354, "note": "pace 1.7x off peak 48.6x \u00b7 VWAP lost (was +2.8% above)"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "CVI", "prev_state": "COOLING", "state": "RUNNING", "price": 35.34, "tp": 1.9573941729046878, "note": "sustained 2.0x"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "COOLING", "state": "RUNNING", "price": 14.52, "tp": 1.8578701737762149, "note": "sustained 1.9x"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "COOLING", "state": "RUNNING", "price": 5.055, "tp": 1.8326145768206448, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "AN", "prev_state": "COOLING", "state": "RUNNING", "price": 209.305, "tp": 1.8400547963636766, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "LEAVING", "price": 7.18, "tp": 2.1742090941358456, "note": "pace 2.2x off peak 94.1x \u00b7 VWAP lost (was +6.0% above)"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "RUNNING", "state": "FADING", "price": 3.115, "tp": 2.622600816935531, "note": "pace 2.6x vs peak 11.3x \u00b7 -1.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:42:16.313211-04:00", "demo": 0, "ticker": "AU", "prev_state": "RUNNING", "state": "CHURN", "price": 78.745, "tp": 7.239623816461506, "note": "7.2x participation, no progress at highs \u2014 absorption"}
