@@ -577,3 +577,13 @@
 {"ts": "2026-07-31T15:46:01.315257-04:00", "demo": 0, "ticker": "AU", "prev_state": "CHURN", "state": "RUNNING", "price": 78.87, "tp": 6.395534990593544, "note": "sustained 6.4x"}
 {"ts": "2026-07-31T15:46:01.315257-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "RUNNING", "state": "COOLING", "price": 5.055, "tp": 1.044339121760963, "note": "pace 1.0x off peak 2.3x"}
 {"ts": "2026-07-31T15:46:01.315257-04:00", "demo": 0, "ticker": "RES", "prev_state": "NEW MONEY", "state": "COOLING", "price": 5.55, "tp": 1.3741918233131651, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "HNI", "prev_state": "FADING", "state": "RUNNING", "price": 44.6, "tp": 1.8188415834588276, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "RUNNING", "state": "FADING", "price": 271.855, "tp": 1.546198416672435, "note": "pace 1.5x vs peak 4.5x \u00b7 -0.3% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "AMZY", "prev_state": "IGNITING", "state": "FADING", "price": 11.49, "tp": 1.871858238013103, "note": "pace 1.9x vs peak 13.7x \u00b7 -0.3% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "FADING", "state": "COOLING", "price": 3.105, "tp": 0.59885791240164, "note": "pace 0.6x off peak 11.3x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "BTSG", "prev_state": "RUNNING", "state": "COOLING", "price": 60.32, "tp": 1.445205147082757, "note": "pace 1.4x off peak 4.0x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "AN", "prev_state": "RUNNING", "state": "COOLING", "price": 208.79, "tp": 1.6752059327430175, "note": "pace 1.7x off peak 8.1x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "RUNNING", "state": "COOLING", "price": 14.53, "tp": 1.7011965525542798, "note": "pace 1.7x off peak 5.6x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "CVI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 35.44, "tp": 1.9415416636841143, "note": "sustained 1.9x"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "AMBA", "prev_state": "RUNNING", "state": "IGNITING", "price": 86.315, "tp": 8.179656841729651, "note": "pace 8.2x and accelerating (1.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-07-31T15:49:46.315045-04:00", "demo": 0, "ticker": "TREE", "prev_state": "FADING", "state": "COOLING", "price": 31.96, "tp": 1.62576373802269, "note": "pace 1.6x off peak 11.5x"}
