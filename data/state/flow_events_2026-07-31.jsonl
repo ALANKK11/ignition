@@ -11,3 +11,4 @@
 {"ts": "2026-07-31T09:36:00.657665-04:00", "demo": 0, "ticker": "EPOL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.42, "tp": 2.822581883398559, "note": ""}
 {"ts": "2026-07-31T09:39:45.658322-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.15, "tp": 1.502507578120922, "note": ""}
 {"ts": "2026-07-31T09:39:45.658322-04:00", "demo": 0, "ticker": "SPHY", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 23.245, "tp": 3.079701033106396, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-31T09:46:30.648724-04:00", "demo": 0, "ticker": "RCON", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Recon Technology, Ltd Announces $100 Million \"At-the-Market\" Equity Offering Program"}
