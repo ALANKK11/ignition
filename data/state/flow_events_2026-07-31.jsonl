@@ -97,3 +97,10 @@
 {"ts": "2026-07-31T10:13:30.664577-04:00", "demo": 0, "ticker": "CCB", "prev_state": "COOLING", "state": "RUNNING", "price": 38.63, "tp": 2.3512102987026924, "note": "sustained 2.4x"}
 {"ts": "2026-07-31T10:13:30.664577-04:00", "demo": 0, "ticker": "GDDY", "prev_state": "IGNITING", "state": "RUNNING", "price": 78.515, "tp": 9.350340814583623, "note": "sustained 9.4x"}
 {"ts": "2026-07-31T10:15:00.653922-04:00", "demo": 0, "ticker": "MBRX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Moleculin Announces Pricing of $9.3 Million Public Offering"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "CVI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 36.895, "tp": 2.209267996293274, "note": "sustained 2.2x"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "COOLING", "state": "RUNNING", "price": 3.995, "tp": 1.9136170854906105, "note": "sustained 1.9x"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "BLOX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 13.21, "tp": 2.1839381967736986, "note": "quiet open (0.4x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "TREE", "prev_state": "IGNITING", "state": "FADING", "price": 31.985, "tp": 1.7875788459827582, "note": "pace 1.8x vs peak 11.5x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "AMZZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.11, "tp": 59.90502142565053, "note": "sustained 59.9x"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "CCB", "prev_state": "RUNNING", "state": "COOLING", "price": 38.63, "tp": 0.7677971722753104, "note": "pace 0.8x off peak 14.4x"}
+{"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "COOLING", "state": "LEAVING", "price": 3.75, "tp": 1.3710531722006445, "note": "pace 1.4x off peak 11.5x \u00b7 VWAP lost (was +1.8% above)"}
