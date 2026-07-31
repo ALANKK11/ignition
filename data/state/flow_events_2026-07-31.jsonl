@@ -624,3 +624,4 @@
 {"ts": "2026-07-31T15:57:16.316816-04:00", "demo": 0, "ticker": "SRZN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 22.16, "tp": 1.8565392118656716, "note": "sustained 1.9x"}
 {"ts": "2026-07-31T15:57:16.316816-04:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.965, "tp": 6.075240629467106, "note": "sustained 6.1x"}
 {"ts": "2026-07-31T15:57:16.316816-04:00", "demo": 0, "ticker": "RES", "prev_state": "QUIET", "state": "COOLING", "price": 5.605, "tp": 1.2588460946484192, "note": "pace 1.3x off peak 2.1x"}
+{"ts": "2026-07-31T16:18:16.309077-04:00", "demo": 0, "ticker": "CCHH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CCH Holdings Ltd Announces Initial Closing of US$2.5 Million Convertible Promissory Note and Warrant Offering"}
