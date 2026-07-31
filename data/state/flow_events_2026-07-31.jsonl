@@ -124,3 +124,10 @@
 {"ts": "2026-07-31T10:24:45.666924-04:00", "demo": 0, "ticker": "NMR", "prev_state": "QUIET", "state": "RUNNING", "price": 9.575, "tp": 1.8732350142242415, "note": "sustained 1.9x"}
 {"ts": "2026-07-31T10:24:45.666924-04:00", "demo": 0, "ticker": "CONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.69, "tp": 2.979102438263576, "note": "sustained 3.0x"}
 {"ts": "2026-07-31T10:24:45.666924-04:00", "demo": 0, "ticker": "HNI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 42.89, "tp": 1.6176979055193137, "note": "pace 1.6x off peak 2.6x"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "AMZU", "prev_state": "LEAVING", "state": "FADING", "price": 41.28, "tp": 4.82245439100428, "note": "pace 4.8x vs peak 19.1x \u00b7 -0.6% off HOD \u00b7 chart still +28% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "DOLE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.01, "tp": 2.2269426328531354, "note": "quiet open (0.2x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "NP", "prev_state": "FADING", "state": "COOLING", "price": 31.56, "tp": 0.5553766091073891, "note": "pace 0.6x off peak 2.6x"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.81, "tp": 43.78283239922838, "note": "pace 43.8x and accelerating (2.3x vs prior window) \u00b7 +8.9% in window"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "FCUV", "prev_state": "FADING", "state": "LEAVING", "price": 11.32, "tp": 701.4766672655805, "note": "pace 701.5x off peak 6859.0x \u00b7 VWAP lost (was +30.0% above)"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.035, "tp": 1.5766803889197547, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-07-31T10:28:30.667495-04:00", "demo": 0, "ticker": "BHC", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.5, "tp": 8.672585371347331, "note": "pace 8.7x and accelerating (1.7x vs prior window) \u00b7 +1.6% in window"}
