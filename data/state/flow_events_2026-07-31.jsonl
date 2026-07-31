@@ -489,3 +489,8 @@
 {"ts": "2026-07-31T15:12:16.307975-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "RUNNING", "state": "COOLING", "price": 117.65, "tp": 1.5575882210753322, "note": "pace 1.6x off peak 2.9x"}
 {"ts": "2026-07-31T15:12:16.307975-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.495, "tp": 6.056713297407357, "note": "sustained 6.1x"}
 {"ts": "2026-07-31T15:12:16.307975-04:00", "demo": 0, "ticker": "EPOL", "prev_state": "RUNNING", "state": "FADING", "price": 42.78, "tp": 1.4525870717586618, "note": "pace 1.5x vs peak 8.5x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:16:01.310033-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.69, "tp": 18.130335298929236, "note": "sustained 18.1x"}
+{"ts": "2026-07-31T15:16:01.310033-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "RUNNING", "state": "CHURN", "price": 14.585, "tp": 2.63787132631283, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-31T15:16:01.310033-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.135, "tp": 4.573557408123742, "note": "pace 4.6x and accelerating (54.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-31T15:16:01.310033-04:00", "demo": 0, "ticker": "AMR", "prev_state": "RUNNING", "state": "COOLING", "price": 137.18, "tp": 1.0836670377647661, "note": "pace 1.1x off peak 3.7x"}
+{"ts": "2026-07-31T15:16:01.310033-04:00", "demo": 0, "ticker": "HNI", "prev_state": "COOLING", "state": "FADING", "price": 44.26, "tp": 0.6222310074270134, "note": "pace 0.6x vs peak 2.8x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
