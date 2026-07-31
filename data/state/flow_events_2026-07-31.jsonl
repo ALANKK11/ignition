@@ -539,3 +539,12 @@
 {"ts": "2026-07-31T15:31:01.312230-04:00", "demo": 0, "ticker": "AMBA", "prev_state": "IGNITING", "state": "RUNNING", "price": 86.845, "tp": 3.8388706447226553, "note": "sustained 3.8x"}
 {"ts": "2026-07-31T15:31:01.312230-04:00", "demo": 0, "ticker": "BTSG", "prev_state": "COOLING", "state": "RUNNING", "price": 59.835, "tp": 2.154668902832792, "note": "sustained 2.2x"}
 {"ts": "2026-07-31T15:31:01.312230-04:00", "demo": 0, "ticker": "DFCF", "prev_state": "RUNNING", "state": "COOLING", "price": 41.445, "tp": 0.548665244644413, "note": "pace 0.5x off peak 2.4x"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "BENJ", "prev_state": "RUNNING", "state": "FADING", "price": 52.995, "tp": 0.0, "note": "pace 0.0x vs peak 3100.7x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "AU", "prev_state": "RUNNING", "state": "CHURN", "price": 78.83, "tp": 3.7056140109749567, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "CHURN", "state": "RUNNING", "price": 3.11, "tp": 11.257678592329212, "note": "sustained 11.3x"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "AMR", "prev_state": "RUNNING", "state": "COOLING", "price": 137.01, "tp": 1.5157094948420788, "note": "pace 1.5x off peak 3.7x"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "CDNA", "prev_state": "RUNNING", "state": "IGNITING", "price": 44.235, "tp": 6.328413795671267, "note": "pace 6.3x and accelerating (2.4x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "ATNI", "prev_state": "COOLING", "state": "FADING", "price": 23.97, "tp": 0.9778883685564859, "note": "pace 1.0x vs peak 10.4x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "AMZY", "prev_state": "FADING", "state": "RUNNING", "price": 11.51, "tp": 13.655089294821302, "note": "sustained 13.7x"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.15, "tp": 1.8158299279151469, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T15:34:46.312869-04:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.925, "tp": 12.442624801568076, "note": "sustained 12.4x"}
