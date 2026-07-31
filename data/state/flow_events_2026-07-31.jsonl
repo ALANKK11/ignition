@@ -443,3 +443,15 @@
 {"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "FADING", "state": "RUNNING", "price": 271.51, "tp": 2.735116368103672, "note": "sustained 2.7x"}
 {"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "CSTL", "prev_state": "IGNITING", "state": "LEAVING", "price": 28.95, "tp": 4.1500739904589175, "note": "pace 4.2x off peak 15.0x \u00b7 VWAP lost (was +2.0% above)"}
 {"ts": "2026-07-31T14:57:16.306826-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "FADING", "state": "RUNNING", "price": 117.73, "tp": 2.1641109333088284, "note": "sustained 2.2x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "ARLP", "prev_state": "QUIET", "state": "RUNNING", "price": 25.81, "tp": 1.8017818653039175, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.81, "tp": 2.7986010060924804, "note": "sustained 2.8x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.36, "tp": 27.78456246302306, "note": "sustained 27.8x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "COOLING", "state": "NEW MONEY", "price": 5.03, "tp": 2.02942823965105, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "ATNI", "prev_state": "RUNNING", "state": "COOLING", "price": 23.77, "tp": 1.2784582174927384, "note": "pace 1.3x off peak 10.4x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "CCB", "prev_state": "FADING", "state": "IGNITING", "price": 41.4, "tp": 5.367686894433592, "note": "pace 5.4x and accelerating (2.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "AII", "prev_state": "FADING", "state": "IGNITING", "price": 20.26, "tp": 9.044474562517127, "note": "pace 9.0x and accelerating (9.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "DFCF", "prev_state": "QUIET", "state": "NEW MONEY", "price": 41.43, "tp": 2.376202282366131, "note": "quiet open (0.6x) \u2192 now 2.4x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "FSEC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 43.14, "tp": 0.9769094912407731, "note": "pace 1.0x off peak 25.0x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "CVI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 35.75, "tp": 3.037475919446235, "note": "sustained 3.0x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "AMR", "prev_state": "QUIET", "state": "RUNNING", "price": 137.64, "tp": 2.573553595048845, "note": "sustained 2.6x"}
+{"ts": "2026-07-31T15:01:01.307147-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "FADING", "state": "COOLING", "price": 3.83, "tp": 0.2821315347662966, "note": "pace 0.3x off peak 11.5x"}
