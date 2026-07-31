@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-07-31T17:17:31-04:00", "session": "post", "rows": [{"ticker": "UPC", "last": 6.88, "gap": 1.1631, "dollars": 144540.83, "vs_adv": 15.45, "new": false}, {"ticker": "FCUV", "last": 14.75, "gap": 0.3528, "dollars": 430749.35, "vs_adv": 99.03, "new": false}]}
+{"v": 4, "ts": "2026-07-31T17:21:16-04:00", "session": "post", "rows": [{"ticker": "UPC", "last": 6.88, "gap": 1.1631, "dollars": 144540.83, "vs_adv": 15.45, "new": false}, {"ticker": "FCUV", "last": 14.75, "gap": 0.3528, "dollars": 430749.35, "vs_adv": 99.03, "new": false}]}
