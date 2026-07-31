@@ -5,3 +5,7 @@
 {"ts": "2026-07-31T09:05:15.640716-04:00", "demo": 0, "ticker": "LUD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Luda Technology Group Limited has signed a sales blanket agreement worth about RMB1.6 billion to supply pipeline fitting"}
 {"ts": "2026-07-31T09:12:00.642051-04:00", "demo": 0, "ticker": "LAES", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SEALSQ Launches Commercial Phase of Miraex Quantum Photonics Technology Following Strategic Acquisition"}
 {"ts": "2026-07-31T09:26:15.654736-04:00", "demo": 0, "ticker": "AXTI", "prev_state": null, "state": "PM IGNITION", "price": 67.69, "tp": null, "note": "+42% on $0.17M ext tape"}
+{"ts": "2026-07-31T09:36:00.657665-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.145, "tp": 3.1215173623974253, "note": "3.1x tape out of the gate"}
+{"ts": "2026-07-31T09:36:00.657665-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.15, "tp": 2.343699264286979, "note": ""}
+{"ts": "2026-07-31T09:36:00.657665-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.005, "tp": 2.5413224075388827, "note": ""}
+{"ts": "2026-07-31T09:36:00.657665-04:00", "demo": 0, "ticker": "EPOL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.42, "tp": 2.822581883398559, "note": ""}
