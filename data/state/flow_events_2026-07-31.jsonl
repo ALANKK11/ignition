@@ -421,3 +421,4 @@
 {"ts": "2026-07-31T14:46:01.304569-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "RUNNING", "state": "COOLING", "price": 54.685, "tp": 1.4053604168847067, "note": "pace 1.4x off peak 3.2x"}
 {"ts": "2026-07-31T14:46:01.304569-04:00", "demo": 0, "ticker": "AAUC", "prev_state": "RUNNING", "state": "FADING", "price": 18.055, "tp": 9.197009702994274, "note": "pace 9.2x vs peak 42.3x \u00b7 -0.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-31T14:46:01.304569-04:00", "demo": 0, "ticker": "LNC", "prev_state": "COOLING", "state": "QUIET", "price": 45.79, "tp": 1.647843596893041, "note": ""}
+{"ts": "2026-07-31T14:46:46.291949-04:00", "demo": 0, "ticker": "PICS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AUGUST 4, 2026 PICS DEADLINE: PicS N.V. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit "}
