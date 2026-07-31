@@ -109,3 +109,4 @@
 {"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "PEY", "prev_state": "RUNNING", "state": "CHURN", "price": 24.07, "tp": 3.350335834948497, "note": "3.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "HNI", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 42.89, "tp": 2.475083918047206, "note": "quiet open (0.8x) \u2192 now 2.5x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "EPOL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 42.24, "tp": 7.525164831669196, "note": "quiet open (1.0x) \u2192 now 7.5x \u00b7 taking +1.7% flow share"}
+{"ts": "2026-07-31T10:22:30.655310-04:00", "demo": 0, "ticker": "EMBC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Embecta (EMBC) Stock Drop: Robbins LLP Reminds Investors of Class Action and Urges Shareholders Who Lost Money to Contac"}
