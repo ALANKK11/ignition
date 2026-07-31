@@ -104,3 +104,8 @@
 {"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "AMZZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.11, "tp": 59.90502142565053, "note": "sustained 59.9x"}
 {"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "CCB", "prev_state": "RUNNING", "state": "COOLING", "price": 38.63, "tp": 0.7677971722753104, "note": "pace 0.8x off peak 14.4x"}
 {"ts": "2026-07-31T10:17:15.665416-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "COOLING", "state": "LEAVING", "price": 3.75, "tp": 1.3710531722006445, "note": "pace 1.4x off peak 11.5x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "NP", "prev_state": "FADING", "state": "COOLING", "price": 31.625, "tp": 0.9766807634076605, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "CONL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.65, "tp": 3.0367276365806206, "note": "pace 3.0x and accelerating (1.6x vs prior window) \u00b7 -2.3% in window"}
+{"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "PEY", "prev_state": "RUNNING", "state": "CHURN", "price": 24.07, "tp": 3.350335834948497, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "HNI", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 42.89, "tp": 2.475083918047206, "note": "quiet open (0.8x) \u2192 now 2.5x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-07-31T10:21:00.666225-04:00", "demo": 0, "ticker": "EPOL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 42.24, "tp": 7.525164831669196, "note": "quiet open (1.0x) \u2192 now 7.5x \u00b7 taking +1.7% flow share"}
