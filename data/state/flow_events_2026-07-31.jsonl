@@ -431,3 +431,8 @@
 {"ts": "2026-07-31T14:49:46.303960-04:00", "demo": 0, "ticker": "CSTL", "prev_state": "LEAVING", "state": "IGNITING", "price": 29.14, "tp": 9.530025877917016, "note": "pace 9.5x and accelerating (190.6x vs prior window) \u00b7 -2.4% in window"}
 {"ts": "2026-07-31T14:49:46.303960-04:00", "demo": 0, "ticker": "AMBA", "prev_state": "RUNNING", "state": "FADING", "price": 86.33, "tp": 1.6794711311342703, "note": "pace 1.7x vs peak 5.5x \u00b7 -5.3% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-07-31T14:49:46.303960-04:00", "demo": 0, "ticker": "LNC", "prev_state": "QUIET", "state": "COOLING", "price": 45.75, "tp": 1.577538443250025, "note": "pace 1.6x off peak 2.1x"}
+{"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "AMZY", "prev_state": "FADING", "state": "RUNNING", "price": 11.49, "tp": 5.279397426981701, "note": "sustained 5.3x"}
+{"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "HNI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 44.01, "tp": 1.8373283157199085, "note": "sustained 1.8x"}
+{"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "BXMT", "prev_state": "CHURN", "state": "RUNNING", "price": 14.615, "tp": 2.270885690866588, "note": "sustained 2.3x"}
+{"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "DOLE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.09, "tp": 2.299971103093226, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-07-31T14:53:31.304980-04:00", "demo": 0, "ticker": "ATNI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.81, "tp": 2.322987147488169, "note": "sustained 2.3x"}
