@@ -645,3 +645,6 @@
 {"ts": "2026-08-03T15:10:46.283049-04:00", "demo": 0, "ticker": "BBEM", "prev_state": "RUNNING", "state": "FADING", "price": 74.38, "tp": 0.0, "note": "pace 0.0x vs peak 52.8x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-03T15:10:46.283049-04:00", "demo": 0, "ticker": "KC", "prev_state": "LEAVING", "state": "FADING", "price": 12.005, "tp": 1.467564594815959, "note": "pace 1.5x vs peak 9.2x \u00b7 -3.2% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-03T15:10:46.283049-04:00", "demo": 0, "ticker": "BCC", "prev_state": "FADING", "state": "RUNNING", "price": 81.98, "tp": 2.527297459999363, "note": "sustained 2.5x"}
+{"ts": "2026-08-03T15:14:31.283818-04:00", "demo": 0, "ticker": "AVBC", "prev_state": "COOLING", "state": "RUNNING", "price": 21.27, "tp": 3.3790541904714217, "note": "sustained 3.4x"}
+{"ts": "2026-08-03T15:14:31.283818-04:00", "demo": 0, "ticker": "BHC", "prev_state": "RUNNING", "state": "COOLING", "price": 6.95, "tp": 0.9687819614608384, "note": "pace 1.0x off peak 6.6x"}
+{"ts": "2026-08-03T15:14:31.283818-04:00", "demo": 0, "ticker": "PGY", "prev_state": "IGNITING", "state": "CHURN", "price": 21.76, "tp": 4.386211590242604, "note": "4.4x participation, no progress at highs \u2014 absorption"}
