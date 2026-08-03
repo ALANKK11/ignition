@@ -64,3 +64,4 @@
 {"ts": "2026-08-03T10:03:44.072175-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "OPEN DRIVE", "state": "RUNNING", "price": 93.4, "tp": 31.554604702947152, "note": "sustained 31.6x"}
 {"ts": "2026-08-03T10:03:44.072175-04:00", "demo": 0, "ticker": "MUSQ", "prev_state": "QUIET", "state": "COOLING", "price": 25.23, "tp": 0.0, "note": "pace 0.0x off peak 8.9x"}
 {"ts": "2026-08-03T10:03:44.072175-04:00", "demo": 0, "ticker": "KC", "prev_state": "QUIET", "state": "FADING", "price": 11.915, "tp": 2.8802214756127573, "note": "pace 2.9x vs peak 9.2x \u00b7 -0.5% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-03T10:06:44.057998-04:00", "demo": 0, "ticker": "PODD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds Insulet Corporation (NASDAQ: PODD) Investors Who Suffered Significant Losses of the Securities Fraud"}
