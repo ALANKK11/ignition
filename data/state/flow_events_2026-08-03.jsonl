@@ -479,3 +479,6 @@
 {"ts": "2026-08-03T11:56:14.094337-04:00", "demo": 0, "ticker": "DFH", "prev_state": "NEW MONEY", "state": "COOLING", "price": 12.955, "tp": 0.11085447319795586, "note": "pace 0.1x off peak 9.3x"}
 {"ts": "2026-08-03T11:56:14.094337-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "CHURN", "state": "RUNNING", "price": 3.095, "tp": 3.330636623518965, "note": "sustained 3.3x"}
 {"ts": "2026-08-03T11:59:14.080078-04:00", "demo": 0, "ticker": "GWRE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Guidewire Introduces Qusar Release to Help Insurers Build and Control AI Agents"}
+{"ts": "2026-08-03T11:59:59.095228-04:00", "demo": 0, "ticker": "CNH", "prev_state": "FADING", "state": "IGNITING", "price": 11.26, "tp": 4.687455389718487, "note": "pace 4.7x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-08-03T11:59:59.095228-04:00", "demo": 0, "ticker": "XRX", "prev_state": "LEAVING", "state": "FADING", "price": 3.195, "tp": 0.7719674774957742, "note": "pace 0.8x vs peak 2.4x \u00b7 -2.6% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-03T11:59:59.095228-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "FADING", "state": "RUNNING", "price": 93.5, "tp": 25.451104263516115, "note": "sustained 25.5x"}
