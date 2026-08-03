@@ -18,3 +18,8 @@
 {"ts": "2026-08-03T09:56:14.070521-04:00", "demo": 0, "ticker": "KC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 11.98, "tp": 3.110768534724258, "note": "3.1x tape out of the gate"}
 {"ts": "2026-08-03T09:56:14.070521-04:00", "demo": 0, "ticker": "SRAD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.81, "tp": 2.5040956580174267, "note": ""}
 {"ts": "2026-08-03T09:56:59.056050-04:00", "demo": 0, "ticker": "ADMA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DEADLINE APPROACHING: Berger Montague Advises ADMA Biologics, Inc. (NASDAQ: ADMA) Investors to Inquire About a Securitie"}
+{"ts": "2026-08-03T09:59:59.071249-04:00", "demo": 0, "ticker": "KC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.95, "tp": 2.098305552937884, "note": ""}
+{"ts": "2026-08-03T09:59:59.071249-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 5.695, "tp": 4.3974997917951, "note": "4.4x tape out of the gate"}
+{"ts": "2026-08-03T09:59:59.071249-04:00", "demo": 0, "ticker": "AMZZ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.35, "tp": 2.5649226286179845, "note": ""}
+{"ts": "2026-08-03T09:59:59.071249-04:00", "demo": 0, "ticker": "MUSQ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.23, "tp": 0.0, "note": ""}
+{"ts": "2026-08-03T09:59:59.071249-04:00", "demo": 0, "ticker": "LIND", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 33.59, "tp": 1.498621832028212, "note": ""}
