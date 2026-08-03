@@ -518,3 +518,5 @@
 {"ts": "2026-08-03T14:29:31.274182-04:00", "demo": 0, "ticker": "SMTI", "prev_state": "FADING", "state": "RUNNING", "price": 34.08, "tp": 1.8073486375195262, "note": "sustained 1.8x"}
 {"ts": "2026-08-03T14:29:31.274182-04:00", "demo": 0, "ticker": "AVDS", "prev_state": "RUNNING", "state": "FADING", "price": 76.745, "tp": 0.0, "note": "pace 0.0x vs peak 4.9x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-03T14:29:31.274182-04:00", "demo": 0, "ticker": "BHC", "prev_state": "COOLING", "state": "RUNNING", "price": 6.975, "tp": 2.484868492539906, "note": "sustained 2.5x"}
+{"ts": "2026-08-03T14:30:16.258613-04:00", "demo": 0, "ticker": "PLNT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Shareholders who lost money in shares of Planet Fitness, Inc. (NYSE: PLNT) Should Contact Wolf Haldenstein Immediately"}
+{"ts": "2026-08-03T14:30:16.258613-04:00", "demo": 0, "ticker": "GEN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Gen Launches the Fearless Planet Index"}
