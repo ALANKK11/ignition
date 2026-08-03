@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-03T16:13:46-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-03T16:15:16-04:00", "session": "post", "rows": [{"headline": "Clorox Reports Q4 and FY26 Results, Provides FY27 Outlook", "pr_ts": "16:10", "catalyst": true, "flags": ["STRATEGIC"], "ticker": "CLX", "move": 0.0279, "last": 98.2, "dollars": 17909814.2, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.021, "first_seen": "16:15", "new": true}]}
