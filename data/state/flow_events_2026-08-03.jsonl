@@ -264,3 +264,4 @@
 {"ts": "2026-08-03T10:59:59.083586-04:00", "demo": 0, "ticker": "CNH", "prev_state": "FADING", "state": "IGNITING", "price": 11.675, "tp": 4.047513973906375, "note": "pace 4.0x and accelerating (1.9x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-08-03T10:59:59.083586-04:00", "demo": 0, "ticker": "FLGT", "prev_state": "NEW MONEY", "state": "FADING", "price": 17.36, "tp": 0.15872232177540305, "note": "pace 0.2x vs peak 3.9x \u00b7 -0.4% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-03T10:59:59.083586-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "CHURN", "state": "RUNNING", "price": 31.095, "tp": 4.155160069660172, "note": "sustained 4.2x"}
+{"ts": "2026-08-03T11:01:29.068800-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos continues to strengthen U.S. Navy's secure intelligence operations"}
