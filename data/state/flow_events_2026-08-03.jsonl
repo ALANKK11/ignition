@@ -15,3 +15,5 @@
 {"ts": "2026-08-03T09:52:29.069705-04:00", "demo": 0, "ticker": "BHC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 7.11, "tp": 3.032898678187109, "note": "3.0x tape out of the gate"}
 {"ts": "2026-08-03T09:52:29.069705-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.015, "tp": 2.7013615029642, "note": ""}
 {"ts": "2026-08-03T09:52:29.069705-04:00", "demo": 0, "ticker": "KC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.84, "tp": 2.3531485172985995, "note": ""}
+{"ts": "2026-08-03T09:56:14.070521-04:00", "demo": 0, "ticker": "KC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 11.98, "tp": 3.110768534724258, "note": "3.1x tape out of the gate"}
+{"ts": "2026-08-03T09:56:14.070521-04:00", "demo": 0, "ticker": "SRAD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.81, "tp": 2.5040956580174267, "note": ""}
