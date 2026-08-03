@@ -97,3 +97,4 @@
 {"ts": "2026-08-03T10:11:14.073652-04:00", "demo": 0, "ticker": "FERG", "prev_state": "CHURN", "state": "RUNNING", "price": 254.87, "tp": 9.980316147203014, "note": "sustained 10.0x"}
 {"ts": "2026-08-03T10:11:14.073652-04:00", "demo": 0, "ticker": "LIND", "prev_state": "FADING", "state": "RUNNING", "price": 34.1, "tp": 3.897226833783838, "note": "sustained 3.9x"}
 {"ts": "2026-08-03T10:11:14.073652-04:00", "demo": 0, "ticker": "SMTI", "prev_state": "RUNNING", "state": "FADING", "price": 34.2, "tp": 0.8294083350833394, "note": "pace 0.8x vs peak 2.6x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-03T10:12:44.059229-04:00", "demo": 0, "ticker": "MVST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds Microvast Investors With Significant Losses of the Opportunity to Lead the Securities Fraud Class Ac"}
