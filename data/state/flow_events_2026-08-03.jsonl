@@ -157,3 +157,4 @@
 {"ts": "2026-08-03T10:29:59.077250-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.88, "tp": 11.073899704583123, "note": "sustained 11.1x"}
 {"ts": "2026-08-03T10:29:59.077250-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "CHURN", "state": "RUNNING", "price": 3.045, "tp": 3.7161732091527933, "note": "sustained 3.7x"}
 {"ts": "2026-08-03T10:29:59.077250-04:00", "demo": 0, "ticker": "FOSL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.03, "tp": 6.042289934864023, "note": "pace 6.0x and accelerating (1.7x vs prior window) \u00b7 +2.2% in window"}
+{"ts": "2026-08-03T10:32:14.062997-04:00", "demo": 0, "ticker": "GTM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds GTM Investors of the Opportunity to Seek Appointment for Lead Plaintiff in the Class Action Against "}
