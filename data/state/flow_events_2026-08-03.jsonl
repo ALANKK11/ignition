@@ -8,3 +8,6 @@
 {"ts": "2026-08-03T09:44:59.067794-04:00", "demo": 0, "ticker": "MUU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 21.56, "tp": 2.6927009354903033, "note": ""}
 {"ts": "2026-08-03T09:44:59.067794-04:00", "demo": 0, "ticker": "NOWL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 5.91, "tp": 2.837959287127733, "note": ""}
 {"ts": "2026-08-03T09:44:59.067794-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 19.365, "tp": 3.128823270467204, "note": "3.1x tape out of the gate"}
+{"ts": "2026-08-03T09:48:44.068690-04:00", "demo": 0, "ticker": "MMYT", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 62.75, "tp": 3.0145521963787743, "note": "3.0x tape out of the gate"}
+{"ts": "2026-08-03T09:48:44.068690-04:00", "demo": 0, "ticker": "BHC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.115, "tp": 1.863457122982095, "note": ""}
+{"ts": "2026-08-03T09:48:44.068690-04:00", "demo": 0, "ticker": "LITX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 19.99, "tp": 2.4582544875695342, "note": ""}
