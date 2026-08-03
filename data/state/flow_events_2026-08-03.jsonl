@@ -478,3 +478,4 @@
 {"ts": "2026-08-03T11:56:14.094337-04:00", "demo": 0, "ticker": "CAL", "prev_state": "FADING", "state": "RUNNING", "price": 13.935, "tp": 5.809432673996857, "note": "sustained 5.8x"}
 {"ts": "2026-08-03T11:56:14.094337-04:00", "demo": 0, "ticker": "DFH", "prev_state": "NEW MONEY", "state": "COOLING", "price": 12.955, "tp": 0.11085447319795586, "note": "pace 0.1x off peak 9.3x"}
 {"ts": "2026-08-03T11:56:14.094337-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "CHURN", "state": "RUNNING", "price": 3.095, "tp": 3.330636623518965, "note": "sustained 3.3x"}
+{"ts": "2026-08-03T11:59:14.080078-04:00", "demo": 0, "ticker": "GWRE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Guidewire Introduces Qusar Release to Help Insurers Build and Control AI Agents"}
