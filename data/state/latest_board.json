@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-03T19:44:52-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-04T08:55:32-04:00", "session": "pre", "rows": [{"headline": null, "pr_ts": null, "catalyst": false, "flags": null, "ticker": "AMIX", "move": 0.8056, "last": 4.82, "dollars": 86749.5, "vs_adv": 0.78, "off_hi": -0.3296, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 0.6, "swings": 5, "path": 1.482, "first_seen": "08:55", "new": true}]}
