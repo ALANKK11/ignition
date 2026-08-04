@@ -244,3 +244,14 @@
 {"ts": "2026-08-04T11:02:30.077022-04:00", "demo": 0, "ticker": "BRCC", "prev_state": "RUNNING", "state": "FADING", "price": 1.125, "tp": 3.1787827343902686, "note": "pace 3.2x vs peak 9.9x \u00b7 -9.6% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-04T11:02:30.077022-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.11, "tp": 4.59633197855223, "note": "sustained 4.6x"}
 {"ts": "2026-08-04T11:02:30.077022-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "CHURN", "state": "RUNNING", "price": 93.37, "tp": 7.258380607112617, "note": "sustained 7.3x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "RUNNING", "state": "CHURN", "price": 93.37, "tp": 6.19300520255135, "note": "6.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 18.525, "tp": 3.163664267733413, "note": "sustained 3.2x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "BMNP", "prev_state": "FADING", "state": "RUNNING", "price": 89.4, "tp": 17.112751244724734, "note": "sustained 17.1x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "AMIX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.47, "tp": 39.37037704615697, "note": "sustained 39.4x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "AESI", "prev_state": "COOLING", "state": "RUNNING", "price": 10.53, "tp": 1.9781603991898684, "note": "sustained 2.0x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "APTV", "prev_state": "IGNITING", "state": "RUNNING", "price": 48.58, "tp": 6.561548262507016, "note": "sustained 6.6x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "BSTZ", "prev_state": "NEW MONEY", "state": "FADING", "price": 29.725, "tp": 0.0, "note": "pace 0.0x vs peak 3.2x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "CCXI", "prev_state": "QUIET", "state": "RUNNING", "price": 15.54, "tp": 2.782312450436432, "note": "sustained 2.8x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.7, "tp": 17.989893054794923, "note": "pace 18.0x and accelerating (1.9x vs prior window) \u00b7 +5.2% in window"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "BWEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.21, "tp": 7.8809482974750695, "note": "sustained 7.9x"}
+{"ts": "2026-08-04T11:06:15.077727-04:00", "demo": 0, "ticker": "WMG", "prev_state": "COOLING", "state": "FADING", "price": 25.55, "tp": 0.5193613655775228, "note": "pace 0.5x vs peak 3.8x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
