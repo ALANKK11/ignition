@@ -19,3 +19,6 @@
 {"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "MVLL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.405, "tp": 1.9357513523166034, "note": ""}
 {"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "BRCC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.185, "tp": 2.7834678372922728, "note": ""}
 {"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "TATT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 39.775, "tp": 0.48319875019880654, "note": ""}
+{"ts": "2026-08-04T09:51:15.064547-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 129.98, "tp": 2.6482493645203355, "note": ""}
+{"ts": "2026-08-04T09:51:15.064547-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 11.17, "tp": 3.5558797021422723, "note": "3.6x tape out of the gate"}
+{"ts": "2026-08-04T09:51:15.064547-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 18.98, "tp": 2.723225625770626, "note": ""}
