@@ -12,3 +12,5 @@
 {"ts": "2026-08-04T09:40:00.062558-04:00", "demo": 0, "ticker": "GLUE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.595, "tp": 2.009806878053355, "note": ""}
 {"ts": "2026-08-04T09:40:00.062558-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 6.61, "tp": 3.5501817874863946, "note": "3.6x tape out of the gate"}
 {"ts": "2026-08-04T09:40:00.062558-04:00", "demo": 0, "ticker": "VOYG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.62, "tp": 3.338672912607443, "note": "3.3x tape out of the gate"}
+{"ts": "2026-08-04T09:43:45.063232-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.46, "tp": 2.9660040112739465, "note": ""}
+{"ts": "2026-08-04T09:43:45.063232-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.99, "tp": 5.527818335710126, "note": "5.5x tape out of the gate"}
