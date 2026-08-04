@@ -298,3 +298,16 @@
 {"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "AII", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.675, "tp": 0.7061852104012182, "note": "pace 0.7x off peak 4.6x"}
 {"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "COOLING", "state": "RUNNING", "price": 9.35, "tp": 2.3318731219286666, "note": "sustained 2.3x"}
 {"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "APTV", "prev_state": "IGNITING", "state": "RUNNING", "price": 48.28, "tp": 8.643815130485656, "note": "sustained 8.6x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "RUNNING", "state": "COOLING", "price": 18.57, "tp": 1.7077029815926281, "note": "pace 1.7x off peak 4.0x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "FADING", "state": "NEW MONEY", "price": 145.14, "tp": 2.402778210820672, "note": "quiet open (0.6x) \u2192 now 2.4x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "AXTI", "prev_state": "CHURN", "state": "RUNNING", "price": 67.19, "tp": 2.4823213008520564, "note": "sustained 2.5x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "RUNNING", "state": "COOLING", "price": 10.4, "tp": 0.6133118013364365, "note": "pace 0.6x off peak 9.0x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "BRSL", "prev_state": "IGNITING", "state": "CHURN", "price": 11.135, "tp": 5.857979589192184, "note": "5.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.4, "tp": 3.6360121642201872, "note": "pace 3.6x and accelerating (1.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "BHC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 6.655, "tp": 2.503721425674163, "note": "quiet open (1.1x) \u2192 now 2.5x \u00b7 taking +0.7% flow share"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "BLZE", "prev_state": "FADING", "state": "LEAVING", "price": 21.79, "tp": 2.48809136117221, "note": "pace 2.5x off peak 23.1x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "RUNNING", "state": "COOLING", "price": 17.89, "tp": 0.6710724354522681, "note": "pace 0.7x off peak 14.2x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "PAX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 11.56, "tp": 2.5915792491352274, "note": "quiet open (1.0x) \u2192 now 2.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "CCXI", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.625, "tp": 3.2242265008438, "note": "sustained 3.2x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.32, "tp": 1.8557705557692197, "note": "sustained 1.9x"}
+{"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "CHURN", "price": 29.285, "tp": 5.0590395032484725, "note": "5.1x participation, no progress at highs \u2014 absorption"}
