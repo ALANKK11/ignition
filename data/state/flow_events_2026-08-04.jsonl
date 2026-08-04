@@ -130,3 +130,4 @@
 {"ts": "2026-08-04T10:31:00.079942-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.585, "tp": 3.621820715297825, "note": "pace 3.6x and accelerating (2.1x vs prior window) \u00b7 +1.9% in window"}
 {"ts": "2026-08-04T10:31:00.079942-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 144.24, "tp": 2.1327326976541365, "note": "quiet open (0.6x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-08-04T10:31:00.079942-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "QUIET", "state": "RUNNING", "price": 18.125, "tp": 1.8529433069038161, "note": "sustained 1.9x"}
+{"ts": "2026-08-04T10:32:30.059992-04:00", "demo": 0, "ticker": "SEGG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SEGG Media Outlines Strategic Program Around Three Core Growth Platforms"}
