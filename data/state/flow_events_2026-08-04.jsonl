@@ -339,3 +339,14 @@
 {"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.13, "tp": 4.229911108418192, "note": "sustained 4.2x"}
 {"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "BHC", "prev_state": "COOLING", "state": "RUNNING", "price": 6.63, "tp": 2.643811556236623, "note": "sustained 2.6x"}
 {"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.73, "tp": 1.8023019382670018, "note": "sustained 1.8x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.58, "tp": 1.2736652622681996, "note": "pace 1.3x off peak 38.6x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "CERT", "prev_state": "CHURN", "state": "RUNNING", "price": 7.595, "tp": 2.9457520393644003, "note": "sustained 2.9x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "USDU", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 26.49, "tp": 3.387534206390375, "note": "quiet open (0.4x) \u2192 now 3.4x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 29.355, "tp": 1.9812344632458683, "note": "sustained 2.0x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "PAX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.59, "tp": 1.433181895785646, "note": "pace 1.4x off peak 3.3x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "AXTI", "prev_state": "RUNNING", "state": "COOLING", "price": 65.98, "tp": 1.7949973721733872, "note": "pace 1.8x off peak 3.4x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "BRKR", "prev_state": "RUNNING", "state": "COOLING", "price": 52.91, "tp": 1.459162768497495, "note": "pace 1.5x off peak 23.6x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "NEW MONEY", "state": "FADING", "price": 145.14, "tp": 0.0, "note": "pace 0.0x vs peak 2.6x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 9.48, "tp": 1.3328097451586574, "note": "pace 1.3x off peak 7.6x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "BNO", "prev_state": "QUIET", "state": "RUNNING", "price": 45.66, "tp": 2.763841774943441, "note": "sustained 2.8x"}
+{"ts": "2026-08-04T11:31:45.081858-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "CHURN", "state": "RUNNING", "price": 29.28, "tp": 7.316285906600633, "note": "sustained 7.3x"}
