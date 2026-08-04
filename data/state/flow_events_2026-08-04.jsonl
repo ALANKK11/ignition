@@ -328,3 +328,14 @@
 {"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 18.27, "tp": 6.1798115479922355, "note": "quiet open (0.2x) \u2192 now 6.2x \u00b7 taking +0.6% flow share"}
 {"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "BHC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 6.625, "tp": 1.6122848138904597, "note": "pace 1.6x off peak 2.5x"}
 {"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.98, "tp": 5.843456413530753, "note": "pace 5.8x and accelerating (2.4x vs prior window) \u00b7 +3.6% in window"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "CERT", "prev_state": "RUNNING", "state": "CHURN", "price": 7.555, "tp": 3.4004481637017023, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "USDU", "prev_state": "QUIET", "state": "RUNNING", "price": 26.49, "tp": 1.8063368970101763, "note": "sustained 1.8x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "BOW", "prev_state": "QUIET", "state": "RUNNING", "price": 33.63, "tp": 3.074425653813973, "note": "sustained 3.1x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.21, "tp": 4.393301476878398, "note": "pace 4.4x and accelerating (1.8x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "BRKR", "prev_state": "COOLING", "state": "RUNNING", "price": 52.94, "tp": 1.8330183874729526, "note": "sustained 1.8x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "NEW MONEY", "state": "COOLING", "price": 26.29, "tp": 0.0, "note": "pace 0.0x off peak 24.5x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 29.355, "tp": 2.16807573632168, "note": "quiet open (0.6x) \u2192 now 2.2x \u00b7 taking +1.0% flow share"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "BWEN", "prev_state": "FADING", "state": "IGNITING", "price": 5.39, "tp": 15.1525390545616, "note": "pace 15.2x and accelerating (13.9x vs prior window) \u00b7 +2.1% in window"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.13, "tp": 4.229911108418192, "note": "sustained 4.2x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "BHC", "prev_state": "COOLING", "state": "RUNNING", "price": 6.63, "tp": 2.643811556236623, "note": "sustained 2.6x"}
+{"ts": "2026-08-04T11:28:45.081247-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.73, "tp": 1.8023019382670018, "note": "sustained 1.8x"}
