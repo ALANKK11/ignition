@@ -26,3 +26,6 @@
 {"ts": "2026-08-04T09:55:00.065379-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 5.775, "tp": 3.5812904175275575, "note": "3.6x tape out of the gate"}
 {"ts": "2026-08-04T09:55:00.065379-04:00", "demo": 0, "ticker": "MRVU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 108.07, "tp": 1.499103403144635, "note": ""}
 {"ts": "2026-08-04T09:55:00.065379-04:00", "demo": 0, "ticker": "IBTA", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 36.755, "tp": 3.526188881720235, "note": "3.5x tape out of the gate"}
+{"ts": "2026-08-04T09:58:45.065877-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.21, "tp": 1.6258015165401645, "note": ""}
+{"ts": "2026-08-04T09:58:45.065877-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 129.135, "tp": 3.2709751280320525, "note": "3.3x tape out of the gate"}
+{"ts": "2026-08-04T09:58:45.065877-04:00", "demo": 0, "ticker": "LITX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 28.545, "tp": 2.4097864322386964, "note": ""}
