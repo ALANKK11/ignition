@@ -287,3 +287,14 @@
 {"ts": "2026-08-04T11:13:45.078840-04:00", "demo": 0, "ticker": "BETR", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.22, "tp": 25.042871729019478, "note": "sustained 25.0x"}
 {"ts": "2026-08-04T11:13:45.078840-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.4, "tp": 3.1688465098867136, "note": "sustained 3.2x"}
 {"ts": "2026-08-04T11:13:45.078840-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.41, "tp": 4.9992555614850716, "note": "pace 5.0x and accelerating (4.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "AXTI", "prev_state": "RUNNING", "state": "CHURN", "price": 67.455, "tp": 2.6360988290739664, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "BRCC", "prev_state": "FADING", "state": "LEAVING", "price": 1.075, "tp": 2.034420496604775, "note": "pace 2.0x off peak 9.9x \u00b7 VWAP lost (was +3.5% above)"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "COOLING", "state": "FADING", "price": 11.09, "tp": 1.5530435924852348, "note": "pace 1.6x vs peak 4.7x \u00b7 -1.7% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "AESI", "prev_state": "COOLING", "state": "RUNNING", "price": 10.53, "tp": 2.2109905630270226, "note": "sustained 2.2x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "CHURN", "state": "RUNNING", "price": 93.39, "tp": 2.2916446362414917, "note": "sustained 2.3x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.4, "tp": 3.7218361603836474, "note": "sustained 3.7x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "BHC", "prev_state": "QUIET", "state": "RUNNING", "price": 6.635, "tp": 1.936842933797273, "note": "sustained 1.9x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "FADING", "state": "COOLING", "price": 6.615, "tp": 1.6729044181708825, "note": "pace 1.7x off peak 3.6x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "AII", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.675, "tp": 0.7061852104012182, "note": "pace 0.7x off peak 4.6x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "COOLING", "state": "RUNNING", "price": 9.35, "tp": 2.3318731219286666, "note": "sustained 2.3x"}
+{"ts": "2026-08-04T11:16:45.079428-04:00", "demo": 0, "ticker": "APTV", "prev_state": "IGNITING", "state": "RUNNING", "price": 48.28, "tp": 8.643815130485656, "note": "sustained 8.6x"}
