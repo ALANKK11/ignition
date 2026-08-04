@@ -222,3 +222,14 @@
 {"ts": "2026-08-04T10:56:30.076196-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.48, "tp": 6.494133724590245, "note": "sustained 6.5x"}
 {"ts": "2026-08-04T10:56:30.076196-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.335, "tp": 6.303239937553068, "note": "sustained 6.3x"}
 {"ts": "2026-08-04T10:56:30.076196-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "IGNITING", "state": "COOLING", "price": 10.16, "tp": 0.8895850464820997, "note": "pace 0.9x off peak 3.9x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "BIOA", "prev_state": "COOLING", "state": "NEW MONEY", "price": 10.25, "tp": 6.5243262765161525, "note": "quiet open (0.3x) \u2192 now 6.5x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "AMCX", "prev_state": "COOLING", "state": "QUIET", "price": 11.11, "tp": 1.4110039512963393, "note": ""}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "WMG", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.41, "tp": 1.950557510477479, "note": "sustained 2.0x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "AHCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.5, "tp": 24.97934799167088, "note": "sustained 25.0x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "USDU", "prev_state": "COOLING", "state": "NEW MONEY", "price": 26.47, "tp": 2.2351476269832817, "note": "quiet open (0.4x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.82, "tp": 4.725337549736899, "note": "sustained 4.7x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.32, "tp": 18.892841015175325, "note": "pace 18.9x and accelerating (4.5x vs prior window) \u00b7 -3.7% in window"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "BRKR", "prev_state": "RUNNING", "state": "COOLING", "price": 53.34, "tp": 1.6425268261079753, "note": "pace 1.6x off peak 23.6x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "BN", "prev_state": "RUNNING", "state": "COOLING", "price": 44.4, "tp": 1.4972963893021465, "note": "pace 1.5x off peak 2.4x"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "RUNNING", "state": "CHURN", "price": 93.375, "tp": 5.786926077700857, "note": "5.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T10:59:30.076573-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 18.495, "tp": 3.054585038686296, "note": "quiet open (1.2x) \u2192 now 3.1x \u00b7 taking +0.1% flow share"}
