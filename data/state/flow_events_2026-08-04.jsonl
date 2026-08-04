@@ -14,3 +14,8 @@
 {"ts": "2026-08-04T09:40:00.062558-04:00", "demo": 0, "ticker": "VOYG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.62, "tp": 3.338672912607443, "note": "3.3x tape out of the gate"}
 {"ts": "2026-08-04T09:43:45.063232-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.46, "tp": 2.9660040112739465, "note": ""}
 {"ts": "2026-08-04T09:43:45.063232-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.99, "tp": 5.527818335710126, "note": "5.5x tape out of the gate"}
+{"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 14.53, "tp": 1.570955131865613, "note": ""}
+{"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "PRKS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 44.46, "tp": 0.6627320022748898, "note": ""}
+{"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "MVLL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.405, "tp": 1.9357513523166034, "note": ""}
+{"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "BRCC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.185, "tp": 2.7834678372922728, "note": ""}
+{"ts": "2026-08-04T09:47:30.063874-04:00", "demo": 0, "ticker": "TATT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 39.775, "tp": 0.48319875019880654, "note": ""}
