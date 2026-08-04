@@ -494,3 +494,4 @@
 {"ts": "2026-08-04T12:09:15.088025-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "CHURN", "state": "FADING", "price": 9.26, "tp": 2.2527884176137105, "note": "pace 2.3x vs peak 7.0x \u00b7 -2.2% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-04T12:09:15.088025-04:00", "demo": 0, "ticker": "AMRC", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.78, "tp": 4.9376826391593465, "note": "sustained 4.9x"}
 {"ts": "2026-08-04T12:09:15.088025-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.41, "tp": 1.756676034514899, "note": "pace 1.8x off peak 4.2x"}
+{"ts": "2026-08-04T12:10:45.076610-04:00", "demo": 0, "ticker": "ZG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DEADLINE APPROACHING: Berger Montague Advises Zillow Group, Inc. (NASDAQ: ZG, Z) Investors to Inquire About a Securities"}
