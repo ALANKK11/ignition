@@ -311,3 +311,12 @@
 {"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "CCXI", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.625, "tp": 3.2242265008438, "note": "sustained 3.2x"}
 {"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.32, "tp": 1.8557705557692197, "note": "sustained 1.9x"}
 {"ts": "2026-08-04T11:19:45.079905-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "CHURN", "price": 29.285, "tp": 5.0590395032484725, "note": "5.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "ADGM", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.86, "tp": 5258.667349574762, "note": "pace 5258.7x off peak 9835.6x \u00b7 VWAP lost (was +18.0% above)"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "BMNP", "prev_state": "RUNNING", "state": "FADING", "price": 89.4, "tp": 6.45838700282169, "note": "pace 6.5x vs peak 22.6x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "BRKR", "prev_state": "COOLING", "state": "RUNNING", "price": 52.97, "tp": 1.8803038253593163, "note": "sustained 1.9x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "PAX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 11.545, "tp": 2.2749877687741966, "note": "sustained 2.3x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.4, "tp": 3.4176007284887606, "note": "sustained 3.4x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "BRSL", "prev_state": "CHURN", "state": "RUNNING", "price": 11.12, "tp": 5.5473525452705745, "note": "sustained 5.5x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.625, "tp": 2.319473396146422, "note": "sustained 2.3x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.32, "tp": 1.7305159765936144, "note": "pace 1.7x off peak 4.2x"}
+{"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "COOLING", "state": "RUNNING", "price": 18.58, "tp": 2.689039912172299, "note": "sustained 2.7x"}
