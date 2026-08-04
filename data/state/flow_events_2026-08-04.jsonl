@@ -320,3 +320,11 @@
 {"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.625, "tp": 2.319473396146422, "note": "sustained 2.3x"}
 {"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.32, "tp": 1.7305159765936144, "note": "pace 1.7x off peak 4.2x"}
 {"ts": "2026-08-04T11:22:45.080287-04:00", "demo": 0, "ticker": "TFSL", "prev_state": "COOLING", "state": "RUNNING", "price": 18.58, "tp": 2.689039912172299, "note": "sustained 2.7x"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "BRKR", "prev_state": "RUNNING", "state": "COOLING", "price": 52.96, "tp": 1.767616406727973, "note": "pace 1.8x off peak 23.6x"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "EFOR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.34, "tp": 1.977327647200489, "note": "sustained 2.0x"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "USDU", "prev_state": "COOLING", "state": "QUIET", "price": 26.49, "tp": 1.7579224175833348, "note": ""}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CGON", "prev_state": "FADING", "state": "IGNITING", "price": 71.22, "tp": 2.9299664074958303, "note": "pace 2.9x and accelerating (5.3x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "RUNNING", "state": "FADING", "price": 26.39, "tp": 0.4649034343048488, "note": "pace 0.5x vs peak 5.0x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 18.27, "tp": 6.1798115479922355, "note": "quiet open (0.2x) \u2192 now 6.2x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "BHC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 6.625, "tp": 1.6122848138904597, "note": "pace 1.6x off peak 2.5x"}
+{"ts": "2026-08-04T11:25:45.080866-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.98, "tp": 5.843456413530753, "note": "pace 5.8x and accelerating (2.4x vs prior window) \u00b7 +3.6% in window"}
