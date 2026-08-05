@@ -386,3 +386,18 @@
 {"ts": "2026-08-05T11:43:30.703275-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "COOLING", "state": "RUNNING", "price": 15.345, "tp": 3.615379982193183, "note": "sustained 3.6x"}
 {"ts": "2026-08-05T11:43:30.703275-04:00", "demo": 0, "ticker": "TGS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 29.615, "tp": 6.652105443858556, "note": "sustained 6.7x"}
 {"ts": "2026-08-05T11:43:30.703275-04:00", "demo": 0, "ticker": "AHCO", "prev_state": "FADING", "state": "CHURN", "price": 6.87, "tp": 3.944429032269907, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AROC", "prev_state": "COOLING", "state": "RUNNING", "price": 33.74, "tp": 2.1306573253367276, "note": "sustained 2.1x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "BLMN", "prev_state": "FADING", "state": "LEAVING", "price": 12.01, "tp": 6.942898668453162, "note": "pace 6.9x off peak 24.7x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "COOLING", "state": "RUNNING", "price": 74.58, "tp": 3.4093589952497183, "note": "sustained 3.4x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.7, "tp": 33.069001840589515, "note": "sustained 33.1x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "APTV", "prev_state": "COOLING", "state": "RUNNING", "price": 46.91, "tp": 1.8189653295942325, "note": "sustained 1.8x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "FMDE", "prev_state": "RUNNING", "state": "COOLING", "price": 42.05, "tp": 1.5739155774436295, "note": "pace 1.6x off peak 6.1x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "FTK", "prev_state": "RUNNING", "state": "IGNITING", "price": 35.49, "tp": 11.075847657016189, "note": "pace 11.1x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 8.435, "tp": 2.4919982597068, "note": "quiet open (1.1x) \u2192 now 2.5x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "CHURN", "state": "RUNNING", "price": 93.63, "tp": 2.4354258976725216, "note": "sustained 2.4x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "ABM", "prev_state": "RUNNING", "state": "COOLING", "price": 48.82, "tp": 0.5665282788728438, "note": "pace 0.6x off peak 18.0x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "LEAVING", "price": 9.95, "tp": 0.300205297858292, "note": "pace 0.3x off peak 8.5x \u00b7 VWAP lost (was +12.2% above)"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AHCO", "prev_state": "CHURN", "state": "IGNITING", "price": 6.905, "tp": 4.8442058263885786, "note": "pace 4.8x and accelerating (4.3x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "BATRK", "prev_state": "COOLING", "state": "RUNNING", "price": 48.495, "tp": 2.123961267592859, "note": "sustained 2.1x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.28, "tp": 2.1181556341115564, "note": "sustained 2.1x"}
+{"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "KMT", "prev_state": "COOLING", "state": "RUNNING", "price": 34.95, "tp": 1.927139387783965, "note": "sustained 1.9x"}
