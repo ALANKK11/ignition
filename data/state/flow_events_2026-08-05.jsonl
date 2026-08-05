@@ -842,3 +842,20 @@
 {"ts": "2026-08-05T14:48:33.993220-04:00", "demo": 0, "ticker": "APPX", "prev_state": "COOLING", "state": "RUNNING", "price": 25.31, "tp": 1.8665580063375724, "note": "sustained 1.9x"}
 {"ts": "2026-08-05T14:48:33.993220-04:00", "demo": 0, "ticker": "AROC", "prev_state": "RUNNING", "state": "CHURN", "price": 34.32, "tp": 3.5246518502769963, "note": "3.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-05T14:48:33.993220-04:00", "demo": 0, "ticker": "SIBN", "prev_state": "COOLING", "state": "RUNNING", "price": 18.065, "tp": 1.859093204642889, "note": "sustained 1.9x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "BSJQ", "prev_state": "NEW MONEY", "state": "COOLING", "price": 22.885, "tp": 0.0, "note": "pace 0.0x off peak 93.5x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "AXIA", "prev_state": "RUNNING", "state": "CHURN", "price": 10.515, "tp": 5.4829422824194705, "note": "5.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "FMDE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 42.11, "tp": 1.677517434841444, "note": "pace 1.7x off peak 6.1x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "AROC", "prev_state": "CHURN", "state": "RUNNING", "price": 34.6, "tp": 3.2388726509052717, "note": "sustained 3.2x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "RUNNING", "state": "FADING", "price": 93.665, "tp": 1.4907846525661004, "note": "pace 1.5x vs peak 4.3x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "ANIP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 80.0, "tp": 2.5131670735090275, "note": "quiet open (0.0x) \u2192 now 2.5x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "COOLING", "state": "RUNNING", "price": 3.07, "tp": 2.212826900372416, "note": "sustained 2.2x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "BLMN", "prev_state": "LEAVING", "state": "FADING", "price": 11.865, "tp": 3.1766627733260315, "note": "pace 3.2x vs peak 24.7x \u00b7 -6.0% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "KMT", "prev_state": "RUNNING", "state": "COOLING", "price": 34.925, "tp": 1.5822381484453563, "note": "pace 1.6x off peak 78.7x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "AKR", "prev_state": "COOLING", "state": "RUNNING", "price": 21.49, "tp": 2.4003337579302246, "note": "sustained 2.4x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "AVT", "prev_state": "IGNITING", "state": "RUNNING", "price": 96.66, "tp": 13.883639934927356, "note": "sustained 13.9x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.21, "tp": 1.140451325197223, "note": "pace 1.1x off peak 17.0x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "DDD", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.65, "tp": 3.1286380331807018, "note": "sustained 3.1x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "RUNNING", "state": "CHURN", "price": 20.495, "tp": 18.605120937417052, "note": "18.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "JBGS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.26, "tp": 2.5804360371886346, "note": "sustained 2.6x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "COOLING", "price": 25.31, "tp": 1.7644793712974118, "note": "pace 1.8x off peak 16.5x"}
+{"ts": "2026-08-05T14:51:33.993747-04:00", "demo": 0, "ticker": "SIBN", "prev_state": "RUNNING", "state": "COOLING", "price": 18.05, "tp": 1.3689840734292886, "note": "pace 1.4x off peak 6.5x"}
