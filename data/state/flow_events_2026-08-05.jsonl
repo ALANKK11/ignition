@@ -822,3 +822,11 @@
 {"ts": "2026-08-05T14:42:33.992022-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "FADING", "state": "LEAVING", "price": 3.845, "tp": 0.6269750965856008, "note": "pace 0.6x off peak 4.2x \u00b7 VWAP lost (was +1.6% above)"}
 {"ts": "2026-08-05T14:42:33.992022-04:00", "demo": 0, "ticker": "AAT", "prev_state": "RUNNING", "state": "COOLING", "price": 22.98, "tp": 1.2306250040212658, "note": "pace 1.2x off peak 2.8x"}
 {"ts": "2026-08-05T14:42:33.992022-04:00", "demo": 0, "ticker": "ALTI", "prev_state": "FADING", "state": "RUNNING", "price": 4.65, "tp": 31.694951127380097, "note": "sustained 31.7x"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "AVT", "prev_state": "RUNNING", "state": "IGNITING", "price": 96.31, "tp": 14.118657487532216, "note": "pace 14.1x and accelerating (1.8x vs prior window) \u00b7 +2.1% in window"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "LIFE", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.79, "tp": 5.350585194729451, "note": "sustained 5.4x"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "AROC", "prev_state": "IGNITING", "state": "RUNNING", "price": 34.265, "tp": 3.145157000602232, "note": "sustained 3.1x"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "KMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.03, "tp": 3.0283645885894823, "note": "sustained 3.0x"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "AMGN", "prev_state": "RUNNING", "state": "FADING", "price": 404.445, "tp": 2.1385031033168644, "note": "pace 2.1x vs peak 6.1x \u00b7 -2.8% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "APTV", "prev_state": "RUNNING", "state": "CHURN", "price": 47.26, "tp": 2.945124381980072, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "LEAVING", "state": "FADING", "price": 1.505, "tp": 5.808714814947466, "note": "pace 5.8x vs peak 235.7x \u00b7 -10.9% off HOD \u00b7 chart still +49% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T14:45:33.992588-04:00", "demo": 0, "ticker": "ARLP", "prev_state": "QUIET", "state": "RUNNING", "price": 25.26, "tp": 1.8922892393393629, "note": "sustained 1.9x"}
