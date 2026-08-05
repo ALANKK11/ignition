@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-05T17:16:19-04:00", "session": "post", "rows": [{"ticker": "YXT", "last": 15.43, "gap": -0.2, "dollars": 124840.25, "vs_adv": 124.49, "new": false}, {"ticker": "FIG", "last": 23.5, "gap": -0.1659, "dollars": 191850.88, "vs_adv": 0.01, "new": false}]}
+{"v": 4, "ts": "2026-08-05T17:19:19-04:00", "session": "post", "rows": [{"ticker": "YXT", "last": 15.43, "gap": -0.2, "dollars": 124840.25, "vs_adv": 124.49, "new": false}, {"ticker": "FIG", "last": 23.5, "gap": -0.1659, "dollars": 191850.88, "vs_adv": 0.01, "new": false}]}
