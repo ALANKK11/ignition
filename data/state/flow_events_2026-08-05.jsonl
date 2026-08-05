@@ -1136,3 +1136,4 @@
 {"ts": "2026-08-05T16:23:03.997051-04:00", "demo": 0, "ticker": "CCI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Crown Castle Declares Quarterly Common Stock Dividend"}
 {"ts": "2026-08-05T16:32:48.998929-04:00", "demo": 0, "ticker": "CPS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cooper Standard Highlights Positive Cash Flow and Continued Strong New Business Awards in the Second Quarter of 2026; Ma"}
 {"ts": "2026-08-05T16:56:49.003658-04:00", "demo": 0, "ticker": "ALL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Allstate Reports Excellent Operating Results"}
+{"ts": "2026-08-05T16:58:19.017608-04:00", "demo": 0, "ticker": "FIG", "prev_state": null, "state": "AH IGNITION", "price": 23.5, "tp": null, "note": "-17% on $0.19M ext tape"}
