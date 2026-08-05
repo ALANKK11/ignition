@@ -20,3 +20,5 @@
 {"ts": "2026-08-05T09:47:15.681929-04:00", "demo": 0, "ticker": "AMIX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 16.29, "tp": 2.6073183497437635, "note": ""}
 {"ts": "2026-08-05T09:47:15.681929-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 59.15, "tp": 1.1249229656288446, "note": ""}
 {"ts": "2026-08-05T09:47:15.681929-04:00", "demo": 0, "ticker": "MBC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.09, "tp": 2.7870579298478932, "note": ""}
+{"ts": "2026-08-05T09:51:00.682208-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.805, "tp": 2.932462563498638, "note": ""}
+{"ts": "2026-08-05T09:51:00.682208-04:00", "demo": 0, "ticker": "MBC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 9.05, "tp": 3.984582653776079, "note": "4.0x tape out of the gate"}
