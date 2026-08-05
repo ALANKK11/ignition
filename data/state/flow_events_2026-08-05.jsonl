@@ -435,3 +435,18 @@
 {"ts": "2026-08-05T11:58:30.706026-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "LEAVING", "price": 9.96, "tp": 1.0418021174619743, "note": "pace 1.0x off peak 8.5x \u00b7 VWAP lost (was +12.2% above)"}
 {"ts": "2026-08-05T11:58:30.706026-04:00", "demo": 0, "ticker": "BVS", "prev_state": "LEAVING", "state": "FADING", "price": 15.43, "tp": 2.502493233997379, "note": "pace 2.5x vs peak 9.7x \u00b7 -2.8% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-05T11:58:30.706026-04:00", "demo": 0, "ticker": "AMGN", "prev_state": "RUNNING", "state": "COOLING", "price": 407.74, "tp": 1.589407465951992, "note": "pace 1.6x off peak 3.0x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "LIFE", "prev_state": "COOLING", "state": "RUNNING", "price": 26.32, "tp": 3.183399803451994, "note": "sustained 3.2x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "AMD", "prev_state": "COOLING", "state": "RUNNING", "price": 484.66, "tp": 1.8556164872153846, "note": "sustained 1.9x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "ATKR", "prev_state": "CHURN", "state": "RUNNING", "price": 93.67, "tp": 3.7019350184689395, "note": "sustained 3.7x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 74.58, "tp": 0.0, "note": "pace 0.0x off peak 20.6x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "LEAVING", "price": 6.57, "tp": 3.7997174390786204, "note": "pace 3.8x off peak 63.1x \u00b7 VWAP lost (was +22.9% above)"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "ABM", "prev_state": "COOLING", "state": "RUNNING", "price": 48.72, "tp": 5.981591023562296, "note": "sustained 6.0x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "BLMN", "prev_state": "FADING", "state": "LEAVING", "price": 12.015, "tp": 6.108710875789773, "note": "pace 6.1x off peak 24.7x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.53, "tp": 2.7946203516618557, "note": "sustained 2.8x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "LEAVING", "state": "FADING", "price": 10.125, "tp": 1.0250539802505354, "note": "pace 1.0x vs peak 8.5x \u00b7 -10.9% off HOD \u00b7 chart still +21% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "ANIP", "prev_state": "QUIET", "state": "RUNNING", "price": 80.31, "tp": 1.8261715196250852, "note": "sustained 1.8x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "RUNNING", "state": "COOLING", "price": 30.76, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "CC", "prev_state": "RUNNING", "state": "COOLING", "price": 14.865, "tp": 1.7303328174798491, "note": "pace 1.7x off peak 6.2x"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.09, "tp": 2.8468199277391797, "note": "pace 2.8x and accelerating (11.2x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "MSFD", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 10.545, "tp": 3.1097912277205753, "note": "pace 3.1x and accelerating (62.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-05T12:02:15.706942-04:00", "demo": 0, "ticker": "BKNG", "prev_state": "COOLING", "state": "RUNNING", "price": 205.1, "tp": 2.1362225944510373, "note": "sustained 2.1x"}
