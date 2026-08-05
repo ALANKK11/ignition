@@ -358,3 +358,15 @@
 {"ts": "2026-08-05T11:36:00.702121-04:00", "demo": 0, "ticker": "CDW", "prev_state": "IGNITING", "state": "CHURN", "price": 136.01, "tp": 6.673372765505992, "note": "6.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-05T11:36:00.702121-04:00", "demo": 0, "ticker": "AMGN", "prev_state": "COOLING", "state": "RUNNING", "price": 404.61, "tp": 1.8708965821402597, "note": "sustained 1.9x"}
 {"ts": "2026-08-05T11:36:00.702121-04:00", "demo": 0, "ticker": "ACAD", "prev_state": "CHURN", "state": "RUNNING", "price": 28.78, "tp": 2.9634249039671214, "note": "sustained 3.0x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "CHURN", "state": "COOLING", "price": 74.59, "tp": 0.0, "note": "pace 0.0x off peak 20.6x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "IBTA", "prev_state": "NEW MONEY", "state": "QUIET", "price": 35.39, "tp": 1.78817029615526, "note": ""}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "CDW", "prev_state": "CHURN", "state": "RUNNING", "price": 136.29, "tp": 3.2176172491029402, "note": "sustained 3.2x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "APTV", "prev_state": "COOLING", "state": "RUNNING", "price": 47.03, "tp": 1.910697113919601, "note": "sustained 1.9x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "APPS", "prev_state": "FADING", "state": "LEAVING", "price": 13.15, "tp": 4.025539744670994, "note": "pace 4.0x off peak 20.1x \u00b7 VWAP lost (was +4.5% above)"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "BCHP", "prev_state": "NEW MONEY", "state": "FADING", "price": 39.35, "tp": 0.0, "note": "pace 0.0x vs peak 5.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "BIL", "prev_state": "NEW MONEY", "state": "FADING", "price": 91.435, "tp": 0.036465219818173356, "note": "pace 0.0x vs peak 9.4x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "FADING", "state": "LEAVING", "price": 10.085, "tp": 0.9072219702940509, "note": "pace 0.9x off peak 8.5x \u00b7 VWAP lost (was +12.2% above)"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "CDRE", "prev_state": "RUNNING", "state": "COOLING", "price": 30.67, "tp": 0.39582336322356354, "note": "pace 0.4x off peak 5.5x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "CHCT", "prev_state": "RUNNING", "state": "COOLING", "price": 15.27, "tp": 1.7765857863667773, "note": "pace 1.8x off peak 6.5x"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "ACAD", "prev_state": "RUNNING", "state": "FADING", "price": 28.78, "tp": 2.5333852223520874, "note": "pace 2.5x vs peak 8.1x \u00b7 -0.7% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T11:39:45.702721-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 8.37, "tp": 1.3216816131762057, "note": "pace 1.3x off peak 5.8x"}
