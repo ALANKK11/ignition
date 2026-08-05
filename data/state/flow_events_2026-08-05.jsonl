@@ -643,3 +643,4 @@
 {"ts": "2026-08-05T12:47:15.715195-04:00", "demo": 0, "ticker": "FLHY", "prev_state": "RUNNING", "state": "QUIET", "price": 24.105, "tp": 1.7345595848393651, "note": ""}
 {"ts": "2026-08-05T12:47:15.715195-04:00", "demo": 0, "ticker": "GNK", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 26.03, "tp": 2.5112203622626774, "note": "quiet open (0.7x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-05T12:47:15.715195-04:00", "demo": 0, "ticker": "MBC", "prev_state": "LEAVING", "state": "CHURN", "price": 9.155, "tp": 2.922045167371965, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-05T12:50:15.700465-04:00", "demo": 0, "ticker": "ZG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CLASS ACTION DEADLINE APPROACHING: Berger Montague Advises Zillow Group, Inc. (NASDAQ: ZG, Z) Investors to Inquire About"}
