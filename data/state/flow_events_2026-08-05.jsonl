@@ -1139,3 +1139,4 @@
 {"ts": "2026-08-05T16:58:19.017608-04:00", "demo": 0, "ticker": "FIG", "prev_state": null, "state": "AH IGNITION", "price": 23.5, "tp": null, "note": "-17% on $0.19M ext tape"}
 {"ts": "2026-08-05T16:59:49.004244-04:00", "demo": 0, "ticker": "RIG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Transocean Ltd. Provides Quarterly Fleet Status Report"}
 {"ts": "2026-08-05T17:02:49.004827-04:00", "demo": 0, "ticker": "WLCOU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Wilco 63 Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing August 10, 2026"}
+{"ts": "2026-08-05T17:06:34.005530-04:00", "demo": 0, "ticker": "EXK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Endeavour Silver Announces US$25 Million Revolving Term Credit Facility"}
