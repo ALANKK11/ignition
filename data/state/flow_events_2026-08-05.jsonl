@@ -401,3 +401,9 @@
 {"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "BATRK", "prev_state": "COOLING", "state": "RUNNING", "price": 48.495, "tp": 2.123961267592859, "note": "sustained 2.1x"}
 {"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.28, "tp": 2.1181556341115564, "note": "sustained 2.1x"}
 {"ts": "2026-08-05T11:47:15.703866-04:00", "demo": 0, "ticker": "KMT", "prev_state": "COOLING", "state": "RUNNING", "price": 34.95, "tp": 1.927139387783965, "note": "sustained 1.9x"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "CDW", "prev_state": "RUNNING", "state": "COOLING", "price": 136.42, "tp": 1.7784109847325185, "note": "pace 1.8x off peak 53.6x"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "FMDE", "prev_state": "COOLING", "state": "RUNNING", "price": 42.03, "tp": 1.9782466375888366, "note": "sustained 2.0x"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "FTK", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.365, "tp": 10.947401231699557, "note": "sustained 10.9x"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "CEF", "prev_state": "FADING", "state": "RUNNING", "price": 42.465, "tp": 2.6871884380881754, "note": "sustained 2.7x"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 8.5, "tp": 3.5748733501717593, "note": "pace 3.6x and accelerating (1.7x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-08-05T11:51:00.704669-04:00", "demo": 0, "ticker": "BLMN", "prev_state": "LEAVING", "state": "FADING", "price": 12.085, "tp": 7.664756581988048, "note": "pace 7.7x vs peak 24.7x \u00b7 -4.2% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
