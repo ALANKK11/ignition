@@ -532,3 +532,4 @@
 {"ts": "2026-08-05T12:21:00.710606-04:00", "demo": 0, "ticker": "INDV", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 38.67, "tp": 2.01349391407322, "note": "sustained 2.0x"}
 {"ts": "2026-08-05T12:21:00.710606-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "FADING", "state": "LEAVING", "price": 1.395, "tp": 5.351795746912766, "note": "pace 5.4x off peak 118.4x \u00b7 VWAP lost (was +5.9% above)"}
 {"ts": "2026-08-05T12:21:00.710606-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 8.57, "tp": 2.642443131226231, "note": "quiet open (1.1x) \u2192 now 2.6x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-08-05T12:21:45.695166-04:00", "demo": 0, "ticker": "MLM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Martin Marietta Receives Regulatory Approvals for Lhoist North America Transaction"}
