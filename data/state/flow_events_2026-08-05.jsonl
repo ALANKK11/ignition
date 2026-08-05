@@ -942,3 +942,12 @@
 {"ts": "2026-08-05T15:12:33.997963-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "COOLING", "state": "CHURN", "price": 19.535, "tp": 2.8792081092740656, "note": "2.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-05T15:12:33.997963-04:00", "demo": 0, "ticker": "MBC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.24, "tp": 2.009418108181594, "note": "sustained 2.0x"}
 {"ts": "2026-08-05T15:12:33.997963-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "COOLING", "state": "RUNNING", "price": 3.83, "tp": 1.8041749709858739, "note": "sustained 1.8x"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "KMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.085, "tp": 4.135946473189183, "note": "sustained 4.1x"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "APTV", "prev_state": "RUNNING", "state": "COOLING", "price": 47.125, "tp": 1.3917215874303555, "note": "pace 1.4x off peak 6.2x"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 8.535, "tp": 2.743530116862661, "note": "quiet open (1.1x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "INLF", "prev_state": "LEAVING", "state": "FADING", "price": 6.44, "tp": 4.610173106477836, "note": "pace 4.6x vs peak 63.1x \u00b7 -29.7% off HOD \u00b7 chart still +97% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "DDD", "prev_state": "RUNNING", "state": "LEAVING", "price": 3.67, "tp": 2.4195669505354758, "note": "pace 2.4x off peak 5.3x \u00b7 VWAP lost (was +6.7% above)"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "ALTI", "prev_state": "CHURN", "state": "RUNNING", "price": 4.665, "tp": 24.597123492873216, "note": "sustained 24.6x"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "BILZ", "prev_state": "NEW MONEY", "state": "FADING", "price": 100.695, "tp": 0.0, "note": "pace 0.0x vs peak 6.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "MBC", "prev_state": "RUNNING", "state": "COOLING", "price": 9.27, "tp": 1.7216227219651643, "note": "pace 1.7x off peak 9.5x"}
+{"ts": "2026-08-05T15:15:33.998273-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "RUNNING", "state": "COOLING", "price": 3.835, "tp": 1.639815814980438, "note": "pace 1.6x off peak 6.7x"}
