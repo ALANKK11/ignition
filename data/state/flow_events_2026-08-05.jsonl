@@ -2,3 +2,6 @@
 {"ts": "2026-08-05T08:50:43.542867-04:00", "demo": 0, "ticker": "DAMD", "prev_state": null, "state": "PM IGNITION", "price": 1.65, "tp": null, "note": "+18% on $0.12M ext tape"}
 {"ts": "2026-08-05T08:50:43.542867-04:00", "demo": 0, "ticker": "EOSE", "prev_state": null, "state": "PM IGNITION", "price": 3.59, "tp": null, "note": "-15% on $0.06M ext tape"}
 {"ts": "2026-08-05T09:01:30.672215-04:00", "demo": 0, "ticker": "DBGI", "prev_state": null, "state": "PM IGNITION", "price": 36.68, "tp": null, "note": "+64% on $0.09M ext tape"}
+{"ts": "2026-08-05T09:02:15.658380-04:00", "demo": 0, "ticker": "HUHU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HUHUTECH Expands Arizona Semiconductor Project Portfolio with Fifth Order Worth Approximately US$1.8 Million"}
+{"ts": "2026-08-05T09:02:15.658380-04:00", "demo": 0, "ticker": "BTOG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Bit Origin Highlights AI Infrastructure Opportunity and NVIDIA Blackwell B300 Strategy"}
+{"ts": "2026-08-05T09:02:15.658380-04:00", "demo": 0, "ticker": "AEHL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Antelope Enterprise Holdings Limited Announce Reverse Split Record Date"}
