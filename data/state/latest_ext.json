@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-04T19:00:22-04:00", "session": "post", "rows": [{"ticker": "DAMD", "last": 1.65, "gap": 0.1232, "dollars": 178801.74, "vs_adv": 0.03, "new": false}]}
+{"v": 4, "ts": "2026-08-05T08:50:43-04:00", "session": "pre", "rows": [{"ticker": "YXT", "last": 9.46, "gap": 1.0515, "dollars": 253316.47999999998, "vs_adv": 680.95, "new": true}, {"ticker": "DAMD", "last": 1.65, "gap": 0.177, "dollars": 117711.95, "vs_adv": 0.02, "new": true}, {"ticker": "EOSE", "last": 3.59, "gap": -0.1462, "dollars": 56355.53999999999, "vs_adv": 0.01, "new": true}]}
