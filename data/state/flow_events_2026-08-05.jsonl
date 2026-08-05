@@ -10,3 +10,7 @@
 {"ts": "2026-08-05T09:12:45.674192-04:00", "demo": 0, "ticker": "INLF", "prev_state": null, "state": "PM IGNITION", "price": 6.7, "tp": null, "note": "+51% on $0.05M ext tape"}
 {"ts": "2026-08-05T09:18:45.661467-04:00", "demo": 0, "ticker": "FABC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fabric.AI to Present at the Canaccord Genuity 46th Annual Growth Conference"}
 {"ts": "2026-08-05T09:20:15.675827-04:00", "demo": 0, "ticker": "BJDX", "prev_state": null, "state": "PM IGNITION", "price": 1.53, "tp": null, "note": "+40% on $0.10M ext tape"}
+{"ts": "2026-08-05T09:36:00.679502-04:00", "demo": 0, "ticker": "ARVN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 8.8, "tp": 1.320107719832321, "note": ""}
+{"ts": "2026-08-05T09:36:00.679502-04:00", "demo": 0, "ticker": "DDD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.28, "tp": 1.2021014125231886, "note": ""}
+{"ts": "2026-08-05T09:36:00.679502-04:00", "demo": 0, "ticker": "MBC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 9.28, "tp": 9.542248508945823, "note": "9.5x tape out of the gate"}
+{"ts": "2026-08-05T09:36:00.679502-04:00", "demo": 0, "ticker": "MSFD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.46, "tp": 2.6787844654359594, "note": ""}
