@@ -288,3 +288,4 @@
 {"ts": "2026-08-05T11:21:00.699025-04:00", "demo": 0, "ticker": "BVS", "prev_state": "CHURN", "state": "RUNNING", "price": 15.595, "tp": 8.413691963193061, "note": "sustained 8.4x"}
 {"ts": "2026-08-05T11:21:00.699025-04:00", "demo": 0, "ticker": "CDW", "prev_state": "RUNNING", "state": "CHURN", "price": 135.735, "tp": 5.673498318182191, "note": "5.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-05T11:21:00.699025-04:00", "demo": 0, "ticker": "CERT", "prev_state": "RUNNING", "state": "COOLING", "price": 8.025, "tp": 0.7470705445754431, "note": "pace 0.7x off peak 2.0x"}
+{"ts": "2026-08-05T11:21:45.684023-04:00", "demo": 0, "ticker": "TUYA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Tuya Smart lance Tuya AI Coding, une solution permettant aux utilisateurs de cr\u00e9er leurs propres applications de style d"}
