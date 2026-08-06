@@ -438,3 +438,12 @@
 {"ts": "2026-08-06T11:55:12.452755-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 5.76, "tp": 1.7936248496875096, "note": "pace 1.8x off peak 3.4x"}
 {"ts": "2026-08-06T11:55:12.452755-04:00", "demo": 0, "ticker": "ARQT", "prev_state": "COOLING", "state": "RUNNING", "price": 26.92, "tp": 1.8202285429797687, "note": "sustained 1.8x"}
 {"ts": "2026-08-06T11:55:12.452755-04:00", "demo": 0, "ticker": "BWX", "prev_state": "CHURN", "state": "RUNNING", "price": 21.86, "tp": 3.1173841810803316, "note": "sustained 3.1x"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "GLL", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 24.12, "tp": 4.389119695165448, "note": "pace 4.4x and accelerating (4.4x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "BKGI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 44.765, "tp": 4.03286048200765, "note": "quiet open (0.1x) \u2192 now 4.0x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "COOLING", "state": "LEAVING", "price": 1.18, "tp": 0.6925820641426217, "note": "pace 0.7x off peak 4.5x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "PPTA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 22.755, "tp": 1.8356316294810386, "note": "sustained 1.8x"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "DXD", "prev_state": "NEW MONEY", "state": "CHURN", "price": 16.195, "tp": 3.8421917829015966, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "CARL", "prev_state": "RUNNING", "state": "IGNITING", "price": 14.42, "tp": 5.986359176620843, "note": "pace 6.0x and accelerating (1.7x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "FESM", "prev_state": "QUIET", "state": "RUNNING", "price": 48.02, "tp": 1.9124179108823012, "note": "sustained 1.9x"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.93, "tp": 11.177158270656449, "note": "sustained 11.2x"}
+{"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "RUNNING", "state": "QUIET", "price": 32.51, "tp": 1.7345720427825244, "note": ""}
