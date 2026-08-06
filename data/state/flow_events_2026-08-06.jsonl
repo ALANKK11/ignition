@@ -227,3 +227,12 @@
 {"ts": "2026-08-06T10:58:57.443342-04:00", "demo": 0, "ticker": "FMS", "prev_state": "FADING", "state": "COOLING", "price": 24.23, "tp": 1.540580964106217, "note": "pace 1.5x off peak 2.6x"}
 {"ts": "2026-08-06T10:58:57.443342-04:00", "demo": 0, "ticker": "USAS", "prev_state": "RUNNING", "state": "COOLING", "price": 4.74, "tp": 1.3717220139532995, "note": "pace 1.4x off peak 5.2x"}
 {"ts": "2026-08-06T10:58:57.443342-04:00", "demo": 0, "ticker": "CACI", "prev_state": "QUIET", "state": "RUNNING", "price": 617.43, "tp": 1.9599043723611116, "note": "sustained 2.0x"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "CZFS", "prev_state": "CHURN", "state": "FADING", "price": 82.4, "tp": 0.0, "note": "pace 0.0x vs peak 7.7x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "DUST", "prev_state": "RUNNING", "state": "COOLING", "price": 48.27, "tp": 0.0, "note": "pace 0.0x off peak 7.1x"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "CHYM", "prev_state": "RUNNING", "state": "CHURN", "price": 32.15, "tp": 4.382623443137878, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "CQP", "prev_state": "NEW MONEY", "state": "FADING", "price": 66.77, "tp": 1.313364204483562, "note": "pace 1.3x vs peak 3.9x \u00b7 -0.6% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "BYND", "prev_state": "COOLING", "state": "RUNNING", "price": 0.5429, "tp": 2.0809835426003804, "note": "sustained 2.1x"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 5.715, "tp": 0.5799464804358972, "note": "pace 0.6x off peak 2.4x"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "CRON", "prev_state": "RUNNING", "state": "CHURN", "price": 3.045, "tp": 13.029202695256632, "note": "13.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "BSCX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.835, "tp": 0.6374116580211168, "note": "pace 0.6x off peak 3.5x"}
+{"ts": "2026-08-06T11:02:42.444426-04:00", "demo": 0, "ticker": "OCSL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.625, "tp": 5.1700813381496875, "note": "sustained 5.2x"}
