@@ -21,3 +21,6 @@
 {"ts": "2026-08-06T09:51:27.429133-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.24, "tp": 1.183086547320823, "note": ""}
 {"ts": "2026-08-06T09:51:27.429133-04:00", "demo": 0, "ticker": "UTI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 29.825, "tp": 4.657655402996487, "note": "4.7x tape out of the gate"}
 {"ts": "2026-08-06T09:51:27.429133-04:00", "demo": 0, "ticker": "SMIG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 33.375, "tp": 6.996156250089205, "note": "7.0x tape out of the gate"}
+{"ts": "2026-08-06T09:55:12.430153-04:00", "demo": 0, "ticker": "AEVA", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 25.78, "tp": 3.680896605890939, "note": "3.7x tape out of the gate"}
+{"ts": "2026-08-06T09:55:12.430153-04:00", "demo": 0, "ticker": "MVIS", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.28, "tp": 3.3013914187226288, "note": "3.3x tape out of the gate"}
+{"ts": "2026-08-06T09:55:12.430153-04:00", "demo": 0, "ticker": "KMT", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 33.22, "tp": 6.383312619844476, "note": "6.4x tape out of the gate"}
