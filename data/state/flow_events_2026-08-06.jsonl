@@ -16,3 +16,5 @@
 {"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "HPP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.515, "tp": 2.1914324964956338, "note": ""}
 {"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "USAS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.69, "tp": 1.1432748915487057, "note": ""}
 {"ts": "2026-08-06T09:40:12.425801-04:00", "demo": 0, "ticker": "FIGG", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 19.595, "tp": 3.4409696973016195, "note": "3.4x tape out of the gate"}
+{"ts": "2026-08-06T09:47:42.427183-04:00", "demo": 0, "ticker": "SOUN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.715, "tp": 2.699742470754863, "note": ""}
+{"ts": "2026-08-06T09:47:42.427183-04:00", "demo": 0, "ticker": "AEVA", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 24.25, "tp": 2.759279915597744, "note": ""}
