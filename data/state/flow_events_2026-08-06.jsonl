@@ -133,3 +133,4 @@
 {"ts": "2026-08-06T10:28:57.437363-04:00", "demo": 0, "ticker": "DUST", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 49.03, "tp": 7.120583966290898, "note": "pace 7.1x and accelerating (142.4x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-08-06T10:28:57.437363-04:00", "demo": 0, "ticker": "GLL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 23.84, "tp": 1.5629068949263907, "note": "pace 1.6x off peak 3.6x"}
 {"ts": "2026-08-06T10:28:57.437363-04:00", "demo": 0, "ticker": "APPX", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.915, "tp": 12.831851294036321, "note": "sustained 12.8x"}
+{"ts": "2026-08-06T10:30:27.424512-04:00", "demo": 0, "ticker": "SEGG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SEGG Media's Quadrant Premieres New Oliver Bearman Content Feature Sponsored by That Prize Guy"}
