@@ -80,3 +80,4 @@
 {"ts": "2026-08-06T10:10:12.432939-04:00", "demo": 0, "ticker": "USAS", "prev_state": "COOLING", "state": "FADING", "price": 4.845, "tp": 1.1995912021378101, "note": "pace 1.2x vs peak 4.0x \u00b7 -0.7% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-06T10:10:12.432939-04:00", "demo": 0, "ticker": "INTA", "prev_state": "QUIET", "state": "NEW MONEY", "price": 35.555, "tp": 2.453505396457361, "note": "quiet open (0.8x) \u2192 now 2.5x \u00b7 taking +0.7% flow share"}
 {"ts": "2026-08-06T10:10:12.432939-04:00", "demo": 0, "ticker": "KMT", "prev_state": "RUNNING", "state": "COOLING", "price": 33.53, "tp": 1.2305354731321063, "note": "pace 1.2x off peak 7.8x"}
+{"ts": "2026-08-06T10:10:57.420387-04:00", "demo": 0, "ticker": "MSFT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of August 11, 2026 in Microsoft Corporation Lawsuit - MSFT"}
