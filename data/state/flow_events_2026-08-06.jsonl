@@ -455,3 +455,4 @@
 {"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "ARQT", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.29, "tp": 3.903996178803779, "note": "pace 3.9x and accelerating (4.1x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "BLBD", "prev_state": "RUNNING", "state": "COOLING", "price": 66.52, "tp": 0.8687493336989144, "note": "pace 0.9x off peak 6.1x"}
 {"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "PPTA", "prev_state": "RUNNING", "state": "COOLING", "price": 22.62, "tp": 1.4364898496857808, "note": "pace 1.4x off peak 3.1x"}
+{"ts": "2026-08-06T12:03:27.442665-04:00", "demo": 0, "ticker": "SEIC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SEI Launches ANGU ETF, Bringing Factor Research to Traditional Index Exposure"}
