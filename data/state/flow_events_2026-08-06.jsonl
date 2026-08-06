@@ -104,3 +104,15 @@
 {"ts": "2026-08-06T10:17:42.434335-04:00", "demo": 0, "ticker": "HONA", "prev_state": "RUNNING", "state": "CHURN", "price": 163.0, "tp": 5.935265348166696, "note": "5.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-06T10:17:42.434335-04:00", "demo": 0, "ticker": "ENSC", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6366, "tp": 187.04104909823457, "note": "sustained 187.0x"}
 {"ts": "2026-08-06T10:17:42.434335-04:00", "demo": 0, "ticker": "PRGO", "prev_state": "RUNNING", "state": "COOLING", "price": 12.75, "tp": 1.0371490787743889, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "ETHW", "prev_state": "QUIET", "state": "NEW MONEY", "price": 13.65, "tp": 2.774050910456112, "note": "quiet open (0.3x) \u2192 now 2.8x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "DUST", "prev_state": "QUIET", "state": "NEW MONEY", "price": 48.47, "tp": 3.5099996802075153, "note": "quiet open (0.6x) \u2192 now 3.5x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "INTA", "prev_state": "RUNNING", "state": "COOLING", "price": 35.65, "tp": 1.6691346279174761, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "SLVP", "prev_state": "NEW MONEY", "state": "COOLING", "price": 33.935, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "SMIG", "prev_state": "FADING", "state": "CHURN", "price": 33.38, "tp": 4.832392998055081, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "ANEL", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 26.71, "tp": 5.820706870714047, "note": "pace 5.8x and accelerating (3.1x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.1, "tp": 528.9527885033258, "note": "sustained 529.0x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "COOLING", "state": "RUNNING", "price": 2.055, "tp": 3.3214397127245023, "note": "sustained 3.3x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "QUIET", "state": "RUNNING", "price": 5.745, "tp": 1.8608950051006956, "note": "sustained 1.9x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "AEVA", "prev_state": "CHURN", "state": "RUNNING", "price": 27.63, "tp": 12.468547724731163, "note": "sustained 12.5x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "APPX", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.9, "tp": 12.59944299576285, "note": "sustained 12.6x"}
+{"ts": "2026-08-06T10:21:27.435516-04:00", "demo": 0, "ticker": "ATS", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.96, "tp": 21.025594576655823, "note": "pace 21.0x and accelerating (2.3x vs prior window) \u00b7 +3.8% in window"}
