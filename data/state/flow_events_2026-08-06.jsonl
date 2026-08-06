@@ -11,3 +11,7 @@
 {"ts": "2026-08-06T09:28:12.411658-04:00", "demo": 0, "ticker": "PONO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Blackstar Orbital Technologies, an innovative developer of advanced reusable spacecraft announces the signing of a defin"}
 {"ts": "2026-08-06T09:33:27.412882-04:00", "demo": 0, "ticker": "CODX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Co-Diagnostics Submits FDA 510(k) Premarket Notification for Upper Respiratory Point-of-Care Test"}
 {"ts": "2026-08-06T09:34:57.413203-04:00", "demo": 0, "ticker": "KMX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CarMax Teams with Sierra to Enhance Inbound Sales Call Experience"}
+{"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "DXD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.9, "tp": 0.8525030789655862, "note": ""}
+{"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "USDU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.38, "tp": 0.7903609018916842, "note": ""}
+{"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "HPP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.515, "tp": 2.1914324964956338, "note": ""}
+{"ts": "2026-08-06T09:36:27.424935-04:00", "demo": 0, "ticker": "USAS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.69, "tp": 1.1432748915487057, "note": ""}
