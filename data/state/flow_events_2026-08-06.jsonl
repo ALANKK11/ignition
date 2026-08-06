@@ -447,3 +447,11 @@
 {"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "FESM", "prev_state": "QUIET", "state": "RUNNING", "price": 48.02, "tp": 1.9124179108823012, "note": "sustained 1.9x"}
 {"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.93, "tp": 11.177158270656449, "note": "sustained 11.2x"}
 {"ts": "2026-08-06T11:58:57.453230-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "RUNNING", "state": "QUIET", "price": 32.51, "tp": 1.7345720427825244, "note": ""}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "QUIET", "state": "COOLING", "price": 32.51, "tp": 0.7212457575604411, "note": "pace 0.7x off peak 2.3x"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "DXD", "prev_state": "CHURN", "state": "RUNNING", "price": 16.195, "tp": 2.7861969859458156, "note": "sustained 2.8x"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "AZI", "prev_state": "LEAVING", "state": "FADING", "price": 1.535, "tp": 49.6236043068492, "note": "pace 49.6x vs peak 3904.3x \u00b7 -40.4% off HOD \u00b7 chart still +53% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "FESM", "prev_state": "RUNNING", "state": "COOLING", "price": 48.02, "tp": 1.0781221806554713, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "AMPL", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.73, "tp": 3.9983222886646783, "note": "sustained 4.0x"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "ARQT", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.29, "tp": 3.903996178803779, "note": "pace 3.9x and accelerating (4.1x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "BLBD", "prev_state": "RUNNING", "state": "COOLING", "price": 66.52, "tp": 0.8687493336989144, "note": "pace 0.9x off peak 6.1x"}
+{"ts": "2026-08-06T12:02:42.454025-04:00", "demo": 0, "ticker": "PPTA", "prev_state": "RUNNING", "state": "COOLING", "price": 22.62, "tp": 1.4364898496857808, "note": "pace 1.4x off peak 3.1x"}
