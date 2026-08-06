@@ -465,3 +465,17 @@
 {"ts": "2026-08-06T12:06:27.454625-04:00", "demo": 0, "ticker": "INTA", "prev_state": "COOLING", "state": "RUNNING", "price": 36.55, "tp": 1.8140389904888479, "note": "sustained 1.8x"}
 {"ts": "2026-08-06T12:06:27.454625-04:00", "demo": 0, "ticker": "CARL", "prev_state": "IGNITING", "state": "FADING", "price": 14.42, "tp": 2.048111917343935, "note": "pace 2.0x vs peak 6.3x \u00b7 -3.9% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-06T12:06:27.454625-04:00", "demo": 0, "ticker": "BTG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.07, "tp": 2.4894691404076106, "note": "sustained 2.5x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "BYND", "prev_state": "IGNITING", "state": "COOLING", "price": 0.539, "tp": 0.45843627558531724, "note": "pace 0.5x off peak 9.4x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "PPTA", "prev_state": "COOLING", "state": "RUNNING", "price": 22.71, "tp": 2.031148932737429, "note": "sustained 2.0x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "ARDC", "prev_state": "COOLING", "state": "RUNNING", "price": 12.37, "tp": 7.7097192196850655, "note": "sustained 7.7x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "AMPL", "prev_state": "CHURN", "state": "RUNNING", "price": 10.705, "tp": 1.8799773749403585, "note": "sustained 1.9x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "BWX", "prev_state": "RUNNING", "state": "COOLING", "price": 21.86, "tp": 0.0, "note": "pace 0.0x off peak 54.0x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "COOLING", "state": "RUNNING", "price": 42.385, "tp": 2.145134798812744, "note": "sustained 2.1x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "BKGI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 44.755, "tp": 1.149395579060359, "note": "pace 1.1x off peak 5.6x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "CRCT", "prev_state": "COOLING", "state": "RUNNING", "price": 5.89, "tp": 2.139101425935615, "note": "sustained 2.1x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "BTG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.08, "tp": 1.76501905270311, "note": "pace 1.8x off peak 2.7x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "INTA", "prev_state": "RUNNING", "state": "COOLING", "price": 36.55, "tp": 1.089101404004413, "note": "pace 1.1x off peak 2.5x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "BBDC", "prev_state": "CHURN", "state": "FADING", "price": 9.025, "tp": 1.0547780577495571, "note": "pace 1.1x vs peak 7.2x \u00b7 -0.2% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "GLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.06, "tp": 2.353685184795591, "note": "sustained 2.4x"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "AYA", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 24.63, "tp": 2.362585535005629, "note": "quiet open (0.4x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-06T12:10:12.455321-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "COOLING", "state": "RUNNING", "price": 6.44, "tp": 1.8029516976623263, "note": "sustained 1.8x"}
