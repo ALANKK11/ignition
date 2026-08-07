@@ -22,3 +22,4 @@
 {"ts": "2026-08-07T09:06:30.965722-04:00", "demo": 0, "ticker": "DSX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Diana Shipping Inc. Announces Time Charter Contract for m/v Florida with NYK"}
 {"ts": "2026-08-07T09:08:00.980813-04:00", "demo": 0, "ticker": "TTD", "prev_state": null, "state": "PM IGNITION", "price": 12.53, "tp": null, "note": "-29% on $0.06M ext tape"}
 {"ts": "2026-08-07T09:14:00.981808-04:00", "demo": 0, "ticker": "MB", "prev_state": null, "state": "PM IGNITION", "price": 14.23, "tp": null, "note": "+253% on $0.10M ext tape"}
+{"ts": "2026-08-07T09:24:30.969203-04:00", "demo": 0, "ticker": "PN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PN Smart Energy Limited Announces Pricing of $5.0 Million Registered Direct Offering"}
