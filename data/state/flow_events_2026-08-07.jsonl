@@ -1080,3 +1080,9 @@
 {"ts": "2026-08-07T14:31:00.750341-04:00", "demo": 0, "ticker": "BMRN", "prev_state": "IGNITING", "state": "RUNNING", "price": 63.03, "tp": 2.4532040099817336, "note": "sustained 2.5x"}
 {"ts": "2026-08-07T14:31:00.750341-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 46.78, "tp": 1.7917512713007646, "note": "pace 1.8x off peak 9.5x"}
 {"ts": "2026-08-07T14:31:00.750341-04:00", "demo": 0, "ticker": "ALXO", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.1, "tp": 5.887864154386157, "note": "pace 5.9x off peak 42.8x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "FOUR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.64, "tp": 1.406702304759712, "note": "pace 1.4x off peak 16.9x"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "FADING", "state": "LEAVING", "price": 20.92, "tp": 3.7129314336611294, "note": "pace 3.7x off peak 22.5x \u00b7 VWAP lost (was +7.1% above)"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "PRSU", "prev_state": "COOLING", "state": "RUNNING", "price": 46.13, "tp": 1.89650050723434, "note": "sustained 1.9x"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "COOLING", "state": "RUNNING", "price": 46.8, "tp": 2.319020228571486, "note": "sustained 2.3x"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "BNL", "prev_state": "CHURN", "state": "RUNNING", "price": 20.845, "tp": 4.18747311269718, "note": "sustained 4.2x"}
+{"ts": "2026-08-07T14:34:00.751388-04:00", "demo": 0, "ticker": "AMPH", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.925, "tp": 5.968863190463653, "note": "pace 6.0x and accelerating (2.3x vs prior window) \u00b7 -1.1% in window"}
