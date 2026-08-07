@@ -154,3 +154,12 @@
 {"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ARKQ", "prev_state": "CHURN", "state": "RUNNING", "price": 125.2, "tp": 8.555317888202001, "note": "sustained 8.6x"}
 {"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "SVV", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.095, "tp": 3.7480269962312183, "note": "sustained 3.7x"}
 {"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "UA", "prev_state": "COOLING", "state": "RUNNING", "price": 6.035, "tp": 1.8621986242009503, "note": "sustained 1.9x"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "EPS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 80.85, "tp": 0.0, "note": "pace 0.0x off peak 3.2x"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "QUIET", "state": "IGNITING", "price": 5.28, "tp": 5.261938627991516, "note": "pace 5.3x and accelerating (11.0x vs prior window) \u00b7 +6.2% in window"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "BZH", "prev_state": "CHURN", "state": "RUNNING", "price": 33.06, "tp": 8.478421709914192, "note": "sustained 8.5x"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "UA", "prev_state": "RUNNING", "state": "COOLING", "price": 6.09, "tp": 1.7842546207378018, "note": "pace 1.8x off peak 15.5x"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "BXC", "prev_state": "IGNITING", "state": "FADING", "price": 88.33, "tp": 0.9652172217933297, "note": "pace 1.0x vs peak 8.4x \u00b7 -0.7% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "FADING", "price": 14.94, "tp": 4.30699571472054, "note": "pace 4.3x vs peak 12.9x \u00b7 +0.0% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "COOLING", "state": "RUNNING", "price": 20.365, "tp": 1.831336859890878, "note": "sustained 1.8x"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "FADING", "state": "IGNITING", "price": 23.5, "tp": 8.528590128045243, "note": "pace 8.5x and accelerating (3.1x vs prior window) \u00b7 +8.3% in window"}
+{"ts": "2026-08-07T10:28:15.997464-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.06, "tp": 26.2006976621006, "note": "pace 26.2x and accelerating (231.1x vs prior window) \u00b7 +2.9% in window"}
