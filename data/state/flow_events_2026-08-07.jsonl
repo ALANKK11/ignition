@@ -38,3 +38,4 @@
 {"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "GDXU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 132.19, "tp": 2.7932878473218063, "note": ""}
 {"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "SPT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.275, "tp": 2.9145828650491743, "note": ""}
 {"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "PSIX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 40.28, "tp": 2.7811014701519445, "note": ""}
+{"ts": "2026-08-07T09:48:30.989786-04:00", "demo": 0, "ticker": "GDXU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 131.7, "tp": 3.2683510398297413, "note": "3.3x tape out of the gate"}
