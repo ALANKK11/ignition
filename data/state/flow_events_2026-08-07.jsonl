@@ -213,3 +213,4 @@
 {"ts": "2026-08-07T10:40:16.000053-04:00", "demo": 0, "ticker": "DNOW", "prev_state": "COOLING", "state": "CHURN", "price": 16.24, "tp": 2.530645329195834, "note": "2.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-07T10:40:16.000053-04:00", "demo": 0, "ticker": "ANIK", "prev_state": "QUIET", "state": "NEW MONEY", "price": 20.405, "tp": 5.657468922742801, "note": "quiet open (0.4x) \u2192 now 5.7x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-07T10:40:16.000053-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "QUIET", "state": "COOLING", "price": 10.075, "tp": 1.536734814839, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-08-07T10:41:00.984150-04:00", "demo": 0, "ticker": "ADMA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "MONDAY INVESTOR DEADLINE: ADMA Biologics, Inc. (NASDAQ: ADMA) Investors with Substantial Losses Have Opportunity to Lead"}
