@@ -49,3 +49,4 @@
 {"ts": "2026-08-07T09:57:30.991271-04:00", "demo": 0, "ticker": "TDUP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 3.24, "tp": 2.95255472640453, "note": ""}
 {"ts": "2026-08-07T10:00:30.991907-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.15, "tp": 2.0453527145849897, "note": ""}
 {"ts": "2026-08-07T10:00:30.991907-04:00", "demo": 0, "ticker": "ARKO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.35, "tp": 2.930036218061019, "note": ""}
+{"ts": "2026-08-07T10:02:45.976658-04:00", "demo": 0, "ticker": "PRIM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PRIM Stockholders Have Rights - If You Lost Money Investing in Primoris Services Corporation Contact Robbins LLP For Inf"}
