@@ -32,3 +32,6 @@
 {"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.545, "tp": 1.9966125507082075, "note": ""}
 {"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "DRVN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.9, "tp": 0.9197789557752437, "note": ""}
 {"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "VISN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.195, "tp": 1.7527450855561084, "note": ""}
+{"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "PRSU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 47.21, "tp": 1.853731935670978, "note": ""}
+{"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "TWLO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 238.13, "tp": 2.806416760593228, "note": ""}
+{"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "TRIP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.615, "tp": 1.6607270880752314, "note": ""}
