@@ -465,3 +465,11 @@
 {"ts": "2026-08-07T11:28:16.009258-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "CHURN", "state": "RUNNING", "price": 27.3, "tp": 2.2833472556897023, "note": "sustained 2.3x"}
 {"ts": "2026-08-07T11:28:16.009258-04:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "FADING", "price": 16.4, "tp": 2.0908119300739574, "note": "pace 2.1x vs peak 12.0x \u00b7 -0.8% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-07T11:28:16.009258-04:00", "demo": 0, "ticker": "ANIP", "prev_state": "RUNNING", "state": "COOLING", "price": 77.545, "tp": 1.2477929665819085, "note": "pace 1.2x off peak 7.0x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 10.42, "tp": 7.861635545999042, "note": "sustained 7.9x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "AURA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 7.795, "tp": 1.689424128762975, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "DRVN", "prev_state": "FADING", "state": "LEAVING", "price": 13.12, "tp": 1.7198374534913201, "note": "pace 1.7x off peak 3.6x \u00b7 VWAP lost (was +2.2% above)"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "RUNNING", "state": "FADING", "price": 27.32, "tp": 2.1260655612738155, "note": "pace 2.1x vs peak 6.1x \u00b7 -0.9% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "SATL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 5.42, "tp": 2.0009557382163443, "note": "sustained 2.0x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "VRDN", "prev_state": "QUIET", "state": "RUNNING", "price": 22.675, "tp": 1.9777972910385067, "note": "sustained 2.0x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "COOLING", "price": 16.54, "tp": 1.359591963444781, "note": "pace 1.4x off peak 5.4x"}
+{"ts": "2026-08-07T11:31:16.009953-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.035, "tp": 16.799254622564934, "note": "sustained 16.8x"}
