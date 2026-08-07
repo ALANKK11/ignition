@@ -348,3 +348,4 @@
 {"ts": "2026-08-07T11:07:16.005175-04:00", "demo": 0, "ticker": "AREC", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.475, "tp": 3.18014044932221, "note": "sustained 3.2x"}
 {"ts": "2026-08-07T11:07:16.005175-04:00", "demo": 0, "ticker": "BNL", "prev_state": "COOLING", "state": "RUNNING", "price": 20.645, "tp": 1.9111579861641372, "note": "sustained 1.9x"}
 {"ts": "2026-08-07T11:07:16.005175-04:00", "demo": 0, "ticker": "TDUP", "prev_state": "FADING", "state": "LEAVING", "price": 3.205, "tp": 3.0119592907683046, "note": "pace 3.0x off peak 21.4x \u00b7 VWAP lost (was +3.3% above)"}
+{"ts": "2026-08-07T11:08:00.989651-04:00", "demo": 0, "ticker": "GRAL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GRAIL Announces FDA Advisory Committee Meeting to Review Premarket Approval Application for the Galleri\u00ae Multi-Cancer Ea"}
