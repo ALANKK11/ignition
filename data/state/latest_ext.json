@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-07T08:44:00-04:00", "session": "pre", "rows": [{"ticker": "DOCS", "last": 38.24, "gap": 0.8688, "dollars": 515596.68, "vs_adv": 0.06, "new": false}, {"ticker": "HTZ", "last": 2.66, "gap": 0.306, "dollars": 104011.72, "vs_adv": 0.03, "new": false}]}
+{"v": 4, "ts": "2026-08-07T08:47:00-04:00", "session": "pre", "rows": [{"ticker": "DOCS", "last": 38.0, "gap": 0.8657, "dollars": 585109.61, "vs_adv": 0.06, "new": false}, {"ticker": "HTZ", "last": 2.66, "gap": 0.3069, "dollars": 109943.52, "vs_adv": 0.04, "new": false}]}
