@@ -372,3 +372,4 @@
 {"ts": "2026-08-07T11:10:16.006192-04:00", "demo": 0, "ticker": "ASTE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 44.06, "tp": 0.0, "note": "pace 0.0x off peak 7.7x"}
 {"ts": "2026-08-07T11:10:16.006192-04:00", "demo": 0, "ticker": "BNL", "prev_state": "RUNNING", "state": "COOLING", "price": 20.635, "tp": 1.6184970488777062, "note": "pace 1.6x off peak 4.3x"}
 {"ts": "2026-08-07T11:11:00.990251-04:00", "demo": 0, "ticker": "RDVT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "red violet Announces Closing of $115 Million Underwritten Public Offering of Common Stock, Including Full Exercise of Un"}
+{"ts": "2026-08-07T11:12:30.990563-04:00", "demo": 0, "ticker": "CAPR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR NOTICE: Capricor Therapeutics, Inc. Investors with Substantial Losses Have Opportunity to Lead Shareholder Clas"}
