@@ -571,3 +571,11 @@
 {"ts": "2026-08-07T11:52:16.013789-04:00", "demo": 0, "ticker": "SATL", "prev_state": "CHURN", "state": "RUNNING", "price": 5.5, "tp": 1.944951803330511, "note": "sustained 1.9x"}
 {"ts": "2026-08-07T11:52:16.013789-04:00", "demo": 0, "ticker": "ARKO", "prev_state": "RUNNING", "state": "COOLING", "price": 6.13, "tp": 1.3591090395510914, "note": "pace 1.4x off peak 118.3x"}
 {"ts": "2026-08-07T11:52:16.013789-04:00", "demo": 0, "ticker": "APPX", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.35, "tp": 13.872120814815833, "note": "sustained 13.9x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "BBJP", "prev_state": "CHURN", "state": "RUNNING", "price": 77.955, "tp": 23.332721053195147, "note": "sustained 23.3x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "PRVA", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 21.9, "tp": 5.578351765306481, "note": "pace 5.6x and accelerating (5.2x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "AHCO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 5.815, "tp": 2.7509379082617706, "note": "sustained 2.8x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "GOGO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.52, "tp": 2.122830334279794, "note": "sustained 2.1x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.32, "tp": 1.7063830302591696, "note": "pace 1.7x off peak 66.6x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "CANE", "prev_state": "CHURN", "state": "RUNNING", "price": 10.57, "tp": 2.9003343097780516, "note": "sustained 2.9x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "FOUR", "prev_state": "RUNNING", "state": "COOLING", "price": 41.15, "tp": 1.3937441092177938, "note": "pace 1.4x off peak 4.1x"}
+{"ts": "2026-08-07T11:55:16.014676-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "IGNITING", "state": "CHURN", "price": 45.505, "tp": 2.761110171750673, "note": "2.8x participation, no progress at highs \u2014 absorption"}
