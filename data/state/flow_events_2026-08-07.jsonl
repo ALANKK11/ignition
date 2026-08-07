@@ -1052,3 +1052,11 @@
 {"ts": "2026-08-07T14:22:00.749083-04:00", "demo": 0, "ticker": "BAER", "prev_state": "RUNNING", "state": "COOLING", "price": 1.27, "tp": 1.3372233246617486, "note": "pace 1.3x off peak 13.4x"}
 {"ts": "2026-08-07T14:22:00.749083-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "COOLING", "state": "CHURN", "price": 4.97, "tp": 8.233735252969835, "note": "8.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-07T14:22:00.749083-04:00", "demo": 0, "ticker": "VISN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.735, "tp": 2.3909432214777264, "note": "sustained 2.4x"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "BNL", "prev_state": "CHURN", "state": "RUNNING", "price": 20.865, "tp": 3.459232205482667, "note": "sustained 3.5x"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "CHURN", "state": "RUNNING", "price": 4.945, "tp": 8.56018964597139, "note": "sustained 8.6x"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "BXC", "prev_state": "FADING", "state": "IGNITING", "price": 89.76, "tp": 5.991281520053975, "note": "pace 6.0x and accelerating (7.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "AHCO", "prev_state": "RUNNING", "state": "COOLING", "price": 5.905, "tp": 1.6199471327748196, "note": "pace 1.6x off peak 18.6x"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "PRVA", "prev_state": "FADING", "state": "NEW MONEY", "price": 22.405, "tp": 6.8319525073792935, "note": "quiet open (0.9x) \u2192 now 6.8x \u00b7 taking +1.7% flow share"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "AMRZ", "prev_state": "COOLING", "state": "RUNNING", "price": 46.79, "tp": 1.9762026951246798, "note": "sustained 2.0x"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "FADING", "state": "NEW MONEY", "price": 45.815, "tp": 3.7948797451619245, "note": "quiet open (1.1x) \u2192 now 3.8x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-07T14:25:00.749421-04:00", "demo": 0, "ticker": "VISN", "prev_state": "RUNNING", "state": "FADING", "price": 10.725, "tp": 1.4279098497612408, "note": "pace 1.4x vs peak 6.2x \u00b7 -0.3% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
