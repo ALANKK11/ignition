@@ -141,3 +141,16 @@
 {"ts": "2026-08-07T10:22:15.996189-04:00", "demo": 0, "ticker": "ABNB", "prev_state": "CHURN", "state": "RUNNING", "price": 175.88, "tp": 8.491911521300603, "note": "sustained 8.5x"}
 {"ts": "2026-08-07T10:22:15.996189-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "QUIET", "state": "COOLING", "price": 10.12, "tp": 1.3936197882360895, "note": "pace 1.4x off peak 2.2x"}
 {"ts": "2026-08-07T10:22:15.996189-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "FADING", "state": "RUNNING", "price": 7.71, "tp": 8.245637876955684, "note": "sustained 8.2x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ASLE", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.78, "tp": 18.798623920679894, "note": "sustained 18.8x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ABNB", "prev_state": "RUNNING", "state": "CHURN", "price": 175.27, "tp": 8.343419264584918, "note": "8.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 2.51, "tp": 2.237605452119081, "note": "sustained 2.2x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "VISN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.305, "tp": 2.64573703070259, "note": "sustained 2.6x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "BKCH", "prev_state": "RUNNING", "state": "COOLING", "price": 63.54, "tp": 0.0, "note": "pace 0.0x off peak 19.3x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 6.04, "tp": 3.251699106097286, "note": "sustained 3.3x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 45.39, "tp": 4.763532532483139, "note": "pace 4.8x and accelerating (10.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.08, "tp": 6.286774690824228, "note": "sustained 6.3x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "BZH", "prev_state": "RUNNING", "state": "CHURN", "price": 33.05, "tp": 9.35658108024562, "note": "9.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "CPOP", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.4363, "tp": 65.84314254601968, "note": "pace 65.8x and accelerating (2.3x vs prior window) \u00b7 -8.4% in window"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "ARKQ", "prev_state": "CHURN", "state": "RUNNING", "price": 125.2, "tp": 8.555317888202001, "note": "sustained 8.6x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "SVV", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.095, "tp": 3.7480269962312183, "note": "sustained 3.7x"}
+{"ts": "2026-08-07T10:25:15.997183-04:00", "demo": 0, "ticker": "UA", "prev_state": "COOLING", "state": "RUNNING", "price": 6.035, "tp": 1.8621986242009503, "note": "sustained 1.9x"}
