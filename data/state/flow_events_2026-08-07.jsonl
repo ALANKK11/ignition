@@ -35,3 +35,6 @@
 {"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "PRSU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 47.21, "tp": 1.853731935670978, "note": ""}
 {"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "TWLO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 238.13, "tp": 2.806416760593228, "note": ""}
 {"ts": "2026-08-07T09:39:30.987609-04:00", "demo": 0, "ticker": "TRIP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.615, "tp": 1.6607270880752314, "note": ""}
+{"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "GDXU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 132.19, "tp": 2.7932878473218063, "note": ""}
+{"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "SPT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.275, "tp": 2.9145828650491743, "note": ""}
+{"ts": "2026-08-07T09:45:30.989044-04:00", "demo": 0, "ticker": "PSIX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 40.28, "tp": 2.7811014701519445, "note": ""}
