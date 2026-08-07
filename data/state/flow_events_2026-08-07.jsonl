@@ -24,3 +24,11 @@
 {"ts": "2026-08-07T09:14:00.981808-04:00", "demo": 0, "ticker": "MB", "prev_state": null, "state": "PM IGNITION", "price": 14.23, "tp": null, "note": "+253% on $0.10M ext tape"}
 {"ts": "2026-08-07T09:24:30.969203-04:00", "demo": 0, "ticker": "PN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PN Smart Energy Limited Announces Pricing of $5.0 Million Registered Direct Offering"}
 {"ts": "2026-08-07T09:35:00.971255-04:00", "demo": 0, "ticker": "AZIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AZIO AI Holdings Inc. (NASDAQ: AZIO) Signs Key Agreement, Establishes Focus on AI Compute Infrastructure"}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "SVV", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.14, "tp": 1.7791724005863105, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 43.28, "tp": 1.9207222637568049, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "PRVA", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.175, "tp": 0.9106647432801833, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "APLE", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 16.2, "tp": 3.3310307311083007, "note": "3.3x tape out of the gate"}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.905, "tp": 2.623134653888291, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.545, "tp": 1.9966125507082075, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "DRVN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.9, "tp": 0.9197789557752437, "note": ""}
+{"ts": "2026-08-07T09:35:45.986630-04:00", "demo": 0, "ticker": "VISN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.195, "tp": 1.7527450855561084, "note": ""}
