@@ -432,3 +432,12 @@
 {"ts": "2026-08-10T12:06:20.424060-04:00", "demo": 0, "ticker": "CHW", "prev_state": "RUNNING", "state": "FADING", "price": 8.645, "tp": 8.506731012561605, "note": "pace 8.5x vs peak 31.0x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-10T12:06:20.424060-04:00", "demo": 0, "ticker": "BFST", "prev_state": "COOLING", "state": "RUNNING", "price": 31.51, "tp": 4.042254760070021, "note": "sustained 4.0x"}
 {"ts": "2026-08-10T12:06:20.424060-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "COOLING", "state": "RUNNING", "price": 16.17, "tp": 1.9674190346215124, "note": "sustained 2.0x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.66, "tp": 3.0018859984778805, "note": "pace 3.0x and accelerating (1.6x vs prior window) \u00b7 -5.9% in window"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "CLOX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 25.52, "tp": 1.8446181556698638, "note": "sustained 1.8x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "COHX", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.29, "tp": 2.466367745015223, "note": "sustained 2.5x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "RUNNING", "state": "COOLING", "price": 16.15, "tp": 1.4258580814971404, "note": "pace 1.4x off peak 4.0x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.99, "tp": 3.2831530590592366, "note": "sustained 3.3x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 5.305, "tp": 1.7473376566092944, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "CENT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 43.78, "tp": 3.064600255110663, "note": "quiet open (0.2x) \u2192 now 3.1x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "ACHR", "prev_state": "RUNNING", "state": "LEAVING", "price": 6.275, "tp": 5.1189085926267115, "note": "pace 5.1x off peak 14.1x \u00b7 VWAP lost (was +3.4% above)"}
+{"ts": "2026-08-10T12:10:05.424638-04:00", "demo": 0, "ticker": "AIRS", "prev_state": "LEAVING", "state": "IGNITING", "price": 2.73, "tp": 3.410412969856756, "note": "pace 3.4x and accelerating (2.3x vs prior window) \u00b7 +3.8% in window"}
