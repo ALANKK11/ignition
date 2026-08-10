@@ -4,3 +4,4 @@
 {"ts": "2026-08-10T08:01:50.359709-04:00", "demo": 0, "ticker": "CXW", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CoreCivic Announces $500 Million Accelerated Share Repurchase Agreement"}
 {"ts": "2026-08-10T08:01:50.359709-04:00", "demo": 0, "ticker": "REPL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Replimune Announces Pricing of $150 Million Underwritten Offering"}
 {"ts": "2026-08-10T08:03:20.360001-04:00", "demo": 0, "ticker": "RTX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "RTX's Raytheon and Composite Energy Technology successfully demonstrate new unmanned undersea vehicle"}
+{"ts": "2026-08-10T08:10:05.375195-04:00", "demo": 0, "ticker": "AUUD", "prev_state": null, "state": "PM IGNITION", "price": 1.65, "tp": null, "note": "+92% on $0.45M ext tape"}
