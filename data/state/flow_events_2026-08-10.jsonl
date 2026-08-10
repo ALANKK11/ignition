@@ -757,3 +757,15 @@
 {"ts": "2026-08-10T14:32:29.562212-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "RUNNING", "state": "COOLING", "price": 5.0, "tp": 1.6209625747296248, "note": "pace 1.6x off peak 8.9x"}
 {"ts": "2026-08-10T14:32:29.562212-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 50.005, "tp": 0.0, "note": "pace 0.0x off peak 24.5x"}
 {"ts": "2026-08-10T14:32:29.562212-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "COOLING", "state": "RUNNING", "price": 20.5, "tp": 1.9034338247896816, "note": "sustained 1.9x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "ACEL", "prev_state": "QUIET", "state": "NEW MONEY", "price": 11.99, "tp": 2.6275137371465185, "note": "quiet open (0.1x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "ASLE", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.59, "tp": 4.322147877851423, "note": "sustained 4.3x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "IGNITING", "state": "COOLING", "price": 9.03, "tp": 0.0, "note": "pace 0.0x off peak 19.6x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "ARTW", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.61, "tp": 18120.909776553795, "note": "sustained 18120.9x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "MITK", "prev_state": "COOLING", "state": "RUNNING", "price": 18.58, "tp": 2.048198954119293, "note": "sustained 2.0x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "OMDA", "prev_state": "FADING", "state": "NEW MONEY", "price": 24.845, "tp": 2.501035752652567, "note": "quiet open (0.6x) \u2192 now 2.5x \u00b7 taking +1.6% flow share"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "FADING", "state": "RUNNING", "price": 16.185, "tp": 2.7404868114512966, "note": "sustained 2.7x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "BKCH", "prev_state": "NEW MONEY", "state": "COOLING", "price": 62.4, "tp": 0.0, "note": "pace 0.0x off peak 5.3x"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "NEW MONEY", "state": "CHURN", "price": 22.35, "tp": 13.19692260048427, "note": "13.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "NRGV", "prev_state": "LEAVING", "state": "IGNITING", "price": 3.435, "tp": 5.5391847522209385, "note": "pace 5.5x and accelerating (3.2x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "RUNNING", "state": "CHURN", "price": 20.5, "tp": 2.386423194093436, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T14:36:14.562906-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.935, "tp": 3.793228668398086, "note": "pace 3.8x and accelerating (3.3x vs prior window) \u00b7 +0.5% in window"}
