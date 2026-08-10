@@ -389,3 +389,10 @@
 {"ts": "2026-08-10T11:51:20.421021-04:00", "demo": 0, "ticker": "CRC", "prev_state": "RUNNING", "state": "FADING", "price": 52.595, "tp": 0.0, "note": "pace 0.0x vs peak 5.0x \u00b7 -1.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-10T11:51:20.421021-04:00", "demo": 0, "ticker": "SPTS", "prev_state": "QUIET", "state": "NEW MONEY", "price": 28.915, "tp": 4.072430331381843, "note": "quiet open (0.0x) \u2192 now 4.1x \u00b7 taking +1.9% flow share"}
 {"ts": "2026-08-10T11:51:20.421021-04:00", "demo": 0, "ticker": "WPP", "prev_state": "IGNITING", "state": "COOLING", "price": 26.37, "tp": 0.341594436798282, "note": "pace 0.3x off peak 45.1x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "BDJ", "prev_state": "CHURN", "state": "RUNNING", "price": 9.875, "tp": 28.40522399486182, "note": "sustained 28.4x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "RUNNING", "state": "COOLING", "price": 4.155, "tp": 1.7787346928205898, "note": "pace 1.8x off peak 6.5x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "RUNNING", "price": 35.28, "tp": 4.191704503086323, "note": "sustained 4.2x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.32, "tp": 1.7621570007060594, "note": "pace 1.8x off peak 2.9x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "RUNNING", "state": "COOLING", "price": 16.19, "tp": 1.5527317374269454, "note": "pace 1.6x off peak 4.0x"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "OMDA", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 24.61, "tp": 5.1400739754105, "note": "pace 5.1x and accelerating (7.5x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-10T11:55:05.421720-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 50.37, "tp": 6.006075210076797, "note": "pace 6.0x and accelerating (120.1x vs prior window) \u00b7 -0.5% in window"}
