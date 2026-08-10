@@ -42,3 +42,4 @@
 {"ts": "2026-08-10T09:47:35.395159-04:00", "demo": 0, "ticker": "DOCS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.245, "tp": 2.585066917538115, "note": ""}
 {"ts": "2026-08-10T09:47:35.395159-04:00", "demo": 0, "ticker": "WPP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.2, "tp": 0.9301680037472971, "note": ""}
 {"ts": "2026-08-10T09:51:20.396118-04:00", "demo": 0, "ticker": "NRGV", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.535, "tp": 3.009835980448271, "note": "3.0x tape out of the gate"}
+{"ts": "2026-08-10T09:58:50.397723-04:00", "demo": 0, "ticker": "GROY", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 2.985, "tp": 4.106526746477446, "note": "4.1x tape out of the gate"}
