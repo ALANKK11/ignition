@@ -724,3 +724,11 @@
 {"ts": "2026-08-10T14:21:14.560623-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "COOLING", "state": "IGNITING", "price": 9.03, "tp": 3.963172270912633, "note": "pace 4.0x and accelerating (79.3x vs prior window) \u00b7 +1.8% in window"}
 {"ts": "2026-08-10T14:21:14.560623-04:00", "demo": 0, "ticker": "MITK", "prev_state": "COOLING", "state": "QUIET", "price": 18.635, "tp": 1.6886809790497757, "note": ""}
 {"ts": "2026-08-10T14:21:14.560623-04:00", "demo": 0, "ticker": "AUUD", "prev_state": "FADING", "state": "LEAVING", "price": 1.21, "tp": 2.6845780892200213, "note": "pace 2.7x off peak 2522.8x \u00b7 VWAP lost (was +10.2% above)"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "MITK", "prev_state": "QUIET", "state": "COOLING", "price": 18.64, "tp": 1.4860104490568473, "note": "pace 1.5x off peak 2.0x"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 20.505, "tp": 2.3039578111299104, "note": "sustained 2.3x"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "FADING", "state": "LEAVING", "price": 9.42, "tp": 4.552334138573886, "note": "pace 4.6x off peak 18.1x \u00b7 VWAP lost (was +5.7% above)"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "BFST", "prev_state": "RUNNING", "state": "CHURN", "price": 31.52, "tp": 3.2457526323335224, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "CEF", "prev_state": "RUNNING", "state": "CHURN", "price": 44.26, "tp": 8.290485620381492, "note": "8.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "COOLING", "state": "RUNNING", "price": 5.0, "tp": 2.269263355586893, "note": "sustained 2.3x"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "TIC", "prev_state": "FADING", "state": "LEAVING", "price": 10.29, "tp": 1.7298868829798302, "note": "pace 1.7x off peak 6.1x \u00b7 VWAP lost (was +2.3% above)"}
+{"ts": "2026-08-10T14:24:59.561471-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "COOLING", "state": "RUNNING", "price": 3.925, "tp": 2.038549729411131, "note": "sustained 2.0x"}
