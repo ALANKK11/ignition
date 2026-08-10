@@ -368,3 +368,14 @@
 {"ts": "2026-08-10T11:43:50.419223-04:00", "demo": 0, "ticker": "CCUP", "prev_state": "COOLING", "state": "IGNITING", "price": 1.48, "tp": 4.458380555002509, "note": "pace 4.5x and accelerating (89.2x vs prior window) \u00b7 -2.0% in window"}
 {"ts": "2026-08-10T11:43:50.419223-04:00", "demo": 0, "ticker": "DBND", "prev_state": "QUIET", "state": "COOLING", "price": 44.925, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
 {"ts": "2026-08-10T11:43:50.419223-04:00", "demo": 0, "ticker": "AUUD", "prev_state": "FADING", "state": "LEAVING", "price": 1.31, "tp": 276.4120840602399, "note": "pace 276.4x off peak 2522.8x \u00b7 VWAP lost (was +10.2% above)"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "CLMT", "prev_state": "FADING", "state": "CHURN", "price": 44.22, "tp": 4.742725975383126, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 34.11, "tp": 0.9670400226118598, "note": "pace 1.0x off peak 8.9x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.965, "tp": 2.5407155227996165, "note": "sustained 2.5x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "CON", "prev_state": "NEW MONEY", "state": "COOLING", "price": 33.64, "tp": 0.28954748442178074, "note": "pace 0.3x off peak 3.4x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 50.475, "tp": 2.000824117678351, "note": "quiet open (0.4x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "ACHR", "prev_state": "FADING", "state": "LEAVING", "price": 6.32, "tp": 2.728450222721787, "note": "pace 2.7x off peak 14.1x \u00b7 VWAP lost (was +3.4% above)"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "OMDA", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 24.51, "tp": 4.606441559726537, "note": "quiet open (0.6x) \u2192 now 4.6x \u00b7 taking +3.8% flow share"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "AQST", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.335, "tp": 4.502882421061217, "note": "sustained 4.5x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 5.395, "tp": 1.272236756856805, "note": "pace 1.3x off peak 3.4x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "DOLE", "prev_state": "COOLING", "state": "RUNNING", "price": 12.92, "tp": 2.332581494219194, "note": "sustained 2.3x"}
+{"ts": "2026-08-10T11:47:35.419838-04:00", "demo": 0, "ticker": "BDJ", "prev_state": "RUNNING", "state": "CHURN", "price": 9.885, "tp": 32.55555697802946, "note": "32.6x participation, no progress at highs \u2014 absorption"}
