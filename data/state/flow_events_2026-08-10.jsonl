@@ -587,3 +587,21 @@
 {"ts": "2026-08-10T13:39:59.551687-04:00", "demo": 0, "ticker": "B", "prev_state": "COOLING", "state": "RUNNING", "price": 40.64, "tp": 2.0958490851183678, "note": "sustained 2.1x"}
 {"ts": "2026-08-10T13:39:59.551687-04:00", "demo": 0, "ticker": "GROY", "prev_state": "CHURN", "state": "RUNNING", "price": 3.075, "tp": 4.568942158882168, "note": "sustained 4.6x"}
 {"ts": "2026-08-10T13:39:59.551687-04:00", "demo": 0, "ticker": "APPX", "prev_state": "COOLING", "state": "IGNITING", "price": 15.5, "tp": 12.885074558445373, "note": "pace 12.9x and accelerating (17.8x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "BTCW", "prev_state": "COOLING", "state": "RUNNING", "price": 67.54, "tp": 4.89270978593323, "note": "sustained 4.9x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "AXTI", "prev_state": "IGNITING", "state": "RUNNING", "price": 74.22, "tp": 5.016951767415633, "note": "sustained 5.0x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.0, "tp": 4.497348536199869, "note": "sustained 4.5x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "CHURN", "state": "RUNNING", "price": 9.785, "tp": 8.905169843726268, "note": "sustained 8.9x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 8.89, "tp": 0.0, "note": "pace 0.0x off peak 19.6x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "RUNNING", "state": "COOLING", "price": 12.67, "tp": 1.37515812711436, "note": "pace 1.4x off peak 16.6x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "APPX", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.67, "tp": 25.76676966564647, "note": "sustained 25.8x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.16, "tp": 1.7690200785308512, "note": "pace 1.8x off peak 7.3x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "NEW MONEY", "state": "CHURN", "price": 22.38, "tp": 10.727106305873571, "note": "10.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "AIOT", "prev_state": "LEAVING", "state": "IGNITING", "price": 2.905, "tp": 16.18466870879472, "note": "pace 16.2x and accelerating (3.0x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "NRGV", "prev_state": "RUNNING", "state": "LEAVING", "price": 3.45, "tp": 2.4126118629765774, "note": "pace 2.4x off peak 9.4x \u00b7 VWAP lost (was +3.3% above)"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "B", "prev_state": "RUNNING", "state": "COOLING", "price": 40.585, "tp": 1.766946304369232, "note": "pace 1.8x off peak 5.7x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "GSM", "prev_state": "LEAVING", "state": "FADING", "price": 4.605, "tp": 0.0, "note": "pace 0.0x vs peak 4.6x \u00b7 -2.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "COOLING", "state": "IGNITING", "price": 50.1, "tp": 11.940556931100435, "note": "pace 11.9x and accelerating (238.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "MITK", "prev_state": "QUIET", "state": "COOLING", "price": 18.545, "tp": 1.376555702837767, "note": "pace 1.4x off peak 2.0x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "AIRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.6, "tp": 8.781448443894645, "note": "sustained 8.8x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 34.66, "tp": 0.6290490479332814, "note": "pace 0.6x off peak 8.9x"}
+{"ts": "2026-08-10T13:43:44.551448-04:00", "demo": 0, "ticker": "EE", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 35.935, "tp": 1.8744238262600337, "note": "sustained 1.9x"}
