@@ -35,3 +35,4 @@
 {"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "ERO", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.925, "tp": 3.8779115043251253, "note": "3.9x tape out of the gate"}
 {"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.1, "tp": 2.8512155617480075, "note": ""}
 {"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.555, "tp": 2.5873719680367633, "note": ""}
+{"ts": "2026-08-10T09:40:05.393693-04:00", "demo": 0, "ticker": "DOCS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 24.68, "tp": 2.627006766036629, "note": ""}
