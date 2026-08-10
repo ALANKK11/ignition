@@ -902,3 +902,14 @@
 {"ts": "2026-08-10T15:17:29.572386-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.02, "tp": 3.663035034700723, "note": "sustained 3.7x"}
 {"ts": "2026-08-10T15:17:29.572386-04:00", "demo": 0, "ticker": "BFST", "prev_state": "RUNNING", "state": "COOLING", "price": 31.55, "tp": 1.1356610565386862, "note": "pace 1.1x off peak 10.2x"}
 {"ts": "2026-08-10T15:17:29.572386-04:00", "demo": 0, "ticker": "BTCW", "prev_state": "COOLING", "state": "RUNNING", "price": 67.425, "tp": 4.007923207885557, "note": "sustained 4.0x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "NEW MONEY", "state": "CHURN", "price": 22.35, "tp": 6.912151661021051, "note": "6.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "AXSM", "prev_state": "FADING", "state": "RUNNING", "price": 222.07, "tp": 4.516811165291842, "note": "sustained 4.5x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "SPTS", "prev_state": "COOLING", "state": "RUNNING", "price": 28.91, "tp": 1.9514738807783099, "note": "sustained 2.0x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "ACEL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.025, "tp": 2.194382288303177, "note": "sustained 2.2x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "ARTW", "prev_state": "FADING", "state": "LEAVING", "price": 2.93, "tp": 2369.1213311854835, "note": "pace 2369.1x off peak 18120.9x \u00b7 VWAP lost (was +17.0% above)"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "BFS", "prev_state": "RUNNING", "state": "COOLING", "price": 33.685, "tp": 0.8681647438794279, "note": "pace 0.9x off peak 19.6x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "RUNNING", "state": "CHURN", "price": 5.03, "tp": 2.9162772255499196, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "BTCO", "prev_state": "COOLING", "state": "RUNNING", "price": 63.51, "tp": 2.7317692715775634, "note": "sustained 2.7x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "LEAVING", "state": "FADING", "price": 9.415, "tp": 2.5605475244725913, "note": "pace 2.6x vs peak 18.1x \u00b7 -5.9% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "ACH", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.435, "tp": 5.115111981208097, "note": "sustained 5.1x"}
+{"ts": "2026-08-10T15:21:14.573736-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 8.99, "tp": 0.0, "note": "pace 0.0x off peak 19.6x"}
