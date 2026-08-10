@@ -521,3 +521,11 @@
 {"ts": "2026-08-10T12:40:05.431087-04:00", "demo": 0, "ticker": "AIRS", "prev_state": "LEAVING", "state": "IGNITING", "price": 2.53, "tp": 22.503561535956823, "note": "pace 22.5x and accelerating (15.7x vs prior window) \u00b7 -5.2% in window"}
 {"ts": "2026-08-10T12:40:05.431087-04:00", "demo": 0, "ticker": "ALG", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 169.02, "tp": 14.70689949303002, "note": "quiet open (1.0x) \u2192 now 14.7x \u00b7 taking +3.3% flow share"}
 {"ts": "2026-08-10T12:40:05.431087-04:00", "demo": 0, "ticker": "ASM", "prev_state": "CHURN", "state": "RUNNING", "price": 7.27, "tp": 1.900540293108813, "note": "sustained 1.9x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "RUNNING", "state": "COOLING", "price": 7.195, "tp": 1.7364330627671014, "note": "pace 1.7x off peak 5.8x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "AQST", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.465, "tp": 3.1474455073047207, "note": "sustained 3.1x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "ALG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 168.75, "tp": 3.4186336831720503, "note": "sustained 3.4x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "BTCW", "prev_state": "RUNNING", "state": "COOLING", "price": 67.67, "tp": 0.0, "note": "pace 0.0x off peak 70.5x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "CLMT", "prev_state": "LEAVING", "state": "FADING", "price": 43.88, "tp": 1.2588964844080628, "note": "pace 1.3x vs peak 12.6x \u00b7 -1.8% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "DC", "prev_state": "FADING", "state": "LEAVING", "price": 6.155, "tp": 1.6075743642847822, "note": "pace 1.6x off peak 5.3x \u00b7 VWAP lost (was +2.8% above)"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "FADING", "state": "RUNNING", "price": 5.235, "tp": 2.317364490710471, "note": "sustained 2.3x"}
+{"ts": "2026-08-10T12:43:50.431180-04:00", "demo": 0, "ticker": "BTDR", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.995, "tp": 3.0021592665146133, "note": "pace 3.0x and accelerating (1.8x vs prior window) \u00b7 -1.4% in window"}
