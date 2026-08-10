@@ -486,3 +486,11 @@
 {"ts": "2026-08-10T12:28:50.428482-04:00", "demo": 0, "ticker": "TIC", "prev_state": "FADING", "state": "LEAVING", "price": 10.33, "tp": 1.7335564672497343, "note": "pace 1.7x off peak 6.1x \u00b7 VWAP lost (was +2.3% above)"}
 {"ts": "2026-08-10T12:28:50.428482-04:00", "demo": 0, "ticker": "BFST", "prev_state": "COOLING", "state": "RUNNING", "price": 31.47, "tp": 2.533589400919988, "note": "sustained 2.5x"}
 {"ts": "2026-08-10T12:28:50.428482-04:00", "demo": 0, "ticker": "APPX", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.95, "tp": 5.41790730072331, "note": "sustained 5.4x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "NRGV", "prev_state": "FADING", "state": "COOLING", "price": 3.475, "tp": 0.7021986240977485, "note": "pace 0.7x off peak 9.4x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "COOLING", "price": 10.79, "tp": 1.1389460933571531, "note": "pace 1.1x off peak 7.3x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "COOLING", "state": "RUNNING", "price": 4.155, "tp": 3.2730286865915095, "note": "sustained 3.3x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "COOLING", "state": "IGNITING", "price": 9.17, "tp": 5.023576767510204, "note": "pace 5.0x and accelerating (3.8x vs prior window) \u00b7 +2.1% in window"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "IGNITING", "state": "COOLING", "price": 12.865, "tp": 0.0, "note": "pace 0.0x off peak 16.6x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "SOLZ", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 7.565, "tp": 9.609485937812128, "note": "pace 9.6x and accelerating (6.4x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "CHURN", "state": "RUNNING", "price": 16.18, "tp": 2.3100641513865363, "note": "sustained 2.3x"}
+{"ts": "2026-08-10T12:32:35.428986-04:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "COOLING", "price": 15.88, "tp": 1.6084395921579184, "note": "pace 1.6x off peak 13.7x"}
