@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-10T09:28:50-04:00", "session": "pre", "rows": [{"ticker": "SCKT", "last": 2.49, "gap": 4.8357, "dollars": 636155.3700000001, "vs_adv": 1547.53, "new": false}, {"ticker": "JWEL", "last": 4.1, "gap": 2.3195, "dollars": 214891.91, "vs_adv": 4151.71, "new": false}, {"ticker": "AUUD", "last": 1.44, "gap": 0.8765, "dollars": 1750401.27, "vs_adv": 792.84, "new": false}, {"ticker": "TENX", "last": 1.8, "gap": -0.8568, "dollars": 69493.57999999999, "vs_adv": 0.36, "new": false}]}
+{"v": 4, "ts": "2026-08-10T16:21:14-04:00", "session": "post", "rows": []}
