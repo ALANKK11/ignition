@@ -93,3 +93,7 @@
 {"ts": "2026-08-10T10:10:05.400122-04:00", "demo": 0, "ticker": "GROY", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.98, "tp": 3.2118983014748106, "note": "sustained 3.2x"}
 {"ts": "2026-08-10T10:10:05.400122-04:00", "demo": 0, "ticker": "REAL", "prev_state": "FADING", "state": "COOLING", "price": 12.26, "tp": 0.5831431036884528, "note": "pace 0.6x off peak 2.6x"}
 {"ts": "2026-08-10T10:10:05.400122-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "FADING", "state": "LEAVING", "price": 9.33, "tp": 5.875147104929469, "note": "pace 5.9x off peak 18.1x \u00b7 VWAP lost (was +4.1% above)"}
+{"ts": "2026-08-10T10:13:50.400803-04:00", "demo": 0, "ticker": "WPP", "prev_state": "RUNNING", "state": "COOLING", "price": 25.74, "tp": 1.2621398302591427, "note": "pace 1.3x off peak 45.1x"}
+{"ts": "2026-08-10T10:13:50.400803-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.945, "tp": 25.258584695448928, "note": "sustained 25.3x"}
+{"ts": "2026-08-10T10:13:50.400803-04:00", "demo": 0, "ticker": "DC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 6.13, "tp": 2.1292111061440915, "note": "quiet open (1.0x) \u2192 now 2.1x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-10T10:13:50.400803-04:00", "demo": 0, "ticker": "GSM", "prev_state": "LEAVING", "state": "FADING", "price": 4.645, "tp": 0.5205401449544652, "note": "pace 0.5x vs peak 4.6x \u00b7 -1.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
