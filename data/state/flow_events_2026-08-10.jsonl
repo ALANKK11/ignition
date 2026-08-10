@@ -38,3 +38,4 @@
 {"ts": "2026-08-10T09:40:05.393693-04:00", "demo": 0, "ticker": "DOCS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 24.68, "tp": 2.627006766036629, "note": ""}
 {"ts": "2026-08-10T09:43:50.394377-04:00", "demo": 0, "ticker": "DOCS", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 25.39, "tp": 3.4294857653487303, "note": "3.4x tape out of the gate"}
 {"ts": "2026-08-10T09:43:50.394377-04:00", "demo": 0, "ticker": "LINC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 31.39, "tp": 4.245276953642565, "note": "4.2x tape out of the gate"}
+{"ts": "2026-08-10T09:44:35.379949-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ATTENTION NASDAQ: DVLT INVESTORS: Contact Berger Montague About a Datavault AI Inc. Class Action Lawsuit"}
