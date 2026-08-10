@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-10T08:36:20-04:00", "session": "pre", "rows": [{"ticker": "AUUD", "last": 1.45, "gap": 0.9203, "dollars": 1218243.36, "vs_adv": 539.24, "new": false}, {"ticker": "ACHR", "last": 6.97, "gap": 0.1581, "dollars": 279962.75, "vs_adv": 0.04, "new": false}]}
+{"v": 4, "ts": "2026-08-10T08:40:05-04:00", "session": "pre", "rows": [{"ticker": "AUUD", "last": 1.45, "gap": 0.9086, "dollars": 1275144.3699999999, "vs_adv": 567.87, "new": false}, {"ticker": "ACHR", "last": 6.79, "gap": 0.1591, "dollars": 284909.49, "vs_adv": 0.04, "new": false}]}
