@@ -308,3 +308,11 @@
 {"ts": "2026-08-10T11:25:05.415096-04:00", "demo": 0, "ticker": "B", "prev_state": "IGNITING", "state": "RUNNING", "price": 40.565, "tp": 5.650511480150959, "note": "sustained 5.7x"}
 {"ts": "2026-08-10T11:25:05.415096-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "RUNNING", "state": "FADING", "price": 43.115, "tp": 0.7462417143352041, "note": "pace 0.7x vs peak 15.6x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-10T11:25:05.415096-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "CHURN", "state": "RUNNING", "price": 16.08, "tp": 2.9640362621945857, "note": "sustained 3.0x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "CPER", "prev_state": "COOLING", "state": "RUNNING", "price": 40.24, "tp": 1.845379456996101, "note": "sustained 1.8x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "AURA", "prev_state": "COOLING", "state": "RUNNING", "price": 7.77, "tp": 1.8539998259038488, "note": "sustained 1.9x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 9.12, "tp": 0.6657472831773014, "note": "pace 0.7x off peak 14.3x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "CRC", "prev_state": "CHURN", "state": "RUNNING", "price": 52.46, "tp": 4.115469460986123, "note": "sustained 4.1x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "CHURN", "state": "RUNNING", "price": 27.84, "tp": 4.011751896196915, "note": "sustained 4.0x"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "AUUD", "prev_state": "LEAVING", "state": "FADING", "price": 1.33, "tp": 254.68228228756885, "note": "pace 254.7x vs peak 2522.8x \u00b7 -12.8% off HOD \u00b7 chart still +56% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "IGNITING", "state": "LEAVING", "price": 9.34, "tp": 1.2205801072774134, "note": "pace 1.2x off peak 3.7x \u00b7 VWAP lost (was +12.1% above)"}
+{"ts": "2026-08-10T11:28:50.416098-04:00", "demo": 0, "ticker": "SOLZ", "prev_state": "FADING", "state": "IGNITING", "price": 7.59, "tp": 3.799376392553393, "note": "pace 3.8x and accelerating (76.0x vs prior window) \u00b7 -0.5% in window"}
