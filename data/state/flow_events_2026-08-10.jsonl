@@ -159,3 +159,9 @@
 {"ts": "2026-08-10T10:40:05.406371-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "FADING", "state": "LEAVING", "price": 9.3, "tp": 4.516876124919464, "note": "pace 4.5x off peak 18.1x \u00b7 VWAP lost (was +4.1% above)"}
 {"ts": "2026-08-10T10:40:05.406371-04:00", "demo": 0, "ticker": "GSM", "prev_state": "FADING", "state": "LEAVING", "price": 4.63, "tp": 0.8715801232622209, "note": "pace 0.9x off peak 4.6x \u00b7 VWAP lost (was +1.5% above)"}
 {"ts": "2026-08-10T10:40:50.391136-04:00", "demo": 0, "ticker": "NTHI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "NeOnc Heads into a High-Stakes Week as Highly Anticipated NEO100 Phase 2a Data Readout Nears"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "CHMI", "prev_state": "CHURN", "state": "RUNNING", "price": 2.76, "tp": 31.702422816673252, "note": "sustained 31.7x"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "ERO", "prev_state": "CHURN", "state": "RUNNING", "price": 35.85, "tp": 3.7860955899300937, "note": "sustained 3.8x"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "CRC", "prev_state": "QUIET", "state": "IGNITING", "price": 51.66, "tp": 2.931319125751337, "note": "pace 2.9x and accelerating (6.8x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "MITK", "prev_state": "QUIET", "state": "RUNNING", "price": 18.365, "tp": 1.8211031129740656, "note": "sustained 1.8x"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "QUIET", "state": "RUNNING", "price": 13.3, "tp": 1.9332306619810111, "note": "sustained 1.9x"}
+{"ts": "2026-08-10T10:43:50.406629-04:00", "demo": 0, "ticker": "TIC", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 10.48, "tp": 2.313121492904566, "note": "quiet open (0.8x) \u2192 now 2.3x \u00b7 taking +0.2% flow share"}
