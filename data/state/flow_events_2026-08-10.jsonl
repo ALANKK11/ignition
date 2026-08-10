@@ -29,3 +29,9 @@
 {"ts": "2026-08-10T09:17:35.388471-04:00", "demo": 0, "ticker": "SCKT", "prev_state": null, "state": "PM IGNITION", "price": 2.69, "tp": null, "note": "+448% on $0.27M ext tape"}
 {"ts": "2026-08-10T09:33:20.377825-04:00", "demo": 0, "ticker": "BLKB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Blackbaud Increases Flexibility to Access Fundraising Intelligence as Raiser's Edge NXT\u00ae Integrates with Microsoft 365 C"}
 {"ts": "2026-08-10T09:33:20.377825-04:00", "demo": 0, "ticker": "PN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Correction-PN Smart Energy Limited Announces Pricing of $5.2 Million Registered Direct Offering"}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "TIC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.27, "tp": 1.2049012212225811, "note": ""}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "GSM", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.65, "tp": 1.3204366554950826, "note": ""}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "IDR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 35.26, "tp": 1.0923804130145163, "note": ""}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "ERO", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.925, "tp": 3.8779115043251253, "note": "3.9x tape out of the gate"}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.1, "tp": 2.8512155617480075, "note": ""}
+{"ts": "2026-08-10T09:36:20.393069-04:00", "demo": 0, "ticker": "DCTH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.555, "tp": 2.5873719680367633, "note": ""}
