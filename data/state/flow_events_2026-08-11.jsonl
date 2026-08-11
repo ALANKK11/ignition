@@ -553,3 +553,10 @@
 {"ts": "2026-08-11T15:37:09.773423-04:00", "demo": 0, "ticker": "MLTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.38, "tp": 4.548616792728936, "note": "sustained 4.5x"}
 {"ts": "2026-08-11T15:37:09.773423-04:00", "demo": 0, "ticker": "SUSC", "prev_state": "FADING", "state": "NEW MONEY", "price": 22.64, "tp": 3.5607688786720035, "note": "quiet open (0.1x) \u2192 now 3.6x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-08-11T15:37:09.773423-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "CHURN", "state": "RUNNING", "price": 6.56, "tp": 2.190970310677975, "note": "sustained 2.2x"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "BWEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.145, "tp": 7.682190441080144, "note": "sustained 7.7x"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "BWMN", "prev_state": "COOLING", "state": "RUNNING", "price": 42.4, "tp": 2.088529015392366, "note": "sustained 2.1x"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "COOLING", "state": "NEW MONEY", "price": 2.595, "tp": 2.0942911473754253, "note": "quiet open (0.8x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "COOLING", "price": 40.26, "tp": 1.600889572904247, "note": "pace 1.6x off peak 8.3x"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "CHURN", "price": 21.21, "tp": 2.884697291664817, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "QNST", "prev_state": "COOLING", "state": "RUNNING", "price": 20.71, "tp": 2.279135891106541, "note": "sustained 2.3x"}
+{"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "FADING", "state": "COOLING", "price": 24.38, "tp": 1.6079493333749428, "note": "pace 1.6x off peak 2.3x"}
