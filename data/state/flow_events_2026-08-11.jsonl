@@ -503,3 +503,4 @@
 {"ts": "2026-08-11T15:22:09.769945-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "COOLING", "state": "CHURN", "price": 6.62, "tp": 9.275761953155426, "note": "9.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-11T15:22:09.769945-04:00", "demo": 0, "ticker": "ZLAB", "prev_state": "FADING", "state": "LEAVING", "price": 25.895, "tp": 3.0286889083206927, "note": "pace 3.0x off peak 8.9x \u00b7 VWAP lost (was +2.9% above)"}
 {"ts": "2026-08-11T15:22:09.769945-04:00", "demo": 0, "ticker": "NEWP", "prev_state": "FADING", "state": "CHURN", "price": 6.57, "tp": 2.512118978849978, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T15:25:09.755924-04:00", "demo": 0, "ticker": "ACB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AURORA CANNABIS INC. RESPONDS TO PRESS RELEASE OF CURALEAF HOLDINGS, INC. REGARDING INTENTION TO LAUNCH UNSOLICITED TAKE"}
