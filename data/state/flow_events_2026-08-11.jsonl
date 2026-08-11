@@ -409,3 +409,4 @@
 {"ts": "2026-08-11T15:03:24.766415-04:00", "demo": 0, "ticker": "CRBG", "prev_state": "CHURN", "state": "COOLING", "price": 33.33, "tp": 1.1745442387716347, "note": "pace 1.2x off peak 6.8x"}
 {"ts": "2026-08-11T15:03:24.766415-04:00", "demo": 0, "ticker": "SLN", "prev_state": "RUNNING", "state": "COOLING", "price": 14.83, "tp": 1.6810891884847365, "note": "pace 1.7x off peak 15.5x"}
 {"ts": "2026-08-11T15:03:24.766415-04:00", "demo": 0, "ticker": "SUSC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 22.65, "tp": 5.88911664830392, "note": "quiet open (0.1x) \u2192 now 5.9x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-11T15:04:09.751782-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DVLT Investors with Losses in Excess of $100K Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit"}
