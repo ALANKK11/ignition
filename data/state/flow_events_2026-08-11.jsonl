@@ -267,3 +267,4 @@
 {"ts": "2026-08-11T14:33:24.760639-04:00", "demo": 0, "ticker": "COLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.9, "tp": 2.4838202777556626, "note": "sustained 2.5x"}
 {"ts": "2026-08-11T14:33:24.760639-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "QUIET", "state": "RUNNING", "price": 10.12, "tp": 1.9966271629826653, "note": "sustained 2.0x"}
 {"ts": "2026-08-11T14:33:24.760639-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.69, "tp": 16.620648437358437, "note": "sustained 16.6x"}
+{"ts": "2026-08-11T14:34:09.745945-04:00", "demo": 0, "ticker": "UTZ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SHAREHOLDER ALERT: Levi &amp; Korsinsky, LLP Notifies Stockholders of an Investigation into the Fairness of the Acquisit"}
