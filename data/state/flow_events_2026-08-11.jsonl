@@ -560,3 +560,15 @@
 {"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "CHURN", "price": 21.21, "tp": 2.884697291664817, "note": "2.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "QNST", "prev_state": "COOLING", "state": "RUNNING", "price": 20.71, "tp": 2.279135891106541, "note": "sustained 2.3x"}
 {"ts": "2026-08-11T15:40:54.773761-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "FADING", "state": "COOLING", "price": 24.38, "tp": 1.6079493333749428, "note": "pace 1.6x off peak 2.3x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "CIGL", "prev_state": "FADING", "state": "LEAVING", "price": 0.5587, "tp": 2.202340830673046, "note": "pace 2.2x off peak 157.3x \u00b7 VWAP lost (was +4.4% above)"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "ESLT", "prev_state": "COOLING", "state": "RUNNING", "price": 772.97, "tp": 1.9285308760179074, "note": "sustained 1.9x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "RUNNING", "state": "CHURN", "price": 5.75, "tp": 11.057966475987783, "note": "11.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "INVX", "prev_state": "NEW MONEY", "state": "CHURN", "price": 29.89, "tp": 2.5107690099499815, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "FALN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 26.99, "tp": 0.0, "note": "pace 0.0x off peak 6.6x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "CHURN", "state": "IGNITING", "price": 21.45, "tp": 19.533297599865246, "note": "pace 19.5x and accelerating (1.9x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "COOLING", "state": "RUNNING", "price": 39.34, "tp": 3.2205696537526602, "note": "sustained 3.2x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "COLL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 26.335, "tp": 2.095265893127366, "note": "quiet open (0.9x) \u2192 now 2.1x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "FA", "prev_state": "CHURN", "state": "RUNNING", "price": 21.235, "tp": 2.7122905200815954, "note": "sustained 2.7x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "FADING", "state": "COOLING", "price": 4.425, "tp": 0.3633052067984667, "note": "pace 0.4x off peak 2.5x"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "COOLING", "state": "NEW MONEY", "price": 24.41, "tp": 2.550397610392553, "note": "quiet open (1.0x) \u2192 now 2.6x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-11T15:44:39.774461-04:00", "demo": 0, "ticker": "QNST", "prev_state": "RUNNING", "state": "COOLING", "price": 20.76, "tp": 1.2691415451049821, "note": "pace 1.3x off peak 2.6x"}
