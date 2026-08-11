@@ -357,3 +357,20 @@
 {"ts": "2026-08-11T14:52:09.764340-04:00", "demo": 0, "ticker": "COLL", "prev_state": "IGNITING", "state": "COOLING", "price": 26.75, "tp": 0.520132932301572, "note": "pace 0.5x off peak 4.9x"}
 {"ts": "2026-08-11T14:52:09.764340-04:00", "demo": 0, "ticker": "CRBG", "prev_state": "CHURN", "state": "RUNNING", "price": 33.36, "tp": 3.5862959179232288, "note": "sustained 3.6x"}
 {"ts": "2026-08-11T14:52:09.764340-04:00", "demo": 0, "ticker": "FLOC", "prev_state": "FADING", "state": "RUNNING", "price": 22.805, "tp": 17.67927412852081, "note": "sustained 17.7x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "CUE", "prev_state": "QUIET", "state": "RUNNING", "price": 29.165, "tp": 2.3596248961982837, "note": "sustained 2.4x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "INVX", "prev_state": "RUNNING", "state": "COOLING", "price": 29.88, "tp": 1.6795886248667007, "note": "pace 1.7x off peak 4.2x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "KBDC", "prev_state": "COOLING", "state": "QUIET", "price": 13.81, "tp": 1.585368526682802, "note": ""}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "ENGN", "prev_state": "RUNNING", "state": "CHURN", "price": 1.79, "tp": 7.670827294489248, "note": "7.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "ESOA", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.635, "tp": 4.059410890282682, "note": "pace 4.1x and accelerating (81.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "BZH", "prev_state": "FADING", "state": "CHURN", "price": 33.28, "tp": 6.475145536327454, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "CLMT", "prev_state": "COOLING", "state": "QUIET", "price": 45.73, "tp": 1.5507182066778706, "note": ""}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "EBS", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 4.45, "tp": 2.6292495749094744, "note": "quiet open (0.4x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "RUNNING", "state": "COOLING", "price": 7.4, "tp": 1.6919307436524307, "note": "pace 1.7x off peak 6.1x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "MLTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.32, "tp": 17.06123075147049, "note": "pace 17.1x and accelerating (5.8x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "BW", "prev_state": "RUNNING", "state": "COOLING", "price": 9.06, "tp": 1.6437334442457372, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "AQST", "prev_state": "RUNNING", "state": "FADING", "price": 4.485, "tp": 2.2717622493255423, "note": "pace 2.3x vs peak 6.9x \u00b7 -4.3% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "FRMI", "prev_state": "FADING", "state": "RUNNING", "price": 7.145, "tp": 2.122338843090809, "note": "sustained 2.1x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "ACM", "prev_state": "COOLING", "state": "RUNNING", "price": 66.985, "tp": 1.9085165377521516, "note": "sustained 1.9x"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "BKD", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.62, "tp": 6.157530253892956, "note": "pace 6.2x and accelerating (2.4x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "CRBG", "prev_state": "RUNNING", "state": "CHURN", "price": 33.355, "tp": 3.1451812259936704, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-11T14:55:54.765174-04:00", "demo": 0, "ticker": "QNST", "prev_state": "RUNNING", "state": "COOLING", "price": 20.645, "tp": 1.0645363913981811, "note": "pace 1.1x off peak 2.6x"}
