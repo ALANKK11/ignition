@@ -25,3 +25,4 @@
 {"ts": "2026-08-12T13:45:43.029328-04:00", "demo": 0, "ticker": "GLND", "prev_state": "IGNITING", "state": "COOLING", "price": 1.195, "tp": 1.7134361898816832, "note": "pace 1.7x off peak 11.0x"}
 {"ts": "2026-08-12T13:45:43.029328-04:00", "demo": 0, "ticker": "LION", "prev_state": "COOLING", "state": "RUNNING", "price": 11.715, "tp": 2.5967358509970264, "note": "sustained 2.6x"}
 {"ts": "2026-08-12T13:45:43.029328-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 22.84, "tp": 5.133857991470117, "note": "pace 5.1x and accelerating (102.7x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-12T13:46:28.019411-04:00", "demo": 0, "ticker": "HUBG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HUBG INVESTOR ALERT: Hub Group (NASDAQ: HUBG) Investors Have Until Aug. 28 to Lead Securities Class Action"}
