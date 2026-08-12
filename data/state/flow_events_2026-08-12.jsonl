@@ -109,3 +109,20 @@
 {"ts": "2026-08-12T14:05:58.033498-04:00", "demo": 0, "ticker": "STIM", "prev_state": "RUNNING", "state": "COOLING", "price": 3.2, "tp": 1.7067293062217908, "note": "pace 1.7x off peak 4.1x"}
 {"ts": "2026-08-12T14:05:58.033498-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "RUNNING", "state": "FADING", "price": 51.8, "tp": 0.0, "note": "pace 0.0x vs peak 2.3x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-12T14:05:58.033498-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 26.335, "tp": 71.48594500534267, "note": "sustained 71.5x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "ILF", "prev_state": "RUNNING", "state": "CHURN", "price": 33.665, "tp": 8.25870089382449, "note": "8.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "CORD", "prev_state": "COOLING", "state": "RUNNING", "price": 2.32, "tp": 2.351973456105957, "note": "sustained 2.4x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "GOVZ", "prev_state": "RUNNING", "state": "CHURN", "price": 33.435, "tp": 4.720823421022599, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "NVRI", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.9, "tp": 2.3130487596915192, "note": "sustained 2.3x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "RUNNING", "state": "COOLING", "price": 35.54, "tp": 1.1286583502775998, "note": "pace 1.1x off peak 6.3x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "ACB", "prev_state": "RUNNING", "state": "FADING", "price": 3.775, "tp": 0.578896860404663, "note": "pace 0.6x vs peak 3.3x \u00b7 -0.5% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "ZENA", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.91, "tp": 4.3595836430010815, "note": "sustained 4.4x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "EVI", "prev_state": "RUNNING", "state": "COOLING", "price": 15.12, "tp": 0.4665135202297069, "note": "pace 0.5x off peak 1.9x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "IONZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.52, "tp": 6.224565700595271, "note": "sustained 6.2x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "FEZ", "prev_state": "RUNNING", "state": "CHURN", "price": 71.805, "tp": 3.918107564631501, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "RUNNING", "state": "CHURN", "price": 26.335, "tp": 69.98976120189417, "note": "70.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 11.02, "tp": 1.7291480899827167, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "QUIET", "price": 37.95, "tp": 1.6339144008586697, "note": ""}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "AURA", "prev_state": "RUNNING", "state": "COOLING", "price": 7.58, "tp": 1.6509312296019867, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.125, "tp": 1.4332670467521058, "note": "pace 1.4x off peak 3.6x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "WVE", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.335, "tp": 2.5039466585543795, "note": "sustained 2.5x"}
+{"ts": "2026-08-12T14:09:43.034433-04:00", "demo": 0, "ticker": "CXW", "prev_state": "RUNNING", "state": "COOLING", "price": 33.27, "tp": 1.1078131392806854, "note": "pace 1.1x off peak 2.6x"}
