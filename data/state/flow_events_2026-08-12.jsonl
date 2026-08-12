@@ -630,3 +630,5 @@
 {"ts": "2026-08-12T15:57:43.059669-04:00", "demo": 0, "ticker": "TCMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.32, "tp": 3.2132082206317505, "note": "sustained 3.2x"}
 {"ts": "2026-08-12T15:57:43.059669-04:00", "demo": 0, "ticker": "LION", "prev_state": "RUNNING", "state": "COOLING", "price": 11.775, "tp": 0.34391491361162996, "note": "pace 0.3x off peak 20.9x"}
 {"ts": "2026-08-12T15:57:43.059669-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "FADING", "state": "LEAVING", "price": 5.745, "tp": 1.0566978955134063, "note": "pace 1.1x off peak 4.3x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-08-12T16:13:28.062348-04:00", "demo": 0, "ticker": "CBRG", "prev_state": null, "state": "AH IGNITION", "price": 5.34, "tp": null, "note": "-18% on $0.15M ext tape"}
+{"ts": "2026-08-12T16:13:28.062348-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": null, "state": "AH IGNITION", "price": 7.95, "tp": null, "note": "+16% on $0.05M ext tape"}
