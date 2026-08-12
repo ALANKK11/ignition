@@ -634,3 +634,5 @@
 {"ts": "2026-08-12T16:13:28.062348-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": null, "state": "AH IGNITION", "price": 7.95, "tp": null, "note": "+16% on $0.05M ext tape"}
 {"ts": "2026-08-12T16:17:13.052885-04:00", "demo": 0, "ticker": "GPUS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hyperscale Data Expects to Report Approximately $360 Million in Total Assets, or Approximately $0.62 Per Outstanding Cla"}
 {"ts": "2026-08-12T16:17:13.052885-04:00", "demo": 0, "ticker": "NEE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "NextEra Energy, U.S. Department of Commerce and Government of Japan finalize commercial terms; reach funding milestone f"}
+{"ts": "2026-08-12T16:32:13.056174-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover Completes Acquisition of Cloeren"}
+{"ts": "2026-08-12T16:32:13.056174-04:00", "demo": 0, "ticker": "MOVE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Corvex to Host Second Quarter 2026 Earnings Call on Friday, August 14, 2026"}
