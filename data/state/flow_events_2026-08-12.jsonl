@@ -141,3 +141,14 @@
 {"ts": "2026-08-12T14:12:43.037124-04:00", "demo": 0, "ticker": "ILF", "prev_state": "CHURN", "state": "RUNNING", "price": 33.665, "tp": 6.756849825100953, "note": "sustained 6.8x"}
 {"ts": "2026-08-12T14:12:43.037124-04:00", "demo": 0, "ticker": "WVE", "prev_state": "RUNNING", "state": "COOLING", "price": 5.325, "tp": 1.409724273449959, "note": "pace 1.4x off peak 3.0x"}
 {"ts": "2026-08-12T14:12:43.037124-04:00", "demo": 0, "ticker": "EWP", "prev_state": "RUNNING", "state": "FADING", "price": 62.73, "tp": 0.6737400147264064, "note": "pace 0.7x vs peak 10.1x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "IGNITING", "price": 14.83, "tp": 15.431051383942577, "note": "pace 15.4x and accelerating (28.4x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "FEZ", "prev_state": "CHURN", "state": "RUNNING", "price": 71.825, "tp": 2.7417703972963814, "note": "sustained 2.7x"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "ESOA", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.41, "tp": 8.494856260435723, "note": "pace 8.5x and accelerating (10.8x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "ACB", "prev_state": "CHURN", "state": "RUNNING", "price": 3.765, "tp": 4.669771183848558, "note": "sustained 4.7x"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "CORD", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.235, "tp": 3.198131765359932, "note": "pace 3.2x and accelerating (64.0x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "CRWV", "prev_state": "QUIET", "state": "RUNNING", "price": 108.395, "tp": 2.2690057176447094, "note": "sustained 2.3x"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "AA", "prev_state": "COOLING", "state": "RUNNING", "price": 51.64, "tp": 2.0739243368269777, "note": "sustained 2.1x"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "RNW", "prev_state": "RUNNING", "state": "CHURN", "price": 6.81, "tp": 5.420443278489255, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "LION", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.83, "tp": 7.093843992931424, "note": "pace 7.1x and accelerating (6.4x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 26.34, "tp": 47.266876459907174, "note": "sustained 47.3x"}
+{"ts": "2026-08-12T14:16:28.037053-04:00", "demo": 0, "ticker": "BZH", "prev_state": "QUIET", "state": "RUNNING", "price": 33.145, "tp": 7.365281437763778, "note": "sustained 7.4x"}
