@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-12T08:09:17-04:00", "session": "pre", "rows": []}
+{"v": 4, "ts": "2026-08-12T08:12:17-04:00", "session": "pre", "rows": [{"headline": null, "pr_ts": null, "catalyst": false, "flags": null, "ticker": "RMCF", "move": 1.1825, "last": 1.6, "dollars": 149821.62, "vs_adv": 925.21, "off_hi": -0.0476, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": true, "pin": false, "heat": 1.1, "swings": 0, "path": 0.273, "first_seen": "08:12", "new": true}]}
