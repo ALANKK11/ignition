@@ -294,3 +294,13 @@
 {"ts": "2026-08-13T14:49:33.406601-04:00", "demo": 0, "ticker": "DIOD", "prev_state": "IGNITING", "state": "RUNNING", "price": 97.105, "tp": 5.023371842604559, "note": "sustained 5.0x"}
 {"ts": "2026-08-13T14:49:33.406601-04:00", "demo": 0, "ticker": "JACK", "prev_state": "COOLING", "state": "RUNNING", "price": 18.93, "tp": 2.3094002607080886, "note": "sustained 2.3x"}
 {"ts": "2026-08-13T14:49:33.406601-04:00", "demo": 0, "ticker": "STRO", "prev_state": "RUNNING", "state": "FADING", "price": 21.28, "tp": 1.7544062900937545, "note": "pace 1.8x vs peak 6.2x \u00b7 -2.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "CSCO", "prev_state": "COOLING", "state": "RUNNING", "price": 111.86, "tp": 1.9374821509741726, "note": "sustained 1.9x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "COLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.33, "tp": 4.271908835909278, "note": "sustained 4.3x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "AMA", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.3, "tp": 10.995284766878884, "note": "sustained 11.0x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "CORD", "prev_state": "QUIET", "state": "IGNITING", "price": 2.27, "tp": 4.877851151736611, "note": "pace 4.9x and accelerating (97.6x vs prior window) \u00b7 -2.2% in window"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "IMVT", "prev_state": "COOLING", "state": "NEW MONEY", "price": 41.85, "tp": 3.206209046732283, "note": "quiet open (0.9x) \u2192 now 3.2x \u00b7 taking +1.4% flow share"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "BGS", "prev_state": "CHURN", "state": "RUNNING", "price": 3.66, "tp": 3.7313338205300335, "note": "sustained 3.7x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "RUNNING", "state": "COOLING", "price": 165.38, "tp": 0.0, "note": "pace 0.0x off peak 16.3x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "CHURN", "price": 26.495, "tp": 5.03107118698612, "note": "5.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "MNTN", "prev_state": "FADING", "state": "RUNNING", "price": 12.385, "tp": 3.8930739081385126, "note": "sustained 3.9x"}
+{"ts": "2026-08-13T14:53:18.407568-04:00", "demo": 0, "ticker": "JACK", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.135, "tp": 3.0428193691583467, "note": "pace 3.0x and accelerating (1.7x vs prior window) \u00b7 +1.3% in window"}
