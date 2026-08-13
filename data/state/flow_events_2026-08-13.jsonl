@@ -397,3 +397,9 @@
 {"ts": "2026-08-13T15:15:48.411142-04:00", "demo": 0, "ticker": "CURI", "prev_state": "FADING", "state": "LEAVING", "price": 3.86, "tp": 12.838431677012801, "note": "pace 12.8x off peak 47.9x \u00b7 VWAP lost (was +1.5% above)"}
 {"ts": "2026-08-13T15:15:48.411142-04:00", "demo": 0, "ticker": "OFAL", "prev_state": "LEAVING", "state": "FADING", "price": 1.645, "tp": 0.4942141931928416, "note": "pace 0.5x vs peak 3.6x \u00b7 -11.1% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-13T15:15:48.411142-04:00", "demo": 0, "ticker": "STRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.54, "tp": 4.983014382229105, "note": "sustained 5.0x"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "DKL", "prev_state": "RUNNING", "state": "COOLING", "price": 52.62, "tp": 0.0, "note": "pace 0.0x off peak 16.1x"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "AMPY", "prev_state": "FADING", "state": "RUNNING", "price": 4.91, "tp": 3.468719004944608, "note": "sustained 3.5x"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "ATRO", "prev_state": "RUNNING", "state": "CHURN", "price": 93.5, "tp": 8.652933602653995, "note": "8.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "CCO", "prev_state": "COOLING", "state": "RUNNING", "price": 2.33, "tp": 4.7355929282906395, "note": "sustained 4.7x"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "SUZ", "prev_state": "COOLING", "state": "RUNNING", "price": 7.945, "tp": 2.0099746586297282, "note": "sustained 2.0x"}
+{"ts": "2026-08-13T15:19:33.411953-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "FADING", "state": "COOLING", "price": 6.305, "tp": 1.1068950461127929, "note": "pace 1.1x off peak 2.1x"}
