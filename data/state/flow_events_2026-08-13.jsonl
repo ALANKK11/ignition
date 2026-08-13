@@ -261,3 +261,16 @@
 {"ts": "2026-08-13T14:42:03.405445-04:00", "demo": 0, "ticker": "CLOX", "prev_state": "CHURN", "state": "FADING", "price": 25.555, "tp": 0.0, "note": "pace 0.0x vs peak 16.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-13T14:42:03.405445-04:00", "demo": 0, "ticker": "SUZ", "prev_state": "RUNNING", "state": "COOLING", "price": 7.93, "tp": 1.045489198266479, "note": "pace 1.0x off peak 2.8x"}
 {"ts": "2026-08-13T14:42:03.405445-04:00", "demo": 0, "ticker": "TECX", "prev_state": "COOLING", "state": "RUNNING", "price": 34.91, "tp": 2.586741292153264, "note": "sustained 2.6x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "BGS", "prev_state": "RUNNING", "state": "QUIET", "price": 3.64, "tp": 1.7679018986360624, "note": ""}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "QUIET", "state": "IGNITING", "price": 8.4, "tp": 9.813012948970869, "note": "pace 9.8x and accelerating (196.3x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "OPLN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 35.49, "tp": 2.2070754266450847, "note": "quiet open (0.6x) \u2192 now 2.2x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "ELPC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.58, "tp": 5.484318843528659, "note": "sustained 5.5x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "BTGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.355, "tp": 3.0301175510298366, "note": "sustained 3.0x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "EDN", "prev_state": "CHURN", "state": "RUNNING", "price": 23.74, "tp": 17.38634582265194, "note": "sustained 17.4x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "AVAH", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.94, "tp": 4.354165603408632, "note": "sustained 4.4x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "CURI", "prev_state": "IGNITING", "state": "LEAVING", "price": 3.845, "tp": 18.531564708539026, "note": "pace 18.5x off peak 47.9x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "AWF", "prev_state": "CHURN", "state": "RUNNING", "price": 10.165, "tp": 6.9048294267029595, "note": "sustained 6.9x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "ENGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.995, "tp": 1.827041424701218, "note": "sustained 1.8x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "FADING", "state": "RUNNING", "price": 5.775, "tp": 1.9167797968812126, "note": "sustained 1.9x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "IGNITING", "state": "RUNNING", "price": 165.38, "tp": 10.779981022281213, "note": "sustained 10.8x"}
+{"ts": "2026-08-13T14:45:48.406007-04:00", "demo": 0, "ticker": "TECX", "prev_state": "RUNNING", "state": "COOLING", "price": 34.91, "tp": 1.4669445854043068, "note": "pace 1.5x off peak 8.0x"}
