@@ -22,3 +22,13 @@
 {"ts": "2026-08-13T13:45:48.394979-04:00", "demo": 0, "ticker": "LIMN", "prev_state": "FADING", "state": "IGNITING", "price": 0.1685, "tp": 9.529410388412737, "note": "pace 9.5x and accelerating (1.9x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-08-13T13:45:48.394979-04:00", "demo": 0, "ticker": "MNTN", "prev_state": "COOLING", "state": "RUNNING", "price": 12.1, "tp": 2.390685647315396, "note": "sustained 2.4x"}
 {"ts": "2026-08-13T13:45:48.394979-04:00", "demo": 0, "ticker": "OFAL", "prev_state": "FADING", "state": "LEAVING", "price": 1.595, "tp": 0.386554725684273, "note": "pace 0.4x off peak 2.7x \u00b7 VWAP lost (was +2.2% above)"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "TBBB", "prev_state": "QUIET", "state": "RUNNING", "price": 49.13, "tp": 1.9037902599662488, "note": "sustained 1.9x"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "DFSC", "prev_state": "FADING", "state": "RUNNING", "price": 2.36, "tp": 1025.3310486048301, "note": "sustained 1025.3x"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "HCTI", "prev_state": "LEAVING", "state": "FADING", "price": 1.605, "tp": 11.737311833869908, "note": "pace 11.7x vs peak 494.4x \u00b7 -26.7% off HOD \u00b7 chart still +30% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "COOLING", "price": 2.335, "tp": 1.5582947041491362, "note": "pace 1.6x off peak 6.5x"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "OTLK", "prev_state": "RUNNING", "state": "CHURN", "price": 0.8767, "tp": 6.108152646227327, "note": "6.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "LIMN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.1654, "tp": 14.044132661363951, "note": "sustained 14.0x"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "SBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.65, "tp": 5.381509518978424, "note": "sustained 5.4x"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "IX", "prev_state": "RUNNING", "state": "CHURN", "price": 40.455, "tp": 2.7560529963602747, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "NBIZ", "prev_state": "IGNITING", "state": "CHURN", "price": 5.495, "tp": 3.8508511991909287, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-13T13:49:33.394999-04:00", "demo": 0, "ticker": "PRPO", "prev_state": "QUIET", "state": "RUNNING", "price": 22.66, "tp": 4.307257170466787, "note": "sustained 4.3x"}
