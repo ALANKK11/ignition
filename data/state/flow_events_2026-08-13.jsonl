@@ -544,3 +544,7 @@
 {"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "IX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 40.43, "tp": 1.7845706995687245, "note": "pace 1.8x off peak 6.8x"}
 {"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "QFIN", "prev_state": "QUIET", "state": "COOLING", "price": 12.5, "tp": 1.4819911428566623, "note": "pace 1.5x off peak 2.2x"}
 {"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "OPLN", "prev_state": "COOLING", "state": "RUNNING", "price": 35.29, "tp": 1.9240487693334634, "note": "sustained 1.9x"}
+{"ts": "2026-08-13T16:11:18.409357-04:00", "demo": 0, "ticker": "INTU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Contact Robbins LLP for Information About Leading the Lawsuit That Alleges Intuit Inc. Misled Investors About the Sustai"}
+{"ts": "2026-08-13T16:11:18.409357-04:00", "demo": 0, "ticker": "PLAB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Contact Robbins LLP for Information About Leading the Lawsuit That Alleges Photronics, Inc. Overstated the Strength and "}
+{"ts": "2026-08-13T16:11:18.409357-04:00", "demo": 0, "ticker": "VUZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Vuzix Reports Second Quarter 2026 Results"}
+{"ts": "2026-08-13T16:11:18.409357-04:00", "demo": 0, "ticker": "AEYE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AudioEye Reports Record Second Quarter 2026 Results"}
