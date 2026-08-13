@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-13T08:21:24-04:00", "session": "pre", "rows": [{"ticker": "ARX", "last": 19.67, "gap": 0.4481, "dollars": 514306.98, "vs_adv": 0.22, "new": false}, {"ticker": "OFAL", "last": 1.66, "gap": 0.3598, "dollars": 255718.47999999998, "vs_adv": 2.34, "new": false}]}
+{"v": 4, "ts": "2026-08-13T08:24:24-04:00", "session": "pre", "rows": [{"ticker": "ARX", "last": 19.67, "gap": 0.4481, "dollars": 514306.98, "vs_adv": 0.22, "new": false}, {"ticker": "OFAL", "last": 1.72, "gap": 0.3544, "dollars": 267974.87, "vs_adv": 2.46, "new": false}]}
