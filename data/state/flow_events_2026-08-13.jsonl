@@ -536,3 +536,11 @@
 {"ts": "2026-08-13T15:53:18.417692-04:00", "demo": 0, "ticker": "TECX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 34.25, "tp": 1.604725088961515, "note": "pace 1.6x off peak 8.0x"}
 {"ts": "2026-08-13T15:53:18.417692-04:00", "demo": 0, "ticker": "LYTS", "prev_state": "QUIET", "state": "NEW MONEY", "price": 24.91, "tp": 7.064024881378198, "note": "quiet open (0.4x) \u2192 now 7.1x \u00b7 taking +0.4% flow share"}
 {"ts": "2026-08-13T15:53:18.417692-04:00", "demo": 0, "ticker": "SUZ", "prev_state": "RUNNING", "state": "COOLING", "price": 8.015, "tp": 1.2818240375027246, "note": "pace 1.3x off peak 2.8x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "CORD", "prev_state": "IGNITING", "state": "FADING", "price": 2.35, "tp": 2.643396453765658, "note": "pace 2.6x vs peak 8.1x \u00b7 -0.4% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "ACB", "prev_state": "COOLING", "state": "RUNNING", "price": 3.785, "tp": 2.3544129144320256, "note": "sustained 2.4x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "COOLING", "price": 2.325, "tp": 0.36364636212275153, "note": "pace 0.4x off peak 6.6x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "CEPL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.865, "tp": 3.747437243359261, "note": "pace 3.7x and accelerating (3.1x vs prior window) \u00b7 +2.5% in window"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "AIRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.695, "tp": 2.806465969033746, "note": "sustained 2.8x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "IX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 40.43, "tp": 1.7845706995687245, "note": "pace 1.8x off peak 6.8x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "QFIN", "prev_state": "QUIET", "state": "COOLING", "price": 12.5, "tp": 1.4819911428566623, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-08-13T15:57:03.418592-04:00", "demo": 0, "ticker": "OPLN", "prev_state": "COOLING", "state": "RUNNING", "price": 35.29, "tp": 1.9240487693334634, "note": "sustained 1.9x"}
