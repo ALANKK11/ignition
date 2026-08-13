@@ -489,3 +489,13 @@
 {"ts": "2026-08-13T15:42:03.416047-04:00", "demo": 0, "ticker": "CMPX", "prev_state": "COOLING", "state": "QUIET", "price": 2.27, "tp": 1.7160036533786696, "note": ""}
 {"ts": "2026-08-13T15:42:03.416047-04:00", "demo": 0, "ticker": "BST", "prev_state": "FADING", "state": "CHURN", "price": 50.26, "tp": 11.578867988526277, "note": "11.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-13T15:42:03.416047-04:00", "demo": 0, "ticker": "DKL", "prev_state": "CHURN", "state": "COOLING", "price": 52.645, "tp": 0.0, "note": "pace 0.0x off peak 16.1x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "FADING", "state": "LEAVING", "price": 10.64, "tp": 1.9184886804059613, "note": "pace 1.9x off peak 8.1x \u00b7 VWAP lost (was +4.0% above)"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "CMPX", "prev_state": "QUIET", "state": "RUNNING", "price": 2.255, "tp": 1.8269184496948927, "note": "sustained 1.8x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "ATRO", "prev_state": "FADING", "state": "RUNNING", "price": 93.46, "tp": 6.139519405081576, "note": "sustained 6.1x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "RUNNING", "state": "COOLING", "price": 165.615, "tp": 0.4371348109218282, "note": "pace 0.4x off peak 16.3x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "LEAVING", "state": "IGNITING", "price": 10.6, "tp": 17.239118858499364, "note": "pace 17.2x and accelerating (3.4x vs prior window) \u00b7 +4.6% in window"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "AIRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.64, "tp": 4.2633424343375825, "note": "sustained 4.3x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "RUNNING", "state": "FADING", "price": 5.76, "tp": 0.45362095641578687, "note": "pace 0.5x vs peak 5.5x \u00b7 -1.7% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.815, "tp": 7.233180260751984, "note": "sustained 7.2x"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "CORD", "prev_state": "FADING", "state": "IGNITING", "price": 2.34, "tp": 4.2460472835812055, "note": "pace 4.2x and accelerating (50.4x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-08-13T15:45:48.416715-04:00", "demo": 0, "ticker": "IMVT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 41.84, "tp": 1.990328434839487, "note": "sustained 2.0x"}
