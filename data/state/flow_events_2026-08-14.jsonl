@@ -24,3 +24,6 @@
 {"ts": "2026-08-14T09:51:32.367305-04:00", "demo": 0, "ticker": "AEHR", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 137.26, "tp": 3.489236056427941, "note": "3.5x tape out of the gate"}
 {"ts": "2026-08-14T09:54:32.368225-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.66, "tp": 1.6559982908151187, "note": ""}
 {"ts": "2026-08-14T09:57:32.368762-04:00", "demo": 0, "ticker": "AEHR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 139.13, "tp": 1.7934042362232787, "note": ""}
+{"ts": "2026-08-14T10:00:32.369402-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 30.73, "tp": 3.0828305926972344, "note": "3.1x tape out of the gate"}
+{"ts": "2026-08-14T10:00:32.369402-04:00", "demo": 0, "ticker": "CCO", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 2.335, "tp": 7.620250586564297, "note": "7.6x tape out of the gate"}
+{"ts": "2026-08-14T10:00:32.369402-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.505, "tp": 2.589604306564923, "note": ""}
