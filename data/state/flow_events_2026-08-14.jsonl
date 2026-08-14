@@ -710,3 +710,12 @@
 {"ts": "2026-08-14T14:02:16.910585-04:00", "demo": 0, "ticker": "AMPY", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.755, "tp": 3.548035296366072, "note": "sustained 3.5x"}
 {"ts": "2026-08-14T14:02:16.910585-04:00", "demo": 0, "ticker": "STRO", "prev_state": "LEAVING", "state": "IGNITING", "price": 20.42, "tp": 9.44100747213024, "note": "pace 9.4x and accelerating (4.3x vs prior window) \u00b7 -1.1% in window"}
 {"ts": "2026-08-14T14:02:16.910585-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "RUNNING", "state": "COOLING", "price": 3.965, "tp": 1.6692954760902614, "note": "pace 1.7x off peak 10.7x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "IDR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 31.72, "tp": 1.6088348980772544, "note": "pace 1.6x off peak 2.7x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "COOLING", "state": "RUNNING", "price": 3.96, "tp": 1.9325952203379813, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "NEA", "prev_state": "COOLING", "state": "NEW MONEY", "price": 11.34, "tp": 5.264103078757627, "note": "quiet open (0.7x) \u2192 now 5.3x \u00b7 taking +1.5% flow share"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "RUNNING", "state": "IGNITING", "price": 47.53, "tp": 8.933177002428732, "note": "pace 8.9x and accelerating (1.7x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "BUFG", "prev_state": "CHURN", "state": "COOLING", "price": 30.03, "tp": 0.0, "note": "pace 0.0x off peak 14.1x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "CADL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.765, "tp": 2.803300168210424, "note": "sustained 2.8x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "ARX", "prev_state": "CHURN", "state": "RUNNING", "price": 19.605, "tp": 5.304347133023349, "note": "sustained 5.3x"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "FADING", "state": "CHURN", "price": 19.56, "tp": 24.604880694393295, "note": "24.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T14:06:01.911581-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 4.215, "tp": 5.519797765445944, "note": "quiet open (0.2x) \u2192 now 5.5x \u00b7 taking +0.9% flow share"}
