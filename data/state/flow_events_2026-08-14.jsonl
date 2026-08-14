@@ -827,3 +827,15 @@
 {"ts": "2026-08-14T14:39:46.917998-04:00", "demo": 0, "ticker": "NRDS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 9.87, "tp": 1.1035757834635085, "note": "pace 1.1x off peak 2.4x"}
 {"ts": "2026-08-14T14:39:46.917998-04:00", "demo": 0, "ticker": "TR", "prev_state": "RUNNING", "state": "COOLING", "price": 40.53, "tp": 1.7177650953732793, "note": "pace 1.7x off peak 3.6x"}
 {"ts": "2026-08-14T14:39:46.917998-04:00", "demo": 0, "ticker": "CADL", "prev_state": "CHURN", "state": "RUNNING", "price": 11.72, "tp": 2.229870101668421, "note": "sustained 2.2x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.725, "tp": 3.3065382988548184, "note": "sustained 3.3x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "OMER", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 17.32, "tp": 2.1186321950990616, "note": "quiet open (1.2x) \u2192 now 2.1x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "AMSF", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.8, "tp": 3.8278854053295914, "note": "sustained 3.8x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "AYA", "prev_state": "COOLING", "state": "RUNNING", "price": 25.775, "tp": 1.925321750362964, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "BORR", "prev_state": "FADING", "state": "LEAVING", "price": 4.365, "tp": 3.800462801860491, "note": "pace 3.8x off peak 8.4x \u00b7 VWAP lost (was +1.7% above)"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "KE", "prev_state": "COOLING", "state": "NEW MONEY", "price": 25.86, "tp": 2.022528600195176, "note": "quiet open (0.4x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "FADING", "state": "NEW MONEY", "price": 3.59, "tp": 2.05247142454065, "note": "quiet open (0.1x) \u2192 now 2.1x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "TR", "prev_state": "COOLING", "state": "RUNNING", "price": 40.53, "tp": 1.8851865652800648, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.745, "tp": 6.1158639908253285, "note": "pace 6.1x and accelerating (9.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "KURA", "prev_state": "RUNNING", "state": "COOLING", "price": 10.94, "tp": 1.4791451246034955, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "RUNNING", "state": "CHURN", "price": 20.385, "tp": 34.874869448155465, "note": "34.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T14:43:31.919251-04:00", "demo": 0, "ticker": "NEA", "prev_state": "COOLING", "state": "NEW MONEY", "price": 11.35, "tp": 3.427522137144702, "note": "quiet open (0.7x) \u2192 now 3.4x \u00b7 taking +0.3% flow share"}
