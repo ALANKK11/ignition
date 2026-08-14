@@ -1126,3 +1126,4 @@
 {"ts": "2026-08-14T15:57:46.933628-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.98, "tp": 1.4640154489395938, "note": "pace 1.5x off peak 67.1x"}
 {"ts": "2026-08-14T16:11:16.920729-04:00", "demo": 0, "ticker": "O", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Realty Income Announces Closing of $1.0 Billion Convertible Senior Notes Offering"}
 {"ts": "2026-08-14T16:17:16.921875-04:00", "demo": 0, "ticker": "REAX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination"}
+{"ts": "2026-08-14T16:18:01.922026-04:00", "demo": 0, "ticker": "KD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "KYNDRYL GRANTS INDUCEMENT EQUITY AWARDS TO NEW CHIEF FINANCIAL OFFICER AND GENERAL COUNSEL AND SECRETARY PURSUANT TO NYS"}
