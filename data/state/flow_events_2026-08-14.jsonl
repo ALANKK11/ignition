@@ -1049,3 +1049,4 @@
 {"ts": "2026-08-14T15:43:31.930807-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "IGNITING", "state": "CHURN", "price": 4.26, "tp": 3.432925702833562, "note": "3.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T15:43:31.930807-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "CHURN", "state": "RUNNING", "price": 8.045, "tp": 12.101316652050205, "note": "sustained 12.1x"}
 {"ts": "2026-08-14T15:43:31.930807-04:00", "demo": 0, "ticker": "AMSF", "prev_state": "FADING", "state": "NEW MONEY", "price": 27.74, "tp": 2.539167955785732, "note": "quiet open (0.4x) \u2192 now 2.5x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-14T15:44:16.915450-04:00", "demo": 0, "ticker": "CDNL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HAGENS BERMAN, NATIONAL SECURITIES LAW FIRM, Announces Investigation into Cardinal Infrastructure Group Inc. (NASDAQ: CD"}
