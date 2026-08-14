@@ -493,3 +493,12 @@
 {"ts": "2026-08-14T12:16:17.395526-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.52, "tp": 4.007140711257406, "note": "sustained 4.0x"}
 {"ts": "2026-08-14T12:16:17.395526-04:00", "demo": 0, "ticker": "YSWY", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 24.92, "tp": 2.9257712136819563, "note": "pace 2.9x and accelerating (58.5x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-08-14T12:16:17.395526-04:00", "demo": 0, "ticker": "NEA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.37, "tp": 2.0035072355556927, "note": "sustained 2.0x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.675, "tp": 1.8372285877587151, "note": "sustained 1.8x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.71, "tp": 1.7118188609810867, "note": "pace 1.7x off peak 19.0x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "KURA", "prev_state": "FADING", "state": "NEW MONEY", "price": 10.54, "tp": 2.407051053630094, "note": "quiet open (0.8x) \u2192 now 2.4x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "ARX", "prev_state": "CHURN", "state": "RUNNING", "price": 19.625, "tp": 2.74054138518414, "note": "sustained 2.7x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "COOLING", "state": "RUNNING", "price": 12.87, "tp": 1.8750445003606042, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 4.08, "tp": 2.046695381367505, "note": "sustained 2.0x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "AMA", "prev_state": "IGNITING", "state": "COOLING", "price": 26.1, "tp": 0.9690319596327418, "note": "pace 1.0x off peak 7.0x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "CADL", "prev_state": "CHURN", "state": "COOLING", "price": 11.8, "tp": 1.7559504592055064, "note": "pace 1.8x off peak 12.3x"}
+{"ts": "2026-08-14T12:19:17.396323-04:00", "demo": 0, "ticker": "YSWY", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 24.92, "tp": 2.1523539268839857, "note": "quiet open (0.3x) \u2192 now 2.2x \u00b7 taking +0.4% flow share"}
