@@ -58,3 +58,5 @@
 {"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "ETON", "prev_state": "FADING", "state": "LEAVING", "price": 55.74, "tp": 3.1733262149199124, "note": "pace 3.2x off peak 15.4x \u00b7 VWAP lost (was +2.7% above)"}
 {"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "FLQL", "prev_state": "CHURN", "state": "COOLING", "price": 79.83, "tp": 0.0, "note": "pace 0.0x off peak 77.5x"}
 {"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.27, "tp": 8.695783731780232, "note": "sustained 8.7x"}
+{"ts": "2026-08-14T10:10:17.371527-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "IGNITING", "state": "COOLING", "price": 30.73, "tp": 1.645932715186079, "note": "pace 1.6x off peak 3.2x"}
+{"ts": "2026-08-14T10:10:17.371527-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.25, "tp": 10.258424918007682, "note": "pace 10.3x and accelerating (1.6x vs prior window) \u00b7 +2.5% in window"}
