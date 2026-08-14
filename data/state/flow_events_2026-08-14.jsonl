@@ -512,3 +512,17 @@
 {"ts": "2026-08-14T12:22:17.396787-04:00", "demo": 0, "ticker": "AMA", "prev_state": "COOLING", "state": "RUNNING", "price": 26.24, "tp": 2.462145421534338, "note": "sustained 2.5x"}
 {"ts": "2026-08-14T12:22:17.396787-04:00", "demo": 0, "ticker": "CALI", "prev_state": "RUNNING", "state": "QUIET", "price": 50.39, "tp": 1.771579604317108, "note": ""}
 {"ts": "2026-08-14T12:22:17.396787-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "FADING", "state": "RUNNING", "price": 111.09, "tp": 2.09490145080044, "note": "sustained 2.1x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "RUNNING", "state": "COOLING", "price": 12.87, "tp": 0.8163557582562387, "note": "pace 0.8x off peak 2.8x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "APC", "prev_state": "RUNNING", "state": "COOLING", "price": 19.1, "tp": 1.7742349142946283, "note": "pace 1.8x off peak 10.1x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "YSWY", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 25.0, "tp": 1.8811001729144021, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.925, "tp": 3.6323539534457177, "note": "sustained 3.6x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "COOLING", "price": 11.37, "tp": 1.5347858779651757, "note": "pace 1.5x off peak 29.1x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "FADING", "state": "LEAVING", "price": 11.05, "tp": 14.33922158982046, "note": "pace 14.3x off peak 34.2x \u00b7 VWAP lost (was +3.1% above)"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.035, "tp": 1.7882536708690027, "note": "pace 1.8x off peak 10.7x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.68, "tp": 1.8674590783155547, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.5, "tp": 12.687023748646588, "note": "sustained 12.7x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "RUNNING", "state": "FADING", "price": 23.56, "tp": 2.3377587781811533, "note": "pace 2.3x vs peak 7.2x \u00b7 -0.3% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "AMPY", "prev_state": "RUNNING", "state": "COOLING", "price": 4.66, "tp": 1.579975106706799, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "LEAVING", "state": "FADING", "price": 32.445, "tp": 0.4176097889318986, "note": "pace 0.4x vs peak 2.8x \u00b7 -2.7% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "LEAVING", "state": "NEW MONEY", "price": 3.57, "tp": 2.409722450817763, "note": "quiet open (0.1x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-14T12:25:17.397371-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "IGNITING", "state": "COOLING", "price": 30.97, "tp": 0.29126795507618264, "note": "pace 0.3x off peak 29.4x"}
