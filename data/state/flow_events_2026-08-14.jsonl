@@ -690,3 +690,12 @@
 {"ts": "2026-08-14T13:55:31.908810-04:00", "demo": 0, "ticker": "ARX", "prev_state": "FADING", "state": "CHURN", "price": 19.625, "tp": 3.0309361919770668, "note": "3.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T13:55:31.908810-04:00", "demo": 0, "ticker": "BKDV", "prev_state": "QUIET", "state": "COOLING", "price": 34.98, "tp": 0.6209146677500027, "note": "pace 0.6x off peak 2.3x"}
 {"ts": "2026-08-14T13:55:31.908810-04:00", "demo": 0, "ticker": "ASIX", "prev_state": "FADING", "state": "NEW MONEY", "price": 17.03, "tp": 2.911867458096809, "note": "quiet open (0.1x) \u2192 now 2.9x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "BLSH", "prev_state": "NEW MONEY", "state": "COOLING", "price": 24.395, "tp": 1.4776083210592916, "note": "pace 1.5x off peak 2.8x"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "COOLING", "state": "RUNNING", "price": 20.39, "tp": 3.3873547282429053, "note": "sustained 3.4x"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "AROW", "prev_state": "QUIET", "state": "NEW MONEY", "price": 39.4, "tp": 8.069721546457213, "note": "quiet open (0.2x) \u2192 now 8.1x \u00b7 taking +0.9% flow share"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "IDR", "prev_state": "FADING", "state": "NEW MONEY", "price": 31.72, "tp": 2.655044673042156, "note": "quiet open (0.5x) \u2192 now 2.7x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 12.81, "tp": 5.873427687673362, "note": "quiet open (0.3x) \u2192 now 5.9x \u00b7 taking +1.0% flow share"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "ARX", "prev_state": "CHURN", "state": "RUNNING", "price": 19.63, "tp": 6.29280242876343, "note": "sustained 6.3x"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.15, "tp": 2.1898801003034176, "note": "sustained 2.2x"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "AII", "prev_state": "LEAVING", "state": "FADING", "price": 24.015, "tp": 2.4355548279976706, "note": "pace 2.4x vs peak 7.6x \u00b7 -1.6% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T13:58:31.910110-04:00", "demo": 0, "ticker": "AYA", "prev_state": "COOLING", "state": "RUNNING", "price": 25.98, "tp": 2.1235682012074433, "note": "sustained 2.1x"}
