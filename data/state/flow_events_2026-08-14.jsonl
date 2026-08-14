@@ -14,3 +14,4 @@
 {"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.69, "tp": 0.787259185074403, "note": ""}
 {"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "STRO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.05, "tp": 1.0318397125508814, "note": ""}
 {"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "TR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 40.16, "tp": 0.875885349524041, "note": ""}
+{"ts": "2026-08-14T09:42:32.365580-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 9.72, "tp": 3.425601061372019, "note": "3.4x tape out of the gate"}
