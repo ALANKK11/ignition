@@ -287,3 +287,15 @@
 {"ts": "2026-08-14T11:25:17.386382-04:00", "demo": 0, "ticker": "BORR", "prev_state": "RUNNING", "state": "CHURN", "price": 4.405, "tp": 2.8027830469571007, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T11:25:17.386382-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "FADING", "state": "IGNITING", "price": 22.015, "tp": 4.635258094549522, "note": "pace 4.6x and accelerating (2.8x vs prior window) \u00b7 +2.1% in window"}
 {"ts": "2026-08-14T11:25:17.386382-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "RUNNING", "state": "FADING", "price": 7.74, "tp": 2.8325370370925262, "note": "pace 2.8x vs peak 17.6x \u00b7 +0.0% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "RUNNING", "state": "COOLING", "price": 9.69, "tp": 1.5392007179780987, "note": "pace 1.5x off peak 16.7x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "COOLING", "price": 29.05, "tp": 0.0, "note": "pace 0.0x off peak 18.4x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "CADL", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.65, "tp": 3.9644046006580216, "note": "sustained 4.0x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "AVL", "prev_state": "RUNNING", "state": "IGNITING", "price": 46.23, "tp": 12.024750371246336, "note": "pace 12.0x and accelerating (2.6x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "IGNITING", "state": "COOLING", "price": 22.11, "tp": 1.3342389390834801, "note": "pace 1.3x off peak 9.4x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "AWF", "prev_state": "RUNNING", "state": "COOLING", "price": 10.14, "tp": 1.4868757408442523, "note": "pace 1.5x off peak 8.6x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "CBRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 217.73, "tp": 2.8477794958331546, "note": "sustained 2.8x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "BZAI", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6573, "tp": 16.435422765136387, "note": "sustained 16.4x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "ARX", "prev_state": "FADING", "state": "RUNNING", "price": 19.61, "tp": 4.578026384580998, "note": "sustained 4.6x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.71, "tp": 18.9545147385613, "note": "pace 19.0x and accelerating (1.6x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 8.64, "tp": 0.652302648313572, "note": "pace 0.7x off peak 43.0x"}
+{"ts": "2026-08-14T11:28:17.386706-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "FADING", "state": "LEAVING", "price": 14.39, "tp": 0.7996610933251301, "note": "pace 0.8x off peak 12.3x \u00b7 VWAP lost (was +2.1% above)"}
