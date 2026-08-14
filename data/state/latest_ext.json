@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-14T09:03:32-04:00", "session": "pre", "rows": [{"ticker": "WETO", "last": 9.77, "gap": 1.8428, "dollars": 121980.25000000001, "vs_adv": 0.07, "new": false}]}
+{"v": 4, "ts": "2026-08-14T09:06:32-04:00", "session": "pre", "rows": [{"ticker": "WETO", "last": 9.96, "gap": 1.8416, "dollars": 122952.25000000001, "vs_adv": 0.07, "new": false}, {"ticker": "SNXX", "last": 16.24, "gap": 0.1346, "dollars": 1296574.3699999999, "vs_adv": 0.07, "new": true}]}
