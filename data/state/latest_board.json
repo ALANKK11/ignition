@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-14T16:16:31-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-14T16:17:16-04:00", "session": "post", "rows": [{"headline": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination", "pr_ts": "16:15", "catalyst": true, "flags": ["APPROVAL"], "ticker": "REAX", "move": -0.0042, "last": 2.39, "dollars": 1585384.99, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.424, "first_seen": "16:17", "new": true}]}

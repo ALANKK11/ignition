@@ -1125,3 +1125,4 @@
 {"ts": "2026-08-14T15:57:46.933628-04:00", "demo": 0, "ticker": "AII", "prev_state": "FADING", "state": "NEW MONEY", "price": 23.97, "tp": 2.13759613737417, "note": "quiet open (0.3x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-08-14T15:57:46.933628-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.98, "tp": 1.4640154489395938, "note": "pace 1.5x off peak 67.1x"}
 {"ts": "2026-08-14T16:11:16.920729-04:00", "demo": 0, "ticker": "O", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Realty Income Announces Closing of $1.0 Billion Convertible Senior Notes Offering"}
+{"ts": "2026-08-14T16:17:16.921875-04:00", "demo": 0, "ticker": "REAX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination"}
