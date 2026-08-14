@@ -245,3 +245,12 @@
 {"ts": "2026-08-14T11:10:17.384671-04:00", "demo": 0, "ticker": "BYSI", "prev_state": "IGNITING", "state": "COOLING", "price": 0.855, "tp": 0.0, "note": "pace 0.0x off peak 3.5x"}
 {"ts": "2026-08-14T11:10:17.384671-04:00", "demo": 0, "ticker": "COHX", "prev_state": "COOLING", "state": "RUNNING", "price": 32.5, "tp": 4.3582538593354165, "note": "sustained 4.4x"}
 {"ts": "2026-08-14T11:10:17.384671-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "RUNNING", "state": "COOLING", "price": 12.96, "tp": 1.320440170933487, "note": "pace 1.3x off peak 2.6x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.53, "tp": 2.0771429049029466, "note": "sustained 2.1x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "AMA", "prev_state": "RUNNING", "state": "COOLING", "price": 26.28, "tp": 1.5080200645870787, "note": "pace 1.5x off peak 7.0x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "CADL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.52, "tp": 1.9695840980386237, "note": "sustained 2.0x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "AMAU", "prev_state": "RUNNING", "state": "COOLING", "price": 15.98, "tp": 1.1296116657752755, "note": "pace 1.1x off peak 2.2x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "BZAI", "prev_state": "LEAVING", "state": "RUNNING", "price": 0.6564, "tp": 10.864599430470042, "note": "sustained 10.9x"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "IGNITING", "state": "CHURN", "price": 9.7, "tp": 9.336502006095651, "note": "9.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "FADING", "state": "IGNITING", "price": 22.575, "tp": 4.246683433555807, "note": "pace 4.2x and accelerating (3.7x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "LEAVING", "state": "IGNITING", "price": 6.41, "tp": 7.915914177551721, "note": "pace 7.9x and accelerating (2.2x vs prior window) \u00b7 -9.1% in window"}
+{"ts": "2026-08-14T11:13:17.383798-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.5, "tp": 4.2537211571739695, "note": "pace 4.3x and accelerating (1.7x vs prior window) \u00b7 -1.5% in window"}
