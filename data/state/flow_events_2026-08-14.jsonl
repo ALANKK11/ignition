@@ -921,3 +921,9 @@
 {"ts": "2026-08-14T15:06:01.923475-04:00", "demo": 0, "ticker": "MATW", "prev_state": "FADING", "state": "NEW MONEY", "price": 23.19, "tp": 2.5031277714424536, "note": "quiet open (0.2x) \u2192 now 2.5x \u00b7 taking +0.5% flow share"}
 {"ts": "2026-08-14T15:06:01.923475-04:00", "demo": 0, "ticker": "AWF", "prev_state": "NEW MONEY", "state": "CHURN", "price": 10.115, "tp": 2.2668501148303344, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T15:06:01.923475-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 31.125, "tp": 0.0, "note": "pace 0.0x off peak 6.0x"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "CHURN", "state": "FADING", "price": 19.56, "tp": 17.180792400456355, "note": "pace 17.2x vs peak 67.7x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "RUNNING", "state": "CHURN", "price": 21.95, "tp": 4.972872830345344, "note": "5.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "AWF", "prev_state": "CHURN", "state": "COOLING", "price": 10.115, "tp": 1.079473961949029, "note": "pace 1.1x off peak 8.6x"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "BUFD", "prev_state": "CHURN", "state": "RUNNING", "price": 30.31, "tp": 2.1793355730983204, "note": "sustained 2.2x"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "MATW", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.19, "tp": 2.1853138550630464, "note": "sustained 2.2x"}
+{"ts": "2026-08-14T15:09:46.923898-04:00", "demo": 0, "ticker": "OMER", "prev_state": "NEW MONEY", "state": "COOLING", "price": 17.305, "tp": 1.2913691679084023, "note": "pace 1.3x off peak 6.8x"}
