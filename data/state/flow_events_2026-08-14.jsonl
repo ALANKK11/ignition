@@ -373,3 +373,4 @@
 {"ts": "2026-08-14T11:46:17.390001-04:00", "demo": 0, "ticker": "STRO", "prev_state": "IGNITING", "state": "LEAVING", "price": 21.125, "tp": 0.20089005889882644, "note": "pace 0.2x off peak 5.1x \u00b7 VWAP lost (was +2.9% above)"}
 {"ts": "2026-08-14T11:46:17.390001-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "RUNNING", "state": "CHURN", "price": 9.695, "tp": 2.9748280404559653, "note": "3.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T11:46:17.390001-04:00", "demo": 0, "ticker": "NRDS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 9.97, "tp": 1.3476569068687212, "note": "pace 1.3x off peak 2.4x"}
+{"ts": "2026-08-14T11:47:02.375809-04:00", "demo": 0, "ticker": "BIAF", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WallachBeth Capital Announces Closing of bioAffinity Technologies $4M Private Placement Offering Priced At-the-Market Un"}
