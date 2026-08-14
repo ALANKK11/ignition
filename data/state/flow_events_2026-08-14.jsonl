@@ -83,3 +83,13 @@
 {"ts": "2026-08-14T10:20:02.373156-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.21, "tp": 10.682152959852054, "note": "pace 10.7x and accelerating (1.8x vs prior window) \u00b7 +4.1% in window"}
 {"ts": "2026-08-14T10:20:02.373156-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 2.4, "tp": 2.662485760837051, "note": "quiet open (0.2x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-14T10:20:02.373156-04:00", "demo": 0, "ticker": "NRDS", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.87, "tp": 2.350896751971598, "note": "quiet open (0.4x) \u2192 now 2.4x \u00b7 taking +0.7% flow share"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "FADING", "state": "RUNNING", "price": 20.73, "tp": 5.380020278087102, "note": "sustained 5.4x"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "AMA", "prev_state": "RUNNING", "state": "QUIET", "price": 26.27, "tp": 1.6476619368421934, "note": ""}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "RUNNING", "state": "FADING", "price": 23.56, "tp": 1.5552532261162453, "note": "pace 1.6x vs peak 9.4x \u00b7 -11.8% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 23.44, "tp": 1.7555574932433486, "note": "pace 1.8x off peak 3.2x"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "BUFG", "prev_state": "CHURN", "state": "FADING", "price": 30.07, "tp": 0.0, "note": "pace 0.0x vs peak 14.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "BUUU", "prev_state": "COOLING", "state": "FADING", "price": 30.51, "tp": 0.0, "note": "pace 0.0x vs peak 3.0x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "KE", "prev_state": "NEW MONEY", "state": "QUIET", "price": 26.72, "tp": 1.7387133690468888, "note": ""}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "BIRK", "prev_state": "CHURN", "state": "RUNNING", "price": 39.985, "tp": 6.688718799700874, "note": "sustained 6.7x"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.16, "tp": 9.319614301034767, "note": "sustained 9.3x"}
+{"ts": "2026-08-14T10:23:02.373873-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "RUNNING", "state": "COOLING", "price": 32.985, "tp": 1.6097789587662072, "note": "pace 1.6x off peak 2.3x"}
