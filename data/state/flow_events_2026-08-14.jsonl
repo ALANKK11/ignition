@@ -986,3 +986,18 @@
 {"ts": "2026-08-14T15:28:31.927899-04:00", "demo": 0, "ticker": "AGGY", "prev_state": "RUNNING", "state": "COOLING", "price": 42.725, "tp": 0.0, "note": "pace 0.0x off peak 2.1x"}
 {"ts": "2026-08-14T15:28:31.927899-04:00", "demo": 0, "ticker": "CCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.33, "tp": 5.59846347633429, "note": "sustained 5.6x"}
 {"ts": "2026-08-14T15:28:31.927899-04:00", "demo": 0, "ticker": "BFS", "prev_state": "RUNNING", "state": "COOLING", "price": 34.81, "tp": 0.5607338489796156, "note": "pace 0.6x off peak 7.0x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "BSCX", "prev_state": "CHURN", "state": "RUNNING", "price": 20.8, "tp": 68.19478136382473, "note": "sustained 68.2x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "COOLING", "state": "FADING", "price": 3.65, "tp": 1.577218891343394, "note": "pace 1.6x vs peak 4.7x \u00b7 -0.3% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "ACB", "prev_state": "COOLING", "state": "RUNNING", "price": 3.675, "tp": 2.118076149766455, "note": "sustained 2.1x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.42, "tp": 10.60211654472819, "note": "sustained 10.6x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "OMER", "prev_state": "COOLING", "state": "RUNNING", "price": 17.25, "tp": 1.8522664836987175, "note": "sustained 1.9x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "BUFD", "prev_state": "CHURN", "state": "RUNNING", "price": 30.31, "tp": 2.1295877949132684, "note": "sustained 2.1x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "CADL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.75, "tp": 2.3774326095473763, "note": "sustained 2.4x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "QMCO", "prev_state": "LEAVING", "state": "FADING", "price": 26.0, "tp": 1.1997075774106722, "note": "pace 1.2x vs peak 4.0x \u00b7 -6.1% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "IDR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 31.845, "tp": 1.9855954479803453, "note": "sustained 2.0x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "BUUU", "prev_state": "NEW MONEY", "state": "COOLING", "price": 30.0, "tp": 0.0, "note": "pace 0.0x off peak 13.8x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "FADING", "price": 2.335, "tp": 2.6171390837762827, "note": "pace 2.6x vs peak 8.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "MATW", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 23.22, "tp": 4.709660724482138, "note": "quiet open (0.2x) \u2192 now 4.7x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "BZAI", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.56, "tp": 21.084769776085302, "note": "sustained 21.1x"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "FADING", "state": "IGNITING", "price": 7.925, "tp": 16.097832424584873, "note": "pace 16.1x and accelerating (13.3x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-08-14T15:32:16.928443-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "LEAVING", "state": "CHURN", "price": 31.515, "tp": 8.366469054056353, "note": "8.4x participation, no progress at highs \u2014 absorption"}
