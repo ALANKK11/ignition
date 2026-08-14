@@ -333,3 +333,20 @@
 {"ts": "2026-08-14T11:37:17.388352-04:00", "demo": 0, "ticker": "BORR", "prev_state": "CHURN", "state": "RUNNING", "price": 4.42, "tp": 2.830629217032242, "note": "sustained 2.8x"}
 {"ts": "2026-08-14T11:37:17.388352-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "COOLING", "state": "CHURN", "price": 20.395, "tp": 12.22450012492019, "note": "12.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-14T11:37:17.388352-04:00", "demo": 0, "ticker": "BUFG", "prev_state": "FADING", "state": "RUNNING", "price": 30.03, "tp": 2.6831605737807482, "note": "sustained 2.7x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 23.4, "tp": 1.151412982410522, "note": "pace 1.2x off peak 3.2x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AYA", "prev_state": "QUIET", "state": "RUNNING", "price": 26.29, "tp": 1.8093385578535515, "note": "sustained 1.8x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "BORR", "prev_state": "RUNNING", "state": "CHURN", "price": 4.405, "tp": 2.6497527079652516, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "COOLING", "state": "QUIET", "price": 4.0, "tp": 1.7755928740541862, "note": ""}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.09, "tp": 1.6923013822758697, "note": "pace 1.7x off peak 10.7x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AMPY", "prev_state": "COOLING", "state": "RUNNING", "price": 4.565, "tp": 2.1766665785856962, "note": "sustained 2.2x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AGGY", "prev_state": "RUNNING", "state": "COOLING", "price": 42.76, "tp": 0.0, "note": "pace 0.0x off peak 2.1x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "LEAVING", "price": 6.39, "tp": 1.8108601279347056, "note": "pace 1.8x off peak 14.2x \u00b7 VWAP lost (was +10.2% above)"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "OMER", "prev_state": "LEAVING", "state": "FADING", "price": 17.375, "tp": 2.0115876657149254, "note": "pace 2.0x vs peak 6.8x \u00b7 -1.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "FADING", "state": "IGNITING", "price": 7.825, "tp": 11.685303399549165, "note": "pace 11.7x and accelerating (4.1x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "STRO", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 21.125, "tp": 4.647380201497209, "note": "pace 4.6x and accelerating (7.7x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.72, "tp": 0.08404059856697862, "note": "pace 0.1x off peak 19.0x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "NRDS", "prev_state": "COOLING", "state": "RUNNING", "price": 9.96, "tp": 1.9999629093263989, "note": "sustained 2.0x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "RUNNING", "state": "COOLING", "price": 22.395, "tp": 1.6214973359251272, "note": "pace 1.6x off peak 9.4x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "ARX", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.62, "tp": 4.101706326585197, "note": "sustained 4.1x"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "AVLN", "prev_state": "COOLING", "state": "FADING", "price": 36.78, "tp": 0.46214797458840406, "note": "pace 0.5x vs peak 8.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T11:40:17.388804-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "RUNNING", "state": "COOLING", "price": 31.88, "tp": 1.1731470987875152, "note": "pace 1.2x off peak 2.8x"}
