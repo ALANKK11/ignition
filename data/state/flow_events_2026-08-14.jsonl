@@ -128,3 +128,11 @@
 {"ts": "2026-08-14T10:32:02.375721-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "RUNNING", "state": "FADING", "price": 7.52, "tp": 2.6709880832825936, "note": "pace 2.7x vs peak 14.2x \u00b7 -7.5% off HOD \u00b7 chart still +78% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-14T10:32:02.375721-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.615, "tp": 4.742827632011978, "note": "sustained 4.7x"}
 {"ts": "2026-08-14T10:32:02.375721-04:00", "demo": 0, "ticker": "BYSI", "prev_state": "RUNNING", "state": "QUIET", "price": 0.8535, "tp": 1.7579368454284228, "note": ""}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "KE", "prev_state": "COOLING", "state": "FADING", "price": 26.72, "tp": 0.0, "note": "pace 0.0x vs peak 2.2x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.52, "tp": 2.723423361871746, "note": "sustained 2.7x"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "ARX", "prev_state": "CHURN", "state": "RUNNING", "price": 19.55, "tp": 7.61197236853366, "note": "sustained 7.6x"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "RUNNING", "state": "COOLING", "price": 32.69, "tp": 1.3814677495760521, "note": "pace 1.4x off peak 2.4x"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.65, "tp": 4.10588148885998, "note": "pace 4.1x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "CORP", "prev_state": "RUNNING", "state": "COOLING", "price": 95.205, "tp": 0.0, "note": "pace 0.0x off peak 9.0x"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "BIRK", "prev_state": "RUNNING", "state": "CHURN", "price": 39.98, "tp": 6.61226499406651, "note": "6.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T10:35:47.376322-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.67, "tp": 2.3882914059501235, "note": "sustained 2.4x"}
