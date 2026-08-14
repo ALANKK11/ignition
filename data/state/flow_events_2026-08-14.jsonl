@@ -947,3 +947,12 @@
 {"ts": "2026-08-14T15:17:16.925231-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "RUNNING", "state": "COOLING", "price": 48.08, "tp": 1.1620822112354439, "note": "pace 1.2x off peak 10.3x"}
 {"ts": "2026-08-14T15:17:16.925231-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.625, "tp": 2.1061339567618447, "note": "sustained 2.1x"}
 {"ts": "2026-08-14T15:17:16.925231-04:00", "demo": 0, "ticker": "AVL", "prev_state": "COOLING", "state": "RUNNING", "price": 45.49, "tp": 2.390522028710723, "note": "sustained 2.4x"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "MATW", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.18, "tp": 2.7768375627656487, "note": "sustained 2.8x"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "BSCX", "prev_state": "CHURN", "state": "RUNNING", "price": 20.8, "tp": 15.898945803428978, "note": "sustained 15.9x"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.485, "tp": 3.823248003505618, "note": "sustained 3.8x"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.9, "tp": 6.693786679732867, "note": "pace 6.7x and accelerating (1.6x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "ABEO", "prev_state": "COOLING", "state": "RUNNING", "price": 5.865, "tp": 1.8037153205174803, "note": "sustained 1.8x"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "FADING", "state": "CHURN", "price": 19.56, "tp": 27.698919585276627, "note": "27.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "BIL", "prev_state": "FADING", "state": "NEW MONEY", "price": 91.54, "tp": 4.0493954268397125, "note": "quiet open (0.8x) \u2192 now 4.0x \u00b7 taking +8.4% flow share"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "FADING", "state": "NEW MONEY", "price": 3.63, "tp": 2.164765964412654, "note": "quiet open (0.1x) \u2192 now 2.2x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-14T15:21:01.926380-04:00", "demo": 0, "ticker": "BFS", "prev_state": "COOLING", "state": "RUNNING", "price": 34.81, "tp": 1.8505737065915229, "note": "sustained 1.9x"}
