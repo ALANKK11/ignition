@@ -54,3 +54,7 @@
 {"ts": "2026-08-14T10:04:17.370069-04:00", "demo": 0, "ticker": "BRUN", "prev_state": "OPEN DRIVE", "state": "RUNNING", "price": 22.765, "tp": 5.099175791538921, "note": "sustained 5.1x"}
 {"ts": "2026-08-14T10:04:17.370069-04:00", "demo": 0, "ticker": "ETON", "prev_state": "OPEN DRIVE", "state": "FADING", "price": 56.43, "tp": 2.7681965380893785, "note": "pace 2.8x vs peak 15.4x \u00b7 -4.9% off HOD \u00b7 chart still +38% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-14T10:04:17.370069-04:00", "demo": 0, "ticker": "TR", "prev_state": "QUIET", "state": "COOLING", "price": 40.16, "tp": 0.0, "note": "pace 0.0x off peak 3.6x"}
+{"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "RUNNING", "state": "FADING", "price": 33.06, "tp": 0.605107091921295, "note": "pace 0.6x vs peak 2.3x \u00b7 -0.9% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "ETON", "prev_state": "FADING", "state": "LEAVING", "price": 55.74, "tp": 3.1733262149199124, "note": "pace 3.2x off peak 15.4x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "FLQL", "prev_state": "CHURN", "state": "COOLING", "price": 79.83, "tp": 0.0, "note": "pace 0.0x off peak 77.5x"}
+{"ts": "2026-08-14T10:07:17.370798-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.27, "tp": 8.695783731780232, "note": "sustained 8.7x"}
