@@ -6,3 +6,11 @@
 {"ts": "2026-08-14T09:01:17.343131-04:00", "demo": 0, "ticker": "CNTN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Canton Strategic Holdings, Inc. Releases Second Quarter 2026 Financial and Operational Results"}
 {"ts": "2026-08-14T09:02:02.343284-04:00", "demo": 0, "ticker": "ALLY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Driving the Next Generation Forward: Court Street Ford's Kenady Minley Recognized With 2026 Ally Sees Her Award"}
 {"ts": "2026-08-14T09:06:32.357585-04:00", "demo": 0, "ticker": "SNXX", "prev_state": null, "state": "PM IGNITION", "price": 16.24, "tp": null, "note": "+13% on $1.30M ext tape"}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.7, "tp": 1.058492282750719, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "CADL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.635, "tp": 2.58253728715525, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "LFTO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.625, "tp": 2.9107064914191874, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "LUNR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 19.35, "tp": 2.9729766554765877, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "OMER", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 16.86, "tp": 2.7212177539765205, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "PLGO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.69, "tp": 0.787259185074403, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "STRO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.05, "tp": 1.0318397125508814, "note": ""}
+{"ts": "2026-08-14T09:35:47.363991-04:00", "demo": 0, "ticker": "TR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 40.16, "tp": 0.875885349524041, "note": ""}
