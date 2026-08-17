@@ -10,3 +10,4 @@
 {"ts": "2026-08-17T08:40:24.069685-04:00", "demo": 0, "ticker": "OABI", "prev_state": null, "state": "PM IGNITION", "price": 3.98, "tp": null, "note": "+20% on $0.06M ext tape"}
 {"ts": "2026-08-17T08:49:24.071467-04:00", "demo": 0, "ticker": "IPST", "prev_state": null, "state": "PM IGNITION", "price": 7.64, "tp": null, "note": "+234% on $0.10M ext tape"}
 {"ts": "2026-08-17T08:49:24.071467-04:00", "demo": 0, "ticker": "IVF", "prev_state": null, "state": "PM IGNITION", "price": 2.55, "tp": null, "note": "+152% on $0.10M ext tape"}
+{"ts": "2026-08-17T08:53:54.059171-04:00", "demo": 0, "ticker": "UHS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Universal Health Services, Inc. Completes Acquisition of Talkspace, Inc."}
