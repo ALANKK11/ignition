@@ -177,3 +177,15 @@
 {"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "RUNNING", "state": "COOLING", "price": 32.775, "tp": 1.3097618414147605, "note": "pace 1.3x off peak 2.6x"}
 {"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 15.01, "tp": 4.314405567212327, "note": "quiet open (0.0x) \u2192 now 4.3x \u00b7 taking +0.5% flow share"}
 {"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CLM", "prev_state": "CHURN", "state": "RUNNING", "price": 6.935, "tp": 2.010223280247142, "note": "sustained 2.0x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "EROC", "prev_state": "RUNNING", "state": "LEAVING", "price": 17.0, "tp": 2.5193975907224373, "note": "pace 2.5x off peak 4.8x \u00b7 VWAP lost (was +2.3% above)"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "AVL", "prev_state": "QUIET", "state": "RUNNING", "price": 46.99, "tp": 2.166260330899547, "note": "sustained 2.2x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "BYND", "prev_state": "RUNNING", "state": "COOLING", "price": 12.015, "tp": 0.9021998301389593, "note": "pace 0.9x off peak 12.4x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "FTH", "prev_state": "NEW MONEY", "state": "FADING", "price": 35.44, "tp": 1.249297806196355, "note": "pace 1.2x vs peak 4.6x \u00b7 -0.0% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "CLM", "prev_state": "RUNNING", "state": "COOLING", "price": 6.96, "tp": 0.9653873770202099, "note": "pace 1.0x off peak 3.4x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.605, "tp": 4.75183427971461, "note": "pace 4.8x and accelerating (3.2x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "COOLING", "price": 2.29, "tp": 1.7954800947837444, "note": "pace 1.8x off peak 8.1x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "RLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.87, "tp": 3.2845911883984678, "note": "sustained 3.3x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 6.13, "tp": 0.5862909582320429, "note": "pace 0.6x off peak 30.1x"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "AVUS", "prev_state": "COOLING", "state": "QUIET", "price": 132.4, "tp": 1.7680415340779836, "note": ""}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "ISSC", "prev_state": "FADING", "state": "LEAVING", "price": 24.045, "tp": 0.6570627859209817, "note": "pace 0.7x off peak 3.6x \u00b7 VWAP lost (was +3.6% above)"}
+{"ts": "2026-08-17T10:47:54.095694-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "CHURN", "price": 111.39, "tp": 3.4649348803576707, "note": "3.5x participation, no progress at highs \u2014 absorption"}
