@@ -250,3 +250,11 @@
 {"ts": "2026-08-17T11:02:54.098698-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 9.9, "tp": 2.985111644982466, "note": "quiet open (1.1x) \u2192 now 3.0x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-08-17T11:02:54.098698-04:00", "demo": 0, "ticker": "ARLP", "prev_state": "RUNNING", "state": "COOLING", "price": 25.78, "tp": 0.9776966357744867, "note": "pace 1.0x off peak 1.8x"}
 {"ts": "2026-08-17T11:02:54.098698-04:00", "demo": 0, "ticker": "EROC", "prev_state": "LEAVING", "state": "FADING", "price": 17.25, "tp": 1.0534362892894258, "note": "pace 1.1x vs peak 4.8x \u00b7 -0.9% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "CHURN", "state": "RUNNING", "price": 31.93, "tp": 2.1352329437756574, "note": "sustained 2.1x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 25.325, "tp": 0.2179685280930709, "note": "pace 0.2x off peak 2.7x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "ISSC", "prev_state": "LEAVING", "state": "FADING", "price": 23.865, "tp": 0.453100736384723, "note": "pace 0.5x vs peak 3.6x \u00b7 -4.3% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "COOLING", "state": "RUNNING", "price": 23.9, "tp": 1.8685207101935657, "note": "sustained 1.9x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "QUIET", "state": "RUNNING", "price": 21.87, "tp": 1.9263301045803423, "note": "sustained 1.9x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "BIT", "prev_state": "RUNNING", "state": "COOLING", "price": 12.12, "tp": 1.612331731192467, "note": "pace 1.6x off peak 9.7x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "CHURN", "state": "RUNNING", "price": 111.3, "tp": 2.3896398784086523, "note": "sustained 2.4x"}
+{"ts": "2026-08-17T11:05:54.099288-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 9.84, "tp": 2.8126714596591897, "note": "pace 2.8x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
