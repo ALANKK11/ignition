@@ -378,3 +378,13 @@
 {"ts": "2026-08-17T11:41:54.106824-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "CHURN", "price": 6.615, "tp": 3.066337630934166, "note": "3.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-17T11:41:54.106824-04:00", "demo": 0, "ticker": "BIT", "prev_state": "COOLING", "state": "CHURN", "price": 12.12, "tp": 2.322286565720888, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-17T11:41:54.106824-04:00", "demo": 0, "ticker": "IEP", "prev_state": "IGNITING", "state": "COOLING", "price": 6.965, "tp": 1.7845899012924045, "note": "pace 1.8x off peak 30.1x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "CRF", "prev_state": "CHURN", "state": "RUNNING", "price": 6.615, "tp": 3.0461762659107445, "note": "sustained 3.0x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "ALH", "prev_state": "COOLING", "state": "RUNNING", "price": 24.75, "tp": 2.4203761377804005, "note": "sustained 2.4x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "UMAC", "prev_state": "LEAVING", "state": "RUNNING", "price": 31.745, "tp": 3.381066240863355, "note": "sustained 3.4x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "CTEV", "prev_state": "COOLING", "state": "NEW MONEY", "price": 36.48, "tp": 2.0881591040965306, "note": "quiet open (0.2x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.01, "tp": 35.93820939188682, "note": "sustained 35.9x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "CHURN", "state": "RUNNING", "price": 111.19, "tp": 3.554706699069428, "note": "sustained 3.6x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "BLX", "prev_state": "QUIET", "state": "RUNNING", "price": 54.8, "tp": 1.8796543428861858, "note": "sustained 1.9x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "RUNNING", "state": "COOLING", "price": 51.675, "tp": 1.443595552336535, "note": "pace 1.4x off peak 3.6x"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "AMR", "prev_state": "CHURN", "state": "IGNITING", "price": 167.765, "tp": 25.09603181666711, "note": "pace 25.1x and accelerating (2.8x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-17T11:44:54.107323-04:00", "demo": 0, "ticker": "BYND", "prev_state": "RUNNING", "state": "COOLING", "price": 12.14, "tp": 0.8978147454602348, "note": "pace 0.9x off peak 12.4x"}
