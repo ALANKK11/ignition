@@ -37,3 +37,7 @@
 {"ts": "2026-08-17T09:53:54.084860-04:00", "demo": 0, "ticker": "CCO", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 2.33, "tp": 4.061880590440606, "note": "4.1x tape out of the gate"}
 {"ts": "2026-08-17T09:53:54.084860-04:00", "demo": 0, "ticker": "MRVU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 121.61, "tp": 0.5861342523712599, "note": ""}
 {"ts": "2026-08-17T09:53:54.084860-04:00", "demo": 0, "ticker": "HIVE", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.955, "tp": 2.8158918447707624, "note": ""}
+{"ts": "2026-08-17T09:59:54.085962-04:00", "demo": 0, "ticker": "BYND", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 12.115, "tp": 3.9037029534986947, "note": "3.9x tape out of the gate"}
+{"ts": "2026-08-17T09:59:54.085962-04:00", "demo": 0, "ticker": "FTK", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 31.35, "tp": 2.8969316519297292, "note": ""}
+{"ts": "2026-08-17T09:59:54.085962-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 32.32, "tp": 3.2972167115612243, "note": "3.3x tape out of the gate"}
+{"ts": "2026-08-17T09:59:54.085962-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 21.63, "tp": 2.16766744069936, "note": ""}
