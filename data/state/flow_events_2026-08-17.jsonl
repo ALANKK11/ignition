@@ -628,3 +628,9 @@
 {"ts": "2026-08-17T13:13:49.384509-04:00", "demo": 0, "ticker": "CCO", "prev_state": "CHURN", "state": "COOLING", "price": 2.315, "tp": 0.1887924891515639, "note": "pace 0.2x off peak 12.2x"}
 {"ts": "2026-08-17T13:13:49.384509-04:00", "demo": 0, "ticker": "CMPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 90.995, "tp": 5.318283738159981, "note": "sustained 5.3x"}
 {"ts": "2026-08-17T13:13:49.384509-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "COOLING", "price": 24.94, "tp": 0.9228471228296518, "note": "pace 0.9x off peak 9.0x"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "ADV", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 30.425, "tp": 6.334078508801328, "note": "pace 6.3x and accelerating (126.7x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "AIPI", "prev_state": "COOLING", "state": "RUNNING", "price": 37.44, "tp": 2.2850702647388053, "note": "sustained 2.3x"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "CLM", "prev_state": "RUNNING", "state": "CHURN", "price": 6.92, "tp": 2.47702142971512, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "NEW MONEY", "state": "FADING", "price": 19.41, "tp": 1.2298572197272668, "note": "pace 1.2x vs peak 5.5x \u00b7 -1.5% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "FADING", "state": "IGNITING", "price": 9.98, "tp": 8.09924658388546, "note": "pace 8.1x and accelerating (1.8x vs prior window) \u00b7 +2.3% in window"}
+{"ts": "2026-08-17T13:16:49.381644-04:00", "demo": 0, "ticker": "STRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.77, "tp": 2.655345538724823, "note": "sustained 2.7x"}
