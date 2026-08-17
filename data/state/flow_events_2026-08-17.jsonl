@@ -235,3 +235,5 @@
 {"ts": "2026-08-17T10:59:54.098234-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "COOLING", "state": "IGNITING", "price": 2.49, "tp": 4.402146750683955, "note": "pace 4.4x and accelerating (2.3x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-08-17T10:59:54.098234-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 9.87, "tp": 3.01493932404235, "note": "pace 3.0x and accelerating (2.8x vs prior window) \u00b7 -1.5% in window"}
 {"ts": "2026-08-17T10:59:54.098234-04:00", "demo": 0, "ticker": "ARGX", "prev_state": "CHURN", "state": "RUNNING", "price": 989.42, "tp": 3.5671005871326766, "note": "sustained 3.6x"}
+{"ts": "2026-08-17T11:02:09.084250-04:00", "demo": 0, "ticker": "CNS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cohen &amp; Steers and DLC Acquire Royal Plaza Grocery Shopping Center in Front Royal, Virginia"}
+{"ts": "2026-08-17T11:02:09.084250-04:00", "demo": 0, "ticker": "SYF", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Synchrony Announces Enterprise Collaboration with OpenAI to Power the Next Era of Agentic Commerce"}
