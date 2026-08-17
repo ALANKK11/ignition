@@ -15,3 +15,10 @@
 {"ts": "2026-08-17T09:13:24.076290-04:00", "demo": 0, "ticker": "TRUG", "prev_state": null, "state": "PM IGNITION", "price": 1.72, "tp": null, "note": "+66% on $0.12M ext tape"}
 {"ts": "2026-08-17T09:23:54.064991-04:00", "demo": 0, "ticker": "MYND", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "MYND.AI, INC. RECEIVES NYSE AMERICAN APPROVAL OF COMPLIANCE PLAN AND EXTENSION THROUGH DECEMBER 2027"}
 {"ts": "2026-08-17T09:28:24.079122-04:00", "demo": 0, "ticker": "EYPT", "prev_state": null, "state": "PM IGNITION", "price": 4.18, "tp": null, "note": "-69% on $0.05M ext tape"}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "ISSC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 24.6, "tp": 1.3942802836497077, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "UMAC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 31.835, "tp": 2.8427045803656905, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "MANU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 23.825, "tp": 1.079309055541018, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "YSWY", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.05, "tp": 1.7868033442654405, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.19, "tp": 2.7927800025218574, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "BYND", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.56, "tp": 2.417603739211146, "note": ""}
+{"ts": "2026-08-17T09:35:54.081277-04:00", "demo": 0, "ticker": "RLX", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 1.885, "tp": 3.8413647533097564, "note": "3.8x tape out of the gate"}
