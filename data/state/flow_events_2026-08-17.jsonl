@@ -291,3 +291,9 @@
 {"ts": "2026-08-17T11:14:54.101191-04:00", "demo": 0, "ticker": "RLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.83, "tp": 4.1086370527456655, "note": "sustained 4.1x"}
 {"ts": "2026-08-17T11:14:54.101191-04:00", "demo": 0, "ticker": "AVL", "prev_state": "RUNNING", "state": "IGNITING", "price": 46.42, "tp": 3.6849620253238053, "note": "pace 3.7x and accelerating (1.6x vs prior window) \u00b7 -1.3% in window"}
 {"ts": "2026-08-17T11:14:54.101191-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "RUNNING", "state": "COOLING", "price": 2.51, "tp": 1.2591543828497893, "note": "pace 1.3x off peak 4.4x"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "ARGX", "prev_state": "RUNNING", "state": "COOLING", "price": 997.52, "tp": 1.5966733669582722, "note": "pace 1.6x off peak 4.1x"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.64, "tp": 12.072538614147096, "note": "pace 12.1x and accelerating (2.1x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "EROC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 17.065, "tp": 1.952176422153643, "note": "sustained 2.0x"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "CLM", "prev_state": "RUNNING", "state": "CHURN", "price": 6.9, "tp": 7.951778014410431, "note": "8.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.345, "tp": 7.017873783171159, "note": "sustained 7.0x"}
+{"ts": "2026-08-17T11:17:54.101938-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "COOLING", "state": "RUNNING", "price": 25.32, "tp": 1.8667890512477343, "note": "sustained 1.9x"}
