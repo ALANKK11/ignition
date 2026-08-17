@@ -429,3 +429,12 @@
 {"ts": "2026-08-17T11:56:54.110139-04:00", "demo": 0, "ticker": "EROC", "prev_state": "LEAVING", "state": "FADING", "price": 17.13, "tp": 1.5291739568184541, "note": "pace 1.5x vs peak 4.8x \u00b7 -1.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-17T11:56:54.110139-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "COOLING", "state": "RUNNING", "price": 9.66, "tp": 2.427727330388276, "note": "sustained 2.4x"}
 {"ts": "2026-08-17T11:56:54.110139-04:00", "demo": 0, "ticker": "BYND", "prev_state": "COOLING", "state": "IGNITING", "price": 12.09, "tp": 3.834243598132033, "note": "pace 3.8x and accelerating (2.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "FADING", "state": "IGNITING", "price": 33.8, "tp": 6.041380176725385, "note": "pace 6.0x and accelerating (21.3x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "RUNNING", "state": "QUIET", "price": 26.34, "tp": 1.4639585286937733, "note": ""}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "CRAK", "prev_state": "FADING", "state": "RUNNING", "price": 59.915, "tp": 2.7265775611905987, "note": "sustained 2.7x"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.72, "tp": 1.9864202330398442, "note": "sustained 2.0x"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "FADING", "state": "RUNNING", "price": 15.07, "tp": 4.108761903391221, "note": "sustained 4.1x"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "FTH", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 34.15, "tp": 13.20618284714829, "note": "quiet open (0.3x) \u2192 now 13.2x \u00b7 taking +3.1% flow share"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.16, "tp": 4.4678788552243764, "note": "sustained 4.5x"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "RUNNING", "state": "COOLING", "price": 6.33, "tp": 1.1221545326453481, "note": "pace 1.1x off peak 30.1x"}
+{"ts": "2026-08-17T11:59:54.110568-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.77, "tp": 5.516703918995706, "note": "5.5x participation, no progress at highs \u2014 absorption"}
