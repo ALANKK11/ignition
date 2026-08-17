@@ -200,3 +200,13 @@
 {"ts": "2026-08-17T10:50:54.096392-04:00", "demo": 0, "ticker": "CCO", "prev_state": "COOLING", "state": "RUNNING", "price": 2.295, "tp": 6.915051835850696, "note": "sustained 6.9x"}
 {"ts": "2026-08-17T10:50:54.096392-04:00", "demo": 0, "ticker": "FTH", "prev_state": "FADING", "state": "NEW MONEY", "price": 35.135, "tp": 2.7510746777638726, "note": "quiet open (0.3x) \u2192 now 2.8x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-17T10:50:54.096392-04:00", "demo": 0, "ticker": "YSWY", "prev_state": "FADING", "state": "LEAVING", "price": 25.105, "tp": 0.09701034751091335, "note": "pace 0.1x off peak 4.0x \u00b7 VWAP lost (was +2.3% above)"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.515, "tp": 2.096174635176354, "note": "sustained 2.1x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 15.01, "tp": 2.3499590150535603, "note": "sustained 2.3x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "CYD", "prev_state": "QUIET", "state": "NEW MONEY", "price": 46.17, "tp": 2.4202069906777095, "note": "quiet open (0.2x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "CRF", "prev_state": "CHURN", "state": "RUNNING", "price": 6.62, "tp": 2.638950183945335, "note": "sustained 2.6x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "COOLING", "state": "RUNNING", "price": 6.2, "tp": 1.997345513602681, "note": "sustained 2.0x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "RLX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.865, "tp": 1.0625406293733026, "note": "pace 1.1x off peak 5.4x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 25.325, "tp": 2.2979708074109744, "note": "quiet open (0.6x) \u2192 now 2.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "ARGX", "prev_state": "IGNITING", "state": "CHURN", "price": 989.52, "tp": 3.3294130695116615, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "COOLING", "state": "RUNNING", "price": 31.97, "tp": 7.931853274078147, "note": "sustained 7.9x"}
+{"ts": "2026-08-17T10:53:54.097041-04:00", "demo": 0, "ticker": "AVUS", "prev_state": "QUIET", "state": "NEW MONEY", "price": 132.44, "tp": 2.4900330028416846, "note": "quiet open (0.9x) \u2192 now 2.5x \u00b7 taking +0.7% flow share"}
