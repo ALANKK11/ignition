@@ -28,3 +28,5 @@
 {"ts": "2026-08-17T09:38:54.081895-04:00", "demo": 0, "ticker": "CCO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.335, "tp": 2.1242285145529483, "note": ""}
 {"ts": "2026-08-17T09:41:54.082660-04:00", "demo": 0, "ticker": "RLX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.875, "tp": 2.955856502801066, "note": ""}
 {"ts": "2026-08-17T09:41:54.082660-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 22.45, "tp": 2.2642968201335654, "note": ""}
+{"ts": "2026-08-17T09:44:54.083250-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 21.8, "tp": 4.915876460181666, "note": "4.9x tape out of the gate"}
+{"ts": "2026-08-17T09:44:54.083250-04:00", "demo": 0, "ticker": "RLX", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 1.885, "tp": 3.6308436318420774, "note": "3.6x tape out of the gate"}
