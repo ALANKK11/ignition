@@ -32,3 +32,4 @@
 {"ts": "2026-08-17T09:44:54.083250-04:00", "demo": 0, "ticker": "RLX", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 1.885, "tp": 3.6308436318420774, "note": "3.6x tape out of the gate"}
 {"ts": "2026-08-17T09:47:54.083869-04:00", "demo": 0, "ticker": "IEP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.985, "tp": 2.084336012203745, "note": ""}
 {"ts": "2026-08-17T09:47:54.083869-04:00", "demo": 0, "ticker": "SNXX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 18.345, "tp": 2.6959284052996892, "note": ""}
+{"ts": "2026-08-17T09:50:54.084356-04:00", "demo": 0, "ticker": "ENVX", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 3.79, "tp": 3.0186117274308066, "note": "3.0x tape out of the gate"}
