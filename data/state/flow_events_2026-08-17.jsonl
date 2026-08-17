@@ -167,3 +167,13 @@
 {"ts": "2026-08-17T10:41:54.094464-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "CHURN", "price": 3.975, "tp": 20.370855761126595, "note": "20.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-17T10:41:54.094464-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "RUNNING", "state": "QUIET", "price": 10.905, "tp": 1.755664342485526, "note": ""}
 {"ts": "2026-08-17T10:41:54.094464-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "FADING", "state": "IGNITING", "price": 15.01, "tp": 4.012263182616424, "note": "pace 4.0x and accelerating (4.0x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "QUIET", "state": "RUNNING", "price": 2.48, "tp": 1.8737384033468971, "note": "sustained 1.9x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.99, "tp": 0.0, "note": "pace 0.0x off peak 13.3x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "CHURN", "state": "RUNNING", "price": 3.98, "tp": 19.15140713163273, "note": "sustained 19.2x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.53, "tp": 1.3180337949006198, "note": "pace 1.3x off peak 4.1x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "QUIET", "state": "COOLING", "price": 10.905, "tp": 1.6189442633757898, "note": "pace 1.6x off peak 2.3x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "EROC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 17.11, "tp": 2.3445679385735443, "note": "sustained 2.3x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "PDYN", "prev_state": "QUIET", "state": "NEW MONEY", "price": 6.515, "tp": 2.5059635666468973, "note": "quiet open (0.4x) \u2192 now 2.5x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "RUNNING", "state": "COOLING", "price": 32.775, "tp": 1.3097618414147605, "note": "pace 1.3x off peak 2.6x"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 15.01, "tp": 4.314405567212327, "note": "quiet open (0.0x) \u2192 now 4.3x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-17T10:44:54.095084-04:00", "demo": 0, "ticker": "CLM", "prev_state": "CHURN", "state": "RUNNING", "price": 6.935, "tp": 2.010223280247142, "note": "sustained 2.0x"}
