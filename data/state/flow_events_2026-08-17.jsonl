@@ -80,3 +80,5 @@
 {"ts": "2026-08-17T10:05:54.087279-04:00", "demo": 0, "ticker": "CBRS", "prev_state": "RUNNING", "state": "FADING", "price": 251.125, "tp": 2.364046091810849, "note": "pace 2.4x vs peak 9.6x \u00b7 -0.9% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-17T10:05:54.087279-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "FADING", "state": "LEAVING", "price": 10.0, "tp": 0.18986367397624357, "note": "pace 0.2x off peak 15.4x \u00b7 VWAP lost (was +4.7% above)"}
 {"ts": "2026-08-17T10:05:54.087279-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "CHURN", "price": 6.99, "tp": 2.885395098834017, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-17T10:08:54.087746-04:00", "demo": 0, "ticker": "AVUS", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 132.47, "tp": 2.057027870893355, "note": "quiet open (0.9x) \u2192 now 2.1x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-17T10:08:54.087746-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "QUIET", "state": "RUNNING", "price": 14.74, "tp": 1.8335400657091854, "note": "sustained 1.8x"}
