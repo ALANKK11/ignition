@@ -307,3 +307,13 @@
 {"ts": "2026-08-17T11:20:54.102458-04:00", "demo": 0, "ticker": "ARGX", "prev_state": "COOLING", "state": "RUNNING", "price": 996.83, "tp": 2.3708550889915556, "note": "sustained 2.4x"}
 {"ts": "2026-08-17T11:20:54.102458-04:00", "demo": 0, "ticker": "CLM", "prev_state": "CHURN", "state": "RUNNING", "price": 6.92, "tp": 4.628926336786309, "note": "sustained 4.6x"}
 {"ts": "2026-08-17T11:20:54.102458-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "COOLING", "price": 2.31, "tp": 1.0011000503188168, "note": "pace 1.0x off peak 8.1x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "IBDY", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 25.32, "tp": 2.146380242953826, "note": "quiet open (0.6x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "FIVA", "prev_state": "NEW MONEY", "state": "FADING", "price": 40.325, "tp": 0.5714928765204914, "note": "pace 0.6x vs peak 9.2x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "AVUS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 132.45, "tp": 0.0, "note": "pace 0.0x off peak 2.6x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "CHPS", "prev_state": "IGNITING", "state": "FADING", "price": 89.97, "tp": 0.0, "note": "pace 0.0x vs peak 8.9x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "LEAVING", "state": "FADING", "price": 14.845, "tp": 1.3568112405961696, "note": "pace 1.4x vs peak 4.3x \u00b7 -1.2% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "EROC", "prev_state": "CHURN", "state": "RUNNING", "price": 17.095, "tp": 1.9910393967490003, "note": "sustained 2.0x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "BIL", "prev_state": "QUIET", "state": "RUNNING", "price": 91.54, "tp": 1.8292531298164343, "note": "sustained 1.8x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 6.995, "tp": 1.8409472232685868, "note": "sustained 1.8x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "CTEV", "prev_state": "NEW MONEY", "state": "COOLING", "price": 36.385, "tp": 1.4069365826927924, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-08-17T11:23:54.103431-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 50.0, "tp": 0.0, "note": "pace 0.0x off peak 32.6x"}
