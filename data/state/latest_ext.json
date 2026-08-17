@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-17T16:24:30-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-17T16:58:53-04:00", "session": "post", "rows": [{"ticker": "WETO", "last": 41.54, "gap": 0.3774, "dollars": 146197.31, "vs_adv": 0.02, "new": true}, {"ticker": "AUUD", "last": 1.15, "gap": 0.2297, "dollars": 51697.869999999995, "vs_adv": 0.53, "new": true}]}
