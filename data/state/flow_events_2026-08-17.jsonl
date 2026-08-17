@@ -139,3 +139,7 @@
 {"ts": "2026-08-17T10:32:54.092553-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "NEW MONEY", "state": "COOLING", "price": 23.96, "tp": 0.28243363112971154, "note": "pace 0.3x off peak 5.4x"}
 {"ts": "2026-08-17T10:32:54.092553-04:00", "demo": 0, "ticker": "CLM", "prev_state": "QUIET", "state": "RUNNING", "price": 6.915, "tp": 3.3689127392394953, "note": "sustained 3.4x"}
 {"ts": "2026-08-17T10:32:54.092553-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "LEAVING", "state": "FADING", "price": 10.01, "tp": 1.917596716726374, "note": "pace 1.9x vs peak 15.4x \u00b7 -8.1% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T10:35:54.093297-04:00", "demo": 0, "ticker": "CCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.275, "tp": 6.317670115961124, "note": "sustained 6.3x"}
+{"ts": "2026-08-17T10:35:54.093297-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.53, "tp": 2.4416296356932086, "note": "sustained 2.4x"}
+{"ts": "2026-08-17T10:35:54.093297-04:00", "demo": 0, "ticker": "CSHI", "prev_state": "COOLING", "state": "NEW MONEY", "price": 49.68, "tp": 8.219246061322014, "note": "quiet open (0.4x) \u2192 now 8.2x \u00b7 taking +1.5% flow share"}
+{"ts": "2026-08-17T10:35:54.093297-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "FADING", "state": "IGNITING", "price": 3.97, "tp": 16.13309334205808, "note": "pace 16.1x and accelerating (2.0x vs prior window) \u00b7 -0.5% in window"}
