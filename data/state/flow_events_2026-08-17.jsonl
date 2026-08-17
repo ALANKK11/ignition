@@ -599,3 +599,10 @@
 {"ts": "2026-08-17T12:47:54.120399-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "NEW MONEY", "state": "FADING", "price": 33.86, "tp": 2.8366081561377525, "note": "pace 2.8x vs peak 10.6x \u00b7 -0.2% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-17T12:47:54.120399-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "COOLING", "price": 2.315, "tp": 0.5217546083024426, "note": "pace 0.5x off peak 12.2x"}
 {"ts": "2026-08-17T12:47:54.120399-04:00", "demo": 0, "ticker": "CHPS", "prev_state": "RUNNING", "state": "FADING", "price": 89.675, "tp": 0.0, "note": "pace 0.0x vs peak 17.8x \u00b7 -0.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "CABA", "prev_state": "FADING", "state": "LEAVING", "price": 2.9, "tp": 0.9672793407010922, "note": "pace 1.0x off peak 28.5x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "AOM", "prev_state": "COOLING", "state": "RUNNING", "price": 49.98, "tp": 20.73499822557892, "note": "sustained 20.7x"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "CLM", "prev_state": "COOLING", "state": "RUNNING", "price": 6.92, "tp": 2.7499673652543075, "note": "sustained 2.7x"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "BSV", "prev_state": "FADING", "state": "COOLING", "price": 77.64, "tp": 0.3080583666084013, "note": "pace 0.3x off peak 9.0x"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "AGRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.4299, "tp": 77.60482286281523, "note": "sustained 77.6x"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.48, "tp": 2.9508502665883354, "note": "sustained 3.0x"}
+{"ts": "2026-08-17T12:50:54.120803-04:00", "demo": 0, "ticker": "BSCX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 20.77, "tp": 7.075784062710591, "note": "quiet open (0.2x) \u2192 now 7.1x \u00b7 taking +0.5% flow share"}
