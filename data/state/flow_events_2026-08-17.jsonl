@@ -551,3 +551,10 @@
 {"ts": "2026-08-17T12:29:54.116746-04:00", "demo": 0, "ticker": "RLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.84, "tp": 18.158457658658804, "note": "sustained 18.2x"}
 {"ts": "2026-08-17T12:29:54.116746-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "FADING", "state": "CHURN", "price": 33.87, "tp": 3.890068921742931, "note": "3.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-17T12:29:54.116746-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "COOLING", "price": 24.86, "tp": 1.697967380346843, "note": "pace 1.7x off peak 9.0x"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "FADING", "state": "COOLING", "price": 15.33, "tp": 0.4367525301950978, "note": "pace 0.4x off peak 14.1x"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "CCO", "prev_state": "COOLING", "state": "RUNNING", "price": 2.315, "tp": 3.0777657368672804, "note": "sustained 3.1x"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "CHURN", "state": "FADING", "price": 33.87, "tp": 3.4031856774928166, "note": "pace 3.4x vs peak 10.6x \u00b7 -0.1% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "RLX", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.84, "tp": 18.684591177086705, "note": "pace 18.7x and accelerating (3.6x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "RUNNING", "state": "COOLING", "price": 28.28, "tp": 1.7464860147560055, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "CCXI", "prev_state": "FADING", "state": "LEAVING", "price": 18.015, "tp": 3.0516966662161518, "note": "pace 3.1x off peak 11.9x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "ASIX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 16.415, "tp": 1.1345400631113138, "note": "pace 1.1x off peak 2.6x"}
