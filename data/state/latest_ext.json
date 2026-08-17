@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-17T08:43:24-04:00", "session": "pre", "rows": [{"ticker": "UCL", "last": 0.918, "gap": 0.5756, "dollars": 771541.6165, "vs_adv": 9439.57, "new": false}, {"ticker": "OABI", "last": 3.96, "gap": 0.1984, "dollars": 70366.03000000001, "vs_adv": 0.4, "new": false}]}
+{"v": 4, "ts": "2026-08-17T08:46:24-04:00", "session": "pre", "rows": [{"ticker": "UCL", "last": 0.918, "gap": 0.5756, "dollars": 771541.6165, "vs_adv": 9439.57, "new": false}, {"ticker": "OABI", "last": 3.98, "gap": 0.197, "dollars": 75390.46000000002, "vs_adv": 0.43, "new": false}]}
