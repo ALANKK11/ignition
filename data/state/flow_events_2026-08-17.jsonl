@@ -558,3 +558,10 @@
 {"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "RUNNING", "state": "COOLING", "price": 28.28, "tp": 1.7464860147560055, "note": "pace 1.7x off peak 2.8x"}
 {"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "CCXI", "prev_state": "FADING", "state": "LEAVING", "price": 18.015, "tp": 3.0516966662161518, "note": "pace 3.1x off peak 11.9x \u00b7 VWAP lost (was +1.9% above)"}
 {"ts": "2026-08-17T12:32:54.117330-04:00", "demo": 0, "ticker": "ASIX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 16.415, "tp": 1.1345400631113138, "note": "pace 1.1x off peak 2.6x"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "BZAI", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.44, "tp": 3.438636902148572, "note": "pace 3.4x and accelerating (5.0x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.97, "tp": 14.456909367816824, "note": "sustained 14.5x"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "FADING", "state": "LEAVING", "price": 14.84, "tp": 0.17182246015452632, "note": "pace 0.2x off peak 5.0x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "CHPS", "prev_state": "FADING", "state": "RUNNING", "price": 89.675, "tp": 16.963913150974378, "note": "sustained 17.0x"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "FADING", "state": "RUNNING", "price": 33.77, "tp": 8.941483773064414, "note": "sustained 8.9x"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "BSCX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.78, "tp": 1.3283446072467597, "note": "pace 1.3x off peak 11.8x"}
+{"ts": "2026-08-17T12:35:54.118059-04:00", "demo": 0, "ticker": "CLM", "prev_state": "CHURN", "state": "COOLING", "price": 6.925, "tp": 0.6500516306464602, "note": "pace 0.7x off peak 16.2x"}
