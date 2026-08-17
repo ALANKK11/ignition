@@ -398,3 +398,13 @@
 {"ts": "2026-08-17T11:47:54.108061-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "COOLING", "state": "IGNITING", "price": 31.34, "tp": 4.17844190000424, "note": "pace 4.2x and accelerating (2.8x vs prior window) \u00b7 -1.7% in window"}
 {"ts": "2026-08-17T11:47:54.108061-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.03, "tp": 2.181885089391161, "note": "sustained 2.2x"}
 {"ts": "2026-08-17T11:47:54.108061-04:00", "demo": 0, "ticker": "AVUS", "prev_state": "COOLING", "state": "NEW MONEY", "price": 132.345, "tp": 3.402553659229668, "note": "quiet open (0.9x) \u2192 now 3.4x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "COOLING", "price": 6.64, "tp": 1.6080577025735483, "note": "pace 1.6x off peak 15.1x"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "FTH", "prev_state": "FADING", "state": "IGNITING", "price": 33.86, "tp": 9.75683216134738, "note": "pace 9.8x and accelerating (45.9x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.435, "tp": 2.0592653064660955, "note": "sustained 2.1x"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "AMR", "prev_state": "IGNITING", "state": "FADING", "price": 167.765, "tp": 0.0, "note": "pace 0.0x vs peak 27.0x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "RUNNING", "state": "IGNITING", "price": 23.735, "tp": 3.3416091924373013, "note": "pace 3.3x and accelerating (1.6x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "AGPU", "prev_state": "QUIET", "state": "RUNNING", "price": 9.92, "tp": 2.4864452616292465, "note": "sustained 2.5x"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "BIT", "prev_state": "CHURN", "state": "RUNNING", "price": 12.12, "tp": 2.348730536104618, "note": "sustained 2.3x"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "ADV", "prev_state": "QUIET", "state": "IGNITING", "price": 31.29, "tp": 5.387506751258449, "note": "pace 5.4x and accelerating (107.8x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.34, "tp": 2.833058434451876, "note": "sustained 2.8x"}
+{"ts": "2026-08-17T11:50:54.108507-04:00", "demo": 0, "ticker": "CNXN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 78.055, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
