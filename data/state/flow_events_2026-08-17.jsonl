@@ -120,3 +120,10 @@
 {"ts": "2026-08-17T10:23:54.090816-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.545, "tp": 8.78227530296022, "note": "sustained 8.8x"}
 {"ts": "2026-08-17T10:23:54.090816-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.625, "tp": 12.333720489237374, "note": "pace 12.3x and accelerating (1.7x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-08-17T10:23:54.090816-04:00", "demo": 0, "ticker": "FEGE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 52.295, "tp": 3.2588518971709775, "note": "quiet open (0.1x) \u2192 now 3.3x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "CSHI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 49.69, "tp": 0.0, "note": "pace 0.0x off peak 4.5x"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "EROC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 17.1, "tp": 2.4448333492313594, "note": "quiet open (0.7x) \u2192 now 2.4x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "BEDY", "prev_state": "RUNNING", "state": "COOLING", "price": 30.235, "tp": 0.0, "note": "pace 0.0x off peak 5.2x"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "CRF", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.625, "tp": 8.750561972580556, "note": "sustained 8.8x"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "COOLING", "state": "FADING", "price": 14.9, "tp": 0.9992188062033696, "note": "pace 1.0x vs peak 3.3x \u00b7 -0.1% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "FADING", "state": "COOLING", "price": 32.505, "tp": 1.739297221684694, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-08-17T10:26:54.091477-04:00", "demo": 0, "ticker": "CCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.285, "tp": 5.839120326945755, "note": "sustained 5.8x"}
