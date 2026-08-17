@@ -361,3 +361,15 @@
 {"ts": "2026-08-17T11:35:54.105731-04:00", "demo": 0, "ticker": "ARGX", "prev_state": "RUNNING", "state": "COOLING", "price": 991.39, "tp": 1.6292450477979126, "note": "pace 1.6x off peak 4.1x"}
 {"ts": "2026-08-17T11:35:54.105731-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "COOLING", "state": "RUNNING", "price": 31.13, "tp": 1.8634009290066584, "note": "sustained 1.9x"}
 {"ts": "2026-08-17T11:35:54.105731-04:00", "demo": 0, "ticker": "ANRO", "prev_state": "NEW MONEY", "state": "FADING", "price": 33.42, "tp": 3.3174113331433657, "note": "pace 3.3x vs peak 10.6x \u00b7 +0.0% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "CCO", "prev_state": "COOLING", "state": "RUNNING", "price": 2.315, "tp": 7.50554650458762, "note": "sustained 7.5x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "RUNNING", "state": "COOLING", "price": 31.13, "tp": 1.427021916352899, "note": "pace 1.4x off peak 10.6x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "BZAI", "prev_state": "RUNNING", "state": "COOLING", "price": 0.4453, "tp": 1.4006722157091924, "note": "pace 1.4x off peak 12.3x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "RUNNING", "state": "COOLING", "price": 2.5, "tp": 1.6633262099439068, "note": "pace 1.7x off peak 4.4x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "CMPR", "prev_state": "RUNNING", "state": "COOLING", "price": 91.24, "tp": 0.4279383017165221, "note": "pace 0.4x off peak 31.4x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "COOLING", "price": 24.715, "tp": 1.0492373840086586, "note": "pace 1.0x off peak 6.5x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "RUNNING", "state": "COOLING", "price": 21.88, "tp": 1.799506806887906, "note": "pace 1.8x off peak 5.3x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "CRF", "prev_state": "CHURN", "state": "RUNNING", "price": 6.625, "tp": 2.5339474546846446, "note": "sustained 2.5x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "NEW MONEY", "state": "COOLING", "price": 23.6, "tp": 1.551792070698866, "note": "pace 1.6x off peak 5.4x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "FADING", "state": "NEW MONEY", "price": 50.86, "tp": 18.10024161248357, "note": "quiet open (1.0x) \u2192 now 18.1x \u00b7 taking +1.6% flow share"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 15.105, "tp": 1.7514905125169646, "note": "pace 1.8x off peak 4.3x"}
+{"ts": "2026-08-17T11:38:54.106378-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "CHURN", "price": 111.21, "tp": 2.95137638491111, "note": "3.0x participation, no progress at highs \u2014 absorption"}
