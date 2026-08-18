@@ -236,3 +236,9 @@
 {"ts": "2026-08-18T11:12:49.547146-04:00", "demo": 0, "ticker": "ACWV", "prev_state": "COOLING", "state": "QUIET", "price": 126.465, "tp": 1.714626891215301, "note": ""}
 {"ts": "2026-08-18T11:12:49.547146-04:00", "demo": 0, "ticker": "ASA", "prev_state": "IGNITING", "state": "COOLING", "price": 57.995, "tp": 1.2426317080568867, "note": "pace 1.2x off peak 4.8x"}
 {"ts": "2026-08-18T11:12:49.547146-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "IGNITING", "state": "COOLING", "price": 59.685, "tp": 0.0, "note": "pace 0.0x off peak 11.1x"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 21.91, "tp": 2.394862885677448, "note": "sustained 2.4x"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 14.4, "tp": 6.0095751654640726, "note": "pace 6.0x and accelerating (2.5x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "SWMR", "prev_state": "COOLING", "state": "LEAVING", "price": 43.41, "tp": 0.5562342879729051, "note": "pace 0.6x off peak 22.9x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "QUIET", "state": "IGNITING", "price": 32.515, "tp": 3.5624893195868337, "note": "pace 3.6x and accelerating (5.6x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BCML", "prev_state": "QUIET", "state": "NEW MONEY", "price": 30.845, "tp": 3.2203521230706316, "note": "quiet open (0.3x) \u2192 now 3.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.4653, "tp": 205.17676447270986, "note": "pace 205.2x and accelerating (2.4x vs prior window) \u00b7 -2.7% in window"}
