@@ -632,3 +632,4 @@
 {"ts": "2026-08-18T13:43:20.294672-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "FADING", "state": "QUIET", "price": 9.55, "tp": 1.6989687077124844, "note": ""}
 {"ts": "2026-08-18T13:43:20.294672-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.995, "tp": 0.9945103119361437, "note": "pace 1.0x off peak 16.8x"}
 {"ts": "2026-08-18T13:43:20.294672-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "CHURN", "state": "RUNNING", "price": 17.535, "tp": 2.406910681055498, "note": "sustained 2.4x"}
+{"ts": "2026-08-18T13:45:35.283812-04:00", "demo": 0, "ticker": "GLOB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Globant Appoints Sarab Narang as CEO of Glob.AI, its new AI-native tech services model"}
