@@ -389,3 +389,11 @@
 {"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.7, "tp": 0.0, "note": "pace 0.0x off peak 19.4x"}
 {"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.21, "tp": 1.7716966852410305, "note": "pace 1.8x off peak 11.6x"}
 {"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 23.995, "tp": 8.073295579309194, "note": "8.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "RUNNING", "state": "IGNITING", "price": 44.65, "tp": 5.381562757762349, "note": "pace 5.4x and accelerating (2.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "CHURN", "price": 3.975, "tp": 2.571374049510115, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "GENB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 16.13, "tp": 2.3144600367450336, "note": "quiet open (0.3x) \u2192 now 2.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "RPC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.475, "tp": 1.8470741990605508, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 14.115, "tp": 11.353313598103115, "note": "quiet open (1.0x) \u2192 now 11.4x \u00b7 taking +2.3% flow share"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 11.24, "tp": 2.327548492742408, "note": "quiet open (0.4x) \u2192 now 2.3x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "COOLING", "price": 22.77, "tp": 0.8371290646190704, "note": "pace 0.8x off peak 3.3x"}
+{"ts": "2026-08-18T12:09:49.557915-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.09, "tp": 1.8959045850984544, "note": "sustained 1.9x"}
