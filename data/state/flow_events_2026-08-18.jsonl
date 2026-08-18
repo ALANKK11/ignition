@@ -350,3 +350,8 @@
 {"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "RLX", "prev_state": "IGNITING", "state": "COOLING", "price": 1.82, "tp": 1.6414951939574978, "note": "pace 1.6x off peak 4.0x"}
 {"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "COOLING", "price": 59.66, "tp": 1.0138795478668619, "note": "pace 1.0x off peak 11.1x"}
 {"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.685, "tp": 9.36465034686782, "note": "pace 9.4x and accelerating (1.7x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-18T11:54:49.554964-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 26.79, "tp": 2.344163676869353, "note": "quiet open (0.2x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T11:54:49.554964-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "COOLING", "state": "RUNNING", "price": 3.975, "tp": 2.9024879165767774, "note": "sustained 2.9x"}
+{"ts": "2026-08-18T11:54:49.554964-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "FADING", "state": "COOLING", "price": 8.22, "tp": 1.3456350632530936, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-08-18T11:54:49.554964-04:00", "demo": 0, "ticker": "ANDE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 68.17, "tp": 2.081531669985763, "note": "quiet open (0.1x) \u2192 now 2.1x \u00b7 taking +1.1% flow share"}
+{"ts": "2026-08-18T11:54:49.554964-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "FADING", "state": "IGNITING", "price": 31.645, "tp": 4.696993913623339, "note": "pace 4.7x and accelerating (5.0x vs prior window) \u00b7 +1.7% in window"}
