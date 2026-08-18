@@ -142,3 +142,8 @@
 {"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "CORN", "prev_state": "FADING", "state": "COOLING", "price": 18.43, "tp": 1.5870781935877984, "note": "pace 1.6x off peak 22.8x"}
 {"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "NVG", "prev_state": "RUNNING", "state": "COOLING", "price": 12.38, "tp": 0.568680162303449, "note": "pace 0.6x off peak 7.0x"}
 {"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "COLO", "prev_state": "COOLING", "state": "CHURN", "price": 48.7, "tp": 24.26579441968461, "note": "24.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 6.88, "tp": 2.5565932450128614, "note": "sustained 2.6x"}
+{"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "COOLING", "price": 12.07, "tp": 1.4982460682375032, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "CPF", "prev_state": "CHURN", "state": "COOLING", "price": 38.255, "tp": 0.0, "note": "pace 0.0x off peak 8.1x"}
+{"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "COLO", "prev_state": "CHURN", "state": "RUNNING", "price": 48.7, "tp": 23.301811884956155, "note": "sustained 23.3x"}
+{"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.4805, "tp": 160.65311360285384, "note": "sustained 160.7x"}
