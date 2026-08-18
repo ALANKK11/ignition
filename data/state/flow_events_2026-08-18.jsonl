@@ -21,3 +21,6 @@
 {"ts": "2026-08-18T09:18:49.524934-04:00", "demo": 0, "ticker": "XOS", "prev_state": null, "state": "PM IGNITION", "price": 4.56, "tp": null, "note": "+118% on $0.05M ext tape"}
 {"ts": "2026-08-18T09:36:04.529367-04:00", "demo": 0, "ticker": "NVG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.365, "tp": 1.876813116827898, "note": ""}
 {"ts": "2026-08-18T09:36:04.529367-04:00", "demo": 0, "ticker": "BORR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.49, "tp": 0.9503809074117814, "note": ""}
+{"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.36, "tp": 2.733211092342858, "note": ""}
+{"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 42.69, "tp": 5.747163989244683, "note": "5.7x tape out of the gate"}
+{"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 32.77, "tp": 2.561440837067227, "note": ""}
