@@ -279,3 +279,10 @@
 {"ts": "2026-08-18T11:27:49.549876-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "LEAVING", "state": "IGNITING", "price": 1.85, "tp": 5621.955440256429, "note": "pace 5622.0x and accelerating (13.2x vs prior window) \u00b7 -24.5% in window"}
 {"ts": "2026-08-18T11:27:49.549876-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "COOLING", "state": "CHURN", "price": 3.98, "tp": 5.39443242120727, "note": "5.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-18T11:27:49.549876-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "NEW MONEY", "state": "FADING", "price": 32.43, "tp": 0.19164436714917718, "note": "pace 0.2x vs peak 3.7x \u00b7 -0.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "CHURN", "state": "RUNNING", "price": 3.985, "tp": 5.753013051417761, "note": "sustained 5.8x"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "STRO", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 21.0, "tp": 6.818737244929032, "note": "quiet open (0.1x) \u2192 now 6.8x \u00b7 taking +1.4% flow share"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "COOLING", "price": 109.76, "tp": 1.6010250265406567, "note": "pace 1.6x off peak 4.1x"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.31, "tp": 2.896077217861999, "note": "pace 2.9x and accelerating (2.2x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.915, "tp": 0.3985396666891799, "note": "pace 0.4x off peak 2.9x"}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "COOLING", "state": "QUIET", "price": 8.095, "tp": 1.5187929892250267, "note": ""}
+{"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.465, "tp": 0.829399811611575, "note": "pace 0.8x off peak 4.0x"}
