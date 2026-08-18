@@ -816,3 +816,11 @@
 {"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "AUR", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.045, "tp": 5.89973305390616, "note": "pace 5.9x and accelerating (2.8x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "ALH", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.28, "tp": 10.01006715493444, "note": "sustained 10.0x"}
 {"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "FADING", "state": "CHURN", "price": 44.28, "tp": 2.3053025321417966, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "IEP", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.85, "tp": 2.79850348747688, "note": "sustained 2.8x"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "COOLING", "state": "FADING", "price": 17.72, "tp": 0.28634461806111455, "note": "pace 0.3x vs peak 5.0x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "CHURN", "state": "FADING", "price": 44.38, "tp": 1.811718562984215, "note": "pace 1.8x vs peak 6.4x \u00b7 -1.2% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "ARGT", "prev_state": "COOLING", "state": "RUNNING", "price": 89.105, "tp": 2.6698751987689726, "note": "sustained 2.7x"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "ABEO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 6.205, "tp": 2.209696649444284, "note": "quiet open (0.1x) \u2192 now 2.2x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "COOLING", "state": "RUNNING", "price": 93.305, "tp": 2.3118899247360636, "note": "sustained 2.3x"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 49.77, "tp": 5.743006505968525, "note": "sustained 5.7x"}
+{"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "BORR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.4, "tp": 1.8484489725039392, "note": "sustained 1.8x"}
