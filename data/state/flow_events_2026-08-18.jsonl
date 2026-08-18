@@ -601,3 +601,8 @@
 {"ts": "2026-08-18T13:28:20.292203-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "FADING", "state": "COOLING", "price": 162.67, "tp": 0.43197012088850106, "note": "pace 0.4x off peak 5.9x"}
 {"ts": "2026-08-18T13:28:20.292203-04:00", "demo": 0, "ticker": "ANL", "prev_state": "NEW MONEY", "state": "FADING", "price": 14.06, "tp": 0.35013777574831206, "note": "pace 0.4x vs peak 3.5x \u00b7 -0.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T13:28:20.292203-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "FADING", "state": "RUNNING", "price": 32.34, "tp": 3.615591030019893, "note": "sustained 3.6x"}
+{"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.23, "tp": 4.014188123429716, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "CHURN", "state": "COOLING", "price": 20.38, "tp": 0.7049788946026866, "note": "pace 0.7x off peak 20.3x"}
+{"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "FADING", "state": "RUNNING", "price": 72.43, "tp": 1.8132769244514308, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.915, "tp": 3.7838047306546034, "note": "sustained 3.8x"}
+{"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "STRO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 21.77, "tp": 2.502081998879534, "note": "quiet open (0.1x) \u2192 now 2.5x \u00b7 taking +0.3% flow share"}
