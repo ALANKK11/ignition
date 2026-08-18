@@ -24,3 +24,6 @@
 {"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.36, "tp": 2.733211092342858, "note": ""}
 {"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 42.69, "tp": 5.747163989244683, "note": "5.7x tape out of the gate"}
 {"ts": "2026-08-18T09:39:49.530021-04:00", "demo": 0, "ticker": "DXYZ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 32.77, "tp": 2.561440837067227, "note": ""}
+{"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "CORD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.66, "tp": 2.805450714513849, "note": ""}
+{"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.95, "tp": 2.618514983736628, "note": ""}
+{"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "KORU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.415, "tp": 2.898525670551672, "note": ""}
