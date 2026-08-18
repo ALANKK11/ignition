@@ -1033,3 +1033,4 @@
 {"ts": "2026-08-18T16:16:20.309650-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover to Acquire Leistung, Expand Manufacturing Footprint and Cryogenic Offerings"}
 {"ts": "2026-08-18T16:16:20.309650-04:00", "demo": 0, "ticker": "CHTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Charter Closes $4.75 Billion Senior Secured Notes Offering"}
 {"ts": "2026-08-18T16:17:05.320944-04:00", "demo": 0, "ticker": "PFSA", "prev_state": null, "state": "AH IGNITION", "price": 28.99, "tp": null, "note": "+15% on $0.07M ext tape"}
+{"ts": "2026-08-18T16:24:35.321702-04:00", "demo": 0, "ticker": "TNON", "prev_state": null, "state": "AH IGNITION", "price": 9.34, "tp": null, "note": "+54% on $0.06M ext tape"}
