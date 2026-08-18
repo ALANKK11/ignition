@@ -695,3 +695,10 @@
 {"ts": "2026-08-18T14:02:05.298171-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.435, "tp": 6.646859497285682, "note": "6.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-18T14:02:05.298171-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "COOLING", "price": 36.095, "tp": 1.2008090147553607, "note": "pace 1.2x off peak 6.3x"}
 {"ts": "2026-08-18T14:02:05.298171-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "LEAVING", "price": 13.975, "tp": 2.212970258243005, "note": "pace 2.2x off peak 11.4x \u00b7 VWAP lost (was +2.5% above)"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "AUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.12, "tp": 8.412165979636319, "note": "sustained 8.4x"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "ANL", "prev_state": "FADING", "state": "IGNITING", "price": 14.1, "tp": 3.5430249427436076, "note": "pace 3.5x and accelerating (5.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "GENB", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 16.28, "tp": 2.5733243955704546, "note": "quiet open (0.3x) \u2192 now 2.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "RPC", "prev_state": "COOLING", "state": "FADING", "price": 8.56, "tp": 0.8517026526584415, "note": "pace 0.9x vs peak 3.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "COOLING", "state": "QUIET", "price": 9.54, "tp": 1.7446233639595883, "note": ""}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "FADING", "state": "COOLING", "price": 10.41, "tp": 0.47268572337514886, "note": "pace 0.5x off peak 2.3x"}
+{"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "AVSE", "prev_state": "COOLING", "state": "RUNNING", "price": 76.98, "tp": 59.10000417682184, "note": "sustained 59.1x"}
