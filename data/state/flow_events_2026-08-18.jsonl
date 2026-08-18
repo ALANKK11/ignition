@@ -805,3 +805,14 @@
 {"ts": "2026-08-18T14:47:05.305643-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "RUNNING", "price": 11.275, "tp": 1.8499995054470382, "note": "sustained 1.8x"}
 {"ts": "2026-08-18T14:47:05.305643-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 27.94, "tp": 2.6116366134081153, "note": "quiet open (0.6x) \u2192 now 2.6x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-08-18T14:47:05.305643-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.275, "tp": 10.529785306588888, "note": "pace 10.5x and accelerating (1.8x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "COOLING", "price": 36.1, "tp": 1.3844321275949016, "note": "pace 1.4x off peak 6.3x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "FADING", "state": "IGNITING", "price": 0.4915, "tp": 156.21933108435746, "note": "pace 156.2x and accelerating (4.5x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "ASM", "prev_state": "RUNNING", "state": "COOLING", "price": 6.86, "tp": 0.8269798668168111, "note": "pace 0.8x off peak 8.5x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.4, "tp": 1.7828219720382965, "note": "pace 1.8x off peak 11.6x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "BSJT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 21.17, "tp": 0.0, "note": "pace 0.0x off peak 7.7x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "RUNNING", "state": "COOLING", "price": 93.325, "tp": 1.6032327798013462, "note": "pace 1.6x off peak 13.4x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.135, "tp": 4.127450598998026, "note": "sustained 4.1x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "OTLK", "prev_state": "IGNITING", "state": "COOLING", "price": 0.6721, "tp": 1.6196252859189837, "note": "pace 1.6x off peak 15.3x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "AUR", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.045, "tp": 5.89973305390616, "note": "pace 5.9x and accelerating (2.8x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "ALH", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.28, "tp": 10.01006715493444, "note": "sustained 10.0x"}
+{"ts": "2026-08-18T14:50:50.306362-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "FADING", "state": "CHURN", "price": 44.28, "tp": 2.3053025321417966, "note": "2.3x participation, no progress at highs \u2014 absorption"}
