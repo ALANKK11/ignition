@@ -429,3 +429,12 @@
 {"ts": "2026-08-18T12:15:49.559105-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.92, "tp": 3.5578341556668747, "note": "sustained 3.6x"}
 {"ts": "2026-08-18T12:15:49.559105-04:00", "demo": 0, "ticker": "ALXO", "prev_state": "CHURN", "state": "RUNNING", "price": 2.065, "tp": 3.378393885384191, "note": "sustained 3.4x"}
 {"ts": "2026-08-18T12:15:49.559105-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "QUIET", "state": "COOLING", "price": 11.29, "tp": 1.3439036452793458, "note": "pace 1.3x off peak 2.3x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "CHURN", "state": "RUNNING", "price": 20.38, "tp": 2.0298248319630523, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "COOLING", "state": "RUNNING", "price": 17.655, "tp": 2.138194185486016, "note": "sustained 2.1x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "IEP", "prev_state": "CHURN", "state": "RUNNING", "price": 6.87, "tp": 2.13818528827217, "note": "sustained 2.1x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "IGNITING", "state": "FADING", "price": 1.6, "tp": 2450.1750972679447, "note": "pace 2450.2x vs peak 16848.8x \u00b7 -49.0% off HOD \u00b7 chart still +127% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "CHURN", "price": 3.975, "tp": 2.423426010150071, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 14.11, "tp": 7.046626391346453, "note": "sustained 7.0x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "BCSF", "prev_state": "NEW MONEY", "state": "COOLING", "price": 11.995, "tp": 1.1852914987652794, "note": "pace 1.2x off peak 2.3x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "QUIET", "state": "RUNNING", "price": 49.87, "tp": 1.9907928323160937, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T12:18:49.559877-04:00", "demo": 0, "ticker": "ASM", "prev_state": "RUNNING", "state": "COOLING", "price": 6.89, "tp": 0.7646126373406669, "note": "pace 0.8x off peak 8.5x"}
