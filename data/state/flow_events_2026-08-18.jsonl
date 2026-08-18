@@ -29,3 +29,6 @@
 {"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "KORU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.415, "tp": 2.898525670551672, "note": ""}
 {"ts": "2026-08-18T09:45:49.531254-04:00", "demo": 0, "ticker": "SWMR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 45.5, "tp": 0.9231332174934499, "note": ""}
 {"ts": "2026-08-18T09:48:49.531640-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 31.755, "tp": 3.104859286362317, "note": "3.1x tape out of the gate"}
+{"ts": "2026-08-18T09:51:49.532371-04:00", "demo": 0, "ticker": "EDC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 76.16, "tp": 1.3365835395443515, "note": ""}
+{"ts": "2026-08-18T09:51:49.532371-04:00", "demo": 0, "ticker": "COHX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 30.17, "tp": 2.134352971252019, "note": ""}
+{"ts": "2026-08-18T09:51:49.532371-04:00", "demo": 0, "ticker": "FN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 500.505, "tp": 1.801376939662552, "note": ""}
