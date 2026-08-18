@@ -332,3 +332,12 @@
 {"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 23.57, "tp": 6.03487459471044, "note": "pace 6.0x and accelerating (62.2x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "QUIET", "state": "COOLING", "price": 11.2, "tp": 1.5859051346134954, "note": "pace 1.6x off peak 2.2x"}
 {"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "RLX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 1.815, "tp": 3.7448198936255426, "note": "pace 3.7x and accelerating (21.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "IGNITING", "state": "COOLING", "price": 23.57, "tp": 0.5107431882264666, "note": "pace 0.5x off peak 6.0x"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "FADING", "price": 9.5, "tp": 1.0168229336033066, "note": "pace 1.0x vs peak 5.2x \u00b7 -0.6% off HOD \u00b7 chart still +25% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "STRO", "prev_state": "RUNNING", "state": "COOLING", "price": 21.18, "tp": 0.0, "note": "pace 0.0x off peak 8.5x"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "BORR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.355, "tp": 1.8409357670333382, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "TSSI", "prev_state": "LEAVING", "state": "FADING", "price": 9.62, "tp": 0.5957245820426628, "note": "pace 0.6x vs peak 2.1x \u00b7 -2.7% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "AROW", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 38.67, "tp": 2.1429293228692665, "note": "quiet open (0.4x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 91.09, "tp": 12.479072616431438, "note": "sustained 12.5x"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 59.66, "tp": 1.9523724555058326, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "COOLING", "state": "QUIET", "price": 11.2, "tp": 1.7335477309492462, "note": ""}
