@@ -93,3 +93,4 @@
 {"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "EYPT", "prev_state": "FADING", "state": "LEAVING", "price": 5.265, "tp": 4.704298672831523, "note": "pace 4.7x off peak 18.2x \u00b7 VWAP lost (was +5.9% above)"}
 {"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "FADING", "state": "COOLING", "price": 6.3, "tp": 1.5649838812618004, "note": "pace 1.6x off peak 12.3x"}
 {"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "IGNITING", "state": "COOLING", "price": 7.42, "tp": 0.0, "note": "pace 0.0x off peak 3.4x"}
+{"ts": "2026-08-18T10:14:19.522319-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DVLT Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Datavault AI Inc. Securities Lawsuit "}
