@@ -178,3 +178,9 @@
 {"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "CBRS", "prev_state": "QUIET", "state": "RUNNING", "price": 219.16, "tp": 1.9821997569559064, "note": "sustained 2.0x"}
 {"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.3, "tp": 3.2823795917246827, "note": "pace 3.3x and accelerating (5.2x vs prior window) \u00b7 -4.7% in window"}
 {"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "FADING", "state": "RUNNING", "price": 4.015, "tp": 4.4034847959698755, "note": "sustained 4.4x"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 14.575, "tp": 1.971284799510325, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.34, "tp": 11.590196968353467, "note": "pace 11.6x and accelerating (2.4x vs prior window) \u00b7 -8.5% in window"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.15, "tp": 5.641588848669709, "note": "pace 5.6x and accelerating (1.8x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "GENB", "prev_state": "QUIET", "state": "RUNNING", "price": 16.13, "tp": 1.849435106623287, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "BEX", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.3, "tp": 2.0663242035430027, "note": "sustained 2.1x"}
+{"ts": "2026-08-18T10:54:49.543969-04:00", "demo": 0, "ticker": "BTZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 10.19, "tp": 3.6585901120754305, "note": "quiet open (0.2x) \u2192 now 3.7x \u00b7 taking +0.1% flow share"}
