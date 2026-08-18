@@ -702,3 +702,10 @@
 {"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "COOLING", "state": "QUIET", "price": 9.54, "tp": 1.7446233639595883, "note": ""}
 {"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "FADING", "state": "COOLING", "price": 10.41, "tp": 0.47268572337514886, "note": "pace 0.5x off peak 2.3x"}
 {"ts": "2026-08-18T14:05:50.298806-04:00", "demo": 0, "ticker": "AVSE", "prev_state": "COOLING", "state": "RUNNING", "price": 76.98, "tp": 59.10000417682184, "note": "sustained 59.1x"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "COOLING", "state": "NEW MONEY", "price": 49.76, "tp": 3.8543496375097144, "note": "quiet open (0.1x) \u2192 now 3.9x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "ALH", "prev_state": "CHURN", "state": "RUNNING", "price": 24.37, "tp": 6.383492046360437, "note": "sustained 6.4x"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "QMCO", "prev_state": "COOLING", "state": "LEAVING", "price": 24.02, "tp": 0.8030228878777769, "note": "pace 0.8x off peak 2.3x \u00b7 VWAP lost (was +5.5% above)"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "QUIET", "state": "RUNNING", "price": 9.54, "tp": 1.889643298398163, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "STRO", "prev_state": "RUNNING", "state": "FADING", "price": 22.42, "tp": 2.495042022105148, "note": "pace 2.5x vs peak 8.5x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "IGNITING", "price": 11.03, "tp": 3.0983912092318913, "note": "pace 3.1x and accelerating (2.6x vs prior window) \u00b7 -2.2% in window"}
+{"ts": "2026-08-18T14:09:35.299413-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.13, "tp": 0.0, "note": "pace 0.0x off peak 8.5x"}
