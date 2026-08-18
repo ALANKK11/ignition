@@ -208,3 +208,12 @@
 {"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.09, "tp": 6.122006688310157, "note": "sustained 6.1x"}
 {"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "COOLING", "state": "FADING", "price": 12.11, "tp": 0.5622385006565276, "note": "pace 0.6x vs peak 2.6x \u00b7 -0.1% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 14.5, "tp": 1.7478999026997204, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "FADING", "state": "COOLING", "price": 12.1, "tp": 1.7013895378147517, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "COOLING", "state": "RUNNING", "price": 14.54, "tp": 1.933619403644288, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "FADING", "state": "COOLING", "price": 6.295, "tp": 1.085283647142753, "note": "pace 1.1x off peak 12.3x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "FADING", "state": "RUNNING", "price": 31.03, "tp": 3.2668442287656037, "note": "sustained 3.3x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "ASM", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.83, "tp": 5.332892869939002, "note": "sustained 5.3x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.37, "tp": 3.551347551290769, "note": "sustained 3.6x"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "ACWV", "prev_state": "QUIET", "state": "NEW MONEY", "price": 126.46, "tp": 2.265798017246159, "note": "quiet open (0.3x) \u2192 now 2.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "AMBQ", "prev_state": "RUNNING", "state": "CHURN", "price": 62.845, "tp": 26.44153018027146, "note": "26.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T11:06:49.546250-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "FADING", "price": 9.39, "tp": 1.6226343079970824, "note": "pace 1.6x vs peak 5.2x \u00b7 -0.2% off HOD \u00b7 chart still +23% \u2014 crowd buying a cooled tape"}
