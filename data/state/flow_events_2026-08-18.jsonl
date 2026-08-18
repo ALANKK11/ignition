@@ -606,3 +606,11 @@
 {"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "FADING", "state": "RUNNING", "price": 72.43, "tp": 1.8132769244514308, "note": "sustained 1.8x"}
 {"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.915, "tp": 3.7838047306546034, "note": "sustained 3.8x"}
 {"ts": "2026-08-18T13:32:05.292892-04:00", "demo": 0, "ticker": "STRO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 21.77, "tp": 2.502081998879534, "note": "quiet open (0.1x) \u2192 now 2.5x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "ALH", "prev_state": "CHURN", "state": "RUNNING", "price": 24.23, "tp": 2.799864731460418, "note": "sustained 2.8x"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "QUIET", "state": "RUNNING", "price": 7.755, "tp": 1.919027892156258, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "STRO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 21.77, "tp": 1.9359748358681972, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "RUNNING", "state": "CHURN", "price": 32.32, "tp": 6.344510161970866, "note": "6.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "RUNNING", "state": "FADING", "price": 11.535, "tp": 1.458714935207849, "note": "pace 1.5x vs peak 5.4x \u00b7 -2.0% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "AIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 62.72, "tp": 6.172794290904852, "note": "6.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "COOLING", "state": "RUNNING", "price": 93.355, "tp": 3.723306073282035, "note": "sustained 3.7x"}
+{"ts": "2026-08-18T13:35:50.293644-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "RUNNING", "state": "FADING", "price": 72.43, "tp": 0.7899622355523473, "note": "pace 0.8x vs peak 3.0x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
