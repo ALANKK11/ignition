@@ -512,3 +512,8 @@
 {"ts": "2026-08-18T12:45:49.564760-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "CHURN", "price": 109.875, "tp": 3.42081184189557, "note": "3.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-18T12:45:49.564760-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "IGNITING", "state": "FADING", "price": 44.25, "tp": 1.5543208986899915, "note": "pace 1.6x vs peak 6.4x \u00b7 -1.1% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T12:45:49.564760-04:00", "demo": 0, "ticker": "STRO", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 21.715, "tp": 2.474730234106156, "note": "quiet open (0.1x) \u2192 now 2.5x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-18T12:48:49.565284-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "RUNNING", "state": "COOLING", "price": 93.365, "tp": 1.4405893533742284, "note": "pace 1.4x off peak 13.4x"}
+{"ts": "2026-08-18T12:48:49.565284-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "CHURN", "state": "COOLING", "price": 109.875, "tp": 1.5853637556180844, "note": "pace 1.6x off peak 7.9x"}
+{"ts": "2026-08-18T12:48:49.565284-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "FADING", "state": "IGNITING", "price": 9.58, "tp": 4.751274490339332, "note": "pace 4.8x and accelerating (4.8x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-08-18T12:48:49.565284-04:00", "demo": 0, "ticker": "ANDE", "prev_state": "COOLING", "state": "RUNNING", "price": 68.33, "tp": 1.8496912017983471, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T12:48:49.565284-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.005, "tp": 16.480611162109373, "note": "sustained 16.5x"}
