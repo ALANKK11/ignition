@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-18T17:19:20-04:00", "session": "post", "rows": [{"ticker": "TNON", "last": 8.65, "gap": 0.6315, "dollars": 116466.8, "vs_adv": 3.59, "new": false}, {"ticker": "CAST", "last": 2.59, "gap": 0.1169, "dollars": 80051.52000000002, "vs_adv": 2.22, "new": false}]}
+{"v": 4, "ts": "2026-08-18T17:22:20-04:00", "session": "post", "rows": [{"ticker": "TNON", "last": 8.65, "gap": 0.6315, "dollars": 116466.8, "vs_adv": 3.59, "new": false}, {"ticker": "CAST", "last": 2.59, "gap": 0.1169, "dollars": 80051.52000000002, "vs_adv": 2.22, "new": false}]}
