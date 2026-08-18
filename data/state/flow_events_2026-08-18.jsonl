@@ -375,3 +375,8 @@
 {"ts": "2026-08-18T12:00:49.556251-04:00", "demo": 0, "ticker": "AROW", "prev_state": "NEW MONEY", "state": "COOLING", "price": 38.67, "tp": 0.0, "note": "pace 0.0x off peak 2.2x"}
 {"ts": "2026-08-18T12:00:49.556251-04:00", "demo": 0, "ticker": "ASM", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.825, "tp": 3.062244254396096, "note": "pace 3.1x and accelerating (8.3x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-08-18T12:00:49.556251-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "COOLING", "state": "RUNNING", "price": 11.225, "tp": 1.8890249225975597, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "COOLING", "state": "QUIET", "price": 8.11, "tp": 1.5239516391936885, "note": ""}
+{"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "COOLING", "price": 109.96, "tp": 0.9465096192080794, "note": "pace 0.9x off peak 7.9x"}
+{"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "RUNNING", "state": "COOLING", "price": 6.82, "tp": 0.8211542808095402, "note": "pace 0.8x off peak 5.1x"}
+{"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "GENB", "prev_state": "COOLING", "state": "QUIET", "price": 16.15, "tp": 1.5022056201925187, "note": ""}
+{"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 22.77, "tp": 2.4368899807806796, "note": "sustained 2.4x"}
