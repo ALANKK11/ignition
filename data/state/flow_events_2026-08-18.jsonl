@@ -633,3 +633,14 @@
 {"ts": "2026-08-18T13:43:20.294672-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.995, "tp": 0.9945103119361437, "note": "pace 1.0x off peak 16.8x"}
 {"ts": "2026-08-18T13:43:20.294672-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "CHURN", "state": "RUNNING", "price": 17.535, "tp": 2.406910681055498, "note": "sustained 2.4x"}
 {"ts": "2026-08-18T13:45:35.283812-04:00", "demo": 0, "ticker": "GLOB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Globant Appoints Sarab Narang as CEO of Glob.AI, its new AI-native tech services model"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.15, "tp": 0.13317305226468631, "note": "pace 0.1x off peak 8.5x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "BORR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 4.425, "tp": 4.307879372687646, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "QUIET", "state": "RUNNING", "price": 9.535, "tp": 1.9863888126081244, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "STRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.08, "tp": 2.565013076318432, "note": "sustained 2.6x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "CHURN", "state": "RUNNING", "price": 32.32, "tp": 3.1282574120024518, "note": "sustained 3.1x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "ASM", "prev_state": "COOLING", "state": "RUNNING", "price": 6.875, "tp": 2.268880782417271, "note": "sustained 2.3x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 6.825, "tp": 2.783459455533085, "note": "sustained 2.8x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "COOLING", "price": 109.92, "tp": 0.0, "note": "pace 0.0x off peak 7.9x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "ACMR", "prev_state": "CHURN", "state": "RUNNING", "price": 81.67, "tp": 14.573183802088453, "note": "sustained 14.6x"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "FADING", "state": "LEAVING", "price": 1.63, "tp": 432.8882347809223, "note": "pace 432.9x off peak 16848.8x \u00b7 VWAP lost (was +45.9% above)"}
+{"ts": "2026-08-18T13:47:05.295431-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 72.475, "tp": 1.606046882588004, "note": "pace 1.6x off peak 3.0x"}
