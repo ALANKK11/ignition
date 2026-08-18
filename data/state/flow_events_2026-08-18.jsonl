@@ -201,3 +201,10 @@
 {"ts": "2026-08-18T11:00:49.544882-04:00", "demo": 0, "ticker": "OTLK", "prev_state": "COOLING", "state": "LEAVING", "price": 0.6264, "tp": 0.6970351288204911, "note": "pace 0.7x off peak 15.3x \u00b7 VWAP lost (was +3.1% above)"}
 {"ts": "2026-08-18T11:00:49.544882-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.41, "tp": 2.7845961445898757, "note": "sustained 2.8x"}
 {"ts": "2026-08-18T11:00:49.544882-04:00", "demo": 0, "ticker": "AIS", "prev_state": "IGNITING", "state": "RUNNING", "price": 69.435, "tp": 4.34106663676079, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "AUR", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.025, "tp": 3.5321041552920147, "note": "pace 3.5x and accelerating (2.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "RUNNING", "state": "COOLING", "price": 26.79, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "ASA", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 57.995, "tp": 4.838529000315773, "note": "pace 4.8x and accelerating (6.1x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.0, "tp": 3.0344609313299644, "note": "sustained 3.0x"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.09, "tp": 6.122006688310157, "note": "sustained 6.1x"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "COOLING", "state": "FADING", "price": 12.11, "tp": 0.5622385006565276, "note": "pace 0.6x vs peak 2.6x \u00b7 -0.1% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:03:49.545517-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 14.5, "tp": 1.7478999026997204, "note": "pace 1.7x off peak 2.4x"}
