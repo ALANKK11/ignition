@@ -380,3 +380,12 @@
 {"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "RUNNING", "state": "COOLING", "price": 6.82, "tp": 0.8211542808095402, "note": "pace 0.8x off peak 5.1x"}
 {"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "GENB", "prev_state": "COOLING", "state": "QUIET", "price": 16.15, "tp": 1.5022056201925187, "note": ""}
 {"ts": "2026-08-18T12:03:49.556955-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 22.77, "tp": 2.4368899807806796, "note": "sustained 2.4x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "CHURN", "state": "RUNNING", "price": 3.97, "tp": 4.30186324906861, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "RPC", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 8.49, "tp": 2.304517041155485, "note": "quiet open (0.1x) \u2192 now 2.3x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.36, "tp": 1.021817636525624, "note": "pace 1.0x off peak 4.5x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.51, "tp": 4.383392185678287, "note": "sustained 4.4x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "ASX", "prev_state": "COOLING", "state": "RUNNING", "price": 36.375, "tp": 2.2512537986320917, "note": "sustained 2.3x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "HTFL", "prev_state": "IGNITING", "state": "RUNNING", "price": 44.15, "tp": 5.641605099838701, "note": "sustained 5.6x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.7, "tp": 0.0, "note": "pace 0.0x off peak 19.4x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.21, "tp": 1.7716966852410305, "note": "pace 1.8x off peak 11.6x"}
+{"ts": "2026-08-18T12:06:49.557552-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 23.995, "tp": 8.073295579309194, "note": "8.1x participation, no progress at highs \u2014 absorption"}
