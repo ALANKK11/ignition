@@ -115,3 +115,8 @@
 {"ts": "2026-08-18T10:18:49.537383-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.48, "tp": 3.0699260093305245, "note": "sustained 3.1x"}
 {"ts": "2026-08-18T10:18:49.537383-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "RUNNING", "state": "COOLING", "price": 44.28, "tp": 0.9200655015066691, "note": "pace 0.9x off peak 54.1x"}
 {"ts": "2026-08-18T10:18:49.537383-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "FADING", "state": "RUNNING", "price": 2.4, "tp": 1843.0711273193442, "note": "sustained 1843.1x"}
+{"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.695, "tp": 1.9285003775854523, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.985, "tp": 6.211500083409102, "note": "sustained 6.2x"}
+{"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "QUIET", "state": "COOLING", "price": 14.675, "tp": 0.9738639769082148, "note": "pace 1.0x off peak 1.9x"}
+{"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.46, "tp": 13.767909803763393, "note": "sustained 13.8x"}
+{"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "AMLX", "prev_state": "CHURN", "state": "RUNNING", "price": 31.09, "tp": 7.396679346503692, "note": "sustained 7.4x"}
