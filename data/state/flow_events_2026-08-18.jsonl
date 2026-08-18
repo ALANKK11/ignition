@@ -86,3 +86,10 @@
 {"ts": "2026-08-18T10:09:49.535686-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "QUIET", "state": "COOLING", "price": 3.965, "tp": 0.8049279926665694, "note": "pace 0.8x off peak 1.9x"}
 {"ts": "2026-08-18T10:09:49.535686-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "RUNNING", "state": "FADING", "price": 1.78, "tp": 874.4312620182799, "note": "pace 874.4x vs peak 2815.7x \u00b7 -7.8% off HOD \u00b7 chart still +153% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T10:09:49.535686-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "IGNITING", "state": "RUNNING", "price": 44.38, "tp": 46.18867215511796, "note": "sustained 46.2x"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "RUNNING", "state": "FADING", "price": 31.32, "tp": 1.4406946151557158, "note": "pace 1.4x vs peak 4.7x \u00b7 -1.4% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "CCM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 4.81, "tp": 0.0, "note": "pace 0.0x off peak 2.6x"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "FN", "prev_state": "IGNITING", "state": "RUNNING", "price": 484.5, "tp": 2.8448944884495195, "note": "sustained 2.8x"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.55, "tp": 4.724451968100132, "note": "pace 4.7x and accelerating (1.9x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "EYPT", "prev_state": "FADING", "state": "LEAVING", "price": 5.265, "tp": 4.704298672831523, "note": "pace 4.7x off peak 18.2x \u00b7 VWAP lost (was +5.9% above)"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "FADING", "state": "COOLING", "price": 6.3, "tp": 1.5649838812618004, "note": "pace 1.6x off peak 12.3x"}
+{"ts": "2026-08-18T10:12:49.536165-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "IGNITING", "state": "COOLING", "price": 7.42, "tp": 0.0, "note": "pace 0.0x off peak 3.4x"}
