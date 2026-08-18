@@ -120,3 +120,9 @@
 {"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "QUIET", "state": "COOLING", "price": 14.675, "tp": 0.9738639769082148, "note": "pace 1.0x off peak 1.9x"}
 {"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.46, "tp": 13.767909803763393, "note": "sustained 13.8x"}
 {"ts": "2026-08-18T10:21:49.537800-04:00", "demo": 0, "ticker": "AMLX", "prev_state": "CHURN", "state": "RUNNING", "price": 31.09, "tp": 7.396679346503692, "note": "sustained 7.4x"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "COLO", "prev_state": "FADING", "state": "COOLING", "price": 48.55, "tp": 1.4308082990186313, "note": "pace 1.4x off peak 21.4x"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 10.66, "tp": 2.1063065561926937, "note": "quiet open (0.4x) \u2192 now 2.1x \u00b7 taking +0.7% flow share"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.4621, "tp": 279.16201103423, "note": "pace 279.2x and accelerating (1.7x vs prior window) \u00b7 -5.9% in window"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.57, "tp": 1870.0183480631995, "note": "pace 1870.0x and accelerating (2.1x vs prior window) \u00b7 +44.4% in window"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "IEP", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.86, "tp": 4.149506876956, "note": "sustained 4.1x"}
+{"ts": "2026-08-18T10:24:49.538444-04:00", "demo": 0, "ticker": "OTLK", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6303, "tp": 9.973344570344882, "note": "sustained 10.0x"}
