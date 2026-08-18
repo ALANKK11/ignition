@@ -258,3 +258,9 @@
 {"ts": "2026-08-18T11:21:49.548731-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 3.905, "tp": 2.3477264540014207, "note": "quiet open (0.9x) \u2192 now 2.3x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-08-18T11:21:49.548731-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 32.43, "tp": 3.456515585799415, "note": "quiet open (0.2x) \u2192 now 3.5x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-08-18T11:21:49.548731-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "COOLING", "state": "FADING", "price": 12.11, "tp": 0.7527424362302466, "note": "pace 0.8x vs peak 2.6x \u00b7 -0.1% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "AMLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.725, "tp": 5.401891282010427, "note": "sustained 5.4x"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.77, "tp": 2.23756070409331, "note": "sustained 2.2x"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "EYPT", "prev_state": "FADING", "state": "LEAVING", "price": 5.235, "tp": 1.3281085240980997, "note": "pace 1.3x off peak 18.2x \u00b7 VWAP lost (was +5.9% above)"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "COOLING", "price": 35.965, "tp": 1.342002140494308, "note": "pace 1.3x off peak 6.3x"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.98, "tp": 0.9468840622937124, "note": "pace 0.9x off peak 6.0x"}
+{"ts": "2026-08-18T11:24:49.549459-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 14.36, "tp": 4.821827726922763, "note": "quiet open (1.0x) \u2192 now 4.8x \u00b7 taking +1.2% flow share"}
