@@ -851,3 +851,4 @@
 {"ts": "2026-08-18T15:05:50.308839-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "CHURN", "state": "RUNNING", "price": 19.565, "tp": 61.846103092720284, "note": "sustained 61.8x"}
 {"ts": "2026-08-18T15:05:50.308839-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.28, "tp": 8.929535674456991, "note": "8.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-18T15:05:50.308839-04:00", "demo": 0, "ticker": "ABEO", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 6.235, "tp": 2.3137537740466514, "note": "quiet open (0.1x) \u2192 now 2.3x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-18T15:06:35.297384-04:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water Charitable Foundation and California American Water Award $20,000 Workforce Development Grant to Resource"}
