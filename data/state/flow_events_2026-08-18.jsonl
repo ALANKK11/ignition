@@ -314,3 +314,14 @@
 {"ts": "2026-08-18T11:39:49.552089-04:00", "demo": 0, "ticker": "EYPT", "prev_state": "LEAVING", "state": "FADING", "price": 5.31, "tp": 1.470033854695886, "note": "pace 1.5x vs peak 18.2x \u00b7 -3.1% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T11:39:49.552089-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 91.815, "tp": 11.523801943847529, "note": "pace 11.5x and accelerating (1.8x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-08-18T11:39:49.552089-04:00", "demo": 0, "ticker": "STRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.18, "tp": 4.161845477129566, "note": "sustained 4.2x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "BSJQ", "prev_state": "NEW MONEY", "state": "FADING", "price": 22.945, "tp": 0.0, "note": "pace 0.0x vs peak 2.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "CHURN", "state": "COOLING", "price": 6.27, "tp": 1.2280243645403257, "note": "pace 1.2x off peak 12.3x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.98, "tp": 0.7143052321245922, "note": "pace 0.7x off peak 6.0x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "CHURN", "state": "COOLING", "price": 20.38, "tp": 0.9463328705981482, "note": "pace 0.9x off peak 9.9x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "TSSI", "prev_state": "FADING", "state": "LEAVING", "price": 9.6, "tp": 0.3350943387440825, "note": "pace 0.3x off peak 2.1x \u00b7 VWAP lost (was +3.3% above)"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "AUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.995, "tp": 4.346487593924696, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.39, "tp": 2.9536730670929385, "note": "sustained 3.0x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "ACWV", "prev_state": "COOLING", "state": "FADING", "price": 126.31, "tp": 0.0, "note": "pace 0.0x vs peak 4.6x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 91.315, "tp": 10.506735302175976, "note": "sustained 10.5x"}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "COOLING", "state": "QUIET", "price": 11.18, "tp": 1.7698693860095347, "note": ""}
+{"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "CHURN", "state": "RUNNING", "price": 93.295, "tp": 12.0068848242721, "note": "sustained 12.0x"}
