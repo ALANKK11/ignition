@@ -286,3 +286,11 @@
 {"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.915, "tp": 0.3985396666891799, "note": "pace 0.4x off peak 2.9x"}
 {"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "COOLING", "state": "QUIET", "price": 8.095, "tp": 1.5187929892250267, "note": ""}
 {"ts": "2026-08-18T11:30:49.550393-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.465, "tp": 0.829399811611575, "note": "pace 0.8x off peak 4.0x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.35, "tp": 2.535687904314338, "note": "sustained 2.5x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.73, "tp": 1.867259274679635, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "COOLING", "price": 59.56, "tp": 1.784274969592008, "note": "pace 1.8x off peak 11.1x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 22.32, "tp": 2.0091813476604905, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "STRO", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 21.18, "tp": 8.458345741751211, "note": "pace 8.5x and accelerating (14.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "QUIET", "state": "COOLING", "price": 8.095, "tp": 1.483231347154348, "note": "pace 1.5x off peak 2.0x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.19, "tp": 1.526287025633035, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-08-18T11:33:49.550949-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "FADING", "state": "RUNNING", "price": 9.4, "tp": 3.634464722463492, "note": "sustained 3.6x"}
