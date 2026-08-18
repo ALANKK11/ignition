@@ -147,3 +147,9 @@
 {"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "CPF", "prev_state": "CHURN", "state": "COOLING", "price": 38.255, "tp": 0.0, "note": "pace 0.0x off peak 8.1x"}
 {"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "COLO", "prev_state": "CHURN", "state": "RUNNING", "price": 48.7, "tp": 23.301811884956155, "note": "sustained 23.3x"}
 {"ts": "2026-08-18T10:36:49.540665-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.4805, "tp": 160.65311360285384, "note": "sustained 160.7x"}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "CCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.37, "tp": 4.3225913184926466, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.57, "tp": 4.759764302759225, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "COOLING", "state": "RUNNING", "price": 12.06, "tp": 1.9118214236704554, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "COOLING", "state": "QUIET", "price": 10.57, "tp": 1.7690216977327817, "note": ""}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "AUR", "prev_state": "RUNNING", "state": "COOLING", "price": 6.085, "tp": 1.3636422740614111, "note": "pace 1.4x off peak 3.5x"}
+{"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "FADING", "state": "COOLING", "price": 7.98, "tp": 1.2762198146537913, "note": "pace 1.3x off peak 2.0x"}
