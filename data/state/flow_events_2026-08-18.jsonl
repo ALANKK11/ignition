@@ -488,3 +488,11 @@
 {"ts": "2026-08-18T12:36:49.563131-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "FADING", "state": "LEAVING", "price": 1.64, "tp": 2638.756219427817, "note": "pace 2638.8x off peak 16848.8x \u00b7 VWAP lost (was +45.9% above)"}
 {"ts": "2026-08-18T12:36:49.563131-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "FADING", "state": "COOLING", "price": 11.4, "tp": 1.655183168334901, "note": "pace 1.7x off peak 2.3x"}
 {"ts": "2026-08-18T12:36:49.563131-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.995, "tp": 3.632495295703237, "note": "pace 3.6x and accelerating (3.3x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "RUNNING", "state": "COOLING", "price": 3.59, "tp": 0.7515710845112874, "note": "pace 0.8x off peak 10.1x"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.21, "tp": 6.681706347787471, "note": "pace 6.7x and accelerating (2.5x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 30.71, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "LEAVING", "state": "FADING", "price": 1.85, "tp": 2736.2346938905416, "note": "pace 2736.2x vs peak 16848.8x \u00b7 -41.1% off HOD \u00b7 chart still +163% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 49.71, "tp": 0.0, "note": "pace 0.0x off peak 19.4x"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.875, "tp": 2.887288524471781, "note": "sustained 2.9x"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "AIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 62.71, "tp": 4.145746049673255, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T12:39:49.563779-04:00", "demo": 0, "ticker": "ANGX", "prev_state": "QUIET", "state": "RUNNING", "price": 5.03, "tp": 2.361760154471324, "note": "sustained 2.4x"}
