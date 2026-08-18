@@ -76,3 +76,5 @@
 {"ts": "2026-08-18T10:03:49.534713-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "OPEN DRIVE", "state": "RUNNING", "price": 1.72, "tp": 1549.0102415723309, "note": "sustained 1549.0x"}
 {"ts": "2026-08-18T10:03:49.534713-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "QUIET", "state": "RUNNING", "price": 24.775, "tp": 2.369712325917131, "note": "sustained 2.4x"}
 {"ts": "2026-08-18T10:03:49.534713-04:00", "demo": 0, "ticker": "NVG", "prev_state": "QUIET", "state": "COOLING", "price": 12.355, "tp": 0.0, "note": "pace 0.0x off peak 4.9x"}
+{"ts": "2026-08-18T10:06:49.535195-04:00", "demo": 0, "ticker": "BEX", "prev_state": "QUIET", "state": "COOLING", "price": 23.76, "tp": 0.9820741292019315, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-08-18T10:06:49.535195-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "COOLING", "state": "FADING", "price": 6.305, "tp": 1.8815243457916464, "note": "pace 1.9x vs peak 12.3x \u00b7 -1.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
