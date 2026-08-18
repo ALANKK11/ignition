@@ -167,3 +167,6 @@
 {"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.44, "tp": 15.59692566669106, "note": "sustained 15.6x"}
 {"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "FADING", "price": 4.025, "tp": 1.6490567467513972, "note": "pace 1.6x vs peak 6.0x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.765, "tp": 4.31053598045493, "note": "sustained 4.3x"}
+{"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.63, "tp": 2.029373930886613, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.79, "tp": 2.4555880566586645, "note": "quiet open (0.2x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "COOLING", "price": 12.085, "tp": 1.4720268340928033, "note": "pace 1.5x off peak 2.6x"}
