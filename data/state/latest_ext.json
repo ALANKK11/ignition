@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-18T09:15:49-04:00", "session": "pre", "rows": [{"ticker": "SXTC", "last": 4.92, "gap": 0.3338, "dollars": 102452.06, "vs_adv": 0.08, "new": false}]}
+{"v": 4, "ts": "2026-08-18T09:18:49-04:00", "session": "pre", "rows": [{"ticker": "XOS", "last": 4.56, "gap": 1.1843, "dollars": 54250.22, "vs_adv": 2.32, "new": true}, {"ticker": "SXTC", "last": 4.92, "gap": 0.3338, "dollars": 102452.06, "vs_adv": 0.08, "new": false}]}
