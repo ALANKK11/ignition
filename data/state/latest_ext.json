@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-18T16:50:50-04:00", "session": "post", "rows": [{"ticker": "TNON", "last": 9.32, "gap": 0.6317, "dollars": 111194.8, "vs_adv": 3.43, "new": false}]}
+{"v": 4, "ts": "2026-08-18T16:53:50-04:00", "session": "post", "rows": [{"ticker": "TNON", "last": 9.17, "gap": 0.6322, "dollars": 112111.8, "vs_adv": 3.45, "new": false}, {"ticker": "CAST", "last": 2.58, "gap": 0.104, "dollars": 65866.2, "vs_adv": 1.85, "new": true}]}
