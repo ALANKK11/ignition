@@ -740,3 +740,11 @@
 {"ts": "2026-08-18T14:20:50.301300-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "COOLING", "state": "FADING", "price": 9.54, "tp": 0.723139380045378, "note": "pace 0.7x vs peak 2.1x \u00b7 -0.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-18T14:20:50.301300-04:00", "demo": 0, "ticker": "ALH", "prev_state": "CHURN", "state": "RUNNING", "price": 24.495, "tp": 4.382414018975968, "note": "sustained 4.4x"}
 {"ts": "2026-08-18T14:20:50.301300-04:00", "demo": 0, "ticker": "ANL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 14.07, "tp": 2.3689808126496352, "note": "sustained 2.4x"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.93, "tp": 1.9681702811781103, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "CHURN", "price": 3.99, "tp": 5.992151270470572, "note": "6.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "BRIB", "prev_state": "RUNNING", "state": "FADING", "price": 24.92, "tp": 22755.23217220399, "note": "pace 22755.2x vs peak 66739.8x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "COOLING", "state": "RUNNING", "price": 93.335, "tp": 1.9495692558143631, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.105, "tp": 0.7386265903650018, "note": "pace 0.7x off peak 11.6x"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 49.76, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.484, "tp": 175.72614128818176, "note": "pace 175.7x off peak 349.8x \u00b7 VWAP lost (was +3.2% above)"}
+{"ts": "2026-08-18T14:24:35.301606-04:00", "demo": 0, "ticker": "AIS", "prev_state": "RUNNING", "state": "COOLING", "price": 69.545, "tp": 0.5247166365476921, "note": "pace 0.5x off peak 11.3x"}
