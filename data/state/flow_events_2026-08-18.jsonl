@@ -915,3 +915,14 @@
 {"ts": "2026-08-18T15:24:35.312144-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "COOLING", "price": 36.1, "tp": 1.2081142500650774, "note": "pace 1.2x off peak 6.3x"}
 {"ts": "2026-08-18T15:24:35.312144-04:00", "demo": 0, "ticker": "BORR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 4.37, "tp": 2.481856061426372, "note": "sustained 2.5x"}
 {"ts": "2026-08-18T15:24:35.312144-04:00", "demo": 0, "ticker": "STRO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 21.985, "tp": 1.7392485401075874, "note": "pace 1.7x off peak 8.5x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "CHURN", "state": "IGNITING", "price": 32.22, "tp": 6.21288689349168, "note": "pace 6.2x and accelerating (3.2x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 59.305, "tp": 2.3728673892760845, "note": "sustained 2.4x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "ARGT", "prev_state": "COOLING", "state": "RUNNING", "price": 89.305, "tp": 4.595474701055559, "note": "sustained 4.6x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 49.77, "tp": 3.9137758342314197, "note": "sustained 3.9x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "RUNNING", "state": "COOLING", "price": 13.46, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "BBW", "prev_state": "RUNNING", "state": "COOLING", "price": 37.78, "tp": 1.69499593875297, "note": "pace 1.7x off peak 7.1x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 14.42, "tp": 2.27104433824228, "note": "quiet open (1.0x) \u2192 now 2.3x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "BAB", "prev_state": "COOLING", "state": "RUNNING", "price": 26.305, "tp": 15.36801588575067, "note": "sustained 15.4x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "RSKD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.165, "tp": 7.8382081531618, "note": "sustained 7.8x"}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "ADV", "prev_state": "RUNNING", "state": "QUIET", "price": 33.05, "tp": 1.4851799668946835, "note": ""}
+{"ts": "2026-08-18T15:28:20.312639-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "FADING", "state": "LEAVING", "price": 1.34, "tp": 235.34430581517802, "note": "pace 235.3x off peak 16848.8x \u00b7 VWAP lost (was +45.9% above)"}
