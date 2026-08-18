@@ -27,3 +27,4 @@
 {"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "CORD", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.66, "tp": 2.805450714513849, "note": ""}
 {"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.95, "tp": 2.618514983736628, "note": ""}
 {"ts": "2026-08-18T09:42:49.530524-04:00", "demo": 0, "ticker": "KORU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.415, "tp": 2.898525670551672, "note": ""}
+{"ts": "2026-08-18T09:45:49.531254-04:00", "demo": 0, "ticker": "SWMR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 45.5, "tp": 0.9231332174934499, "note": ""}
