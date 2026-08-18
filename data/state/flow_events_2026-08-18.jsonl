@@ -966,3 +966,13 @@
 {"ts": "2026-08-18T15:39:35.315099-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.97, "tp": 8.06736460736072, "note": "sustained 8.1x"}
 {"ts": "2026-08-18T15:39:35.315099-04:00", "demo": 0, "ticker": "AMBQ", "prev_state": "COOLING", "state": "RUNNING", "price": 62.46, "tp": 2.3961857071001433, "note": "sustained 2.4x"}
 {"ts": "2026-08-18T15:39:35.315099-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 6.795, "tp": 1.706323637576459, "note": "pace 1.7x off peak 11.6x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "RUNNING", "state": "COOLING", "price": 109.89, "tp": 1.7321359687406894, "note": "pace 1.7x off peak 7.9x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "AGQ", "prev_state": "COOLING", "state": "RUNNING", "price": 76.79, "tp": 1.8947017113441098, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "COOLING", "price": 59.31, "tp": 0.42734616406098214, "note": "pace 0.4x off peak 11.1x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "FADING", "state": "IGNITING", "price": 7.615, "tp": 6.593873208856938, "note": "pace 6.6x and accelerating (38.6x vs prior window) \u00b7 -2.9% in window"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "FADING", "state": "COOLING", "price": 9.545, "tp": 1.4570700794881217, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.305, "tp": 0.0, "note": "pace 0.0x off peak 43.6x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 6.8, "tp": 3.7925911683165916, "note": "sustained 3.8x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "COOLING", "state": "NEW MONEY", "price": 32.76, "tp": 2.7339746330255683, "note": "quiet open (0.2x) \u2192 now 2.7x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "AIS", "prev_state": "COOLING", "state": "RUNNING", "price": 69.73, "tp": 2.243683054323064, "note": "sustained 2.2x"}
+{"ts": "2026-08-18T15:43:20.315186-04:00", "demo": 0, "ticker": "BRIB", "prev_state": "CHURN", "state": "RUNNING", "price": 24.94, "tp": 116333.12973694575, "note": "sustained 116333.1x"}
