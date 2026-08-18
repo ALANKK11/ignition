@@ -824,3 +824,11 @@
 {"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "COOLING", "state": "RUNNING", "price": 93.305, "tp": 2.3118899247360636, "note": "sustained 2.3x"}
 {"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 49.77, "tp": 5.743006505968525, "note": "sustained 5.7x"}
 {"ts": "2026-08-18T14:54:35.307065-04:00", "demo": 0, "ticker": "BORR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.4, "tp": 1.8484489725039392, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "BORR", "prev_state": "RUNNING", "state": "COOLING", "price": 4.4, "tp": 1.3466865290211896, "note": "pace 1.3x off peak 15.4x"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "BRIB", "prev_state": "RUNNING", "state": "FADING", "price": 24.96, "tp": 7885.227206742678, "note": "pace 7885.2x vs peak 69811.8x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.975, "tp": 1.545258802038839, "note": "pace 1.5x off peak 16.8x"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.37, "tp": 2.571076729991695, "note": "sustained 2.6x"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "GENB", "prev_state": "FADING", "state": "NEW MONEY", "price": 16.21, "tp": 2.4473591422402308, "note": "quiet open (0.3x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "ALH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.29, "tp": 9.275173098229741, "note": "9.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "ALXO", "prev_state": "IGNITING", "state": "FADING", "price": 2.055, "tp": 1.2394796793745722, "note": "pace 1.2x vs peak 4.5x \u00b7 -0.7% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T14:58:20.307532-04:00", "demo": 0, "ticker": "AUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.065, "tp": 6.513825232920893, "note": "sustained 6.5x"}
