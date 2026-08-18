@@ -341,3 +341,12 @@
 {"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 91.09, "tp": 12.479072616431438, "note": "sustained 12.5x"}
 {"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "COOLING", "state": "RUNNING", "price": 59.66, "tp": 1.9523724555058326, "note": "sustained 2.0x"}
 {"ts": "2026-08-18T11:48:49.553978-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "COOLING", "state": "QUIET", "price": 11.2, "tp": 1.7335477309492462, "note": ""}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "QUIET", "state": "COOLING", "price": 11.23, "tp": 1.4880774031354738, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "AMDG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 86.98, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "AXTU", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.71, "tp": 3.1165288113562495, "note": "sustained 3.1x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "COOLING", "state": "CHURN", "price": 20.38, "tp": 6.2479886421147155, "note": "6.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "ASX", "prev_state": "RUNNING", "state": "COOLING", "price": 36.27, "tp": 1.753584443785861, "note": "pace 1.8x off peak 6.3x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "BORR", "prev_state": "RUNNING", "state": "COOLING", "price": 4.355, "tp": 1.041315592288384, "note": "pace 1.0x off peak 4.1x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "RLX", "prev_state": "IGNITING", "state": "COOLING", "price": 1.82, "tp": 1.6414951939574978, "note": "pace 1.6x off peak 4.0x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "BLOK", "prev_state": "RUNNING", "state": "COOLING", "price": 59.66, "tp": 1.0138795478668619, "note": "pace 1.0x off peak 11.1x"}
+{"ts": "2026-08-18T11:51:49.554495-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.685, "tp": 9.36465034686782, "note": "pace 9.4x and accelerating (1.7x vs prior window) \u00b7 -0.6% in window"}
