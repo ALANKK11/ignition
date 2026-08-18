@@ -450,3 +450,10 @@
 {"ts": "2026-08-18T12:21:49.560276-04:00", "demo": 0, "ticker": "AMPG", "prev_state": "LEAVING", "state": "IGNITING", "price": 3.565, "tp": 3.367823656651775, "note": "pace 3.4x and accelerating (2.0x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-08-18T12:21:49.560276-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 6.875, "tp": 1.5597421309260535, "note": "pace 1.6x off peak 4.1x"}
 {"ts": "2026-08-18T12:21:49.560276-04:00", "demo": 0, "ticker": "ALXO", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.065, "tp": 3.607829013229972, "note": "pace 3.6x and accelerating (2.4x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "ACIC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.58, "tp": 2.088108945688664, "note": "quiet open (0.1x) \u2192 now 2.1x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.19, "tp": 2.703874343641003, "note": "sustained 2.7x"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "ALXO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.07, "tp": 2.247033231417292, "note": "sustained 2.2x"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 90.78, "tp": 6.194417427080977, "note": "sustained 6.2x"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "RUNNING", "state": "COOLING", "price": 14.1, "tp": 1.1327329288420336, "note": "pace 1.1x off peak 11.4x"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "RUNNING", "state": "COOLING", "price": 49.87, "tp": 1.0476840209880773, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-08-18T12:24:49.561125-04:00", "demo": 0, "ticker": "GENB", "prev_state": "LEAVING", "state": "FADING", "price": 16.2, "tp": 0.5831435897139552, "note": "pace 0.6x vs peak 2.3x \u00b7 -2.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
