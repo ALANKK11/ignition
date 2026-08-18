@@ -325,3 +325,10 @@
 {"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 91.315, "tp": 10.506735302175976, "note": "sustained 10.5x"}
 {"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "COOLING", "state": "QUIET", "price": 11.18, "tp": 1.7698693860095347, "note": ""}
 {"ts": "2026-08-18T11:42:49.552696-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "CHURN", "state": "RUNNING", "price": 93.295, "tp": 12.0068848242721, "note": "sustained 12.0x"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "BIDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 91.21, "tp": 13.751824375102409, "note": "pace 13.8x and accelerating (1.9x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "FADING", "state": "RUNNING", "price": 12.08, "tp": 1.9507419953675822, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "IGNITING", "state": "LEAVING", "price": 1.82, "tp": 3031.532615413898, "note": "pace 3031.5x off peak 16848.8x \u00b7 VWAP lost (was +45.9% above)"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "AVDV", "prev_state": "COOLING", "state": "RUNNING", "price": 109.865, "tp": 2.810123911964909, "note": "sustained 2.8x"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "JCAP", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 23.57, "tp": 6.03487459471044, "note": "pace 6.0x and accelerating (62.2x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "NMAX", "prev_state": "QUIET", "state": "COOLING", "price": 11.2, "tp": 1.5859051346134954, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-08-18T11:45:49.553246-04:00", "demo": 0, "ticker": "RLX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 1.815, "tp": 3.7448198936255426, "note": "pace 3.7x and accelerating (21.6x vs prior window) \u00b7 +0.6% in window"}
