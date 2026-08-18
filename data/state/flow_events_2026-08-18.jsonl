@@ -19,3 +19,5 @@
 {"ts": "2026-08-18T09:02:19.508670-04:00", "demo": 0, "ticker": "UTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Universal Technical Institute, Inc. Announces New Revolving Line of Credit Agreement with Fifth Third Bank, JPMorganChas"}
 {"ts": "2026-08-18T09:02:19.508670-04:00", "demo": 0, "ticker": "SECZ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Securitize and Neuberger Launch New Tokenized Fixed Income Fund"}
 {"ts": "2026-08-18T09:18:49.524934-04:00", "demo": 0, "ticker": "XOS", "prev_state": null, "state": "PM IGNITION", "price": 4.56, "tp": null, "note": "+118% on $0.05M ext tape"}
+{"ts": "2026-08-18T09:36:04.529367-04:00", "demo": 0, "ticker": "NVG", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.365, "tp": 1.876813116827898, "note": ""}
+{"ts": "2026-08-18T09:36:04.529367-04:00", "demo": 0, "ticker": "BORR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.49, "tp": 0.9503809074117814, "note": ""}
