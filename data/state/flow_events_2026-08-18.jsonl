@@ -242,3 +242,7 @@
 {"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BBSI", "prev_state": "QUIET", "state": "IGNITING", "price": 32.515, "tp": 3.5624893195868337, "note": "pace 3.6x and accelerating (5.6x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BCML", "prev_state": "QUIET", "state": "NEW MONEY", "price": 30.845, "tp": 3.2203521230706316, "note": "quiet open (0.3x) \u2192 now 3.2x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-18T11:15:49.547628-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.4653, "tp": 205.17676447270986, "note": "pace 205.2x and accelerating (2.4x vs prior window) \u00b7 -2.7% in window"}
+{"ts": "2026-08-18T11:18:49.548283-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.46, "tp": 185.1249022505284, "note": "sustained 185.1x"}
+{"ts": "2026-08-18T11:18:49.548283-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "COOLING", "price": 12.11, "tp": 1.7155747874886227, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-08-18T11:18:49.548283-04:00", "demo": 0, "ticker": "NNBR", "prev_state": "COOLING", "state": "IGNITING", "price": 3.9, "tp": 2.916354521142871, "note": "pace 2.9x and accelerating (4.1x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-18T11:18:49.548283-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 6.87, "tp": 1.573404854047926, "note": "pace 1.6x off peak 4.1x"}
