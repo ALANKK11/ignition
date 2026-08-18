@@ -139,3 +139,6 @@
 {"ts": "2026-08-18T10:30:49.539804-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.56, "tp": 1.5570617785083345, "note": "pace 1.6x off peak 3.1x"}
 {"ts": "2026-08-18T10:30:49.539804-04:00", "demo": 0, "ticker": "NVG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.38, "tp": 4.188146713591167, "note": "sustained 4.2x"}
 {"ts": "2026-08-18T10:30:49.539804-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 10.68, "tp": 1.5776590845526295, "note": "pace 1.6x off peak 2.3x"}
+{"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "CORN", "prev_state": "FADING", "state": "COOLING", "price": 18.43, "tp": 1.5870781935877984, "note": "pace 1.6x off peak 22.8x"}
+{"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "NVG", "prev_state": "RUNNING", "state": "COOLING", "price": 12.38, "tp": 0.568680162303449, "note": "pace 0.6x off peak 7.0x"}
+{"ts": "2026-08-18T10:33:49.540077-04:00", "demo": 0, "ticker": "COLO", "prev_state": "COOLING", "state": "CHURN", "price": 48.7, "tp": 24.26579441968461, "note": "24.3x participation, no progress at highs \u2014 absorption"}
