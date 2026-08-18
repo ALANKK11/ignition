@@ -170,3 +170,11 @@
 {"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "COOLING", "state": "NEW MONEY", "price": 14.63, "tp": 2.029373930886613, "note": "quiet open (1.0x) \u2192 now 2.0x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.79, "tp": 2.4555880566586645, "note": "quiet open (0.2x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-08-18T10:48:49.542897-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "COOLING", "price": 12.085, "tp": 1.4720268340928033, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "CCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.375, "tp": 8.63142071415209, "note": "sustained 8.6x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 6.87, "tp": 0.9707474392636822, "note": "pace 1.0x off peak 4.1x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "AUR", "prev_state": "COOLING", "state": "RUNNING", "price": 6.075, "tp": 2.0148838077817404, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 10.58, "tp": 1.7030260842956089, "note": "pace 1.7x off peak 2.3x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "COOLING", "state": "RUNNING", "price": 4.41, "tp": 1.9355909676022, "note": "sustained 1.9x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "CBRS", "prev_state": "QUIET", "state": "RUNNING", "price": 219.16, "tp": 1.9821997569559064, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.3, "tp": 3.2823795917246827, "note": "pace 3.3x and accelerating (5.2x vs prior window) \u00b7 -4.7% in window"}
+{"ts": "2026-08-18T10:51:49.543411-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "FADING", "state": "RUNNING", "price": 4.015, "tp": 4.4034847959698755, "note": "sustained 4.4x"}
