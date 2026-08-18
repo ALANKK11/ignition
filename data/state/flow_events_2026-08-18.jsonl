@@ -153,3 +153,9 @@
 {"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "COOLING", "state": "QUIET", "price": 10.57, "tp": 1.7690216977327817, "note": ""}
 {"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "AUR", "prev_state": "RUNNING", "state": "COOLING", "price": 6.085, "tp": 1.3636422740614111, "note": "pace 1.4x off peak 3.5x"}
 {"ts": "2026-08-18T10:39:49.541156-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "FADING", "state": "COOLING", "price": 7.98, "tp": 1.2762198146537913, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "CCO", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.365, "tp": 8.448013703885861, "note": "pace 8.4x and accelerating (2.2x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "QUIET", "price": 23.32, "tp": 1.4904472305749954, "note": ""}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "COOLING", "price": 12.06, "tp": 1.7634113891593164, "note": "pace 1.8x off peak 2.6x"}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "COLO", "prev_state": "RUNNING", "state": "CHURN", "price": 48.54, "tp": 23.083428544918952, "note": "23.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "AIS", "prev_state": "RUNNING", "state": "IGNITING", "price": 70.39, "tp": 3.035196303592321, "note": "pace 3.0x and accelerating (2.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.625, "tp": 2.016884930315761, "note": "sustained 2.0x"}
