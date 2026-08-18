@@ -159,3 +159,11 @@
 {"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "COLO", "prev_state": "RUNNING", "state": "CHURN", "price": 48.54, "tp": 23.083428544918952, "note": "23.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "AIS", "prev_state": "RUNNING", "state": "IGNITING", "price": 70.39, "tp": 3.035196303592321, "note": "pace 3.0x and accelerating (2.6x vs prior window) \u00b7 -0.4% in window"}
 {"ts": "2026-08-18T10:42:49.541745-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.625, "tp": 2.016884930315761, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "BTAL", "prev_state": "COOLING", "state": "RUNNING", "price": 12.08, "tp": 1.8153432828428546, "note": "sustained 1.8x"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "COLO", "prev_state": "CHURN", "state": "COOLING", "price": 48.54, "tp": 0.49506725065701324, "note": "pace 0.5x off peak 24.3x"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "AIXC", "prev_state": "IGNITING", "state": "FADING", "price": 2.67, "tp": 487.0020830211109, "note": "pace 487.0x vs peak 7891.8x \u00b7 -9.5% off HOD \u00b7 chart still +280% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 10.59, "tp": 2.1704577926973165, "note": "quiet open (0.4x) \u2192 now 2.2x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "BEX", "prev_state": "QUIET", "state": "RUNNING", "price": 22.63, "tp": 2.0188689714312242, "note": "sustained 2.0x"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.44, "tp": 15.59692566669106, "note": "sustained 15.6x"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "RUNNING", "state": "FADING", "price": 4.025, "tp": 1.6490567467513972, "note": "pace 1.6x vs peak 6.0x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-18T10:45:49.542449-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.765, "tp": 4.31053598045493, "note": "sustained 4.3x"}
