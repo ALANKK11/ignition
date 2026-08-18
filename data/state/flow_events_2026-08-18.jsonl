@@ -1030,3 +1030,5 @@
 {"ts": "2026-08-18T15:58:20.317996-04:00", "demo": 0, "ticker": "NVG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 12.375, "tp": 1.6343595850850277, "note": "pace 1.6x off peak 7.0x"}
 {"ts": "2026-08-18T15:58:20.317996-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "CHURN", "state": "IGNITING", "price": 17.64, "tp": 3.340051229305793, "note": "pace 3.3x and accelerating (1.9x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-08-18T16:11:05.308763-04:00", "demo": 0, "ticker": "WYFI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WhiteFiber Announces Proposed Private Placement of $250.0 Million of Convertible Senior Notes"}
+{"ts": "2026-08-18T16:16:20.309650-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover to Acquire Leistung, Expand Manufacturing Footprint and Cryogenic Offerings"}
+{"ts": "2026-08-18T16:16:20.309650-04:00", "demo": 0, "ticker": "CHTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Charter Closes $4.75 Billion Senior Secured Notes Offering"}
