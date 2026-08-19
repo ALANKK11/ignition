@@ -25,3 +25,4 @@
 {"ts": "2026-08-19T09:46:30.577125-04:00", "demo": 0, "ticker": "TWST", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 140.37, "tp": 3.1622131214861993, "note": "3.2x tape out of the gate"}
 {"ts": "2026-08-19T09:46:30.577125-04:00", "demo": 0, "ticker": "GDXU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 150.01, "tp": 1.2396440581179993, "note": ""}
 {"ts": "2026-08-19T09:46:30.577125-04:00", "demo": 0, "ticker": "NBIL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 25.75, "tp": 2.4866041550799465, "note": ""}
+{"ts": "2026-08-19T09:49:30.578203-04:00", "demo": 0, "ticker": "NBIL", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 24.97, "tp": 3.823309493781293, "note": "3.8x tape out of the gate"}
