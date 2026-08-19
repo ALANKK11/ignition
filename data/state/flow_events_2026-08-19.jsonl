@@ -589,3 +589,15 @@
 {"ts": "2026-08-19T12:25:30.612242-04:00", "demo": 0, "ticker": "BFLX", "prev_state": "CHURN", "state": "RUNNING", "price": 26.065, "tp": 135.56817737043738, "note": "sustained 135.6x"}
 {"ts": "2026-08-19T12:25:30.612242-04:00", "demo": 0, "ticker": "CAST", "prev_state": "COOLING", "state": "RUNNING", "price": 1.595, "tp": 6.614524840035658, "note": "sustained 6.6x"}
 {"ts": "2026-08-19T12:25:30.612242-04:00", "demo": 0, "ticker": "OABI", "prev_state": "FADING", "state": "LEAVING", "price": 4.0, "tp": 1.0717957683885806, "note": "pace 1.1x off peak 7.3x \u00b7 VWAP lost (was +3.2% above)"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "BMO", "prev_state": "COOLING", "state": "RUNNING", "price": 177.36, "tp": 1.8297842325493079, "note": "sustained 1.8x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "ABG", "prev_state": "QUIET", "state": "NEW MONEY", "price": 214.54, "tp": 2.2372925663260377, "note": "quiet open (0.0x) \u2192 now 2.2x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "ACMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 79.55, "tp": 6.06783468251938, "note": "sustained 6.1x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "AEG", "prev_state": "RUNNING", "state": "COOLING", "price": 9.34, "tp": 0.908008697140567, "note": "pace 0.9x off peak 14.5x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "BIT", "prev_state": "RUNNING", "state": "COOLING", "price": 12.025, "tp": 1.1800137691430495, "note": "pace 1.2x off peak 7.6x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "AEM", "prev_state": "RUNNING", "state": "CHURN", "price": 206.91, "tp": 2.403333946614952, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "CCC", "prev_state": "FADING", "state": "LEAVING", "price": 7.49, "tp": 2.9650330160613545, "note": "pace 3.0x off peak 7.6x \u00b7 VWAP lost (was +2.7% above)"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 14.45, "tp": 7.362470968606765, "note": "pace 7.4x and accelerating (62.1x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "CHURN", "state": "COOLING", "price": 51.96, "tp": 0.0, "note": "pace 0.0x off peak 24.3x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "IMXI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 14.35, "tp": 1.0451964956171627, "note": "pace 1.0x off peak 2.8x"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "BFLX", "prev_state": "RUNNING", "state": "CHURN", "price": 26.06, "tp": 37.3665859108189, "note": "37.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T12:28:30.612838-04:00", "demo": 0, "ticker": "CABA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.1, "tp": 2.8366130335950848, "note": "sustained 2.8x"}
