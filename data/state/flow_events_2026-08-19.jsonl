@@ -557,3 +557,11 @@
 {"ts": "2026-08-19T12:16:30.610390-04:00", "demo": 0, "ticker": "CUE", "prev_state": "FADING", "state": "LEAVING", "price": 26.075, "tp": 0.9162087924210092, "note": "pace 0.9x off peak 2.7x \u00b7 VWAP lost (was +3.5% above)"}
 {"ts": "2026-08-19T12:16:30.610390-04:00", "demo": 0, "ticker": "ACMR", "prev_state": "COOLING", "state": "IGNITING", "price": 79.55, "tp": 6.23736393852876, "note": "pace 6.2x and accelerating (27.9x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-08-19T12:16:30.610390-04:00", "demo": 0, "ticker": "BUXX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 20.245, "tp": 0.0, "note": "pace 0.0x off peak 4.3x"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "BTBT", "prev_state": "COOLING", "state": "RUNNING", "price": 1.41, "tp": 1.9944141137674933, "note": "sustained 2.0x"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "CAST", "prev_state": "RUNNING", "state": "COOLING", "price": 1.68, "tp": 1.622681222980035, "note": "pace 1.6x off peak 5.2x"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "COOLING", "state": "IGNITING", "price": 10.61, "tp": 11.805296307675333, "note": "pace 11.8x and accelerating (12.1x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "AGQ", "prev_state": "RUNNING", "state": "CHURN", "price": 82.055, "tp": 2.7050374411802687, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "CHURN", "price": 8.98, "tp": 6.934963520996741, "note": "6.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "BTCI", "prev_state": "CHURN", "state": "RUNNING", "price": 29.46, "tp": 3.4255693631339694, "note": "sustained 3.4x"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "COOLING", "state": "RUNNING", "price": 41.52, "tp": 2.0797063289360787, "note": "sustained 2.1x"}
+{"ts": "2026-08-19T12:19:30.611075-04:00", "demo": 0, "ticker": "CABA", "prev_state": "LEAVING", "state": "IGNITING", "price": 3.12, "tp": 2.980392971651433, "note": "pace 3.0x and accelerating (9.6x vs prior window) \u00b7 +1.3% in window"}
