@@ -199,3 +199,11 @@
 {"ts": "2026-08-19T10:49:30.591298-04:00", "demo": 0, "ticker": "HTB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 47.175, "tp": 0.0, "note": "pace 0.0x off peak 2.0x"}
 {"ts": "2026-08-19T10:49:30.591298-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.97, "tp": 5.2528281826061285, "note": "sustained 5.3x"}
 {"ts": "2026-08-19T10:49:30.591298-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "RUNNING", "state": "IGNITING", "price": 40.515, "tp": 9.472198590260875, "note": "pace 9.5x and accelerating (2.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "ALT", "prev_state": "RUNNING", "state": "CHURN", "price": 3.06, "tp": 7.996626622808566, "note": "8.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "DBEF", "prev_state": "RUNNING", "state": "COOLING", "price": 55.63, "tp": 1.3518699713466193, "note": "pace 1.4x off peak 8.2x"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "DEC", "prev_state": "FADING", "state": "RUNNING", "price": 14.58, "tp": 1.9309877325168217, "note": "sustained 1.9x"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "LEAVING", "state": "FADING", "price": 9.96, "tp": 5.670379139026161, "note": "pace 5.7x vs peak 24.4x \u00b7 -10.0% off HOD \u00b7 chart still +21% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "RUNNING", "state": "CHURN", "price": 25.105, "tp": 7.577743983663553, "note": "7.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "AVL", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.515, "tp": 7.178367557465707, "note": "sustained 7.2x"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "IGNITING", "state": "RUNNING", "price": 40.515, "tp": 5.563193392004268, "note": "sustained 5.6x"}
+{"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "CHURN", "state": "RUNNING", "price": 51.94, "tp": 13.22383384883349, "note": "sustained 13.2x"}
