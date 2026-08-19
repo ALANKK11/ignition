@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-19T16:36:31-04:00", "session": "post", "rows": [{"ticker": "POLA", "last": 2.04, "gap": 0.4852, "dollars": 110448.06, "vs_adv": 4.1, "new": false}, {"ticker": "BTCT", "last": 1.31, "gap": 0.3809, "dollars": 130308.62019999999, "vs_adv": 52.64, "new": false}]}
+{"v": 4, "ts": "2026-08-19T16:40:16-04:00", "session": "post", "rows": [{"ticker": "POLA", "last": 2.04, "gap": 0.4852, "dollars": 110448.06, "vs_adv": 4.1, "new": false}, {"ticker": "BTCT", "last": 1.22, "gap": 0.3963, "dollars": 145924.84019999998, "vs_adv": 58.3, "new": false}]}
