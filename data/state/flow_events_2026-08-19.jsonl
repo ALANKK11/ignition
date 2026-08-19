@@ -1169,3 +1169,4 @@
 {"ts": "2026-08-19T16:23:46.224499-04:00", "demo": 0, "ticker": "CDNL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HAGENS BERMAN, NATIONAL SECURITIES LAW FIRM, Announces Investigation into Cardinal Infrastructure Group Inc. (NASDAQ: CD"}
 {"ts": "2026-08-19T16:29:01.240413-04:00", "demo": 0, "ticker": "POLA", "prev_state": null, "state": "AH IGNITION", "price": 2.34, "tp": null, "note": "+51% on $0.10M ext tape"}
 {"ts": "2026-08-19T16:29:01.240413-04:00", "demo": 0, "ticker": "BTCT", "prev_state": null, "state": "AH IGNITION", "price": 1.13, "tp": null, "note": "+37% on $0.11M ext tape"}
+{"ts": "2026-08-19T16:47:46.243423-04:00", "demo": 0, "ticker": "BIVI", "prev_state": null, "state": "AH IGNITION", "price": 1.54, "tp": null, "note": "+24% on $0.05M ext tape"}
