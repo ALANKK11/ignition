@@ -3,3 +3,4 @@
 {"ts": "2026-08-19T08:16:30.557381-04:00", "demo": 0, "ticker": "BNTX", "prev_state": null, "state": "PM IGNITION", "price": 107.02, "tp": null, "note": "+17% on $0.39M ext tape"}
 {"ts": "2026-08-19T08:22:30.558598-04:00", "demo": 0, "ticker": "MRNA", "prev_state": null, "state": "PM IGNITION", "price": 115.99, "tp": null, "note": "+94% on $0.31M ext tape"}
 {"ts": "2026-08-19T08:22:30.558598-04:00", "demo": 0, "ticker": "EHGO", "prev_state": null, "state": "PM IGNITION", "price": 2.3, "tp": null, "note": "+26% on $0.06M ext tape"}
+{"ts": "2026-08-19T08:32:15.548500-04:00", "demo": 0, "ticker": "CLBT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cellebrite Genesis for Enterprise Now Generally Available, Regional Availability Expands to More Global Markets"}
