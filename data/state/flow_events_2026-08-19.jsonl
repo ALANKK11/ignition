@@ -703,3 +703,5 @@
 {"ts": "2026-08-19T13:20:01.205140-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "LEAVING", "state": "FADING", "price": 9.74, "tp": 1.0107553441214008, "note": "pace 1.0x vs peak 24.4x \u00b7 -12.0% off HOD \u00b7 chart still +18% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-19T13:20:01.205140-04:00", "demo": 0, "ticker": "AQST", "prev_state": "FADING", "state": "IGNITING", "price": 4.67, "tp": 5.434989972345505, "note": "pace 5.4x and accelerating (2.4x vs prior window) \u00b7 -1.2% in window"}
 {"ts": "2026-08-19T13:20:01.205140-04:00", "demo": 0, "ticker": "AZI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.72, "tp": 8.746966630160188, "note": "sustained 8.7x"}
+{"ts": "2026-08-19T13:23:46.206054-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "CHURN", "state": "RUNNING", "price": 2.48, "tp": 4.728932633757596, "note": "sustained 4.7x"}
+{"ts": "2026-08-19T13:23:46.206054-04:00", "demo": 0, "ticker": "AZI", "prev_state": "RUNNING", "state": "FADING", "price": 1.695, "tp": 5.440790649414758, "note": "pace 5.4x vs peak 22.4x \u00b7 -12.2% off HOD \u00b7 chart still +41% \u2014 crowd buying a cooled tape"}
