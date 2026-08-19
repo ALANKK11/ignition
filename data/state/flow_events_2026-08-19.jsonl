@@ -166,3 +166,10 @@
 {"ts": "2026-08-19T10:37:30.588046-04:00", "demo": 0, "ticker": "DSL", "prev_state": "COOLING", "state": "RUNNING", "price": 10.725, "tp": 9.958550142690065, "note": "sustained 10.0x"}
 {"ts": "2026-08-19T10:37:30.588046-04:00", "demo": 0, "ticker": "EMCS", "prev_state": "CHURN", "state": "RUNNING", "price": 44.855, "tp": 102.8538834272849, "note": "sustained 102.9x"}
 {"ts": "2026-08-19T10:37:30.588046-04:00", "demo": 0, "ticker": "CCUP", "prev_state": "FADING", "state": "IGNITING", "price": 2.06, "tp": 2.936670962553919, "note": "pace 2.9x and accelerating (3.5x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.965, "tp": 4.4909157175866685, "note": "sustained 4.5x"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "AVL", "prev_state": "RUNNING", "state": "IGNITING", "price": 38.42, "tp": 13.244274306093638, "note": "pace 13.2x and accelerating (2.0x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "DUST", "prev_state": "RUNNING", "state": "IGNITING", "price": 34.5, "tp": 5.386107627102411, "note": "pace 5.4x and accelerating (10.4x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "EL", "prev_state": "IGNITING", "state": "CHURN", "price": 97.965, "tp": 11.480890336617483, "note": "11.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "HTB", "prev_state": "QUIET", "state": "RUNNING", "price": 47.175, "tp": 1.8554215842118984, "note": "sustained 1.9x"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "CCUP", "prev_state": "IGNITING", "state": "FADING", "price": 2.07, "tp": 2.3466386028931847, "note": "pace 2.3x vs peak 7.5x \u00b7 -1.4% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T10:40:30.588832-04:00", "demo": 0, "ticker": "BTBT", "prev_state": "COOLING", "state": "RUNNING", "price": 1.275, "tp": 2.0527316520439234, "note": "sustained 2.1x"}
