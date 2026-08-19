@@ -17,3 +17,6 @@
 {"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.1, "tp": 1.5815630802060359, "note": ""}
 {"ts": "2026-08-19T09:39:45.575877-04:00", "demo": 0, "ticker": "NUGT", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 176.52, "tp": 8.37107341031906, "note": "8.4x tape out of the gate"}
 {"ts": "2026-08-19T09:39:45.575877-04:00", "demo": 0, "ticker": "OABI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 4.0, "tp": 6.750898441038402, "note": "6.8x tape out of the gate"}
+{"ts": "2026-08-19T09:43:30.576616-04:00", "demo": 0, "ticker": "NEBX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 26.34, "tp": 2.4999781967357304, "note": ""}
+{"ts": "2026-08-19T09:43:30.576616-04:00", "demo": 0, "ticker": "DUST", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 36.445, "tp": 3.7780105846603957, "note": "3.8x tape out of the gate"}
+{"ts": "2026-08-19T09:43:30.576616-04:00", "demo": 0, "ticker": "TWST", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 138.155, "tp": 2.9948797991840084, "note": ""}
