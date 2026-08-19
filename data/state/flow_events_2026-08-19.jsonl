@@ -15,3 +15,5 @@
 {"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.5, "tp": 2.972609885803236, "note": ""}
 {"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "BAB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 26.42, "tp": 13.263626541183598, "note": "13.3x tape out of the gate"}
 {"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.1, "tp": 1.5815630802060359, "note": ""}
+{"ts": "2026-08-19T09:39:45.575877-04:00", "demo": 0, "ticker": "NUGT", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 176.52, "tp": 8.37107341031906, "note": "8.4x tape out of the gate"}
+{"ts": "2026-08-19T09:39:45.575877-04:00", "demo": 0, "ticker": "OABI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 4.0, "tp": 6.750898441038402, "note": "6.8x tape out of the gate"}
