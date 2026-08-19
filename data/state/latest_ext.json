@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-19T16:25:16-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-19T16:29:01-04:00", "session": "post", "rows": [{"ticker": "POLA", "last": 2.34, "gap": 0.5061, "dollars": 96829.12999999999, "vs_adv": 3.54, "new": true}, {"ticker": "BTCT", "last": 1.13, "gap": 0.366, "dollars": 107909.8502, "vs_adv": 44.07, "new": true}]}
