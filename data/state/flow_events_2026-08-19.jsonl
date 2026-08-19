@@ -7,3 +7,11 @@
 {"ts": "2026-08-19T09:02:15.555000-04:00", "demo": 0, "ticker": "CART", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Instacart Expands On-Demand Retail Delivery with Foot Locker, Kids Foot Locker, and Champs Sports"}
 {"ts": "2026-08-19T09:06:00.555829-04:00", "demo": 0, "ticker": "PANW", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Palo Alto Networks Introduces Frontier AI Critical Defense Program"}
 {"ts": "2026-08-19T09:24:00.559872-04:00", "demo": 0, "ticker": "EQPT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "EQUIPMENTSHARE.COM INC. SECURITIES FRAUD NOTICE: Berger Montague Informs EquipmentShare.com Inc. (NASDAQ: EQPT) Investor"}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.015, "tp": 2.859595417431611, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "NUGT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 175.735, "tp": 2.8003471429436853, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "IPST", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.31, "tp": 1.165730197091402, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "SLVP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 38.14, "tp": 2.848359158401367, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "ANGX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.585, "tp": 2.267984185526516, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.5, "tp": 2.972609885803236, "note": ""}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "BAB", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 26.42, "tp": 13.263626541183598, "note": "13.3x tape out of the gate"}
+{"ts": "2026-08-19T09:36:00.575211-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.1, "tp": 1.5815630802060359, "note": ""}
