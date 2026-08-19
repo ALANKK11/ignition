@@ -207,3 +207,11 @@
 {"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "AVL", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.515, "tp": 7.178367557465707, "note": "sustained 7.2x"}
 {"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "IGNITING", "state": "RUNNING", "price": 40.515, "tp": 5.563193392004268, "note": "sustained 5.6x"}
 {"ts": "2026-08-19T10:52:30.591607-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "CHURN", "state": "RUNNING", "price": 51.94, "tp": 13.22383384883349, "note": "sustained 13.2x"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "AOM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 49.9, "tp": 2.6605527431323965, "note": "quiet open (0.4x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "CRSP", "prev_state": "RUNNING", "state": "COOLING", "price": 57.47, "tp": 1.5510572460237144, "note": "pace 1.6x off peak 2.9x"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "DBEF", "prev_state": "COOLING", "state": "RUNNING", "price": 55.62, "tp": 3.550507416156399, "note": "sustained 3.6x"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "CRCL", "prev_state": "QUIET", "state": "RUNNING", "price": 79.5, "tp": 1.8963581902469302, "note": "sustained 1.9x"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.54, "tp": 1.5233443543952647, "note": "pace 1.5x off peak 2.8x"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "CHURN", "state": "FADING", "price": 25.045, "tp": 4.674921632367328, "note": "pace 4.7x vs peak 15.4x \u00b7 -0.6% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "ANGX", "prev_state": "COOLING", "state": "FADING", "price": 4.89, "tp": 0.5466900411757595, "note": "pace 0.5x vs peak 8.2x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T10:55:30.592624-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "RUNNING", "state": "COOLING", "price": 51.94, "tp": 1.1061167555200115, "note": "pace 1.1x off peak 24.3x"}
