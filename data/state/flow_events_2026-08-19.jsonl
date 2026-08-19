@@ -1,3 +1,5 @@
 {"ts": "2026-08-19T07:32:15.535466-04:00", "demo": 0, "ticker": "WYFI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WhiteFiber Announces Pricing of Upsized $270.0 Million Convertible Senior Notes Offering"}
 {"ts": "2026-08-19T08:16:30.557381-04:00", "demo": 0, "ticker": "YJ", "prev_state": null, "state": "PM IGNITION", "price": 3.96, "tp": null, "note": "+105% on $0.07M ext tape"}
 {"ts": "2026-08-19T08:16:30.557381-04:00", "demo": 0, "ticker": "BNTX", "prev_state": null, "state": "PM IGNITION", "price": 107.02, "tp": null, "note": "+17% on $0.39M ext tape"}
+{"ts": "2026-08-19T08:22:30.558598-04:00", "demo": 0, "ticker": "MRNA", "prev_state": null, "state": "PM IGNITION", "price": 115.99, "tp": null, "note": "+94% on $0.31M ext tape"}
+{"ts": "2026-08-19T08:22:30.558598-04:00", "demo": 0, "ticker": "EHGO", "prev_state": null, "state": "PM IGNITION", "price": 2.3, "tp": null, "note": "+26% on $0.06M ext tape"}
