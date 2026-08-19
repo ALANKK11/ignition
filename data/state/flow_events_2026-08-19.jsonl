@@ -937,3 +937,8 @@
 {"ts": "2026-08-19T14:50:01.222122-04:00", "demo": 0, "ticker": "BIVI", "prev_state": "FADING", "state": "LEAVING", "price": 1.22, "tp": 0.7275678895788675, "note": "pace 0.7x off peak 6.0x \u00b7 VWAP lost (was +5.7% above)"}
 {"ts": "2026-08-19T14:50:01.222122-04:00", "demo": 0, "ticker": "IMXI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 14.225, "tp": 1.5468935081298962, "note": "pace 1.5x off peak 2.9x"}
 {"ts": "2026-08-19T14:50:01.222122-04:00", "demo": 0, "ticker": "BITI", "prev_state": "COOLING", "state": "RUNNING", "price": 22.31, "tp": 1.9227639749787693, "note": "sustained 1.9x"}
+{"ts": "2026-08-19T14:53:46.223459-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "LEAVING", "state": "FADING", "price": 14.17, "tp": 0.8800051926840475, "note": "pace 0.9x vs peak 14.8x \u00b7 -2.9% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T14:53:46.223459-04:00", "demo": 0, "ticker": "BIVI", "prev_state": "LEAVING", "state": "FADING", "price": 1.25, "tp": 1.242590251684384, "note": "pace 1.2x vs peak 6.0x \u00b7 -12.6% off HOD \u00b7 chart still +29% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T14:53:46.223459-04:00", "demo": 0, "ticker": "AVL", "prev_state": "COOLING", "state": "IGNITING", "price": 39.71, "tp": 6.070366735015331, "note": "pace 6.1x and accelerating (3.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-08-19T14:53:46.223459-04:00", "demo": 0, "ticker": "LWAY", "prev_state": "RUNNING", "state": "COOLING", "price": 25.12, "tp": 0.791192429682026, "note": "pace 0.8x off peak 1.9x"}
+{"ts": "2026-08-19T14:53:46.223459-04:00", "demo": 0, "ticker": "OABI", "prev_state": "LEAVING", "state": "RUNNING", "price": 4.0, "tp": 7.17412140703812, "note": "sustained 7.2x"}
