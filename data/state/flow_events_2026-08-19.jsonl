@@ -794,3 +794,14 @@
 {"ts": "2026-08-19T14:01:16.213361-04:00", "demo": 0, "ticker": "BMO", "prev_state": "RUNNING", "state": "COOLING", "price": 176.915, "tp": 1.4994683365924095, "note": "pace 1.5x off peak 8.5x"}
 {"ts": "2026-08-19T14:01:16.213361-04:00", "demo": 0, "ticker": "BSVN", "prev_state": "COOLING", "state": "IGNITING", "price": 51.98, "tp": 38.68217861369382, "note": "pace 38.7x and accelerating (773.6x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-08-19T14:01:16.213361-04:00", "demo": 0, "ticker": "AVL", "prev_state": "RUNNING", "state": "COOLING", "price": 39.58, "tp": 0.0, "note": "pace 0.0x off peak 18.4x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "COOLING", "state": "NEW MONEY", "price": 3.955, "tp": 4.8018425898900485, "note": "quiet open (0.9x) \u2192 now 4.8x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "HTB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 47.12, "tp": 0.0, "note": "pace 0.0x off peak 3.0x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "TECX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 36.64, "tp": 1.3369627682678313, "note": "pace 1.3x off peak 5.4x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "AUNA", "prev_state": "RUNNING", "state": "COOLING", "price": 5.4, "tp": 1.4639706330958497, "note": "pace 1.5x off peak 27.7x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "FDMT", "prev_state": "FADING", "state": "IGNITING", "price": 16.24, "tp": 6.2861838074200005, "note": "pace 6.3x and accelerating (2.5x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "ARKG", "prev_state": "RUNNING", "state": "FADING", "price": 46.97, "tp": 1.9935958722060174, "note": "pace 2.0x vs peak 6.0x \u00b7 -0.1% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "ERY", "prev_state": "CHURN", "state": "COOLING", "price": 9.01, "tp": 1.6013352431739332, "note": "pace 1.6x off peak 16.5x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "BTBT", "prev_state": "IGNITING", "state": "COOLING", "price": 1.41, "tp": 0.16549646438341847, "note": "pace 0.2x off peak 8.3x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "ACMR", "prev_state": "COOLING", "state": "RUNNING", "price": 78.13, "tp": 4.593354847508299, "note": "sustained 4.6x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "BHYP", "prev_state": "FADING", "state": "RUNNING", "price": 34.85, "tp": 5.485089247898935, "note": "sustained 5.5x"}
+{"ts": "2026-08-19T14:05:01.214292-04:00", "demo": 0, "ticker": "ASMB", "prev_state": "CHURN", "state": "RUNNING", "price": 33.205, "tp": 3.9401543418019256, "note": "sustained 3.9x"}
