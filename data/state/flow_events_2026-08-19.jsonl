@@ -682,3 +682,4 @@
 {"ts": "2026-08-19T13:12:31.207257-04:00", "demo": 0, "ticker": "AUNA", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.62, "tp": 18.939563805447623, "note": "sustained 18.9x"}
 {"ts": "2026-08-19T13:12:31.207257-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "COOLING", "price": 8.98, "tp": 0.2639065764884349, "note": "pace 0.3x off peak 16.5x"}
 {"ts": "2026-08-19T13:12:31.207257-04:00", "demo": 0, "ticker": "AZI", "prev_state": "FADING", "state": "IGNITING", "price": 1.76, "tp": 8.98653673056467, "note": "pace 9.0x and accelerating (2.2x vs prior window) \u00b7 +10.0% in window"}
+{"ts": "2026-08-19T13:13:16.188989-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DVLT UPCOMING DEADLINE: Levi &amp; Korsinsky Alerts Datavault AI Inc. Stockholders of Securities Class Action - Contact "}
