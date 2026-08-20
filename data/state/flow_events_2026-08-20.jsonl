@@ -60,3 +60,4 @@
 {"ts": "2026-08-20T13:14:41.049035-04:00", "demo": 0, "ticker": "ABEV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.775, "tp": 0.13876105311982345, "note": "pace 0.1x off peak 2.4x"}
 {"ts": "2026-08-20T13:14:41.049035-04:00", "demo": 0, "ticker": "COTY", "prev_state": "RUNNING", "state": "COOLING", "price": 2.75, "tp": 0.8087953645024949, "note": "pace 0.8x off peak 9.0x"}
 {"ts": "2026-08-20T13:14:41.049035-04:00", "demo": 0, "ticker": "FUTG", "prev_state": "IGNITING", "state": "COOLING", "price": 4.24, "tp": 1.0758664744873017, "note": "pace 1.1x off peak 4.8x"}
+{"ts": "2026-08-20T13:15:26.032865-04:00", "demo": 0, "ticker": "WIX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WIX DEADLINE: SueWallSt Reminds Wix.com Ltd. Investors of Upcoming Securities Class Action Deadline"}
