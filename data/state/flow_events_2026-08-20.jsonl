@@ -24,3 +24,10 @@
 {"ts": "2026-08-20T09:36:05.225047-04:00", "demo": 0, "ticker": "WYFI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 20.89, "tp": 2.621728836286492, "note": ""}
 {"ts": "2026-08-20T09:36:05.225047-04:00", "demo": 0, "ticker": "CORN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 18.92, "tp": 1.7726404297772425, "note": ""}
 {"ts": "2026-08-20T09:36:05.225047-04:00", "demo": 0, "ticker": "IMNM", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 29.0, "tp": 0.6872714465693177, "note": ""}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "SBET", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 7.22, "tp": 3.4240697282806063, "note": "3.4x tape out of the gate"}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 2.62, "tp": 3.1892915959737254, "note": "3.2x tape out of the gate"}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "GEMI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.11, "tp": 2.7146989816669587, "note": ""}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "WETO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 32.685, "tp": 2.1973411679724473, "note": ""}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "CONI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 39.5, "tp": 2.6711200638066295, "note": ""}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "ASST", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.32, "tp": 2.9686184332184054, "note": ""}
+{"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "XRP", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 13.33, "tp": 4.420358320636963, "note": "4.4x tape out of the gate"}
