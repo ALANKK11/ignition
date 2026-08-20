@@ -430,3 +430,14 @@
 {"ts": "2026-08-20T14:43:56.063470-04:00", "demo": 0, "ticker": "ETHU", "prev_state": "FADING", "state": "IGNITING", "price": 23.42, "tp": 4.366236351265854, "note": "pace 4.4x and accelerating (1.9x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-08-20T14:43:56.063470-04:00", "demo": 0, "ticker": "NOMD", "prev_state": "COOLING", "state": "QUIET", "price": 11.635, "tp": 1.6865149676883062, "note": ""}
 {"ts": "2026-08-20T14:43:56.063470-04:00", "demo": 0, "ticker": "XRP", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.035, "tp": 14.815331042301926, "note": "sustained 14.8x"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "BILS", "prev_state": "CHURN", "state": "FADING", "price": 99.34, "tp": 0.0, "note": "pace 0.0x vs peak 5.6x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "BTCS", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.245, "tp": 7.224379758369324, "note": "sustained 7.2x"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "AIA", "prev_state": "RUNNING", "state": "CHURN", "price": 137.375, "tp": 15.771253459319219, "note": "15.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "IGNITING", "state": "FADING", "price": 18.765, "tp": 2.8328642655069194, "note": "pace 2.8x vs peak 11.5x \u00b7 -1.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "ARQT", "prev_state": "COOLING", "state": "RUNNING", "price": 25.09, "tp": 2.8004460183881306, "note": "sustained 2.8x"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "ANDG", "prev_state": "RUNNING", "state": "CHURN", "price": 49.34, "tp": 6.017999288870869, "note": "6.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "IGEB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 44.165, "tp": 0.8340385042364714, "note": "pace 0.8x off peak 18.4x"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "DE", "prev_state": "IGNITING", "state": "RUNNING", "price": 616.855, "tp": 4.6300350111050514, "note": "sustained 4.6x"}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "DNUT", "prev_state": "NEW MONEY", "state": "QUIET", "price": 3.475, "tp": 1.7245640415464047, "note": ""}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "AMCR", "prev_state": "RUNNING", "state": "QUIET", "price": 47.885, "tp": 1.6751778811112774, "note": ""}
+{"ts": "2026-08-20T14:47:41.064383-04:00", "demo": 0, "ticker": "BJ", "prev_state": "RUNNING", "state": "CHURN", "price": 90.095, "tp": 2.375745385183216, "note": "2.4x participation, no progress at highs \u2014 absorption"}
