@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-20T08:35:20-04:00", "session": "pre", "rows": [{"ticker": "BTCT", "last": 1.49, "gap": 0.6679, "dollars": 122141.70999999998, "vs_adv": 3.56, "new": false}, {"ticker": "ETHU", "last": 22.73, "gap": 0.1686, "dollars": 372970.73999999993, "vs_adv": 0.13, "new": false}]}
+{"v": 4, "ts": "2026-08-20T08:38:20-04:00", "session": "pre", "rows": [{"ticker": "BTCT", "last": 1.47, "gap": 0.7035, "dollars": 158506.75, "vs_adv": 4.52, "new": false}, {"ticker": "ETHU", "last": 22.72, "gap": 0.1686, "dollars": 372970.73999999993, "vs_adv": 0.13, "new": false}]}
