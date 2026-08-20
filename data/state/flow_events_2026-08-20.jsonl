@@ -31,3 +31,7 @@
 {"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "CONI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 39.5, "tp": 2.6711200638066295, "note": ""}
 {"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "ASST", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 15.32, "tp": 2.9686184332184054, "note": ""}
 {"ts": "2026-08-20T09:39:50.226012-04:00", "demo": 0, "ticker": "XRP", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 13.33, "tp": 4.420358320636963, "note": "4.4x tape out of the gate"}
+{"ts": "2026-08-20T09:42:50.226611-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.605, "tp": 2.608245501112011, "note": ""}
+{"ts": "2026-08-20T09:42:50.226611-04:00", "demo": 0, "ticker": "GEMI", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 4.14, "tp": 3.071858728574333, "note": "3.1x tape out of the gate"}
+{"ts": "2026-08-20T09:42:50.226611-04:00", "demo": 0, "ticker": "MSTX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.86, "tp": 2.5771153447086985, "note": ""}
+{"ts": "2026-08-20T09:42:50.226611-04:00", "demo": 0, "ticker": "TNON", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 7.5, "tp": 2.278756635531382, "note": ""}
