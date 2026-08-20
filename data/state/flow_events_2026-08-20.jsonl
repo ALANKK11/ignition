@@ -144,3 +144,17 @@
 {"ts": "2026-08-20T13:34:11.049520-04:00", "demo": 0, "ticker": "SCZM", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 9.76, "tp": 1.8534944699844227, "note": "sustained 1.9x"}
 {"ts": "2026-08-20T13:34:11.049520-04:00", "demo": 0, "ticker": "CONY", "prev_state": "RUNNING", "state": "CHURN", "price": 20.1, "tp": 2.2520920099269612, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-20T13:34:11.049520-04:00", "demo": 0, "ticker": "BRBS", "prev_state": "CHURN", "state": "RUNNING", "price": 3.9, "tp": 1.9973644628899143, "note": "sustained 2.0x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.55, "tp": 81.36240996530343, "note": "sustained 81.4x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "CDTG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.48, "tp": 5.533870200745446, "note": "sustained 5.5x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "DFCF", "prev_state": "QUIET", "state": "NEW MONEY", "price": 41.52, "tp": 3.621471763520462, "note": "quiet open (0.4x) \u2192 now 3.6x \u00b7 taking +1.3% flow share"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "BJ", "prev_state": "RUNNING", "state": "CHURN", "price": 90.435, "tp": 6.750893093890171, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "TRLV", "prev_state": "RUNNING", "state": "COOLING", "price": 10.07, "tp": 1.7500319044774648, "note": "pace 1.8x off peak 4.4x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "ETHT", "prev_state": "FADING", "state": "CHURN", "price": 15.43, "tp": 3.067587782474153, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "DE", "prev_state": "CHURN", "state": "RUNNING", "price": 626.42, "tp": 4.549266196732168, "note": "sustained 4.5x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "CONY", "prev_state": "CHURN", "state": "COOLING", "price": 20.1, "tp": 1.2679275008401298, "note": "pace 1.3x off peak 2.8x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "SCZM", "prev_state": "RUNNING", "state": "COOLING", "price": 9.76, "tp": 1.6765767310835802, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.475, "tp": 8.40876886180636, "note": "sustained 8.4x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "BILS", "prev_state": "QUIET", "state": "CHURN", "price": 99.34, "tp": 2.8814980178326235, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "QUIET", "state": "RUNNING", "price": 13.9, "tp": 2.306374487143274, "note": "sustained 2.3x"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "CONL", "prev_state": "RUNNING", "state": "FADING", "price": 5.41, "tp": 1.2432504495564163, "note": "pace 1.2x vs peak 4.3x \u00b7 -2.0% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-20T13:37:56.050398-04:00", "demo": 0, "ticker": "ARQT", "prev_state": "QUIET", "state": "RUNNING", "price": 24.9, "tp": 2.3665460190200713, "note": "sustained 2.4x"}
