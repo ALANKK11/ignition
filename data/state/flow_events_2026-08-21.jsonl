@@ -656,3 +656,4 @@
 {"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "CONI", "prev_state": "IGNITING", "state": "RUNNING", "price": 30.38, "tp": 2.4341332786720384, "note": "sustained 2.4x"}
 {"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "LYTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.32, "tp": 3.8553298477327624, "note": "sustained 3.9x"}
 {"ts": "2026-08-21T16:21:30.895329-04:00", "demo": 0, "ticker": "USDE", "prev_state": null, "state": "AH IGNITION", "price": 8.63, "tp": null, "note": "+11% on $0.05M ext tape"}
+{"ts": "2026-08-21T16:23:00.883787-04:00", "demo": 0, "ticker": "REPL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Urges REPL Investors Who Lost Money Investing in Replimune to Contact the Firm for Information About Leading"}
