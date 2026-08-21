@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-21T07:57:47-04:00", "session": "pre", "rows": []}
+{"v": 4, "ts": "2026-08-21T08:54:26-04:00", "session": "pre", "rows": [{"ticker": "HOWL", "last": 0.978, "gap": 1.4245, "dollars": 756364.4228, "vs_adv": 89.41, "new": true}, {"ticker": "MSTX", "last": 12.82, "gap": 0.1482, "dollars": 60821.04, "vs_adv": 0.03, "new": true}]}
