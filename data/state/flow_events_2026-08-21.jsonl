@@ -645,3 +645,13 @@
 {"ts": "2026-08-21T15:56:00.890103-04:00", "demo": 0, "ticker": "BRTR", "prev_state": "RUNNING", "state": "COOLING", "price": 49.435, "tp": 1.380575241914862, "note": "pace 1.4x off peak 10.6x"}
 {"ts": "2026-08-21T15:56:00.890103-04:00", "demo": 0, "ticker": "LYTS", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.14, "tp": 4.938570986624072, "note": "pace 4.9x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-08-21T15:56:00.890103-04:00", "demo": 0, "ticker": "WB", "prev_state": "COOLING", "state": "RUNNING", "price": 7.055, "tp": 2.267589820078425, "note": "sustained 2.3x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "CPER", "prev_state": "FADING", "state": "CHURN", "price": 39.985, "tp": 3.6942460338185548, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "FADING", "state": "RUNNING", "price": 3.92, "tp": 2.7719584300770648, "note": "sustained 2.8x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "DXD", "prev_state": "CHURN", "state": "RUNNING", "price": 16.64, "tp": 1.8833233535610165, "note": "sustained 1.9x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "EIKN", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 11.39, "tp": 2.4167497811963, "note": "quiet open (1.2x) \u2192 now 2.4x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "RUNNING", "state": "COOLING", "price": 19.485, "tp": 1.6958589810931384, "note": "pace 1.7x off peak 4.0x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "DUST", "prev_state": "RUNNING", "state": "COOLING", "price": 30.58, "tp": 1.7875016979670226, "note": "pace 1.8x off peak 4.3x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "BMNG", "prev_state": "LEAVING", "state": "FADING", "price": 23.35, "tp": 1.6332691035123048, "note": "pace 1.6x vs peak 5.0x \u00b7 -3.3% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "CYD", "prev_state": "COOLING", "state": "RUNNING", "price": 39.955, "tp": 2.780484992276658, "note": "sustained 2.8x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "CONI", "prev_state": "IGNITING", "state": "RUNNING", "price": 30.38, "tp": 2.4341332786720384, "note": "sustained 2.4x"}
+{"ts": "2026-08-21T15:59:45.890531-04:00", "demo": 0, "ticker": "LYTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.32, "tp": 3.8553298477327624, "note": "sustained 3.9x"}
