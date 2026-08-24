@@ -8,3 +8,9 @@
 {"ts": "2026-08-24T09:03:46.006000-04:00", "demo": 0, "ticker": "TRI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model"}
 {"ts": "2026-08-24T09:16:31.008828-04:00", "demo": 0, "ticker": "LGHL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lion Group Holding Ltd. Reaffirms Long-Term Commitment to Hyperliquid (HYPE) Holdings"}
 {"ts": "2026-08-24T09:33:01.012481-04:00", "demo": 0, "ticker": "MYND", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Mynd.ai Unveils Privacy-First AI Tools to Improve Engagement in Classrooms and Workplaces"}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "SNDQ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 17.53, "tp": 2.410684332846222, "note": ""}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "ETH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 23.875, "tp": 2.425433830309008, "note": ""}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "SNXX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 12.355, "tp": 1.7997553048807173, "note": ""}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "XRP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 16.82, "tp": 2.9476142983332534, "note": ""}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.605, "tp": 2.247703901861018, "note": ""}
+{"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "ROBN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 31.325, "tp": 1.1332192356373176, "note": ""}
