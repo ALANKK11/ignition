@@ -244,3 +244,11 @@
 {"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "RUNNING", "state": "COOLING", "price": 16.5, "tp": 1.6367321093673664, "note": "pace 1.6x off peak 3.6x"}
 {"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "BABX", "prev_state": "RUNNING", "state": "COOLING", "price": 20.28, "tp": 1.086316078850823, "note": "pace 1.1x off peak 8.0x"}
 {"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "IGNITING", "price": 7.425, "tp": 5.355931020482505, "note": "pace 5.4x and accelerating (2.3x vs prior window) \u00b7 +3.1% in window"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "COOLING", "state": "RUNNING", "price": 16.415, "tp": 1.9446266061539788, "note": "sustained 1.9x"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "LEAVING", "price": 6.51, "tp": 7.6101324111979425, "note": "pace 7.6x off peak 15.8x \u00b7 VWAP lost (was +5.9% above)"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "ETHW", "prev_state": "FADING", "state": "RUNNING", "price": 18.08, "tp": 3.86071027530314, "note": "sustained 3.9x"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "BMA", "prev_state": "QUIET", "state": "IGNITING", "price": 75.305, "tp": 4.071412427582103, "note": "pace 4.1x and accelerating (26.7x vs prior window) \u00b7 +2.4% in window"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "COOLING", "state": "RUNNING", "price": 108.0, "tp": 1.8746007514564293, "note": "sustained 1.9x"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.59, "tp": 1.051073506834829, "note": "pace 1.1x off peak 4.4x"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "FADING", "price": 20.72, "tp": 2.9466533752797655, "note": "pace 2.9x vs peak 10.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T11:24:46.049785-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "COOLING", "state": "RUNNING", "price": 30.255, "tp": 1.992232512172401, "note": "sustained 2.0x"}
