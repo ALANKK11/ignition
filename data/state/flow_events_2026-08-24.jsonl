@@ -118,3 +118,9 @@
 {"ts": "2026-08-24T10:24:46.037722-04:00", "demo": 0, "ticker": "DFSD", "prev_state": "FADING", "state": "NEW MONEY", "price": 47.33, "tp": 5.734166834956497, "note": "quiet open (0.6x) \u2192 now 5.7x \u00b7 taking +0.4% flow share"}
 {"ts": "2026-08-24T10:24:46.037722-04:00", "demo": 0, "ticker": "PSNL", "prev_state": "RUNNING", "state": "CHURN", "price": 17.195, "tp": 2.3124180588343135, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-24T10:24:46.037722-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.53, "tp": 3.75382703950484, "note": "pace 3.8x and accelerating (10.5x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "PSNL", "prev_state": "CHURN", "state": "COOLING", "price": 17.09, "tp": 1.759136986652074, "note": "pace 1.8x off peak 9.0x"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "COOLING", "state": "RUNNING", "price": 106.59, "tp": 2.1728432256856567, "note": "sustained 2.2x"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 11.19, "tp": 0.974927533155296, "note": "pace 1.0x off peak 4.4x"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "LEAVING", "price": 6.75, "tp": 2.787867038709577, "note": "pace 2.8x off peak 11.6x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "FETH", "prev_state": "RUNNING", "state": "CHURN", "price": 24.98, "tp": 3.4922226389318025, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-24T10:28:31.038195-04:00", "demo": 0, "ticker": "ETHW", "prev_state": "RUNNING", "state": "CHURN", "price": 17.97, "tp": 4.621606198221111, "note": "4.6x participation, no progress at highs \u2014 absorption"}
