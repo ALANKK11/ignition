@@ -19,3 +19,11 @@
 {"ts": "2026-08-24T09:39:46.028674-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.85, "tp": 1.9125341059197292, "note": ""}
 {"ts": "2026-08-24T09:43:31.029792-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 6.3, "tp": 3.2304221332230125, "note": "3.2x tape out of the gate"}
 {"ts": "2026-08-24T09:43:31.029792-04:00", "demo": 0, "ticker": "LTPZ", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 48.005, "tp": 2.8918360178554874, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "BTC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 34.545, "tp": 2.2573511756372855, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 10.29, "tp": 2.194399017918987, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "BKCH", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 69.52, "tp": 2.5672335781847364, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "GEMI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.29, "tp": 2.322092698119708, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 6.355, "tp": 2.1582064015415967, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 1.52, "tp": 4.948064815466695, "note": "4.9x tape out of the gate"}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "SLS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 14.67, "tp": 1.9497168842515211, "note": ""}
+{"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "ROBN", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 29.89, "tp": 4.019634892009251, "note": "4.0x tape out of the gate"}
