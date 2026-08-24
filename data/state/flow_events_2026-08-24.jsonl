@@ -487,3 +487,4 @@
 {"ts": "2026-08-24T12:39:46.065131-04:00", "demo": 0, "ticker": "BMO", "prev_state": "COOLING", "state": "RUNNING", "price": 172.705, "tp": 3.362787755507016, "note": "sustained 3.4x"}
 {"ts": "2026-08-24T12:39:46.065131-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "CHURN", "price": 5.22, "tp": 15.523767952218938, "note": "15.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-24T12:39:46.065131-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 13.6, "tp": 0.6889807057420311, "note": "pace 0.7x off peak 10.7x"}
+{"ts": "2026-08-24T12:40:31.050292-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Regeneron Pharmaceuticals, Inc. Investors with Substantial Losses Have Opportunity to Lead Regeneron Class Action Lawsui"}
