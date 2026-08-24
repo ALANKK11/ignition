@@ -718,3 +718,8 @@
 {"ts": "2026-08-24T14:37:37.819638-04:00", "demo": 0, "ticker": "BMA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 76.54, "tp": 1.9315921588673564, "note": "sustained 1.9x"}
 {"ts": "2026-08-24T14:37:37.819638-04:00", "demo": 0, "ticker": "BMNR", "prev_state": "FADING", "state": "LEAVING", "price": 24.155, "tp": 1.4846584334246966, "note": "pace 1.5x off peak 3.6x \u00b7 VWAP lost (was +3.2% above)"}
 {"ts": "2026-08-24T14:37:37.819638-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "CHURN", "state": "RUNNING", "price": 30.265, "tp": 6.059235453410302, "note": "sustained 6.1x"}
+{"ts": "2026-08-24T14:41:22.820381-04:00", "demo": 0, "ticker": "BTCS", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.43, "tp": 13.068786255288657, "note": "sustained 13.1x"}
+{"ts": "2026-08-24T14:41:22.820381-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "FADING", "state": "RUNNING", "price": 34.525, "tp": 5.406501090474052, "note": "sustained 5.4x"}
+{"ts": "2026-08-24T14:41:22.820381-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "FADING", "state": "IGNITING", "price": 14.12, "tp": 6.65396399638166, "note": "pace 6.7x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-08-24T14:41:22.820381-04:00", "demo": 0, "ticker": "BMA", "prev_state": "RUNNING", "state": "FADING", "price": 76.54, "tp": 0.6946981035219515, "note": "pace 0.7x vs peak 4.1x \u00b7 -0.2% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T14:41:22.820381-04:00", "demo": 0, "ticker": "BRUNW", "prev_state": "LEAVING", "state": "FADING", "price": 7.1, "tp": 79.80646877958158, "note": "pace 79.8x vs peak 341.3x \u00b7 -12.5% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
