@@ -241,3 +241,6 @@
 {"ts": "2026-08-24T11:17:16.047960-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "RUNNING", "state": "FADING", "price": 1.74, "tp": 9.510809696864193, "note": "pace 9.5x vs peak 54.9x \u00b7 -1.7% off HOD \u00b7 chart still +28% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-24T11:17:16.047960-04:00", "demo": 0, "ticker": "WQTM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 32.46, "tp": 0.0, "note": "pace 0.0x off peak 3.5x"}
 {"ts": "2026-08-24T11:17:16.047960-04:00", "demo": 0, "ticker": "GEMI", "prev_state": "FADING", "state": "IGNITING", "price": 4.57, "tp": 3.9581028728110264, "note": "pace 4.0x and accelerating (2.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "RUNNING", "state": "COOLING", "price": 16.5, "tp": 1.6367321093673664, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "BABX", "prev_state": "RUNNING", "state": "COOLING", "price": 20.28, "tp": 1.086316078850823, "note": "pace 1.1x off peak 8.0x"}
+{"ts": "2026-08-24T11:21:01.048695-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "IGNITING", "price": 7.425, "tp": 5.355931020482505, "note": "pace 5.4x and accelerating (2.3x vs prior window) \u00b7 +3.1% in window"}
