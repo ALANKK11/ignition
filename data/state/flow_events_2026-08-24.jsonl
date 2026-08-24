@@ -14,3 +14,6 @@
 {"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "XRP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 16.82, "tp": 2.9476142983332534, "note": ""}
 {"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.605, "tp": 2.247703901861018, "note": ""}
 {"ts": "2026-08-24T09:36:01.027472-04:00", "demo": 0, "ticker": "ROBN", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 31.325, "tp": 1.1332192356373176, "note": ""}
+{"ts": "2026-08-24T09:39:46.028674-04:00", "demo": 0, "ticker": "XRP", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 16.75, "tp": 5.035834287634811, "note": "5.0x tape out of the gate"}
+{"ts": "2026-08-24T09:39:46.028674-04:00", "demo": 0, "ticker": "MUU", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 27.8, "tp": 2.6992082337433887, "note": ""}
+{"ts": "2026-08-24T09:39:46.028674-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.85, "tp": 1.9125341059197292, "note": ""}
