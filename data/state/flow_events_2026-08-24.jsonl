@@ -887,3 +887,10 @@
 {"ts": "2026-08-24T15:45:07.832986-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "COOLING", "state": "IGNITING", "price": 3.77, "tp": 4.851614749147039, "note": "pace 4.9x and accelerating (97.0x vs prior window) \u00b7 -1.6% in window"}
 {"ts": "2026-08-24T15:45:07.832986-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "RUNNING", "state": "CHURN", "price": 34.79, "tp": 3.6051476243851064, "note": "3.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-24T15:45:07.832986-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 28.77, "tp": 9.93987158105437, "note": "pace 9.9x and accelerating (6.9x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "RUNNING", "state": "COOLING", "price": 153.69, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "CHURN", "state": "RUNNING", "price": 34.875, "tp": 3.3334704501605, "note": "sustained 3.3x"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "ATNI", "prev_state": "FADING", "state": "IGNITING", "price": 30.955, "tp": 3.0776981129122083, "note": "pace 3.1x and accelerating (4.7x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "AGZ", "prev_state": "RUNNING", "state": "COOLING", "price": 108.67, "tp": 0.0, "note": "pace 0.0x off peak 153.7x"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "PMT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 9.31, "tp": 2.184781695766422, "note": "quiet open (1.1x) \u2192 now 2.2x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "IGNITING", "price": 7.8, "tp": 3.3906877958605226, "note": "pace 3.4x and accelerating (67.8x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-08-24T15:48:52.833562-04:00", "demo": 0, "ticker": "ASUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.7, "tp": 2.742298431670269, "note": "sustained 2.7x"}
