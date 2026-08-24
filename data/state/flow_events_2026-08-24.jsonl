@@ -770,3 +770,13 @@
 {"ts": "2026-08-24T15:03:52.824407-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.24, "tp": 16.390435110991206, "note": "sustained 16.4x"}
 {"ts": "2026-08-24T15:03:52.824407-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "FADING", "price": 5.2, "tp": 1.4206988246393903, "note": "pace 1.4x vs peak 18.6x \u00b7 -1.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-24T15:05:22.810258-04:00", "demo": 0, "ticker": "MVST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds MVST Investors of the Pending Lead Plaintiff Deadline in the Securities Class Action Against Microva"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BBUC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 28.22, "tp": 2.466293268103487, "note": "quiet open (0.1x) \u2192 now 2.5x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "COOLING", "price": 6.485, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 14.21, "tp": 15.862790056866865, "note": "quiet open (0.7x) \u2192 now 15.9x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BMO", "prev_state": "CHURN", "state": "RUNNING", "price": 172.21, "tp": 2.1600693716325545, "note": "sustained 2.2x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "CHURN", "state": "RUNNING", "price": 48.88, "tp": 3.2791484247688163, "note": "sustained 3.3x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "ETH", "prev_state": "FADING", "state": "IGNITING", "price": 23.555, "tp": 4.292221949424369, "note": "pace 4.3x and accelerating (3.3x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.215, "tp": 1.420433774302529, "note": "pace 1.4x off peak 4.0x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BMA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 76.73, "tp": 1.5711393003965644, "note": "pace 1.6x off peak 4.1x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "CHURN", "state": "RUNNING", "price": 30.28, "tp": 6.420000365598993, "note": "sustained 6.4x"}
+{"ts": "2026-08-24T15:07:37.825569-04:00", "demo": 0, "ticker": "BMRC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 27.19, "tp": 1.9660907468642423, "note": "sustained 2.0x"}
