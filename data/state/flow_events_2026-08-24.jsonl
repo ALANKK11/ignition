@@ -96,3 +96,12 @@
 {"ts": "2026-08-24T10:13:31.035705-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 1.73, "tp": 19.911249323487283, "note": "pace 19.9x off peak 248.3x \u00b7 VWAP lost (was +24.6% above)"}
 {"ts": "2026-08-24T10:13:31.035705-04:00", "demo": 0, "ticker": "AOA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 98.67, "tp": 1.9696954420827137, "note": "sustained 2.0x"}
 {"ts": "2026-08-24T10:13:31.035705-04:00", "demo": 0, "ticker": "DAUG", "prev_state": "RUNNING", "state": "COOLING", "price": 47.47, "tp": 0.0, "note": "pace 0.0x off peak 17.7x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "DFSD", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 47.325, "tp": 1.9916263907171115, "note": "sustained 2.0x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "CHURN", "state": "FADING", "price": 7.67, "tp": 0.0, "note": "pace 0.0x vs peak 4.0x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "RUNNING", "state": "COOLING", "price": 106.43, "tp": 1.7502898572488421, "note": "pace 1.8x off peak 15.2x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "EDC", "prev_state": "RUNNING", "state": "COOLING", "price": 75.635, "tp": 0.8605543256200958, "note": "pace 0.9x off peak 44.8x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "EQWL", "prev_state": "NEW MONEY", "state": "FADING", "price": 135.16, "tp": 0.0, "note": "pace 0.0x vs peak 2.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "ROBN", "prev_state": "RUNNING", "state": "COOLING", "price": 30.81, "tp": 0.0, "note": "pace 0.0x off peak 5.5x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.235, "tp": 10.275597932175046, "note": "sustained 10.3x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "AOA", "prev_state": "RUNNING", "state": "COOLING", "price": 98.67, "tp": 0.0, "note": "pace 0.0x off peak 2.1x"}
+{"ts": "2026-08-24T10:17:16.036186-04:00", "demo": 0, "ticker": "FETH", "prev_state": "FADING", "state": "RUNNING", "price": 25.03, "tp": 1.9216270826667643, "note": "sustained 1.9x"}
