@@ -610,3 +610,14 @@
 {"ts": "2026-08-24T13:52:37.810304-04:00", "demo": 0, "ticker": "CAN", "prev_state": "FADING", "state": "LEAVING", "price": 0.3612, "tp": 0.882060284621763, "note": "pace 0.9x off peak 16.5x \u00b7 VWAP lost (was +2.6% above)"}
 {"ts": "2026-08-24T13:52:37.810304-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "RUNNING", "price": 5.195, "tp": 3.7080869976337727, "note": "sustained 3.7x"}
 {"ts": "2026-08-24T13:52:37.810304-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "CHURN", "state": "RUNNING", "price": 30.255, "tp": 6.851035802615535, "note": "sustained 6.9x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "BMO", "prev_state": "RUNNING", "state": "COOLING", "price": 172.32, "tp": 0.9125735032717279, "note": "pace 0.9x off peak 5.5x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "LEAVING", "state": "FADING", "price": 1.61, "tp": 2.3872619188545743, "note": "pace 2.4x vs peak 60.2x \u00b7 -9.0% off HOD \u00b7 chart still +18% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "BABX", "prev_state": "COOLING", "state": "LEAVING", "price": 20.2, "tp": 2.112898693734349, "note": "pace 2.1x off peak 8.0x \u00b7 VWAP lost (was +2.6% above)"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 13.055, "tp": 4.598071823555967, "note": "sustained 4.6x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "CMPR", "prev_state": "IGNITING", "state": "COOLING", "price": 86.985, "tp": 0.0, "note": "pace 0.0x off peak 12.7x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "CSRE", "prev_state": "RUNNING", "state": "COOLING", "price": 29.02, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "RUNNING", "state": "LEAVING", "price": 7.22, "tp": 3.9243893273952453, "note": "pace 3.9x off peak 8.0x \u00b7 VWAP lost (was +1.8% above)"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "FADING", "state": "LEAVING", "price": 2.105, "tp": 0.665349236360978, "note": "pace 0.7x off peak 55.5x \u00b7 VWAP lost (was +27.9% above)"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "FADING", "state": "COOLING", "price": 19.46, "tp": 1.2456842828535237, "note": "pace 1.2x off peak 3.4x"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "ZYME", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 28.3, "tp": 2.857343604169653, "note": "pace 2.9x and accelerating (2.8x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-24T13:56:22.811505-04:00", "demo": 0, "ticker": "ASST", "prev_state": "FADING", "state": "LEAVING", "price": 19.52, "tp": 1.007121439667177, "note": "pace 1.0x off peak 4.2x \u00b7 VWAP lost (was +3.5% above)"}
