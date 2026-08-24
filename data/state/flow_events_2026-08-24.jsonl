@@ -187,3 +187,11 @@
 {"ts": "2026-08-24T10:54:46.043968-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "CHURN", "state": "RUNNING", "price": 4.15, "tp": 2.530329440113522, "note": "sustained 2.5x"}
 {"ts": "2026-08-24T10:54:46.043968-04:00", "demo": 0, "ticker": "BEX", "prev_state": "CHURN", "state": "RUNNING", "price": 20.175, "tp": 5.936657328894131, "note": "sustained 5.9x"}
 {"ts": "2026-08-24T10:54:46.043968-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.26, "tp": 4.318991954610549, "note": "pace 4.3x and accelerating (3.8x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "RUNNING", "state": "COOLING", "price": 16.42, "tp": 1.552684258321963, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "ASST", "prev_state": "RUNNING", "state": "COOLING", "price": 19.7, "tp": 1.6715617565334586, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "FETH", "prev_state": "RUNNING", "state": "COOLING", "price": 25.02, "tp": 1.3134481945915708, "note": "pace 1.3x off peak 3.5x"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "BTC", "prev_state": "RUNNING", "state": "FADING", "price": 35.16, "tp": 0.973301072731334, "note": "pace 1.0x vs peak 4.2x \u00b7 -0.4% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "IGNITING", "state": "LEAVING", "price": 1.72, "tp": 5.988387040868433, "note": "pace 6.0x off peak 248.3x \u00b7 VWAP lost (was +24.6% above)"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "DSX", "prev_state": "IGNITING", "state": "COOLING", "price": 2.695, "tp": 1.5778663526470278, "note": "pace 1.6x off peak 4.8x"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.27, "tp": 2.44818453054421, "note": "sustained 2.4x"}
+{"ts": "2026-08-24T10:58:31.044453-04:00", "demo": 0, "ticker": "CALI", "prev_state": "NEW MONEY", "state": "FADING", "price": 50.39, "tp": 0.6062314726776701, "note": "pace 0.6x vs peak 3.0x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
