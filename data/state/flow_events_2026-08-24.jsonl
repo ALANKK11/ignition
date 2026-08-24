@@ -769,3 +769,4 @@
 {"ts": "2026-08-24T15:03:52.824407-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "FADING", "state": "COOLING", "price": 19.46, "tp": 0.2730154662435371, "note": "pace 0.3x off peak 3.4x"}
 {"ts": "2026-08-24T15:03:52.824407-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.24, "tp": 16.390435110991206, "note": "sustained 16.4x"}
 {"ts": "2026-08-24T15:03:52.824407-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "FADING", "price": 5.2, "tp": 1.4206988246393903, "note": "pace 1.4x vs peak 18.6x \u00b7 -1.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T15:05:22.810258-04:00", "demo": 0, "ticker": "MVST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds MVST Investors of the Pending Lead Plaintiff Deadline in the Securities Class Action Against Microva"}
