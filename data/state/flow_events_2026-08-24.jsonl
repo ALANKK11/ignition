@@ -433,3 +433,4 @@
 {"ts": "2026-08-24T12:21:01.061299-04:00", "demo": 0, "ticker": "CTRN", "prev_state": "QUIET", "state": "RUNNING", "price": 73.495, "tp": 1.8362001494533042, "note": "sustained 1.8x"}
 {"ts": "2026-08-24T12:21:01.061299-04:00", "demo": 0, "ticker": "LTPZ", "prev_state": "NEW MONEY", "state": "FADING", "price": 48.24, "tp": 0.6646757376033456, "note": "pace 0.7x vs peak 26.4x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-24T12:21:01.061299-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "COOLING", "state": "IGNITING", "price": 3.88, "tp": 4.73822772367471, "note": "pace 4.7x and accelerating (94.8x vs prior window) \u00b7 +5.4% in window"}
+{"ts": "2026-08-24T12:22:31.046803-04:00", "demo": 0, "ticker": "AARD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AARD Investor Notice: Hagens Berman Alerts Investors in Aardvark Therapeutics (NASDAQ: AARD) to Filing of Securities Cla"}
