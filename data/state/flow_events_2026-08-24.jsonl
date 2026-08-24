@@ -80,3 +80,8 @@
 {"ts": "2026-08-24T10:06:01.034115-04:00", "demo": 0, "ticker": "FETH", "prev_state": "COOLING", "state": "FADING", "price": 24.88, "tp": 0.5474078232678646, "note": "pace 0.5x vs peak 2.3x \u00b7 -0.2% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-24T10:06:01.034115-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "IGNITING", "price": 5.235, "tp": 14.235504115303945, "note": "pace 14.2x and accelerating (2.8x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-08-24T10:06:01.034115-04:00", "demo": 0, "ticker": "GEMI", "prev_state": "RUNNING", "state": "FADING", "price": 4.39, "tp": 1.9885092374371787, "note": "pace 2.0x vs peak 7.3x \u00b7 -4.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-24T10:09:46.035166-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 14.19, "tp": 2.972903578721381, "note": "sustained 3.0x"}
+{"ts": "2026-08-24T10:09:46.035166-04:00", "demo": 0, "ticker": "PSNL", "prev_state": "RUNNING", "state": "COOLING", "price": 17.19, "tp": 1.6403913857342798, "note": "pace 1.6x off peak 9.0x"}
+{"ts": "2026-08-24T10:09:46.035166-04:00", "demo": 0, "ticker": "EMAT", "prev_state": "FADING", "state": "LEAVING", "price": 4.575, "tp": 0.9578298055968948, "note": "pace 1.0x off peak 15.6x \u00b7 VWAP lost (was +3.7% above)"}
+{"ts": "2026-08-24T10:09:46.035166-04:00", "demo": 0, "ticker": "ETHW", "prev_state": "RUNNING", "state": "COOLING", "price": 17.885, "tp": 1.5266327385590792, "note": "pace 1.5x off peak 2.8x"}
+{"ts": "2026-08-24T10:09:46.035166-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.215, "tp": 14.03568363365181, "note": "sustained 14.0x"}
