@@ -28,3 +28,6 @@
 {"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "SLS", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 14.67, "tp": 1.9497168842515211, "note": ""}
 {"ts": "2026-08-24T09:47:16.030133-04:00", "demo": 0, "ticker": "ROBN", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 29.89, "tp": 4.019634892009251, "note": "4.0x tape out of the gate"}
 {"ts": "2026-08-24T09:48:01.015494-04:00", "demo": 0, "ticker": "CAPR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CLASS ACTION NOTICE: Berger Montague Advises Capricor Therapeutics, Inc. (NASDAQ: CAPR) Investors to Inquire About a Sec"}
+{"ts": "2026-08-24T09:51:01.031004-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 34.35, "tp": 6.822271306420173, "note": "6.8x tape out of the gate"}
+{"ts": "2026-08-24T09:51:01.031004-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "QUIET", "state": "OPEN DRIVE", "price": 7.195, "tp": 6.1398415517915055, "note": "6.1x tape out of the gate"}
+{"ts": "2026-08-24T09:51:01.031004-04:00", "demo": 0, "ticker": "NSSC", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 42.445, "tp": 2.2459988204914554, "note": ""}
