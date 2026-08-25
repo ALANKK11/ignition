@@ -40,3 +40,15 @@
 {"ts": "2026-08-25T13:26:06.516032-04:00", "demo": 0, "ticker": "DLY", "prev_state": "RUNNING", "state": "COOLING", "price": 13.81, "tp": 1.1383465704813, "note": "pace 1.1x off peak 2.2x"}
 {"ts": "2026-08-25T13:26:06.516032-04:00", "demo": 0, "ticker": "FETH", "prev_state": "RUNNING", "state": "COOLING", "price": 24.51, "tp": 0.676517772683235, "note": "pace 0.7x off peak 3.3x"}
 {"ts": "2026-08-25T13:26:06.516032-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "CHURN", "price": 5.215, "tp": 8.3668441736626, "note": "8.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "QUIET", "state": "RUNNING", "price": 15.48, "tp": 2.469710600657352, "note": "sustained 2.5x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "NG", "prev_state": "FADING", "state": "CHURN", "price": 9.655, "tp": 2.3266299702725854, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "NSSC", "prev_state": "QUIET", "state": "RUNNING", "price": 36.245, "tp": 11.88133454184936, "note": "sustained 11.9x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "UCON", "prev_state": "QUIET", "state": "NEW MONEY", "price": 24.66, "tp": 2.5780059904077137, "note": "quiet open (0.6x) \u2192 now 2.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "EWG", "prev_state": "QUIET", "state": "RUNNING", "price": 44.39, "tp": 2.033319069493335, "note": "sustained 2.0x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.475, "tp": 1.3341212075658047, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "AMIX", "prev_state": "FADING", "state": "LEAVING", "price": 8.19, "tp": 0.8715581248071788, "note": "pace 0.9x off peak 5.5x \u00b7 VWAP lost (was +7.3% above)"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "BITI", "prev_state": "QUIET", "state": "RUNNING", "price": 19.255, "tp": 1.8877175191447462, "note": "sustained 1.9x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "ETH", "prev_state": "COOLING", "state": "RUNNING", "price": 23.49, "tp": 2.3410639763100587, "note": "sustained 2.3x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "CMII", "prev_state": "CHURN", "state": "FADING", "price": 10.05, "tp": 0.0, "note": "pace 0.0x vs peak 15.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "RUNNING", "price": 5.205, "tp": 8.465046883641792, "note": "sustained 8.5x"}
+{"ts": "2026-08-25T13:29:51.516558-04:00", "demo": 0, "ticker": "BITU", "prev_state": "COOLING", "state": "FADING", "price": 14.0, "tp": 0.9733051250827853, "note": "pace 1.0x vs peak 2.9x \u00b7 -1.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
