@@ -387,3 +387,11 @@
 {"ts": "2026-08-25T15:11:06.538436-04:00", "demo": 0, "ticker": "AMIX", "prev_state": "LEAVING", "state": "FADING", "price": 8.11, "tp": 0.15654364378787258, "note": "pace 0.2x vs peak 5.5x \u00b7 -18.5% off HOD \u00b7 chart still +56% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-25T15:11:06.538436-04:00", "demo": 0, "ticker": "BITI", "prev_state": "QUIET", "state": "COOLING", "price": 19.17, "tp": 0.33363467994888757, "note": "pace 0.3x off peak 1.9x"}
 {"ts": "2026-08-25T15:11:06.538436-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "RUNNING", "state": "COOLING", "price": 4.23, "tp": 1.7386183030227262, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "CHURN", "price": 5.205, "tp": 5.096452668632213, "note": "5.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "RUNNING", "state": "COOLING", "price": 9.425, "tp": 1.1739890738392735, "note": "pace 1.2x off peak 7.1x"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "CYPH", "prev_state": "COOLING", "state": "RUNNING", "price": 1.68, "tp": 1.8234234139128525, "note": "sustained 1.8x"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "CSAN", "prev_state": "CHURN", "state": "RUNNING", "price": 2.825, "tp": 7.684458149790408, "note": "sustained 7.7x"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "DFNS", "prev_state": "FADING", "state": "LEAVING", "price": 13.7, "tp": 1.7751613107544981, "note": "pace 1.8x off peak 26.1x \u00b7 VWAP lost (was +7.1% above)"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 3.475, "tp": 16.222673573831063, "note": "pace 16.2x off peak 55.3x \u00b7 VWAP lost (was +4.0% above)"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "COOLING", "state": "RUNNING", "price": 4.23, "tp": 2.25614000964531, "note": "sustained 2.3x"}
+{"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "AVXL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.55, "tp": 5.641144132612448, "note": "pace 5.6x and accelerating (5.3x vs prior window) \u00b7 +0.4% in window"}
