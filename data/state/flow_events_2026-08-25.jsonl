@@ -395,3 +395,15 @@
 {"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 3.475, "tp": 16.222673573831063, "note": "pace 16.2x off peak 55.3x \u00b7 VWAP lost (was +4.0% above)"}
 {"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "COOLING", "state": "RUNNING", "price": 4.23, "tp": 2.25614000964531, "note": "sustained 2.3x"}
 {"ts": "2026-08-25T15:14:51.539056-04:00", "demo": 0, "ticker": "AVXL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.55, "tp": 5.641144132612448, "note": "pace 5.6x and accelerating (5.3x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "CRML", "prev_state": "FADING", "state": "RUNNING", "price": 7.855, "tp": 2.0635476790695937, "note": "sustained 2.1x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "RUNNING", "price": 5.215, "tp": 4.42284383160583, "note": "sustained 4.4x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "RUNNING", "state": "FADING", "price": 18.13, "tp": 0.0, "note": "pace 0.0x vs peak 51.3x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "CEPO", "prev_state": "CHURN", "state": "RUNNING", "price": 10.79, "tp": 84.1430347257915, "note": "sustained 84.1x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "BMO", "prev_state": "FADING", "state": "CHURN", "price": 173.31, "tp": 4.701499449154818, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "EMQQ", "prev_state": "FADING", "state": "RUNNING", "price": 34.39, "tp": 23.368620364386235, "note": "sustained 23.4x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "BUFR", "prev_state": "RUNNING", "state": "CHURN", "price": 37.29, "tp": 20.385304614791107, "note": "20.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "GENB", "prev_state": "FADING", "state": "LEAVING", "price": 19.72, "tp": 3.7161489109719885, "note": "pace 3.7x off peak 18.9x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "ARCT", "prev_state": "RUNNING", "state": "FADING", "price": 15.72, "tp": 0.5322201710200894, "note": "pace 0.5x vs peak 3.4x \u00b7 -3.0% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "ASO", "prev_state": "QUIET", "state": "RUNNING", "price": 43.495, "tp": 1.8111801170717539, "note": "sustained 1.8x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "FADING", "state": "RUNNING", "price": 11.14, "tp": 5.912995727802447, "note": "sustained 5.9x"}
+{"ts": "2026-08-25T15:18:36.540243-04:00", "demo": 0, "ticker": "IAUX", "prev_state": "QUIET", "state": "RUNNING", "price": 1.925, "tp": 1.854342171479727, "note": "sustained 1.9x"}
