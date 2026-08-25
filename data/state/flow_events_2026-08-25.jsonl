@@ -102,3 +102,14 @@
 {"ts": "2026-08-25T13:48:36.521954-04:00", "demo": 0, "ticker": "CRML", "prev_state": "RUNNING", "state": "COOLING", "price": 7.95, "tp": 1.7147261799425992, "note": "pace 1.7x off peak 3.0x"}
 {"ts": "2026-08-25T13:48:36.521954-04:00", "demo": 0, "ticker": "BWET", "prev_state": "RUNNING", "state": "COOLING", "price": 450.94, "tp": 0.0, "note": "pace 0.0x off peak 16.3x"}
 {"ts": "2026-08-25T13:48:36.521954-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "CHURN", "price": 9.35, "tp": 13.478711246773056, "note": "13.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "EH", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.62, "tp": 3.347692876182832, "note": "sustained 3.3x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "STTK", "prev_state": "COOLING", "state": "FADING", "price": 8.005, "tp": 0.0, "note": "pace 0.0x vs peak 2.4x \u00b7 -1.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "ERY", "prev_state": "CHURN", "state": "RUNNING", "price": 9.335, "tp": 14.801911909881719, "note": "sustained 14.8x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "IGNITING", "price": 8.69, "tp": 5.205990735355364, "note": "pace 5.2x and accelerating (104.1x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "NG", "prev_state": "FADING", "state": "CHURN", "price": 9.68, "tp": 2.791790668868717, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.705, "tp": 10.316817534532802, "note": "sustained 10.3x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "COOLING", "state": "QUIET", "price": 9.29, "tp": 1.5492319440282794, "note": ""}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "CAN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.424, "tp": 3.313788707685077, "note": "sustained 3.3x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "FETH", "prev_state": "RUNNING", "state": "COOLING", "price": 24.6, "tp": 0.7682913039982703, "note": "pace 0.8x off peak 4.6x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "CHURN", "state": "RUNNING", "price": 9.27, "tp": 4.434284862390375, "note": "sustained 4.4x"}
+{"ts": "2026-08-25T13:52:21.521841-04:00", "demo": 0, "ticker": "BITI", "prev_state": "COOLING", "state": "QUIET", "price": 19.17, "tp": 1.5506328856682599, "note": ""}
