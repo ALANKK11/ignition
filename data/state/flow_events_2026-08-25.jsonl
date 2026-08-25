@@ -20,3 +20,11 @@
 {"ts": "2026-08-25T13:18:36.515025-04:00", "demo": 0, "ticker": "PRZO", "prev_state": "FADING", "state": "IGNITING", "price": 0.8769, "tp": 57.740454691152365, "note": "pace 57.7x and accelerating (9.6x vs prior window) \u00b7 +5.6% in window"}
 {"ts": "2026-08-25T13:18:36.515025-04:00", "demo": 0, "ticker": "SHMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.49, "tp": 8.27304851479754, "note": "sustained 8.3x"}
 {"ts": "2026-08-25T13:19:21.499206-04:00", "demo": 0, "ticker": "VMAR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Vision Marine Technologies Files U.S. Patent Application to Advance E-Motion\u2122 Charging Protection"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "RUNNING", "price": 5.2, "tp": 7.604196918238083, "note": "sustained 7.6x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "BBEU", "prev_state": "QUIET", "state": "RUNNING", "price": 81.05, "tp": 4.980048217168707, "note": "sustained 5.0x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "GRML", "prev_state": "FADING", "state": "RUNNING", "price": 10.79, "tp": 18.53940539756235, "note": "sustained 18.5x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "BITU", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.0, "tp": 2.9494762413065043, "note": "sustained 2.9x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.98, "tp": 19.91111302397489, "note": "sustained 19.9x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "PMI", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.87, "tp": 23.676095626812714, "note": "sustained 23.7x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "TENX", "prev_state": "FADING", "state": "RUNNING", "price": 2.315, "tp": 2.033916499351299, "note": "sustained 2.0x"}
+{"ts": "2026-08-25T13:22:21.515006-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "QUIET", "state": "IGNITING", "price": 8.54, "tp": 4.723095318072548, "note": "pace 4.7x and accelerating (94.5x vs prior window) \u00b7 +6.9% in window"}
