@@ -339,3 +339,14 @@
 {"ts": "2026-08-26T11:36:25.729790-04:00", "demo": 0, "ticker": "CEFA", "prev_state": "FADING", "state": "RUNNING", "price": 41.91, "tp": 7.2040056117092846, "note": "sustained 7.2x"}
 {"ts": "2026-08-26T11:36:25.729790-04:00", "demo": 0, "ticker": "BAK", "prev_state": "IGNITING", "state": "CHURN", "price": 1.5, "tp": 6.012598142583089, "note": "6.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:36:25.729790-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "CHURN", "state": "RUNNING", "price": 18.485, "tp": 2.6242959386835043, "note": "sustained 2.6x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.315, "tp": 1.2239160267580196, "note": "pace 1.2x off peak 2.2x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "PRME", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.485, "tp": 3.607367075672378, "note": "sustained 3.6x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "PACB", "prev_state": "QUIET", "state": "COOLING", "price": 1.485, "tp": 1.2357998633324396, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "BNS", "prev_state": "CHURN", "state": "RUNNING", "price": 94.165, "tp": 2.4881635671804054, "note": "sustained 2.5x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "MRVI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 9.025, "tp": 1.3007553424006582, "note": "pace 1.3x off peak 4.3x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "CNM", "prev_state": "COOLING", "state": "RUNNING", "price": 43.39, "tp": 1.940936515419082, "note": "sustained 1.9x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "COOLING", "state": "RUNNING", "price": 19.66, "tp": 2.139868218100133, "note": "sustained 2.1x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "RR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.825, "tp": 3.3821757447050675, "note": "sustained 3.4x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "LEAVING", "state": "FADING", "price": 9.01, "tp": 1.1112076206257082, "note": "pace 1.1x vs peak 3.8x \u00b7 -8.4% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "BAK", "prev_state": "CHURN", "state": "RUNNING", "price": 1.495, "tp": 5.323085952467675, "note": "sustained 5.3x"}
+{"ts": "2026-08-26T11:39:25.730243-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "IGNITING", "state": "COOLING", "price": 2.895, "tp": 0.4987362829635468, "note": "pace 0.5x off peak 7.8x"}
