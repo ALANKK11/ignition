@@ -679,3 +679,11 @@
 {"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "BALT", "prev_state": "FADING", "state": "RUNNING", "price": 34.72, "tp": 3.2745421625567914, "note": "sustained 3.3x"}
 {"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 3.33, "tp": 3.4669530042390613, "note": "quiet open (0.3x) \u2192 now 3.5x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "FADING", "state": "CHURN", "price": 20.79, "tp": 11.881118803673917, "note": "11.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "SKE", "prev_state": "NEW MONEY", "state": "COOLING", "price": 34.82, "tp": 0.2498190021968391, "note": "pace 0.2x off peak 4.9x"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "LEAVING", "state": "FADING", "price": 9.18, "tp": 0.7645039400001872, "note": "pace 0.8x vs peak 3.8x \u00b7 -6.7% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "RUNNING", "state": "COOLING", "price": 18.11, "tp": 0.0, "note": "pace 0.0x off peak 6.9x"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "AVGE", "prev_state": "FADING", "state": "RUNNING", "price": 101.68, "tp": 17.49130014130985, "note": "sustained 17.5x"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "AII", "prev_state": "FADING", "state": "IGNITING", "price": 26.64, "tp": 4.327429136701287, "note": "pace 4.3x and accelerating (86.5x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.41, "tp": 1.5172992636761375, "note": "pace 1.5x off peak 8.2x"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "BWET", "prev_state": "COOLING", "state": "RUNNING", "price": 355.83, "tp": 4.409707912479336, "note": "sustained 4.4x"}
+{"ts": "2026-08-26T15:37:46.139646-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.335, "tp": 1.5742834635210246, "note": "pace 1.6x off peak 3.5x"}
