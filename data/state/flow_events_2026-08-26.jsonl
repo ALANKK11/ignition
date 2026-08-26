@@ -71,3 +71,9 @@
 {"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "ANF", "prev_state": "CHURN", "state": "RUNNING", "price": 143.985, "tp": 7.848264986350265, "note": "sustained 7.8x"}
 {"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.95, "tp": 1.2047620041840008, "note": "pace 1.2x off peak 5.5x"}
 {"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "BZ", "prev_state": "RUNNING", "state": "CHURN", "price": 18.945, "tp": 9.39894696685993, "note": "9.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "BZ", "prev_state": "CHURN", "state": "RUNNING", "price": 18.98, "tp": 9.11436827232887, "note": "sustained 9.1x"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "GENB", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.985, "tp": 5.227715537294652, "note": "pace 5.2x and accelerating (1.8x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "RERE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 3.95, "tp": 2.219721730237279, "note": "quiet open (0.2x) \u2192 now 2.2x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "DLY", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 13.89, "tp": 1.8308692694252107, "note": "sustained 1.8x"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "IDVO", "prev_state": "QUIET", "state": "RUNNING", "price": 43.52, "tp": 1.8100007289074787, "note": "sustained 1.8x"}
+{"ts": "2026-08-26T10:21:25.715317-04:00", "demo": 0, "ticker": "ANF", "prev_state": "RUNNING", "state": "FADING", "price": 143.275, "tp": 5.46105579806966, "note": "pace 5.5x vs peak 19.4x \u00b7 -1.4% off HOD \u00b7 chart still +32% \u2014 crowd buying a cooled tape"}
