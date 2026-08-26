@@ -409,3 +409,12 @@
 {"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "CHURN", "state": "RUNNING", "price": 18.63, "tp": 2.2458710774459543, "note": "sustained 2.2x"}
 {"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "BZ", "prev_state": "LEAVING", "state": "CHURN", "price": 18.97, "tp": 7.240933004525165, "note": "7.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "COOLING", "price": 43.32, "tp": 1.7698917721436356, "note": "pace 1.8x off peak 12.5x"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "AOR", "prev_state": "COOLING", "state": "RUNNING", "price": 69.94, "tp": 2.0016316975025137, "note": "sustained 2.0x"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "RUNNING", "state": "CHURN", "price": 18.64, "tp": 2.8568950536538154, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "CNM", "prev_state": "COOLING", "state": "RUNNING", "price": 43.38, "tp": 2.0479716773036802, "note": "sustained 2.0x"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "KLRA", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 17.745, "tp": 3.6174703068455734, "note": "quiet open (0.0x) \u2192 now 3.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "BMO", "prev_state": "IGNITING", "state": "RUNNING", "price": 173.675, "tp": 7.280015074562466, "note": "sustained 7.3x"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "ANF", "prev_state": "RUNNING", "state": "IGNITING", "price": 153.34, "tp": 16.50437498915283, "note": "pace 16.5x and accelerating (2.2x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "FADING", "state": "RUNNING", "price": 116.6, "tp": 6.350415995827482, "note": "sustained 6.4x"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "BPRE", "prev_state": "CHURN", "state": "IGNITING", "price": 11.875, "tp": 4.895629863127046, "note": "pace 4.9x and accelerating (3.5x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-26T12:03:25.734884-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 5.24, "tp": 3.14589617146162, "note": "pace 3.1x off peak 22.1x \u00b7 VWAP lost (was +1.6% above)"}
