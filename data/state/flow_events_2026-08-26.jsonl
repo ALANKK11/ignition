@@ -13,3 +13,4 @@
 {"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 30.84, "tp": 0.7696247967931039, "note": ""}
 {"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "MRVI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.05, "tp": 1.8028581581060812, "note": ""}
 {"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.21, "tp": 0.8873073420368079, "note": ""}
+{"ts": "2026-08-26T09:39:25.706706-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 2.93, "tp": 2.9088254256058046, "note": ""}
