@@ -765,3 +765,4 @@
 {"ts": "2026-08-26T15:58:46.143286-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.92, "tp": 2.4204775948796966, "note": "pace 2.4x off peak 8.5x \u00b7 VWAP lost (was +3.5% above)"}
 {"ts": "2026-08-26T15:58:46.143286-04:00", "demo": 0, "ticker": "CNM", "prev_state": "COOLING", "state": "RUNNING", "price": 43.435, "tp": 1.8116310239111864, "note": "sustained 1.8x"}
 {"ts": "2026-08-26T15:58:46.143286-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.29, "tp": 2.952803518338098, "note": "sustained 3.0x"}
+{"ts": "2026-08-26T16:10:46.132990-04:00", "demo": 0, "ticker": "GWW", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GRAINGER ACQUIRES TECHNOLOGY ASSETS FROM ADROIT WORLDWIDE MEDIA"}
