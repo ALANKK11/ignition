@@ -592,3 +592,4 @@
 {"ts": "2026-08-26T15:07:46.134275-04:00", "demo": 0, "ticker": "GENB", "prev_state": "LEAVING", "state": "IGNITING", "price": 16.22, "tp": 9.919224891619997, "note": "pace 9.9x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-08-26T15:07:46.134275-04:00", "demo": 0, "ticker": "BKGI", "prev_state": "COOLING", "state": "QUIET", "price": 44.89, "tp": 1.7976901633124458, "note": ""}
 {"ts": "2026-08-26T15:07:46.134275-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "NEW MONEY", "state": "CHURN", "price": 18.085, "tp": 3.0035488062042606, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T15:09:16.121415-04:00", "demo": 0, "ticker": "PLNT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds PLNT Investors of the Pending Lead Plaintiff Deadline in the Securities Class Action Lawsuit Against"}
