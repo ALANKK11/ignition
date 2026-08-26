@@ -289,3 +289,4 @@
 {"ts": "2026-08-26T11:24:25.727522-04:00", "demo": 0, "ticker": "BNS", "prev_state": "RUNNING", "state": "CHURN", "price": 93.94, "tp": 2.5886476983811395, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:24:25.727522-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 5.02, "tp": 1.4595268272114963, "note": "pace 1.5x off peak 22.1x \u00b7 VWAP lost (was +1.6% above)"}
 {"ts": "2026-08-26T11:24:25.727522-04:00", "demo": 0, "ticker": "TRLV", "prev_state": "FADING", "state": "LEAVING", "price": 11.67, "tp": 0.9255946430660634, "note": "pace 0.9x off peak 7.8x \u00b7 VWAP lost (was +2.5% above)"}
+{"ts": "2026-08-26T11:25:10.713443-04:00", "demo": 0, "ticker": "WAY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Waystar Launches New Agentic Solutions Transforming AI Into Action Across the Revenue Cycle"}
