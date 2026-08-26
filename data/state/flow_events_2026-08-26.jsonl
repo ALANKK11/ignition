@@ -363,3 +363,4 @@
 {"ts": "2026-08-26T11:42:25.730861-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 5.09, "tp": 0.9292382514927625, "note": "pace 0.9x off peak 22.1x \u00b7 VWAP lost (was +1.6% above)"}
 {"ts": "2026-08-26T11:42:25.730861-04:00", "demo": 0, "ticker": "DLY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 13.84, "tp": 1.5132181737802763, "note": "pace 1.5x off peak 10.4x"}
 {"ts": "2026-08-26T11:42:25.730861-04:00", "demo": 0, "ticker": "BWET", "prev_state": "COOLING", "state": "RUNNING", "price": 402.63, "tp": 2.41608983608512, "note": "sustained 2.4x"}
+{"ts": "2026-08-26T11:43:55.717041-04:00", "demo": 0, "ticker": "TBLA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Berger Montague PC Investigating Claims on Behalf of Taboola.com Ltd. (NASDAQ: TBLA) After Class Action Filing"}
