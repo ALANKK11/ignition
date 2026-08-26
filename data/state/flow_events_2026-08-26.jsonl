@@ -63,3 +63,7 @@
 {"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "FADING", "state": "RUNNING", "price": 2.95, "tp": 1.9462984506319632, "note": "sustained 1.9x"}
 {"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "BWET", "prev_state": "IGNITING", "state": "COOLING", "price": 403.89, "tp": 0.0, "note": "pace 0.0x off peak 5.3x"}
 {"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "COM", "prev_state": "CHURN", "state": "RUNNING", "price": 34.83, "tp": 35.10239853841903, "note": "sustained 35.1x"}
+{"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "BAK", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.43, "tp": 7.472890095039715, "note": "pace 7.5x and accelerating (2.3x vs prior window) \u00b7 -2.7% in window"}
+{"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "ANF", "prev_state": "RUNNING", "state": "CHURN", "price": 143.525, "tp": 7.6666729890064, "note": "7.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "AKTS", "prev_state": "IGNITING", "state": "COOLING", "price": 25.99, "tp": 0.47763371020648265, "note": "pace 0.5x off peak 4.7x"}
+{"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "FBCV", "prev_state": "CHURN", "state": "FADING", "price": 43.24, "tp": 6.6395755292911645, "note": "pace 6.6x vs peak 36.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
