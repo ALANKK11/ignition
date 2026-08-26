@@ -504,3 +504,4 @@
 {"ts": "2026-08-26T14:40:46.127836-04:00", "demo": 0, "ticker": "BUUU", "prev_state": "IGNITING", "state": "COOLING", "price": 28.65, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
 {"ts": "2026-08-26T14:40:46.127836-04:00", "demo": 0, "ticker": "DEM", "prev_state": "RUNNING", "state": "COOLING", "price": 55.49, "tp": 1.1316467102954877, "note": "pace 1.1x off peak 14.7x"}
 {"ts": "2026-08-26T14:40:46.127836-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "RUNNING", "state": "FADING", "price": 86.555, "tp": 0.0, "note": "pace 0.0x vs peak 2.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T14:42:16.116186-04:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water White Paper Highlights Community Benefits of Water and Wastewater System Partnerships"}
