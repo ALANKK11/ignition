@@ -264,3 +264,17 @@
 {"ts": "2026-08-26T11:18:25.726357-04:00", "demo": 0, "ticker": "CRE", "prev_state": "LEAVING", "state": "FADING", "price": 6.73, "tp": 1450.3152328629192, "note": "pace 1450.3x vs peak 7512.0x \u00b7 -20.8% off HOD \u00b7 chart still +162% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-26T11:18:25.726357-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "COOLING", "state": "IGNITING", "price": 36.29, "tp": 2.9007467814019527, "note": "pace 2.9x and accelerating (3.4x vs prior window) \u00b7 -0.7% in window"}
 {"ts": "2026-08-26T11:18:25.726357-04:00", "demo": 0, "ticker": "ANF", "prev_state": "RUNNING", "state": "IGNITING", "price": 149.61, "tp": 14.814733954469885, "note": "pace 14.8x and accelerating (1.8x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "KLRA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 17.82, "tp": 0.9166816531798182, "note": "pace 0.9x off peak 2.5x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "DDFG", "prev_state": "QUIET", "state": "NEW MONEY", "price": 19.42, "tp": 2.834992150533235, "note": "quiet open (0.2x) \u2192 now 2.8x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.87, "tp": 1.622030038164149, "note": "pace 1.6x off peak 5.5x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "SKE", "prev_state": "RUNNING", "state": "COOLING", "price": 34.91, "tp": 1.2134629420145442, "note": "pace 1.2x off peak 4.9x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "RUNNING", "state": "FADING", "price": 116.78, "tp": 4.429805252128152, "note": "pace 4.4x vs peak 16.5x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "RR", "prev_state": "RUNNING", "state": "COOLING", "price": 1.845, "tp": 0.7420513333057158, "note": "pace 0.7x off peak 12.6x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "RUNNING", "state": "COOLING", "price": 68.895, "tp": 0.9633768603687553, "note": "pace 1.0x off peak 4.8x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "RUNNING", "state": "COOLING", "price": 19.68, "tp": 1.631952379401489, "note": "pace 1.6x off peak 7.0x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "DFEN", "prev_state": "CHURN", "state": "RUNNING", "price": 70.84, "tp": 11.188336742155817, "note": "sustained 11.2x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "DLY", "prev_state": "NEW MONEY", "state": "COOLING", "price": 13.865, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "ANF", "prev_state": "IGNITING", "state": "RUNNING", "price": 149.62, "tp": 10.557509324804522, "note": "sustained 10.6x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "PRME", "prev_state": "COOLING", "state": "QUIET", "price": 3.495, "tp": 1.7270031239076797, "note": ""}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "RUNNING", "state": "COOLING", "price": 23.24, "tp": 1.7489932940287711, "note": "pace 1.7x off peak 11.2x"}
+{"ts": "2026-08-26T11:21:25.726970-04:00", "demo": 0, "ticker": "BZ", "prev_state": "CHURN", "state": "RUNNING", "price": 19.215, "tp": 7.628398687887147, "note": "sustained 7.6x"}
