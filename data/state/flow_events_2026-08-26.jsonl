@@ -315,3 +315,13 @@
 {"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "DEM", "prev_state": "CHURN", "state": "RUNNING", "price": 55.5, "tp": 14.604071923205362, "note": "sustained 14.6x"}
 {"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "RUNNING", "state": "COOLING", "price": 36.39, "tp": 1.627805992362075, "note": "pace 1.6x off peak 4.3x"}
 {"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.89, "tp": 6.398987442861676, "note": "sustained 6.4x"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "CHURN", "state": "FADING", "price": 116.82, "tp": 4.132470531339289, "note": "pace 4.1x vs peak 16.5x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.45, "tp": 5.907705517303945, "note": "quiet open (0.1x) \u2192 now 5.9x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "RUNNING", "state": "CHURN", "price": 18.48, "tp": 2.7287423724471287, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "CHURN", "state": "RUNNING", "price": 15.17, "tp": 3.759075391011542, "note": "sustained 3.8x"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "BNS", "prev_state": "CHURN", "state": "RUNNING", "price": 94.155, "tp": 3.047621440850631, "note": "sustained 3.0x"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "DEM", "prev_state": "RUNNING", "state": "CHURN", "price": 55.5, "tp": 13.954555576260832, "note": "14.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "AKTS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 26.29, "tp": 1.438717882664288, "note": "pace 1.4x off peak 4.7x"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "BAB", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 26.42, "tp": 2.541291968880399, "note": "sustained 2.5x"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.89, "tp": 6.202513327231088, "note": "pace 6.2x and accelerating (2.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-26T11:33:25.729201-04:00", "demo": 0, "ticker": "DDFG", "prev_state": "NEW MONEY", "state": "FADING", "price": 19.42, "tp": 0.0, "note": "pace 0.0x vs peak 3.3x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
