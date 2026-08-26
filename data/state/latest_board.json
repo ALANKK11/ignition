@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-26T16:31:01-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-26T16:31:46-04:00", "session": "post", "rows": [{"headline": "AMETEK Completes Acquisition of Indicor Instrumentation", "pr_ts": "16:30", "catalyst": true, "flags": ["ACQUISITION"], "ticker": "AME", "move": 0.0145, "last": 245.315, "dollars": 7271872.545, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.0, "first_seen": "16:31", "new": true}]}
