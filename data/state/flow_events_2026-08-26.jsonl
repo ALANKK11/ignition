@@ -401,3 +401,11 @@
 {"ts": "2026-08-26T11:57:25.733818-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "RUNNING", "state": "CHURN", "price": 18.66, "tp": 2.889524964079246, "note": "2.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:57:25.733818-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "CHURN", "state": "COOLING", "price": 19.66, "tp": 1.1866748357880235, "note": "pace 1.2x off peak 7.0x"}
 {"ts": "2026-08-26T11:57:25.733818-04:00", "demo": 0, "ticker": "KLRA", "prev_state": "NEW MONEY", "state": "COOLING", "price": 17.73, "tp": 1.1367149622918067, "note": "pace 1.1x off peak 2.6x"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "TRLV", "prev_state": "LEAVING", "state": "FADING", "price": 11.74, "tp": 2.4174066496001925, "note": "pace 2.4x vs peak 7.8x \u00b7 -1.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "WCMI", "prev_state": "RUNNING", "state": "COOLING", "price": 19.89, "tp": 0.7379010026417758, "note": "pace 0.7x off peak 3.4x"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "KLRA", "prev_state": "COOLING", "state": "RUNNING", "price": 17.85, "tp": 2.1234720671539153, "note": "sustained 2.1x"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "BPRE", "prev_state": "COOLING", "state": "CHURN", "price": 11.93, "tp": 2.8932056166593627, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "ANF", "prev_state": "IGNITING", "state": "RUNNING", "price": 152.88, "tp": 14.132825799124763, "note": "sustained 14.1x"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "CHURN", "state": "RUNNING", "price": 18.63, "tp": 2.2458710774459543, "note": "sustained 2.2x"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "BZ", "prev_state": "LEAVING", "state": "CHURN", "price": 18.97, "tp": 7.240933004525165, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T12:00:25.734409-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "COOLING", "price": 43.32, "tp": 1.7698917721436356, "note": "pace 1.8x off peak 12.5x"}
