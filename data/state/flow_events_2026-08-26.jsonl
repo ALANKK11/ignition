@@ -386,3 +386,11 @@
 {"ts": "2026-08-26T11:51:25.732599-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "IGNITING", "state": "CHURN", "price": 19.66, "tp": 2.978744738905134, "note": "3.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:51:25.732599-04:00", "demo": 0, "ticker": "AVGE", "prev_state": "FADING", "state": "RUNNING", "price": 101.69, "tp": 12.757197136832113, "note": "sustained 12.8x"}
 {"ts": "2026-08-26T11:51:25.732599-04:00", "demo": 0, "ticker": "BAK", "prev_state": "CHURN", "state": "RUNNING", "price": 1.49, "tp": 3.360726491278586, "note": "sustained 3.4x"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "WCMI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 19.89, "tp": 2.1099716234167225, "note": "sustained 2.1x"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "ANF", "prev_state": "FADING", "state": "IGNITING", "price": 152.67, "tp": 12.733864554368683, "note": "pace 12.7x and accelerating (2.4x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "CRE", "prev_state": "FADING", "state": "LEAVING", "price": 6.48, "tp": 509.75393335037495, "note": "pace 509.8x off peak 7512.0x \u00b7 VWAP lost (was +15.1% above)"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.87, "tp": 6.711240627444127, "note": "sustained 6.7x"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "DEM", "prev_state": "CHURN", "state": "COOLING", "price": 55.53, "tp": 1.2972818460099067, "note": "pace 1.3x off peak 14.7x"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "COOLING", "state": "IGNITING", "price": 36.1, "tp": 2.8573993391606725, "note": "pace 2.9x and accelerating (9.5x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "KLRA", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 17.68, "tp": 2.1862841679284335, "note": "quiet open (0.0x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-08-26T11:54:25.733062-04:00", "demo": 0, "ticker": "AII", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.765, "tp": 8.925155333392434, "note": "pace 8.9x and accelerating (6.8x vs prior window) \u00b7 +0.5% in window"}
