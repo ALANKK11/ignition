@@ -180,3 +180,7 @@
 {"ts": "2026-08-26T10:51:25.721150-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "FADING", "state": "IGNITING", "price": 15.045, "tp": 4.766045044732847, "note": "pace 4.8x and accelerating (2.9x vs prior window) \u00b7 +3.7% in window"}
 {"ts": "2026-08-26T10:51:25.721150-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "CHURN", "state": "FADING", "price": 9.01, "tp": 0.0, "note": "pace 0.0x vs peak 7.6x \u00b7 -0.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-26T10:51:25.721150-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 3.325, "tp": 1.0881424661840937, "note": "pace 1.1x off peak 2.2x"}
+{"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "LEAVING", "state": "FADING", "price": 14.44, "tp": 0.7759091645724724, "note": "pace 0.8x vs peak 2.3x \u00b7 -2.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "BAB", "prev_state": "COOLING", "state": "RUNNING", "price": 26.42, "tp": 1.8838059388962902, "note": "sustained 1.9x"}
+{"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "DFEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 71.28, "tp": 3.601394715949676, "note": "sustained 3.6x"}
+{"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "ELMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.82, "tp": 3.760328635169674, "note": "sustained 3.8x"}
