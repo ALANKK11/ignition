@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-26T09:07:55-04:00", "session": "pre", "rows": [{"ticker": "YYGH", "last": 1.96, "gap": 0.6998, "dollars": 111394.62999999999, "vs_adv": 4.85, "new": false}, {"ticker": "DAIC", "last": 5.92, "gap": 0.5362, "dollars": 50557.840000000004, "vs_adv": 0.14, "new": true}]}
+{"v": 4, "ts": "2026-08-26T09:10:55-04:00", "session": "pre", "rows": [{"ticker": "YYGH", "last": 1.96, "gap": 0.7, "dollars": 118348.70999999999, "vs_adv": 5.15, "new": false}, {"ticker": "DAIC", "last": 5.96, "gap": 0.5362, "dollars": 51749.840000000004, "vs_adv": 0.14, "new": false}]}
