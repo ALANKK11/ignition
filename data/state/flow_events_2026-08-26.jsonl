@@ -8,3 +8,8 @@
 {"ts": "2026-08-26T09:07:55.700048-04:00", "demo": 0, "ticker": "DAIC", "prev_state": null, "state": "PM IGNITION", "price": 5.92, "tp": null, "note": "+54% on $0.05M ext tape"}
 {"ts": "2026-08-26T09:13:55.701012-04:00", "demo": 0, "ticker": "MSS", "prev_state": null, "state": "PM IGNITION", "price": 1.82, "tp": null, "note": "+25% on $0.07M ext tape"}
 {"ts": "2026-08-26T09:18:25.688883-04:00", "demo": 0, "ticker": "SPCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SuperCom Wins Third New Electronic Monitoring Contract in Utah, Displacing Incumbent of More than a Decade"}
+{"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "RR", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 1.89, "tp": 2.8994613567841783, "note": ""}
+{"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 4.805, "tp": 1.6087856176042588, "note": ""}
+{"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 30.84, "tp": 0.7696247967931039, "note": ""}
+{"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "MRVI", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 9.05, "tp": 1.8028581581060812, "note": ""}
+{"ts": "2026-08-26T09:36:25.705998-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "OPEN DRIVE", "state": "QUIET", "price": 11.21, "tp": 0.8873073420368079, "note": ""}
