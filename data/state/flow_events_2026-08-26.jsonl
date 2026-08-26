@@ -124,3 +124,13 @@
 {"ts": "2026-08-26T10:36:25.718490-04:00", "demo": 0, "ticker": "BZ", "prev_state": "CHURN", "state": "RUNNING", "price": 19.01, "tp": 10.252735844554042, "note": "sustained 10.3x"}
 {"ts": "2026-08-26T10:36:25.718490-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "QUIET", "state": "COOLING", "price": 14.38, "tp": 1.6741867754642237, "note": "pace 1.7x off peak 2.3x"}
 {"ts": "2026-08-26T10:36:25.718490-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "FADING", "state": "CHURN", "price": 9.01, "tp": 2.8897902639929263, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "DY", "prev_state": "IGNITING", "state": "RUNNING", "price": 311.12, "tp": 5.269943940643425, "note": "sustained 5.3x"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "RERE", "prev_state": "RUNNING", "state": "FADING", "price": 3.955, "tp": 1.2827952244061094, "note": "pace 1.3x vs peak 3.7x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "COOLING", "state": "LEAVING", "price": 14.345, "tp": 1.003509981081822, "note": "pace 1.0x off peak 2.3x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "ETH", "prev_state": "RUNNING", "state": "COOLING", "price": 23.4, "tp": 1.7603275994535443, "note": "pace 1.8x off peak 3.2x"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "TRLV", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.845, "tp": 3.547176776582865, "note": "sustained 3.5x"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "GORO", "prev_state": "RUNNING", "state": "COOLING", "price": 3.53, "tp": 1.2762609190189738, "note": "pace 1.3x off peak 2.8x"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "FADING", "state": "LEAVING", "price": 5.12, "tp": 3.7963594069022704, "note": "pace 3.8x off peak 22.1x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "CNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 43.3, "tp": 2.8008692471470664, "note": "sustained 2.8x"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "COM", "prev_state": "RUNNING", "state": "FADING", "price": 34.81, "tp": 17.815296463504055, "note": "pace 17.8x vs peak 55.9x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T10:39:25.719542-04:00", "demo": 0, "ticker": "BWLP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.69, "tp": 1.935884935330308, "note": "sustained 1.9x"}
