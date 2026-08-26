@@ -671,3 +671,11 @@
 {"ts": "2026-08-26T15:31:46.139336-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 3.325, "tp": 1.9886961092297755, "note": "sustained 2.0x"}
 {"ts": "2026-08-26T15:31:46.139336-04:00", "demo": 0, "ticker": "BEEM", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.73, "tp": 2.744166796451914, "note": "sustained 2.7x"}
 {"ts": "2026-08-26T15:31:46.139336-04:00", "demo": 0, "ticker": "GENB", "prev_state": "RUNNING", "state": "LEAVING", "price": 16.27, "tp": 2.3020277998562158, "note": "pace 2.3x off peak 63.3x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "BPRE", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.815, "tp": 9.427580544719325, "note": "sustained 9.4x"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 18.11, "tp": 1.9569734990383494, "note": "sustained 2.0x"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "LEAVING", "price": 9.12, "tp": 0.7426369449434298, "note": "pace 0.7x off peak 3.8x \u00b7 VWAP lost (was +3.9% above)"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "BAB", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 26.41, "tp": 1.891271169578667, "note": "sustained 1.9x"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "IDVO", "prev_state": "RUNNING", "state": "COOLING", "price": 43.33, "tp": 0.9744796717898725, "note": "pace 1.0x off peak 6.8x"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "BALT", "prev_state": "FADING", "state": "RUNNING", "price": 34.72, "tp": 3.2745421625567914, "note": "sustained 3.3x"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 3.33, "tp": 3.4669530042390613, "note": "quiet open (0.3x) \u2192 now 3.5x \u00b7 taking +0.8% flow share"}
+{"ts": "2026-08-26T15:34:46.139572-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "FADING", "state": "CHURN", "price": 20.79, "tp": 11.881118803673917, "note": "11.9x participation, no progress at highs \u2014 absorption"}
