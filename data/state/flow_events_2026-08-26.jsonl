@@ -451,3 +451,4 @@
 {"ts": "2026-08-26T14:28:46.128827-04:00", "demo": 0, "ticker": "BNS", "prev_state": "RUNNING", "state": "COOLING", "price": 93.87, "tp": 1.6289626176689944, "note": "pace 1.6x off peak 4.0x"}
 {"ts": "2026-08-26T14:28:46.128827-04:00", "demo": 0, "ticker": "PACB", "prev_state": "COOLING", "state": "RUNNING", "price": 1.585, "tp": 2.359788391848778, "note": "sustained 2.4x"}
 {"ts": "2026-08-26T14:28:46.128827-04:00", "demo": 0, "ticker": "DEM", "prev_state": "CHURN", "state": "RUNNING", "price": 55.49, "tp": 8.408733522427708, "note": "sustained 8.4x"}
+{"ts": "2026-08-26T14:29:31.113701-04:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Monterey Peninsula College Awarded American Water Charitable Foundation Workforce Readiness Grant"}
