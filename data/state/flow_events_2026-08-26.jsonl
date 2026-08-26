@@ -59,3 +59,7 @@
 {"ts": "2026-08-26T10:09:25.713281-04:00", "demo": 0, "ticker": "BKGI", "prev_state": "QUIET", "state": "COOLING", "price": 45.03, "tp": 1.3852514572315027, "note": "pace 1.4x off peak 1.9x"}
 {"ts": "2026-08-26T10:09:25.713281-04:00", "demo": 0, "ticker": "COM", "prev_state": "RUNNING", "state": "CHURN", "price": 34.84, "tp": 27.687683633506474, "note": "27.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T10:09:25.713281-04:00", "demo": 0, "ticker": "GRML", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.425, "tp": 91.21839588801521, "note": "sustained 91.2x"}
+{"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "EDIT", "prev_state": "IGNITING", "state": "COOLING", "price": 3.265, "tp": 0.9012696893936463, "note": "pace 0.9x off peak 14.2x"}
+{"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "FADING", "state": "RUNNING", "price": 2.95, "tp": 1.9462984506319632, "note": "sustained 1.9x"}
+{"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "BWET", "prev_state": "IGNITING", "state": "COOLING", "price": 403.89, "tp": 0.0, "note": "pace 0.0x off peak 5.3x"}
+{"ts": "2026-08-26T10:12:25.713599-04:00", "demo": 0, "ticker": "COM", "prev_state": "CHURN", "state": "RUNNING", "price": 34.83, "tp": 35.10239853841903, "note": "sustained 35.1x"}
