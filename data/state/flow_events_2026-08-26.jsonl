@@ -302,3 +302,16 @@
 {"ts": "2026-08-26T11:27:25.728307-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "RUNNING", "state": "CHURN", "price": 18.47, "tp": 3.0859689260800502, "note": "3.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:27:25.728307-04:00", "demo": 0, "ticker": "BZ", "prev_state": "RUNNING", "state": "CHURN", "price": 19.16, "tp": 7.293083622631, "note": "7.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T11:27:25.728307-04:00", "demo": 0, "ticker": "BNS", "prev_state": "CHURN", "state": "RUNNING", "price": 94.0, "tp": 2.867893310506204, "note": "sustained 2.9x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "RUNNING", "state": "CHURN", "price": 15.21, "tp": 4.0248435234809845, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "BBWI", "prev_state": "CHURN", "state": "RUNNING", "price": 18.44, "tp": 2.7112156223044925, "note": "sustained 2.7x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "CRE", "prev_state": "FADING", "state": "LEAVING", "price": 6.67, "tp": 1172.0061029205378, "note": "pace 1172.0x off peak 7512.0x \u00b7 VWAP lost (was +15.1% above)"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "FADING", "state": "CHURN", "price": 116.82, "tp": 7.433993519662381, "note": "7.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "BNS", "prev_state": "RUNNING", "state": "CHURN", "price": 94.08, "tp": 2.8785190763638244, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "ASST", "prev_state": "LEAVING", "state": "IGNITING", "price": 21.13, "tp": 3.1953225406295775, "note": "pace 3.2x and accelerating (2.9x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "BZ", "prev_state": "CHURN", "state": "RUNNING", "price": 19.205, "tp": 7.765459450474963, "note": "sustained 7.8x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "BWET", "prev_state": "RUNNING", "state": "COOLING", "price": 400.07, "tp": 0.0, "note": "pace 0.0x off peak 5.3x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "DFEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 70.78, "tp": 6.6465507795749055, "note": "sustained 6.6x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "ANF", "prev_state": "CHURN", "state": "FADING", "price": 148.81, "tp": 6.589450907945424, "note": "pace 6.6x vs peak 19.4x \u00b7 -0.7% off HOD \u00b7 chart still +37% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "DEM", "prev_state": "CHURN", "state": "RUNNING", "price": 55.5, "tp": 14.604071923205362, "note": "sustained 14.6x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "RUNNING", "state": "COOLING", "price": 36.39, "tp": 1.627805992362075, "note": "pace 1.6x off peak 4.3x"}
+{"ts": "2026-08-26T11:30:25.728525-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.89, "tp": 6.398987442861676, "note": "sustained 6.4x"}
