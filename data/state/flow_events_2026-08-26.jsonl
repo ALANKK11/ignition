@@ -645,3 +645,12 @@
 {"ts": "2026-08-26T15:22:46.136036-04:00", "demo": 0, "ticker": "PACB", "prev_state": "CHURN", "state": "FADING", "price": 1.58, "tp": 1.6738086356482489, "note": "pace 1.7x vs peak 5.1x \u00b7 -1.6% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-26T15:22:46.136036-04:00", "demo": 0, "ticker": "BNED", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.435, "tp": 4.243143886678278, "note": "sustained 4.2x"}
 {"ts": "2026-08-26T15:22:46.136036-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "COOLING", "state": "NEW MONEY", "price": 3.325, "tp": 2.6638837033728975, "note": "quiet open (0.3x) \u2192 now 2.7x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "CRE", "prev_state": "LEAVING", "state": "FADING", "price": 6.25, "tp": 221.94603080643063, "note": "pace 221.9x vs peak 7512.0x \u00b7 -26.5% off HOD \u00b7 chart still +143% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "INDY", "prev_state": "RUNNING", "state": "COOLING", "price": 43.74, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "BAB", "prev_state": "COOLING", "state": "NEW MONEY", "price": 26.41, "tp": 2.5492550943191588, "note": "quiet open (0.5x) \u2192 now 2.5x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "GORO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.545, "tp": 1.8677651095182881, "note": "sustained 1.9x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "BEEM", "prev_state": "FADING", "state": "RUNNING", "price": 1.7, "tp": 3.09208383518049, "note": "sustained 3.1x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 86.505, "tp": 2.949388931639895, "note": "sustained 2.9x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "COOLING", "state": "RUNNING", "price": 18.11, "tp": 2.6378156353869127, "note": "sustained 2.6x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "DBA", "prev_state": "CHURN", "state": "RUNNING", "price": 28.605, "tp": 7.071214193620419, "note": "sustained 7.1x"}
+{"ts": "2026-08-26T15:25:46.138515-04:00", "demo": 0, "ticker": "BWET", "prev_state": "IGNITING", "state": "COOLING", "price": 376.665, "tp": 0.0, "note": "pace 0.0x off peak 16.2x"}
