@@ -67,3 +67,7 @@
 {"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "ANF", "prev_state": "RUNNING", "state": "CHURN", "price": 143.525, "tp": 7.6666729890064, "note": "7.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "AKTS", "prev_state": "IGNITING", "state": "COOLING", "price": 25.99, "tp": 0.47763371020648265, "note": "pace 0.5x off peak 4.7x"}
 {"ts": "2026-08-26T10:15:25.714091-04:00", "demo": 0, "ticker": "FBCV", "prev_state": "CHURN", "state": "FADING", "price": 43.24, "tp": 6.6395755292911645, "note": "pace 6.6x vs peak 36.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "MRVI", "prev_state": "NEW MONEY", "state": "FADING", "price": 9.315, "tp": 1.042508126101125, "note": "pace 1.0x vs peak 4.3x \u00b7 -1.0% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "ANF", "prev_state": "CHURN", "state": "RUNNING", "price": 143.985, "tp": 7.848264986350265, "note": "sustained 7.8x"}
+{"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.95, "tp": 1.2047620041840008, "note": "pace 1.2x off peak 5.5x"}
+{"ts": "2026-08-26T10:18:25.714569-04:00", "demo": 0, "ticker": "BZ", "prev_state": "RUNNING", "state": "CHURN", "price": 18.945, "tp": 9.39894696685993, "note": "9.4x participation, no progress at highs \u2014 absorption"}
