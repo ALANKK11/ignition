@@ -579,3 +579,4 @@
 {"ts": "2026-08-26T15:04:46.133488-04:00", "demo": 0, "ticker": "BNED", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 12.56, "tp": 1.9229092298810229, "note": "sustained 1.9x"}
 {"ts": "2026-08-26T15:04:46.133488-04:00", "demo": 0, "ticker": "DBI", "prev_state": "RUNNING", "state": "COOLING", "price": 5.775, "tp": 1.5344192092543678, "note": "pace 1.5x off peak 2.3x"}
 {"ts": "2026-08-26T15:04:46.133488-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "RUNNING", "state": "COOLING", "price": 19.74, "tp": 1.7815061798136957, "note": "pace 1.8x off peak 7.0x"}
+{"ts": "2026-08-26T15:05:31.120681-04:00", "demo": 0, "ticker": "TBLA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "TBLA Investor Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Tabo"}
