@@ -184,3 +184,8 @@
 {"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "BAB", "prev_state": "COOLING", "state": "RUNNING", "price": 26.42, "tp": 1.8838059388962902, "note": "sustained 1.9x"}
 {"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "DFEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 71.28, "tp": 3.601394715949676, "note": "sustained 3.6x"}
 {"ts": "2026-08-26T10:54:25.721628-04:00", "demo": 0, "ticker": "ELMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.82, "tp": 3.760328635169674, "note": "sustained 3.8x"}
+{"ts": "2026-08-26T10:57:25.722435-04:00", "demo": 0, "ticker": "AVLV", "prev_state": "RUNNING", "state": "CHURN", "price": 94.65, "tp": 14.60656029670224, "note": "14.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-26T10:57:25.722435-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "COOLING", "state": "RUNNING", "price": 19.64, "tp": 2.1763520558050042, "note": "sustained 2.2x"}
+{"ts": "2026-08-26T10:57:25.722435-04:00", "demo": 0, "ticker": "BAB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.42, "tp": 0.1574286329773816, "note": "pace 0.2x off peak 3.2x"}
+{"ts": "2026-08-26T10:57:25.722435-04:00", "demo": 0, "ticker": "BPRE", "prev_state": "RUNNING", "state": "COOLING", "price": 11.91, "tp": 1.3629223850934367, "note": "pace 1.4x off peak 5.1x"}
+{"ts": "2026-08-26T10:57:25.722435-04:00", "demo": 0, "ticker": "ELMD", "prev_state": "RUNNING", "state": "COOLING", "price": 33.82, "tp": 0.0, "note": "pace 0.0x off peak 14.1x"}
