@@ -376,3 +376,11 @@
 {"ts": "2026-08-31T15:29:51.177500-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "RUNNING", "state": "FADING", "price": 20.55, "tp": 7.011026731564205, "note": "pace 7.0x vs peak 28.5x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-31T15:29:51.177500-04:00", "demo": 0, "ticker": "BGB", "prev_state": "QUIET", "state": "RUNNING", "price": 11.205, "tp": 2.071987272359032, "note": "sustained 2.1x"}
 {"ts": "2026-08-31T15:29:51.177500-04:00", "demo": 0, "ticker": "FSEC", "prev_state": "COOLING", "state": "NEW MONEY", "price": 43.19, "tp": 2.0680764956851623, "note": "quiet open (0.7x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "FSEC", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 43.19, "tp": 1.8308344775383885, "note": "sustained 1.8x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.435, "tp": 7.370326059658947, "note": "sustained 7.4x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "FNDB", "prev_state": "COOLING", "state": "RUNNING", "price": 31.56, "tp": 3.016342692157036, "note": "sustained 3.0x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "AAPX", "prev_state": "QUIET", "state": "RUNNING", "price": 36.47, "tp": 2.205151502130338, "note": "sustained 2.2x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "CMF", "prev_state": "QUIET", "state": "RUNNING", "price": 56.195, "tp": 1.9234616729677545, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "FXN", "prev_state": "FADING", "state": "RUNNING", "price": 23.69, "tp": 5.037813962262396, "note": "sustained 5.0x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "BTT", "prev_state": "CHURN", "state": "RUNNING", "price": 22.625, "tp": 61.514406436194655, "note": "sustained 61.5x"}
+{"ts": "2026-08-31T15:32:51.178040-04:00", "demo": 0, "ticker": "ASST", "prev_state": "IGNITING", "state": "CHURN", "price": 24.17, "tp": 5.614833312923024, "note": "5.6x participation, no progress at highs \u2014 absorption"}
