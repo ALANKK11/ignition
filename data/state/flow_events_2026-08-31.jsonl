@@ -304,3 +304,9 @@
 {"ts": "2026-08-31T15:11:51.174120-04:00", "demo": 0, "ticker": "FLMX", "prev_state": "FADING", "state": "RUNNING", "price": 37.215, "tp": 181.9936635543668, "note": "sustained 182.0x"}
 {"ts": "2026-08-31T15:11:51.174120-04:00", "demo": 0, "ticker": "FWDI", "prev_state": "RUNNING", "state": "COOLING", "price": 6.32, "tp": 1.7249229185947286, "note": "pace 1.7x off peak 2.5x"}
 {"ts": "2026-08-31T15:11:51.174120-04:00", "demo": 0, "ticker": "AMAL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 48.105, "tp": 4.4499122360200305, "note": "quiet open (0.1x) \u2192 now 4.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "AIV", "prev_state": "IGNITING", "state": "COOLING", "price": 2.53, "tp": 1.20382738696385, "note": "pace 1.2x off peak 8.2x"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "CVKD", "prev_state": "IGNITING", "state": "FADING", "price": 1.79, "tp": 36.241905272608335, "note": "pace 36.2x vs peak 105.6x \u00b7 -21.1% off HOD \u00b7 chart still +17% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "FWDI", "prev_state": "COOLING", "state": "FADING", "price": 6.35, "tp": 0.4648111319832243, "note": "pace 0.5x vs peak 2.5x \u00b7 +0.0% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "CHURN", "state": "RUNNING", "price": 20.555, "tp": 23.989261301835043, "note": "sustained 24.0x"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "CGBD", "prev_state": "FADING", "state": "CHURN", "price": 11.99, "tp": 2.2912038795393816, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "EVTR", "prev_state": "RUNNING", "state": "COOLING", "price": 49.895, "tp": 0.4326789078619888, "note": "pace 0.4x off peak 6.7x"}
