@@ -216,3 +216,16 @@
 {"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "COOLING", "state": "RUNNING", "price": 72.45, "tp": 4.462275312163456, "note": "sustained 4.5x"}
 {"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "AMAL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 48.13, "tp": 0.7835190940260666, "note": "pace 0.8x off peak 4.5x"}
 {"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "EVTR", "prev_state": "COOLING", "state": "CHURN", "price": 49.885, "tp": 2.311703633897779, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "COOLING", "state": "FADING", "price": 36.395, "tp": 1.3593483697199646, "note": "pace 1.4x vs peak 4.0x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "PLAB", "prev_state": "COOLING", "state": "IGNITING", "price": 27.975, "tp": 4.761565349780086, "note": "pace 4.8x and accelerating (4.5x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "GRNT", "prev_state": "COOLING", "state": "RUNNING", "price": 5.02, "tp": 3.149825814860906, "note": "sustained 3.1x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "FPEI", "prev_state": "RUNNING", "state": "CHURN", "price": 18.99, "tp": 10.206084936014904, "note": "10.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "BALI", "prev_state": "COOLING", "state": "RUNNING", "price": 34.7, "tp": 5.924840399504572, "note": "sustained 5.9x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "BBW", "prev_state": "RUNNING", "state": "FADING", "price": 30.61, "tp": 2.4022912011736945, "note": "pace 2.4x vs peak 7.2x \u00b7 -2.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "FHLC", "prev_state": "RUNNING", "state": "COOLING", "price": 82.58, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "TITN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.895, "tp": 1.9539933514431753, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "COOT", "prev_state": "RUNNING", "state": "FADING", "price": 0.6185, "tp": 435.0858290672283, "note": "pace 435.1x vs peak 1365.5x \u00b7 -15.2% off HOD \u00b7 chart still +34% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "FNDB", "prev_state": "COOLING", "state": "RUNNING", "price": 31.53, "tp": 10.162906982911473, "note": "sustained 10.2x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "CHA", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.6, "tp": 5.4850075479917315, "note": "sustained 5.5x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "FLSW", "prev_state": "RUNNING", "state": "COOLING", "price": 43.465, "tp": 0.0, "note": "pace 0.0x off peak 52.4x"}
+{"ts": "2026-08-31T14:53:51.171131-04:00", "demo": 0, "ticker": "RMNI", "prev_state": "RUNNING", "state": "QUIET", "price": 5.57, "tp": 1.598136801698644, "note": ""}
