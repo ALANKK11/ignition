@@ -82,3 +82,12 @@
 {"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "TREE", "prev_state": "CHURN", "state": "RUNNING", "price": 27.9, "tp": 6.026624432874571, "note": "sustained 6.0x"}
 {"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "RUNNING", "state": "COOLING", "price": 14.925, "tp": 1.4064717083103422, "note": "pace 1.4x off peak 2.1x"}
 {"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "FLNG", "prev_state": "CHURN", "state": "RUNNING", "price": 31.695, "tp": 3.629239298959651, "note": "sustained 3.6x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "DPC", "prev_state": "CHURN", "state": "RUNNING", "price": 41.855, "tp": 5.759546968973947, "note": "sustained 5.8x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "GFUZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.15, "tp": 10.642772550486699, "note": "sustained 10.6x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "PRGS", "prev_state": "RUNNING", "state": "COOLING", "price": 45.62, "tp": 1.1213969768010366, "note": "pace 1.1x off peak 2.0x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "FPEI", "prev_state": "COOLING", "state": "CHURN", "price": 18.995, "tp": 4.548171991223817, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "CORP", "prev_state": "RUNNING", "state": "COOLING", "price": 94.95, "tp": 0.0, "note": "pace 0.0x off peak 17.7x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "CLGN", "prev_state": "RUNNING", "state": "FADING", "price": 0.4011, "tp": 56.168089235230966, "note": "pace 56.2x vs peak 179.4x \u00b7 -58.2% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "GPRK", "prev_state": "QUIET", "state": "RUNNING", "price": 11.11, "tp": 2.6812103157603806, "note": "sustained 2.7x"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "RUNNING", "state": "CHURN", "price": 72.475, "tp": 2.8345109799022445, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "AFRM", "prev_state": "IGNITING", "state": "RUNNING", "price": 75.24, "tp": 7.666192380684061, "note": "sustained 7.7x"}
