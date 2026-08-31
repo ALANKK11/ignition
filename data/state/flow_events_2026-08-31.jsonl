@@ -30,3 +30,11 @@
 {"ts": "2026-08-31T14:02:51.161373-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.345, "tp": 13.344182519377389, "note": "sustained 13.3x"}
 {"ts": "2026-08-31T14:02:51.161373-04:00", "demo": 0, "ticker": "GSG", "prev_state": "RUNNING", "state": "FADING", "price": 33.91, "tp": 0.3742806594776998, "note": "pace 0.4x vs peak 4.6x \u00b7 -0.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-31T14:02:51.161373-04:00", "demo": 0, "ticker": "DPC", "prev_state": "RUNNING", "state": "IGNITING", "price": 41.415, "tp": 16.66413234497914, "note": "pace 16.7x and accelerating (2.4x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "CHURN", "price": 9.03, "tp": 13.764489129147224, "note": "13.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "CVKD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.78, "tp": 58.32512706387154, "note": "sustained 58.3x"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "CHPY", "prev_state": "RUNNING", "state": "FADING", "price": 66.23, "tp": 13.754024157417957, "note": "pace 13.8x vs peak 50.7x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "ILF", "prev_state": "CHURN", "state": "RUNNING", "price": 34.835, "tp": 9.362442722616615, "note": "sustained 9.4x"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "DPC", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.31, "tp": 7.343808444631958, "note": "sustained 7.3x"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "REZ", "prev_state": "RUNNING", "state": "COOLING", "price": 93.62, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "PLAB", "prev_state": "RUNNING", "state": "QUIET", "price": 28.12, "tp": 1.6718828247310216, "note": ""}
+{"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "FLMX", "prev_state": "RUNNING", "state": "CHURN", "price": 37.27, "tp": 96.2674025041522, "note": "96.3x participation, no progress at highs \u2014 absorption"}
