@@ -146,3 +146,15 @@
 {"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "BTT", "prev_state": "RUNNING", "state": "CHURN", "price": 22.63, "tp": 69.8374724130485, "note": "69.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "MBUU", "prev_state": "RUNNING", "state": "COOLING", "price": 26.45, "tp": 0.6971633698718733, "note": "pace 0.7x off peak 3.4x"}
 {"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "WIT", "prev_state": "QUIET", "state": "RUNNING", "price": 1.845, "tp": 1.9391964317792483, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "RUNNING", "state": "COOLING", "price": 15.3, "tp": 1.5621174401160598, "note": "pace 1.6x off peak 3.0x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "CGBD", "prev_state": "QUIET", "state": "RUNNING", "price": 12.025, "tp": 2.228764018787, "note": "sustained 2.2x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "BNDW", "prev_state": "CHURN", "state": "COOLING", "price": 67.31, "tp": 0.0, "note": "pace 0.0x off peak 10.3x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "WIT", "prev_state": "RUNNING", "state": "COOLING", "price": 1.845, "tp": 1.2054544513429, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "AAPD", "prev_state": "QUIET", "state": "RUNNING", "price": 11.03, "tp": 1.9968474245423116, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "FINV", "prev_state": "RUNNING", "state": "CHURN", "price": 3.64, "tp": 3.030361949067731, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "PRGS", "prev_state": "COOLING", "state": "RUNNING", "price": 45.74, "tp": 1.8670215019751355, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "HWM", "prev_state": "CHURN", "state": "RUNNING", "price": 246.6, "tp": 3.410188516802661, "note": "sustained 3.4x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "EWU", "prev_state": "COOLING", "state": "RUNNING", "price": 48.305, "tp": 2.604795898913641, "note": "sustained 2.6x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "CVKD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.69, "tp": 43.77820102959144, "note": "sustained 43.8x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "CHA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.54, "tp": 1.9697091324663114, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T14:35:51.167425-04:00", "demo": 0, "ticker": "AMAL", "prev_state": "QUIET", "state": "NEW MONEY", "price": 48.18, "tp": 3.92180485089004, "note": "quiet open (0.1x) \u2192 now 3.9x \u00b7 taking +0.3% flow share"}
