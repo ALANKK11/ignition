@@ -310,3 +310,4 @@
 {"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "CHURN", "state": "RUNNING", "price": 20.555, "tp": 23.989261301835043, "note": "sustained 24.0x"}
 {"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "CGBD", "prev_state": "FADING", "state": "CHURN", "price": 11.99, "tp": 2.2912038795393816, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-31T15:14:51.174568-04:00", "demo": 0, "ticker": "EVTR", "prev_state": "RUNNING", "state": "COOLING", "price": 49.895, "tp": 0.4326789078619888, "note": "pace 0.4x off peak 6.7x"}
+{"ts": "2026-08-31T15:16:21.160111-04:00", "demo": 0, "ticker": "PLAB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "FRIDAY PLAB INVESTOR DEADLINE: Photronics, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action "}
