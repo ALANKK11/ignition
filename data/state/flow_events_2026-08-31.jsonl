@@ -203,3 +203,16 @@
 {"ts": "2026-08-31T14:47:51.169482-04:00", "demo": 0, "ticker": "CHA", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.595, "tp": 3.784673672645449, "note": "pace 3.8x and accelerating (2.0x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-08-31T14:47:51.169482-04:00", "demo": 0, "ticker": "GLAS", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.155, "tp": 4.830304989836643, "note": "pace 4.8x and accelerating (96.6x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-08-31T14:47:51.169482-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "COOLING", "state": "RUNNING", "price": 22.09, "tp": 2.3805496671223803, "note": "sustained 2.4x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "BALI", "prev_state": "RUNNING", "state": "COOLING", "price": 34.725, "tp": 0.0, "note": "pace 0.0x off peak 21.3x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "BOC", "prev_state": "FADING", "state": "RUNNING", "price": 13.895, "tp": 1.867052055589419, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "ERY", "prev_state": "COOLING", "state": "RUNNING", "price": 9.06, "tp": 11.618161906651684, "note": "sustained 11.6x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "EWU", "prev_state": "RUNNING", "state": "COOLING", "price": 48.3, "tp": 0.21168651346832396, "note": "pace 0.2x off peak 20.3x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "CHURN", "state": "FADING", "price": 5.325, "tp": 2.500466377637492, "note": "pace 2.5x vs peak 15.0x \u00b7 -1.0% off HOD \u00b7 chart still +19% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "CHURN", "state": "RUNNING", "price": 15.29, "tp": 3.92650469104565, "note": "sustained 3.9x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "GLAS", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.21, "tp": 5.2995116353094875, "note": "sustained 5.3x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "GPRK", "prev_state": "COOLING", "state": "RUNNING", "price": 11.11, "tp": 5.673057705959594, "note": "sustained 5.7x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "AON", "prev_state": "IGNITING", "state": "RUNNING", "price": 322.36, "tp": 6.19872294149266, "note": "sustained 6.2x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "CLGN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.43, "tp": 175.37422356942162, "note": "sustained 175.4x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "COOLING", "state": "RUNNING", "price": 72.45, "tp": 4.462275312163456, "note": "sustained 4.5x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "AMAL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 48.13, "tp": 0.7835190940260666, "note": "pace 0.8x off peak 4.5x"}
+{"ts": "2026-08-31T14:50:51.170021-04:00", "demo": 0, "ticker": "EVTR", "prev_state": "COOLING", "state": "CHURN", "price": 49.885, "tp": 2.311703633897779, "note": "2.3x participation, no progress at highs \u2014 absorption"}
