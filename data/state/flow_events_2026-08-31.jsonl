@@ -15,3 +15,10 @@
 {"ts": "2026-08-31T13:56:51.159466-04:00", "demo": 0, "ticker": "FNDE", "prev_state": "RUNNING", "state": "FADING", "price": 42.12, "tp": 5.084865706765926, "note": "pace 5.1x vs peak 16.3x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-31T13:56:51.159466-04:00", "demo": 0, "ticker": "PRE", "prev_state": "IGNITING", "state": "FADING", "price": 26.16, "tp": 1.2406702223298223, "note": "pace 1.2x vs peak 4.2x \u00b7 -1.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-31T13:56:51.159466-04:00", "demo": 0, "ticker": "BBW", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.25, "tp": 4.977045544339985, "note": "pace 5.0x and accelerating (1.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "RDHL", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.06, "tp": 384.31219209584617, "note": "sustained 384.3x"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "NAT", "prev_state": "QUIET", "state": "RUNNING", "price": 6.86, "tp": 2.043691448161067, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "VIR", "prev_state": "RUNNING", "state": "COOLING", "price": 10.765, "tp": 0.603627911653753, "note": "pace 0.6x off peak 2.5x"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "CVKD", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.8, "tp": 77.64876583741541, "note": "pace 77.6x and accelerating (3.4x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "BBW", "prev_state": "IGNITING", "state": "RUNNING", "price": 30.27, "tp": 4.638892889483988, "note": "sustained 4.6x"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "PLAB", "prev_state": "QUIET", "state": "RUNNING", "price": 28.06, "tp": 1.9384797677516137, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T13:59:51.160336-04:00", "demo": 0, "ticker": "LTRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.265, "tp": 3.9007985316383254, "note": "sustained 3.9x"}
