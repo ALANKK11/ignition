@@ -137,3 +137,12 @@
 {"ts": "2026-08-31T14:29:51.166752-04:00", "demo": 0, "ticker": "ERY", "prev_state": "CHURN", "state": "RUNNING", "price": 9.03, "tp": 5.9134343110438765, "note": "sustained 5.9x"}
 {"ts": "2026-08-31T14:29:51.166752-04:00", "demo": 0, "ticker": "CHPT", "prev_state": "RUNNING", "state": "COOLING", "price": 5.51, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
 {"ts": "2026-08-31T14:29:51.166752-04:00", "demo": 0, "ticker": "GRNT", "prev_state": "RUNNING", "state": "COOLING", "price": 5.035, "tp": 1.6030486969934088, "note": "pace 1.6x off peak 3.2x"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "FINV", "prev_state": "QUIET", "state": "RUNNING", "price": 3.635, "tp": 2.523057616252831, "note": "sustained 2.5x"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "HWM", "prev_state": "RUNNING", "state": "CHURN", "price": 246.9, "tp": 4.20626808658629, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "GPRK", "prev_state": "RUNNING", "state": "FADING", "price": 11.1, "tp": 0.713262688123214, "note": "pace 0.7x vs peak 2.8x \u00b7 -0.8% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "DPC", "prev_state": "RUNNING", "state": "IGNITING", "price": 41.555, "tp": 13.125604197399687, "note": "pace 13.1x and accelerating (2.1x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.13, "tp": 5.095565441543788, "note": "pace 5.1x and accelerating (11.1x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "BALI", "prev_state": "COOLING", "state": "RUNNING", "price": 34.735, "tp": 3.4495451784321665, "note": "sustained 3.4x"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "BTT", "prev_state": "RUNNING", "state": "CHURN", "price": 22.63, "tp": 69.8374724130485, "note": "69.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "MBUU", "prev_state": "RUNNING", "state": "COOLING", "price": 26.45, "tp": 0.6971633698718733, "note": "pace 0.7x off peak 3.4x"}
+{"ts": "2026-08-31T14:32:51.167039-04:00", "demo": 0, "ticker": "WIT", "prev_state": "QUIET", "state": "RUNNING", "price": 1.845, "tp": 1.9391964317792483, "note": "sustained 1.9x"}
