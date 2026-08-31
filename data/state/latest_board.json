@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-31T17:39:56-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-31T17:40:41-04:00", "session": "post", "rows": [{"headline": "Cango Inc. Reports Second Quarter 2026 Unaudited Financial Results", "pr_ts": "17:00", "catalyst": true, "flags": ["AI", "BITCOIN"], "ticker": "CANG", "move": 0.0984, "last": 2.4, "dollars": 52476.0, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 1, "path": 0.234, "first_seen": "17:02", "new": false}]}
