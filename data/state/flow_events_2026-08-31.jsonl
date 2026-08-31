@@ -66,3 +66,19 @@
 {"ts": "2026-08-31T14:11:51.162866-04:00", "demo": 0, "ticker": "FLMX", "prev_state": "CHURN", "state": "FADING", "price": 37.27, "tp": 0.0, "note": "pace 0.0x vs peak 194.8x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-08-31T14:11:51.162866-04:00", "demo": 0, "ticker": "FLNG", "prev_state": "RUNNING", "state": "CHURN", "price": 31.715, "tp": 3.7681271218246795, "note": "3.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-31T14:11:51.162866-04:00", "demo": 0, "ticker": "GPRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.7826, "tp": 63.84275695868219, "note": "pace 63.8x and accelerating (2.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "COOT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6328, "tp": 315.63193589137825, "note": "pace 315.6x and accelerating (2.2x vs prior window) \u00b7 +5.8% in window"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "GPRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.7685, "tp": 54.90802154503998, "note": "sustained 54.9x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "HWM", "prev_state": "CHURN", "state": "RUNNING", "price": 247.6, "tp": 4.266214971724938, "note": "sustained 4.3x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "GFUZ", "prev_state": "QUIET", "state": "IGNITING", "price": 8.15, "tp": 11.709504988550979, "note": "pace 11.7x and accelerating (234.2x vs prior window) \u00b7 -1.9% in window"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "FNDB", "prev_state": "COOLING", "state": "CHURN", "price": 31.57, "tp": 3.345510627095268, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "QUIET", "state": "RUNNING", "price": 72.435, "tp": 1.899903663224311, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "DPC", "prev_state": "RUNNING", "state": "CHURN", "price": 41.63, "tp": 4.099550460974904, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "ILF", "prev_state": "CHURN", "state": "RUNNING", "price": 34.825, "tp": 7.906867485375206, "note": "sustained 7.9x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "CHURN", "state": "RUNNING", "price": 116.655, "tp": 5.376882735329237, "note": "sustained 5.4x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "RUNNING", "state": "FADING", "price": 43.125, "tp": 0.0, "note": "pace 0.0x vs peak 2.5x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "AON", "prev_state": "IGNITING", "state": "RUNNING", "price": 324.61, "tp": 8.258595708520101, "note": "sustained 8.3x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "NAT", "prev_state": "CHURN", "state": "RUNNING", "price": 6.835, "tp": 2.6987090890934633, "note": "sustained 2.7x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "PRGS", "prev_state": "QUIET", "state": "RUNNING", "price": 45.62, "tp": 1.975320508116174, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "TREE", "prev_state": "CHURN", "state": "RUNNING", "price": 27.9, "tp": 6.026624432874571, "note": "sustained 6.0x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "RUNNING", "state": "COOLING", "price": 14.925, "tp": 1.4064717083103422, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-08-31T14:14:51.163684-04:00", "demo": 0, "ticker": "FLNG", "prev_state": "CHURN", "state": "RUNNING", "price": 31.695, "tp": 3.629239298959651, "note": "sustained 3.6x"}
