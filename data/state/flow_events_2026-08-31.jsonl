@@ -38,3 +38,16 @@
 {"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "REZ", "prev_state": "RUNNING", "state": "COOLING", "price": 93.62, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
 {"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "PLAB", "prev_state": "RUNNING", "state": "QUIET", "price": 28.12, "tp": 1.6718828247310216, "note": ""}
 {"ts": "2026-08-31T14:05:51.161751-04:00", "demo": 0, "ticker": "FLMX", "prev_state": "RUNNING", "state": "CHURN", "price": 37.27, "tp": 96.2674025041522, "note": "96.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "NAT", "prev_state": "RUNNING", "state": "CHURN", "price": 6.855, "tp": 2.962947384133252, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "PASW", "prev_state": "FADING", "state": "RUNNING", "price": 0.1449, "tp": 433.61192361075405, "note": "sustained 433.6x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "CVKD", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.78, "tp": 60.678401429748554, "note": "pace 60.7x and accelerating (1.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "FPEI", "prev_state": "CHURN", "state": "COOLING", "price": 18.995, "tp": 1.450523657754169, "note": "pace 1.5x off peak 34.6x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "ERY", "prev_state": "CHURN", "state": "RUNNING", "price": 9.04, "tp": 38.59729725110609, "note": "sustained 38.6x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "MOBX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.3, "tp": 1.699892857080335, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "NCRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.96, "tp": 56.09481924106325, "note": "sustained 56.1x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "CLGN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.4014, "tp": 134.84170874920082, "note": "sustained 134.8x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "PLAB", "prev_state": "QUIET", "state": "COOLING", "price": 28.12, "tp": 1.3275364572811377, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "PCG", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.565, "tp": 4.6260199545911425, "note": "pace 4.6x and accelerating (1.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "PBD", "prev_state": "RUNNING", "state": "COOLING", "price": 17.67, "tp": 0.0, "note": "pace 0.0x off peak 20.3x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "TREE", "prev_state": "QUIET", "state": "RUNNING", "price": 27.865, "tp": 5.863276494513851, "note": "sustained 5.9x"}
+{"ts": "2026-08-31T14:08:51.162251-04:00", "demo": 0, "ticker": "GPRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.7765, "tp": 24.290895744389395, "note": "sustained 24.3x"}
