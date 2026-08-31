@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-08-31T16:10:21-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-08-31T16:11:06-04:00", "session": "post", "rows": [{"headline": "TXNM Energy Announces Public Offering of Common Stock", "pr_ts": "16:03", "catalyst": true, "flags": ["\u26a0OFFERING"], "ticker": "TXNM", "move": -0.0002, "last": 57.64, "dollars": 1898834.52, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.0, "first_seen": "16:11", "new": true}]}

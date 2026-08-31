@@ -507,3 +507,4 @@
 {"ts": "2026-08-31T15:59:51.183028-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "CHURN", "state": "RUNNING", "price": 13.7, "tp": 3.477335483954116, "note": "sustained 3.5x"}
 {"ts": "2026-08-31T15:59:51.183028-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.435, "tp": 7.30822773844107, "note": "sustained 7.3x"}
 {"ts": "2026-08-31T15:59:51.183028-04:00", "demo": 0, "ticker": "MBUU", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.96, "tp": 2.182456105151311, "note": "sustained 2.2x"}
+{"ts": "2026-08-31T16:11:06.170309-04:00", "demo": 0, "ticker": "TXNM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "TXNM Energy Announces Public Offering of Common Stock"}
