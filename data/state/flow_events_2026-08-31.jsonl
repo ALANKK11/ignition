@@ -336,3 +336,14 @@
 {"ts": "2026-08-31T15:20:51.175814-04:00", "demo": 0, "ticker": "EWU", "prev_state": "CHURN", "state": "RUNNING", "price": 48.315, "tp": 30.073604298721747, "note": "sustained 30.1x"}
 {"ts": "2026-08-31T15:20:51.175814-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "RUNNING", "state": "COOLING", "price": 30.98, "tp": 0.0, "note": "pace 0.0x off peak 95.0x"}
 {"ts": "2026-08-31T15:20:51.175814-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "RUNNING", "state": "COOLING", "price": 22.415, "tp": 1.0683735573040696, "note": "pace 1.1x off peak 2.7x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "DCO", "prev_state": "COOLING", "state": "RUNNING", "price": 171.77, "tp": 3.360313292398811, "note": "sustained 3.4x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "DPC", "prev_state": "CHURN", "state": "RUNNING", "price": 41.94, "tp": 6.797089491610866, "note": "sustained 6.8x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "NAT", "prev_state": "RUNNING", "state": "FADING", "price": 6.825, "tp": 0.8984989935830238, "note": "pace 0.9x vs peak 3.4x \u00b7 -0.7% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "AAPD", "prev_state": "FADING", "state": "QUIET", "price": 11.03, "tp": 1.7987180398782672, "note": ""}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "PD", "prev_state": "COOLING", "state": "RUNNING", "price": 14.21, "tp": 1.9970034693397483, "note": "sustained 2.0x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "EWU", "prev_state": "RUNNING", "state": "CHURN", "price": 48.315, "tp": 14.243356878164914, "note": "14.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "COOLING", "price": 5.92, "tp": 1.67331318758364, "note": "pace 1.7x off peak 13.1x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "OOMA", "prev_state": "COOLING", "state": "IGNITING", "price": 22.47, "tp": 3.1616045183787196, "note": "pace 3.2x and accelerating (1.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "RUNNING", "state": "CHURN", "price": 116.5, "tp": 6.585832222171104, "note": "6.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "RUNNING", "state": "COOLING", "price": 15.2, "tp": 1.750928013442663, "note": "pace 1.8x off peak 4.7x"}
+{"ts": "2026-08-31T15:23:51.177825-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "FADING", "state": "CHURN", "price": 5.4, "tp": 7.916735850496732, "note": "7.9x participation, no progress at highs \u2014 absorption"}
