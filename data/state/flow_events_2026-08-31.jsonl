@@ -182,3 +182,11 @@
 {"ts": "2026-08-31T14:41:51.168353-04:00", "demo": 0, "ticker": "CHA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.55, "tp": 3.0360099789142523, "note": "sustained 3.0x"}
 {"ts": "2026-08-31T14:41:51.168353-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "FADING", "state": "CHURN", "price": 5.325, "tp": 6.213053040577212, "note": "6.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-31T14:41:51.168353-04:00", "demo": 0, "ticker": "GLAS", "prev_state": "COOLING", "state": "RUNNING", "price": 9.24, "tp": 1.8466474647319813, "note": "sustained 1.8x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "CGBD", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.995, "tp": 4.514946449604848, "note": "sustained 4.5x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "FINV", "prev_state": "CHURN", "state": "RUNNING", "price": 3.635, "tp": 7.6574582581021025, "note": "sustained 7.7x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "HYLB", "prev_state": "RUNNING", "state": "COOLING", "price": 36.395, "tp": 1.4089382600091258, "note": "pace 1.4x off peak 4.0x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "LTRX", "prev_state": "COOLING", "state": "RUNNING", "price": 5.31, "tp": 1.8690998523911833, "note": "sustained 1.9x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "BBAR", "prev_state": "RUNNING", "state": "CHURN", "price": 15.28, "tp": 3.5431180512558216, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "FIVA", "prev_state": "RUNNING", "state": "COOLING", "price": 39.72, "tp": 0.0, "note": "pace 0.0x off peak 7.8x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.305, "tp": 7.058294266927891, "note": "sustained 7.1x"}
+{"ts": "2026-08-31T14:44:51.169347-04:00", "demo": 0, "ticker": "DPC", "prev_state": "RUNNING", "state": "CHURN", "price": 41.66, "tp": 6.120224867646337, "note": "6.1x participation, no progress at highs \u2014 absorption"}
