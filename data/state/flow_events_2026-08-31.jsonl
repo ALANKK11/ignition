@@ -91,3 +91,9 @@
 {"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "GPRK", "prev_state": "QUIET", "state": "RUNNING", "price": 11.11, "tp": 2.6812103157603806, "note": "sustained 2.7x"}
 {"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "RUNNING", "state": "CHURN", "price": 72.475, "tp": 2.8345109799022445, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-08-31T14:17:51.163745-04:00", "demo": 0, "ticker": "AFRM", "prev_state": "IGNITING", "state": "RUNNING", "price": 75.24, "tp": 7.666192380684061, "note": "sustained 7.7x"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "EWU", "prev_state": "RUNNING", "state": "COOLING", "price": 48.33, "tp": 0.4597555170813022, "note": "pace 0.5x off peak 20.3x"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "MBUU", "prev_state": "QUIET", "state": "RUNNING", "price": 26.48, "tp": 3.3622176384759728, "note": "sustained 3.4x"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "HWM", "prev_state": "RUNNING", "state": "CHURN", "price": 247.025, "tp": 4.532602981370024, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "BOC", "prev_state": "RUNNING", "state": "COOLING", "price": 13.89, "tp": 1.284542349721874, "note": "pace 1.3x off peak 3.1x"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "FLNG", "prev_state": "RUNNING", "state": "COOLING", "price": 31.71, "tp": 1.7669405991581022, "note": "pace 1.8x off peak 4.3x"}
+{"ts": "2026-08-31T14:20:51.164704-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "CHURN", "state": "RUNNING", "price": 72.425, "tp": 3.8055952294247795, "note": "sustained 3.8x"}
