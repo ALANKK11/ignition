@@ -353,3 +353,11 @@
 {"ts": "2026-09-01T15:47:53.424502-04:00", "demo": 0, "ticker": "EIPX", "prev_state": "QUIET", "state": "RUNNING", "price": 33.685, "tp": 2.14587178889006, "note": "sustained 2.1x"}
 {"ts": "2026-09-01T15:47:53.424502-04:00", "demo": 0, "ticker": "ALMS", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.45, "tp": 17.230793106981334, "note": "sustained 17.2x"}
 {"ts": "2026-09-01T15:47:53.424502-04:00", "demo": 0, "ticker": "AIV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.52, "tp": 1.4849897999967445, "note": "pace 1.5x off peak 3.9x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 82.645, "tp": 1.5561511028812103, "note": "pace 1.6x off peak 3.7x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.68, "tp": 13.940666892616193, "note": "sustained 13.9x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "APOG", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 37.5, "tp": 3.60688411781447, "note": "pace 3.6x and accelerating (72.1x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "CTA", "prev_state": "CHURN", "state": "RUNNING", "price": 29.09, "tp": 8.73997877329601, "note": "sustained 8.7x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "TSLT", "prev_state": "QUIET", "state": "RUNNING", "price": 12.985, "tp": 1.8477655629886403, "note": "sustained 1.8x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "DDI", "prev_state": "CHURN", "state": "RUNNING", "price": 12.725, "tp": 34.001117931181696, "note": "sustained 34.0x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "GIII", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 32.195, "tp": 1.8432575640231474, "note": "sustained 1.8x"}
+{"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "AIV", "prev_state": "COOLING", "state": "FADING", "price": 2.52, "tp": 1.2260416964608114, "note": "pace 1.2x vs peak 3.9x \u00b7 -1.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
