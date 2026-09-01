@@ -92,3 +92,14 @@
 {"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "BWX", "prev_state": "CHURN", "state": "RUNNING", "price": 21.71, "tp": 42.40377746576735, "note": "sustained 42.4x"}
 {"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "DBA", "prev_state": "RUNNING", "state": "QUIET", "price": 29.42, "tp": 1.4164070444047712, "note": ""}
 {"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "TSLY", "prev_state": "RUNNING", "state": "COOLING", "price": 22.35, "tp": 1.0970287169283404, "note": "pace 1.1x off peak 2.3x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "HIBL", "prev_state": "RUNNING", "state": "COOLING", "price": 98.89, "tp": 1.7280249581077576, "note": "pace 1.7x off peak 10.4x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "BWX", "prev_state": "RUNNING", "state": "CHURN", "price": 21.715, "tp": 41.76748198227092, "note": "41.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "DBA", "prev_state": "QUIET", "state": "COOLING", "price": 29.42, "tp": 1.271851107259053, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "FBIZ", "prev_state": "IGNITING", "state": "FADING", "price": 70.275, "tp": 0.0, "note": "pace 0.0x vs peak 9.2x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "SPPP", "prev_state": "RUNNING", "state": "COOLING", "price": 14.535, "tp": 1.13750720430292, "note": "pace 1.1x off peak 8.6x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "CHURN", "price": 3.575, "tp": 9.121257784898525, "note": "9.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "BIL", "prev_state": "RUNNING", "state": "COOLING", "price": 91.39, "tp": 1.5653269808788703, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "RUNNING", "state": "COOLING", "price": 42.75, "tp": 1.1946763389851167, "note": "pace 1.2x off peak 5.2x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "CHA", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.99, "tp": 4.126437096082946, "note": "sustained 4.1x"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "FADING", "state": "IGNITING", "price": 1.885, "tp": 3173.002299866793, "note": "pace 3173.0x and accelerating (2.9x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-09-01T12:03:40.705917-04:00", "demo": 0, "ticker": "IPKW", "prev_state": "CHURN", "state": "RUNNING", "price": 60.77, "tp": 6.971701279318449, "note": "sustained 7.0x"}
