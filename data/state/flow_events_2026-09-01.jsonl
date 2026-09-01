@@ -4,3 +4,12 @@
 {"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "RXST", "prev_state": "QUIET", "state": "RUNNING", "price": 7.2, "tp": 1.8329791968426956, "note": "sustained 1.8x"}
 {"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.21, "tp": 5.712546712572529, "note": "quiet open (1.0x) \u2192 now 5.7x \u00b7 taking +2.5% flow share"}
 {"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "USDE", "prev_state": "QUIET", "state": "RUNNING", "price": 8.79, "tp": 2.064121495574293, "note": "sustained 2.1x"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "GPRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.25, "tp": 77.85259780651702, "note": "pace 77.9x and accelerating (2.5x vs prior window) \u00b7 -4.6% in window"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "SEPW", "prev_state": "CHURN", "state": "RUNNING", "price": 33.83, "tp": 27.296503075757474, "note": "sustained 27.3x"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "XHR", "prev_state": "QUIET", "state": "RUNNING", "price": 18.54, "tp": 1.928412858942535, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "COOLING", "state": "QUIET", "price": 2.335, "tp": 1.5436936757233826, "note": ""}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "TSLY", "prev_state": "QUIET", "state": "RUNNING", "price": 22.35, "tp": 2.311498200647757, "note": "sustained 2.3x"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "SSM", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.92, "tp": 133.25078111752416, "note": "pace 133.3x and accelerating (4.5x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "LIDR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.4, "tp": 41.44350222167592, "note": "pace 41.4x and accelerating (2.4x vs prior window) \u00b7 -4.4% in window"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.82, "tp": 3277.9932202135005, "note": "sustained 3278.0x"}
+{"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "CTA", "prev_state": "QUIET", "state": "RUNNING", "price": 28.76, "tp": 4.186633826367303, "note": "sustained 4.2x"}
