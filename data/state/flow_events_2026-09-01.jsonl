@@ -413,3 +413,4 @@
 {"ts": "2026-09-01T16:11:08.415666-04:00", "demo": 0, "ticker": "KPTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Karyopharm Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"}
 {"ts": "2026-09-01T16:17:08.416793-04:00", "demo": 0, "ticker": "GPUS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hyperscale Data Highlights Blockchain Software Revenue Growth; Second Quarter Other Revenue, Consisting Largely of Block"}
 {"ts": "2026-09-01T16:17:08.416793-04:00", "demo": 0, "ticker": "MSIF", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "MSC Income Fund Announces Completion of $150.0 Million Investment Grade Notes Offering"}
+{"ts": "2026-09-01T16:19:23.430263-04:00", "demo": 0, "ticker": "DLLL", "prev_state": null, "state": "AH IGNITION", "price": 25.53, "tp": null, "note": "+13% on $0.06M ext tape"}
