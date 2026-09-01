@@ -181,3 +181,4 @@
 {"ts": "2026-09-01T12:26:10.710678-04:00", "demo": 0, "ticker": "CHPY", "prev_state": "RUNNING", "state": "COOLING", "price": 65.32, "tp": 0.2078565009579173, "note": "pace 0.2x off peak 1.9x"}
 {"ts": "2026-09-01T12:26:10.710678-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "COOLING", "state": "RUNNING", "price": 3.765, "tp": 1.8041075342341546, "note": "sustained 1.8x"}
 {"ts": "2026-09-01T12:26:10.710678-04:00", "demo": 0, "ticker": "AON", "prev_state": "RUNNING", "state": "COOLING", "price": 327.35, "tp": 1.762317944956399, "note": "pace 1.8x off peak 2.7x"}
+{"ts": "2026-09-01T12:26:55.695186-04:00", "demo": 0, "ticker": "SPGI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "S&amp;P Global Completes Acquisition of datacenterHawk"}
