@@ -317,3 +317,14 @@
 {"ts": "2026-09-01T15:38:53.424945-04:00", "demo": 0, "ticker": "AIV", "prev_state": "FADING", "state": "RUNNING", "price": 2.53, "tp": 2.799670076122012, "note": "sustained 2.8x"}
 {"ts": "2026-09-01T15:38:53.424945-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "COOLING", "state": "FADING", "price": 26.215, "tp": 1.969979412786039, "note": "pace 2.0x vs peak 5.7x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-01T15:38:53.424945-04:00", "demo": 0, "ticker": "FBIZ", "prev_state": "RUNNING", "state": "FADING", "price": 70.2, "tp": 0.0, "note": "pace 0.0x vs peak 9.2x \u00b7 -0.6% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "APOG", "prev_state": "COOLING", "state": "RUNNING", "price": 37.6, "tp": 1.8996572617979464, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "CTA", "prev_state": "FADING", "state": "CHURN", "price": 29.095, "tp": 2.2572298815963614, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "DDFS", "prev_state": "CHURN", "state": "RUNNING", "price": 22.19, "tp": 12.53933403163045, "note": "sustained 12.5x"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "DVGR", "prev_state": "RUNNING", "state": "COOLING", "price": 26.75, "tp": 0.0, "note": "pace 0.0x off peak 13.5x"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "RUNNING", "state": "COOLING", "price": 42.63, "tp": 1.050089470330681, "note": "pace 1.1x off peak 5.2x"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "FADING", "state": "NEW MONEY", "price": 26.195, "tp": 2.5645940599590378, "note": "quiet open (1.0x) \u2192 now 2.6x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "DBA", "prev_state": "RUNNING", "state": "CHURN", "price": 29.485, "tp": 2.400396962063248, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "COE", "prev_state": "RUNNING", "state": "QUIET", "price": 15.06, "tp": 1.712538371041457, "note": ""}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "BIL", "prev_state": "RUNNING", "state": "COOLING", "price": 91.395, "tp": 0.2432965966670058, "note": "pace 0.2x off peak 15.6x"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "FADING", "state": "IGNITING", "price": 3.68, "tp": 6.7926528635969765, "note": "pace 6.8x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-09-01T15:41:53.423014-04:00", "demo": 0, "ticker": "GIII", "prev_state": "QUIET", "state": "RUNNING", "price": 32.22, "tp": 2.1671946322312334, "note": "sustained 2.2x"}
