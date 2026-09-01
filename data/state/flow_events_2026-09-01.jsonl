@@ -84,3 +84,11 @@
 {"ts": "2026-09-01T11:56:10.704032-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "QUIET", "state": "RUNNING", "price": 72.62, "tp": 3.265955255703366, "note": "sustained 3.3x"}
 {"ts": "2026-09-01T11:56:10.704032-04:00", "demo": 0, "ticker": "HIBL", "prev_state": "IGNITING", "state": "RUNNING", "price": 98.89, "tp": 5.620562941884142, "note": "sustained 5.6x"}
 {"ts": "2026-09-01T11:56:10.704032-04:00", "demo": 0, "ticker": "LITZ", "prev_state": "FADING", "state": "QUIET", "price": 8.49, "tp": 1.565613440509427, "note": ""}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "BIL", "prev_state": "CHURN", "state": "RUNNING", "price": 91.395, "tp": 1.934831603692133, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "ITDD", "prev_state": "RUNNING", "state": "COOLING", "price": 38.92, "tp": 0.0, "note": "pace 0.0x off peak 36.4x"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "ASPI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.74, "tp": 0.7702616719798197, "note": "pace 0.8x off peak 2.3x"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "IPKW", "prev_state": "RUNNING", "state": "CHURN", "price": 60.73, "tp": 7.223894233659297, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "APOG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 38.24, "tp": 0.6201417461339567, "note": "pace 0.6x off peak 3.0x"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "BWX", "prev_state": "CHURN", "state": "RUNNING", "price": 21.71, "tp": 42.40377746576735, "note": "sustained 42.4x"}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "DBA", "prev_state": "RUNNING", "state": "QUIET", "price": 29.42, "tp": 1.4164070444047712, "note": ""}
+{"ts": "2026-09-01T11:59:55.704907-04:00", "demo": 0, "ticker": "TSLY", "prev_state": "RUNNING", "state": "COOLING", "price": 22.35, "tp": 1.0970287169283404, "note": "pace 1.1x off peak 2.3x"}
