@@ -218,3 +218,22 @@
 {"ts": "2026-09-01T12:33:40.712611-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "COOLING", "state": "RUNNING", "price": 12.395, "tp": 3.160031150400845, "note": "sustained 3.2x"}
 {"ts": "2026-09-01T12:33:40.712611-04:00", "demo": 0, "ticker": "DDFS", "prev_state": "RUNNING", "state": "COOLING", "price": 22.23, "tp": 0.0, "note": "pace 0.0x off peak 568.5x"}
 {"ts": "2026-09-01T12:33:40.712611-04:00", "demo": 0, "ticker": "TBUX", "prev_state": "QUIET", "state": "RUNNING", "price": 49.77, "tp": 1.9084092580327303, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "EIX", "prev_state": "CHURN", "state": "RUNNING", "price": 54.855, "tp": 2.694840291573538, "note": "sustained 2.7x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.39, "tp": 5.065081051286961, "note": "pace 5.1x and accelerating (3.6x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.83, "tp": 5.775312273060227, "note": "pace 5.8x and accelerating (2.3x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "EPAC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 36.62, "tp": 1.40507336900869, "note": "pace 1.4x off peak 2.4x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "DRN", "prev_state": "RUNNING", "state": "CHURN", "price": 10.32, "tp": 17.994588313557713, "note": "18.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "EVR", "prev_state": "IGNITING", "state": "RUNNING", "price": 289.31, "tp": 3.7714014325459373, "note": "sustained 3.8x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "NEOV", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.695, "tp": 6.454996275816555, "note": "pace 6.5x and accelerating (4.4x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "TKC", "prev_state": "FADING", "state": "COOLING", "price": 5.05, "tp": 0.41432660874151267, "note": "pace 0.4x off peak 2.9x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "TSLY", "prev_state": "QUIET", "state": "COOLING", "price": 22.25, "tp": 1.686048028831745, "note": "pace 1.7x off peak 2.3x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "RUNNING", "state": "COOLING", "price": 42.685, "tp": 0.7491268844055443, "note": "pace 0.7x off peak 5.2x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "FRDM", "prev_state": "FADING", "state": "IGNITING", "price": 68.72, "tp": 9.746781539637155, "note": "pace 9.7x and accelerating (194.9x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "HKPD", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.22, "tp": 1353.1891271188404, "note": "sustained 1353.2x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "TITN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.11, "tp": 2.164263314394779, "note": "sustained 2.2x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "AON", "prev_state": "COOLING", "state": "RUNNING", "price": 326.77, "tp": 1.9317031060347554, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.43, "tp": 104.82198367005587, "note": "sustained 104.8x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "BLX", "prev_state": "IGNITING", "state": "FADING", "price": 54.5, "tp": 0.0, "note": "pace 0.0x vs peak 3.7x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "IGNITING", "state": "RUNNING", "price": 72.24, "tp": 12.448401791395742, "note": "sustained 12.4x"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "TBUX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 49.77, "tp": 2.0392726339076424, "note": "quiet open (0.3x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "BIL", "prev_state": "RUNNING", "state": "CHURN", "price": 91.39, "tp": 13.233807271903245, "note": "13.2x participation, no progress at highs \u2014 absorption"}
