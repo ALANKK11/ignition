@@ -169,3 +169,4 @@
 {"ts": "2026-09-01T12:22:25.710190-04:00", "demo": 0, "ticker": "EMPD", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.66, "tp": 5.244582313812873, "note": "sustained 5.2x"}
 {"ts": "2026-09-01T12:22:25.710190-04:00", "demo": 0, "ticker": "FRDM", "prev_state": "RUNNING", "state": "FADING", "price": 69.26, "tp": 0.0, "note": "pace 0.0x vs peak 9.7x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-01T12:22:25.710190-04:00", "demo": 0, "ticker": "HLX", "prev_state": "CHURN", "state": "FADING", "price": 10.57, "tp": 2.315030497074889, "note": "pace 2.3x vs peak 7.4x \u00b7 -0.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T12:23:10.694333-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: Regeneron Pharmaceuticals, Inc. (REGN) Investors with Substantial Losses Have Opportunity to Lead the"}
