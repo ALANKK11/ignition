@@ -237,3 +237,4 @@
 {"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "GRBK", "prev_state": "IGNITING", "state": "RUNNING", "price": 72.24, "tp": 12.448401791395742, "note": "sustained 12.4x"}
 {"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "TBUX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 49.77, "tp": 2.0392726339076424, "note": "quiet open (0.3x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-09-01T12:37:25.712919-04:00", "demo": 0, "ticker": "BIL", "prev_state": "RUNNING", "state": "CHURN", "price": 91.39, "tp": 13.233807271903245, "note": "13.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T12:38:55.697794-04:00", "demo": 0, "ticker": "AARD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Aardvark Therapeutics, Inc. (AARD) Investors with Substantial Losses Have Opportunity to Lead Aardvark Class Action Laws"}
