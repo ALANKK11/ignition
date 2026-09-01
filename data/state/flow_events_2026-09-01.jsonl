@@ -63,3 +63,13 @@
 {"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "IVVD", "prev_state": "RUNNING", "state": "COOLING", "price": 0.8431, "tp": 1.6656916981262624, "note": "pace 1.7x off peak 2.5x"}
 {"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "QUIET", "state": "CHURN", "price": 42.77, "tp": 3.698455856895866, "note": "3.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "APOG", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 38.24, "tp": 2.659358366164724, "note": "quiet open (0.6x) \u2192 now 2.7x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "IVVD", "prev_state": "COOLING", "state": "RUNNING", "price": 0.8515, "tp": 1.910031591703791, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "CHURN", "state": "RUNNING", "price": 42.76, "tp": 4.515994728340573, "note": "sustained 4.5x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "TSLY", "prev_state": "COOLING", "state": "RUNNING", "price": 22.33, "tp": 2.1193851754880733, "note": "sustained 2.1x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "IPKW", "prev_state": "QUIET", "state": "RUNNING", "price": 60.73, "tp": 8.814362753456214, "note": "sustained 8.8x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "MMED", "prev_state": "RUNNING", "state": "CHURN", "price": 22.525, "tp": 2.724501257432155, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "GPRK", "prev_state": "CHURN", "state": "RUNNING", "price": 10.885, "tp": 9.452863200425515, "note": "sustained 9.5x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "LITZ", "prev_state": "COOLING", "state": "FADING", "price": 8.46, "tp": 0.5101205609729882, "note": "pace 0.5x vs peak 2.0x \u00b7 -4.0% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "CHA", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.04, "tp": 3.3636578488427022, "note": "pace 3.4x and accelerating (3.9x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "ASPI", "prev_state": "QUIET", "state": "RUNNING", "price": 3.755, "tp": 1.9118021243375118, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T11:52:25.704202-04:00", "demo": 0, "ticker": "SPPP", "prev_state": "COOLING", "state": "RUNNING", "price": 14.515, "tp": 2.1060335384809217, "note": "sustained 2.1x"}
