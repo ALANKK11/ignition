@@ -14,3 +14,14 @@
 {"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.82, "tp": 3277.9932202135005, "note": "sustained 3278.0x"}
 {"ts": "2026-09-01T11:29:55.697173-04:00", "demo": 0, "ticker": "CTA", "prev_state": "QUIET", "state": "RUNNING", "price": 28.76, "tp": 4.186633826367303, "note": "sustained 4.2x"}
 {"ts": "2026-09-01T11:32:10.683427-04:00", "demo": 0, "ticker": "DOO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Can-Am, Farm Rescue Announce Three-Year Partnership"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "EMPD", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.685, "tp": 4.453322044246753, "note": "sustained 4.5x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "PSEP", "prev_state": "RUNNING", "state": "CHURN", "price": 46.74, "tp": 50.45210435643905, "note": "50.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "SEPW", "prev_state": "RUNNING", "state": "CHURN", "price": 33.84, "tp": 36.59223944148143, "note": "36.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "TKC", "prev_state": "RUNNING", "state": "COOLING", "price": 5.065, "tp": 1.408024348347823, "note": "pace 1.4x off peak 2.9x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "USDE", "prev_state": "RUNNING", "state": "COOLING", "price": 8.7, "tp": 1.2764460958274961, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "QUIET", "state": "COOLING", "price": 2.335, "tp": 0.7006947847940347, "note": "pace 0.7x off peak 2.0x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "SSM", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.95, "tp": 82.60759575982898, "note": "sustained 82.6x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "SPPP", "prev_state": "RUNNING", "state": "COOLING", "price": 14.445, "tp": 1.3578441737630897, "note": "pace 1.4x off peak 8.6x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "XHR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.54, "tp": 0.780522199595201, "note": "pace 0.8x off peak 1.9x"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "RDAC", "prev_state": "RUNNING", "state": "LEAVING", "price": 7.13, "tp": 54.14627537781354, "note": "pace 54.1x off peak 106.0x \u00b7 VWAP lost (was +4.3% above)"}
+{"ts": "2026-09-01T11:33:40.698567-04:00", "demo": 0, "ticker": "RXST", "prev_state": "RUNNING", "state": "QUIET", "price": 7.22, "tp": 1.4158498750757287, "note": ""}
