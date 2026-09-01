@@ -53,3 +53,13 @@
 {"ts": "2026-09-01T11:44:55.702676-04:00", "demo": 0, "ticker": "PSQL", "prev_state": "QUIET", "state": "RUNNING", "price": 13.995, "tp": 2.436302303526428, "note": "sustained 2.4x"}
 {"ts": "2026-09-01T11:44:55.702676-04:00", "demo": 0, "ticker": "RQI", "prev_state": "RUNNING", "state": "CHURN", "price": 12.13, "tp": 2.310056013455346, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-01T11:44:55.702676-04:00", "demo": 0, "ticker": "APOG", "prev_state": "QUIET", "state": "RUNNING", "price": 38.2, "tp": 1.9264977003841948, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "MRNX", "prev_state": "QUIET", "state": "IGNITING", "price": 88.57, "tp": 3.4044603628846337, "note": "pace 3.4x and accelerating (68.1x vs prior window) \u00b7 +6.0% in window"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "CRK", "prev_state": "RUNNING", "state": "QUIET", "price": 15.72, "tp": 1.7999587817313343, "note": ""}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "LIDR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.47, "tp": 62.5930626769426, "note": "pace 62.6x and accelerating (1.6x vs prior window) \u00b7 +4.3% in window"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "MMED", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.45, "tp": 6.273676395481598, "note": "sustained 6.3x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "FRVO", "prev_state": "CHURN", "state": "RUNNING", "price": 19.18, "tp": 5.270713562023688, "note": "sustained 5.3x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "CHA", "prev_state": "FADING", "state": "RUNNING", "price": 12.02, "tp": 2.262733029804909, "note": "sustained 2.3x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "MOO", "prev_state": "RUNNING", "state": "COOLING", "price": 87.045, "tp": 0.981111026309158, "note": "pace 1.0x off peak 1.9x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "IVVD", "prev_state": "RUNNING", "state": "COOLING", "price": 0.8431, "tp": 1.6656916981262624, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "QUIET", "state": "CHURN", "price": 42.77, "tp": 3.698455856895866, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T11:48:40.702808-04:00", "demo": 0, "ticker": "APOG", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 38.24, "tp": 2.659358366164724, "note": "quiet open (0.6x) \u2192 now 2.7x \u00b7 taking +0.5% flow share"}
