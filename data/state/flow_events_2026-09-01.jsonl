@@ -361,3 +361,21 @@
 {"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "DDI", "prev_state": "CHURN", "state": "RUNNING", "price": 12.725, "tp": 34.001117931181696, "note": "sustained 34.0x"}
 {"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "GIII", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 32.195, "tp": 1.8432575640231474, "note": "sustained 1.8x"}
 {"ts": "2026-09-01T15:50:53.425213-04:00", "demo": 0, "ticker": "AIV", "prev_state": "COOLING", "state": "FADING", "price": 2.52, "tp": 1.2260416964608114, "note": "pace 1.2x vs peak 3.9x \u00b7 -1.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "COE", "prev_state": "QUIET", "state": "COOLING", "price": 15.06, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "COOLING", "state": "RUNNING", "price": 82.615, "tp": 1.874346921535036, "note": "sustained 1.9x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "CRK", "prev_state": "CHURN", "state": "RUNNING", "price": 16.0, "tp": 6.854643411087893, "note": "sustained 6.9x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "BSMS", "prev_state": "QUIET", "state": "CHURN", "price": 23.305, "tp": 18.650291774164764, "note": "18.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "QUIET", "state": "CHURN", "price": 19.525, "tp": 3.4518331530939275, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "COOLING", "state": "RUNNING", "price": 41.82, "tp": 14.641574642724423, "note": "sustained 14.6x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "CHA", "prev_state": "FADING", "state": "CHURN", "price": 11.955, "tp": 2.387504556278464, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "DBA", "prev_state": "COOLING", "state": "RUNNING", "price": 29.5, "tp": 2.150921001646451, "note": "sustained 2.2x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "AAPD", "prev_state": "RUNNING", "state": "COOLING", "price": 10.69, "tp": 1.1000360102146949, "note": "pace 1.1x off peak 2.6x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "DPRO", "prev_state": "RUNNING", "state": "CHURN", "price": 5.445, "tp": 2.2212981701591534, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "CPNS", "prev_state": "QUIET", "state": "RUNNING", "price": 28.35, "tp": 130.56456990313265, "note": "sustained 130.6x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "AMBR", "prev_state": "COOLING", "state": "RUNNING", "price": 0.95, "tp": 2.6724094010650092, "note": "sustained 2.7x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "APOG", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 37.5, "tp": 2.392821089793858, "note": "quiet open (0.6x) \u2192 now 2.4x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "BSCR", "prev_state": "CHURN", "state": "COOLING", "price": 19.61, "tp": 0.6170718647567968, "note": "pace 0.6x off peak 3.8x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "ALMS", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.49, "tp": 18.74144205211638, "note": "pace 18.7x and accelerating (2.4x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "GIII", "prev_state": "RUNNING", "state": "COOLING", "price": 32.195, "tp": 1.0112815002705715, "note": "pace 1.0x off peak 2.7x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "XHR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.19, "tp": 1.3436869216441796, "note": "pace 1.3x off peak 2.5x"}
+{"ts": "2026-09-01T15:53:53.426007-04:00", "demo": 0, "ticker": "CMTG", "prev_state": "QUIET", "state": "RUNNING", "price": 1.5, "tp": 1.824748303104155, "note": "sustained 1.8x"}
