@@ -1,0 +1,6 @@
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "RZLV", "prev_state": "RUNNING", "state": "COOLING", "price": 2.325, "tp": 0.8795326144590739, "note": "pace 0.9x off peak 2.0x"}
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "FRVO", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.07, "tp": 3.950044858531992, "note": "sustained 4.0x"}
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "SPPP", "prev_state": "CHURN", "state": "RUNNING", "price": 14.445, "tp": 7.755028022844084, "note": "sustained 7.8x"}
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "RXST", "prev_state": "QUIET", "state": "RUNNING", "price": 7.2, "tp": 1.8329791968426956, "note": "sustained 1.8x"}
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.21, "tp": 5.712546712572529, "note": "quiet open (1.0x) \u2192 now 5.7x \u00b7 taking +2.5% flow share"}
+{"ts": "2026-09-01T11:26:10.696582-04:00", "demo": 0, "ticker": "USDE", "prev_state": "QUIET", "state": "RUNNING", "price": 8.79, "tp": 2.064121495574293, "note": "sustained 2.1x"}
