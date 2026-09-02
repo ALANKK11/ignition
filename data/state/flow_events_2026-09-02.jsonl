@@ -386,3 +386,9 @@
 {"ts": "2026-09-02T15:31:36.436658-04:00", "demo": 0, "ticker": "HEFA", "prev_state": "RUNNING", "state": "FADING", "price": 47.04, "tp": 0.8205221609713357, "note": "pace 0.8x vs peak 2.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T15:31:36.436658-04:00", "demo": 0, "ticker": "BFRZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 26.975, "tp": 13.79654011793708, "note": "quiet open (0.6x) \u2192 now 13.8x \u00b7 taking +0.0% flow share"}
 {"ts": "2026-09-02T15:31:36.436658-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "RUNNING", "state": "COOLING", "price": 4.39, "tp": 1.7383580202572082, "note": "pace 1.7x off peak 7.5x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "ULTY", "prev_state": "QUIET", "state": "RUNNING", "price": 25.58, "tp": 2.5589301281751617, "note": "sustained 2.6x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 16.1, "tp": 4.981353456625295, "note": "sustained 5.0x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "CPNS", "prev_state": "RUNNING", "state": "COOLING", "price": 28.34, "tp": 0.0, "note": "pace 0.0x off peak 9.3x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "CANF", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.39, "tp": 509.89992925080946, "note": "sustained 509.9x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "COOLING", "state": "RUNNING", "price": 4.385, "tp": 2.110176967855997, "note": "sustained 2.1x"}
+{"ts": "2026-09-02T15:35:21.434072-04:00", "demo": 0, "ticker": "DRN", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.04, "tp": 4.123988696359727, "note": "sustained 4.1x"}
