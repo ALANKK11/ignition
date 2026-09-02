@@ -492,3 +492,4 @@
 {"ts": "2026-09-02T15:59:21.439356-04:00", "demo": 0, "ticker": "ALM", "prev_state": "COOLING", "state": "FADING", "price": 17.71, "tp": 1.7146877600200185, "note": "pace 1.7x vs peak 22.0x \u00b7 -1.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T15:59:21.439356-04:00", "demo": 0, "ticker": "ERY", "prev_state": "RUNNING", "state": "COOLING", "price": 8.63, "tp": 1.1357792291728555, "note": "pace 1.1x off peak 16.7x"}
 {"ts": "2026-09-02T15:59:21.439356-04:00", "demo": 0, "ticker": "BDYN", "prev_state": "RUNNING", "state": "FADING", "price": 27.96, "tp": 5.730840551149534, "note": "pace 5.7x vs peak 32.8x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T16:11:21.427856-04:00", "demo": 0, "ticker": "VKTX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Viking Therapeutics to Participate at Upcoming Investor Conferences"}
