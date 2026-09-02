@@ -447,3 +447,12 @@
 {"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "CLIP", "prev_state": "CHURN", "state": "FADING", "price": 100.075, "tp": 1.9637594282790085, "note": "pace 2.0x vs peak 11.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "BDYN", "prev_state": "CHURN", "state": "RUNNING", "price": 27.975, "tp": 15.209902455782457, "note": "sustained 15.2x"}
 {"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "CNH", "prev_state": "RUNNING", "state": "CHURN", "price": 13.82, "tp": 2.623535863819603, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "DELL", "prev_state": "CHURN", "state": "RUNNING", "price": 489.25, "tp": 3.5176125760874646, "note": "sustained 3.5x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "CNH", "prev_state": "CHURN", "state": "RUNNING", "price": 13.785, "tp": 2.696917940681137, "note": "sustained 2.7x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "AVBH", "prev_state": "FADING", "state": "RUNNING", "price": 31.52, "tp": 3.2086069425423873, "note": "sustained 3.2x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "RUNNING", "state": "COOLING", "price": 4.385, "tp": 0.9970757087692749, "note": "pace 1.0x off peak 7.5x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "POWI", "prev_state": "CHURN", "state": "RUNNING", "price": 50.11, "tp": 2.7111838922812344, "note": "sustained 2.7x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "BAI", "prev_state": "CHURN", "state": "RUNNING", "price": 42.845, "tp": 4.781853342781367, "note": "sustained 4.8x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "DGX", "prev_state": "COOLING", "state": "RUNNING", "price": 240.525, "tp": 2.130402926951774, "note": "sustained 2.1x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "DRN", "prev_state": "RUNNING", "state": "COOLING", "price": 10.065, "tp": 1.5079029411135543, "note": "pace 1.5x off peak 24.9x"}
+{"ts": "2026-09-02T15:50:21.438184-04:00", "demo": 0, "ticker": "DBA", "prev_state": "COOLING", "state": "RUNNING", "price": 29.265, "tp": 2.511024157505108, "note": "sustained 2.5x"}
