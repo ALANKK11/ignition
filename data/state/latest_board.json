@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-02T16:19:36-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-09-02T16:21:06-04:00", "session": "post", "rows": [{"headline": "NWPX Infrastructure Announces Acquisition of Serpentix Conveyor, LLC", "pr_ts": "16:19", "catalyst": true, "flags": ["ACQUISITION"], "ticker": "NWPX", "move": 0.0076, "last": 109.835, "dollars": 695694.89, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.028, "first_seen": "16:21", "new": true}]}

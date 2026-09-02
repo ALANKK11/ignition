@@ -494,3 +494,4 @@
 {"ts": "2026-09-02T15:59:21.439356-04:00", "demo": 0, "ticker": "BDYN", "prev_state": "RUNNING", "state": "FADING", "price": 27.96, "tp": 5.730840551149534, "note": "pace 5.7x vs peak 32.8x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T16:11:21.427856-04:00", "demo": 0, "ticker": "VKTX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Viking Therapeutics to Participate at Upcoming Investor Conferences"}
 {"ts": "2026-09-02T16:18:06.429193-04:00", "demo": 0, "ticker": "HSY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "THE HERSHEY COMPANY NAMES DAVE HULAYS CHIEF FINANCIAL OFFICER"}
+{"ts": "2026-09-02T16:21:06.429768-04:00", "demo": 0, "ticker": "NWPX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "NWPX Infrastructure Announces Acquisition of Serpentix Conveyor, LLC"}
