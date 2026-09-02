@@ -279,3 +279,11 @@
 {"ts": "2026-09-02T12:25:21.312316-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 16.1, "tp": 2.777335526130824, "note": "quiet open (0.0x) \u2192 now 2.8x \u00b7 taking +0.2% flow share"}
 {"ts": "2026-09-02T12:25:21.312316-04:00", "demo": 0, "ticker": "BNDW", "prev_state": "RUNNING", "state": "CHURN", "price": 66.89, "tp": 10.31209982308625, "note": "10.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-02T12:25:21.312316-04:00", "demo": 0, "ticker": "CCU", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.72, "tp": 24.385692106737867, "note": "sustained 24.4x"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.96, "tp": 2.690317701658544, "note": "sustained 2.7x"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "CANF", "prev_state": "COOLING", "state": "IGNITING", "price": 2.535, "tp": 47.75329728307387, "note": "pace 47.8x and accelerating (955.1x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "CRDO", "prev_state": "IGNITING", "state": "RUNNING", "price": 167.455, "tp": 6.227100495416015, "note": "sustained 6.2x"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 16.08, "tp": 2.930798269085944, "note": "pace 2.9x and accelerating (20.7x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "QUIET", "state": "COOLING", "price": 11.21, "tp": 1.257001668923268, "note": "pace 1.3x off peak 2.1x"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "IGNITING", "state": "FADING", "price": 4.46, "tp": 1.1047204324642634, "note": "pace 1.1x vs peak 7.5x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "ESE", "prev_state": "FADING", "state": "RUNNING", "price": 267.06, "tp": 2.6347868253039346, "note": "sustained 2.6x"}
+{"ts": "2026-09-02T12:28:21.312993-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "QUIET", "state": "COOLING", "price": 13.28, "tp": 1.3643969766176733, "note": "pace 1.4x off peak 1.9x"}
