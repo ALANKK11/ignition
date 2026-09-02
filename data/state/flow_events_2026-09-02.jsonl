@@ -258,3 +258,12 @@
 {"ts": "2026-09-02T12:19:21.311308-04:00", "demo": 0, "ticker": "CPK", "prev_state": "RUNNING", "state": "COOLING", "price": 131.65, "tp": 1.4332704842224318, "note": "pace 1.4x off peak 38.3x"}
 {"ts": "2026-09-02T12:19:21.311308-04:00", "demo": 0, "ticker": "CIBR", "prev_state": "COOLING", "state": "RUNNING", "price": 92.92, "tp": 2.1137221868134115, "note": "sustained 2.1x"}
 {"ts": "2026-09-02T12:19:21.311308-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.96, "tp": 4.749264577070729, "note": "pace 4.7x and accelerating (95.0x vs prior window) \u00b7 +2.3% in window"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.815, "tp": 1.6707824265944513, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "BCI", "prev_state": "QUIET", "state": "RUNNING", "price": 26.11, "tp": 3.8653243488935565, "note": "sustained 3.9x"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.88, "tp": 3.039610431910488, "note": "pace 3.0x and accelerating (60.8x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "RMIX", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 16.1, "tp": 2.810515683099467, "note": "pace 2.8x and accelerating (10.3x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "MMED", "prev_state": "FADING", "state": "RUNNING", "price": 23.7, "tp": 2.1781547724038397, "note": "sustained 2.2x"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "APOG", "prev_state": "QUIET", "state": "NEW MONEY", "price": 38.28, "tp": 2.9615541393766707, "note": "quiet open (0.9x) \u2192 now 3.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.96, "tp": 2.6166592790120737, "note": "sustained 2.6x"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "SHOE", "prev_state": "RUNNING", "state": "COOLING", "price": 13.26, "tp": 1.206760594141842, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-09-02T12:22:21.311848-04:00", "demo": 0, "ticker": "DBA", "prev_state": "RUNNING", "state": "COOLING", "price": 29.385, "tp": 1.2529496835815246, "note": "pace 1.3x off peak 2.2x"}
