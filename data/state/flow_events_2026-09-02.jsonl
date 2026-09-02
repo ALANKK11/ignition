@@ -59,3 +59,4 @@
 {"ts": "2026-09-02T11:22:21.300207-04:00", "demo": 0, "ticker": "GGLS", "prev_state": "RUNNING", "state": "COOLING", "price": 59.91, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
 {"ts": "2026-09-02T11:22:21.300207-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "COOLING", "state": "FADING", "price": 3.775, "tp": 0.3365933509745217, "note": "pace 0.3x vs peak 2.5x \u00b7 -2.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T11:22:21.300207-04:00", "demo": 0, "ticker": "ERAS", "prev_state": "RUNNING", "state": "QUIET", "price": 16.0, "tp": 1.67103283876154, "note": ""}
+{"ts": "2026-09-02T11:24:36.286712-04:00", "demo": 0, "ticker": "AARD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Shareholders who lost money in shares of acquired Aardvark Therapeutics, Inc. (NASDAQ: AARD) should contact Wolf Haldens"}
