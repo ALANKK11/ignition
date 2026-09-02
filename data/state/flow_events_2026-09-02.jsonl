@@ -439,3 +439,11 @@
 {"ts": "2026-09-02T15:44:21.436629-04:00", "demo": 0, "ticker": "CIBR", "prev_state": "COOLING", "state": "RUNNING", "price": 93.41, "tp": 2.0436023521414017, "note": "sustained 2.0x"}
 {"ts": "2026-09-02T15:44:21.436629-04:00", "demo": 0, "ticker": "ULTY", "prev_state": "RUNNING", "state": "COOLING", "price": 25.59, "tp": 1.5574616873610099, "note": "pace 1.6x off peak 2.6x"}
 {"ts": "2026-09-02T15:44:21.436629-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.74, "tp": 10.897712724819568, "note": "sustained 10.9x"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "DDI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 12.83, "tp": 2.5553535398590776, "note": "quiet open (0.3x) \u2192 now 2.6x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "DELL", "prev_state": "RUNNING", "state": "CHURN", "price": 493.02, "tp": 4.232529687996772, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "POWI", "prev_state": "RUNNING", "state": "CHURN", "price": 50.08, "tp": 2.916763314201408, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "BAI", "prev_state": "RUNNING", "state": "CHURN", "price": 42.835, "tp": 5.459880880374172, "note": "5.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "DGX", "prev_state": "RUNNING", "state": "COOLING", "price": 240.625, "tp": 1.6291977185601287, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "CLIP", "prev_state": "CHURN", "state": "FADING", "price": 100.075, "tp": 1.9637594282790085, "note": "pace 2.0x vs peak 11.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "BDYN", "prev_state": "CHURN", "state": "RUNNING", "price": 27.975, "tp": 15.209902455782457, "note": "sustained 15.2x"}
+{"ts": "2026-09-02T15:47:21.437279-04:00", "demo": 0, "ticker": "CNH", "prev_state": "RUNNING", "state": "CHURN", "price": 13.82, "tp": 2.623535863819603, "note": "2.6x participation, no progress at highs \u2014 absorption"}
