@@ -158,3 +158,13 @@
 {"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "FADING", "state": "COOLING", "price": 3.835, "tp": 1.764150212903694, "note": "pace 1.8x off peak 2.5x"}
 {"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "YEXT", "prev_state": "RUNNING", "state": "COOLING", "price": 6.675, "tp": 1.6655403689217536, "note": "pace 1.7x off peak 3.3x"}
 {"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "CANF", "prev_state": "COOLING", "state": "RUNNING", "price": 2.55, "tp": 132.3477843891121, "note": "sustained 132.3x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "COSO", "prev_state": "RUNNING", "state": "CHURN", "price": 27.32, "tp": 5.4803566291216494, "note": "5.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "COOLING", "state": "RUNNING", "price": 3.81, "tp": 2.7513511320946553, "note": "sustained 2.8x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "ALMS", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.46, "tp": 6.027565018321281, "note": "sustained 6.0x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "XNDU", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 9.435, "tp": 1.9355330965995443, "note": "sustained 1.9x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "DAKT", "prev_state": "CHURN", "state": "RUNNING", "price": 21.255, "tp": 4.756549549303868, "note": "sustained 4.8x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "EWI", "prev_state": "RUNNING", "state": "CHURN", "price": 61.255, "tp": 27.26525828558657, "note": "27.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "LEAVING", "state": "RUNNING", "price": 10.44, "tp": 21.91689314959442, "note": "sustained 21.9x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "FADING", "price": 24.16, "tp": 1.777567761894708, "note": "pace 1.8x vs peak 5.2x \u00b7 -11.5% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.85, "tp": 3.851470555732612, "note": "sustained 3.9x"}
+{"ts": "2026-09-02T11:55:21.306597-04:00", "demo": 0, "ticker": "FCOM", "prev_state": "COOLING", "state": "FADING", "price": 71.2, "tp": 0.7455363169383069, "note": "pace 0.7x vs peak 2.2x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
