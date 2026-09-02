@@ -94,3 +94,10 @@
 {"ts": "2026-09-02T11:34:21.302478-04:00", "demo": 0, "ticker": "MMED", "prev_state": "COOLING", "state": "FADING", "price": 23.74, "tp": 0.5322967760232729, "note": "pace 0.5x vs peak 2.2x \u00b7 -2.8% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T11:34:21.302478-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "RUNNING", "state": "CHURN", "price": 30.71, "tp": 53.40691771466295, "note": "53.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-02T11:34:21.302478-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.735, "tp": 4.088917357738883, "note": "sustained 4.1x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.06, "tp": 26.29385102062529, "note": "sustained 26.3x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "CXM", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.335, "tp": 2.767021123476399, "note": "sustained 2.8x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "DAKT", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.01, "tp": 10.50421966340472, "note": "sustained 10.5x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "EOSE", "prev_state": "CHURN", "state": "IGNITING", "price": 3.475, "tp": 2.8648211762952664, "note": "pace 2.9x and accelerating (1.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "ESE", "prev_state": "CHURN", "state": "RUNNING", "price": 268.99, "tp": 7.091676021398505, "note": "sustained 7.1x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "COOLING", "state": "RUNNING", "price": 4.915, "tp": 2.0828826626257895, "note": "sustained 2.1x"}
+{"ts": "2026-09-02T11:37:21.303098-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.74, "tp": 3.959964597136284, "note": "pace 4.0x and accelerating (4.6x vs prior window) \u00b7 -0.9% in window"}
