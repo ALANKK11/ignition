@@ -51,3 +51,7 @@
 {"ts": "2026-09-02T11:16:21.299286-04:00", "demo": 0, "ticker": "FXO", "prev_state": "RUNNING", "state": "FADING", "price": 66.49, "tp": 0.0, "note": "pace 0.0x vs peak 2.9x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T11:16:21.299286-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "RUNNING", "state": "COOLING", "price": 4.43, "tp": 0.8444184633391852, "note": "pace 0.8x off peak 2.3x"}
 {"ts": "2026-09-02T11:16:21.299286-04:00", "demo": 0, "ticker": "ERAS", "prev_state": "QUIET", "state": "RUNNING", "price": 16.0, "tp": 1.9339243924045166, "note": "sustained 1.9x"}
+{"ts": "2026-09-02T11:19:21.299765-04:00", "demo": 0, "ticker": "CXM", "prev_state": "RUNNING", "state": "COOLING", "price": 7.395, "tp": 1.1288209307359542, "note": "pace 1.1x off peak 6.3x"}
+{"ts": "2026-09-02T11:19:21.299765-04:00", "demo": 0, "ticker": "GGLS", "prev_state": "QUIET", "state": "RUNNING", "price": 59.91, "tp": 1.929488978069618, "note": "sustained 1.9x"}
+{"ts": "2026-09-02T11:19:21.299765-04:00", "demo": 0, "ticker": "FCEL", "prev_state": "COOLING", "state": "RUNNING", "price": 14.19, "tp": 2.078056903487718, "note": "sustained 2.1x"}
+{"ts": "2026-09-02T11:19:21.299765-04:00", "demo": 0, "ticker": "ETSS", "prev_state": "QUIET", "state": "CHURN", "price": 9.92, "tp": 61.63478938906304, "note": "61.6x participation, no progress at highs \u2014 absorption"}
