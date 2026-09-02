@@ -28,3 +28,9 @@
 {"ts": "2026-09-02T11:04:21.296242-04:00", "demo": 0, "ticker": "LHAI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.005, "tp": 589.5048153953704, "note": "sustained 589.5x"}
 {"ts": "2026-09-02T11:04:21.296242-04:00", "demo": 0, "ticker": "MMED", "prev_state": "RUNNING", "state": "COOLING", "price": 23.67, "tp": 1.2309422676033686, "note": "pace 1.2x off peak 2.2x"}
 {"ts": "2026-09-02T11:04:21.296242-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "QUIET", "state": "CHURN", "price": 4.43, "tp": 2.2763564702053007, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "CHURN", "state": "RUNNING", "price": 4.43, "tp": 2.1109959539281666, "note": "sustained 2.1x"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "CRK", "prev_state": "RUNNING", "state": "COOLING", "price": 15.54, "tp": 1.6988391901240085, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "CXM", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.405, "tp": 6.25711471172311, "note": "sustained 6.3x"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "EOSE", "prev_state": "CHURN", "state": "RUNNING", "price": 3.49, "tp": 2.966322712114881, "note": "sustained 3.0x"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "CRDO", "prev_state": "IGNITING", "state": "RUNNING", "price": 167.925, "tp": 9.781386280537015, "note": "sustained 9.8x"}
+{"ts": "2026-09-02T11:07:21.296923-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.755, "tp": 0.47883244790668517, "note": "pace 0.5x off peak 2.5x"}
