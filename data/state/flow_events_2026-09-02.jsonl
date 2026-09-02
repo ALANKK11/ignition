@@ -147,3 +147,14 @@
 {"ts": "2026-09-02T11:49:21.305307-04:00", "demo": 0, "ticker": "CNH", "prev_state": "RUNNING", "state": "CHURN", "price": 13.31, "tp": 5.454379355860318, "note": "5.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-02T11:49:21.305307-04:00", "demo": 0, "ticker": "DRN", "prev_state": "RUNNING", "state": "CHURN", "price": 10.085, "tp": 2.8791301488889625, "note": "2.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-02T11:49:21.305307-04:00", "demo": 0, "ticker": "EOSE", "prev_state": "RUNNING", "state": "FADING", "price": 3.435, "tp": 2.511582224483923, "note": "pace 2.5x vs peak 7.3x \u00b7 -1.7% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "CNH", "prev_state": "CHURN", "state": "RUNNING", "price": 13.345, "tp": 2.669929306082447, "note": "sustained 2.7x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "XNDU", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.46, "tp": 2.1983012928858106, "note": "quiet open (0.8x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "COOLING", "state": "CHURN", "price": 30.7, "tp": 2.2345281514562316, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "FCOM", "prev_state": "RUNNING", "state": "COOLING", "price": 71.2, "tp": 1.3086718573429905, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "DRN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.105, "tp": 1.8494810461412958, "note": "sustained 1.8x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "FADING", "price": 10.76, "tp": 1.838081314853869, "note": "pace 1.8x vs peak 5.5x \u00b7 -5.0% off HOD \u00b7 chart still +19% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "ERAS", "prev_state": "COOLING", "state": "RUNNING", "price": 16.05, "tp": 3.111515984776838, "note": "sustained 3.1x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "MMED", "prev_state": "COOLING", "state": "RUNNING", "price": 23.61, "tp": 2.0295801328752225, "note": "sustained 2.0x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "FADING", "state": "COOLING", "price": 3.835, "tp": 1.764150212903694, "note": "pace 1.8x off peak 2.5x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "YEXT", "prev_state": "RUNNING", "state": "COOLING", "price": 6.675, "tp": 1.6655403689217536, "note": "pace 1.7x off peak 3.3x"}
+{"ts": "2026-09-02T11:52:21.306048-04:00", "demo": 0, "ticker": "CANF", "prev_state": "COOLING", "state": "RUNNING", "price": 2.55, "tp": 132.3477843891121, "note": "sustained 132.3x"}
