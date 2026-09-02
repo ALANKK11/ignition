@@ -1,0 +1,6 @@
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "QUIET", "state": "RUNNING", "price": 42.66, "tp": 1.8695053831719521, "note": "sustained 1.9x"}
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "FCEL", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.46, "tp": 4.606492191164226, "note": "sustained 4.6x"}
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "VIOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.535, "tp": 160.00753001632143, "note": "sustained 160.0x"}
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "CANF", "prev_state": "RUNNING", "state": "COOLING", "price": 2.53, "tp": 0.0, "note": "pace 0.0x off peak 80.2x"}
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "ERY", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.7, "tp": 13.120523270621552, "note": "sustained 13.1x"}
+{"ts": "2026-09-02T10:55:21.294054-04:00", "demo": 0, "ticker": "CRK", "prev_state": "QUIET", "state": "RUNNING", "price": 15.57, "tp": 2.220479995875918, "note": "sustained 2.2x"}
