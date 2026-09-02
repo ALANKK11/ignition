@@ -60,3 +60,10 @@
 {"ts": "2026-09-02T11:22:21.300207-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "COOLING", "state": "FADING", "price": 3.775, "tp": 0.3365933509745217, "note": "pace 0.3x vs peak 2.5x \u00b7 -2.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T11:22:21.300207-04:00", "demo": 0, "ticker": "ERAS", "prev_state": "RUNNING", "state": "QUIET", "price": 16.0, "tp": 1.67103283876154, "note": ""}
 {"ts": "2026-09-02T11:24:36.286712-04:00", "demo": 0, "ticker": "AARD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Shareholders who lost money in shares of acquired Aardvark Therapeutics, Inc. (NASDAQ: AARD) should contact Wolf Haldens"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "GGLS", "prev_state": "COOLING", "state": "RUNNING", "price": 59.79, "tp": 3.0217018763531867, "note": "sustained 3.0x"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "CANF", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.55, "tp": 180.4311357361946, "note": "sustained 180.4x"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.95, "tp": 14.012344025010329, "note": "pace 14.0x and accelerating (1.8x vs prior window) \u00b7 +7.7% in window"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "DGT", "prev_state": "CHURN", "state": "FADING", "price": 191.53, "tp": 0.0, "note": "pace 0.0x vs peak 11.9x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "ERAS", "prev_state": "QUIET", "state": "COOLING", "price": 15.97, "tp": 1.4879669513766367, "note": "pace 1.5x off peak 2.0x"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "FCEL", "prev_state": "RUNNING", "state": "COOLING", "price": 14.3, "tp": 1.6766569294072822, "note": "pace 1.7x off peak 7.1x"}
+{"ts": "2026-09-02T11:25:21.300685-04:00", "demo": 0, "ticker": "ASTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.82, "tp": 2.7088876103499127, "note": "sustained 2.7x"}
