@@ -320,3 +320,10 @@
 {"ts": "2026-09-02T12:37:21.314566-04:00", "demo": 0, "ticker": "EVR", "prev_state": "COOLING", "state": "FADING", "price": 286.74, "tp": 0.6232298250949895, "note": "pace 0.6x vs peak 12.4x \u00b7 -2.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-02T12:37:21.314566-04:00", "demo": 0, "ticker": "APOG", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 38.29, "tp": 2.674281108650776, "note": "sustained 2.7x"}
 {"ts": "2026-09-02T12:37:21.314566-04:00", "demo": 0, "ticker": "ULTY", "prev_state": "QUIET", "state": "RUNNING", "price": 25.55, "tp": 1.8227805655246725, "note": "sustained 1.8x"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "CNH", "prev_state": "IGNITING", "state": "CHURN", "price": 13.24, "tp": 3.690991822394901, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "ULTY", "prev_state": "RUNNING", "state": "COOLING", "price": 25.55, "tp": 0.468137079775077, "note": "pace 0.5x off peak 1.8x"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "CPK", "prev_state": "COOLING", "state": "RUNNING", "price": 131.63, "tp": 6.037732498061084, "note": "sustained 6.0x"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "BNDW", "prev_state": "RUNNING", "state": "COOLING", "price": 66.885, "tp": 1.4745581162424364, "note": "pace 1.5x off peak 13.1x"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "ALMS", "prev_state": "FADING", "state": "LEAVING", "price": 10.34, "tp": 2.8200380316802547, "note": "pace 2.8x off peak 7.7x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "BIIB", "prev_state": "FADING", "state": "IGNITING", "price": 224.11, "tp": 7.604977531208501, "note": "pace 7.6x and accelerating (4.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-02T12:40:21.315424-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "COOLING", "state": "RUNNING", "price": 30.82, "tp": 6.903011769309215, "note": "sustained 6.9x"}
