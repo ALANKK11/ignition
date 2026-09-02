@@ -211,3 +211,4 @@
 {"ts": "2026-09-02T12:07:21.308826-04:00", "demo": 0, "ticker": "ESRT", "prev_state": "FADING", "state": "COOLING", "price": 4.425, "tp": 1.3749240934940836, "note": "pace 1.4x off peak 2.3x"}
 {"ts": "2026-09-02T12:07:21.308826-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.77, "tp": 43.28952416928678, "note": "sustained 43.3x"}
 {"ts": "2026-09-02T12:07:21.308826-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.845, "tp": 2.4077694654083186, "note": "sustained 2.4x"}
+{"ts": "2026-09-02T12:09:36.295522-04:00", "demo": 0, "ticker": "HYLN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Berger Montague PC Investigating Claims on Behalf of Investors in Hyliion Holdings Corp. (NYSE: HYLN) After Class Action"}
