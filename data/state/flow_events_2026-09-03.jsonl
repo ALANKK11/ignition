@@ -465,3 +465,4 @@
 {"ts": "2026-09-03T15:28:34.440419-04:00", "demo": 0, "ticker": "ACYQ", "prev_state": "RUNNING", "state": "FADING", "price": 20.83, "tp": 4.0027041143091315, "note": "pace 4.0x vs peak 135.9x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-03T15:28:34.440419-04:00", "demo": 0, "ticker": "CLOA", "prev_state": "FADING", "state": "RUNNING", "price": 51.815, "tp": 9.834234224908174, "note": "sustained 9.8x"}
 {"ts": "2026-09-03T15:28:34.440419-04:00", "demo": 0, "ticker": "CLYM", "prev_state": "RUNNING", "state": "COOLING", "price": 14.565, "tp": 1.0357062357579159, "note": "pace 1.0x off peak 14.1x"}
+{"ts": "2026-09-03T15:29:19.425800-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "REGN ALERT: Hagens Berman Alerts Regeneron Pharmaceuticals, Inc. (REGN) Investors to Pending Securities Fraud Class Acti"}
