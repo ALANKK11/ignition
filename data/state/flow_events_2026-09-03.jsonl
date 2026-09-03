@@ -597,3 +597,5 @@
 {"ts": "2026-09-03T15:58:34.445153-04:00", "demo": 0, "ticker": "AVGO", "prev_state": "RUNNING", "state": "COOLING", "price": 357.205, "tp": 1.5810755495402584, "note": "pace 1.6x off peak 7.3x"}
 {"ts": "2026-09-03T15:58:34.445153-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "COOLING", "state": "IGNITING", "price": 39.535, "tp": 2.8282911007013363, "note": "pace 2.8x and accelerating (2.0x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-09-03T15:58:34.445153-04:00", "demo": 0, "ticker": "TITN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 22.77, "tp": 1.4633969338428126, "note": "pace 1.5x off peak 2.0x"}
+{"ts": "2026-09-03T16:11:19.434441-04:00", "demo": 0, "ticker": "BSVN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Bank7 Corp. Named Successful Bidder in the Auction for a Controlling Interest in Century Financial Services Corporation"}
+{"ts": "2026-09-03T16:11:19.434441-04:00", "demo": 0, "ticker": "GRAL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GRAIL Announces Inducement Grants Under NASDAQ Listing Rule 5635(c)(4)"}
