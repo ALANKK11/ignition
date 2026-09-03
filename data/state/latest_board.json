@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-03T16:38:19-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-09-03T16:40:34-04:00", "session": "post", "rows": [{"headline": "KYNDRYL GRANTS INDUCEMENT EQUITY AWARDS PURSUANT TO NYSE RULE 303A.08", "pr_ts": "16:39", "catalyst": true, "flags": ["AWARD", "GRANTED"], "ticker": "KD", "move": 0.0187, "last": 13.34, "dollars": 1793362.9, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.063, "first_seen": "16:40", "new": true}]}
