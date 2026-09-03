@@ -254,3 +254,13 @@
 {"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "RUNNING", "state": "FADING", "price": 7.06, "tp": 0.0, "note": "pace 0.0x vs peak 5.8x \u00b7 -14.1% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "CHURN", "state": "RUNNING", "price": 20.41, "tp": 3.29440707298549, "note": "sustained 3.3x"}
 {"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "ASST", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.69, "tp": 6.614113912724485, "note": "pace 6.6x and accelerating (3.2x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 5.825, "tp": 2.9116501523937504, "note": "quiet open (1.1x) \u2192 now 2.9x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "ARGT", "prev_state": "RUNNING", "state": "COOLING", "price": 97.32, "tp": 0.0, "note": "pace 0.0x off peak 5.0x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "COIN", "prev_state": "CHURN", "state": "RUNNING", "price": 193.665, "tp": 2.8880057353645228, "note": "sustained 2.9x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "REPX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 41.67, "tp": 2.8391709381854344, "note": "sustained 2.8x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "AVL", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.48, "tp": 6.00208600458864, "note": "pace 6.0x and accelerating (2.3x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "DSX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.98, "tp": 0.2981047429619472, "note": "pace 0.3x off peak 39.6x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 24.535, "tp": 1.098635454831278, "note": "pace 1.1x off peak 3.9x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "ATLC", "prev_state": "RUNNING", "state": "COOLING", "price": 97.315, "tp": 1.7242276705844843, "note": "pace 1.7x off peak 3.0x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "GSG", "prev_state": "FADING", "state": "COOLING", "price": 34.885, "tp": 1.6065061542884667, "note": "pace 1.6x off peak 12.2x"}
+{"ts": "2026-09-03T12:12:26.367774-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "IGNITING", "state": "FADING", "price": 32.36, "tp": 2.7663735068421476, "note": "pace 2.8x vs peak 8.0x \u00b7 -0.9% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
