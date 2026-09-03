@@ -112,3 +112,5 @@
 {"ts": "2026-09-03T11:27:26.358617-04:00", "demo": 0, "ticker": "GELS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.841, "tp": 10.229023410453925, "note": "pace 10.2x and accelerating (1.9x vs prior window) \u00b7 +2.9% in window"}
 {"ts": "2026-09-03T11:27:26.358617-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "IGNITING", "state": "RUNNING", "price": 37.45, "tp": 9.2055842106249, "note": "sustained 9.2x"}
 {"ts": "2026-09-03T11:27:26.358617-04:00", "demo": 0, "ticker": "CHPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.855, "tp": 41.70121137479872, "note": "sustained 41.7x"}
+{"ts": "2026-09-03T11:30:26.359279-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "COOLING", "state": "RUNNING", "price": 5.79, "tp": 2.5136117418725594, "note": "sustained 2.5x"}
+{"ts": "2026-09-03T11:30:26.359279-04:00", "demo": 0, "ticker": "COIN", "prev_state": "IGNITING", "state": "RUNNING", "price": 192.02, "tp": 2.571677463264968, "note": "sustained 2.6x"}
