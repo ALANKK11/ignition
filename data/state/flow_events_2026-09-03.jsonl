@@ -1,0 +1,5 @@
+{"ts": "2026-09-03T10:54:26.351521-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "RUNNING", "state": "FADING", "price": 6.96, "tp": 1.1501037142756527, "note": "pace 1.2x vs peak 3.3x \u00b7 -15.3% off HOD \u00b7 chart still +31% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T10:54:26.351521-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "QUIET", "state": "RUNNING", "price": 5.575, "tp": 1.8715515161160894, "note": "sustained 1.9x"}
+{"ts": "2026-09-03T10:54:26.351521-04:00", "demo": 0, "ticker": "GIII", "prev_state": "QUIET", "state": "RUNNING", "price": 27.825, "tp": 1.9235327509926288, "note": "sustained 1.9x"}
+{"ts": "2026-09-03T10:54:26.351521-04:00", "demo": 0, "ticker": "JMUB", "prev_state": "RUNNING", "state": "CHURN", "price": 49.155, "tp": 6.787678770899152, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T10:54:26.351521-04:00", "demo": 0, "ticker": "HAFN", "prev_state": "QUIET", "state": "RUNNING", "price": 8.975, "tp": 2.1225312034434047, "note": "sustained 2.1x"}
