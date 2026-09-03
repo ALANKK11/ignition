@@ -244,3 +244,13 @@
 {"ts": "2026-09-03T12:06:26.366499-04:00", "demo": 0, "ticker": "ASST", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.71, "tp": 6.323307235740658, "note": "sustained 6.3x"}
 {"ts": "2026-09-03T12:06:26.366499-04:00", "demo": 0, "ticker": "BMNU", "prev_state": "FADING", "state": "RUNNING", "price": 21.09, "tp": 1.9765655389239143, "note": "sustained 2.0x"}
 {"ts": "2026-09-03T12:06:26.366499-04:00", "demo": 0, "ticker": "COIN", "prev_state": "RUNNING", "state": "CHURN", "price": 193.6, "tp": 4.730432307827752, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "ESE", "prev_state": "FADING", "state": "RUNNING", "price": 268.005, "tp": 5.017439299294744, "note": "sustained 5.0x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "BUG", "prev_state": "FADING", "state": "RUNNING", "price": 41.495, "tp": 2.717783158151739, "note": "sustained 2.7x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "RUNNING", "state": "COOLING", "price": 1.71, "tp": 0.0, "note": "pace 0.0x off peak 14.2x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "ECAT", "prev_state": "CHURN", "state": "RUNNING", "price": 15.25, "tp": 7.278605620226035, "note": "sustained 7.3x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "FADING", "state": "RUNNING", "price": 28.65, "tp": 2.4163189497068127, "note": "sustained 2.4x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "FADING", "price": 12.23, "tp": 1.6156538194427708, "note": "pace 1.6x vs peak 10.5x \u00b7 -9.9% off HOD \u00b7 chart still +25% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "ATLC", "prev_state": "COOLING", "state": "RUNNING", "price": 97.315, "tp": 1.8055125023587424, "note": "sustained 1.8x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "RUNNING", "state": "FADING", "price": 7.06, "tp": 0.0, "note": "pace 0.0x vs peak 5.8x \u00b7 -14.1% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "CHURN", "state": "RUNNING", "price": 20.41, "tp": 3.29440707298549, "note": "sustained 3.3x"}
+{"ts": "2026-09-03T12:09:26.367556-04:00", "demo": 0, "ticker": "ASST", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.69, "tp": 6.614113912724485, "note": "pace 6.6x and accelerating (3.2x vs prior window) \u00b7 -0.6% in window"}
