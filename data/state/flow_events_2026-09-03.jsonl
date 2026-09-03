@@ -293,3 +293,17 @@
 {"ts": "2026-09-03T12:18:26.368838-04:00", "demo": 0, "ticker": "COIN", "prev_state": "RUNNING", "state": "FADING", "price": 193.53, "tp": 0.8782571910862905, "note": "pace 0.9x vs peak 4.9x \u00b7 -1.2% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-03T12:18:26.368838-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "CHURN", "state": "RUNNING", "price": 5.81, "tp": 2.0447088705641407, "note": "sustained 2.0x"}
 {"ts": "2026-09-03T12:18:26.368838-04:00", "demo": 0, "ticker": "GIII", "prev_state": "COOLING", "state": "RUNNING", "price": 27.445, "tp": 1.8124014011100713, "note": "sustained 1.8x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "COOLING", "state": "IGNITING", "price": 1.755, "tp": 8.221245934558793, "note": "pace 8.2x and accelerating (1.9x vs prior window) \u00b7 +2.6% in window"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "ECAT", "prev_state": "RUNNING", "state": "CHURN", "price": 15.26, "tp": 4.931248067954136, "note": "4.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "AVL", "prev_state": "CHURN", "state": "RUNNING", "price": 36.45, "tp": 3.7668312849288323, "note": "sustained 3.8x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.25, "tp": 19.94637309058831, "note": "sustained 19.9x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "FADING", "state": "RUNNING", "price": 7.09, "tp": 2.0123228636373804, "note": "sustained 2.0x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "GIII", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.44, "tp": 10.773298040868893, "note": "pace 10.8x and accelerating (10.8x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "CHPT", "prev_state": "LEAVING", "state": "FADING", "price": 7.79, "tp": 17.511265725093768, "note": "pace 17.5x vs peak 51.0x \u00b7 -9.8% off HOD \u00b7 chart still +49% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "AVGO", "prev_state": "CHURN", "state": "RUNNING", "price": 352.65, "tp": 4.181556271625795, "note": "sustained 4.2x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "AVGG", "prev_state": "RUNNING", "state": "COOLING", "price": 22.375, "tp": 0.0, "note": "pace 0.0x off peak 15.1x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "ACGL", "prev_state": "FADING", "state": "CHURN", "price": 99.94, "tp": 3.0989451282929474, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "RUNNING", "price": 13.275, "tp": 2.0456426823516645, "note": "sustained 2.0x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "ASST", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.495, "tp": 3.1701604057937467, "note": "sustained 3.2x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "LAUR", "prev_state": "QUIET", "state": "RUNNING", "price": 36.68, "tp": 3.478025428843858, "note": "sustained 3.5x"}
+{"ts": "2026-09-03T12:21:26.370008-04:00", "demo": 0, "ticker": "GBTG", "prev_state": "COOLING", "state": "NEW MONEY", "price": 9.485, "tp": 20.72212801025955, "note": "quiet open (0.4x) \u2192 now 20.7x \u00b7 taking +0.9% flow share"}
