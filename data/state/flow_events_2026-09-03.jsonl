@@ -17,3 +17,10 @@
 {"ts": "2026-09-03T11:00:26.352682-04:00", "demo": 0, "ticker": "IRD", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.635, "tp": 5.186930798014623, "note": "pace 5.2x and accelerating (2.7x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-09-03T11:00:26.352682-04:00", "demo": 0, "ticker": "HAFN", "prev_state": "RUNNING", "state": "QUIET", "price": 8.955, "tp": 1.7815345288443627, "note": ""}
 {"ts": "2026-09-03T11:00:26.352682-04:00", "demo": 0, "ticker": "GSG", "prev_state": "RUNNING", "state": "CHURN", "price": 35.03, "tp": 12.13406457624839, "note": "12.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "HAFN", "prev_state": "QUIET", "state": "RUNNING", "price": 8.97, "tp": 1.952351146286294, "note": "sustained 2.0x"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "QUIET", "state": "RUNNING", "price": 24.565, "tp": 1.9954160274603645, "note": "sustained 2.0x"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "GSG", "prev_state": "CHURN", "state": "RUNNING", "price": 35.0, "tp": 12.226239010757906, "note": "sustained 12.2x"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "TVA", "prev_state": "RUNNING", "state": "CHURN", "price": 10.545, "tp": 4998.463235568496, "note": "4998.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "BCH", "prev_state": "QUIET", "state": "NEW MONEY", "price": 42.625, "tp": 2.483511999760529, "note": "quiet open (0.4x) \u2192 now 2.5x \u00b7 taking +1.5% flow share"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "GIII", "prev_state": "RUNNING", "state": "COOLING", "price": 27.83, "tp": 1.5395618207842727, "note": "pace 1.5x off peak 2.7x"}
+{"ts": "2026-09-03T11:03:26.353621-04:00", "demo": 0, "ticker": "CRCG", "prev_state": "RUNNING", "state": "FADING", "price": 18.91, "tp": 1.8473154333740232, "note": "pace 1.8x vs peak 5.4x \u00b7 -1.6% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
