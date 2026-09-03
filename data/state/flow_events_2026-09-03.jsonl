@@ -203,3 +203,13 @@
 {"ts": "2026-09-03T11:54:26.364207-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "COOLING", "state": "IGNITING", "price": 38.2, "tp": 2.827504268120374, "note": "pace 2.8x and accelerating (5.7x vs prior window) \u00b7 +2.0% in window"}
 {"ts": "2026-09-03T11:54:26.364207-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "COOLING", "state": "RUNNING", "price": 5.78, "tp": 2.0219368030598877, "note": "sustained 2.0x"}
 {"ts": "2026-09-03T11:54:26.364207-04:00", "demo": 0, "ticker": "ASST", "prev_state": "FADING", "state": "RUNNING", "price": 26.85, "tp": 1.9864462682999036, "note": "sustained 2.0x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "FADING", "state": "COOLING", "price": 24.545, "tp": 1.664224479426424, "note": "pace 1.7x off peak 2.7x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "AVGX", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.2, "tp": 1.9035585264492554, "note": "sustained 1.9x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "NEW MONEY", "state": "COOLING", "price": 9.59, "tp": 0.0, "note": "pace 0.0x off peak 3.6x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "HSLV", "prev_state": "RUNNING", "state": "FADING", "price": 5.78, "tp": 0.8330225661783215, "note": "pace 0.8x vs peak 3.9x \u00b7 -0.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.68, "tp": 14.222054645977876, "note": "sustained 14.2x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "QUIET", "state": "IGNITING", "price": 31.9, "tp": 3.746247830097008, "note": "pace 3.7x and accelerating (3.1x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "GERN", "prev_state": "RUNNING", "state": "CHURN", "price": 1.555, "tp": 3.370054935156497, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "DOO", "prev_state": "IGNITING", "state": "RUNNING", "price": 61.53, "tp": 6.690131486010475, "note": "sustained 6.7x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.06, "tp": 3.089417189554546, "note": "sustained 3.1x"}
+{"ts": "2026-09-03T11:57:26.364537-04:00", "demo": 0, "ticker": "AVL", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.31, "tp": 2.563540225237856, "note": "sustained 2.6x"}
