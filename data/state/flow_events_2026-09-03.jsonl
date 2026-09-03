@@ -347,3 +347,12 @@
 {"ts": "2026-09-03T12:30:26.371554-04:00", "demo": 0, "ticker": "DAKT", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.57, "tp": 2.742200630843382, "note": "sustained 2.7x"}
 {"ts": "2026-09-03T12:30:26.371554-04:00", "demo": 0, "ticker": "LAUR", "prev_state": "CHURN", "state": "RUNNING", "price": 36.775, "tp": 7.746761563218863, "note": "sustained 7.7x"}
 {"ts": "2026-09-03T12:30:26.371554-04:00", "demo": 0, "ticker": "CURR", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.21, "tp": 11.72450447829468, "note": "sustained 11.7x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.75, "tp": 20.956569295277603, "note": "sustained 21.0x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "COOLING", "state": "FADING", "price": 7.09, "tp": 0.7463169995309958, "note": "pace 0.7x vs peak 3.0x \u00b7 -2.5% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "DSX", "prev_state": "COOLING", "state": "RUNNING", "price": 2.99, "tp": 1.9076823455498313, "note": "sustained 1.9x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "CTA", "prev_state": "CHURN", "state": "RUNNING", "price": 28.59, "tp": 8.490602620062795, "note": "sustained 8.5x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "CHPT", "prev_state": "FADING", "state": "IGNITING", "price": 8.18, "tp": 31.552015464046846, "note": "pace 31.6x and accelerating (1.9x vs prior window) \u00b7 +5.3% in window"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "GBTG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 9.485, "tp": 0.6979035313936859, "note": "pace 0.7x off peak 22.0x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "GERN", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.53, "tp": 2.57389203648908, "note": "sustained 2.6x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "ECAT", "prev_state": "CHURN", "state": "RUNNING", "price": 15.25, "tp": 6.188791649072301, "note": "sustained 6.2x"}
+{"ts": "2026-09-03T12:33:26.372113-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "COOLING", "state": "RUNNING", "price": 5.28, "tp": 2.6869897021570845, "note": "sustained 2.7x"}
