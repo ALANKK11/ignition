@@ -74,3 +74,13 @@
 {"ts": "2026-09-04T15:25:46.516388-04:00", "demo": 0, "ticker": "IMRN", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.77, "tp": 11688.244287898688, "note": "sustained 11688.2x"}
 {"ts": "2026-09-04T15:25:46.516388-04:00", "demo": 0, "ticker": "JMSI", "prev_state": "CHURN", "state": "COOLING", "price": 48.725, "tp": 0.0, "note": "pace 0.0x off peak 111.3x"}
 {"ts": "2026-09-04T15:25:46.516388-04:00", "demo": 0, "ticker": "GPRO", "prev_state": "LEAVING", "state": "FADING", "price": 1.74, "tp": 1.6714306670897356, "note": "pace 1.7x vs peak 5.4x \u00b7 -14.7% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "BKCH", "prev_state": "RUNNING", "state": "IGNITING", "price": 74.86, "tp": 15.7245471223681, "note": "pace 15.7x and accelerating (1.7x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "FELC", "prev_state": "CHURN", "state": "RUNNING", "price": 43.905, "tp": 9.88388375775451, "note": "sustained 9.9x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "CURV", "prev_state": "RUNNING", "state": "FADING", "price": 2.525, "tp": 1.2047288307090547, "note": "pace 1.2x vs peak 4.7x \u00b7 -10.8% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "FTH", "prev_state": "FADING", "state": "RUNNING", "price": 40.235, "tp": 2.3277282232767593, "note": "sustained 2.3x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "ATAI", "prev_state": "CHURN", "state": "RUNNING", "price": 7.395, "tp": 4.843882098357132, "note": "sustained 4.8x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "ABTC", "prev_state": "QUIET", "state": "COOLING", "price": 7.95, "tp": 0.5903972312427264, "note": "pace 0.6x off peak 1.8x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.97, "tp": 4.186058015109541, "note": "sustained 4.2x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "CMPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 87.105, "tp": 13.992876399346377, "note": "sustained 14.0x"}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "EFX", "prev_state": "RUNNING", "state": "QUIET", "price": 176.065, "tp": 1.7435216048580562, "note": ""}
+{"ts": "2026-09-04T15:29:31.517840-04:00", "demo": 0, "ticker": "IDEF", "prev_state": "QUIET", "state": "RUNNING", "price": 32.215, "tp": 2.6835330591349944, "note": "sustained 2.7x"}
