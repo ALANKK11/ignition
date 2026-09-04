@@ -1,0 +1,8 @@
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "CBRX", "prev_state": "QUIET", "state": "RUNNING", "price": 11.45, "tp": 2.849046476717201, "note": "sustained 2.8x"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "WETO", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.74, "tp": 3.9018490281329736, "note": "pace 3.9x and accelerating (2.2x vs prior window) \u00b7 +4.8% in window"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "CBRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.19, "tp": 3.418505856763459, "note": "sustained 3.4x"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "FICO", "prev_state": "RUNNING", "state": "CHURN", "price": 925.495, "tp": 2.3750891955260505, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "DVLT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2148, "tp": 16.237679222279734, "note": "sustained 16.2x"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "SPTI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 27.9, "tp": 2.005794112938641, "note": "quiet open (0.7x) \u2192 now 2.0x \u00b7 taking +0.8% flow share"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "LULU", "prev_state": "RUNNING", "state": "IGNITING", "price": 100.18, "tp": 10.99328868103518, "note": "pace 11.0x and accelerating (2.2x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-04T10:45:21.061221-04:00", "demo": 0, "ticker": "AOUT", "prev_state": "RUNNING", "state": "FADING", "price": 14.24, "tp": 1.6265299430458882, "note": "pace 1.6x vs peak 4.8x \u00b7 -0.7% off HOD \u00b7 chart still +43% \u2014 crowd buying a cooled tape"}
