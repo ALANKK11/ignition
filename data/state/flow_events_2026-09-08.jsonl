@@ -13,3 +13,13 @@
 {"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 10.78, "tp": 2.063039729569787, "note": "sustained 2.1x"}
 {"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "FADING", "price": 27.585, "tp": 0.8931597836055157, "note": "pace 0.9x vs peak 2.7x \u00b7 +0.0% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "PDSB", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.3062, "tp": 303.3851982959219, "note": "pace 303.4x and accelerating (13.4x vs prior window) \u00b7 -2.0% in window"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "LASE", "prev_state": "RUNNING", "state": "COOLING", "price": 1.055, "tp": 1.0438651314337541, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "COOLING", "price": 28.59, "tp": 1.581136684372134, "note": "pace 1.6x off peak 3.8x"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "WTAI", "prev_state": "RUNNING", "state": "CHURN", "price": 42.68, "tp": 4.900713541240687, "note": "4.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "QUIET", "price": 2.92, "tp": 1.7920708339337599, "note": ""}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "GOLD", "prev_state": "QUIET", "state": "RUNNING", "price": 46.715, "tp": 2.1486755535288107, "note": "sustained 2.1x"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "MAMA", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.62, "tp": 4.288142458686493, "note": "pace 4.3x and accelerating (3.8x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "DFEV", "prev_state": "RUNNING", "state": "COOLING", "price": 43.615, "tp": 1.3393204255388225, "note": "pace 1.3x off peak 3.4x"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "ATER", "prev_state": "QUIET", "state": "RUNNING", "price": 0.7036, "tp": 2.220627375379449, "note": "sustained 2.2x"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.99, "tp": 34.257136266996376, "note": "pace 34.3x and accelerating (3.9x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-09-08T11:01:17.594895-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "COOLING", "state": "RUNNING", "price": 2.605, "tp": 3.930392900919672, "note": "sustained 3.9x"}
