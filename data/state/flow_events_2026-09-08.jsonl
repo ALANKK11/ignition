@@ -405,3 +405,14 @@
 {"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "RUNNING", "state": "COOLING", "price": 1.895, "tp": 1.779434039840397, "note": "pace 1.8x off peak 10.7x"}
 {"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "COOLING", "state": "QUIET", "price": 12.085, "tp": 1.4651122655547388, "note": ""}
 {"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "BILI", "prev_state": "CHURN", "state": "FADING", "price": 15.965, "tp": 1.97077979596948, "note": "pace 2.0x vs peak 6.4x \u00b7 -0.3% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "FADING", "state": "IGNITING", "price": 2.81, "tp": 3.9767413842335566, "note": "pace 4.0x and accelerating (3.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "BEX", "prev_state": "COOLING", "state": "RUNNING", "price": 38.68, "tp": 2.4566447054799485, "note": "sustained 2.5x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "QUIET", "state": "RUNNING", "price": 12.11, "tp": 1.8606903587024843, "note": "sustained 1.9x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "FADING", "state": "RUNNING", "price": 54.055, "tp": 3.04753845681626, "note": "sustained 3.0x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "BFS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 32.38, "tp": 6.26042847976783, "note": "sustained 6.3x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "OXM", "prev_state": "IGNITING", "state": "RUNNING", "price": 30.6, "tp": 2.1127247834249525, "note": "sustained 2.1x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "BUFF", "prev_state": "CHURN", "state": "RUNNING", "price": 53.81, "tp": 8.5082865285175, "note": "sustained 8.5x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "AUB", "prev_state": "COOLING", "state": "QUIET", "price": 40.665, "tp": 1.5003446334736052, "note": ""}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "COOLING", "state": "RUNNING", "price": 1.895, "tp": 1.8267119275359007, "note": "sustained 1.8x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "AOUT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.32, "tp": 7.929052554907278, "note": "sustained 7.9x"}
+{"ts": "2026-09-08T12:35:02.614209-04:00", "demo": 0, "ticker": "APPX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.86, "tp": 2.0662054947232193, "note": "sustained 2.1x"}
