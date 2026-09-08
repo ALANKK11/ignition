@@ -289,3 +289,12 @@
 {"ts": "2026-09-08T12:05:02.609560-04:00", "demo": 0, "ticker": "DFEV", "prev_state": "RUNNING", "state": "COOLING", "price": 43.63, "tp": 0.0, "note": "pace 0.0x off peak 5.1x"}
 {"ts": "2026-09-08T12:05:02.609560-04:00", "demo": 0, "ticker": "BRTR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 49.215, "tp": 0.0, "note": "pace 0.0x off peak 3.4x"}
 {"ts": "2026-09-08T12:05:02.609560-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.9, "tp": 3.494730105464818, "note": "pace 3.5x and accelerating (4.7x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "BGIG", "prev_state": "FADING", "state": "RUNNING", "price": 36.54, "tp": 4.165013509139921, "note": "sustained 4.2x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 26.58, "tp": 1.870312573171595, "note": "sustained 1.9x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "BFS", "prev_state": "COOLING", "state": "NEW MONEY", "price": 32.35, "tp": 3.5623662937687994, "note": "quiet open (0.5x) \u2192 now 3.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "MRP", "prev_state": "COOLING", "state": "NEW MONEY", "price": 30.95, "tp": 2.5082797435160664, "note": "quiet open (0.9x) \u2192 now 2.5x \u00b7 taking +0.7% flow share"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "CHURN", "state": "RUNNING", "price": 83.775, "tp": 6.25299033286294, "note": "sustained 6.3x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "AUB", "prev_state": "QUIET", "state": "RUNNING", "price": 40.66, "tp": 1.8769157344980703, "note": "sustained 1.9x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.785, "tp": 2.1884892659036463, "note": "sustained 2.2x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.865, "tp": 2.6269325027780686, "note": "sustained 2.6x"}
+{"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.985, "tp": 5.55050034855343, "note": "sustained 5.6x"}
