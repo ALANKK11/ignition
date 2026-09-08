@@ -623,3 +623,5 @@
 {"ts": "2026-09-08T15:59:56.599877-04:00", "demo": 0, "ticker": "BSCW", "prev_state": "FADING", "state": "NEW MONEY", "price": 20.1, "tp": 22.20997607787467, "note": "quiet open (0.1x) \u2192 now 22.2x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-09-08T15:59:56.599877-04:00", "demo": 0, "ticker": "AXTQ", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.91, "tp": 8.901034881083586, "note": "sustained 8.9x"}
 {"ts": "2026-09-08T15:59:56.599877-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "COOLING", "state": "NEW MONEY", "price": 12.04, "tp": 2.0116638662867317, "note": "quiet open (0.8x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-08T16:11:11.587030-04:00", "demo": 0, "ticker": "BBNX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "BBNX Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against B"}
+{"ts": "2026-09-08T16:11:11.587030-04:00", "demo": 0, "ticker": "SI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Shoulder Innovations Announces Settlement of Patent Litigation with Catalyst OrthoScience"}
