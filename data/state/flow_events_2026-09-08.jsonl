@@ -1,0 +1,5 @@
+{"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "NX", "prev_state": "RUNNING", "state": "COOLING", "price": 21.81, "tp": 0.19514327485184743, "note": "pace 0.2x off peak 2.0x"}
+{"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "LASE", "prev_state": "QUIET", "state": "RUNNING", "price": 1.05, "tp": 1.8624603200126557, "note": "sustained 1.9x"}
+{"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "CHURN", "state": "COOLING", "price": 2.605, "tp": 1.4579758493317199, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "WTAI", "prev_state": "CHURN", "state": "RUNNING", "price": 42.68, "tp": 6.290712059997016, "note": "sustained 6.3x"}
+{"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.82, "tp": 1.5914611695439707, "note": "pace 1.6x off peak 2.8x"}
