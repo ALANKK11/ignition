@@ -436,3 +436,12 @@
 {"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "FADING", "state": "RUNNING", "price": 1.04, "tp": 30.405053164516772, "note": "sustained 30.4x"}
 {"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "RUNNING", "state": "CHURN", "price": 9.235, "tp": 4.939749327235632, "note": "4.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "AOUT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.44, "tp": 5.0601780305455, "note": "sustained 5.1x"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.86, "tp": 0.33774719327554525, "note": "pace 0.3x off peak 2.8x"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "BUFF", "prev_state": "RUNNING", "state": "CHURN", "price": 53.81, "tp": 12.169378429147379, "note": "12.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "RUNNING", "state": "COOLING", "price": 10.41, "tp": 0.6046398405581167, "note": "pace 0.6x off peak 7.4x"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "CHURN", "state": "RUNNING", "price": 9.245, "tp": 4.732634324569569, "note": "sustained 4.7x"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "RUNNING", "state": "IGNITING", "price": 53.785, "tp": 3.4294083703738987, "note": "pace 3.4x and accelerating (1.9x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "NEW MONEY", "state": "COOLING", "price": 12.125, "tp": 0.6741609273713899, "note": "pace 0.7x off peak 2.2x"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.035, "tp": 38.98005035085015, "note": "pace 39.0x and accelerating (4.4x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "AUB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 40.585, "tp": 3.2047757785809927, "note": "quiet open (1.2x) \u2192 now 3.2x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-09-08T12:44:02.616089-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.81, "tp": 5.545330854930945, "note": "sustained 5.5x"}
