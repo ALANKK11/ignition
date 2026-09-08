@@ -101,3 +101,14 @@
 {"ts": "2026-09-08T11:19:17.599331-04:00", "demo": 0, "ticker": "HIMX", "prev_state": "RUNNING", "state": "CHURN", "price": 14.31, "tp": 8.209003471812558, "note": "8.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-08T11:19:17.599331-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.61, "tp": 4.706897640213673, "note": "sustained 4.7x"}
 {"ts": "2026-09-08T11:19:17.599331-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "CHURN", "price": 7.195, "tp": 4.4406183478371295, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "SWBI", "prev_state": "FADING", "state": "COOLING", "price": 13.14, "tp": 1.5086098866652007, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "CHURN", "state": "RUNNING", "price": 7.125, "tp": 3.5837122358044238, "note": "sustained 3.6x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "GCDT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.651, "tp": 2130.0968611237945, "note": "sustained 2130.1x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "FNF", "prev_state": "QUIET", "state": "IGNITING", "price": 45.11, "tp": 3.2705207879449905, "note": "pace 3.3x and accelerating (4.1x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "QUIET", "state": "RUNNING", "price": 91.585, "tp": 7.859652523588979, "note": "sustained 7.9x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 11.12, "tp": 2.7787821934674817, "note": "sustained 2.8x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "HIMX", "prev_state": "CHURN", "state": "RUNNING", "price": 14.3, "tp": 8.122599387193825, "note": "sustained 8.1x"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "GOLD", "prev_state": "RUNNING", "state": "IGNITING", "price": 47.25, "tp": 3.364888247462523, "note": "pace 3.4x and accelerating (2.0x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "MRP", "prev_state": "NEW MONEY", "state": "QUIET", "price": 31.2, "tp": 1.712086994280957, "note": ""}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "ATER", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.7013, "tp": 29.15199168144647, "note": "pace 29.2x and accelerating (9.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-09-08T11:22:17.600059-04:00", "demo": 0, "ticker": "NX", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.085, "tp": 4.855705183868347, "note": "sustained 4.9x"}
