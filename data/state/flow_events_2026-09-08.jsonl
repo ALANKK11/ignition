@@ -307,3 +307,4 @@
 {"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "COOLING", "state": "RUNNING", "price": 25.99, "tp": 2.7582424120871596, "note": "sustained 2.8x"}
 {"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AGNC", "prev_state": "RUNNING", "state": "CHURN", "price": 10.78, "tp": 4.893105786359554, "note": "4.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AUB", "prev_state": "RUNNING", "state": "QUIET", "price": 40.665, "tp": 1.6149715575609185, "note": ""}
+{"ts": "2026-09-08T12:12:32.595713-04:00", "demo": 0, "ticker": "BABA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: Alibaba Group Holding Limited (BABA) Investors with Substantial Losses Have Opportunity to Lead Class"}
