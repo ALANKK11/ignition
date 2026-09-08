@@ -426,3 +426,13 @@
 {"ts": "2026-09-08T12:38:02.614898-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.37, "tp": 4.35923340355552, "note": "sustained 4.4x"}
 {"ts": "2026-09-08T12:38:02.614898-04:00", "demo": 0, "ticker": "CHA", "prev_state": "FADING", "state": "IGNITING", "price": 12.55, "tp": 9.874744294497468, "note": "pace 9.9x and accelerating (12.2x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-09-08T12:38:02.614898-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 12.125, "tp": 2.0790595882597276, "note": "quiet open (0.8x) \u2192 now 2.1x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "GOLD", "prev_state": "FADING", "state": "LEAVING", "price": 46.38, "tp": 1.4729409524065629, "note": "pace 1.5x off peak 3.4x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.885, "tp": 2.221823487850987, "note": "sustained 2.2x"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "ATAI", "prev_state": "RUNNING", "state": "COOLING", "price": 7.37, "tp": 0.44058757070272186, "note": "pace 0.4x off peak 8.7x"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "COOLING", "state": "RUNNING", "price": 10.41, "tp": 1.9585949421540432, "note": "sustained 2.0x"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "LEAVING", "state": "FADING", "price": 1.82, "tp": 0.3111369182595245, "note": "pace 0.3x vs peak 33.9x \u00b7 +0.0% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BRTR", "prev_state": "NEW MONEY", "state": "COOLING", "price": 49.215, "tp": 0.0, "note": "pace 0.0x off peak 4.9x"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "RUNNING", "state": "FADING", "price": 91.36, "tp": 0.0, "note": "pace 0.0x vs peak 10.4x \u00b7 -0.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "FADING", "state": "RUNNING", "price": 1.04, "tp": 30.405053164516772, "note": "sustained 30.4x"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "RUNNING", "state": "CHURN", "price": 9.235, "tp": 4.939749327235632, "note": "4.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:41:02.615541-04:00", "demo": 0, "ticker": "AOUT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.44, "tp": 5.0601780305455, "note": "sustained 5.1x"}
