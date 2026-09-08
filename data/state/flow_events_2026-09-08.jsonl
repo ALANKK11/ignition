@@ -3,3 +3,13 @@
 {"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "CHURN", "state": "COOLING", "price": 2.605, "tp": 1.4579758493317199, "note": "pace 1.5x off peak 2.6x"}
 {"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "WTAI", "prev_state": "CHURN", "state": "RUNNING", "price": 42.68, "tp": 6.290712059997016, "note": "sustained 6.3x"}
 {"ts": "2026-09-08T10:55:17.593798-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.82, "tp": 1.5914611695439707, "note": "pace 1.6x off peak 2.8x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.09, "tp": 2.913277775515571, "note": "sustained 2.9x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "SWBI", "prev_state": "RUNNING", "state": "COOLING", "price": 13.28, "tp": 1.5103310378357546, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "QUIET", "state": "RUNNING", "price": 2.915, "tp": 1.813336672391215, "note": "sustained 1.8x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "MAMA", "prev_state": "QUIET", "state": "RUNNING", "price": 15.5, "tp": 2.774186438038575, "note": "sustained 2.8x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "NNDM", "prev_state": "QUIET", "state": "RUNNING", "price": 1.555, "tp": 3.1353721913698887, "note": "sustained 3.1x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "BJDX", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.99, "tp": 42.98598786451016, "note": "sustained 43.0x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 7.25, "tp": 1.4398482284376861, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 10.78, "tp": 2.063039729569787, "note": "sustained 2.1x"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "FADING", "price": 27.585, "tp": 0.8931597836055157, "note": "pace 0.9x vs peak 2.7x \u00b7 +0.0% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T10:58:17.594256-04:00", "demo": 0, "ticker": "PDSB", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.3062, "tp": 303.3851982959219, "note": "pace 303.4x and accelerating (13.4x vs prior window) \u00b7 -2.0% in window"}
