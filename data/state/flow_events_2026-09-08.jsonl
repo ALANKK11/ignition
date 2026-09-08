@@ -593,3 +593,4 @@
 {"ts": "2026-09-08T15:56:11.598425-04:00", "demo": 0, "ticker": "CBC", "prev_state": "RUNNING", "state": "COOLING", "price": 32.625, "tp": 1.789681686807636, "note": "pace 1.8x off peak 4.0x"}
 {"ts": "2026-09-08T15:56:11.598425-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "CHURN", "state": "RUNNING", "price": 26.88, "tp": 2.6725425685858117, "note": "sustained 2.7x"}
 {"ts": "2026-09-08T15:56:11.598425-04:00", "demo": 0, "ticker": "AIPI", "prev_state": "RUNNING", "state": "COOLING", "price": 37.15, "tp": 0.7363006387254764, "note": "pace 0.7x off peak 9.9x"}
+{"ts": "2026-09-08T15:59:11.584793-04:00", "demo": 0, "ticker": "UNCY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "UNCY Stockholder Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Un"}
