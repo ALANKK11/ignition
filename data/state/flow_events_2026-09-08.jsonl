@@ -397,3 +397,11 @@
 {"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "ATAI", "prev_state": "COOLING", "state": "RUNNING", "price": 7.375, "tp": 2.6356198590706557, "note": "sustained 2.6x"}
 {"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "BILI", "prev_state": "FADING", "state": "CHURN", "price": 15.955, "tp": 2.3131713835349093, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "CBC", "prev_state": "CHURN", "state": "RUNNING", "price": 32.99, "tp": 3.1912002455442834, "note": "sustained 3.2x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "OXM", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.6, "tp": 3.998556731080125, "note": "pace 4.0x and accelerating (2.3x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.73, "tp": 1.7072561749642803, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "BOAT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 50.87, "tp": 0.0, "note": "pace 0.0x off peak 4.5x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "RUNNING", "state": "COOLING", "price": 29.295, "tp": 0.0, "note": "pace 0.0x off peak 41.1x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 11.44, "tp": 1.7034451234202628, "note": "pace 1.7x off peak 3.0x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "RUNNING", "state": "COOLING", "price": 1.895, "tp": 1.779434039840397, "note": "pace 1.8x off peak 10.7x"}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "COOLING", "state": "QUIET", "price": 12.085, "tp": 1.4651122655547388, "note": ""}
+{"ts": "2026-09-08T12:32:02.613642-04:00", "demo": 0, "ticker": "BILI", "prev_state": "CHURN", "state": "FADING", "price": 15.965, "tp": 1.97077979596948, "note": "pace 2.0x vs peak 6.4x \u00b7 -0.3% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
