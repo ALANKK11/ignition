@@ -308,3 +308,19 @@
 {"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AGNC", "prev_state": "RUNNING", "state": "CHURN", "price": 10.78, "tp": 4.893105786359554, "note": "4.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AUB", "prev_state": "RUNNING", "state": "QUIET", "price": 40.665, "tp": 1.6149715575609185, "note": ""}
 {"ts": "2026-09-08T12:12:32.595713-04:00", "demo": 0, "ticker": "BABA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: Alibaba Group Holding Limited (BABA) Investors with Substantial Losses Have Opportunity to Lead Class"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "AGNC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.785, "tp": 6.014663114905086, "note": "sustained 6.0x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "CHURN", "state": "RUNNING", "price": 83.735, "tp": 3.902866991935581, "note": "sustained 3.9x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "PRCT", "prev_state": "NEW MONEY", "state": "COOLING", "price": 21.14, "tp": 0.6725896866886817, "note": "pace 0.7x off peak 3.3x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "CHPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.77, "tp": 3.473645285503714, "note": "sustained 3.5x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "WOOF", "prev_state": "COOLING", "state": "RUNNING", "price": 2.57, "tp": 1.8936219940206602, "note": "sustained 1.9x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "COHX", "prev_state": "FADING", "state": "RUNNING", "price": 26.64, "tp": 2.231373672277647, "note": "sustained 2.2x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "ASIC", "prev_state": "RUNNING", "state": "COOLING", "price": 26.805, "tp": 0.0, "note": "pace 0.0x off peak 59.9x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "RUNNING", "state": "COOLING", "price": 1.895, "tp": 0.5138915160359215, "note": "pace 0.5x off peak 10.7x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "RUNNING", "state": "CHURN", "price": 25.96, "tp": 2.846029792675262, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "CBC", "prev_state": "RUNNING", "state": "CHURN", "price": 32.925, "tp": 3.279830338639563, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "IGNITING", "state": "RUNNING", "price": 198.02, "tp": 7.278185148955123, "note": "sustained 7.3x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "AUB", "prev_state": "QUIET", "state": "COOLING", "price": 40.67, "tp": 1.4164524729458858, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "BBCP", "prev_state": "FADING", "state": "RUNNING", "price": 10.42, "tp": 2.4778332098528857, "note": "sustained 2.5x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "AMZU", "prev_state": "QUIET", "state": "RUNNING", "price": 36.81, "tp": 2.4353136266860074, "note": "sustained 2.4x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "RUNNING", "state": "COOLING", "price": 159.19, "tp": 0.0, "note": "pace 0.0x off peak 5.7x"}
+{"ts": "2026-09-08T12:14:02.610226-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "COOLING", "price": 39.29, "tp": 1.0640425776510667, "note": "pace 1.1x off peak 2.7x"}
