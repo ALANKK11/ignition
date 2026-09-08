@@ -298,3 +298,12 @@
 {"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "DOMO", "prev_state": "COOLING", "state": "RUNNING", "price": 3.785, "tp": 2.1884892659036463, "note": "sustained 2.2x"}
 {"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.865, "tp": 2.6269325027780686, "note": "sustained 2.6x"}
 {"ts": "2026-09-08T12:08:02.608934-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.985, "tp": 5.55050034855343, "note": "sustained 5.6x"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BIDG", "prev_state": "COOLING", "state": "RUNNING", "price": 6.67, "tp": 55.2293857050797, "note": "sustained 55.2x"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BLTE", "prev_state": "RUNNING", "state": "IGNITING", "price": 198.02, "tp": 9.982103936340359, "note": "pace 10.0x and accelerating (3.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BDVL", "prev_state": "RUNNING", "state": "COOLING", "price": 26.58, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "OXM", "prev_state": "COOLING", "state": "RUNNING", "price": 30.69, "tp": 2.64959921829589, "note": "sustained 2.6x"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "RUNNING", "state": "CHURN", "price": 83.775, "tp": 4.6694437799236725, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BILI", "prev_state": "RUNNING", "state": "FADING", "price": 15.955, "tp": 2.027742074117976, "note": "pace 2.0x vs peak 6.4x \u00b7 -0.4% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "COOLING", "state": "RUNNING", "price": 25.99, "tp": 2.7582424120871596, "note": "sustained 2.8x"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AGNC", "prev_state": "RUNNING", "state": "CHURN", "price": 10.78, "tp": 4.893105786359554, "note": "4.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:11:02.609492-04:00", "demo": 0, "ticker": "AUB", "prev_state": "RUNNING", "state": "QUIET", "price": 40.665, "tp": 1.6149715575609185, "note": ""}
