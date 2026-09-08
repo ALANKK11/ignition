@@ -388,3 +388,12 @@
 {"ts": "2026-09-08T12:26:02.613524-04:00", "demo": 0, "ticker": "TLK", "prev_state": "NEW MONEY", "state": "FADING", "price": 15.04, "tp": 0.4970038912635577, "note": "pace 0.5x vs peak 2.2x \u00b7 -0.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-08T12:26:02.613524-04:00", "demo": 0, "ticker": "ALLO", "prev_state": "COOLING", "state": "RUNNING", "price": 1.89, "tp": 1.9952565010837804, "note": "sustained 2.0x"}
 {"ts": "2026-09-08T12:26:02.613524-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "FADING", "price": 26.68, "tp": 0.893095674641517, "note": "pace 0.9x vs peak 2.8x \u00b7 -4.8% off HOD \u00b7 chart still +18% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "RUNNING", "state": "COOLING", "price": 35.88, "tp": 1.2049527409575556, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "ASIC", "prev_state": "RUNNING", "state": "COOLING", "price": 27.01, "tp": 0.0, "note": "pace 0.0x off peak 59.9x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "CHAT", "prev_state": "FADING", "state": "RUNNING", "price": 91.36, "tp": 10.184726322109205, "note": "sustained 10.2x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 28.37, "tp": 7.18814508436269, "note": "pace 7.2x and accelerating (2.6x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 11.44, "tp": 1.8379147847577377, "note": "sustained 1.8x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "APPX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.73, "tp": 2.83388720007205, "note": "sustained 2.8x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "ATAI", "prev_state": "COOLING", "state": "RUNNING", "price": 7.375, "tp": 2.6356198590706557, "note": "sustained 2.6x"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "BILI", "prev_state": "FADING", "state": "CHURN", "price": 15.955, "tp": 2.3131713835349093, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-08T12:29:02.613124-04:00", "demo": 0, "ticker": "CBC", "prev_state": "CHURN", "state": "RUNNING", "price": 32.99, "tp": 3.1912002455442834, "note": "sustained 3.2x"}
