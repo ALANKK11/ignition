@@ -8,3 +8,14 @@
 {"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "CYPH", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.07, "tp": 9.201061885912281, "note": "pace 9.2x and accelerating (4.7x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 24.405, "tp": 5.1827790202195505, "note": "quiet open (1.1x) \u2192 now 5.2x \u00b7 taking +4.1% flow share"}
 {"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "IGR", "prev_state": "IGNITING", "state": "CHURN", "price": 13.11, "tp": 9.953267279374744, "note": "10.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "NRGV", "prev_state": "QUIET", "state": "RUNNING", "price": 4.145, "tp": 1.8603364852449247, "note": "sustained 1.9x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "ARBE", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.8859, "tp": 27.439390323465314, "note": "sustained 27.4x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "QUIET", "state": "RUNNING", "price": 11.05, "tp": 1.8421068738029465, "note": "sustained 1.8x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "CHURN", "state": "RUNNING", "price": 9.65, "tp": 3.159318660989503, "note": "sustained 3.2x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "SCYB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 25.85, "tp": 2.8787974603776174, "note": "quiet open (0.3x) \u2192 now 2.9x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "DOG", "prev_state": "RUNNING", "state": "CHURN", "price": 21.73, "tp": 4.783079962396755, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "IGR", "prev_state": "CHURN", "state": "RUNNING", "price": 13.11, "tp": 6.759054846401507, "note": "sustained 6.8x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "DYN", "prev_state": "COOLING", "state": "RUNNING", "price": 19.605, "tp": 2.0108489258880033, "note": "sustained 2.0x"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "TILE", "prev_state": "RUNNING", "state": "CHURN", "price": 34.85, "tp": 3.425740714742643, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "YMAT", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.815, "tp": 385.9066730867004, "note": "pace 385.9x and accelerating (1.9x vs prior window) \u00b7 -1.9% in window"}
+{"ts": "2026-09-09T11:04:02.191410-04:00", "demo": 0, "ticker": "GRDN", "prev_state": "QUIET", "state": "RUNNING", "price": 42.43, "tp": 1.9022353105495955, "note": "sustained 1.9x"}
