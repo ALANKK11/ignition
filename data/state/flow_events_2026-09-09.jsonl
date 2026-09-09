@@ -74,3 +74,4 @@
 {"ts": "2026-09-09T15:31:18.669282-04:00", "demo": 0, "ticker": "CRMT", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.47, "tp": 6.711103336139357, "note": "pace 6.7x and accelerating (1.7x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-09-09T15:31:18.669282-04:00", "demo": 0, "ticker": "IRD", "prev_state": "IGNITING", "state": "FADING", "price": 5.89, "tp": 10.205678408846413, "note": "pace 10.2x vs peak 29.4x \u00b7 -16.5% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-09T15:31:18.669282-04:00", "demo": 0, "ticker": "NXRT", "prev_state": "QUIET", "state": "RUNNING", "price": 22.77, "tp": 2.089093036499767, "note": "sustained 2.1x"}
+{"ts": "2026-09-09T15:33:33.654452-04:00", "demo": 0, "ticker": "CAE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CAE included on TIME's list of the World's Best Companies 2026"}
