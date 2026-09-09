@@ -1,0 +1,10 @@
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "RUNNING", "state": "CHURN", "price": 9.67, "tp": 3.0390859805982453, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "IIIN", "prev_state": "QUIET", "state": "RUNNING", "price": 30.8, "tp": 1.9910228494070397, "note": "sustained 2.0x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "PHVS", "prev_state": "IGNITING", "state": "RUNNING", "price": 37.54, "tp": 3.923797769300204, "note": "sustained 3.9x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.55, "tp": 4.602450224943307, "note": "sustained 4.6x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "DYN", "prev_state": "RUNNING", "state": "COOLING", "price": 19.77, "tp": 1.197600451472571, "note": "pace 1.2x off peak 2.2x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "SABR", "prev_state": "RUNNING", "state": "COOLING", "price": 2.255, "tp": 0.9654797527993666, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "UROY", "prev_state": "QUIET", "state": "RUNNING", "price": 4.875, "tp": 2.056667569654034, "note": "sustained 2.1x"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "CYPH", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.07, "tp": 9.201061885912281, "note": "pace 9.2x and accelerating (4.7x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 24.405, "tp": 5.1827790202195505, "note": "quiet open (1.1x) \u2192 now 5.2x \u00b7 taking +4.1% flow share"}
+{"ts": "2026-09-09T11:01:02.190739-04:00", "demo": 0, "ticker": "IGR", "prev_state": "IGNITING", "state": "CHURN", "price": 13.11, "tp": 9.953267279374744, "note": "10.0x participation, no progress at highs \u2014 absorption"}
