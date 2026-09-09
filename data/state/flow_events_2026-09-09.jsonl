@@ -75,3 +75,10 @@
 {"ts": "2026-09-09T15:31:18.669282-04:00", "demo": 0, "ticker": "IRD", "prev_state": "IGNITING", "state": "FADING", "price": 5.89, "tp": 10.205678408846413, "note": "pace 10.2x vs peak 29.4x \u00b7 -16.5% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-09T15:31:18.669282-04:00", "demo": 0, "ticker": "NXRT", "prev_state": "QUIET", "state": "RUNNING", "price": 22.77, "tp": 2.089093036499767, "note": "sustained 2.1x"}
 {"ts": "2026-09-09T15:33:33.654452-04:00", "demo": 0, "ticker": "CAE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CAE included on TIME's list of the World's Best Companies 2026"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "SSL", "prev_state": "QUIET", "state": "RUNNING", "price": 14.555, "tp": 1.8158436799880437, "note": "sustained 1.8x"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "CRMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.485, "tp": 6.4633186656067965, "note": "sustained 6.5x"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "IRT", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.24, "tp": 7.0188798167428885, "note": "pace 7.0x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "IRS", "prev_state": "IGNITING", "state": "FADING", "price": 15.505, "tp": 1.751850221827832, "note": "pace 1.8x vs peak 17.9x \u00b7 -2.1% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "QUIET", "state": "RUNNING", "price": 31.14, "tp": 5.820442576045064, "note": "sustained 5.8x"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "CSR", "prev_state": "IGNITING", "state": "RUNNING", "price": 57.49, "tp": 22.496465814972712, "note": "sustained 22.5x"}
+{"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "CASY", "prev_state": "CHURN", "state": "RUNNING", "price": 627.51, "tp": 3.932252378111994, "note": "sustained 3.9x"}
