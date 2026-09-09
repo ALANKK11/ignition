@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-09T16:13:18-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-09-09T16:14:03-04:00", "session": "post", "rows": [{"headline": "Hagerty Announces Secondary Offering of its Class A Common Stock", "pr_ts": "16:11", "catalyst": true, "flags": ["\u26a0OFFERING"], "ticker": "HGTY", "move": -0.0101, "last": 13.25, "dollars": 174038.75, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": 0, "path": 0.025, "first_seen": "16:14", "new": true}]}
