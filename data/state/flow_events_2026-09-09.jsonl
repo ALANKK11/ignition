@@ -120,3 +120,8 @@
 {"ts": "2026-09-09T15:46:18.671332-04:00", "demo": 0, "ticker": "HDEF", "prev_state": "QUIET", "state": "RUNNING", "price": 33.545, "tp": 6.69051755399571, "note": "sustained 6.7x"}
 {"ts": "2026-09-09T15:46:18.671332-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.75, "tp": 12.702110196804234, "note": "pace 12.7x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-09-09T15:46:18.671332-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "QUIET", "state": "RUNNING", "price": 14.855, "tp": 2.6464872266787554, "note": "sustained 2.6x"}
+{"ts": "2026-09-09T15:49:18.672543-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "RUNNING", "state": "COOLING", "price": 31.14, "tp": 0.5438768788457661, "note": "pace 0.5x off peak 6.8x"}
+{"ts": "2026-09-09T15:49:18.672543-04:00", "demo": 0, "ticker": "FJET", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.015, "tp": 13.868688607989846, "note": "sustained 13.9x"}
+{"ts": "2026-09-09T15:49:18.672543-04:00", "demo": 0, "ticker": "FRT", "prev_state": "RUNNING", "state": "CHURN", "price": 115.2, "tp": 4.811971919460208, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T15:49:18.672543-04:00", "demo": 0, "ticker": "AMBQ", "prev_state": "CHURN", "state": "RUNNING", "price": 64.955, "tp": 7.756375826092471, "note": "sustained 7.8x"}
+{"ts": "2026-09-09T15:49:18.672543-04:00", "demo": 0, "ticker": "EWP", "prev_state": "CHURN", "state": "RUNNING", "price": 61.61, "tp": 1.9832647855164083, "note": "sustained 2.0x"}
