@@ -82,3 +82,15 @@
 {"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "BRIE", "prev_state": "QUIET", "state": "RUNNING", "price": 31.14, "tp": 5.820442576045064, "note": "sustained 5.8x"}
 {"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "CSR", "prev_state": "IGNITING", "state": "RUNNING", "price": 57.49, "tp": 22.496465814972712, "note": "sustained 22.5x"}
 {"ts": "2026-09-09T15:34:18.669013-04:00", "demo": 0, "ticker": "CASY", "prev_state": "CHURN", "state": "RUNNING", "price": 627.51, "tp": 3.932252378111994, "note": "sustained 3.9x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "CPLB", "prev_state": "CHURN", "state": "COOLING", "price": 20.525, "tp": 0.0, "note": "pace 0.0x off peak 52.0x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "ODD", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.88, "tp": 67.26652423086385, "note": "pace 67.3x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "BLDP", "prev_state": "COOLING", "state": "RUNNING", "price": 2.365, "tp": 2.003030801268588, "note": "sustained 2.0x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "IPKW", "prev_state": "CHURN", "state": "COOLING", "price": 60.855, "tp": 1.0718264974690315, "note": "pace 1.1x off peak 2.5x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "SSL", "prev_state": "RUNNING", "state": "QUIET", "price": 14.56, "tp": 1.7143366384798446, "note": ""}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.755, "tp": 3.273727531006311, "note": "pace 3.3x and accelerating (1.8x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "EAGL", "prev_state": "CHURN", "state": "RUNNING", "price": 35.04, "tp": 39.816993217739366, "note": "sustained 39.8x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "LEAVING", "state": "FADING", "price": 2.37, "tp": 20.848613654463282, "note": "pace 20.8x vs peak 591.4x \u00b7 -32.1% off HOD \u00b7 chart still +86% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "EEMS", "prev_state": "RUNNING", "state": "CHURN", "price": 77.36, "tp": 465.95053970258004, "note": "466.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "IGR", "prev_state": "RUNNING", "state": "FADING", "price": 12.965, "tp": 3.5787317608969875, "note": "pace 3.6x vs peak 16.4x \u00b7 -2.5% off HOD \u00b7 chart still +189% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "IBHF", "prev_state": "CHURN", "state": "COOLING", "price": 22.485, "tp": 1.6486599362090228, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "CIM", "prev_state": "QUIET", "state": "RUNNING", "price": 11.535, "tp": 2.341737700264827, "note": "sustained 2.3x"}
