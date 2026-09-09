@@ -94,3 +94,7 @@
 {"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "IGR", "prev_state": "RUNNING", "state": "FADING", "price": 12.965, "tp": 3.5787317608969875, "note": "pace 3.6x vs peak 16.4x \u00b7 -2.5% off HOD \u00b7 chart still +189% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "IBHF", "prev_state": "CHURN", "state": "COOLING", "price": 22.485, "tp": 1.6486599362090228, "note": "pace 1.6x off peak 3.9x"}
 {"ts": "2026-09-09T15:37:18.669515-04:00", "demo": 0, "ticker": "CIM", "prev_state": "QUIET", "state": "RUNNING", "price": 11.535, "tp": 2.341737700264827, "note": "sustained 2.3x"}
+{"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "EEMS", "prev_state": "CHURN", "state": "RUNNING", "price": 77.43, "tp": 458.1939332656584, "note": "sustained 458.2x"}
+{"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "ODD", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.79, "tp": 78.61107020441175, "note": "sustained 78.6x"}
+{"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "AGRZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.2644, "tp": 8.56274741162486, "note": "pace 8.6x and accelerating (3.0x vs prior window) \u00b7 +5.0% in window"}
+{"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.65, "tp": 2.916030544642957, "note": "sustained 2.9x"}
