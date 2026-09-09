@@ -156,3 +156,15 @@
 {"ts": "2026-09-09T15:55:18.673767-04:00", "demo": 0, "ticker": "CIM", "prev_state": "RUNNING", "state": "COOLING", "price": 11.535, "tp": 0.840126685555677, "note": "pace 0.8x off peak 3.9x"}
 {"ts": "2026-09-09T15:55:18.673767-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.82, "tp": 3.468473070181401, "note": "sustained 3.5x"}
 {"ts": "2026-09-09T15:55:18.673767-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.715, "tp": 10.569873080359658, "note": "sustained 10.6x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "ARBE", "prev_state": "FADING", "state": "LEAVING", "price": 0.8073, "tp": 0.9269472558399615, "note": "pace 0.9x off peak 71.9x \u00b7 VWAP lost (was +3.1% above)"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "EWP", "prev_state": "RUNNING", "state": "COOLING", "price": 61.605, "tp": 1.448949135113131, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "DEO", "prev_state": "CHURN", "state": "RUNNING", "price": 86.08, "tp": 2.7005716107041375, "note": "sustained 2.7x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "BGIG", "prev_state": "RUNNING", "state": "COOLING", "price": 36.24, "tp": 1.3577815739256536, "note": "pace 1.4x off peak 2.4x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "CGNT", "prev_state": "RUNNING", "state": "COOLING", "price": 8.13, "tp": 1.6033312634907726, "note": "pace 1.6x off peak 2.5x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.875, "tp": 5.935702059423209, "note": "sustained 5.9x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "CSR", "prev_state": "CHURN", "state": "RUNNING", "price": 57.465, "tp": 15.344933049925393, "note": "sustained 15.3x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "AAPD", "prev_state": "RUNNING", "state": "QUIET", "price": 11.05, "tp": 1.7033459467001684, "note": ""}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "ASO", "prev_state": "IGNITING", "state": "RUNNING", "price": 51.04, "tp": 4.52678598937856, "note": "sustained 4.5x"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "BBAX", "prev_state": "QUIET", "state": "CHURN", "price": 64.48, "tp": 2.2342660784633375, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.78, "tp": 9.22557503734953, "note": "pace 9.2x and accelerating (3.0x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "SSL", "prev_state": "COOLING", "state": "QUIET", "price": 14.52, "tp": 1.5793688621449486, "note": ""}
