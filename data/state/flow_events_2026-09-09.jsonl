@@ -98,3 +98,12 @@
 {"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "ODD", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.79, "tp": 78.61107020441175, "note": "sustained 78.6x"}
 {"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "AGRZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.2644, "tp": 8.56274741162486, "note": "pace 8.6x and accelerating (3.0x vs prior window) \u00b7 +5.0% in window"}
 {"ts": "2026-09-09T15:40:18.670141-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.65, "tp": 2.916030544642957, "note": "sustained 2.9x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "BLDP", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.365, "tp": 3.0604822802861205, "note": "pace 3.1x and accelerating (2.3x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "SSL", "prev_state": "QUIET", "state": "COOLING", "price": 14.54, "tp": 1.334433927755638, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "EVER", "prev_state": "RUNNING", "state": "COOLING", "price": 23.28, "tp": 1.7623568831720509, "note": "pace 1.8x off peak 2.8x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "CSR", "prev_state": "RUNNING", "state": "FADING", "price": 57.27, "tp": 7.766642656608225, "note": "pace 7.8x vs peak 33.3x \u00b7 -2.1% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "ENZL", "prev_state": "RUNNING", "state": "COOLING", "price": 46.53, "tp": 0.0, "note": "pace 0.0x off peak 4.4x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "TBBK", "prev_state": "IGNITING", "state": "RUNNING", "price": 50.5, "tp": 18.028168499604146, "note": "sustained 18.0x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "FTXN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 41.3, "tp": 1.8889868536910013, "note": "sustained 1.9x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "RUNNING", "state": "COOLING", "price": 12.23, "tp": 0.0, "note": "pace 0.0x off peak 3.3x"}
+{"ts": "2026-09-09T15:43:18.670635-04:00", "demo": 0, "ticker": "IRT", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.195, "tp": 6.345602714421519, "note": "sustained 6.3x"}
