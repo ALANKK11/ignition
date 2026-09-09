@@ -39,3 +39,9 @@
 {"ts": "2026-09-09T11:10:02.192881-04:00", "demo": 0, "ticker": "PHVS", "prev_state": "RUNNING", "state": "COOLING", "price": 37.46, "tp": 0.8835341242578101, "note": "pace 0.9x off peak 5.7x"}
 {"ts": "2026-09-09T11:10:02.192881-04:00", "demo": 0, "ticker": "OLB", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.3774, "tp": 107.36826402017608, "note": "sustained 107.4x"}
 {"ts": "2026-09-09T11:10:02.192881-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "QUIET", "state": "RUNNING", "price": 11.04, "tp": 1.8637807489058584, "note": "sustained 1.9x"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "BEAM", "prev_state": "COOLING", "state": "RUNNING", "price": 25.525, "tp": 2.680557367866487, "note": "sustained 2.7x"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "BSCW", "prev_state": "QUIET", "state": "NEW MONEY", "price": 20.075, "tp": 16.49780984295568, "note": "quiet open (0.6x) \u2192 now 16.5x \u00b7 taking +0.9% flow share"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.72, "tp": 7.408492899993995, "note": "pace 7.4x and accelerating (2.4x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "TH", "prev_state": "CHURN", "state": "IGNITING", "price": 19.16, "tp": 7.714573435830157, "note": "pace 7.7x and accelerating (1.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "DYN", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.535, "tp": 3.491087071626038, "note": "pace 3.5x and accelerating (1.8x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-09-09T11:13:02.193727-04:00", "demo": 0, "ticker": "CASY", "prev_state": "CHURN", "state": "RUNNING", "price": 618.82, "tp": 6.460235355674727, "note": "sustained 6.5x"}
