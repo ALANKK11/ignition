@@ -168,3 +168,7 @@
 {"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "BBAX", "prev_state": "QUIET", "state": "CHURN", "price": 64.48, "tp": 2.2342660784633375, "note": "2.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.78, "tp": 9.22557503734953, "note": "pace 9.2x and accelerating (3.0x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-09-09T15:58:18.674803-04:00", "demo": 0, "ticker": "SSL", "prev_state": "COOLING", "state": "QUIET", "price": 14.52, "tp": 1.5793688621449486, "note": ""}
+{"ts": "2026-09-09T16:11:03.662014-04:00", "demo": 0, "ticker": "ICFI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ICF Named OpenAI Select Partner"}
+{"ts": "2026-09-09T16:11:03.662014-04:00", "demo": 0, "ticker": "RSSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Research Solutions Reports Fourth Quarter and Fiscal Year 2026 Results"}
+{"ts": "2026-09-09T16:11:03.662014-04:00", "demo": 0, "ticker": "AMGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AMGEN TO PRESENT AT THE MORGAN STANLEY 24TH ANNUAL GLOBAL HEALTHCARE CONFERENCE"}
+{"ts": "2026-09-09T16:11:03.662014-04:00", "demo": 0, "ticker": "DGX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Apple Health app Users to be Able to Order Labs from Quest Diagnostics"}
