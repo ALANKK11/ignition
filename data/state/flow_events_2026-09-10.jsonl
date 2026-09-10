@@ -51,3 +51,13 @@
 {"ts": "2026-09-10T11:02:31.948497-04:00", "demo": 0, "ticker": "BBOT", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.755, "tp": 11.791363848246595, "note": "pace 11.8x and accelerating (3.3x vs prior window) \u00b7 +1.9% in window"}
 {"ts": "2026-09-10T11:02:31.948497-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "CHURN", "state": "RUNNING", "price": 21.93, "tp": 13.057614184758462, "note": "sustained 13.1x"}
 {"ts": "2026-09-10T11:02:31.948497-04:00", "demo": 0, "ticker": "SANA", "prev_state": "QUIET", "state": "COOLING", "price": 3.135, "tp": 1.5474274403251922, "note": "pace 1.5x off peak 2.3x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "COOLING", "state": "RUNNING", "price": 3.135, "tp": 1.8408269525010335, "note": "sustained 1.8x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.81, "tp": 2.2543291277430493, "note": "sustained 2.3x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "BAR", "prev_state": "CHURN", "state": "COOLING", "price": 42.86, "tp": 1.5700998369503918, "note": "pace 1.6x off peak 3.4x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "COOLING", "state": "RUNNING", "price": 12.975, "tp": 1.8546956928197773, "note": "sustained 1.9x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "GERN", "prev_state": "CHURN", "state": "RUNNING", "price": 1.375, "tp": 2.282262721073404, "note": "sustained 2.3x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "IRD", "prev_state": "COOLING", "state": "RUNNING", "price": 5.76, "tp": 2.366100081497264, "note": "sustained 2.4x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "RUNNING", "state": "COOLING", "price": 11.99, "tp": 1.3986194693858272, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "CAL", "prev_state": "QUIET", "state": "IGNITING", "price": 11.815, "tp": 12.72495658238829, "note": "pace 12.7x and accelerating (10.0x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "INGM", "prev_state": "RUNNING", "state": "QUIET", "price": 26.665, "tp": 1.7906906159129827, "note": ""}
+{"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "EWA", "prev_state": "RUNNING", "state": "CHURN", "price": 29.14, "tp": 3.875125033833536, "note": "3.9x participation, no progress at highs \u2014 absorption"}
