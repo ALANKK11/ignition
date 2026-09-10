@@ -4,3 +4,13 @@
 {"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "QUIET", "state": "IGNITING", "price": 12.675, "tp": 4.024181460139649, "note": "pace 4.0x and accelerating (9.6x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "SLXN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.451, "tp": 203.3271902590667, "note": "sustained 203.3x"}
 {"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "CHURN", "state": "FADING", "price": 26.3, "tp": 8.116549677610001, "note": "pace 8.1x vs peak 43.3x \u00b7 +0.0% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "GFR", "prev_state": "RUNNING", "state": "COOLING", "price": 6.38, "tp": 1.4878347909118514, "note": "pace 1.5x off peak 2.7x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "QUIET", "state": "RUNNING", "price": 23.12, "tp": 2.7894093050007718, "note": "sustained 2.8x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "BAR", "prev_state": "COOLING", "state": "CHURN", "price": 42.88, "tp": 2.729891120468991, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "CNM", "prev_state": "CHURN", "state": "RUNNING", "price": 41.685, "tp": 3.4316176024550704, "note": "sustained 3.4x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "FADING", "state": "RUNNING", "price": 26.57, "tp": 26.78535751942983, "note": "sustained 26.8x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.22, "tp": 2.4920540988206845, "note": "sustained 2.5x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "IPDN", "prev_state": "RUNNING", "state": "FADING", "price": 0.1733, "tp": 123.55525494108647, "note": "pace 123.6x vs peak 373.4x \u00b7 -21.0% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "IRD", "prev_state": "RUNNING", "state": "COOLING", "price": 5.775, "tp": 1.752176641077929, "note": "pace 1.8x off peak 3.7x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.695, "tp": 3.5472084240482546, "note": "sustained 3.5x"}
+{"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "GERN", "prev_state": "IGNITING", "state": "CHURN", "price": 1.385, "tp": 3.5869037681972173, "note": "3.6x participation, no progress at highs \u2014 absorption"}
