@@ -259,3 +259,4 @@
 {"ts": "2026-09-10T11:59:31.959745-04:00", "demo": 0, "ticker": "DBI", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.57, "tp": 3.029625893942818, "note": "sustained 3.0x"}
 {"ts": "2026-09-10T11:59:31.959745-04:00", "demo": 0, "ticker": "LTC", "prev_state": "NEW MONEY", "state": "COOLING", "price": 42.42, "tp": 0.517067861921595, "note": "pace 0.5x off peak 2.6x"}
 {"ts": "2026-09-10T11:59:31.959745-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "RUNNING", "state": "FADING", "price": 3.16, "tp": 1.4482467956200806, "note": "pace 1.4x vs peak 4.3x \u00b7 -2.2% off HOD \u00b7 chart still +21% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T12:01:01.945789-04:00", "demo": 0, "ticker": "REGN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "REGN 4-DAY DEADLINE ALERT: Regeneron Pharmaceuticals, Inc. Investors Alerted to September 14, 2026 Lead Plaintiff Deadli"}
