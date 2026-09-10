@@ -61,3 +61,4 @@
 {"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "CAL", "prev_state": "QUIET", "state": "IGNITING", "price": 11.815, "tp": 12.72495658238829, "note": "pace 12.7x and accelerating (10.0x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "INGM", "prev_state": "RUNNING", "state": "QUIET", "price": 26.665, "tp": 1.7906906159129827, "note": ""}
 {"ts": "2026-09-10T11:05:31.948870-04:00", "demo": 0, "ticker": "EWA", "prev_state": "RUNNING", "state": "CHURN", "price": 29.14, "tp": 3.875125033833536, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:07:01.935135-04:00", "demo": 0, "ticker": "CHKP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Check Point Named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Hybrid Mesh Firewall"}
