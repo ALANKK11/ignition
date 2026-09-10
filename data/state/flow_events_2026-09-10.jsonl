@@ -198,3 +198,11 @@
 {"ts": "2026-09-10T11:41:31.956271-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "RUNNING", "state": "IGNITING", "price": 42.555, "tp": 2.982141888888354, "note": "pace 3.0x and accelerating (2.1x vs prior window) \u00b7 -1.1% in window"}
 {"ts": "2026-09-10T11:41:31.956271-04:00", "demo": 0, "ticker": "CNM", "prev_state": "CHURN", "state": "RUNNING", "price": 41.5, "tp": 2.529032111673229, "note": "sustained 2.5x"}
 {"ts": "2026-09-10T11:41:31.956271-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "COOLING", "state": "RUNNING", "price": 20.59, "tp": 4.038438903074051, "note": "sustained 4.0x"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "RUNNING", "state": "CHURN", "price": 118.14, "tp": 2.637549107133721, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "SANA", "prev_state": "COOLING", "state": "RUNNING", "price": 3.185, "tp": 1.9880972181944894, "note": "sustained 2.0x"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 42.94, "tp": 0.7148516480684268, "note": "pace 0.7x off peak 3.4x"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "RUNNING", "state": "COOLING", "price": 13.06, "tp": 1.679391793400682, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "LTC", "prev_state": "QUIET", "state": "NEW MONEY", "price": 42.53, "tp": 2.6290909116598984, "note": "quiet open (0.6x) \u2192 now 2.6x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "CIM", "prev_state": "CHURN", "state": "RUNNING", "price": 11.275, "tp": 98.30080821019472, "note": "sustained 98.3x"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "DBGI", "prev_state": "LEAVING", "state": "FADING", "price": 5.9, "tp": 49.00251653799331, "note": "pace 49.0x vs peak 151.3x \u00b7 -12.5% off HOD \u00b7 chart still +61% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T11:44:31.956859-04:00", "demo": 0, "ticker": "AEON", "prev_state": "RUNNING", "state": "FADING", "price": 0.325, "tp": 28.55443324450968, "note": "pace 28.6x vs peak 130.3x \u00b7 -2.5% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
