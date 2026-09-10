@@ -271,3 +271,11 @@
 {"ts": "2026-09-10T12:02:31.960468-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.225, "tp": 6.306453007180063, "note": "sustained 6.3x"}
 {"ts": "2026-09-10T12:02:31.960468-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "IGNITING", "price": 41.4, "tp": 4.523762029201242, "note": "pace 4.5x and accelerating (2.0x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-09-10T12:02:31.960468-04:00", "demo": 0, "ticker": "COO", "prev_state": "CHURN", "state": "RUNNING", "price": 54.76, "tp": 6.062564510289317, "note": "sustained 6.1x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.19, "tp": 30.49067318481876, "note": "sustained 30.5x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "COO", "prev_state": "RUNNING", "state": "CHURN", "price": 54.67, "tp": 5.62110592505071, "note": "5.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 42.96, "tp": 1.2649587067290107, "note": "pace 1.3x off peak 3.4x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "GFR", "prev_state": "FADING", "state": "COOLING", "price": 6.39, "tp": 0.25275989476972066, "note": "pace 0.3x off peak 2.7x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "EPI", "prev_state": "RUNNING", "state": "COOLING", "price": 42.02, "tp": 1.1494388485864904, "note": "pace 1.1x off peak 5.4x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "CNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.41, "tp": 3.105329291666951, "note": "sustained 3.1x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "COOLING", "state": "RUNNING", "price": 12.93, "tp": 1.8618615176232676, "note": "sustained 1.9x"}
+{"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "QUIET", "state": "COOLING", "price": 8.505, "tp": 1.4894822161538104, "note": "pace 1.5x off peak 2.1x"}
