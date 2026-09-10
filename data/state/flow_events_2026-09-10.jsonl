@@ -14,3 +14,9 @@
 {"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "IRD", "prev_state": "RUNNING", "state": "COOLING", "price": 5.775, "tp": 1.752176641077929, "note": "pace 1.8x off peak 3.7x"}
 {"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.695, "tp": 3.5472084240482546, "note": "sustained 3.5x"}
 {"ts": "2026-09-10T10:50:31.945227-04:00", "demo": 0, "ticker": "GERN", "prev_state": "IGNITING", "state": "CHURN", "price": 1.385, "tp": 3.5869037681972173, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "ODD", "prev_state": "QUIET", "state": "RUNNING", "price": 16.02, "tp": 1.9003569453239637, "note": "sustained 1.9x"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.68, "tp": 3.031109384178473, "note": "pace 3.0x and accelerating (10.5x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "GERN", "prev_state": "CHURN", "state": "RUNNING", "price": 1.385, "tp": 3.5230539436543373, "note": "sustained 3.5x"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "SLXN", "prev_state": "RUNNING", "state": "FADING", "price": 0.45, "tp": 56.98250488097703, "note": "pace 57.0x vs peak 233.0x \u00b7 -7.1% off HOD \u00b7 chart still +32% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "SANA", "prev_state": "QUIET", "state": "RUNNING", "price": 3.115, "tp": 1.8925477676268159, "note": "sustained 1.9x"}
+{"ts": "2026-09-10T10:53:31.946109-04:00", "demo": 0, "ticker": "TNON", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.43, "tp": 36.78043981167304, "note": "pace 36.8x and accelerating (6.0x vs prior window) \u00b7 +5.2% in window"}
