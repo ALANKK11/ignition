@@ -92,7 +92,7 @@ autocomplete="off" autocorrect="off" autocapitalize="characters"
 spellcheck="false" maxlength="6" enterkeyhint="search"></div>
 <div id="stale" class="stale" hidden>This page hasn&rsquo;t updated in a while —
 market closed, or check the Actions tab of your repo.</div>
-<h2 style="color:#ff5a1f;font-size:13px">MY NAMES · <span id="wts">15:55 ET</span></h2><div class="wed"><div class="addrow"><input id="wq" placeholder="add ticker" maxlength="6" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done"><button id="wqb">＋</button><button id="wkeys" style="flex:.7">⚙ keys</button></div><div class="note" id="wst"></div><div class="note" id="lvst"></div><div id="feedwarn" class="stale" style="display:none;font-size:12.5px"></div><div id="wsetup" class="card" hidden><b>Keys — enter once, only on this phone</b><div class="note">Saved in this browser alone (localStorage) and used across the hub and TAPE. Never committed, never in the repo, never sent anywhere but the data vendor and GitHub. These are the same values as your repo secrets — the page needs its own copy because a public web page can&rsquo;t read repo secrets (anyone could). Enter once; it sticks.</div><div class="klab">Alpaca — the live per-second tape</div><div class="addrow"><input id="akey" placeholder="Alpaca API key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><input id="asec" placeholder="Alpaca secret" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">Data feed — accuracy</div><div class="addrow"><button id="feedsel" style="flex:1"></button></div><div class="note" style="margin-top:2px">Auto uses the fullest tape your Alpaca plan allows — <b>SIP</b> is every US exchange (most accurate). A free plan falls back to <b>IEX</b> (~3% of volume) automatically; upgrade Alpaca and it switches itself.</div><div class="klab">Finnhub — free second tape pipe (optional)</div><div class="note">Same value as your FINNHUB_KEY repo secret. Adds finnhub&rsquo;s own live trade stream next to Alpaca — per name the denser pipe wins; if it turns out delayed the page drops it automatically.</div><div class="addrow"><input id="fhkey" placeholder="Finnhub key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">GitHub token — syncs your list to the engine</div><div class="note">Fine-grained token, repo <b>only ALANKK11/ignition</b>, permission <b>Contents → Read and write</b>. Leave blank to keep the one already saved.</div><div class="addrow"><input id="wtok" placeholder="github_pat_…" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><button class="go" id="ksave" style="flex:1">SAVE KEYS</button></div></div></div><div id="wroot"><div class="card sym" id="wc_INLF" style="border-left:3px solid #5b636c">
+<h2 style="color:#ff5a1f;font-size:13px">MY NAMES · <span id="wts">15:56 ET</span></h2><div class="wed"><div class="addrow"><input id="wq" placeholder="add ticker" maxlength="6" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done"><button id="wqb">＋</button><button id="wkeys" style="flex:.7">⚙ keys</button></div><div class="note" id="wst"></div><div class="note" id="lvst"></div><div id="feedwarn" class="stale" style="display:none;font-size:12.5px"></div><div id="wsetup" class="card" hidden><b>Keys — enter once, only on this phone</b><div class="note">Saved in this browser alone (localStorage) and used across the hub and TAPE. Never committed, never in the repo, never sent anywhere but the data vendor and GitHub. These are the same values as your repo secrets — the page needs its own copy because a public web page can&rsquo;t read repo secrets (anyone could). Enter once; it sticks.</div><div class="klab">Alpaca — the live per-second tape</div><div class="addrow"><input id="akey" placeholder="Alpaca API key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><input id="asec" placeholder="Alpaca secret" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">Data feed — accuracy</div><div class="addrow"><button id="feedsel" style="flex:1"></button></div><div class="note" style="margin-top:2px">Auto uses the fullest tape your Alpaca plan allows — <b>SIP</b> is every US exchange (most accurate). A free plan falls back to <b>IEX</b> (~3% of volume) automatically; upgrade Alpaca and it switches itself.</div><div class="klab">Finnhub — free second tape pipe (optional)</div><div class="note">Same value as your FINNHUB_KEY repo secret. Adds finnhub&rsquo;s own live trade stream next to Alpaca — per name the denser pipe wins; if it turns out delayed the page drops it automatically.</div><div class="addrow"><input id="fhkey" placeholder="Finnhub key" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="klab">GitHub token — syncs your list to the engine</div><div class="note">Fine-grained token, repo <b>only ALANKK11/ignition</b>, permission <b>Contents → Read and write</b>. Leave blank to keep the one already saved.</div><div class="addrow"><input id="wtok" placeholder="github_pat_…" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="addrow"><button class="go" id="ksave" style="flex:1">SAVE KEYS</button></div></div></div><div id="wroot"><div class="card sym" id="wc_INLF" style="border-left:3px solid #5b636c">
 <div class="row"><span class="tk" style="font-size:18px">INLF</span>
 <span class="vhead" id="lvh_INLF" style="font-weight:800;font-size:15px;letter-spacing:.03em;color:#5b636c">NO TAPE</span>
 <span class="px" style="margin-left:auto">3.580</span>
@@ -110,30 +110,30 @@ market closed, or check the Actions tab of your repo.</div>
 <canvas class="spk" id="sp_ADVB" width="600" height="76"></canvas>
 <div class="note" id="lv_ADVB" style="font-size:13px;color:#5b636c"></div>
 <div class="note" id="nw_ADVB" style="font-size:12.5px;color:#c9ced4;display:none"></div>
-<details class="mre"><summary>more</summary><div class="note" style="color:#5b636c;font-size:11px">engine research · not live</div><div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b><span style="color:#8b939c"> — ext +2% → 93% fade hist · above vwap · rot 0.2x</span></div><div class="note" style="color:#8b939c;font-style:italic">thin IEX tape: $4.4k today — second-scale reads unreliable</div><div class="note" style="font-size:12.5px"><span style="color:#5b636c">company record not pulled yet — lands with the intel pass (&le;2 min)</span></div><div class="note" style="font-size:12.5px">⚠ 1 reverse split in ~13mo</div></details></div></div><h2 style="color:#ff5a1f;font-size:13px">Discovery board · 15:55 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
+<details class="mre"><summary>more</summary><div class="note" style="color:#5b636c;font-size:11px">engine research · not live</div><div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b><span style="color:#8b939c"> — ext +2% → 93% fade hist · above vwap · rot 0.2x</span></div><div class="note" style="color:#8b939c;font-style:italic">thin IEX tape: $4.4k today — second-scale reads unreliable</div><div class="note" style="font-size:12.5px"><span style="color:#5b636c">company record not pulled yet — lands with the intel pass (&le;2 min)</span></div><div class="note" style="font-size:12.5px">⚠ 1 reverse split in ~13mo</div></details></div></div><h2 style="color:#ff5a1f;font-size:13px">Discovery board · 15:56 ET</h2><div class="note" style="margin:-4px 2px 8px">every US listing, ETFs out, volume-verified, ranked by the HEAT METER: intraday travel a human could actually trade (one-print gaps score ~0), swing count, and whether it&rsquo;s moving RIGHT NOW</div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">TNON</span>
-<span class="score" style="font-size:19px;color:#4ade80">+105%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+106%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">100</span>
-<span class="px">5.20</span></div>
+<span class="px">5.22</span></div>
 <div class="meta"><span>$1.8M</span><span>30.4x ADV</span><span>-12% off high</span><span>8 swings</span><span>385% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
 <span style="color:#8b939c"> — ext +40% → 57% fade hist · rot 111.5x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">DBGI</span>
-<span class="score" style="font-size:19px;color:#4ade80">+86%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+89%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">100</span>
-<span class="px">6.85</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">FADING</span></div>
+<span class="px">6.93</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">FADING</span></div>
 <div class="meta"><span>$576K</span><span>43.1x ADV</span><span>-8% off high</span><span>10 swings</span><span>338% traveled</span><span>since 10:59</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#4ade80">GO</b>
-<span style="color:#8b939c"> — ext +81% → 31% fade hist · above vwap · 1 halt today · rot 5.6x</span></div>
+<span style="color:#8b939c"> — ext +83% → 31% fade hist · above vwap · 1 halt today · rot 5.6x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">AHMA</span>
-<span class="score" style="font-size:19px;color:#4ade80">+44%</span>
+<span class="score" style="font-size:19px;color:#4ade80">+45%</span>
 <span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▰</span><span class="px" style="margin-left:4px">100</span>
-<span class="px">1.76</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">FADING</span></div>
-<div class="meta"><span>$244K</span><span>602.6x ADV</span><span>-19% off high</span><span>8 swings</span><span>304% traveled</span><span>since 10:44</span></div>
+<span class="px">1.77</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">FADING</span></div>
+<div class="meta"><span>$244K</span><span>602.6x ADV</span><span>-19% off high</span><span>8 swings</span><span>308% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +32% → 57% fade hist · BELOW vwap · 1 halt today · rot 9.3x</span></div>
+<span style="color:#8b939c"> — ext +33% → 57% fade hist · BELOW vwap · 1 halt today · rot 9.3x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">SLXN</span>
 <span class="score" style="font-size:19px;color:#4ade80">+25%</span>
@@ -144,12 +144,12 @@ market closed, or check the Actions tab of your repo.</div>
 <span style="color:#8b939c"> — ext +23% → 74% fade hist · rot 15.9x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">AEON</span>
-<span class="score" style="font-size:19px;color:#4ade80">+31%</span>
-<span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▱</span><span class="px" style="margin-left:4px">84</span>
-<span class="px">0.31</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#ef4444;border-color:#ef444455;background:#ef444414">LEAVING</span></div>
+<span class="score" style="font-size:19px;color:#4ade80">+28%</span>
+<span style="color:#f87171;letter-spacing:1px;font-size:13px">▰▰▰▰▱</span><span class="px" style="margin-left:4px">88</span>
+<span class="px">0.30</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#ef4444;border-color:#ef444455;background:#ef444414">LEAVING</span></div>
 <div class="meta"><span>$152K</span><span>31.0x ADV</span><span>-8% off high</span><span>9 swings</span><span>233% traveled</span><span>since 11:32</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +15% → 74% fade hist · BELOW vwap · rot 6.5x</span></div>
+<span style="color:#8b939c"> — ext +12% → 74% fade hist · BELOW vwap · rot 6.5x</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">RWT</span>
 <span class="score" style="font-size:19px;color:#f87171">-15%</span>
@@ -169,35 +169,35 @@ market closed, or check the Actions tab of your repo.</div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">SKYQ</span>
 <span class="score" style="font-size:19px;color:#4ade80">+21%</span>
-<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▰▱▱</span><span class="px" style="margin-left:4px">66</span>
-<span class="px">3.22</span></div>
+<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▰▱▱</span><span class="px" style="margin-left:4px">56</span>
+<span class="px">3.21</span></div>
 <div class="meta"><span>$537K</span><span>12.9x ADV</span><span>-17% off high</span><span>2 swings</span><span>194% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#facc15">WATCH</b>
 <span style="color:#8b939c"> — ext +26% → 57% fade hist · rot 2.7x</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">NAVN</span>
 <span class="score" style="font-size:19px;color:#f87171">-22%</span>
-<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▱▱▱</span><span class="px" style="margin-left:4px">46</span>
-<span class="px">20.30</span></div>
-<div class="meta"><span>$23.1M</span><span>9.7x ADV</span><span>-4% off high</span><span>58% traveled</span><span>since 10:44</span></div>
+<span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▰▱▱</span><span class="px" style="margin-left:4px">54</span>
+<span class="px">20.27</span></div>
+<div class="meta"><span>$23.1M</span><span>9.7x ADV</span><span>-4% off high</span><span>59% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
 <span style="color:#8b939c"> — ext -0% → 93% fade hist · rot 0.0x · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">BBOT</span>
-<span class="score" style="font-size:19px;color:#f87171">-18%</span>
+<span class="score" style="font-size:19px;color:#f87171">-17%</span>
 <span style="color:#facc15;letter-spacing:1px;font-size:13px">▰▰▱▱▱</span><span class="px" style="margin-left:4px">43</span>
-<span class="px">5.53</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">IGNITING</span></div>
+<span class="px">5.58</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">HOT NOW</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">IGNITING</span></div>
 <div class="meta"><span>$766K</span><span>6.9x ADV</span><span>-19% off high</span><span>80% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +0% → 93% fade hist · BELOW vwap · rot 0.1x · SSR on</span></div>
+<span style="color:#8b939c"> — ext +1% → 93% fade hist · BELOW vwap · rot 0.1x · SSR on</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">CMRC</span>
 <span class="score" style="font-size:19px;color:#4ade80">+18%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▰▱▱▱▱</span><span class="px" style="margin-left:4px">26</span>
-<span class="px">3.08</span><span class="chip" style="color:#ef4444;border-color:#ef444455;background:#ef444414">LEAVING</span></div>
+<span class="px">3.07</span><span class="chip" style="color:#ef4444;border-color:#ef444455;background:#ef444414">LEAVING</span></div>
 <div class="meta"><span>$320K</span><span>1.6x ADV</span><span>-5% off high</span><span>47% traveled</span><span>since 10:44</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +13% → 74% fade hist · BELOW vwap · rot 0.0x</span></div>
+<span style="color:#8b939c"> — ext +12% → 74% fade hist · BELOW vwap · rot 0.0x</span></div>
 </div><div class="card" style="border-left:3px solid #4ade80">
 <div class="row"><span class="tk" style="font-size:18px">PCLA</span>
 <span class="score" style="font-size:19px;color:#4ade80">+31%</span>
@@ -215,21 +215,21 @@ market closed, or check the Actions tab of your repo.</div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
 <span style="color:#8b939c"> — ext +15% → 74% fade hist</span></div>
 </div><div class="card" style="border-left:3px solid #f87171">
+<div class="row"><span class="tk" style="font-size:18px">FLWS</span>
+<span class="score" style="font-size:19px;color:#f87171">-13%</span>
+<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">10</span>
+<span class="px">3.04</span></div>
+<div class="meta"><span>$102K</span><span>3.6x ADV</span><span>-10% off high</span><span>19% traveled</span><span>since 14:03</span></div>
+<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
+<span style="color:#8b939c"> — ext +5% → 93% fade hist · rot 0.1x · SSR on</span></div>
+</div><div class="card" style="border-left:3px solid #f87171">
 <div class="row"><span class="tk" style="font-size:18px">AEO</span>
 <span class="score" style="font-size:19px;color:#f87171">-15%</span>
 <span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">8</span>
-<span class="px">14.38</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">RUNNING</span></div>
+<span class="px">14.43</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">RUNNING</span></div>
 <div class="meta"><span>$18.6M</span><span>3.2x ADV</span><span>-5% off high</span><span>27% traveled</span><span>since 10:47</span></div>
 <div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +3% → 93% fade hist · BELOW vwap · rot 0.1x · SSR on</span></div>
-</div><div class="card" style="border-left:3px solid #f87171">
-<div class="row"><span class="tk" style="font-size:18px">FLWS</span>
-<span class="score" style="font-size:19px;color:#f87171">-16%</span>
-<span style="color:#5b636c;letter-spacing:1px;font-size:13px">▱▱▱▱▱</span><span class="px" style="margin-left:4px">8</span>
-<span class="px">2.93</span></div>
-<div class="meta"><span>$102K</span><span>3.6x ADV</span><span>-10% off high</span><span>18% traveled</span><span>since 14:03</span></div>
-<div class="note" style="margin-top:4px"><b style="color:#fb923c">FADE RISK</b>
-<span style="color:#8b939c"> — ext +1% → 93% fade hist · rot 0.1x · SSR on</span></div>
+<span style="color:#8b939c"> — ext +4% → 93% fade hist · BELOW vwap · rot 0.1x · SSR on</span></div>
 </div><h2>HALT RADAR · every LULD pause is a ±10%-in-5-min move</h2><div class="card"><div class="row" style="margin:5px 0"><span class="tk">EHLD</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">15:50</span><span class="px">HALTED</span></div><div class="row" style="margin:5px 0"><span class="tk">HCAI</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">15:47</span><span class="px">HALTED</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">×7 EXHAUSTION?</span></div><div class="row" style="margin:5px 0"><span class="tk">HCAI</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">15:42</span><span class="px">resumes 15:47</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">×7 EXHAUSTION?</span></div><div class="row" style="margin:5px 0"><span class="tk">TRAD=</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">15:19</span><span class="px">resumes 15:24</span></div><div class="row" style="margin:5px 0"><span class="tk">MKDW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">14:25</span><span class="px">resumes 14:30</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">×4 EXHAUSTION?</span></div><div class="row" style="margin:5px 0"><span class="tk">YI</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">14:32</span><span class="px">resumes 14:37</span></div><div class="row" style="margin:5px 0"><span class="tk">MKDW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">14:50</span><span class="px">resumes 14:55</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">×4 EXHAUSTION?</span></div><div class="row" style="margin:5px 0"><span class="tk">MKDW</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">15:02</span><span class="px">resumes 15:12</span><span class="chip" style="color:#f87171;border-color:#f8717155;background:#f8717114">×4 EXHAUSTION?</span></div><div class="row" style="margin:5px 0"><span class="tk">WZRD</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">12:56</span><span class="px">resumes 13:01</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">×2</span></div><div class="row" style="margin:5px 0"><span class="tk">KYNB</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">13:23</span><span class="px">resumes 13:28</span></div><div class="row" style="margin:5px 0"><span class="tk">NOEMU</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">13:29</span><span class="px">resumes 13:34</span></div><div class="row" style="margin:5px 0"><span class="tk">PFAI</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">13:54</span><span class="px">resumes 13:59</span></div><div class="row" style="margin:5px 0"><span class="tk">NRAM</span><span class="chip" style="color:#9ca3af;border-color:#9ca3af55;background:#9ca3af14">M</span><span class="px">12:36</span><span class="px">resumes 12:41</span></div><div class="row" style="margin:5px 0"><span class="tk">SOCAU</span><span class="chip" style="color:#fb923c;border-color:#fb923c55;background:#fb923c14">LUDP</span><span class="px">12:36</span><span class="px">resumes 12:41</span><span class="chip" style="color:#facc15;border-color:#facc1555;background:#facc1514">×2</span></div></div><h2>Transitions today</h2><div class="card"><div class="ev">15:54 &nbsp;<b>TYRA</b> CHURN → <b style="color:#facc15">RUNNING</b> &nbsp;·&nbsp; sustained 6.1x</div><div class="ev">15:54 &nbsp;<b>CLOX</b> COOLING → <b style="color:#22d3ee">CHURN</b> &nbsp;·&nbsp; 2.7x participation, no progress at highs — absorption</div><div class="ev">15:54 &nbsp;<b>BILZ</b> NEW MONEY → <b style="color:#9ca3af">COOLING</b> &nbsp;·&nbsp; pace 0.0x off peak 53.5x</div><div class="ev">15:54 &nbsp;<b>CAL</b> COOLING → <b style="color:#ef4444">LEAVING</b> &nbsp;·&nbsp; pace 2.7x off peak 13.4x · VWAP lost (was +2.5% above)</div><div class="ev">15:54 &nbsp;<b>BKV</b> IGNITING → <b style="color:#facc15">RUNNING</b> &nbsp;·&nbsp; sustained 6.7x</div><div class="ev">15:54 &nbsp;<b>LTC</b> COOLING → <b style="color:#fb923c">FADING</b> &nbsp;·&nbsp; pace 0.8x vs peak 4.1x · -1.1% off HOD · chart still +0% — crowd buying a cooled tape</div><div class="ev">15:54 &nbsp;<b>INGM</b> RUNNING → <b style="color:#fb923c">FADING</b> &nbsp;·&nbsp; pace 2.2x vs peak 7.0x · -1.5% off HOD · chart still +0% — crowd buying a cooled tape</div><div class="ev">15:54 &nbsp;<b>AVAV</b> RUNNING → <b style="color:#ef4444">LEAVING</b> &nbsp;·&nbsp; pace 1.6x off peak 6.3x · VWAP lost (was +3.0% above)</div><div class="ev">15:54 &nbsp;<b>GERN</b> COOLING → <b style="color:#facc15">RUNNING</b> &nbsp;·&nbsp; sustained 2.5x</div><div class="ev">15:54 &nbsp;<b>CRVS</b> CHURN → <b style="color:#facc15">RUNNING</b> &nbsp;·&nbsp; sustained 3.8x</div><div class="ev">15:54 &nbsp;<b>ALX</b> NEW MONEY → <b style="color:#facc15">RUNNING</b> &nbsp;·&nbsp; sustained 2.1x</div><div class="ev">15:54 &nbsp;<b>BZH</b> RUNNING → <b style="color:#fb923c">FADING</b> &nbsp;·&nbsp; pace 3.3x vs peak 12.9x · +0.0% off HOD · chart still +0% — crowd buying a cooled tape</div></div><h2>Tonight&rsquo;s setups · forecast for 2026-09-10 · not today&rsquo;s movers</h2><div class="card">
 <div class="row"><span class="px">#1</span><span class="tk">EVMN</span>
 <span class="score" style="color:#facc15">52.2</span>
