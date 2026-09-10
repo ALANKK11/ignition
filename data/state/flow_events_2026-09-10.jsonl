@@ -279,3 +279,14 @@
 {"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "CNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.41, "tp": 3.105329291666951, "note": "sustained 3.1x"}
 {"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "COOLING", "state": "RUNNING", "price": 12.93, "tp": 1.8618615176232676, "note": "sustained 1.9x"}
 {"ts": "2026-09-10T12:05:31.961036-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "QUIET", "state": "COOLING", "price": 8.505, "tp": 1.4894822161538104, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "CIM", "prev_state": "CHURN", "state": "RUNNING", "price": 11.25, "tp": 14.73480460425987, "note": "sustained 14.7x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "RUNNING", "state": "FADING", "price": 26.19, "tp": 0.0, "note": "pace 0.0x vs peak 48.2x \u00b7 -1.4% off HOD \u00b7 chart still +23% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "COO", "prev_state": "CHURN", "state": "RUNNING", "price": 54.76, "tp": 5.848202650796388, "note": "sustained 5.8x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "EPI", "prev_state": "COOLING", "state": "RUNNING", "price": 42.01, "tp": 2.4103867565364068, "note": "sustained 2.4x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "IRD", "prev_state": "COOLING", "state": "RUNNING", "price": 5.86, "tp": 2.104973662027345, "note": "sustained 2.1x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "SANA", "prev_state": "COOLING", "state": "RUNNING", "price": 3.14, "tp": 2.059344985504931, "note": "sustained 2.1x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "RUNNING", "state": "COOLING", "price": 12.93, "tp": 1.7374581719477102, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "CHURN", "price": 41.43, "tp": 2.79957000903173, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "AEON", "prev_state": "FADING", "state": "LEAVING", "price": 0.3035, "tp": 44.39392976450865, "note": "pace 44.4x off peak 130.3x \u00b7 VWAP lost (was +6.1% above)"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "IGNITING", "state": "LEAVING", "price": 22.72, "tp": 2.67120979739117, "note": "pace 2.7x off peak 6.3x \u00b7 VWAP lost (was +3.0% above)"}
+{"ts": "2026-09-10T12:08:31.961697-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "RUNNING", "state": "COOLING", "price": 11.98, "tp": 0.9510849113875126, "note": "pace 1.0x off peak 3.4x"}
