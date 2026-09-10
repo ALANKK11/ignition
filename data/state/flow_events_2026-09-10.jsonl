@@ -74,3 +74,9 @@
 {"ts": "2026-09-10T11:08:31.949672-04:00", "demo": 0, "ticker": "INGM", "prev_state": "QUIET", "state": "COOLING", "price": 26.65, "tp": 1.0701902868674649, "note": "pace 1.1x off peak 2.4x"}
 {"ts": "2026-09-10T11:08:31.949672-04:00", "demo": 0, "ticker": "BKV", "prev_state": "CHURN", "state": "RUNNING", "price": 23.965, "tp": 3.5858807158179724, "note": "sustained 3.6x"}
 {"ts": "2026-09-10T11:08:31.949672-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "RUNNING", "state": "LEAVING", "price": 3.125, "tp": 1.4866974622736615, "note": "pace 1.5x off peak 3.3x \u00b7 VWAP lost (was +2.0% above)"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "BBOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.65, "tp": 7.454399176133754, "note": "sustained 7.5x"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "RUNNING", "state": "CHURN", "price": 21.93, "tp": 4.179123634836047, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "EWA", "prev_state": "CHURN", "state": "RUNNING", "price": 29.175, "tp": 6.082635237681363, "note": "sustained 6.1x"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "RUNNING", "state": "COOLING", "price": 12.95, "tp": 1.7108215448440034, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "BKV", "prev_state": "RUNNING", "state": "CHURN", "price": 23.96, "tp": 3.676836235523594, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:11:31.950143-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "LEAVING", "state": "RUNNING", "price": 3.09, "tp": 2.5051914956600156, "note": "sustained 2.5x"}
