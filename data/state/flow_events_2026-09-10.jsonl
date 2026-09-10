@@ -1,0 +1,6 @@
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "AHMA", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.58, "tp": 2618.058825252904, "note": "sustained 2618.1x"}
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "BAR", "prev_state": "CHURN", "state": "COOLING", "price": 42.985, "tp": 1.5304342429636124, "note": "pace 1.5x off peak 3.2x"}
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "CHURN", "price": 41.64, "tp": 3.3866275339720278, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "QUIET", "state": "IGNITING", "price": 12.675, "tp": 4.024181460139649, "note": "pace 4.0x and accelerating (9.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "SLXN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.451, "tp": 203.3271902590667, "note": "sustained 203.3x"}
+{"ts": "2026-09-10T10:47:31.945639-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "CHURN", "state": "FADING", "price": 26.3, "tp": 8.116549677610001, "note": "pace 8.1x vs peak 43.3x \u00b7 +0.0% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
