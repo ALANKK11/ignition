@@ -588,3 +588,16 @@
 {"ts": "2026-09-10T15:42:48.401959-04:00", "demo": 0, "ticker": "BKV", "prev_state": "CHURN", "state": "RUNNING", "price": 24.815, "tp": 5.711639148893024, "note": "sustained 5.7x"}
 {"ts": "2026-09-10T15:42:48.401959-04:00", "demo": 0, "ticker": "BHK", "prev_state": "RUNNING", "state": "CHURN", "price": 8.76, "tp": 2.8197511387842336, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-10T15:42:48.401959-04:00", "demo": 0, "ticker": "WDS", "prev_state": "RUNNING", "state": "CHURN", "price": 23.86, "tp": 2.3616387989088103, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "AVIV", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 81.855, "tp": 1.9676884861484711, "note": "sustained 2.0x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "AGM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 223.22, "tp": 0.0, "note": "pace 0.0x off peak 2.9x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "SANA", "prev_state": "RUNNING", "state": "COOLING", "price": 3.065, "tp": 1.731959293233499, "note": "pace 1.7x off peak 4.0x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "AXTQ", "prev_state": "RUNNING", "state": "FADING", "price": 41.4, "tp": 0.0, "note": "pace 0.0x vs peak 13.5x \u00b7 -1.2% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "INGM", "prev_state": "CHURN", "state": "RUNNING", "price": 26.395, "tp": 3.274459187977767, "note": "sustained 3.3x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "BCYC", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.855, "tp": 12.356161748503261, "note": "pace 12.4x and accelerating (1.8x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "COOLING", "state": "RUNNING", "price": 12.875, "tp": 2.307086280711319, "note": "sustained 2.3x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "AVXX", "prev_state": "FADING", "state": "LEAVING", "price": 23.88, "tp": 6.802652824265316, "note": "pace 6.8x off peak 48.2x \u00b7 VWAP lost (was +4.4% above)"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "RAPP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 43.6, "tp": 2.0706679513577786, "note": "quiet open (0.4x) \u2192 now 2.1x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "CNEQ", "prev_state": "RUNNING", "state": "COOLING", "price": 39.625, "tp": 0.0, "note": "pace 0.0x off peak 6.9x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "BHK", "prev_state": "CHURN", "state": "COOLING", "price": 8.76, "tp": 0.4633761888047679, "note": "pace 0.5x off peak 6.1x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "BAR", "prev_state": "RUNNING", "state": "COOLING", "price": 42.55, "tp": 1.6653584985832952, "note": "pace 1.7x off peak 17.8x"}
+{"ts": "2026-09-10T15:45:48.402718-04:00", "demo": 0, "ticker": "WDS", "prev_state": "CHURN", "state": "RUNNING", "price": 23.89, "tp": 2.6949600721420857, "note": "sustained 2.7x"}
