@@ -312,3 +312,13 @@
 {"ts": "2026-09-10T12:14:31.963282-04:00", "demo": 0, "ticker": "BSCY", "prev_state": "RUNNING", "state": "COOLING", "price": 20.03, "tp": 0.0, "note": "pace 0.0x off peak 6.7x"}
 {"ts": "2026-09-10T12:14:31.963282-04:00", "demo": 0, "ticker": "GFR", "prev_state": "COOLING", "state": "IGNITING", "price": 6.32, "tp": 3.3775086946155586, "note": "pace 3.4x and accelerating (4.8x vs prior window) \u00b7 -1.2% in window"}
 {"ts": "2026-09-10T12:14:31.963282-04:00", "demo": 0, "ticker": "WDS", "prev_state": "QUIET", "state": "RUNNING", "price": 23.81, "tp": 2.410546129614917, "note": "sustained 2.4x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "EPI", "prev_state": "COOLING", "state": "RUNNING", "price": 41.995, "tp": 2.719423427932766, "note": "sustained 2.7x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.505, "tp": 2.1136831864585637, "note": "sustained 2.1x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "RUNNING", "state": "CHURN", "price": 11.98, "tp": 2.3507944025986798, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "CHURN", "state": "RUNNING", "price": 118.14, "tp": 1.9131428638895278, "note": "sustained 1.9x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "COOLING", "state": "RUNNING", "price": 20.03, "tp": 2.1784224603326336, "note": "sustained 2.2x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "GERN", "prev_state": "COOLING", "state": "RUNNING", "price": 1.37, "tp": 1.8327679768544451, "note": "sustained 1.8x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "RAPP", "prev_state": "RUNNING", "state": "COOLING", "price": 43.7, "tp": 1.2259357895421847, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "BATL", "prev_state": "RUNNING", "state": "COOLING", "price": 1.36, "tp": 1.3470843419431064, "note": "pace 1.3x off peak 10.1x"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "DBGI", "prev_state": "LEAVING", "state": "FADING", "price": 5.4, "tp": 28.859226200794897, "note": "pace 28.9x vs peak 151.3x \u00b7 -19.9% off HOD \u00b7 chart still +47% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T12:17:31.964251-04:00", "demo": 0, "ticker": "SANA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.145, "tp": 3.4051993246898022, "note": "sustained 3.4x"}
