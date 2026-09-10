@@ -29,3 +29,12 @@
 {"ts": "2026-09-10T10:56:31.947009-04:00", "demo": 0, "ticker": "TNON", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.36, "tp": 29.05448447235391, "note": "sustained 29.1x"}
 {"ts": "2026-09-10T10:56:31.947009-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "QUIET", "state": "RUNNING", "price": 10.71, "tp": 2.035867474119599, "note": "sustained 2.0x"}
 {"ts": "2026-09-10T10:56:31.947009-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "RUNNING", "state": "CHURN", "price": 21.93, "tp": 24.50696064710708, "note": "24.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "FRD", "prev_state": "RUNNING", "state": "COOLING", "price": 43.04, "tp": 0.0, "note": "pace 0.0x off peak 19.8x"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "GERN", "prev_state": "RUNNING", "state": "CHURN", "price": 1.38, "tp": 2.2810552242451383, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "TYRA", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.83, "tp": 3.8737257304311843, "note": "pace 3.9x and accelerating (2.3x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "BAR", "prev_state": "COOLING", "state": "RUNNING", "price": 42.9, "tp": 2.4929797926166075, "note": "sustained 2.5x"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "COO", "prev_state": "RUNNING", "state": "CHURN", "price": 54.89, "tp": 10.617040859492526, "note": "10.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "SANA", "prev_state": "RUNNING", "state": "QUIET", "price": 3.14, "tp": 1.7417913658981194, "note": ""}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "SDVD", "prev_state": "QUIET", "state": "RUNNING", "price": 22.42, "tp": 16.766390760599734, "note": "sustained 16.8x"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "SKYQ", "prev_state": "RUNNING", "state": "FADING", "price": 3.36, "tp": 5.7360327189758475, "note": "pace 5.7x vs peak 16.9x \u00b7 -11.6% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-10T10:59:31.947773-04:00", "demo": 0, "ticker": "EPI", "prev_state": "RUNNING", "state": "COOLING", "price": 42.075, "tp": 1.7287250713451197, "note": "pace 1.7x off peak 4.7x"}
