@@ -691,3 +691,4 @@
 {"ts": "2026-09-10T16:31:33.410665-04:00", "demo": 0, "ticker": "ACVA", "prev_state": null, "state": "AH IGNITION", "price": 10.3, "tp": null, "note": "+43% on $1.05M ext tape"}
 {"ts": "2026-09-10T17:02:18.403417-04:00", "demo": 0, "ticker": "THO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "THOR INDUSTRIES ANNOUNCES ADDITIONAL LEADERSHIP CHANGES PERTAINING TO THE STRATEGIC EVOLUTION OF ITS NORTH AMERICAN RV O"}
 {"ts": "2026-09-10T18:39:03.422229-04:00", "demo": 0, "ticker": "WYNN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Wynn Resorts Announces Pricing of Private Offering of $900 Million of Wynn Resorts Finance 6.875% Senior Notes due 2035"}
+{"ts": "2026-09-10T18:50:18.424409-04:00", "demo": 0, "ticker": "VST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Vistra Prices Registered Offering of $1.5 Billion of Junior Subordinated Notes"}
