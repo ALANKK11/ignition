@@ -98,3 +98,14 @@
 {"ts": "2026-09-10T11:17:31.951593-04:00", "demo": 0, "ticker": "ENB", "prev_state": "CHURN", "state": "RUNNING", "price": 48.53, "tp": 4.520488425830009, "note": "sustained 4.5x"}
 {"ts": "2026-09-10T11:17:31.951593-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "FADING", "state": "COOLING", "price": 10.91, "tp": 1.4572230832276238, "note": "pace 1.5x off peak 2.0x"}
 {"ts": "2026-09-10T11:17:31.951593-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "COOLING", "state": "CHURN", "price": 11.99, "tp": 2.2564702452047247, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "ENGS", "prev_state": "IGNITING", "state": "CHURN", "price": 2.865, "tp": 20.023597695601996, "note": "20.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "BKV", "prev_state": "RUNNING", "state": "CHURN", "price": 23.95, "tp": 5.365367842210945, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "CHURN", "state": "COOLING", "price": 21.93, "tp": 0.0, "note": "pace 0.0x off peak 27.8x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "CHURN", "state": "COOLING", "price": 118.14, "tp": 0.5600911371918162, "note": "pace 0.6x off peak 10.4x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "GERN", "prev_state": "RUNNING", "state": "COOLING", "price": 1.38, "tp": 1.7928768291835484, "note": "pace 1.8x off peak 18.8x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.11, "tp": 2.1996066351508947, "note": "sustained 2.2x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "GFR", "prev_state": "COOLING", "state": "RUNNING", "price": 6.37, "tp": 2.4089625323907726, "note": "sustained 2.4x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "CNM", "prev_state": "RUNNING", "state": "CHURN", "price": 41.55, "tp": 3.8630101161823616, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "FDMO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 94.14, "tp": 5.202147159740766, "note": "sustained 5.2x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "IRD", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.85, "tp": 2.8274212768706946, "note": "sustained 2.8x"}
+{"ts": "2026-09-10T11:20:31.952116-04:00", "demo": 0, "ticker": "KBWD", "prev_state": "CHURN", "state": "RUNNING", "price": 12.0, "tp": 2.90867531268713, "note": "sustained 2.9x"}
