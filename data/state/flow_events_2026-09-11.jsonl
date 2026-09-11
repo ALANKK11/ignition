@@ -13,3 +13,12 @@
 {"ts": "2026-09-11T10:53:14.896830-04:00", "demo": 0, "ticker": "ZUMZ", "prev_state": "QUIET", "state": "RUNNING", "price": 14.26, "tp": 2.320930694206319, "note": "sustained 2.3x"}
 {"ts": "2026-09-11T10:53:14.896830-04:00", "demo": 0, "ticker": "FEIM", "prev_state": "RUNNING", "state": "FADING", "price": 81.09, "tp": 0.7419567408913987, "note": "pace 0.7x vs peak 2.3x \u00b7 -9.1% off HOD \u00b7 chart still +30% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-11T10:53:14.896830-04:00", "demo": 0, "ticker": "SMU", "prev_state": "QUIET", "state": "COOLING", "price": 5.68, "tp": 1.2635465434012192, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "BMNU", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.21, "tp": 3.1049685984316, "note": "sustained 3.1x"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "YARW", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.745, "tp": 7.171180880228834, "note": "pace 7.2x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.39, "tp": 1.673008153301463, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "FEIM", "prev_state": "FADING", "state": "RUNNING", "price": 80.515, "tp": 2.239337987569464, "note": "sustained 2.2x"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "SXTC", "prev_state": "RUNNING", "state": "FADING", "price": 2.445, "tp": 3.349336174861673, "note": "pace 3.3x vs peak 15.6x \u00b7 -18.0% off HOD \u00b7 chart still +27% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "ZUMZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 14.27, "tp": 3.112169401730432, "note": "pace 3.1x and accelerating (5.1x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "QUIET", "price": 36.59, "tp": 1.56289789908186, "note": ""}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "TNON", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.99, "tp": 40.07946160619298, "note": "pace 40.1x and accelerating (3.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.415, "tp": 8.114587375984133, "note": "sustained 8.1x"}
