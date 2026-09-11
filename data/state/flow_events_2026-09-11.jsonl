@@ -74,3 +74,11 @@
 {"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.425, "tp": 9.629143749991625, "note": "sustained 9.6x"}
 {"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.76, "tp": 6.7451457436489894, "note": "sustained 6.7x"}
 {"ts": "2026-09-11T11:11:59.886134-04:00", "demo": 0, "ticker": "YSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: York Space Systems Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit Be"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "WDS", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.47, "tp": 4.961932169150169, "note": "sustained 5.0x"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "PCT", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.1, "tp": 3.041160132164783, "note": "pace 3.0x and accelerating (3.5x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "WSE", "prev_state": "QUIET", "state": "RUNNING", "price": 12.01, "tp": 1.8263540736624424, "note": "sustained 1.8x"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "RUNNING", "state": "CHURN", "price": 10.91, "tp": 4.47325213232551, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "KPTI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.29, "tp": 4.951426262012107, "note": "pace 5.0x and accelerating (2.5x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 8.165, "tp": 2.003480712284729, "note": "quiet open (0.6x) \u2192 now 2.0x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.54, "tp": 19.293952562219474, "note": "sustained 19.3x"}
+{"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "IXC", "prev_state": "RUNNING", "state": "COOLING", "price": 59.43, "tp": 0.1162058119221686, "note": "pace 0.1x off peak 5.7x"}
