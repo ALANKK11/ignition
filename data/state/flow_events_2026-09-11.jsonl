@@ -215,3 +215,12 @@
 {"ts": "2026-09-11T11:56:14.910237-04:00", "demo": 0, "ticker": "ETH", "prev_state": "FADING", "state": "IGNITING", "price": 24.33, "tp": 7.281184466023449, "note": "pace 7.3x and accelerating (9.7x vs prior window) \u00b7 -2.4% in window"}
 {"ts": "2026-09-11T11:56:14.910237-04:00", "demo": 0, "ticker": "AEO", "prev_state": "RUNNING", "state": "COOLING", "price": 14.785, "tp": 1.2387220691726897, "note": "pace 1.2x off peak 2.0x"}
 {"ts": "2026-09-11T11:56:14.910237-04:00", "demo": 0, "ticker": "MORT", "prev_state": "COOLING", "state": "QUIET", "price": 9.36, "tp": 1.6868691268963185, "note": ""}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "CHURN", "state": "RUNNING", "price": 88.495, "tp": 16.19096929581431, "note": "sustained 16.2x"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "QUIET", "state": "RUNNING", "price": 23.24, "tp": 2.424944445553297, "note": "sustained 2.4x"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "ADBG", "prev_state": "RUNNING", "state": "CHURN", "price": 4.06, "tp": 3.7579071180526764, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "DOG", "prev_state": "COOLING", "state": "RUNNING", "price": 21.69, "tp": 2.0734578656262252, "note": "sustained 2.1x"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "BOAT", "prev_state": "RUNNING", "state": "FADING", "price": 51.735, "tp": 1.7556033138618485, "note": "pace 1.8x vs peak 7.9x \u00b7 -0.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "DON", "prev_state": "FADING", "state": "COOLING", "price": 56.795, "tp": 1.5129227348427927, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "AVAV", "prev_state": "RUNNING", "state": "COOLING", "price": 141.71, "tp": 1.280780430762391, "note": "pace 1.3x off peak 7.3x"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "BBIN", "prev_state": "RUNNING", "state": "FADING", "price": 80.315, "tp": 0.0, "note": "pace 0.0x vs peak 21.7x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T11:59:14.910769-04:00", "demo": 0, "ticker": "BILZ", "prev_state": "QUIET", "state": "COOLING", "price": 100.74, "tp": 0.0, "note": "pace 0.0x off peak 1.9x"}
