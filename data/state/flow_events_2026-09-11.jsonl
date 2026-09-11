@@ -248,3 +248,21 @@
 {"ts": "2026-09-11T12:05:14.911947-04:00", "demo": 0, "ticker": "EGHT", "prev_state": "FADING", "state": "RUNNING", "price": 1.855, "tp": 2.081172722833917, "note": "sustained 2.1x"}
 {"ts": "2026-09-11T12:05:14.911947-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "IGNITING", "state": "RUNNING", "price": 88.13, "tp": 10.364473122357508, "note": "sustained 10.4x"}
 {"ts": "2026-09-11T12:05:14.911947-04:00", "demo": 0, "ticker": "ADBG", "prev_state": "CHURN", "state": "RUNNING", "price": 4.07, "tp": 4.2452949365156805, "note": "sustained 4.2x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.87, "tp": 2.1748959274998154, "note": "sustained 2.2x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.16, "tp": 26.86678770736919, "note": "sustained 26.9x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ADBG", "prev_state": "RUNNING", "state": "FADING", "price": 4.09, "tp": 2.8456146954637234, "note": "pace 2.8x vs peak 8.5x \u00b7 -1.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "AEO", "prev_state": "COOLING", "state": "QUIET", "price": 14.8, "tp": 1.5335384390824838, "note": ""}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ETHT", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.325, "tp": 5.653102341875433, "note": "sustained 5.7x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "QUIET", "state": "RUNNING", "price": 10.105, "tp": 1.824146945151049, "note": "sustained 1.8x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "FADING", "price": 10.425, "tp": 4.145584272778455, "note": "pace 4.1x vs peak 19.5x \u00b7 -0.3% off HOD \u00b7 chart still +44% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "BMNU", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.07, "tp": 5.7560836146904855, "note": "sustained 5.8x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ETHW", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.42, "tp": 8.870488446368274, "note": "sustained 8.9x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "BTI", "prev_state": "RUNNING", "state": "CHURN", "price": 55.325, "tp": 5.181793078927212, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ETH", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.49, "tp": 9.517277279120036, "note": "sustained 9.5x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "BGSI", "prev_state": "RUNNING", "state": "FADING", "price": 88.13, "tp": 4.9010449892470325, "note": "pace 4.9x vs peak 16.2x \u00b7 -0.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "MORT", "prev_state": "QUIET", "state": "COOLING", "price": 9.36, "tp": 0.0, "note": "pace 0.0x off peak 2.1x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ETHU", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.46, "tp": 6.623496590123705, "note": "sustained 6.6x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "PCT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.175, "tp": 1.9074173609918232, "note": "sustained 1.9x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "RUNNING", "state": "COOLING", "price": 3.42, "tp": 1.5282087119297558, "note": "pace 1.5x off peak 2.8x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "QUIET", "state": "COOLING", "price": 3.36, "tp": 1.4172258894185437, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-09-11T12:08:14.912557-04:00", "demo": 0, "ticker": "ANGX", "prev_state": "QUIET", "state": "COOLING", "price": 5.435, "tp": 1.447080196605804, "note": "pace 1.4x off peak 2.1x"}
