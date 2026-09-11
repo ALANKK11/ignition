@@ -22,3 +22,10 @@
 {"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "QUIET", "price": 36.59, "tp": 1.56289789908186, "note": ""}
 {"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "TNON", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.99, "tp": 40.07946160619298, "note": "pace 40.1x and accelerating (3.7x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-09-11T10:56:14.897739-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.415, "tp": 8.114587375984133, "note": "sustained 8.1x"}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "PCLA", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.06, "tp": 6.157088754962725, "note": "sustained 6.2x"}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "TNON", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.99, "tp": 36.21448854404478, "note": "sustained 36.2x"}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "YARW", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.62, "tp": 5.54806128865562, "note": "sustained 5.5x"}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "DOG", "prev_state": "CHURN", "state": "RUNNING", "price": 21.74, "tp": 2.1180308484883543, "note": "sustained 2.1x"}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "SMU", "prev_state": "COOLING", "state": "QUIET", "price": 5.59, "tp": 1.4243085905628678, "note": ""}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "FEIM", "prev_state": "RUNNING", "state": "QUIET", "price": 80.515, "tp": 1.7541344437603406, "note": ""}
+{"ts": "2026-09-11T10:59:14.898258-04:00", "demo": 0, "ticker": "KPTI", "prev_state": "RUNNING", "state": "COOLING", "price": 1.29, "tp": 1.515356807488478, "note": "pace 1.5x off peak 2.2x"}
