@@ -405,3 +405,10 @@
 {"ts": "2026-09-11T15:37:16.251167-04:00", "demo": 0, "ticker": "ADBG", "prev_state": "IGNITING", "state": "FADING", "price": 4.21, "tp": 2.4784800598477057, "note": "pace 2.5x vs peak 8.5x \u00b7 -0.9% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-11T15:37:16.251167-04:00", "demo": 0, "ticker": "AEO", "prev_state": "QUIET", "state": "COOLING", "price": 14.935, "tp": 1.4202164655279756, "note": "pace 1.4x off peak 2.1x"}
 {"ts": "2026-09-11T15:37:16.251167-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "CHURN", "state": "RUNNING", "price": 2.09, "tp": 2.334213147653164, "note": "sustained 2.3x"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "DDFS", "prev_state": "FADING", "state": "CHURN", "price": 22.28, "tp": 10.652540270394391, "note": "10.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "ACWX", "prev_state": "RUNNING", "state": "CHURN", "price": 77.285, "tp": 18.73256130535379, "note": "18.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "AEFC", "prev_state": "FADING", "state": "RUNNING", "price": 17.91, "tp": 12.088973255736084, "note": "sustained 12.1x"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "AEO", "prev_state": "COOLING", "state": "QUIET", "price": 14.91, "tp": 1.5496857944119298, "note": ""}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "BSCR", "prev_state": "CHURN", "state": "NEW MONEY", "price": 19.615, "tp": 2.1825045311596, "note": "quiet open (1.2x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "HYMB", "prev_state": "FADING", "state": "CHURN", "price": 24.175, "tp": 5.030185400564945, "note": "5.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T15:40:16.251800-04:00", "demo": 0, "ticker": "MMYT", "prev_state": "RUNNING", "state": "CHURN", "price": 50.19, "tp": 2.642124885115707, "note": "2.6x participation, no progress at highs \u2014 absorption"}
