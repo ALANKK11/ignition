@@ -499,3 +499,4 @@
 {"ts": "2026-09-11T15:58:16.255062-04:00", "demo": 0, "ticker": "SPCM", "prev_state": "RUNNING", "state": "COOLING", "price": 17.74, "tp": 1.0839185634907547, "note": "pace 1.1x off peak 2.4x"}
 {"ts": "2026-09-11T15:58:16.255062-04:00", "demo": 0, "ticker": "AENT", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.515, "tp": 276.67569790379855, "note": "sustained 276.7x"}
 {"ts": "2026-09-11T15:58:16.255062-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.56, "tp": 3.6909439208317307, "note": "sustained 3.7x"}
+{"ts": "2026-09-11T16:41:46.248156-04:00", "demo": 0, "ticker": "RYDE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "RYDE Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against R"}
