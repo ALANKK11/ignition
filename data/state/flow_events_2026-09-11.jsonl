@@ -437,3 +437,13 @@
 {"ts": "2026-09-11T15:46:16.253046-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "CHURN", "state": "IGNITING", "price": 4.565, "tp": 3.54673837258053, "note": "pace 3.5x and accelerating (1.7x vs prior window) \u00b7 -1.2% in window"}
 {"ts": "2026-09-11T15:46:16.253046-04:00", "demo": 0, "ticker": "CRMT", "prev_state": "COOLING", "state": "RUNNING", "price": 1.95, "tp": 2.3616269427274528, "note": "sustained 2.4x"}
 {"ts": "2026-09-11T15:46:16.253046-04:00", "demo": 0, "ticker": "AQN", "prev_state": "COOLING", "state": "RUNNING", "price": 5.3, "tp": 9.259022397050307, "note": "sustained 9.3x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "CMRC", "prev_state": "RUNNING", "state": "COOLING", "price": 3.49, "tp": 1.7205001432375067, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "BSM", "prev_state": "FADING", "state": "CHURN", "price": 14.96, "tp": 2.5104992372952966, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "TMQ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 3.29, "tp": 3.326273777042435, "note": "quiet open (1.0x) \u2192 now 3.3x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "MAZE", "prev_state": "COOLING", "state": "RUNNING", "price": 24.4, "tp": 1.9236414608436652, "note": "sustained 1.9x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.52, "tp": 4.671797783898126, "note": "pace 4.7x and accelerating (2.0x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "COOLING", "state": "RUNNING", "price": 3.405, "tp": 2.098771419635309, "note": "sustained 2.1x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "AEO", "prev_state": "COOLING", "state": "RUNNING", "price": 15.025, "tp": 2.0913405908697187, "note": "sustained 2.1x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "AMAL", "prev_state": "RUNNING", "state": "CHURN", "price": 47.935, "tp": 2.2809967976579943, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 8.16, "tp": 1.717468270360017, "note": "pace 1.7x off peak 2.3x"}
+{"ts": "2026-09-11T15:49:16.253618-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.545, "tp": 3.0289549901334287, "note": "sustained 3.0x"}
