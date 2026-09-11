@@ -331,3 +331,4 @@
 {"ts": "2026-09-11T15:19:16.248893-04:00", "demo": 0, "ticker": "PSEP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 46.81, "tp": 3.3587642810055494, "note": "quiet open (0.3x) \u2192 now 3.4x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-09-11T15:19:16.248893-04:00", "demo": 0, "ticker": "DOG", "prev_state": "COOLING", "state": "CHURN", "price": 21.69, "tp": 3.3936384861686477, "note": "3.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-11T15:19:16.248893-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "RUNNING", "state": "FADING", "price": 4.565, "tp": 0.3890680527117074, "note": "pace 0.4x vs peak 3.1x \u00b7 -1.8% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T15:20:01.232712-04:00", "demo": 0, "ticker": "COFS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ChoiceOne Bank Receives Habitat for Humanity of Kent County Opportunity Award"}
