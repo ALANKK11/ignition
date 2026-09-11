@@ -500,3 +500,4 @@
 {"ts": "2026-09-11T15:58:16.255062-04:00", "demo": 0, "ticker": "AENT", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.515, "tp": 276.67569790379855, "note": "sustained 276.7x"}
 {"ts": "2026-09-11T15:58:16.255062-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.56, "tp": 3.6909439208317307, "note": "sustained 3.7x"}
 {"ts": "2026-09-11T16:41:46.248156-04:00", "demo": 0, "ticker": "RYDE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "RYDE Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against R"}
+{"ts": "2026-09-11T16:45:31.248826-04:00", "demo": 0, "ticker": "TMQ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Trilogy Metals Closes US$35.6 Million Strategic Equity Investment by the U.S. Department of War"}
