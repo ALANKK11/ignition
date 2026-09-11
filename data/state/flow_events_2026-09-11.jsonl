@@ -1,0 +1,6 @@
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "QUIET", "state": "RUNNING", "price": 4.42, "tp": 2.476998908678316, "note": "sustained 2.5x"}
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "BMNU", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.98, "tp": 3.9644984833648373, "note": "pace 4.0x and accelerating (2.5x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "DOG", "prev_state": "RUNNING", "state": "CHURN", "price": 21.73, "tp": 2.500220484444481, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "PEY", "prev_state": "RUNNING", "state": "COOLING", "price": 23.93, "tp": 0.0, "note": "pace 0.0x off peak 2.0x"}
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "RUNNING", "state": "CHURN", "price": 10.91, "tp": 3.7520633283106464, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-11T10:50:14.896494-04:00", "demo": 0, "ticker": "SMU", "prev_state": "RUNNING", "state": "QUIET", "price": 5.68, "tp": 1.5089555603031624, "note": ""}
