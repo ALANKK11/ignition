@@ -73,3 +73,4 @@
 {"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.07, "tp": 3.132637366868281, "note": "pace 3.1x and accelerating (2.0x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.425, "tp": 9.629143749991625, "note": "sustained 9.6x"}
 {"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.76, "tp": 6.7451457436489894, "note": "sustained 6.7x"}
+{"ts": "2026-09-11T11:11:59.886134-04:00", "demo": 0, "ticker": "YSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "INVESTOR DEADLINE: York Space Systems Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit Be"}
