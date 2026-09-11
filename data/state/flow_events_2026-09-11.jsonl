@@ -62,3 +62,14 @@
 {"ts": "2026-09-11T11:08:14.900459-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "QUIET", "state": "RUNNING", "price": 33.61, "tp": 2.742295897525941, "note": "sustained 2.7x"}
 {"ts": "2026-09-11T11:08:14.900459-04:00", "demo": 0, "ticker": "RLMD", "prev_state": "COOLING", "state": "RUNNING", "price": 4.355, "tp": 2.341526506128898, "note": "sustained 2.3x"}
 {"ts": "2026-09-11T11:08:14.900459-04:00", "demo": 0, "ticker": "SEDG", "prev_state": "QUIET", "state": "RUNNING", "price": 36.7, "tp": 2.1128654484899965, "note": "sustained 2.1x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "BDRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.43, "tp": 459.53277388496895, "note": "sustained 459.5x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "WDS", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 23.51, "tp": 11.870209086897459, "note": "quiet open (0.4x) \u2192 now 11.9x \u00b7 taking +2.9% flow share"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "OILK", "prev_state": "RUNNING", "state": "COOLING", "price": 56.39, "tp": 0.0, "note": "pace 0.0x off peak 113.1x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "PCT", "prev_state": "QUIET", "state": "RUNNING", "price": 6.09, "tp": 2.4899973676371885, "note": "sustained 2.5x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "EGHT", "prev_state": "QUIET", "state": "RUNNING", "price": 1.805, "tp": 2.1714054183201847, "note": "sustained 2.2x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "KPTI", "prev_state": "COOLING", "state": "RUNNING", "price": 1.295, "tp": 4.459284604460182, "note": "sustained 4.5x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "FETH", "prev_state": "FADING", "state": "RUNNING", "price": 25.92, "tp": 4.887059868834867, "note": "sustained 4.9x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "ETH", "prev_state": "QUIET", "state": "RUNNING", "price": 24.85, "tp": 3.7011417663132864, "note": "sustained 3.7x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.07, "tp": 3.132637366868281, "note": "pace 3.1x and accelerating (2.0x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.425, "tp": 9.629143749991625, "note": "sustained 9.6x"}
+{"ts": "2026-09-11T11:11:14.900923-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 6.76, "tp": 6.7451457436489894, "note": "sustained 6.7x"}
