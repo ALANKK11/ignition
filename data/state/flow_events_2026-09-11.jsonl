@@ -82,3 +82,12 @@
 {"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "QUIET", "state": "NEW MONEY", "price": 8.165, "tp": 2.003480712284729, "note": "quiet open (0.6x) \u2192 now 2.0x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.54, "tp": 19.293952562219474, "note": "sustained 19.3x"}
 {"ts": "2026-09-11T11:14:14.901671-04:00", "demo": 0, "ticker": "IXC", "prev_state": "RUNNING", "state": "COOLING", "price": 59.43, "tp": 0.1162058119221686, "note": "pace 0.1x off peak 5.7x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "BCRX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 8.175, "tp": 1.9414319350724578, "note": "sustained 1.9x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "MYGN", "prev_state": "COOLING", "state": "RUNNING", "price": 3.355, "tp": 1.9195450570149497, "note": "sustained 1.9x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "SEDG", "prev_state": "RUNNING", "state": "COOLING", "price": 36.64, "tp": 1.3477612044890401, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "FEIM", "prev_state": "IGNITING", "state": "RUNNING", "price": 78.43, "tp": 4.781514873883074, "note": "sustained 4.8x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "INGM", "prev_state": "RUNNING", "state": "FADING", "price": 27.245, "tp": 2.293816403446453, "note": "pace 2.3x vs peak 7.0x \u00b7 -1.4% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "SPCM", "prev_state": "QUIET", "state": "RUNNING", "price": 16.64, "tp": 2.1571504416272482, "note": "sustained 2.2x"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "HLLY", "prev_state": "IGNITING", "state": "FADING", "price": 2.675, "tp": 10.035719509344181, "note": "pace 10.0x vs peak 34.5x \u00b7 -0.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "BDRX", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.22, "tp": 702.966953133325, "note": "pace 703.0x and accelerating (1.7x vs prior window) \u00b7 -6.9% in window"}
+{"ts": "2026-09-11T11:17:14.902100-04:00", "demo": 0, "ticker": "PEY", "prev_state": "COOLING", "state": "RUNNING", "price": 23.9, "tp": 2.129497979993833, "note": "sustained 2.1x"}
