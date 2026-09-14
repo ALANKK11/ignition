@@ -1,0 +1,10 @@
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "IVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.98, "tp": 2.8136594701793434, "note": "sustained 2.8x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "CRWL", "prev_state": "QUIET", "state": "RUNNING", "price": 85.795, "tp": 4.338270162405865, "note": "sustained 4.3x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "USAC", "prev_state": "CHURN", "state": "RUNNING", "price": 27.14, "tp": 5.049657284629915, "note": "sustained 5.0x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "QUIET", "state": "RUNNING", "price": 3.56, "tp": 2.165071717304478, "note": "sustained 2.2x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "COHX", "prev_state": "QUIET", "state": "IGNITING", "price": 20.62, "tp": 4.264291143015087, "note": "pace 4.3x and accelerating (6.3x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "HQ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.765, "tp": 1.6549876072886958, "note": "pace 1.7x off peak 4.4x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "PZZA", "prev_state": "RUNNING", "state": "COOLING", "price": 21.705, "tp": 1.0041996858876625, "note": "pace 1.0x off peak 2.1x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "GLWG", "prev_state": "QUIET", "state": "RUNNING", "price": 12.03, "tp": 2.0607299486344854, "note": "sustained 2.1x"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "LHSW", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6199, "tp": 140.09511341016452, "note": "pace 140.1x and accelerating (4.8x vs prior window) \u00b7 -3.1% in window"}
+{"ts": "2026-09-14T12:48:27.412239-04:00", "demo": 0, "ticker": "VSME", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.33, "tp": 587.2042336324162, "note": "pace 587.2x and accelerating (4.4x vs prior window) \u00b7 +3.9% in window"}
