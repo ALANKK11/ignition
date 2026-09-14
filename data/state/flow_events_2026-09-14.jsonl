@@ -739,3 +739,4 @@
 {"ts": "2026-09-14T15:59:42.452060-04:00", "demo": 0, "ticker": "USAC", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.585, "tp": 2.0054259986056113, "note": "sustained 2.0x"}
 {"ts": "2026-09-14T16:10:57.438572-04:00", "demo": 0, "ticker": "YSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Urges YSS Stockholders Who Lost Money Investing York Space Systems Inc. to Contact the Firm for Information "}
 {"ts": "2026-09-14T16:10:57.438572-04:00", "demo": 0, "ticker": "XTIA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Urges XTIA Stockholders Who Lost Money Investing XTI Aerospace, Inc. to Contact the Firm for Information Abo"}
+{"ts": "2026-09-14T16:31:57.442551-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide"}
