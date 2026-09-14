@@ -716,3 +716,4 @@
 {"ts": "2026-09-14T15:55:57.450748-04:00", "demo": 0, "ticker": "BWIN", "prev_state": "RUNNING", "state": "CHURN", "price": 32.05, "tp": 11.817936954885418, "note": "11.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-14T15:55:57.450748-04:00", "demo": 0, "ticker": "MAZE", "prev_state": "FADING", "state": "IGNITING", "price": 24.57, "tp": 3.6019515800870194, "note": "pace 3.6x and accelerating (5.3x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-09-14T15:55:57.450748-04:00", "demo": 0, "ticker": "RDN", "prev_state": "FADING", "state": "RUNNING", "price": 35.83, "tp": 6.175762536158496, "note": "sustained 6.2x"}
+{"ts": "2026-09-14T15:56:42.435850-04:00", "demo": 0, "ticker": "FTK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Urges FTK Stockholders Who Lost Money Investing Flotek Industries, Inc. to Contact the Firm for Information "}
