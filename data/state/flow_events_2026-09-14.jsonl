@@ -43,3 +43,20 @@
 {"ts": "2026-09-14T12:59:42.414676-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.085, "tp": 25.45452884356191, "note": "pace 25.5x and accelerating (2.4x vs prior window) \u00b7 +2.1% in window"}
 {"ts": "2026-09-14T12:59:42.414676-04:00", "demo": 0, "ticker": "CRWL", "prev_state": "RUNNING", "state": "IGNITING", "price": 86.245, "tp": 6.609849719155999, "note": "pace 6.6x and accelerating (132.2x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-09-14T13:01:57.400408-04:00", "demo": 0, "ticker": "TNON", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WallachBeth Capital Announces Closing of Tenon Medical Warrant Inducement Offering for Aggregate Gross Proceeds of Appro"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "COOLING", "price": 3.42, "tp": 0.36478905345019785, "note": "pace 0.4x off peak 5.7x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "CRWL", "prev_state": "IGNITING", "state": "FADING", "price": 86.245, "tp": 2.055213311639167, "note": "pace 2.1x vs peak 6.6x \u00b7 +0.0% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "ARMP", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.02, "tp": 12.886884185762762, "note": "sustained 12.9x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "USAC", "prev_state": "RUNNING", "state": "COOLING", "price": 27.1, "tp": 1.4972240616824557, "note": "pace 1.5x off peak 6.1x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "JPRF", "prev_state": "RUNNING", "state": "CHURN", "price": 48.985, "tp": 28.2400659467849, "note": "28.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "BMGL", "prev_state": "FADING", "state": "RUNNING", "price": 7.3, "tp": 861.4632117066733, "note": "sustained 861.5x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "MSFD", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.14, "tp": 2.285802830689782, "note": "sustained 2.3x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "SPYD", "prev_state": "CHURN", "state": "RUNNING", "price": 48.71, "tp": 8.43129145838875, "note": "sustained 8.4x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "HFWA", "prev_state": "CHURN", "state": "RUNNING", "price": 28.68, "tp": 3.279343419785119, "note": "sustained 3.3x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "IYE", "prev_state": "IGNITING", "state": "CHURN", "price": 68.35, "tp": 18.5517344753311, "note": "18.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "IGNITING", "state": "COOLING", "price": 1.67, "tp": 1.6699436653050326, "note": "pace 1.7x off peak 3.5x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "COHX", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.6, "tp": 2.6038665569661266, "note": "sustained 2.6x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "RUNNING", "state": "COOLING", "price": 42.825, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "EU", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.9159, "tp": 6.271446114307124, "note": "sustained 6.3x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "RUNNING", "state": "QUIET", "price": 22.05, "tp": 1.7571454421401493, "note": ""}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "LITX", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.04, "tp": 2.3625435382021003, "note": "sustained 2.4x"}
+{"ts": "2026-09-14T13:03:27.416193-04:00", "demo": 0, "ticker": "NSLR", "prev_state": "RUNNING", "state": "COOLING", "price": 7.81, "tp": 0.8013462184021445, "note": "pace 0.8x off peak 16.6x"}
