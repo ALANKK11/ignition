@@ -608,3 +608,12 @@
 {"ts": "2026-09-14T15:25:57.444271-04:00", "demo": 0, "ticker": "CONI", "prev_state": "COOLING", "state": "IGNITING", "price": 25.17, "tp": 4.95063150100735, "note": "pace 5.0x and accelerating (99.0x vs prior window) \u00b7 -3.3% in window"}
 {"ts": "2026-09-14T15:25:57.444271-04:00", "demo": 0, "ticker": "BKLN", "prev_state": "RUNNING", "state": "FADING", "price": 20.635, "tp": 1.5390859597775675, "note": "pace 1.5x vs peak 12.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-14T15:25:57.444271-04:00", "demo": 0, "ticker": "RDN", "prev_state": "QUIET", "state": "CHURN", "price": 35.79, "tp": 6.847613084692111, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "AMZU", "prev_state": "CHURN", "state": "COOLING", "price": 35.55, "tp": 0.0, "note": "pace 0.0x off peak 13.3x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "RUNNING", "state": "COOLING", "price": 20.35, "tp": 0.0, "note": "pace 0.0x off peak 9.1x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "BUG", "prev_state": "RUNNING", "state": "COOLING", "price": 44.395, "tp": 1.5299733587627318, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "CLOV", "prev_state": "FADING", "state": "RUNNING", "price": 5.145, "tp": 2.4406749854466203, "note": "sustained 2.4x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "CMDY", "prev_state": "FADING", "state": "RUNNING", "price": 65.09, "tp": 1.8077463806354501, "note": "sustained 1.8x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "BMM", "prev_state": "FADING", "state": "IGNITING", "price": 5.63, "tp": 3.619966097204968, "note": "pace 3.6x and accelerating (5.3x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "CLSE", "prev_state": "CHURN", "state": "RUNNING", "price": 34.01, "tp": 2.8737758227886094, "note": "sustained 2.9x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "IMSR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.455, "tp": 2.2473882438770154, "note": "sustained 2.2x"}
+{"ts": "2026-09-14T15:29:42.446075-04:00", "demo": 0, "ticker": "RDN", "prev_state": "CHURN", "state": "RUNNING", "price": 35.79, "tp": 6.31722906224807, "note": "sustained 6.3x"}
