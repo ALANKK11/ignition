@@ -24,3 +24,9 @@
 {"ts": "2026-09-14T12:52:12.412435-04:00", "demo": 0, "ticker": "SCNI", "prev_state": "IGNITING", "state": "FADING", "price": 2.37, "tp": 12.984274372497175, "note": "pace 13.0x vs peak 79.3x \u00b7 -10.6% off HOD \u00b7 chart still +45% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-14T12:52:12.412435-04:00", "demo": 0, "ticker": "IMSR", "prev_state": "RUNNING", "state": "COOLING", "price": 4.46, "tp": 1.5485435209424625, "note": "pace 1.5x off peak 2.7x"}
 {"ts": "2026-09-14T12:52:12.412435-04:00", "demo": 0, "ticker": "XRX", "prev_state": "QUIET", "state": "IGNITING", "price": 3.415, "tp": 5.505020225193212, "note": "pace 5.5x and accelerating (34.3x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "ARMP", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.93, "tp": 12.7500528355934, "note": "pace 12.8x and accelerating (3.1x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "IMSR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.445, "tp": 2.1143928978924516, "note": "sustained 2.1x"}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "INGM", "prev_state": "QUIET", "state": "RUNNING", "price": 27.0, "tp": 2.466912734741405, "note": "sustained 2.5x"}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "PZZA", "prev_state": "COOLING", "state": "QUIET", "price": 21.67, "tp": 1.6769305656862759, "note": ""}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "QUIET", "state": "RUNNING", "price": 22.05, "tp": 1.8543875073115803, "note": "sustained 1.9x"}
+{"ts": "2026-09-14T12:55:57.413626-04:00", "demo": 0, "ticker": "GLWG", "prev_state": "QUIET", "state": "COOLING", "price": 12.03, "tp": 1.3737032072563888, "note": "pace 1.4x off peak 2.1x"}
