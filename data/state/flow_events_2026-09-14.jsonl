@@ -490,3 +490,13 @@
 {"ts": "2026-09-14T14:52:12.437745-04:00", "demo": 0, "ticker": "BZ", "prev_state": "QUIET", "state": "COOLING", "price": 15.495, "tp": 0.8910589026637106, "note": "pace 0.9x off peak 1.9x"}
 {"ts": "2026-09-14T14:52:12.437745-04:00", "demo": 0, "ticker": "CONI", "prev_state": "COOLING", "state": "RUNNING", "price": 26.02, "tp": 2.311467514968966, "note": "sustained 2.3x"}
 {"ts": "2026-09-14T14:52:12.437745-04:00", "demo": 0, "ticker": "DBO", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.305, "tp": 6.799240331566551, "note": "sustained 6.8x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 20.47, "tp": 0.47989722729567325, "note": "pace 0.5x off peak 6.7x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "IGNITING", "price": 14.32, "tp": 2.9119369897503655, "note": "pace 2.9x and accelerating (58.2x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "BKLC", "prev_state": "RUNNING", "state": "COOLING", "price": 48.745, "tp": 1.1533823883170542, "note": "pace 1.2x off peak 8.5x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "CHURN", "state": "RUNNING", "price": 29.025, "tp": 15.433647505568048, "note": "sustained 15.4x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "CHURN", "state": "RUNNING", "price": 46.345, "tp": 2.0438785565545436, "note": "sustained 2.0x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "RUNNING", "state": "FADING", "price": 54.62, "tp": 0.7414762384099505, "note": "pace 0.7x vs peak 3.6x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "VNM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 17.37, "tp": 5.886022459780718, "note": "quiet open (1.0x) \u2192 now 5.9x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "ARM", "prev_state": "COOLING", "state": "RUNNING", "price": 241.915, "tp": 2.2376635453548137, "note": "sustained 2.2x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "COPP", "prev_state": "RUNNING", "state": "COOLING", "price": 41.69, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-09-14T14:55:57.438464-04:00", "demo": 0, "ticker": "TLS", "prev_state": "RUNNING", "state": "QUIET", "price": 4.355, "tp": 1.7033424237605228, "note": ""}
