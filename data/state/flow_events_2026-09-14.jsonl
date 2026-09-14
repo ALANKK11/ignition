@@ -114,3 +114,4 @@
 {"ts": "2026-09-14T13:18:27.421039-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "RUNNING", "state": "COOLING", "price": 22.04, "tp": 0.0, "note": "pace 0.0x off peak 4.5x"}
 {"ts": "2026-09-14T13:18:27.421039-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "COOLING", "state": "RUNNING", "price": 1.65, "tp": 2.0888556871967046, "note": "sustained 2.1x"}
 {"ts": "2026-09-14T13:18:27.421039-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "COOLING", "state": "RUNNING", "price": 14.675, "tp": 5.36037209877967, "note": "sustained 5.4x"}
+{"ts": "2026-09-14T13:19:12.403931-04:00", "demo": 0, "ticker": "DOCU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Docusign Named a Leader in the IDC MarketScape for Worldwide Integrated Signing Workflow Software 2026"}
