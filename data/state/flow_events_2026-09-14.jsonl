@@ -116,3 +116,19 @@
 {"ts": "2026-09-14T13:18:27.421039-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "COOLING", "state": "RUNNING", "price": 14.675, "tp": 5.36037209877967, "note": "sustained 5.4x"}
 {"ts": "2026-09-14T13:19:12.403931-04:00", "demo": 0, "ticker": "DOCU", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Docusign Named a Leader in the IDC MarketScape for Worldwide Integrated Signing Workflow Software 2026"}
 {"ts": "2026-09-14T13:21:27.404442-04:00", "demo": 0, "ticker": "LUV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "FROM FALL GETAWAYS TO SPRING BREAKS: SOUTHWEST AIRLINES' WEEK OF WOW DELIVERS DEALS ON TRAVEL"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "ARDX", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.58, "tp": 5.79769800044271, "note": "pace 5.8x and accelerating (2.6x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "RUNNING", "state": "COOLING", "price": 8.125, "tp": 0.8769962725158229, "note": "pace 0.9x off peak 1.8x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "IMSR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.435, "tp": 6.462038393220227, "note": "sustained 6.5x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "BZ", "prev_state": "QUIET", "state": "RUNNING", "price": 15.495, "tp": 1.8217483452861203, "note": "sustained 1.8x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "AZO", "prev_state": "RUNNING", "state": "COOLING", "price": 2942.265, "tp": 1.7362567977214385, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "INGM", "prev_state": "COOLING", "state": "RUNNING", "price": 26.965, "tp": 1.826483051159923, "note": "sustained 1.8x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "ACVA", "prev_state": "CHURN", "state": "COOLING", "price": 10.42, "tp": 1.7801792981451685, "note": "pace 1.8x off peak 2.6x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "GLW", "prev_state": "RUNNING", "state": "IGNITING", "price": 145.07, "tp": 5.355957167924163, "note": "pace 5.4x and accelerating (2.2x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "XRX", "prev_state": "FADING", "state": "COOLING", "price": 3.425, "tp": 0.23254628151266882, "note": "pace 0.2x off peak 5.7x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "RUNNING", "state": "FADING", "price": 43.65, "tp": 0.6971662608645063, "note": "pace 0.7x vs peak 2.5x \u00b7 -0.6% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "HQ", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.775, "tp": 2.516385859558384, "note": "sustained 2.5x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "HFWA", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.6, "tp": 8.090316759197707, "note": "sustained 8.1x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.68, "tp": 14.91076916563276, "note": "sustained 14.9x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.65, "tp": 1.6070151099866994, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "BMGL", "prev_state": "IGNITING", "state": "FADING", "price": 7.25, "tp": 0.0, "note": "pace 0.0x vs peak 2800.4x \u00b7 -18.9% off HOD \u00b7 chart still +53% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-14T13:22:12.422341-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "CHURN", "state": "COOLING", "price": 27.55, "tp": 1.5465001845409918, "note": "pace 1.5x off peak 2.6x"}
