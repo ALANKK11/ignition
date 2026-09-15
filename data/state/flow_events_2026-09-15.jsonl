@@ -1,0 +1,8 @@
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "MYSZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.3, "tp": 58.452977241560674, "note": "pace 58.5x and accelerating (2.3x vs prior window) \u00b7 +8.0% in window"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "QUIET", "state": "RUNNING", "price": 8.73, "tp": 1.8673848955242676, "note": "sustained 1.9x"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "ENVA", "prev_state": "RUNNING", "state": "COOLING", "price": 169.85, "tp": 1.7005195563767275, "note": "pace 1.7x off peak 3.3x"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "BNGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.79, "tp": 573.541869612424, "note": "sustained 573.5x"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "CTKB", "prev_state": "RUNNING", "state": "QUIET", "price": 4.92, "tp": 1.579504382977045, "note": ""}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.155, "tp": 1.41518369266807, "note": "pace 1.4x off peak 2.0x"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "TRUG", "prev_state": "RUNNING", "state": "FADING", "price": 0.736, "tp": 0.8383425277947588, "note": "pace 0.8x vs peak 3.1x \u00b7 -21.2% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-15T11:26:25.682467-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "QUIET", "state": "RUNNING", "price": 6.49, "tp": 4.032777166572417, "note": "sustained 4.0x"}
