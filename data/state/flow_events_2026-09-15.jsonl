@@ -201,3 +201,12 @@
 {"ts": "2026-09-15T12:37:40.697442-04:00", "demo": 0, "ticker": "ECVT", "prev_state": "CHURN", "state": "COOLING", "price": 10.605, "tp": 1.7546084026233297, "note": "pace 1.8x off peak 2.4x"}
 {"ts": "2026-09-15T12:37:40.697442-04:00", "demo": 0, "ticker": "STIM", "prev_state": "QUIET", "state": "COOLING", "price": 2.725, "tp": 0.4681577102556617, "note": "pace 0.5x off peak 2.3x"}
 {"ts": "2026-09-15T12:37:40.697442-04:00", "demo": 0, "ticker": "EVLV", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.125, "tp": 3.740062321330336, "note": "sustained 3.7x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "FSMD", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 50.18, "tp": 9.633872107969392, "note": "quiet open (0.9x) \u2192 now 9.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "DFEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 53.1, "tp": 12.337549873462025, "note": "sustained 12.3x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "BDRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.29, "tp": 3.088491162596136, "note": "sustained 3.1x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "BWIN", "prev_state": "RUNNING", "state": "FADING", "price": 32.46, "tp": 1.1992672254975965, "note": "pace 1.2x vs peak 5.8x \u00b7 -0.7% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "ECVT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.605, "tp": 2.1863870550926032, "note": "sustained 2.2x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "EWX", "prev_state": "RUNNING", "state": "COOLING", "price": 70.88, "tp": 0.0, "note": "pace 0.0x off peak 7.9x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "BITU", "prev_state": "CHURN", "state": "RUNNING", "price": 12.83, "tp": 4.096401403932049, "note": "sustained 4.1x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "DMRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.39, "tp": 3.6175427162017817, "note": "sustained 3.6x"}
+{"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.72, "tp": 17.358290078798742, "note": "sustained 17.4x"}
