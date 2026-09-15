@@ -263,3 +263,4 @@
 {"ts": "2026-09-15T15:51:56.456476-04:00", "demo": 0, "ticker": "STIM", "prev_state": "COOLING", "state": "RUNNING", "price": 2.815, "tp": 2.2565881969690507, "note": "sustained 2.3x"}
 {"ts": "2026-09-15T15:51:56.456476-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "COOLING", "state": "CHURN", "price": 25.06, "tp": 6.0534771977295145, "note": "6.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-15T15:51:56.456476-04:00", "demo": 0, "ticker": "URG", "prev_state": "IGNITING", "state": "COOLING", "price": 1.23, "tp": 0.28231538881990065, "note": "pace 0.3x off peak 5.7x"}
+{"ts": "2026-09-15T15:52:41.442686-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Datavault AI Inc. Deadline: DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit"}
