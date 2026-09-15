@@ -106,3 +106,10 @@
 {"ts": "2026-09-15T12:07:40.691907-04:00", "demo": 0, "ticker": "FENY", "prev_state": "RUNNING", "state": "FADING", "price": 36.37, "tp": 0.0, "note": "pace 0.0x vs peak 3.2x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-15T12:07:40.691907-04:00", "demo": 0, "ticker": "ENVA", "prev_state": "RUNNING", "state": "IGNITING", "price": 170.91, "tp": 3.8705204715234283, "note": "pace 3.9x and accelerating (2.2x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-09-15T12:07:40.691907-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "COOLING", "state": "LEAVING", "price": 6.58, "tp": 1.9188161478296577, "note": "pace 1.9x off peak 5.3x \u00b7 VWAP lost (was +2.8% above)"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "ASND", "prev_state": "RUNNING", "state": "COOLING", "price": 231.88, "tp": 1.149412173544891, "note": "pace 1.1x off peak 4.3x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.14, "tp": 1.5210805438137718, "note": "pace 1.5x off peak 10.2x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "ENVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 169.965, "tp": 2.4035589050542927, "note": "sustained 2.4x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "BOOT", "prev_state": "RUNNING", "state": "COOLING", "price": 131.75, "tp": 1.684607878211947, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "NTSK", "prev_state": "QUIET", "state": "RUNNING", "price": 17.475, "tp": 1.8885526863585855, "note": "sustained 1.9x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "QUIET", "state": "RUNNING", "price": 20.32, "tp": 2.1390381224305828, "note": "sustained 2.1x"}
+{"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 28.98, "tp": 2.5933787011451686, "note": "quiet open (0.5x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
