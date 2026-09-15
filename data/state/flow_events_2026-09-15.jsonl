@@ -77,3 +77,12 @@
 {"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "MNR", "prev_state": "CHURN", "state": "RUNNING", "price": 11.28, "tp": 9.814911084785974, "note": "sustained 9.8x"}
 {"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "FPS", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.48, "tp": 3.75442343938033, "note": "sustained 3.8x"}
 {"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "CHURN", "state": "RUNNING", "price": 2.69, "tp": 61.5172717023811, "note": "sustained 61.5x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "FXH", "prev_state": "RUNNING", "state": "COOLING", "price": 131.01, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "IYE", "prev_state": "RUNNING", "state": "COOLING", "price": 69.01, "tp": 1.418966789504855, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "RUNNING", "state": "CHURN", "price": 2.69, "tp": 58.503854152151995, "note": "58.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "COOLING", "state": "RUNNING", "price": 28.98, "tp": 2.6331857936549614, "note": "sustained 2.6x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "QUIET", "state": "RUNNING", "price": 27.27, "tp": 2.1617593259313974, "note": "sustained 2.2x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "STIM", "prev_state": "RUNNING", "state": "COOLING", "price": 2.71, "tp": 1.657502653622648, "note": "pace 1.7x off peak 2.3x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "RUNNING", "state": "COOLING", "price": 8.82, "tp": 0.5709968498893745, "note": "pace 0.6x off peak 3.4x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "CHURN", "state": "RUNNING", "price": 113.74, "tp": 6.713445609549913, "note": "sustained 6.7x"}
+{"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "IEMG", "prev_state": "CHURN", "state": "RUNNING", "price": 79.985, "tp": 7.535563073775568, "note": "sustained 7.5x"}
