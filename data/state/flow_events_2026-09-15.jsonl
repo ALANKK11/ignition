@@ -290,3 +290,6 @@
 {"ts": "2026-09-15T15:57:56.456519-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.17, "tp": 1.0396182536489984, "note": "pace 1.0x off peak 10.2x"}
 {"ts": "2026-09-15T15:57:56.456519-04:00", "demo": 0, "ticker": "TSLX", "prev_state": "QUIET", "state": "COOLING", "price": 17.83, "tp": 1.6269345937365856, "note": "pace 1.6x off peak 2.3x"}
 {"ts": "2026-09-15T16:10:41.458850-04:00", "demo": 0, "ticker": "RETO", "prev_state": null, "state": "AH IGNITION", "price": 5.46, "tp": null, "note": "+60% on $0.49M ext tape"}
+{"ts": "2026-09-15T16:11:26.446208-04:00", "demo": 0, "ticker": "SLAB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Silicon Labs Announces Executive Keynote Lineup for Works With Summit 2026"}
+{"ts": "2026-09-15T16:11:26.446208-04:00", "demo": 0, "ticker": "DOO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Ski-Doo Snow PASS Program Awards Funding to Trail and Access Projects Across North America"}
+{"ts": "2026-09-15T16:11:26.446208-04:00", "demo": 0, "ticker": "SABR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Sabre Corporation Announces Pricing of Upsized Senior Secured Notes Offering"}
