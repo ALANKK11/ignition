@@ -86,3 +86,5 @@
 {"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "RUNNING", "state": "COOLING", "price": 8.82, "tp": 0.5709968498893745, "note": "pace 0.6x off peak 3.4x"}
 {"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "CHURN", "state": "RUNNING", "price": 113.74, "tp": 6.713445609549913, "note": "sustained 6.7x"}
 {"ts": "2026-09-15T12:00:10.689746-04:00", "demo": 0, "ticker": "IEMG", "prev_state": "CHURN", "state": "RUNNING", "price": 79.985, "tp": 7.535563073775568, "note": "sustained 7.5x"}
+{"ts": "2026-09-15T12:01:40.677971-04:00", "demo": 0, "ticker": "G", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Genpact Wins in the Inaugural 2026 HFS Services-as-Software Awards"}
+{"ts": "2026-09-15T12:01:40.677971-04:00", "demo": 0, "ticker": "ADSK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Autodesk Advances Agentic AI in Its Three Industry Clouds"}
