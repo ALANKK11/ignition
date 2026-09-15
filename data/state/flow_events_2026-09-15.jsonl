@@ -148,3 +148,4 @@
 {"ts": "2026-09-15T12:22:40.693878-04:00", "demo": 0, "ticker": "BTC", "prev_state": "RUNNING", "state": "COOLING", "price": 33.78, "tp": 1.0381146116423932, "note": "pace 1.0x off peak 4.5x"}
 {"ts": "2026-09-15T12:22:40.693878-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.625, "tp": 11.73507151463062, "note": "pace 11.7x and accelerating (1.9x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-09-15T12:22:40.693878-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "COOLING", "price": 47.93, "tp": 1.3844945991899444, "note": "pace 1.4x off peak 5.0x"}
+{"ts": "2026-09-15T12:24:10.682463-04:00", "demo": 0, "ticker": "BLX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Bladex Structures USD 1.0 Billion Loan for the Republic of Panama"}
