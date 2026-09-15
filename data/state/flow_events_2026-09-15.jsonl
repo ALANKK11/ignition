@@ -15,3 +15,7 @@
 {"ts": "2026-09-15T11:30:10.682636-04:00", "demo": 0, "ticker": "CTKB", "prev_state": "QUIET", "state": "COOLING", "price": 4.93, "tp": 0.8655707371190186, "note": "pace 0.9x off peak 1.9x"}
 {"ts": "2026-09-15T11:30:10.682636-04:00", "demo": 0, "ticker": "FIP", "prev_state": "RUNNING", "state": "QUIET", "price": 2.83, "tp": 1.6415055515472277, "note": ""}
 {"ts": "2026-09-15T11:30:10.682636-04:00", "demo": 0, "ticker": "VRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.8, "tp": 19.9911535682076, "note": "sustained 20.0x"}
+{"ts": "2026-09-15T11:33:55.683443-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.75, "tp": 3.4427225981419776, "note": "pace 3.4x and accelerating (2.0x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-15T11:33:55.683443-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "QUIET", "state": "COOLING", "price": 1.155, "tp": 0.8311129522120276, "note": "pace 0.8x off peak 2.0x"}
+{"ts": "2026-09-15T11:33:55.683443-04:00", "demo": 0, "ticker": "FIP", "prev_state": "QUIET", "state": "RUNNING", "price": 2.81, "tp": 2.28032395167342, "note": "sustained 2.3x"}
+{"ts": "2026-09-15T11:33:55.683443-04:00", "demo": 0, "ticker": "CLSE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 34.05, "tp": 2.2820935451722355, "note": "quiet open (0.5x) \u2192 now 2.3x \u00b7 taking +0.2% flow share"}
