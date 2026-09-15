@@ -264,3 +264,18 @@
 {"ts": "2026-09-15T15:51:56.456476-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "COOLING", "state": "CHURN", "price": 25.06, "tp": 6.0534771977295145, "note": "6.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-15T15:51:56.456476-04:00", "demo": 0, "ticker": "URG", "prev_state": "IGNITING", "state": "COOLING", "price": 1.23, "tp": 0.28231538881990065, "note": "pace 0.3x off peak 5.7x"}
 {"ts": "2026-09-15T15:52:41.442686-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Datavault AI Inc. Deadline: DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "BST", "prev_state": "COOLING", "state": "RUNNING", "price": 47.32, "tp": 10.499620087506669, "note": "sustained 10.5x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "COOLING", "state": "RUNNING", "price": 12.92, "tp": 1.846179157945389, "note": "sustained 1.8x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.17, "tp": 3.2764265553146488, "note": "sustained 3.3x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "CTKB", "prev_state": "COOLING", "state": "QUIET", "price": 4.855, "tp": 1.7820776772014104, "note": ""}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "CHGX", "prev_state": "RUNNING", "state": "COOLING", "price": 32.8, "tp": 0.0, "note": "pace 0.0x off peak 42.6x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "RUNNING", "state": "COOLING", "price": 19.41, "tp": 1.6255629679061492, "note": "pace 1.6x off peak 2.7x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "FIP", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.89, "tp": 3.620735060477351, "note": "sustained 3.6x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "ENVA", "prev_state": "RUNNING", "state": "COOLING", "price": 172.14, "tp": 1.4265282350274606, "note": "pace 1.4x off peak 12.6x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "COOLING", "price": 27.2, "tp": 1.6043524509911125, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "IVR", "prev_state": "RUNNING", "state": "COOLING", "price": 6.555, "tp": 1.0629384754355882, "note": "pace 1.1x off peak 3.7x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "COOLING", "state": "RUNNING", "price": 28.045, "tp": 1.8605488813951185, "note": "sustained 1.9x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "SLDE", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 26.45, "tp": 3.432586154674757, "note": "quiet open (1.0x) \u2192 now 3.4x \u00b7 taking +1.2% flow share"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "STIM", "prev_state": "RUNNING", "state": "COOLING", "price": 2.81, "tp": 0.744683495216434, "note": "pace 0.7x off peak 2.3x"}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "TSLX", "prev_state": "COOLING", "state": "QUIET", "price": 17.85, "tp": 1.7702291231083902, "note": ""}
+{"ts": "2026-09-15T15:54:56.456388-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "CHURN", "state": "RUNNING", "price": 25.06, "tp": 2.055525128239389, "note": "sustained 2.1x"}
