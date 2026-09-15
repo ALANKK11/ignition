@@ -210,3 +210,14 @@
 {"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "BITU", "prev_state": "CHURN", "state": "RUNNING", "price": 12.83, "tp": 4.096401403932049, "note": "sustained 4.1x"}
 {"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "DMRA", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.39, "tp": 3.6175427162017817, "note": "sustained 3.6x"}
 {"ts": "2026-09-15T12:41:25.697786-04:00", "demo": 0, "ticker": "CRVS", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.72, "tp": 17.358290078798742, "note": "sustained 17.4x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "FNDA", "prev_state": "RUNNING", "state": "COOLING", "price": 35.98, "tp": 0.16578078741286903, "note": "pace 0.2x off peak 5.6x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "ALLY", "prev_state": "RUNNING", "state": "COOLING", "price": 40.72, "tp": 1.3182019141212988, "note": "pace 1.3x off peak 7.1x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "BOOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 128.57, "tp": 10.405192229908302, "note": "sustained 10.4x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "ECVT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.605, "tp": 1.487530640268273, "note": "pace 1.5x off peak 2.4x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "QUIET", "state": "COOLING", "price": 19.85, "tp": 0.9109851602927186, "note": "pace 0.9x off peak 2.1x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "ACT", "prev_state": "COOLING", "state": "RUNNING", "price": 48.15, "tp": 2.1216142625944667, "note": "sustained 2.1x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "NTSK", "prev_state": "CHURN", "state": "RUNNING", "price": 17.565, "tp": 4.629979311982139, "note": "sustained 4.6x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.135, "tp": 4.694516822758967, "note": "sustained 4.7x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "CRDF", "prev_state": "FADING", "state": "LEAVING", "price": 1.43, "tp": 1.6412975208726648, "note": "pace 1.6x off peak 31.3x \u00b7 VWAP lost (was +4.8% above)"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "DMRA", "prev_state": "RUNNING", "state": "COOLING", "price": 25.26, "tp": 1.6039756610039846, "note": "pace 1.6x off peak 5.0x"}
+{"ts": "2026-09-15T12:45:10.698607-04:00", "demo": 0, "ticker": "EVLV", "prev_state": "RUNNING", "state": "COOLING", "price": 5.12, "tp": 1.6046470958546246, "note": "pace 1.6x off peak 4.6x"}
