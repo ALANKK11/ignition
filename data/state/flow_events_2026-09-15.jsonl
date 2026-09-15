@@ -65,3 +65,15 @@
 {"ts": "2026-09-15T11:52:40.688197-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.535, "tp": 4.895341231459085, "note": "pace 4.9x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-09-15T11:52:40.688197-04:00", "demo": 0, "ticker": "EWX", "prev_state": "QUIET", "state": "RUNNING", "price": 70.89, "tp": 5.69319916990019, "note": "sustained 5.7x"}
 {"ts": "2026-09-15T11:52:40.688197-04:00", "demo": 0, "ticker": "FENY", "prev_state": "QUIET", "state": "RUNNING", "price": 36.37, "tp": 2.7725111951302273, "note": "sustained 2.8x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.985, "tp": 0.0, "note": "pace 0.0x off peak 2.3x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "ENVA", "prev_state": "COOLING", "state": "RUNNING", "price": 169.24, "tp": 2.817150251479703, "note": "sustained 2.8x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.55, "tp": 6.922251320251843, "note": "sustained 6.9x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "IEMG", "prev_state": "RUNNING", "state": "CHURN", "price": 80.09, "tp": 8.49697765759741, "note": "8.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "QUIET", "state": "RUNNING", "price": 25.07, "tp": 1.9798416661730405, "note": "sustained 2.0x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.65, "tp": 3.303737856395874, "note": "sustained 3.3x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "ASND", "prev_state": "COOLING", "state": "RUNNING", "price": 231.25, "tp": 1.9541855265709824, "note": "sustained 2.0x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "MEAR", "prev_state": "RUNNING", "state": "FADING", "price": 49.94, "tp": 0.0, "note": "pace 0.0x vs peak 12.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "MFSI", "prev_state": "QUIET", "state": "RUNNING", "price": 32.905, "tp": 18.435772209674898, "note": "sustained 18.4x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "MNR", "prev_state": "CHURN", "state": "RUNNING", "price": 11.28, "tp": 9.814911084785974, "note": "sustained 9.8x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "FPS", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.48, "tp": 3.75442343938033, "note": "sustained 3.8x"}
+{"ts": "2026-09-15T11:56:25.689382-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "CHURN", "state": "RUNNING", "price": 2.69, "tp": 61.5172717023811, "note": "sustained 61.5x"}
