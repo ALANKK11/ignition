@@ -122,3 +122,14 @@
 {"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "EVLV", "prev_state": "RUNNING", "state": "COOLING", "price": 5.105, "tp": 1.5916742557267163, "note": "pace 1.6x off peak 3.9x"}
 {"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "RUNNING", "state": "COOLING", "price": 25.06, "tp": 1.5167684752964812, "note": "pace 1.5x off peak 3.1x"}
 {"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "FADING", "state": "CHURN", "price": 2.69, "tp": 82.06124401749226, "note": "82.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "EVLV", "prev_state": "COOLING", "state": "RUNNING", "price": 5.1, "tp": 2.3874360137874593, "note": "sustained 2.4x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "RUNNING", "state": "CHURN", "price": 20.335, "tp": 8.469478404584695, "note": "8.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "COOLING", "state": "RUNNING", "price": 25.06, "tp": 2.4650311726191325, "note": "sustained 2.5x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "FIP", "prev_state": "IGNITING", "state": "COOLING", "price": 2.8, "tp": 1.6136024941766136, "note": "pace 1.6x off peak 5.0x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "APLX", "prev_state": "RUNNING", "state": "COOLING", "price": 6.715, "tp": 1.3259459394355588, "note": "pace 1.3x off peak 5.3x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "DIHP", "prev_state": "RUNNING", "state": "COOLING", "price": 34.265, "tp": 1.7791326476573557, "note": "pace 1.8x off peak 3.0x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "RUNNING", "state": "CHURN", "price": 113.68, "tp": 9.052097087779886, "note": "9.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "ARKB", "prev_state": "RUNNING", "state": "COOLING", "price": 25.34, "tp": 0.4947149504597741, "note": "pace 0.5x off peak 3.6x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "CRBP", "prev_state": "LEAVING", "state": "IGNITING", "price": 6.42, "tp": 4.136358979901464, "note": "pace 4.1x and accelerating (2.3x vs prior window) \u00b7 -2.7% in window"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "DSGN", "prev_state": "QUIET", "state": "RUNNING", "price": 12.43, "tp": 1.8695078582851006, "note": "sustained 1.9x"}
+{"ts": "2026-09-15T12:18:55.693889-04:00", "demo": 0, "ticker": "DMRA", "prev_state": "RUNNING", "state": "COOLING", "price": 25.01, "tp": 1.7836053474623732, "note": "pace 1.8x off peak 3.5x"}
