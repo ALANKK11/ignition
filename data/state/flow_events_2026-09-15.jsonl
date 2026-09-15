@@ -113,3 +113,12 @@
 {"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "NTSK", "prev_state": "QUIET", "state": "RUNNING", "price": 17.475, "tp": 1.8885526863585855, "note": "sustained 1.9x"}
 {"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "QUIET", "state": "RUNNING", "price": 20.32, "tp": 2.1390381224305828, "note": "sustained 2.1x"}
 {"ts": "2026-09-15T12:11:25.691986-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 28.98, "tp": 2.5933787011451686, "note": "quiet open (0.5x) \u2192 now 2.6x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "TSLX", "prev_state": "QUIET", "state": "RUNNING", "price": 17.825, "tp": 2.1337297655402705, "note": "sustained 2.1x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "ELMT", "prev_state": "QUIET", "state": "RUNNING", "price": 19.49, "tp": 2.115216087867923, "note": "sustained 2.1x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "ECVT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.615, "tp": 1.4293222286937728, "note": "pace 1.4x off peak 2.4x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "CRUX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 28.98, "tp": 0.0, "note": "pace 0.0x off peak 2.7x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "ASND", "prev_state": "COOLING", "state": "RUNNING", "price": 232.91, "tp": 2.263610730554376, "note": "sustained 2.3x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "BOOT", "prev_state": "COOLING", "state": "RUNNING", "price": 131.37, "tp": 1.931520490718318, "note": "sustained 1.9x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "EVLV", "prev_state": "RUNNING", "state": "COOLING", "price": 5.105, "tp": 1.5916742557267163, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "RUNNING", "state": "COOLING", "price": 25.06, "tp": 1.5167684752964812, "note": "pace 1.5x off peak 3.1x"}
+{"ts": "2026-09-15T12:15:10.692700-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "FADING", "state": "CHURN", "price": 2.69, "tp": 82.06124401749226, "note": "82.1x participation, no progress at highs \u2014 absorption"}
