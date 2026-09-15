@@ -149,3 +149,13 @@
 {"ts": "2026-09-15T12:22:40.693878-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.625, "tp": 11.73507151463062, "note": "pace 11.7x and accelerating (1.9x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-09-15T12:22:40.693878-04:00", "demo": 0, "ticker": "ACT", "prev_state": "RUNNING", "state": "COOLING", "price": 47.93, "tp": 1.3844945991899444, "note": "pace 1.4x off peak 5.0x"}
 {"ts": "2026-09-15T12:24:10.682463-04:00", "demo": 0, "ticker": "BLX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Bladex Structures USD 1.0 Billion Loan for the Republic of Panama"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "TSPY", "prev_state": "COOLING", "state": "RUNNING", "price": 25.06, "tp": 1.8458931086192376, "note": "sustained 1.8x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "BOOT", "prev_state": "COOLING", "state": "RUNNING", "price": 131.43, "tp": 2.3592983518684525, "note": "sustained 2.4x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "COOLING", "state": "RUNNING", "price": 1.125, "tp": 2.4695700986693154, "note": "sustained 2.5x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "IGNITING", "price": 25.24, "tp": 4.835775600490528, "note": "pace 4.8x and accelerating (1.8x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "GNR", "prev_state": "RUNNING", "state": "FADING", "price": 78.275, "tp": 0.0, "note": "pace 0.0x vs peak 5.3x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "FIP", "prev_state": "COOLING", "state": "RUNNING", "price": 2.795, "tp": 2.0234119736753797, "note": "sustained 2.0x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "ACT", "prev_state": "COOLING", "state": "RUNNING", "price": 48.025, "tp": 2.968595879968805, "note": "sustained 3.0x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "TSLX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.805, "tp": 0.43593194885305037, "note": "pace 0.4x off peak 2.3x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "CRDF", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.48, "tp": 20.914481772263247, "note": "sustained 20.9x"}
+{"ts": "2026-09-15T12:26:25.695022-04:00", "demo": 0, "ticker": "EWX", "prev_state": "COOLING", "state": "RUNNING", "price": 70.88, "tp": 7.319343972035471, "note": "sustained 7.3x"}
