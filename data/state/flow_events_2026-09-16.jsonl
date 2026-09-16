@@ -215,3 +215,9 @@
 {"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "COOLING", "state": "RUNNING", "price": 67.32, "tp": 1.8918165401052796, "note": "sustained 1.9x"}
 {"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "CHURN", "state": "RUNNING", "price": 20.77, "tp": 6.140770418333774, "note": "sustained 6.1x"}
 {"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "GBIL", "prev_state": "CHURN", "state": "FADING", "price": 99.995, "tp": 0.4931367007620798, "note": "pace 0.5x vs peak 5.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "CYPH", "prev_state": "QUIET", "state": "RUNNING", "price": 2.545, "tp": 1.8958111863784517, "note": "sustained 1.9x"}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "CMDY", "prev_state": "RUNNING", "state": "COOLING", "price": 65.49, "tp": 0.0, "note": "pace 0.0x off peak 11.6x"}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "PRCT", "prev_state": "RUNNING", "state": "QUIET", "price": 19.46, "tp": 1.4231199150214202, "note": ""}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "RUNNING", "state": "CHURN", "price": 5.425, "tp": 3.7820032471165157, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "SWMR", "prev_state": "FADING", "state": "IGNITING", "price": 25.48, "tp": 10.362570597557252, "note": "pace 10.4x and accelerating (51.4x vs prior window) \u00b7 +5.2% in window"}
+{"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "KMTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.91, "tp": 8.429244117761652, "note": "sustained 8.4x"}
