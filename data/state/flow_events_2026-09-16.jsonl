@@ -45,3 +45,9 @@
 {"ts": "2026-09-16T11:37:27.198493-04:00", "demo": 0, "ticker": "KNX", "prev_state": "RUNNING", "state": "CHURN", "price": 65.955, "tp": 10.717215535585645, "note": "10.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-16T11:37:27.198493-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "COOLING", "state": "RUNNING", "price": 11.375, "tp": 1.8295238839999737, "note": "sustained 1.8x"}
 {"ts": "2026-09-16T11:37:27.198493-04:00", "demo": 0, "ticker": "REM", "prev_state": "RUNNING", "state": "CHURN", "price": 19.94, "tp": 5.751483418741097, "note": "5.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "PALI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.875, "tp": 4.633700929616636, "note": "pace 4.6x and accelerating (1.9x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.22, "tp": 4.177954619161586, "note": "pace 4.2x and accelerating (1.9x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.435, "tp": 5.592510938305268, "note": "pace 5.6x and accelerating (2.2x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "KNX", "prev_state": "CHURN", "state": "RUNNING", "price": 65.93, "tp": 10.279911398278214, "note": "sustained 10.3x"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.33, "tp": 1.8442193651331535, "note": "sustained 1.8x"}
+{"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "REM", "prev_state": "CHURN", "state": "RUNNING", "price": 19.94, "tp": 5.622408500268474, "note": "sustained 5.6x"}
