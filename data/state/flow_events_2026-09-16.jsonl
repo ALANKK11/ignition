@@ -8,3 +8,9 @@
 {"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "ZTG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.14, "tp": 24.66471455995717, "note": "sustained 24.7x"}
 {"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "QUIET", "state": "RUNNING", "price": 8.15, "tp": 2.071834072057306, "note": "sustained 2.1x"}
 {"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "RUNNING", "state": "FADING", "price": 7.78, "tp": 0.0, "note": "pace 0.0x vs peak 2.7x \u00b7 -19.6% off HOD \u00b7 chart still +37% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "LUXE", "prev_state": "RUNNING", "state": "CHURN", "price": 8.91, "tp": 6.386284720869972, "note": "6.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "MRLN", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.315, "tp": 13.760457248180124, "note": "sustained 13.8x"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "QUIET", "state": "COOLING", "price": 11.47, "tp": 0.4675394541940676, "note": "pace 0.5x off peak 2.0x"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.025, "tp": 3.077121352109428, "note": "pace 3.1x and accelerating (2.5x vs prior window) \u00b7 +1.7% in window"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "QCLS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.8017, "tp": 123.98063442559457, "note": "pace 124.0x and accelerating (3.9x vs prior window) \u00b7 +17.5% in window"}
+{"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "SCIO", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.24, "tp": 1167.9804839798267, "note": "pace 1168.0x and accelerating (938.0x vs prior window) \u00b7 -0.4% in window"}
