@@ -31,3 +31,6 @@
 {"ts": "2026-09-16T11:31:27.197166-04:00", "demo": 0, "ticker": "SCIO", "prev_state": "CHURN", "state": "RUNNING", "price": 20.24, "tp": 85.30433088066623, "note": "sustained 85.3x"}
 {"ts": "2026-09-16T11:31:27.197166-04:00", "demo": 0, "ticker": "HUN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.3, "tp": 4.464950743836511, "note": "sustained 4.5x"}
 {"ts": "2026-09-16T11:31:27.197166-04:00", "demo": 0, "ticker": "SNYR", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.169, "tp": 99.77069218566355, "note": "pace 99.8x and accelerating (3.9x vs prior window) \u00b7 +5.6% in window"}
+{"ts": "2026-09-16T11:34:27.198133-04:00", "demo": 0, "ticker": "SRRK", "prev_state": "QUIET", "state": "RUNNING", "price": 49.83, "tp": 2.0180104937995935, "note": "sustained 2.0x"}
+{"ts": "2026-09-16T11:34:27.198133-04:00", "demo": 0, "ticker": "REM", "prev_state": "QUIET", "state": "RUNNING", "price": 19.925, "tp": 3.3535943649395485, "note": "sustained 3.4x"}
+{"ts": "2026-09-16T11:34:27.198133-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "COOLING", "state": "RUNNING", "price": 8.07, "tp": 2.5614113798640283, "note": "sustained 2.6x"}
