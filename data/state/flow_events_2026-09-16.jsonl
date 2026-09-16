@@ -1,1 +1,10 @@
 {"ts": "2026-09-16T11:16:27.180468-04:00", "demo": 0, "ticker": "HOG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HARLEY-DAVIDSON\u00ae AND REALTREE\u00ae DROP SECOND LIMITED-EDITION COLLABORATION"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "RUNNING", "state": "QUIET", "price": 11.47, "tp": 1.7102350720366541, "note": ""}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "COOLING", "price": 10.83, "tp": 1.1631726338531867, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "MRLN", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.325, "tp": 14.97493086917197, "note": "pace 15.0x and accelerating (1.7x vs prior window) \u00b7 -1.7% in window"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "PTY", "prev_state": "QUIET", "state": "RUNNING", "price": 11.28, "tp": 1.8827476586843643, "note": "sustained 1.9x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "PALI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.91, "tp": 10.236518568929531, "note": "sustained 10.2x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "QUIET", "state": "RUNNING", "price": 20.25, "tp": 2.1259641621664636, "note": "sustained 2.1x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "ZTG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.14, "tp": 24.66471455995717, "note": "sustained 24.7x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "QUIET", "state": "RUNNING", "price": 8.15, "tp": 2.071834072057306, "note": "sustained 2.1x"}
+{"ts": "2026-09-16T11:19:27.194120-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "RUNNING", "state": "FADING", "price": 7.78, "tp": 0.0, "note": "pace 0.0x vs peak 2.7x \u00b7 -19.6% off HOD \u00b7 chart still +37% \u2014 crowd buying a cooled tape"}
