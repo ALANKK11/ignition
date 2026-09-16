@@ -281,3 +281,10 @@
 {"ts": "2026-09-16T12:37:27.209882-04:00", "demo": 0, "ticker": "SRRK", "prev_state": "RUNNING", "state": "COOLING", "price": 49.495, "tp": 1.4756144523718275, "note": "pace 1.5x off peak 6.0x"}
 {"ts": "2026-09-16T12:37:27.209882-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "RUNNING", "state": "CHURN", "price": 5.425, "tp": 5.130318612475583, "note": "5.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-16T12:37:27.209882-04:00", "demo": 0, "ticker": "PALI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.88, "tp": 6.624590664488882, "note": "sustained 6.6x"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "PALI", "prev_state": "RUNNING", "state": "COOLING", "price": 1.88, "tp": 1.1957459879481425, "note": "pace 1.2x off peak 22.2x"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "AXON", "prev_state": "RUNNING", "state": "CHURN", "price": 466.13, "tp": 4.369907507929648, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "CONY", "prev_state": "RUNNING", "state": "COOLING", "price": 18.67, "tp": 1.4904559773246224, "note": "pace 1.5x off peak 4.2x"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "CHURN", "state": "IGNITING", "price": 5.445, "tp": 9.14759098906279, "note": "pace 9.1x and accelerating (2.4x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "IGNITING", "state": "COOLING", "price": 11.46, "tp": 1.5099247460937342, "note": "pace 1.5x off peak 3.7x"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "NXDR", "prev_state": "QUIET", "state": "COOLING", "price": 2.46, "tp": 0.8939346624924239, "note": "pace 0.9x off peak 1.9x"}
+{"ts": "2026-09-16T12:40:27.210548-04:00", "demo": 0, "ticker": "SRRK", "prev_state": "COOLING", "state": "RUNNING", "price": 49.44, "tp": 4.638383840403222, "note": "sustained 4.6x"}
