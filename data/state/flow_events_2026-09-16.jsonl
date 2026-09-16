@@ -14,3 +14,7 @@
 {"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.025, "tp": 3.077121352109428, "note": "pace 3.1x and accelerating (2.5x vs prior window) \u00b7 +1.7% in window"}
 {"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "QCLS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.8017, "tp": 123.98063442559457, "note": "pace 124.0x and accelerating (3.9x vs prior window) \u00b7 +17.5% in window"}
 {"ts": "2026-09-16T11:22:27.194748-04:00", "demo": 0, "ticker": "SCIO", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.24, "tp": 1167.9804839798267, "note": "pace 1168.0x and accelerating (938.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "IGNITING", "state": "COOLING", "price": 7.025, "tp": 1.4549220125183526, "note": "pace 1.5x off peak 3.1x"}
+{"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "TLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.055, "tp": 9.889821019531015, "note": "sustained 9.9x"}
+{"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "LUXE", "prev_state": "CHURN", "state": "RUNNING", "price": 8.98, "tp": 8.454798421118138, "note": "sustained 8.5x"}
+{"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "PDSB", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.98, "tp": 11.756397782641445, "note": "pace 11.8x and accelerating (2.1x vs prior window) \u00b7 +16.3% in window"}
