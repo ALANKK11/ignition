@@ -203,3 +203,15 @@
 {"ts": "2026-09-16T12:16:27.206033-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "COOLING", "state": "RUNNING", "price": 17.74, "tp": 2.0358322140443117, "note": "sustained 2.0x"}
 {"ts": "2026-09-16T12:16:27.206033-04:00", "demo": 0, "ticker": "BENF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.84, "tp": 354.4954196901539, "note": "pace 354.5x and accelerating (2.0x vs prior window) \u00b7 -12.6% in window"}
 {"ts": "2026-09-16T12:16:27.206033-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "FADING", "state": "COOLING", "price": 8.14, "tp": 0.6098615429412363, "note": "pace 0.6x off peak 2.9x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "COOLING", "state": "RUNNING", "price": 9.235, "tp": 2.184898928668236, "note": "sustained 2.2x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "AXON", "prev_state": "RUNNING", "state": "IGNITING", "price": 465.705, "tp": 4.0045440709281745, "note": "pace 4.0x and accelerating (1.9x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.08, "tp": 11.465759334264247, "note": "pace 11.5x and accelerating (3.3x vs prior window) \u00b7 +3.3% in window"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "TAN", "prev_state": "COOLING", "state": "RUNNING", "price": 45.13, "tp": 1.9683352151293019, "note": "sustained 2.0x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "FADING", "state": "RUNNING", "price": 13.5, "tp": 2.7849326877668865, "note": "sustained 2.8x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "PRCT", "prev_state": "QUIET", "state": "RUNNING", "price": 19.48, "tp": 1.8368171563522138, "note": "sustained 1.8x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "BENF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.84, "tp": 158.26653962808308, "note": "sustained 158.3x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.55, "tp": 3.0504287905382745, "note": "pace 3.1x and accelerating (17.1x vs prior window) \u00b7 -4.1% in window"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "PALI", "prev_state": "COOLING", "state": "RUNNING", "price": 1.89, "tp": 2.366595746925793, "note": "sustained 2.4x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "COOLING", "state": "RUNNING", "price": 67.32, "tp": 1.8918165401052796, "note": "sustained 1.9x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "CHURN", "state": "RUNNING", "price": 20.77, "tp": 6.140770418333774, "note": "sustained 6.1x"}
+{"ts": "2026-09-16T12:19:27.206685-04:00", "demo": 0, "ticker": "GBIL", "prev_state": "CHURN", "state": "FADING", "price": 99.995, "tp": 0.4931367007620798, "note": "pace 0.5x vs peak 5.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
