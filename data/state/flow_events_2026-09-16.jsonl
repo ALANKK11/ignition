@@ -18,3 +18,8 @@
 {"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "TLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.055, "tp": 9.889821019531015, "note": "sustained 9.9x"}
 {"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "LUXE", "prev_state": "CHURN", "state": "RUNNING", "price": 8.98, "tp": 8.454798421118138, "note": "sustained 8.5x"}
 {"ts": "2026-09-16T11:25:27.195481-04:00", "demo": 0, "ticker": "PDSB", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.98, "tp": 11.756397782641445, "note": "pace 11.8x and accelerating (2.1x vs prior window) \u00b7 +16.3% in window"}
+{"ts": "2026-09-16T11:28:27.196305-04:00", "demo": 0, "ticker": "TAN", "prev_state": "QUIET", "state": "RUNNING", "price": 45.23, "tp": 3.288473384251552, "note": "sustained 3.3x"}
+{"ts": "2026-09-16T11:28:27.196305-04:00", "demo": 0, "ticker": "SCIO", "prev_state": "IGNITING", "state": "CHURN", "price": 20.24, "tp": 169.04498152878742, "note": "169.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T11:28:27.196305-04:00", "demo": 0, "ticker": "PALI", "prev_state": "RUNNING", "state": "COOLING", "price": 1.9, "tp": 1.7802411092355688, "note": "pace 1.8x off peak 22.2x"}
+{"ts": "2026-09-16T11:28:27.196305-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "RUNNING", "state": "COOLING", "price": 8.11, "tp": 0.610693287247746, "note": "pace 0.6x off peak 2.4x"}
+{"ts": "2026-09-16T11:28:27.196305-04:00", "demo": 0, "ticker": "TPST", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.03, "tp": 251.33089454935342, "note": "sustained 251.3x"}
