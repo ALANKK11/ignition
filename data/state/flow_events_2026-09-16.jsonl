@@ -51,3 +51,12 @@
 {"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "KNX", "prev_state": "CHURN", "state": "RUNNING", "price": 65.93, "tp": 10.279911398278214, "note": "sustained 10.3x"}
 {"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.33, "tp": 1.8442193651331535, "note": "sustained 1.8x"}
 {"ts": "2026-09-16T11:40:27.199198-04:00", "demo": 0, "ticker": "REM", "prev_state": "CHURN", "state": "RUNNING", "price": 19.94, "tp": 5.622408500268474, "note": "sustained 5.6x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.425, "tp": 5.61582437906002, "note": "sustained 5.6x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "PTY", "prev_state": "RUNNING", "state": "COOLING", "price": 11.31, "tp": 1.4263208614212461, "note": "pace 1.4x off peak 3.5x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "TAN", "prev_state": "RUNNING", "state": "FADING", "price": 45.19, "tp": 0.8007284626455043, "note": "pace 0.8x vs peak 3.3x \u00b7 -1.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "QDEL", "prev_state": "QUIET", "state": "RUNNING", "price": 10.965, "tp": 2.415980848167025, "note": "sustained 2.4x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.265, "tp": 4.2352295154978234, "note": "sustained 4.2x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "CHGX", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 33.01, "tp": 3.268064306405019, "note": "sustained 3.3x"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.05, "tp": 2.882892936112127, "note": "pace 2.9x and accelerating (4.7x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "KNX", "prev_state": "RUNNING", "state": "CHURN", "price": 65.91, "tp": 9.248782896457561, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T11:43:27.199826-04:00", "demo": 0, "ticker": "SRRK", "prev_state": "RUNNING", "state": "COOLING", "price": 49.845, "tp": 1.6384613810337723, "note": "pace 1.6x off peak 2.4x"}
