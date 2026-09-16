@@ -101,3 +101,14 @@
 {"ts": "2026-09-16T11:52:27.201528-04:00", "demo": 0, "ticker": "FTFT", "prev_state": "RUNNING", "state": "COOLING", "price": 7.94, "tp": 1.753829778196565, "note": "pace 1.8x off peak 2.7x"}
 {"ts": "2026-09-16T11:52:27.201528-04:00", "demo": 0, "ticker": "FENY", "prev_state": "CHURN", "state": "RUNNING", "price": 35.62, "tp": 25.08629771626963, "note": "sustained 25.1x"}
 {"ts": "2026-09-16T11:52:27.201528-04:00", "demo": 0, "ticker": "PALI", "prev_state": "RUNNING", "state": "COOLING", "price": 1.86, "tp": 1.2263971688204938, "note": "pace 1.2x off peak 22.2x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "SRRK", "prev_state": "COOLING", "state": "RUNNING", "price": 49.58, "tp": 1.9499692288396047, "note": "sustained 1.9x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "CMDY", "prev_state": "QUIET", "state": "RUNNING", "price": 65.4, "tp": 1.8917494167809261, "note": "sustained 1.9x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "CRCA", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.52, "tp": 6.1953146254563505, "note": "pace 6.2x and accelerating (3.4x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "COOLING", "state": "RUNNING", "price": 68.2, "tp": 2.1197903352665697, "note": "sustained 2.1x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "QDEL", "prev_state": "RUNNING", "state": "COOLING", "price": 10.925, "tp": 1.5199110195710954, "note": "pace 1.5x off peak 3.4x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "HTRB", "prev_state": "RUNNING", "state": "FADING", "price": 32.81, "tp": 1.3073968235839781, "note": "pace 1.3x vs peak 5.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "ALHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.315, "tp": 9.985444131397754, "note": "sustained 10.0x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "AXON", "prev_state": "QUIET", "state": "RUNNING", "price": 461.13, "tp": 2.01512641503947, "note": "sustained 2.0x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "COOLING", "state": "RUNNING", "price": 8.22, "tp": 2.8963478186504115, "note": "sustained 2.9x"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "KRUS", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 35.32, "tp": 3.282901078728636, "note": "pace 3.3x and accelerating (65.7x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-16T11:55:27.201903-04:00", "demo": 0, "ticker": "FENY", "prev_state": "RUNNING", "state": "CHURN", "price": 35.695, "tp": 27.384699921595466, "note": "27.4x participation, no progress at highs \u2014 absorption"}
