@@ -221,3 +221,14 @@
 {"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "RUNNING", "state": "CHURN", "price": 5.425, "tp": 3.7820032471165157, "note": "3.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "SWMR", "prev_state": "FADING", "state": "IGNITING", "price": 25.48, "tp": 10.362570597557252, "note": "pace 10.4x and accelerating (51.4x vs prior window) \u00b7 +5.2% in window"}
 {"ts": "2026-09-16T12:22:27.207134-04:00", "demo": 0, "ticker": "KMTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.91, "tp": 8.429244117761652, "note": "sustained 8.4x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "AXON", "prev_state": "IGNITING", "state": "RUNNING", "price": 465.59, "tp": 3.000900706917877, "note": "sustained 3.0x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "HUN", "prev_state": "RUNNING", "state": "CHURN", "price": 9.3, "tp": 6.473359424825621, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "ALVO", "prev_state": "CHURN", "state": "RUNNING", "price": 5.415, "tp": 3.748509881986391, "note": "sustained 3.7x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "ARWR", "prev_state": "RUNNING", "state": "IGNITING", "price": 67.25, "tp": 3.7269911329508885, "note": "pace 3.7x and accelerating (3.1x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "RUNNING", "state": "QUIET", "price": 6.34, "tp": 1.7628717206078386, "note": ""}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "WLTH", "prev_state": "QUIET", "state": "RUNNING", "price": 10.28, "tp": 2.0286840732730176, "note": "sustained 2.0x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "PALI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.89, "tp": 8.544363399031123, "note": "pace 8.5x and accelerating (11.1x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "RUNNING", "state": "COOLING", "price": 17.74, "tp": 1.2964101995423338, "note": "pace 1.3x off peak 2.8x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "PRCT", "prev_state": "QUIET", "state": "COOLING", "price": 19.38, "tp": 1.0587139326907797, "note": "pace 1.1x off peak 1.8x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "COOLING", "state": "RUNNING", "price": 11.4, "tp": 2.6045410952711454, "note": "sustained 2.6x"}
+{"ts": "2026-09-16T12:25:27.207690-04:00", "demo": 0, "ticker": "BENF", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.835, "tp": 182.92626624543306, "note": "pace 182.9x off peak 354.5x \u00b7 VWAP lost (was +24.6% above)"}
