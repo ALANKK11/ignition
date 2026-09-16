@@ -389,3 +389,4 @@
 {"ts": "2026-09-16T15:57:45.932620-04:00", "demo": 0, "ticker": "ELVN", "prev_state": "RUNNING", "state": "COOLING", "price": 49.055, "tp": 1.539146549513818, "note": "pace 1.5x off peak 9.6x"}
 {"ts": "2026-09-16T15:57:45.932620-04:00", "demo": 0, "ticker": "HLIT", "prev_state": "RUNNING", "state": "COOLING", "price": 11.19, "tp": 1.549393563834979, "note": "pace 1.5x off peak 3.7x"}
 {"ts": "2026-09-16T15:57:45.932620-04:00", "demo": 0, "ticker": "AXON", "prev_state": "FADING", "state": "CHURN", "price": 468.37, "tp": 3.344130539570764, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-16T16:11:15.920355-04:00", "demo": 0, "ticker": "FHN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "First Horizon Bank's Jimmy Dunn and Mary Lakey Receive 2026 New Orleans CityBusiness Leadership Awards"}
