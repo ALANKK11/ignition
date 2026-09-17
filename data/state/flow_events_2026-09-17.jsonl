@@ -75,3 +75,12 @@
 {"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.925, "tp": 3.8747506581698907, "note": "pace 3.9x and accelerating (1.7x vs prior window) \u00b7 +12.1% in window"}
 {"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "BWIN", "prev_state": "QUIET", "state": "RUNNING", "price": 32.03, "tp": 1.9832688817486388, "note": "sustained 2.0x"}
 {"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "GLWG", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.48, "tp": 54.22019803267216, "note": "pace 54.2x and accelerating (225.3x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "GLOO", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.69, "tp": 56.39312446727967, "note": "pace 56.4x and accelerating (5.0x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "AURA", "prev_state": "RUNNING", "state": "COOLING", "price": 6.68, "tp": 1.2775831500868366, "note": "pace 1.3x off peak 2.5x"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.61, "tp": 26.209830025122912, "note": "sustained 26.2x"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "AYI", "prev_state": "QUIET", "state": "RUNNING", "price": 299.29, "tp": 2.190213679009077, "note": "sustained 2.2x"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "FLNC", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.8, "tp": 3.9075157648274357, "note": "sustained 3.9x"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "BCBP", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.395, "tp": 22.389455060943288, "note": "pace 22.4x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "BWIN", "prev_state": "RUNNING", "state": "QUIET", "price": 32.025, "tp": 1.6392722703792675, "note": ""}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "AGMB", "prev_state": "FADING", "state": "RUNNING", "price": 11.85, "tp": 2.9645176707382377, "note": "sustained 3.0x"}
+{"ts": "2026-09-17T12:00:22.995771-04:00", "demo": 0, "ticker": "FXE", "prev_state": "QUIET", "state": "NEW MONEY", "price": 105.92, "tp": 2.4686849320219237, "note": "quiet open (0.3x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
