@@ -349,3 +349,5 @@
 {"ts": "2026-09-17T15:54:28.784774-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 9.15, "tp": 2.3235948956184855, "note": "sustained 2.3x"}
 {"ts": "2026-09-17T15:54:28.784774-04:00", "demo": 0, "ticker": "RES", "prev_state": "COOLING", "state": "RUNNING", "price": 5.95, "tp": 2.679944990891216, "note": "sustained 2.7x"}
 {"ts": "2026-09-17T15:54:28.784774-04:00", "demo": 0, "ticker": "UVSP", "prev_state": "RUNNING", "state": "COOLING", "price": 42.58, "tp": 1.5143256689466527, "note": "pace 1.5x off peak 4.9x"}
+{"ts": "2026-09-17T15:55:13.770183-04:00", "demo": 0, "ticker": "HCTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare "}
+{"ts": "2026-09-17T15:55:13.770183-04:00", "demo": 0, "ticker": "BNAI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Brand Engagement Network (NASDAQ: BNAI) Reports Filing of Cataneo Financial Statements and Provides Business Update"}
