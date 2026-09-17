@@ -58,3 +58,12 @@
 {"ts": "2026-09-17T11:51:22.994352-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "COOLING", "state": "CHURN", "price": 13.83, "tp": 3.4834632372614185, "note": "3.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-17T11:51:22.994352-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "FADING", "price": 7.69, "tp": 0.6979160981418853, "note": "pace 0.7x vs peak 2.4x \u00b7 -0.4% off HOD \u00b7 chart still +46% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-17T11:51:22.994352-04:00", "demo": 0, "ticker": "AGMB", "prev_state": "RUNNING", "state": "FADING", "price": 11.97, "tp": 0.0, "note": "pace 0.0x vs peak 2.5x \u00b7 -1.3% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "CHURN", "state": "RUNNING", "price": 13.85, "tp": 3.2903790125528314, "note": "sustained 3.3x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.02, "tp": 3.938734525180077, "note": "sustained 3.9x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.985, "tp": 6.728870500522984, "note": "sustained 6.7x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "IP", "prev_state": "RUNNING", "state": "CHURN", "price": 34.755, "tp": 3.083473137924848, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "ELE", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.63, "tp": 4.174736975425587, "note": "sustained 4.2x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "ADPT", "prev_state": "FADING", "state": "RUNNING", "price": 28.45, "tp": 2.334152052997389, "note": "sustained 2.3x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "FADING", "state": "RUNNING", "price": 7.83, "tp": 2.5522706801408823, "note": "sustained 2.6x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "COMB", "prev_state": "QUIET", "state": "RUNNING", "price": 28.69, "tp": 5.966655331044104, "note": "sustained 6.0x"}
+{"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "CRWV", "prev_state": "QUIET", "state": "RUNNING", "price": 80.595, "tp": 1.8795520548752316, "note": "sustained 1.9x"}
