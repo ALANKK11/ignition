@@ -265,3 +265,12 @@
 {"ts": "2026-09-17T12:36:23.002553-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "CHURN", "state": "RUNNING", "price": 83.105, "tp": 24.566616565958306, "note": "sustained 24.6x"}
 {"ts": "2026-09-17T12:36:23.002553-04:00", "demo": 0, "ticker": "SLDB", "prev_state": "CHURN", "state": "RUNNING", "price": 8.835, "tp": 3.8853168071194704, "note": "sustained 3.9x"}
 {"ts": "2026-09-17T12:36:23.002553-04:00", "demo": 0, "ticker": "ADBT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.16, "tp": 6.257764351849635, "note": "pace 6.3x and accelerating (1.8x vs prior window) \u00b7 +4.2% in window"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "ADPT", "prev_state": "RUNNING", "state": "COOLING", "price": 28.12, "tp": 1.7374089815520948, "note": "pace 1.7x off peak 3.1x"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "COOLING", "state": "RUNNING", "price": 116.12, "tp": 2.6542706757313685, "note": "sustained 2.7x"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "AEMD", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.02, "tp": 26.36532941028233, "note": "pace 26.4x and accelerating (2.3x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "RUNNING", "state": "COOLING", "price": 30.43, "tp": 0.0, "note": "pace 0.0x off peak 2.4x"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "RCAT", "prev_state": "IGNITING", "state": "FADING", "price": 7.185, "tp": 0.6350427759210954, "note": "pace 0.6x vs peak 8.5x \u00b7 -2.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "AURA", "prev_state": "COOLING", "state": "RUNNING", "price": 6.625, "tp": 6.04345976172995, "note": "sustained 6.0x"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "CROX", "prev_state": "FADING", "state": "RUNNING", "price": 124.93, "tp": 3.5220180423939635, "note": "sustained 3.5x"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.65, "tp": 13.769482169509866, "note": "pace 13.8x and accelerating (3.8x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-09-17T12:39:23.003295-04:00", "demo": 0, "ticker": "DSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.29, "tp": 3.934042440799755, "note": "pace 3.9x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
