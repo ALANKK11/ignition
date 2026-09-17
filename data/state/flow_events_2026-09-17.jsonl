@@ -133,3 +133,4 @@
 {"ts": "2026-09-17T12:12:22.998017-04:00", "demo": 0, "ticker": "BCBP", "prev_state": "FADING", "state": "RUNNING", "price": 8.455, "tp": 28.68717546069202, "note": "sustained 28.7x"}
 {"ts": "2026-09-17T12:12:22.998017-04:00", "demo": 0, "ticker": "CBRX", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.88, "tp": 3.60650131363308, "note": "pace 3.6x and accelerating (4.0x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-09-17T12:12:22.998017-04:00", "demo": 0, "ticker": "AURA", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.64, "tp": 4.542403582873076, "note": "pace 4.5x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-17T12:13:07.983599-04:00", "demo": 0, "ticker": "COLB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Columbia Bank Names Chris Orr to Lead Trust Sales and Strategic Partnerships for Columbia Private Trust"}
