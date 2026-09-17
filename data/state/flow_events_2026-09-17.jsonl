@@ -10,3 +10,4 @@
 {"ts": "2026-09-17T11:33:22.990212-04:00", "demo": 0, "ticker": "ADBT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1622, "tp": 4.753651114244608, "note": "pace 4.8x and accelerating (2.2x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-09-17T11:33:22.990212-04:00", "demo": 0, "ticker": "FCG", "prev_state": "QUIET", "state": "RUNNING", "price": 30.62, "tp": 1.9983107809618792, "note": "sustained 2.0x"}
 {"ts": "2026-09-17T11:33:22.990212-04:00", "demo": 0, "ticker": "FCPT", "prev_state": "RUNNING", "state": "COOLING", "price": 22.975, "tp": 0.8931269617127513, "note": "pace 0.9x off peak 3.6x"}
+{"ts": "2026-09-17T11:34:07.976235-04:00", "demo": 0, "ticker": "WDAY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Workday Named a Leader in Inaugural 2026 Gartner\u00ae Magic Quadrant\u2122 for Workforce Management Technology"}
