@@ -30,3 +30,8 @@
 {"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "ADBT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.1593, "tp": 4.798925855610664, "note": "sustained 4.8x"}
 {"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "AGMB", "prev_state": "QUIET", "state": "RUNNING", "price": 11.97, "tp": 2.331593982674149, "note": "sustained 2.3x"}
 {"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "COOLING", "state": "RUNNING", "price": 5.0, "tp": 1.9394405926841145, "note": "sustained 1.9x"}
+{"ts": "2026-09-17T11:42:22.992482-04:00", "demo": 0, "ticker": "VSTS", "prev_state": "RUNNING", "state": "COOLING", "price": 13.93, "tp": 0.910804920090957, "note": "pace 0.9x off peak 2.6x"}
+{"ts": "2026-09-17T11:42:22.992482-04:00", "demo": 0, "ticker": "COHH", "prev_state": "RUNNING", "state": "FADING", "price": 5.92, "tp": 0.0, "note": "pace 0.0x vs peak 2.1x \u00b7 -10.3% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-17T11:42:22.992482-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "FADING", "state": "COOLING", "price": 13.835, "tp": 0.7102799567674657, "note": "pace 0.7x off peak 4.5x"}
+{"ts": "2026-09-17T11:42:22.992482-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.99, "tp": 6.718152027410679, "note": "pace 6.7x and accelerating (2.4x vs prior window) \u00b7 +4.6% in window"}
+{"ts": "2026-09-17T11:42:22.992482-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "RUNNING", "state": "QUIET", "price": 26.68, "tp": 1.6279798855228964, "note": ""}
