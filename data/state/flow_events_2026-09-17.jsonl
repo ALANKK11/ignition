@@ -23,3 +23,10 @@
 {"ts": "2026-09-17T11:36:22.990845-04:00", "demo": 0, "ticker": "SDST", "prev_state": "RUNNING", "state": "FADING", "price": 0.3, "tp": 12.223647112798123, "note": "pace 12.2x vs peak 54.8x \u00b7 -15.0% off HOD \u00b7 chart still +88% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-17T11:36:22.990845-04:00", "demo": 0, "ticker": "DTSS", "prev_state": "RUNNING", "state": "LEAVING", "price": 1.49, "tp": 400.8771621283214, "note": "pace 400.9x off peak 956.5x \u00b7 VWAP lost (was +30.6% above)"}
 {"ts": "2026-09-17T11:36:22.990845-04:00", "demo": 0, "ticker": "NVGS", "prev_state": "CHURN", "state": "RUNNING", "price": 25.17, "tp": 2.871890600339922, "note": "sustained 2.9x"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "QUIET", "state": "RUNNING", "price": 26.69, "tp": 1.898359411406681, "note": "sustained 1.9x"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "FCG", "prev_state": "COOLING", "state": "RUNNING", "price": 30.58, "tp": 1.9302643211737875, "note": "sustained 1.9x"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "RUNNING", "state": "FADING", "price": 13.84, "tp": 0.6220074060408949, "note": "pace 0.6x vs peak 4.5x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "PAAI", "prev_state": "RUNNING", "state": "FADING", "price": 2.46, "tp": 58.93261970157569, "note": "pace 58.9x vs peak 409.8x \u00b7 +0.0% off HOD \u00b7 chart still +169% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "ADBT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.1593, "tp": 4.798925855610664, "note": "sustained 4.8x"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "AGMB", "prev_state": "QUIET", "state": "RUNNING", "price": 11.97, "tp": 2.331593982674149, "note": "sustained 2.3x"}
+{"ts": "2026-09-17T11:39:22.991922-04:00", "demo": 0, "ticker": "DAIC", "prev_state": "COOLING", "state": "RUNNING", "price": 5.0, "tp": 1.9394405926841145, "note": "sustained 1.9x"}
