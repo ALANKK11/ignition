@@ -1,2 +1,6 @@
 {"ts": "2026-09-17T11:27:22.988525-04:00", "demo": 0, "ticker": "VSTS", "prev_state": "QUIET", "state": "RUNNING", "price": 13.85, "tp": 2.500986817915151, "note": "sustained 2.5x"}
 {"ts": "2026-09-17T11:27:22.988525-04:00", "demo": 0, "ticker": "BCAX", "prev_state": "QUIET", "state": "RUNNING", "price": 22.525, "tp": 1.9073386760444087, "note": "sustained 1.9x"}
+{"ts": "2026-09-17T11:30:22.989382-04:00", "demo": 0, "ticker": "ADPT", "prev_state": "RUNNING", "state": "COOLING", "price": 28.23, "tp": 1.1905191034561808, "note": "pace 1.2x off peak 2.4x"}
+{"ts": "2026-09-17T11:30:22.989382-04:00", "demo": 0, "ticker": "USDE", "prev_state": "QUIET", "state": "RUNNING", "price": 8.52, "tp": 2.41472461654527, "note": "sustained 2.4x"}
+{"ts": "2026-09-17T11:30:22.989382-04:00", "demo": 0, "ticker": "RES", "prev_state": "RUNNING", "state": "COOLING", "price": 5.955, "tp": 1.1366455472933827, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-09-17T11:30:22.989382-04:00", "demo": 0, "ticker": "SDST", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2934, "tp": 36.54602297066503, "note": "sustained 36.5x"}
