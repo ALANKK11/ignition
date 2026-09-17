@@ -351,3 +351,11 @@
 {"ts": "2026-09-17T15:54:28.784774-04:00", "demo": 0, "ticker": "UVSP", "prev_state": "RUNNING", "state": "COOLING", "price": 42.58, "tp": 1.5143256689466527, "note": "pace 1.5x off peak 4.9x"}
 {"ts": "2026-09-17T15:55:13.770183-04:00", "demo": 0, "ticker": "HCTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare "}
 {"ts": "2026-09-17T15:55:13.770183-04:00", "demo": 0, "ticker": "BNAI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Brand Engagement Network (NASDAQ: BNAI) Reports Filing of Cataneo Financial Statements and Provides Business Update"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.0, "tp": 4.270126151198921, "note": "sustained 4.3x"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "IGNITING", "state": "CHURN", "price": 13.63, "tp": 10.60239134118632, "note": "10.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "AURA", "prev_state": "COOLING", "state": "RUNNING", "price": 6.57, "tp": 2.080450015530585, "note": "sustained 2.1x"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.7, "tp": 3.2561813518401466, "note": "pace 3.3x and accelerating (2.9x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "BCBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.6, "tp": 13.019838139542346, "note": "sustained 13.0x"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "CDX", "prev_state": "QUIET", "state": "RUNNING", "price": 20.5, "tp": 2.1797842929211035, "note": "sustained 2.2x"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "FADING", "state": "COOLING", "price": 13.83, "tp": 0.9685183211120821, "note": "pace 1.0x off peak 4.5x"}
+{"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "IIIV", "prev_state": "FADING", "state": "COOLING", "price": 15.075, "tp": 1.4167971389681513, "note": "pace 1.4x off peak 2.3x"}
