@@ -67,3 +67,11 @@
 {"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "FADING", "state": "RUNNING", "price": 7.83, "tp": 2.5522706801408823, "note": "sustained 2.6x"}
 {"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "COMB", "prev_state": "QUIET", "state": "RUNNING", "price": 28.69, "tp": 5.966655331044104, "note": "sustained 6.0x"}
 {"ts": "2026-09-17T11:54:22.994895-04:00", "demo": 0, "ticker": "CRWV", "prev_state": "QUIET", "state": "RUNNING", "price": 80.595, "tp": 1.8795520548752316, "note": "sustained 1.9x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "IP", "prev_state": "CHURN", "state": "RUNNING", "price": 34.65, "tp": 2.6616809442839906, "note": "sustained 2.7x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "RCAT", "prev_state": "QUIET", "state": "RUNNING", "price": 7.215, "tp": 2.691805671495431, "note": "sustained 2.7x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "COOLING", "state": "RUNNING", "price": 26.64, "tp": 2.1118791803861128, "note": "sustained 2.1x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "PALI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.725, "tp": 5.026787410675628, "note": "sustained 5.0x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "HLN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.205, "tp": 0.2238448109698525, "note": "pace 0.2x off peak 8.1x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.925, "tp": 3.8747506581698907, "note": "pace 3.9x and accelerating (1.7x vs prior window) \u00b7 +12.1% in window"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "BWIN", "prev_state": "QUIET", "state": "RUNNING", "price": 32.03, "tp": 1.9832688817486388, "note": "sustained 2.0x"}
+{"ts": "2026-09-17T11:57:22.995549-04:00", "demo": 0, "ticker": "GLWG", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.48, "tp": 54.22019803267216, "note": "pace 54.2x and accelerating (225.3x vs prior window) \u00b7 +0.8% in window"}
