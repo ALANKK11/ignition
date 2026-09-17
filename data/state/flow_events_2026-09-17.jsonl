@@ -360,3 +360,4 @@
 {"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "TTAM", "prev_state": "FADING", "state": "COOLING", "price": 13.83, "tp": 0.9685183211120821, "note": "pace 1.0x off peak 4.5x"}
 {"ts": "2026-09-17T15:57:28.785192-04:00", "demo": 0, "ticker": "IIIV", "prev_state": "FADING", "state": "COOLING", "price": 15.075, "tp": 1.4167971389681513, "note": "pace 1.4x off peak 2.3x"}
 {"ts": "2026-09-17T16:16:13.787700-04:00", "demo": 0, "ticker": "TCRT", "prev_state": null, "state": "AH IGNITION", "price": 2.08, "tp": null, "note": "+47% on $0.12M ext tape"}
+{"ts": "2026-09-17T17:55:58.793766-04:00", "demo": 0, "ticker": "DOCS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DOCS INVESTOR ALERT: Doximity, Inc. Investors with Substantial Losses Have Opportunity to Lead the Doximity Class Action"}
