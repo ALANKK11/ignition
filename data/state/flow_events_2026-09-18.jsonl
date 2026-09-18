@@ -193,3 +193,7 @@
 {"ts": "2026-09-18T11:50:38.910691-04:00", "demo": 0, "ticker": "AMRX", "prev_state": "QUIET", "state": "IGNITING", "price": 18.475, "tp": 3.182480105850597, "note": "pace 3.2x and accelerating (10.9x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-09-18T11:50:38.910691-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 33.32, "tp": 2.017827893523441, "note": "sustained 2.0x"}
 {"ts": "2026-09-18T11:50:38.910691-04:00", "demo": 0, "ticker": "AVIG", "prev_state": "CHURN", "state": "COOLING", "price": 39.99, "tp": 0.0, "note": "pace 0.0x off peak 10.9x"}
+{"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "COOLING", "state": "FADING", "price": 10.4, "tp": 0.22285251097843511, "note": "pace 0.2x vs peak 2.2x \u00b7 -16.2% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "ELE", "prev_state": "RUNNING", "state": "COOLING", "price": 20.91, "tp": 1.383030139020702, "note": "pace 1.4x off peak 5.1x"}
+{"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "ALC", "prev_state": "FADING", "state": "RUNNING", "price": 65.17, "tp": 6.438668381841292, "note": "sustained 6.4x"}
+{"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.24, "tp": 1.9932861899862555, "note": "sustained 2.0x"}
