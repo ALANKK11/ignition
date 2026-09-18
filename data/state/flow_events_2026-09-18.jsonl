@@ -340,3 +340,13 @@
 {"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "DTD", "prev_state": "RUNNING", "state": "COOLING", "price": 94.9, "tp": 0.0, "note": "pace 0.0x off peak 27.2x"}
 {"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "BITI", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.17, "tp": 4.862394313605933, "note": "sustained 4.9x"}
 {"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "IGNITING", "state": "COOLING", "price": 1.89, "tp": 0.4307382177720042, "note": "pace 0.4x off peak 10.8x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.955, "tp": 6.458171204530031, "note": "sustained 6.5x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "AMRX", "prev_state": "FADING", "state": "RUNNING", "price": 18.295, "tp": 1.922843532452319, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "CORD", "prev_state": "FADING", "state": "COOLING", "price": 3.55, "tp": 0.4861612680764978, "note": "pace 0.5x off peak 9.2x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "BCS", "prev_state": "CHURN", "state": "RUNNING", "price": 24.765, "tp": 3.268639720432914, "note": "sustained 3.3x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "FADING", "state": "RUNNING", "price": 19.05, "tp": 1.8151694455763967, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "COOLING", "state": "CHURN", "price": 6.245, "tp": 2.3776731976336194, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "RUNNING", "state": "COOLING", "price": 1.235, "tp": 1.7160831440175985, "note": "pace 1.7x off peak 2.9x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "BABX", "prev_state": "COOLING", "state": "RUNNING", "price": 18.2, "tp": 1.9745082233843494, "note": "sustained 2.0x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "CCBG", "prev_state": "NEW MONEY", "state": "COOLING", "price": 49.7, "tp": 0.0, "note": "pace 0.0x off peak 22.5x"}
+{"ts": "2026-09-18T12:39:23.920522-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "IGNITING", "state": "FADING", "price": 7.225, "tp": 6.070057970902032, "note": "pace 6.1x vs peak 22.1x \u00b7 -3.2% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
