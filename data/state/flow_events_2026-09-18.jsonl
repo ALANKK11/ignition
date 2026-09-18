@@ -648,3 +648,4 @@
 {"ts": "2026-09-18T15:59:38.406998-04:00", "demo": 0, "ticker": "CRAK", "prev_state": "RUNNING", "state": "COOLING", "price": 65.34, "tp": 1.5639541223356488, "note": "pace 1.6x off peak 5.3x"}
 {"ts": "2026-09-18T15:59:38.406998-04:00", "demo": 0, "ticker": "DNA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 7.865, "tp": 1.9607344507334046, "note": "sustained 2.0x"}
 {"ts": "2026-09-18T15:59:38.406998-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "CHURN", "state": "RUNNING", "price": 15.725, "tp": 2.2492898620577586, "note": "sustained 2.2x"}
+{"ts": "2026-09-18T17:21:23.406734-04:00", "demo": 0, "ticker": "CLSK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CleanSpark, Inc. Announces Pricing of $2.276 Billion of Senior Secured Notes"}
