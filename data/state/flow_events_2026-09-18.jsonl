@@ -218,3 +218,4 @@
 {"ts": "2026-09-18T11:59:38.912273-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "LEAVING", "state": "FADING", "price": 5.575, "tp": 3.3901229940411692, "note": "pace 3.4x vs peak 15.9x \u00b7 -13.2% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T11:59:38.912273-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.1, "tp": 9.463392468059592, "note": "pace 9.5x and accelerating (2.3x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-09-18T11:59:38.912273-04:00", "demo": 0, "ticker": "CERS", "prev_state": "COOLING", "state": "RUNNING", "price": 2.6, "tp": 34.500881174485016, "note": "sustained 34.5x"}
+{"ts": "2026-09-18T12:01:08.897506-04:00", "demo": 0, "ticker": "WCC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Wesco Earns 2026 Great Place To Work Certification\u2122"}
