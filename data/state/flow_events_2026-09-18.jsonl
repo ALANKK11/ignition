@@ -384,3 +384,16 @@
 {"ts": "2026-09-18T12:48:23.922411-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.89, "tp": 2.882457834532121, "note": "sustained 2.9x"}
 {"ts": "2026-09-18T12:48:23.922411-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "COOLING", "price": 24.78, "tp": 1.1684954663331455, "note": "pace 1.2x off peak 11.1x"}
 {"ts": "2026-09-18T12:48:23.922411-04:00", "demo": 0, "ticker": "FCPT", "prev_state": "CHURN", "state": "RUNNING", "price": 22.48, "tp": 2.1442291958572435, "note": "sustained 2.1x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "AMRX", "prev_state": "COOLING", "state": "RUNNING", "price": 18.315, "tp": 2.1178398234538376, "note": "sustained 2.1x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "CDX", "prev_state": "COOLING", "state": "NEW MONEY", "price": 20.455, "tp": 3.7097244739502218, "note": "quiet open (1.3x) \u2192 now 3.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.14, "tp": 7.724043722899586, "note": "sustained 7.7x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "RUNNING", "state": "COOLING", "price": 19.07, "tp": 0.9480482617696282, "note": "pace 0.9x off peak 2.5x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "RUNNING", "state": "COOLING", "price": 19.5, "tp": 0.9094925151342607, "note": "pace 0.9x off peak 12.2x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.49, "tp": 0.40196637397637136, "note": "pace 0.4x off peak 9.0x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "CONL", "prev_state": "RUNNING", "state": "FADING", "price": 6.23, "tp": 1.5118153477056786, "note": "pace 1.5x vs peak 4.8x \u00b7 -2.0% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "FADING", "state": "LEAVING", "price": 5.64, "tp": 1.2900521699402592, "note": "pace 1.3x off peak 15.9x \u00b7 VWAP lost (was +11.8% above)"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "BHK", "prev_state": "CHURN", "state": "RUNNING", "price": 8.49, "tp": 51.371994116564686, "note": "sustained 51.4x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "ASA", "prev_state": "RUNNING", "state": "CHURN", "price": 58.73, "tp": 2.7846774971554367, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "CONY", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.83, "tp": 2.7571741192082544, "note": "sustained 2.8x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "ELE", "prev_state": "RUNNING", "state": "COOLING", "price": 21.11, "tp": 1.6174739872743547, "note": "pace 1.6x off peak 5.1x"}
+{"ts": "2026-09-18T12:51:23.922840-04:00", "demo": 0, "ticker": "BABX", "prev_state": "RUNNING", "state": "COOLING", "price": 18.19, "tp": 1.5469044173186945, "note": "pace 1.5x off peak 2.4x"}
