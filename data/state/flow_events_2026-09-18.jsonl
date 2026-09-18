@@ -331,3 +331,12 @@
 {"ts": "2026-09-18T12:33:23.919269-04:00", "demo": 0, "ticker": "CONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.33, "tp": 2.361790324110385, "note": "sustained 2.4x"}
 {"ts": "2026-09-18T12:33:23.919269-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "CHURN", "price": 24.76, "tp": 3.7478952666132637, "note": "3.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-18T12:33:23.919269-04:00", "demo": 0, "ticker": "BITI", "prev_state": "QUIET", "state": "IGNITING", "price": 18.2, "tp": 4.8308261177671525, "note": "pace 4.8x and accelerating (96.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "BABX", "prev_state": "FADING", "state": "COOLING", "price": 18.2, "tp": 1.7839604638356354, "note": "pace 1.8x off peak 2.4x"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.225, "tp": 19.013086157191342, "note": "pace 19.0x and accelerating (3.9x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "IGNITING", "state": "FADING", "price": 12.0, "tp": 0.8374438452469914, "note": "pace 0.8x vs peak 6.4x \u00b7 -1.0% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "CONI", "prev_state": "RUNNING", "state": "COOLING", "price": 22.45, "tp": 0.0, "note": "pace 0.0x off peak 13.5x"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "LEAVING", "state": "FADING", "price": 5.645, "tp": 1.4583797632461364, "note": "pace 1.5x vs peak 15.9x \u00b7 -12.1% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "CONY", "prev_state": "COOLING", "state": "RUNNING", "price": 21.03, "tp": 2.108346239989242, "note": "sustained 2.1x"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "DTD", "prev_state": "RUNNING", "state": "COOLING", "price": 94.9, "tp": 0.0, "note": "pace 0.0x off peak 27.2x"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "BITI", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.17, "tp": 4.862394313605933, "note": "sustained 4.9x"}
+{"ts": "2026-09-18T12:36:23.919937-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "IGNITING", "state": "COOLING", "price": 1.89, "tp": 0.4307382177720042, "note": "pace 0.4x off peak 10.8x"}
