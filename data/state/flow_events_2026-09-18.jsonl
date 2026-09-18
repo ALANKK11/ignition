@@ -153,3 +153,10 @@
 {"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "HELP", "prev_state": "COOLING", "state": "RUNNING", "price": 12.935, "tp": 1.873975538411347, "note": "sustained 1.9x"}
 {"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "FADING", "state": "COOLING", "price": 36.23, "tp": 1.4602358506707487, "note": "pace 1.5x off peak 2.0x"}
 {"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "DSP", "prev_state": "FADING", "state": "IGNITING", "price": 11.69, "tp": 3.2343470936156598, "note": "pace 3.2x and accelerating (2.2x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "FMS", "prev_state": "CHURN", "state": "RUNNING", "price": 22.135, "tp": 4.01334556312265, "note": "sustained 4.0x"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "DGRO", "prev_state": "RUNNING", "state": "COOLING", "price": 76.81, "tp": 1.1949942827815638, "note": "pace 1.2x off peak 2.7x"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "NEW MONEY", "state": "CHURN", "price": 9.1, "tp": 17.793402013469084, "note": "17.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 33.38, "tp": 3.6002576190880236, "note": "quiet open (0.8x) \u2192 now 3.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "CONY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.72, "tp": 1.811407028626668, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "COOLING", "state": "RUNNING", "price": 36.045, "tp": 2.609808879964762, "note": "sustained 2.6x"}
+{"ts": "2026-09-18T11:41:38.908863-04:00", "demo": 0, "ticker": "BITI", "prev_state": "RUNNING", "state": "QUIET", "price": 18.29, "tp": 1.7066387323070262, "note": ""}
