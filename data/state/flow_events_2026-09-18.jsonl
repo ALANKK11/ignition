@@ -40,3 +40,4 @@
 {"ts": "2026-09-18T11:02:38.900022-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "COOLING", "state": "FADING", "price": 11.88, "tp": 0.9724450000901186, "note": "pace 1.0x vs peak 3.2x \u00b7 -2.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T11:02:38.900022-04:00", "demo": 0, "ticker": "ELE", "prev_state": "QUIET", "state": "RUNNING", "price": 20.92, "tp": 2.0594446461198137, "note": "sustained 2.1x"}
 {"ts": "2026-09-18T11:02:38.900022-04:00", "demo": 0, "ticker": "DSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.99, "tp": 3.9203315260608256, "note": "sustained 3.9x"}
+{"ts": "2026-09-18T11:04:53.885580-04:00", "demo": 0, "ticker": "NMRK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Newmark Arranges Financing for Related Ross' Acquisition of Landmark 1.7 MSF Boca Raton Innovation Campus"}
