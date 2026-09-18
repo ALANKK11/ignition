@@ -120,3 +120,10 @@
 {"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "RUNNING", "state": "COOLING", "price": 7.775, "tp": 1.528009637564345, "note": "pace 1.5x off peak 2.5x"}
 {"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "COOLING", "price": 13.02, "tp": 1.1168598057461256, "note": "pace 1.1x off peak 2.3x"}
 {"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 12.875, "tp": 1.5354414915517631, "note": "pace 1.5x off peak 4.4x"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "GENI", "prev_state": "IGNITING", "state": "COOLING", "price": 5.965, "tp": 1.7659999415892218, "note": "pace 1.8x off peak 20.6x"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "BCS", "prev_state": "RUNNING", "state": "CHURN", "price": 25.05, "tp": 4.621243556994629, "note": "4.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "FADING", "state": "LEAVING", "price": 1.32, "tp": 10.582147000727245, "note": "pace 10.6x off peak 21.2x \u00b7 VWAP lost (was +18.5% above)"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "CONI", "prev_state": "RUNNING", "state": "COOLING", "price": 23.12, "tp": 0.7368215835623473, "note": "pace 0.7x off peak 13.5x"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "FXY", "prev_state": "RUNNING", "state": "COOLING", "price": 58.37, "tp": 1.013624161251284, "note": "pace 1.0x off peak 62.8x"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "QUIET", "state": "RUNNING", "price": 10.52, "tp": 1.8489795529447035, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T11:29:38.906185-04:00", "demo": 0, "ticker": "GLAS", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.06, "tp": 2.8801197889724994, "note": "pace 2.9x and accelerating (57.6x vs prior window) \u00b7 +0.6% in window"}
