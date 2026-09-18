@@ -9,3 +9,13 @@
 {"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "SSM", "prev_state": "QUIET", "state": "IGNITING", "price": 1.935, "tp": 4.14918022892175, "note": "pace 4.1x and accelerating (2.6x vs prior window) \u00b7 -17.1% in window"}
 {"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "HUN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.005, "tp": 1.80503454083043, "note": "sustained 1.8x"}
 {"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.28, "tp": 11.971998922706282, "note": "sustained 12.0x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "TJGC", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.545, "tp": 6.60993945813406, "note": "sustained 6.6x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "DSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.905, "tp": 5.852765967108187, "note": "pace 5.9x and accelerating (3.2x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "NCPL", "prev_state": "QUIET", "state": "RUNNING", "price": 0.7705, "tp": 2.213285668356172, "note": "sustained 2.2x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "QUIET", "state": "RUNNING", "price": 7.8, "tp": 1.817658820103016, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.63, "tp": 1.6552041550090417, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "SMST", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.98, "tp": 10.578867149379592, "note": "pace 10.6x and accelerating (2.2x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "RUNNING", "state": "COOLING", "price": 11.885, "tp": 1.737091049576024, "note": "pace 1.7x off peak 3.2x"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.51, "tp": 17.005395176723898, "note": "pace 17.0x and accelerating (2.9x vs prior window) \u00b7 +15.7% in window"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "IMXI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 12.46, "tp": 2.1999387035168843, "note": "quiet open (0.5x) \u2192 now 2.2x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-18T10:53:38.897653-04:00", "demo": 0, "ticker": "HUN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.015, "tp": 1.1322493193800753, "note": "pace 1.1x off peak 1.8x"}
