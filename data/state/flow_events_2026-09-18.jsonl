@@ -140,3 +140,12 @@
 {"ts": "2026-09-18T11:32:38.907266-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "RUNNING", "state": "COOLING", "price": 33.27, "tp": 1.6503525223738824, "note": "pace 1.7x off peak 4.3x"}
 {"ts": "2026-09-18T11:32:38.907266-04:00", "demo": 0, "ticker": "BGC", "prev_state": "RUNNING", "state": "FADING", "price": 12.025, "tp": 8.148581422374239, "note": "pace 8.1x vs peak 26.3x \u00b7 -0.6% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T11:32:38.907266-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "QUIET", "state": "RUNNING", "price": 15.23, "tp": 2.7501311959924837, "note": "sustained 2.8x"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "COOLING", "state": "FADING", "price": 35.95, "tp": 0.6747757897772653, "note": "pace 0.7x vs peak 2.0x \u00b7 -0.1% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "FMS", "prev_state": "RUNNING", "state": "CHURN", "price": 22.13, "tp": 4.480884334299328, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "BITI", "prev_state": "QUIET", "state": "RUNNING", "price": 18.29, "tp": 1.8588460601877426, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.555, "tp": 1.6665217789485554, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "COOLING", "state": "RUNNING", "price": 33.48, "tp": 2.810276247551623, "note": "sustained 2.8x"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "WPP", "prev_state": "QUIET", "state": "NEW MONEY", "price": 25.73, "tp": 3.3466920841277212, "note": "quiet open (0.7x) \u2192 now 3.3x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "CERS", "prev_state": "COOLING", "state": "RUNNING", "price": 2.595, "tp": 2.761655681087859, "note": "sustained 2.8x"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "BCS", "prev_state": "CHURN", "state": "IGNITING", "price": 24.925, "tp": 9.08602125585803, "note": "pace 9.1x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "QUIET", "state": "RUNNING", "price": 10.595, "tp": 1.8914071967130315, "note": "sustained 1.9x"}
