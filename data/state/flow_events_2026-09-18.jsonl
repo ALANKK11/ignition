@@ -437,3 +437,12 @@
 {"ts": "2026-09-18T15:17:38.398365-04:00", "demo": 0, "ticker": "ELE", "prev_state": "COOLING", "state": "RUNNING", "price": 21.22, "tp": 2.5591210341702832, "note": "sustained 2.6x"}
 {"ts": "2026-09-18T15:17:38.398365-04:00", "demo": 0, "ticker": "CONI", "prev_state": "COOLING", "state": "RUNNING", "price": 22.33, "tp": 2.3510258179718906, "note": "sustained 2.4x"}
 {"ts": "2026-09-18T15:17:38.398365-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "RUNNING", "state": "COOLING", "price": 19.005, "tp": 1.3985717784720677, "note": "pace 1.4x off peak 2.5x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "HSHP", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.86, "tp": 2.428745616321172, "note": "sustained 2.4x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "THRM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 36.2, "tp": 0.0, "note": "pace 0.0x off peak 14.1x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "DNA", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 7.78, "tp": 2.895624009139056, "note": "quiet open (1.0x) \u2192 now 2.9x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "BSOL", "prev_state": "FADING", "state": "RUNNING", "price": 15.695, "tp": 2.7896058146305243, "note": "sustained 2.8x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "BXDC", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.61, "tp": 7.208608976322321, "note": "sustained 7.2x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "ROCK", "prev_state": "COOLING", "state": "RUNNING", "price": 41.51, "tp": 1.8414814202771115, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "HELP", "prev_state": "COOLING", "state": "RUNNING", "price": 12.54, "tp": 1.8209743901126851, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.455, "tp": 6.449335408088135, "note": "pace 6.4x and accelerating (1.7x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-09-18T15:20:38.399013-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "CHURN", "state": "RUNNING", "price": 6.245, "tp": 8.172301107039003, "note": "sustained 8.2x"}
