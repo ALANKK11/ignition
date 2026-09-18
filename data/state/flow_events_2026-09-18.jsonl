@@ -274,3 +274,14 @@
 {"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "BSCR", "prev_state": "CHURN", "state": "COOLING", "price": 19.62, "tp": 1.6024324526124556, "note": "pace 1.6x off peak 8.3x"}
 {"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "FUBO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.85, "tp": 2.195088615786781, "note": "quiet open (0.6x) \u2192 now 2.2x \u00b7 taking +0.8% flow share"}
 {"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "IGNITING", "price": 12.83, "tp": 7.886612753770838, "note": "pace 7.9x and accelerating (3.8x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 26.225, "tp": 58.08831705755207, "note": "sustained 58.1x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "FTRE", "prev_state": "QUIET", "state": "RUNNING", "price": 19.43, "tp": 2.0142981171951932, "note": "sustained 2.0x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "RUNNING", "state": "COOLING", "price": 7.85, "tp": 1.6005853608172593, "note": "pace 1.6x off peak 4.6x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "CPA", "prev_state": "QUIET", "state": "RUNNING", "price": 131.27, "tp": 2.5429072643721433, "note": "sustained 2.5x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "COOLING", "state": "RUNNING", "price": 15.48, "tp": 2.4914940114543245, "note": "sustained 2.5x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "FUBO", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 9.95, "tp": 4.553823223303303, "note": "pace 4.6x and accelerating (4.2x vs prior window) \u00b7 +2.4% in window"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "DGRO", "prev_state": "RUNNING", "state": "COOLING", "price": 76.715, "tp": 1.4734992537015459, "note": "pace 1.5x off peak 3.6x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "FCPT", "prev_state": "RUNNING", "state": "COOLING", "price": 22.46, "tp": 1.2415323388935107, "note": "pace 1.2x off peak 8.9x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.505, "tp": 5.370688082006367, "note": "sustained 5.4x"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "CONI", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.45, "tp": 5.411618247218337, "note": "pace 5.4x and accelerating (5.3x vs prior window) \u00b7 -2.7% in window"}
+{"ts": "2026-09-18T12:20:38.916833-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.285, "tp": 2.856016115420698, "note": "sustained 2.9x"}
