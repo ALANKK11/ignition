@@ -108,3 +108,15 @@
 {"ts": "2026-09-18T11:23:38.904919-04:00", "demo": 0, "ticker": "HLN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.24, "tp": 1.3292896020055096, "note": "pace 1.3x off peak 20.7x"}
 {"ts": "2026-09-18T11:23:38.904919-04:00", "demo": 0, "ticker": "CONI", "prev_state": "COOLING", "state": "RUNNING", "price": 23.16, "tp": 1.8513158634390265, "note": "sustained 1.9x"}
 {"ts": "2026-09-18T11:23:38.904919-04:00", "demo": 0, "ticker": "GENI", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.945, "tp": 4.890051417389926, "note": "pace 4.9x and accelerating (5.6x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "GM", "prev_state": "COOLING", "state": "RUNNING", "price": 81.805, "tp": 1.8897671238256293, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.5, "tp": 2.2153998695509443, "note": "sustained 2.2x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "FMS", "prev_state": "FADING", "state": "RUNNING", "price": 22.14, "tp": 2.2141580856543412, "note": "sustained 2.2x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "ESQ", "prev_state": "RUNNING", "state": "COOLING", "price": 122.72, "tp": 0.0, "note": "pace 0.0x off peak 3.4x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "RUNNING", "state": "COOLING", "price": 16.54, "tp": 1.7383433667612957, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "ELE", "prev_state": "COOLING", "state": "RUNNING", "price": 20.91, "tp": 2.5974503702993483, "note": "sustained 2.6x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "HAYW", "prev_state": "QUIET", "state": "RUNNING", "price": 12.815, "tp": 2.7431356998899035, "note": "sustained 2.7x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "TUR", "prev_state": "COOLING", "state": "RUNNING", "price": 37.22, "tp": 2.3078868052573864, "note": "sustained 2.3x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "DGRO", "prev_state": "QUIET", "state": "RUNNING", "price": 76.84, "tp": 1.8035550791241894, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "RUNNING", "state": "COOLING", "price": 7.775, "tp": 1.528009637564345, "note": "pace 1.5x off peak 2.5x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "RUNNING", "state": "COOLING", "price": 13.02, "tp": 1.1168598057461256, "note": "pace 1.1x off peak 2.3x"}
+{"ts": "2026-09-18T11:26:38.905713-04:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 12.875, "tp": 1.5354414915517631, "note": "pace 1.5x off peak 4.4x"}
