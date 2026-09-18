@@ -1,0 +1,5 @@
+{"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.28, "tp": 13.292323444006062, "note": "pace 13.3x and accelerating (1.7x vs prior window) \u00b7 +7.6% in window"}
+{"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "QNME", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6146, "tp": 556.4251179079669, "note": "pace 556.4x and accelerating (1.8x vs prior window) \u00b7 -15.3% in window"}
+{"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "CHURN", "state": "COOLING", "price": 12.06, "tp": 1.6623358591593442, "note": "pace 1.7x off peak 3.2x"}
+{"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "DSP", "prev_state": "QUIET", "state": "RUNNING", "price": 11.84, "tp": 2.4629382751453277, "note": "sustained 2.5x"}
+{"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "CONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.07, "tp": 3.5532397782011564, "note": "sustained 3.6x"}
