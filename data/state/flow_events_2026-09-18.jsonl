@@ -29,3 +29,5 @@
 {"ts": "2026-09-18T10:56:38.898396-04:00", "demo": 0, "ticker": "KCE", "prev_state": "RUNNING", "state": "FADING", "price": 157.47, "tp": 0.0, "note": "pace 0.0x vs peak 15.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T10:56:38.898396-04:00", "demo": 0, "ticker": "FMS", "prev_state": "QUIET", "state": "RUNNING", "price": 22.095, "tp": 3.3767337878258923, "note": "sustained 3.4x"}
 {"ts": "2026-09-18T10:56:38.898396-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.5, "tp": 15.876805001118274, "note": "sustained 15.9x"}
+{"ts": "2026-09-18T10:59:38.899180-04:00", "demo": 0, "ticker": "IMXI", "prev_state": "RUNNING", "state": "QUIET", "price": 12.47, "tp": 1.7401634562038832, "note": ""}
+{"ts": "2026-09-18T10:59:38.899180-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "QUIET", "state": "RUNNING", "price": 16.46, "tp": 2.372250369739418, "note": "sustained 2.4x"}
