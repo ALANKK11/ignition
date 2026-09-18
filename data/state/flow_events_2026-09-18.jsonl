@@ -3,3 +3,9 @@
 {"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "CHURN", "state": "COOLING", "price": 12.06, "tp": 1.6623358591593442, "note": "pace 1.7x off peak 3.2x"}
 {"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "DSP", "prev_state": "QUIET", "state": "RUNNING", "price": 11.84, "tp": 2.4629382751453277, "note": "sustained 2.5x"}
 {"ts": "2026-09-18T10:47:38.896672-04:00", "demo": 0, "ticker": "CONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.07, "tp": 3.5532397782011564, "note": "sustained 3.6x"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "SGP", "prev_state": "RUNNING", "state": "COOLING", "price": 27.96, "tp": 0.0, "note": "pace 0.0x off peak 2.2x"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "SMST", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.21, "tp": 12.789710045000984, "note": "sustained 12.8x"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "COOLING", "state": "RUNNING", "price": 11.94, "tp": 1.822076417042331, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "SSM", "prev_state": "QUIET", "state": "IGNITING", "price": 1.935, "tp": 4.14918022892175, "note": "pace 4.1x and accelerating (2.6x vs prior window) \u00b7 -17.1% in window"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "HUN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.005, "tp": 1.80503454083043, "note": "sustained 1.8x"}
+{"ts": "2026-09-18T10:50:38.897221-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.28, "tp": 11.971998922706282, "note": "sustained 12.0x"}
