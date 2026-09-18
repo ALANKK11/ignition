@@ -41,3 +41,14 @@
 {"ts": "2026-09-18T11:02:38.900022-04:00", "demo": 0, "ticker": "ELE", "prev_state": "QUIET", "state": "RUNNING", "price": 20.92, "tp": 2.0594446461198137, "note": "sustained 2.1x"}
 {"ts": "2026-09-18T11:02:38.900022-04:00", "demo": 0, "ticker": "DSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.99, "tp": 3.9203315260608256, "note": "sustained 3.9x"}
 {"ts": "2026-09-18T11:04:53.885580-04:00", "demo": 0, "ticker": "NMRK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Newmark Arranges Financing for Related Ross' Acquisition of Landmark 1.7 MSF Boca Raton Innovation Campus"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "FXY", "prev_state": "RUNNING", "state": "CHURN", "price": 58.225, "tp": 33.58873109832855, "note": "33.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "MRNO", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.321, "tp": 3222.151400813028, "note": "pace 3222.2x off peak 6988.1x \u00b7 VWAP lost (was +14.3% above)"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "HMC", "prev_state": "RUNNING", "state": "COOLING", "price": 32.2, "tp": 1.0333672976808228, "note": "pace 1.0x off peak 8.4x"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "IMCC", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.2, "tp": 181.13285276772896, "note": "pace 181.1x and accelerating (1.8x vs prior window) \u00b7 -5.1% in window"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "TUR", "prev_state": "RUNNING", "state": "COOLING", "price": 37.2, "tp": 1.132872208118476, "note": "pace 1.1x off peak 7.0x"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.25, "tp": 21.188704337556633, "note": "pace 21.2x and accelerating (1.7x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "IMXI", "prev_state": "QUIET", "state": "COOLING", "price": 12.48, "tp": 1.6029860232828157, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "HELP", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.03, "tp": 4.360641722152686, "note": "sustained 4.4x"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "NCI", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.9, "tp": 14.366823985066661, "note": "sustained 14.4x"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "PAAI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.85, "tp": 39.15071130059285, "note": "pace 39.2x and accelerating (1.7x vs prior window) \u00b7 -9.3% in window"}
+{"ts": "2026-09-18T11:05:38.900840-04:00", "demo": 0, "ticker": "TLX", "prev_state": "QUIET", "state": "COOLING", "price": 12.645, "tp": 0.7993650640491649, "note": "pace 0.8x off peak 1.9x"}
