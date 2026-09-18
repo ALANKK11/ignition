@@ -75,3 +75,12 @@
 {"ts": "2026-09-18T11:11:38.902190-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 7.755, "tp": 1.9231033165931686, "note": "sustained 1.9x"}
 {"ts": "2026-09-18T11:11:38.902190-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "RUNNING", "state": "FADING", "price": 1.445, "tp": 7.406622502864034, "note": "pace 7.4x vs peak 21.2x \u00b7 -14.5% off HOD \u00b7 chart still +229% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T11:11:38.902190-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "QUIET", "state": "NEW MONEY", "price": 33.35, "tp": 2.2256901873434876, "note": "quiet open (0.8x) \u2192 now 2.2x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "GENI", "prev_state": "COOLING", "state": "RUNNING", "price": 5.955, "tp": 3.949530575970422, "note": "sustained 3.9x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "IEUR", "prev_state": "RUNNING", "state": "CHURN", "price": 74.875, "tp": 106.53435452982642, "note": "106.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "RUNNING", "state": "COOLING", "price": 16.4, "tp": 1.1292217412515435, "note": "pace 1.1x off peak 2.5x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "CONL", "prev_state": "CHURN", "state": "RUNNING", "price": 6.15, "tp": 2.4333670982713502, "note": "sustained 2.4x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "GM", "prev_state": "RUNNING", "state": "COOLING", "price": 82.66, "tp": 1.4257738096686259, "note": "pace 1.4x off peak 6.4x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "THRM", "prev_state": "IGNITING", "state": "COOLING", "price": 36.92, "tp": 0.23624938630895415, "note": "pace 0.2x off peak 5.8x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "MG", "prev_state": "RUNNING", "state": "FADING", "price": 20.875, "tp": 1.631890364024114, "note": "pace 1.6x vs peak 6.6x \u00b7 -1.5% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "QUIET", "state": "RUNNING", "price": 13.03, "tp": 2.3229915385179254, "note": "sustained 2.3x"}
+{"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 33.37, "tp": 2.998130404805799, "note": "pace 3.0x and accelerating (4.2x vs prior window) \u00b7 -3.0% in window"}
