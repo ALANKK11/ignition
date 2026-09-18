@@ -265,3 +265,12 @@
 {"ts": "2026-09-18T12:14:38.915375-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "RUNNING", "state": "COOLING", "price": 1.91, "tp": 1.7157145924227695, "note": "pace 1.7x off peak 3.0x"}
 {"ts": "2026-09-18T12:14:38.915375-04:00", "demo": 0, "ticker": "DSP", "prev_state": "RUNNING", "state": "FADING", "price": 11.77, "tp": 4.064145199738349, "note": "pace 4.1x vs peak 12.9x \u00b7 -1.9% off HOD \u00b7 chart still +18% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T12:14:38.915375-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "RUNNING", "state": "COOLING", "price": 15.535, "tp": 0.8372726200491845, "note": "pace 0.8x off peak 2.3x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "COOLING", "state": "RUNNING", "price": 1.91, "tp": 1.9015720345476321, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.155, "tp": 1.389566692130359, "note": "pace 1.4x off peak 3.7x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "COOLING", "state": "FADING", "price": 18.965, "tp": 0.3016696256428175, "note": "pace 0.3x vs peak 2.5x \u00b7 -0.9% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "TUR", "prev_state": "COOLING", "state": "RUNNING", "price": 37.18, "tp": 5.346892732688241, "note": "sustained 5.3x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.855, "tp": 2.254986781631194, "note": "sustained 2.3x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "CHURN", "state": "RUNNING", "price": 6.245, "tp": 4.300948806573892, "note": "sustained 4.3x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "BSCR", "prev_state": "CHURN", "state": "COOLING", "price": 19.62, "tp": 1.6024324526124556, "note": "pace 1.6x off peak 8.3x"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "FUBO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 9.85, "tp": 2.195088615786781, "note": "quiet open (0.6x) \u2192 now 2.2x \u00b7 taking +0.8% flow share"}
+{"ts": "2026-09-18T12:17:38.916192-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "IGNITING", "price": 12.83, "tp": 7.886612753770838, "note": "pace 7.9x and accelerating (3.8x vs prior window) \u00b7 -1.8% in window"}
