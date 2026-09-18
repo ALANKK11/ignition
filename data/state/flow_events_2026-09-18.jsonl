@@ -197,3 +197,13 @@
 {"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "ELE", "prev_state": "RUNNING", "state": "COOLING", "price": 20.91, "tp": 1.383030139020702, "note": "pace 1.4x off peak 5.1x"}
 {"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "ALC", "prev_state": "FADING", "state": "RUNNING", "price": 65.17, "tp": 6.438668381841292, "note": "sustained 6.4x"}
 {"ts": "2026-09-18T11:53:38.911524-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.24, "tp": 1.9932861899862555, "note": "sustained 2.0x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "AVIG", "prev_state": "COOLING", "state": "RUNNING", "price": 39.985, "tp": 4.000667410276563, "note": "sustained 4.0x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "ENGS", "prev_state": "CHURN", "state": "RUNNING", "price": 2.72, "tp": 11.647486642579878, "note": "sustained 11.6x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "EPHE", "prev_state": "RUNNING", "state": "COOLING", "price": 23.16, "tp": 0.0, "note": "pace 0.0x off peak 10.8x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "ELE", "prev_state": "COOLING", "state": "RUNNING", "price": 20.93, "tp": 2.89323706281014, "note": "sustained 2.9x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "BTCT", "prev_state": "COOLING", "state": "FADING", "price": 1.25, "tp": 0.7997302227081804, "note": "pace 0.8x vs peak 2.9x \u00b7 -3.1% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.65, "tp": 3.8992265753257067, "note": "sustained 3.9x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.365, "tp": 1.6615918860462868, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "FCG", "prev_state": "QUIET", "state": "RUNNING", "price": 30.69, "tp": 2.2151282946163855, "note": "sustained 2.2x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "BITI", "prev_state": "QUIET", "state": "RUNNING", "price": 18.31, "tp": 1.8505726407472605, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T11:56:38.911703-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "QUIET", "state": "CHURN", "price": 19.005, "tp": 2.260517582153645, "note": "2.3x participation, no progress at highs \u2014 absorption"}
