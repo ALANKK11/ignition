@@ -84,3 +84,9 @@
 {"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "MG", "prev_state": "RUNNING", "state": "FADING", "price": 20.875, "tp": 1.631890364024114, "note": "pace 1.6x vs peak 6.6x \u00b7 -1.5% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "QUIET", "state": "RUNNING", "price": 13.03, "tp": 2.3229915385179254, "note": "sustained 2.3x"}
 {"ts": "2026-09-18T11:14:38.903071-04:00", "demo": 0, "ticker": "ASTH", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 33.37, "tp": 2.998130404805799, "note": "pace 3.0x and accelerating (4.2x vs prior window) \u00b7 -3.0% in window"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "CRCD", "prev_state": "RUNNING", "state": "COOLING", "price": 1.855, "tp": 0.0, "note": "pace 0.0x off peak 3.0x"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "SDGR", "prev_state": "COOLING", "state": "RUNNING", "price": 29.28, "tp": 1.9624566814252755, "note": "sustained 2.0x"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "SGP", "prev_state": "RUNNING", "state": "COOLING", "price": 27.62, "tp": 1.4762907968139736, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "ELE", "prev_state": "RUNNING", "state": "COOLING", "price": 20.93, "tp": 1.6626725200976404, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "DSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.815, "tp": 7.808619805426473, "note": "pace 7.8x and accelerating (1.8x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-09-18T11:17:38.903521-04:00", "demo": 0, "ticker": "CONL", "prev_state": "RUNNING", "state": "CHURN", "price": 6.17, "tp": 2.492792060878076, "note": "2.5x participation, no progress at highs \u2014 absorption"}
