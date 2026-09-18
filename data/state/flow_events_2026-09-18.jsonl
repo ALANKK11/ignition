@@ -149,3 +149,7 @@
 {"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "CERS", "prev_state": "COOLING", "state": "RUNNING", "price": 2.595, "tp": 2.761655681087859, "note": "sustained 2.8x"}
 {"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "BCS", "prev_state": "CHURN", "state": "IGNITING", "price": 24.925, "tp": 9.08602125585803, "note": "pace 9.1x and accelerating (2.3x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-09-18T11:35:38.907729-04:00", "demo": 0, "ticker": "BIAF", "prev_state": "QUIET", "state": "RUNNING", "price": 10.595, "tp": 1.8914071967130315, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "SSMR", "prev_state": "RUNNING", "state": "COOLING", "price": 16.62, "tp": 1.2140921590788645, "note": "pace 1.2x off peak 2.5x"}
+{"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "HELP", "prev_state": "COOLING", "state": "RUNNING", "price": 12.935, "tp": 1.873975538411347, "note": "sustained 1.9x"}
+{"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "FADING", "state": "COOLING", "price": 36.23, "tp": 1.4602358506707487, "note": "pace 1.5x off peak 2.0x"}
+{"ts": "2026-09-18T11:38:38.907935-04:00", "demo": 0, "ticker": "DSP", "prev_state": "FADING", "state": "IGNITING", "price": 11.69, "tp": 3.2343470936156598, "note": "pace 3.2x and accelerating (2.2x vs prior window) \u00b7 -1.1% in window"}
