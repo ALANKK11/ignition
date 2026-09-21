@@ -156,3 +156,11 @@
 {"ts": "2026-09-21T13:37:08.571582-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "FADING", "state": "COOLING", "price": 8.9, "tp": 1.1455635484168307, "note": "pace 1.1x off peak 5.6x"}
 {"ts": "2026-09-21T13:37:08.571582-04:00", "demo": 0, "ticker": "KREF", "prev_state": "COOLING", "state": "RUNNING", "price": 6.71, "tp": 1.9824639173496725, "note": "sustained 2.0x"}
 {"ts": "2026-09-21T13:37:08.571582-04:00", "demo": 0, "ticker": "AXTQ", "prev_state": "QUIET", "state": "RUNNING", "price": 24.28, "tp": 15.554584044191426, "note": "sustained 15.6x"}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "COOLING", "state": "QUIET", "price": 34.56, "tp": 1.3782623168565171, "note": ""}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "RES", "prev_state": "COOLING", "state": "QUIET", "price": 5.69, "tp": 1.6727448285706077, "note": ""}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "KREF", "prev_state": "RUNNING", "state": "COOLING", "price": 6.71, "tp": 0.9891572527783853, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "AMDL", "prev_state": "RUNNING", "state": "COOLING", "price": 78.485, "tp": 1.646732386881407, "note": "pace 1.6x off peak 4.0x"}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "AXTA", "prev_state": "QUIET", "state": "COOLING", "price": 31.9, "tp": 1.190036462893156, "note": "pace 1.2x off peak 1.8x"}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "ASPI", "prev_state": "COOLING", "state": "QUIET", "price": 3.175, "tp": 1.715462510363243, "note": ""}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "AVAT", "prev_state": "FADING", "state": "RUNNING", "price": 1.81, "tp": 20.593763575993467, "note": "sustained 20.6x"}
+{"ts": "2026-09-21T13:40:53.571630-04:00", "demo": 0, "ticker": "AAUC", "prev_state": "CHURN", "state": "RUNNING", "price": 22.745, "tp": 2.0501800230165452, "note": "sustained 2.1x"}
