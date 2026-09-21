@@ -11,3 +11,11 @@
 {"ts": "2026-09-21T12:48:23.559675-04:00", "demo": 0, "ticker": "RES", "prev_state": "QUIET", "state": "RUNNING", "price": 5.68, "tp": 2.032700019816912, "note": "sustained 2.0x"}
 {"ts": "2026-09-21T12:48:23.559675-04:00", "demo": 0, "ticker": "BRSP", "prev_state": "RUNNING", "state": "FADING", "price": 4.175, "tp": 1.0235045982000854, "note": "pace 1.0x vs peak 3.1x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-21T12:48:23.559675-04:00", "demo": 0, "ticker": "BXDC", "prev_state": "RUNNING", "state": "QUIET", "price": 19.5, "tp": 1.4587801356982393, "note": ""}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "BXDC", "prev_state": "QUIET", "state": "COOLING", "price": 19.5, "tp": 1.2566656990665959, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "AVAT", "prev_state": "COOLING", "state": "RUNNING", "price": 1.81, "tp": 5.525153294716723, "note": "sustained 5.5x"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "DDTD", "prev_state": "CHURN", "state": "FADING", "price": 20.87, "tp": 0.0, "note": "pace 0.0x vs peak 1523.5x \u00b7 -0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "RUNNING", "state": "FADING", "price": 26.26, "tp": 1.038943550854749, "note": "pace 1.0x vs peak 3.6x \u00b7 -0.2% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "MCHB", "prev_state": "RUNNING", "state": "COOLING", "price": 15.27, "tp": 0.6640985302343272, "note": "pace 0.7x off peak 2.5x"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "RES", "prev_state": "RUNNING", "state": "COOLING", "price": 5.68, "tp": 0.7727552555461752, "note": "pace 0.8x off peak 2.0x"}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "CLB", "prev_state": "RUNNING", "state": "QUIET", "price": 10.88, "tp": 1.6328658158216318, "note": ""}
+{"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "FWDI", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.085, "tp": 4.018393733830968, "note": "pace 4.0x and accelerating (1.6x vs prior window) \u00b7 +1.6% in window"}
