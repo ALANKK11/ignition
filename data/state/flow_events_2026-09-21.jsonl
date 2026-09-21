@@ -658,3 +658,4 @@
 {"ts": "2026-09-21T15:59:38.598099-04:00", "demo": 0, "ticker": "ARM", "prev_state": "IGNITING", "state": "CHURN", "price": 322.4, "tp": 2.397513133907326, "note": "2.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-21T16:13:53.600241-04:00", "demo": 0, "ticker": "CELZ", "prev_state": null, "state": "AH IGNITION", "price": 1.26, "tp": null, "note": "+28% on $0.21M ext tape"}
 {"ts": "2026-09-21T16:16:08.585846-04:00", "demo": 0, "ticker": "ROAD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Construction Partners, Inc. Completes Florida Acquisition"}
+{"ts": "2026-09-21T16:25:08.601761-04:00", "demo": 0, "ticker": "TOPS", "prev_state": null, "state": "AH IGNITION", "price": 1.11, "tp": null, "note": "+56% on $0.83M ext tape"}
