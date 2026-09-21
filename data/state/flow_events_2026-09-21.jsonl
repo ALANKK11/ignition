@@ -512,3 +512,4 @@
 {"ts": "2026-09-21T15:22:08.591780-04:00", "demo": 0, "ticker": "CLB", "prev_state": "COOLING", "state": "RUNNING", "price": 11.01, "tp": 2.0614576891855076, "note": "sustained 2.1x"}
 {"ts": "2026-09-21T15:22:08.591780-04:00", "demo": 0, "ticker": "ABX", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.04, "tp": 7.675693124903727, "note": "sustained 7.7x"}
 {"ts": "2026-09-21T15:22:08.591780-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "COOLING", "state": "NEW MONEY", "price": 15.41, "tp": 2.1784637368057456, "note": "quiet open (0.9x) \u2192 now 2.2x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-09-21T15:23:38.575905-04:00", "demo": 0, "ticker": "SPRY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SPRY Stockholders with Large Losses Should Contact Robbins LLP About Leading the ARS Pharmaceuticals Inc. Class Action B"}
