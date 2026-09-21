@@ -99,3 +99,15 @@
 {"ts": "2026-09-21T13:22:08.568240-04:00", "demo": 0, "ticker": "GRML", "prev_state": "IGNITING", "state": "FADING", "price": 9.13, "tp": 30.537315100022916, "note": "pace 30.5x vs peak 102.0x \u00b7 -21.6% off HOD \u00b7 chart still +219% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-21T13:22:08.568240-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "QUIET", "state": "NEW MONEY", "price": 15.15, "tp": 2.4914832394383204, "note": "quiet open (0.9x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-09-21T13:22:08.568240-04:00", "demo": 0, "ticker": "ARM", "prev_state": "CHURN", "state": "RUNNING", "price": 319.07, "tp": 4.917191733829246, "note": "sustained 4.9x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "FNCL", "prev_state": "FADING", "state": "RUNNING", "price": 79.545, "tp": 7.61831446169533, "note": "sustained 7.6x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "KREF", "prev_state": "QUIET", "state": "RUNNING", "price": 6.745, "tp": 1.9861090873552976, "note": "sustained 2.0x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "BGS", "prev_state": "FADING", "state": "RUNNING", "price": 2.95, "tp": 5.889230453920954, "note": "sustained 5.9x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "ABX", "prev_state": "QUIET", "state": "RUNNING", "price": 8.135, "tp": 2.746103306951852, "note": "sustained 2.7x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "CUE", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.645, "tp": 5.406929443799443, "note": "pace 5.4x and accelerating (1.8x vs prior window) \u00b7 +4.6% in window"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.39, "tp": 7.1279374742938355, "note": "sustained 7.1x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "QUIET", "state": "RUNNING", "price": 17.5, "tp": 1.8673401924426498, "note": "sustained 1.9x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "FTSL", "prev_state": "RUNNING", "state": "CHURN", "price": 44.97, "tp": 7.908419795042409, "note": "7.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "IYZ", "prev_state": "QUIET", "state": "RUNNING", "price": 42.24, "tp": 2.3501379906537117, "note": "sustained 2.4x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "FDHY", "prev_state": "RUNNING", "state": "FADING", "price": 48.685, "tp": 1.2808374708783208, "note": "pace 1.3x vs peak 5.1x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "BBT", "prev_state": "COOLING", "state": "RUNNING", "price": 29.77, "tp": 1.8441880462077327, "note": "sustained 1.8x"}
+{"ts": "2026-09-21T13:25:53.568344-04:00", "demo": 0, "ticker": "GRML", "prev_state": "FADING", "state": "RUNNING", "price": 9.265, "tp": 61.92285246940113, "note": "sustained 61.9x"}
