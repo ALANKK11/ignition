@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-21T16:25:08-04:00", "session": "post", "rows": [{"ticker": "TOPS", "last": 1.11, "gap": 0.5598, "dollars": 826859.27, "vs_adv": 1795.25, "new": true}, {"ticker": "CELZ", "last": 1.27, "gap": 0.2506, "dollars": 361486.97, "vs_adv": 103.04, "new": false}]}
+{"v": 4, "ts": "2026-09-21T16:28:53-04:00", "session": "post", "rows": [{"ticker": "TOPS", "last": 1.23, "gap": 0.5958, "dollars": 1217132.5899999999, "vs_adv": 2582.86, "new": false}, {"ticker": "CELZ", "last": 1.23, "gap": 0.247, "dollars": 391898.69, "vs_adv": 112.03, "new": false}]}
