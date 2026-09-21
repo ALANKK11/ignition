@@ -659,3 +659,5 @@
 {"ts": "2026-09-21T16:13:53.600241-04:00", "demo": 0, "ticker": "CELZ", "prev_state": null, "state": "AH IGNITION", "price": 1.26, "tp": null, "note": "+28% on $0.21M ext tape"}
 {"ts": "2026-09-21T16:16:08.585846-04:00", "demo": 0, "ticker": "ROAD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Construction Partners, Inc. Completes Florida Acquisition"}
 {"ts": "2026-09-21T16:25:08.601761-04:00", "demo": 0, "ticker": "TOPS", "prev_state": null, "state": "AH IGNITION", "price": 1.11, "tp": null, "note": "+56% on $0.83M ext tape"}
+{"ts": "2026-09-21T16:31:08.588640-04:00", "demo": 0, "ticker": "PTCT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "PTC Completes Acquisition of ST-920 Fabry Disease Gene Therapy"}
+{"ts": "2026-09-21T16:31:08.588640-04:00", "demo": 0, "ticker": "RNA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Atrium Therapeutics Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)"}
