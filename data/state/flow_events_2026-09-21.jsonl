@@ -19,3 +19,11 @@
 {"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "RES", "prev_state": "RUNNING", "state": "COOLING", "price": 5.68, "tp": 0.7727552555461752, "note": "pace 0.8x off peak 2.0x"}
 {"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "CLB", "prev_state": "RUNNING", "state": "QUIET", "price": 10.88, "tp": 1.6328658158216318, "note": ""}
 {"ts": "2026-09-21T12:52:08.560552-04:00", "demo": 0, "ticker": "FWDI", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.085, "tp": 4.018393733830968, "note": "pace 4.0x and accelerating (1.6x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "CRPT", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.79, "tp": 194.49299492953213, "note": "pace 194.5x and accelerating (2.5x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "RUNNING", "state": "FADING", "price": 2.675, "tp": 0.6070301920155683, "note": "pace 0.6x vs peak 6.5x \u00b7 -3.8% off HOD \u00b7 chart still +19% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "QFLR", "prev_state": "RUNNING", "state": "FADING", "price": 35.95, "tp": 0.0, "note": "pace 0.0x vs peak 71.6x \u00b7 -2.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "BGS", "prev_state": "QUIET", "state": "RUNNING", "price": 2.945, "tp": 2.51407247795025, "note": "sustained 2.5x"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "COOLING", "state": "RUNNING", "price": 8.38, "tp": 2.7275683524808847, "note": "sustained 2.7x"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "RUNNING", "state": "CHURN", "price": 8.93, "tp": 2.7949318842766164, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "CLB", "prev_state": "QUIET", "state": "COOLING", "price": 10.87, "tp": 0.8638921015685412, "note": "pace 0.9x off peak 1.9x"}
+{"ts": "2026-09-21T12:55:53.561327-04:00", "demo": 0, "ticker": "FWDI", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.095, "tp": 2.8596401078990916, "note": "sustained 2.9x"}
