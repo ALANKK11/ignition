@@ -332,3 +332,10 @@
 {"ts": "2026-09-21T14:25:53.580099-04:00", "demo": 0, "ticker": "BBT", "prev_state": "COOLING", "state": "RUNNING", "price": 29.59, "tp": 2.921372664953963, "note": "sustained 2.9x"}
 {"ts": "2026-09-21T14:25:53.580099-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "COOLING", "state": "QUIET", "price": 17.57, "tp": 1.515813936379907, "note": ""}
 {"ts": "2026-09-21T14:25:53.580099-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "RUNNING", "state": "COOLING", "price": 24.31, "tp": 1.7352087237433735, "note": "pace 1.7x off peak 10.7x"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "AERO", "prev_state": "CHURN", "state": "FADING", "price": 15.96, "tp": 5.134103258987909, "note": "pace 5.1x vs peak 15.5x \u00b7 -0.9% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "CRMU", "prev_state": "RUNNING", "state": "FADING", "price": 3.26, "tp": 3.7815849052031703, "note": "pace 3.8x vs peak 13.4x \u00b7 -9.9% off HOD \u00b7 chart still +67% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "ABX", "prev_state": "COOLING", "state": "RUNNING", "price": 8.04, "tp": 2.0786520026909097, "note": "sustained 2.1x"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.16, "tp": 1.8830821449020514, "note": "sustained 1.9x"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "BLSM", "prev_state": "COOLING", "state": "RUNNING", "price": 26.31, "tp": 2.725792897286291, "note": "sustained 2.7x"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "FADING", "state": "RUNNING", "price": 8.91, "tp": 2.150670964326078, "note": "sustained 2.2x"}
+{"ts": "2026-09-21T14:29:38.580471-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "RUNNING", "state": "FADING", "price": 21.66, "tp": 11.202864221367827, "note": "pace 11.2x vs peak 32.6x \u00b7 -0.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
