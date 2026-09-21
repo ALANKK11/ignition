@@ -486,3 +486,4 @@
 {"ts": "2026-09-21T15:14:38.590459-04:00", "demo": 0, "ticker": "CUE", "prev_state": "RUNNING", "state": "COOLING", "price": 26.47, "tp": 0.5765684343534994, "note": "pace 0.6x off peak 11.3x"}
 {"ts": "2026-09-21T15:14:38.590459-04:00", "demo": 0, "ticker": "EBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.65, "tp": 1.8913932784860519, "note": "sustained 1.9x"}
 {"ts": "2026-09-21T15:14:38.590459-04:00", "demo": 0, "ticker": "ABX", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.03, "tp": 7.342067541138557, "note": "sustained 7.3x"}
+{"ts": "2026-09-21T15:16:08.574423-04:00", "demo": 0, "ticker": "ARDX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ARDX Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against A"}
