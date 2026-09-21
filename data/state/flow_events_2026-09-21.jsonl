@@ -210,3 +210,20 @@
 {"ts": "2026-09-21T13:52:08.573626-04:00", "demo": 0, "ticker": "BBT", "prev_state": "RUNNING", "state": "COOLING", "price": 29.62, "tp": 1.6145164651246704, "note": "pace 1.6x off peak 2.7x"}
 {"ts": "2026-09-21T13:52:08.573626-04:00", "demo": 0, "ticker": "ADAM", "prev_state": "COOLING", "state": "RUNNING", "price": 8.86, "tp": 1.9129380098434674, "note": "sustained 1.9x"}
 {"ts": "2026-09-21T13:52:08.573626-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "RUNNING", "state": "FADING", "price": 26.25, "tp": 1.0532831045910185, "note": "pace 1.1x vs peak 3.6x \u00b7 -0.2% off HOD \u00b7 chart still +33% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "VNOM", "prev_state": "QUIET", "state": "RUNNING", "price": 41.89, "tp": 2.207629925868662, "note": "sustained 2.2x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "RYAM", "prev_state": "FADING", "state": "RUNNING", "price": 8.38, "tp": 8.585255805944575, "note": "sustained 8.6x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "APMD", "prev_state": "COOLING", "state": "RUNNING", "price": 24.09, "tp": 3.5591937542366425, "note": "sustained 3.6x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "COOLING", "state": "RUNNING", "price": 24.175, "tp": 2.0700935395760913, "note": "sustained 2.1x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "LBTYA", "prev_state": "FADING", "state": "RUNNING", "price": 10.01, "tp": 3.348326398417793, "note": "sustained 3.3x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "LADR", "prev_state": "QUIET", "state": "RUNNING", "price": 9.46, "tp": 2.8581323972929433, "note": "sustained 2.9x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "AIOT", "prev_state": "RUNNING", "state": "COOLING", "price": 2.845, "tp": 1.1935881729888873, "note": "pace 1.2x off peak 16.7x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "AVAT", "prev_state": "IGNITING", "state": "FADING", "price": 1.77, "tp": 4.179118222012317, "note": "pace 4.2x vs peak 25.8x \u00b7 -15.3% off HOD \u00b7 chart still +59% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "CMCL", "prev_state": "QUIET", "state": "COOLING", "price": 24.195, "tp": 0.9796330369258717, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "DAPP", "prev_state": "CHURN", "state": "RUNNING", "price": 21.51, "tp": 32.62224528780894, "note": "sustained 32.6x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "AMD", "prev_state": "COOLING", "state": "QUIET", "price": 609.41, "tp": 1.7500753077185676, "note": ""}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "EFG", "prev_state": "RUNNING", "state": "CHURN", "price": 121.555, "tp": 4.731114818177297, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "ADMA", "prev_state": "RUNNING", "state": "COOLING", "price": 9.41, "tp": 1.1551264460265565, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "EMHY", "prev_state": "RUNNING", "state": "FADING", "price": 39.745, "tp": 11.846041727488213, "note": "pace 11.8x vs peak 39.3x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "CLB", "prev_state": "COOLING", "state": "CHURN", "price": 10.86, "tp": 4.280476660891114, "note": "4.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "CLMB", "prev_state": "CHURN", "state": "FADING", "price": 28.375, "tp": 1.308266262711055, "note": "pace 1.3x vs peak 5.2x \u00b7 -0.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-21T13:55:53.575672-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "FADING", "state": "RUNNING", "price": 13.51, "tp": 2.922718799346424, "note": "sustained 2.9x"}
