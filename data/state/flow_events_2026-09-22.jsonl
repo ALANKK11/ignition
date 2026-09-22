@@ -314,3 +314,12 @@
 {"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "EPRX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.63, "tp": 0.36197130854353515, "note": "pace 0.4x off peak 17.2x"}
 {"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "VITL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 11.37, "tp": 2.008887214819537, "note": "quiet open (1.1x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
 {"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "BAI", "prev_state": "CHURN", "state": "RUNNING", "price": 47.245, "tp": 56.044463135339406, "note": "sustained 56.0x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "RUNNING", "state": "COOLING", "price": 19.54, "tp": 1.638337023729883, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "CPRI", "prev_state": "QUIET", "state": "IGNITING", "price": 15.17, "tp": 4.948601150857103, "note": "pace 4.9x and accelerating (4.4x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "ALL", "prev_state": "RUNNING", "state": "COOLING", "price": 230.46, "tp": 1.7226996709253264, "note": "pace 1.7x off peak 5.1x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "VITL", "prev_state": "NEW MONEY", "state": "COOLING", "price": 11.34, "tp": 1.6446068919096557, "note": "pace 1.6x off peak 18.3x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "RUNNING", "state": "FADING", "price": 5.505, "tp": 0.9733598443604388, "note": "pace 1.0x vs peak 3.4x \u00b7 -0.7% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "BFLY", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.85, "tp": 4.806651816723143, "note": "sustained 4.8x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "RUNNING", "state": "COOLING", "price": 35.18, "tp": 0.5330585211481647, "note": "pace 0.5x off peak 6.7x"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.5, "tp": 3.786630629220102, "note": "pace 3.8x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "COOLING", "state": "RUNNING", "price": 11.07, "tp": 1.9556991158792987, "note": "sustained 2.0x"}
