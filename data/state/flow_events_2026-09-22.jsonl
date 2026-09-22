@@ -396,3 +396,4 @@
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "VITL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.275, "tp": 1.865187116939981, "note": "sustained 1.9x"}
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "CHURN", "state": "RUNNING", "price": 17.045, "tp": 20.50600347342513, "note": "sustained 20.5x"}
 {"ts": "2026-09-22T16:11:23.514773-04:00", "demo": 0, "ticker": "AIIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robo.ai Inc. Announces Results of Extraordinary General Meeting"}
+{"ts": "2026-09-22T16:15:53.515656-04:00", "demo": 0, "ticker": "TALO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Talos Energy Completes Strategic Bolt-On Acquisition of Gulf of America Deepwater Oil Assets"}
