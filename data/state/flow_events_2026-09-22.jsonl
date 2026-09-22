@@ -395,3 +395,4 @@
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "DAVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.12, "tp": 4.590115426495131, "note": "sustained 4.6x"}
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "VITL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.275, "tp": 1.865187116939981, "note": "sustained 1.9x"}
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "CHURN", "state": "RUNNING", "price": 17.045, "tp": 20.50600347342513, "note": "sustained 20.5x"}
+{"ts": "2026-09-22T16:11:23.514773-04:00", "demo": 0, "ticker": "AIIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robo.ai Inc. Announces Results of Extraordinary General Meeting"}
