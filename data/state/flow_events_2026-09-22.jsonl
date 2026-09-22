@@ -66,3 +66,11 @@
 {"ts": "2026-09-22T11:41:36.374675-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "FADING", "state": "RUNNING", "price": 9.095, "tp": 2.5908760606382257, "note": "sustained 2.6x"}
 {"ts": "2026-09-22T11:41:36.374675-04:00", "demo": 0, "ticker": "VITL", "prev_state": "NEW MONEY", "state": "IGNITING", "price": 11.87, "tp": 3.7475003351003484, "note": "pace 3.7x and accelerating (5.5x vs prior window) \u00b7 -1.4% in window"}
 {"ts": "2026-09-22T11:41:36.374675-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "RUNNING", "state": "COOLING", "price": 11.085, "tp": 1.274694018391702, "note": "pace 1.3x off peak 3.7x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "RUNNING", "state": "COOLING", "price": 7.42, "tp": 0.6200339592118328, "note": "pace 0.6x off peak 1.9x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "GRML", "prev_state": "RUNNING", "state": "FADING", "price": 16.66, "tp": 6.959960912684087, "note": "pace 7.0x vs peak 23.3x \u00b7 -7.0% off HOD \u00b7 chart still +78% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "QUIET", "state": "RUNNING", "price": 17.05, "tp": 18.425742310612822, "note": "sustained 18.4x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "NAC", "prev_state": "RUNNING", "state": "COOLING", "price": 10.435, "tp": 0.7187477620154117, "note": "pace 0.7x off peak 9.2x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "COOLING", "state": "RUNNING", "price": 11.08, "tp": 1.8934716732698997, "note": "sustained 1.9x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "IMCC", "prev_state": "RUNNING", "state": "FADING", "price": 3.89, "tp": 3.483643604765852, "note": "pace 3.5x vs peak 14.5x \u00b7 -21.3% off HOD \u00b7 chart still +28% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "LI", "prev_state": "CHURN", "state": "RUNNING", "price": 11.65, "tp": 2.3043688529480004, "note": "sustained 2.3x"}
+{"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "IALT", "prev_state": "CHURN", "state": "RUNNING", "price": 29.685, "tp": 4.686005218035553, "note": "sustained 4.7x"}
