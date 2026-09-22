@@ -399,3 +399,4 @@
 {"ts": "2026-09-22T16:15:53.515656-04:00", "demo": 0, "ticker": "TALO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Talos Energy Completes Strategic Bolt-On Acquisition of Gulf of America Deepwater Oil Assets"}
 {"ts": "2026-09-22T16:21:08.516645-04:00", "demo": 0, "ticker": "EFX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Equifax introduces Healthcare Report\u2122 Credential ID"}
 {"ts": "2026-09-22T16:21:08.516645-04:00", "demo": 0, "ticker": "GPI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Group 1 Automotive Closes $1,250.0 Million Offering of Senior Notes"}
+{"ts": "2026-09-22T16:32:23.532311-04:00", "demo": 0, "ticker": "JAGX", "prev_state": null, "state": "AH IGNITION", "price": 61.04, "tp": null, "note": "+42% on $0.14M ext tape"}
