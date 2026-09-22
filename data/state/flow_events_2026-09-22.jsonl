@@ -323,3 +323,15 @@
 {"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "RUNNING", "state": "COOLING", "price": 35.18, "tp": 0.5330585211481647, "note": "pace 0.5x off peak 6.7x"}
 {"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.5, "tp": 3.786630629220102, "note": "pace 3.8x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-09-22T12:44:36.386995-04:00", "demo": 0, "ticker": "GMRS", "prev_state": "COOLING", "state": "RUNNING", "price": 11.07, "tp": 1.9556991158792987, "note": "sustained 2.0x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "CMDY", "prev_state": "QUIET", "state": "RUNNING", "price": 64.77, "tp": 2.005556527658425, "note": "sustained 2.0x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EDRY", "prev_state": "QUIET", "state": "RUNNING", "price": 56.61, "tp": 2.0666068465243956, "note": "sustained 2.1x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "FADING", "state": "RUNNING", "price": 5.52, "tp": 2.831740461837421, "note": "sustained 2.8x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EVER", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.24, "tp": 8.723144491699442, "note": "pace 8.7x and accelerating (2.0x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "VITL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 11.295, "tp": 2.274029233822081, "note": "quiet open (1.1x) \u2192 now 2.3x \u00b7 taking +0.0% flow share"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EWQ", "prev_state": "QUIET", "state": "COOLING", "price": 44.125, "tp": 0.8207510101744606, "note": "pace 0.8x off peak 1.9x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "BLCR", "prev_state": "FADING", "state": "CHURN", "price": 49.94, "tp": 27.000161519936043, "note": "27.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "BB", "prev_state": "COOLING", "state": "RUNNING", "price": 8.525, "tp": 2.9662618867671036, "note": "sustained 3.0x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "DGX", "prev_state": "RUNNING", "state": "CHURN", "price": 234.17, "tp": 8.611205304178117, "note": "8.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EMXC", "prev_state": "COOLING", "state": "RUNNING", "price": 101.92, "tp": 2.753022416111922, "note": "sustained 2.8x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "COOLING", "price": 12.125, "tp": 0.0, "note": "pace 0.0x off peak 13.8x"}
+{"ts": "2026-09-22T12:47:36.387556-04:00", "demo": 0, "ticker": "EROC", "prev_state": "COOLING", "state": "RUNNING", "price": 13.05, "tp": 2.3145806460948375, "note": "sustained 2.3x"}
