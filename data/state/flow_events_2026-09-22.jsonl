@@ -137,3 +137,14 @@
 {"ts": "2026-09-22T12:02:36.378699-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "CHURN", "state": "RUNNING", "price": 5.505, "tp": 3.4296008556173954, "note": "sustained 3.4x"}
 {"ts": "2026-09-22T12:02:36.378699-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.805, "tp": 6.592888103360672, "note": "pace 6.6x and accelerating (1.8x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-09-22T12:03:21.365154-04:00", "demo": 0, "ticker": "LMND", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lemonade Continues U.S. Expansion With Launch of Pet Insurance in Kentucky"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "CLB", "prev_state": "COOLING", "state": "RUNNING", "price": 10.905, "tp": 2.5388895424455136, "note": "sustained 2.5x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "AMP", "prev_state": "RUNNING", "state": "IGNITING", "price": 511.8, "tp": 8.676986268445015, "note": "pace 8.7x and accelerating (2.0x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "RUNNING", "state": "CHURN", "price": 5.505, "tp": 2.9064621910054536, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "DFDV", "prev_state": "RUNNING", "state": "COOLING", "price": 6.055, "tp": 1.0927144248061167, "note": "pace 1.1x off peak 2.6x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "FXF", "prev_state": "QUIET", "state": "RUNNING", "price": 107.11, "tp": 5.47634589304963, "note": "sustained 5.5x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "VITL", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.485, "tp": 11.085551052434576, "note": "sustained 11.1x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "COOLING", "price": 36.84, "tp": 1.370666353292466, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "CARG", "prev_state": "QUIET", "state": "RUNNING", "price": 31.385, "tp": 3.342316238410912, "note": "sustained 3.3x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "DCOY", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.95, "tp": 1766.5304709556287, "note": "pace 1766.5x and accelerating (1.6x vs prior window) \u00b7 -4.1% in window"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.805, "tp": 5.068567962925897, "note": "sustained 5.1x"}
+{"ts": "2026-09-22T12:05:36.379241-04:00", "demo": 0, "ticker": "BWET", "prev_state": "COOLING", "state": "RUNNING", "price": 749.0, "tp": 4.247736106283543, "note": "sustained 4.2x"}
