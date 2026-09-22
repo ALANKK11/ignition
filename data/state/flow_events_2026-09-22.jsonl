@@ -290,3 +290,4 @@
 {"ts": "2026-09-22T12:35:36.385265-04:00", "demo": 0, "ticker": "NAC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.43, "tp": 3.2322194098191854, "note": "sustained 3.2x"}
 {"ts": "2026-09-22T12:35:36.385265-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "CHURN", "state": "FADING", "price": 2.805, "tp": 1.826577022872919, "note": "pace 1.8x vs peak 7.9x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-22T12:35:36.385265-04:00", "demo": 0, "ticker": "EDIV", "prev_state": "RUNNING", "state": "CHURN", "price": 41.01, "tp": 23.982367084991868, "note": "24.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T12:36:21.371600-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos to support extended ARTEMIS airborne ISR mission for U.S. Army"}
