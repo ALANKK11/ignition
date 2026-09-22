@@ -306,3 +306,11 @@
 {"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "TASK", "prev_state": "RUNNING", "state": "COOLING", "price": 8.495, "tp": 1.7666714908994947, "note": "pace 1.8x off peak 2.4x"}
 {"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "BB", "prev_state": "RUNNING", "state": "COOLING", "price": 8.525, "tp": 1.69377794761648, "note": "pace 1.7x off peak 3.5x"}
 {"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "DJD", "prev_state": "QUIET", "state": "RUNNING", "price": 64.15, "tp": 19.707060639042325, "note": "sustained 19.7x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "NAC", "prev_state": "RUNNING", "state": "COOLING", "price": 10.43, "tp": 0.5682870331216882, "note": "pace 0.6x off peak 9.2x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "APMD", "prev_state": "RUNNING", "state": "COOLING", "price": 25.235, "tp": 0.48432855286366727, "note": "pace 0.5x off peak 13.9x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "FADING", "state": "RUNNING", "price": 5.51, "tp": 2.1068361941056573, "note": "sustained 2.1x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "EWP", "prev_state": "COOLING", "state": "RUNNING", "price": 61.32, "tp": 1.8503909791989899, "note": "sustained 1.9x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "CHURN", "state": "RUNNING", "price": 35.18, "tp": 2.107995550399297, "note": "sustained 2.1x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "EPRX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.63, "tp": 0.36197130854353515, "note": "pace 0.4x off peak 17.2x"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "VITL", "prev_state": "COOLING", "state": "NEW MONEY", "price": 11.37, "tp": 2.008887214819537, "note": "quiet open (1.1x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-22T12:41:36.386446-04:00", "demo": 0, "ticker": "BAI", "prev_state": "CHURN", "state": "RUNNING", "price": 47.245, "tp": 56.044463135339406, "note": "sustained 56.0x"}
