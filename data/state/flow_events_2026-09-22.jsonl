@@ -1,0 +1,6 @@
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "EWQ", "prev_state": "RUNNING", "state": "COOLING", "price": 44.16, "tp": 1.119067642543441, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "NAC", "prev_state": "QUIET", "state": "RUNNING", "price": 10.465, "tp": 1.9675301948769368, "note": "sustained 2.0x"}
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "TASK", "prev_state": "QUIET", "state": "RUNNING", "price": 8.45, "tp": 2.400704752172525, "note": "sustained 2.4x"}
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "DAVA", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.135, "tp": 12.877997484992953, "note": "pace 12.9x and accelerating (3.0x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "SPNT", "prev_state": "QUIET", "state": "RUNNING", "price": 25.84, "tp": 2.5030213028666863, "note": "sustained 2.5x"}
+{"ts": "2026-09-22T11:22:51.369729-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.06, "tp": 3.9346592498325257, "note": "pace 3.9x and accelerating (1.6x vs prior window) \u00b7 -0.7% in window"}
