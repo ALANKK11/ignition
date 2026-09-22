@@ -291,3 +291,18 @@
 {"ts": "2026-09-22T12:35:36.385265-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "CHURN", "state": "FADING", "price": 2.805, "tp": 1.826577022872919, "note": "pace 1.8x vs peak 7.9x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-22T12:35:36.385265-04:00", "demo": 0, "ticker": "EDIV", "prev_state": "RUNNING", "state": "CHURN", "price": 41.01, "tp": 23.982367084991868, "note": "24.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-22T12:36:21.371600-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos to support extended ARTEMIS airborne ISR mission for U.S. Army"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "AMP", "prev_state": "COOLING", "state": "RUNNING", "price": 513.36, "tp": 1.8225087223782692, "note": "sustained 1.8x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "EDRY", "prev_state": "RUNNING", "state": "QUIET", "price": 56.61, "tp": 1.7353166908741613, "note": ""}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "EWP", "prev_state": "CHURN", "state": "COOLING", "price": 61.335, "tp": 0.9683811698050561, "note": "pace 1.0x off peak 5.3x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "NP", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.21, "tp": 8.13260728798268, "note": "sustained 8.1x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "CHURN", "state": "FADING", "price": 27.83, "tp": 0.8490025811102805, "note": "pace 0.8x vs peak 4.8x \u00b7 -1.7% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "ETHB", "prev_state": "RUNNING", "state": "CHURN", "price": 35.18, "tp": 2.640627779549681, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "QUIET", "state": "RUNNING", "price": 19.55, "tp": 2.3835179512473013, "note": "sustained 2.4x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "EMXC", "prev_state": "RUNNING", "state": "COOLING", "price": 101.86, "tp": 1.6625969660192026, "note": "pace 1.7x off peak 3.1x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "CWI", "prev_state": "COOLING", "state": "FADING", "price": 41.35, "tp": 0.9718136763727593, "note": "pace 1.0x vs peak 39.0x \u00b7 -0.4% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "EPRX", "prev_state": "CHURN", "state": "RUNNING", "price": 8.595, "tp": 2.472108300907664, "note": "sustained 2.5x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "FADING", "state": "COOLING", "price": 17.055, "tp": 0.3059962452905255, "note": "pace 0.3x off peak 23.3x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "EWQ", "prev_state": "RUNNING", "state": "QUIET", "price": 44.105, "tp": 1.729840367460914, "note": ""}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "TASK", "prev_state": "RUNNING", "state": "COOLING", "price": 8.495, "tp": 1.7666714908994947, "note": "pace 1.8x off peak 2.4x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "BB", "prev_state": "RUNNING", "state": "COOLING", "price": 8.525, "tp": 1.69377794761648, "note": "pace 1.7x off peak 3.5x"}
+{"ts": "2026-09-22T12:38:36.385821-04:00", "demo": 0, "ticker": "DJD", "prev_state": "QUIET", "state": "RUNNING", "price": 64.15, "tp": 19.707060639042325, "note": "sustained 19.7x"}
