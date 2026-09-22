@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-22T16:50:23-04:00", "session": "post", "rows": [{"ticker": "IPDN", "last": 6.67, "gap": 0.8452, "dollars": 156284.58000000002, "vs_adv": 8.48, "new": false}, {"ticker": "JAGX", "last": 48.26, "gap": 0.3978, "dollars": 212301.14, "vs_adv": 7.07, "new": false}]}
+{"v": 4, "ts": "2026-09-22T16:53:23-04:00", "session": "post", "rows": [{"ticker": "IPDN", "last": 6.66, "gap": 0.8413, "dollars": 159503.18000000002, "vs_adv": 8.68, "new": false}, {"ticker": "JAGX", "last": 48.26, "gap": 0.3978, "dollars": 212301.14, "vs_adv": 7.07, "new": false}]}
