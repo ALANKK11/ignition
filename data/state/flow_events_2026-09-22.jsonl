@@ -103,3 +103,12 @@
 {"ts": "2026-09-22T11:53:36.376925-04:00", "demo": 0, "ticker": "GENI", "prev_state": "CHURN", "state": "RUNNING", "price": 5.835, "tp": 2.4349305582011542, "note": "sustained 2.4x"}
 {"ts": "2026-09-22T11:53:36.376925-04:00", "demo": 0, "ticker": "GLND", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.865, "tp": 13.445247444431992, "note": "sustained 13.4x"}
 {"ts": "2026-09-22T11:53:36.376925-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "RUNNING", "state": "COOLING", "price": 9.095, "tp": 1.7979418526132303, "note": "pace 1.8x off peak 3.9x"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "COOLING", "state": "FADING", "price": 9.125, "tp": 1.1788351918234414, "note": "pace 1.2x vs peak 3.9x \u00b7 -1.1% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "GRAB", "prev_state": "CHURN", "state": "RUNNING", "price": 3.14, "tp": 2.8614351929988637, "note": "sustained 2.9x"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "FIXD", "prev_state": "RUNNING", "state": "CHURN", "price": 42.35, "tp": 2.264947223977182, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "GGOV", "prev_state": "CHURN", "state": "RUNNING", "price": 50.24, "tp": 49.12912757571004, "note": "sustained 49.1x"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "LI", "prev_state": "COOLING", "state": "FADING", "price": 11.65, "tp": 0.6589343989927066, "note": "pace 0.7x vs peak 2.5x \u00b7 -1.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "ALL", "prev_state": "COOLING", "state": "RUNNING", "price": 228.445, "tp": 2.5763867744450866, "note": "sustained 2.6x"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "BFLY", "prev_state": "CHURN", "state": "RUNNING", "price": 9.555, "tp": 3.598442216083607, "note": "sustained 3.6x"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "AZO", "prev_state": "RUNNING", "state": "CHURN", "price": 2961.2, "tp": 3.213518897355992, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T11:56:36.377551-04:00", "demo": 0, "ticker": "DISK", "prev_state": "CHURN", "state": "RUNNING", "price": 40.83, "tp": 9.74351257008067, "note": "sustained 9.7x"}
