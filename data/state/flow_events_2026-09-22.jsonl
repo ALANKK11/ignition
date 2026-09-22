@@ -397,3 +397,5 @@
 {"ts": "2026-09-22T15:57:53.526402-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "CHURN", "state": "RUNNING", "price": 17.045, "tp": 20.50600347342513, "note": "sustained 20.5x"}
 {"ts": "2026-09-22T16:11:23.514773-04:00", "demo": 0, "ticker": "AIIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robo.ai Inc. Announces Results of Extraordinary General Meeting"}
 {"ts": "2026-09-22T16:15:53.515656-04:00", "demo": 0, "ticker": "TALO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Talos Energy Completes Strategic Bolt-On Acquisition of Gulf of America Deepwater Oil Assets"}
+{"ts": "2026-09-22T16:21:08.516645-04:00", "demo": 0, "ticker": "EFX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Equifax introduces Healthcare Report\u2122 Credential ID"}
+{"ts": "2026-09-22T16:21:08.516645-04:00", "demo": 0, "ticker": "GPI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Group 1 Automotive Closes $1,250.0 Million Offering of Senior Notes"}
