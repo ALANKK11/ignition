@@ -74,3 +74,10 @@
 {"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "IMCC", "prev_state": "RUNNING", "state": "FADING", "price": 3.89, "tp": 3.483643604765852, "note": "pace 3.5x vs peak 14.5x \u00b7 -21.3% off HOD \u00b7 chart still +28% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "LI", "prev_state": "CHURN", "state": "RUNNING", "price": 11.65, "tp": 2.3043688529480004, "note": "sustained 2.3x"}
 {"ts": "2026-09-22T11:44:36.375278-04:00", "demo": 0, "ticker": "IALT", "prev_state": "CHURN", "state": "RUNNING", "price": 29.685, "tp": 4.686005218035553, "note": "sustained 4.7x"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "HEPS", "prev_state": "QUIET", "state": "RUNNING", "price": 2.55, "tp": 1.9331670047374714, "note": "sustained 1.9x"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "LI", "prev_state": "RUNNING", "state": "COOLING", "price": 11.645, "tp": 1.4923821067418037, "note": "pace 1.5x off peak 2.5x"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "VITL", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 11.77, "tp": 3.3820866789080894, "note": "quiet open (1.1x) \u2192 now 3.4x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "ALL", "prev_state": "RUNNING", "state": "COOLING", "price": 228.695, "tp": 1.517429196038718, "note": "pace 1.5x off peak 3.1x"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "AZO", "prev_state": "RUNNING", "state": "CHURN", "price": 2970.27, "tp": 3.320922902606311, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "GENI", "prev_state": "QUIET", "state": "RUNNING", "price": 5.895, "tp": 1.9845843128786578, "note": "sustained 2.0x"}
+{"ts": "2026-09-22T11:47:36.375821-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "FADING", "state": "LEAVING", "price": 27.34, "tp": 0.6537120115022793, "note": "pace 0.7x off peak 4.7x \u00b7 VWAP lost (was +3.4% above)"}
