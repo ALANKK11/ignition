@@ -136,3 +136,4 @@
 {"ts": "2026-09-22T12:02:36.378699-04:00", "demo": 0, "ticker": "TBPH", "prev_state": "RUNNING", "state": "CHURN", "price": 17.05, "tp": 5.884365909470793, "note": "5.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-22T12:02:36.378699-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "CHURN", "state": "RUNNING", "price": 5.505, "tp": 3.4296008556173954, "note": "sustained 3.4x"}
 {"ts": "2026-09-22T12:02:36.378699-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.805, "tp": 6.592888103360672, "note": "pace 6.6x and accelerating (1.8x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-22T12:03:21.365154-04:00", "demo": 0, "ticker": "LMND", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lemonade Continues U.S. Expansion With Launch of Pet Insurance in Kentucky"}
