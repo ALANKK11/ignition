@@ -36,3 +36,13 @@
 {"ts": "2026-09-23T11:31:59.229048-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "RUNNING", "state": "COOLING", "price": 2.77, "tp": 1.2370778597396317, "note": "pace 1.2x off peak 4.6x"}
 {"ts": "2026-09-23T11:31:59.229048-04:00", "demo": 0, "ticker": "DCOY", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.13, "tp": 3.4097114417109653, "note": "pace 3.4x and accelerating (3.0x vs prior window) \u00b7 +5.9% in window"}
 {"ts": "2026-09-23T11:31:59.229048-04:00", "demo": 0, "ticker": "STRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.87, "tp": 2.0908028612723855, "note": "sustained 2.1x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "ALKT", "prev_state": "RUNNING", "state": "COOLING", "price": 14.745, "tp": 1.797628356740257, "note": "pace 1.8x off peak 4.2x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "QUIET", "state": "RUNNING", "price": 27.79, "tp": 2.2081046409441942, "note": "sustained 2.2x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "PBP", "prev_state": "CHURN", "state": "RUNNING", "price": 23.26, "tp": 71.56717016308404, "note": "sustained 71.6x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "SMJF", "prev_state": "RUNNING", "state": "COOLING", "price": 1.61, "tp": 1.4423234934766498, "note": "pace 1.4x off peak 2.9x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "JAGX", "prev_state": "QUIET", "state": "IGNITING", "price": 13.58, "tp": 8.526290946830086, "note": "pace 8.5x and accelerating (5.2x vs prior window) \u00b7 -4.4% in window"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "APPX", "prev_state": "QUIET", "state": "RUNNING", "price": 12.39, "tp": 2.447774590880783, "note": "sustained 2.4x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "RXRX", "prev_state": "COOLING", "state": "QUIET", "price": 3.825, "tp": 1.729524646336672, "note": ""}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "ABX", "prev_state": "RUNNING", "state": "COOLING", "price": 7.725, "tp": 1.563898148394118, "note": "pace 1.6x off peak 2.6x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "JSI", "prev_state": "CHURN", "state": "COOLING", "price": 50.445, "tp": 0.0, "note": "pace 0.0x off peak 44.7x"}
+{"ts": "2026-09-23T11:35:44.229791-04:00", "demo": 0, "ticker": "MQY", "prev_state": "RUNNING", "state": "QUIET", "price": 10.215, "tp": 1.6431296132062574, "note": ""}
