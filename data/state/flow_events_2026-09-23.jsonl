@@ -407,3 +407,4 @@
 {"ts": "2026-09-23T15:58:39.509023-04:00", "demo": 0, "ticker": "PTY", "prev_state": "RUNNING", "state": "COOLING", "price": 10.85, "tp": 1.056704844709666, "note": "pace 1.1x off peak 6.3x"}
 {"ts": "2026-09-23T16:12:09.497799-04:00", "demo": 0, "ticker": "FTK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Flotek Secures $120 Million Senior Secured Term Loan to Support Continued Strategic Growth"}
 {"ts": "2026-09-23T16:15:54.498459-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Markem-Imaje Launches CoLOS 2D Activate and CoLOS 2D Engage to Accelerate Manufacturers' Transition to Connected Consume"}
+{"ts": "2026-09-23T16:28:39.514855-04:00", "demo": 0, "ticker": "BENF", "prev_state": null, "state": "AH IGNITION", "price": 2.25, "tp": null, "note": "-10% on $0.11M ext tape"}
