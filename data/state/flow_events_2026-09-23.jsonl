@@ -182,3 +182,17 @@
 {"ts": "2026-09-23T12:13:14.237262-04:00", "demo": 0, "ticker": "DAVE", "prev_state": "QUIET", "state": "RUNNING", "price": 328.0, "tp": 1.8795253784039176, "note": "sustained 1.9x"}
 {"ts": "2026-09-23T12:13:14.237262-04:00", "demo": 0, "ticker": "EVER", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.09, "tp": 7.1917978653358805, "note": "sustained 7.2x"}
 {"ts": "2026-09-23T12:13:14.237262-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "QUIET", "state": "RUNNING", "price": 30.14, "tp": 2.7831776211075674, "note": "sustained 2.8x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "DAVE", "prev_state": "RUNNING", "state": "COOLING", "price": 328.0, "tp": 1.3098758070894665, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "NUAI", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.125, "tp": 11.803263491054425, "note": "pace 11.8x and accelerating (5.0x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "RNST", "prev_state": "RUNNING", "state": "COOLING", "price": 39.94, "tp": 1.113108285543565, "note": "pace 1.1x off peak 2.2x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "STRZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.16, "tp": 12.927802326135334, "note": "sustained 12.9x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "FLOT", "prev_state": "CHURN", "state": "COOLING", "price": 50.995, "tp": 1.067672668552334, "note": "pace 1.1x off peak 11.0x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "NEOG", "prev_state": "COOLING", "state": "RUNNING", "price": 13.67, "tp": 2.190259430385615, "note": "sustained 2.2x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "BYND", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.895, "tp": 7.834860661562244, "note": "sustained 7.8x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "EFG", "prev_state": "RUNNING", "state": "COOLING", "price": 120.6, "tp": 1.6735539537729855, "note": "pace 1.7x off peak 5.6x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "CZR", "prev_state": "RUNNING", "state": "CHURN", "price": 29.59, "tp": 5.09129564605057, "note": "5.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "ARTL", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.15, "tp": 250.3243158201161, "note": "pace 250.3x and accelerating (2.0x vs prior window) \u00b7 +9.9% in window"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "COOLING", "state": "RUNNING", "price": 1.4, "tp": 3.315457374386741, "note": "sustained 3.3x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "CSTM", "prev_state": "CHURN", "state": "RUNNING", "price": 24.855, "tp": 6.529278913670163, "note": "sustained 6.5x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.72, "tp": 2.683661411564802, "note": "sustained 2.7x"}
+{"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "BIT", "prev_state": "QUIET", "state": "RUNNING", "price": 11.335, "tp": 4.092015884558676, "note": "sustained 4.1x"}
