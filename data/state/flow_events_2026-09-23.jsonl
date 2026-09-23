@@ -294,3 +294,4 @@
 {"ts": "2026-09-23T12:43:14.242664-04:00", "demo": 0, "ticker": "DFEV", "prev_state": "COOLING", "state": "RUNNING", "price": 42.66, "tp": 4.955333772864607, "note": "sustained 5.0x"}
 {"ts": "2026-09-23T12:43:14.242664-04:00", "demo": 0, "ticker": "CRDU", "prev_state": "RUNNING", "state": "COOLING", "price": 8.83, "tp": 0.7040081136420396, "note": "pace 0.7x off peak 3.6x"}
 {"ts": "2026-09-23T12:43:14.242664-04:00", "demo": 0, "ticker": "DIN", "prev_state": "IGNITING", "state": "FADING", "price": 29.25, "tp": 1.2351532855468557, "note": "pace 1.2x vs peak 4.0x \u00b7 -0.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-23T12:44:44.231844-04:00", "demo": 0, "ticker": "BA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Boeing and Turkish Airlines Finalize Order for up to 150 737 MAX Jets"}
