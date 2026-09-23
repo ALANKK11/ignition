@@ -3,3 +3,4 @@
 {"ts": "2026-09-23T11:20:44.226523-04:00", "demo": 0, "ticker": "MSS", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.63, "tp": 235.74137953723215, "note": "sustained 235.7x"}
 {"ts": "2026-09-23T11:20:44.226523-04:00", "demo": 0, "ticker": "PTY", "prev_state": "QUIET", "state": "RUNNING", "price": 10.92, "tp": 1.9690625634447871, "note": "sustained 2.0x"}
 {"ts": "2026-09-23T11:20:44.226523-04:00", "demo": 0, "ticker": "RXRX", "prev_state": "QUIET", "state": "RUNNING", "price": 3.9, "tp": 1.8601289145263031, "note": "sustained 1.9x"}
+{"ts": "2026-09-23T11:22:14.216602-04:00", "demo": 0, "ticker": "DOO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Ski-Doo Celebrates 18 Years of Free Avalanche Awareness Seminars"}
