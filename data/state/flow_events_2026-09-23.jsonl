@@ -4,3 +4,13 @@
 {"ts": "2026-09-23T11:20:44.226523-04:00", "demo": 0, "ticker": "PTY", "prev_state": "QUIET", "state": "RUNNING", "price": 10.92, "tp": 1.9690625634447871, "note": "sustained 2.0x"}
 {"ts": "2026-09-23T11:20:44.226523-04:00", "demo": 0, "ticker": "RXRX", "prev_state": "QUIET", "state": "RUNNING", "price": 3.9, "tp": 1.8601289145263031, "note": "sustained 1.9x"}
 {"ts": "2026-09-23T11:22:14.216602-04:00", "demo": 0, "ticker": "DOO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Ski-Doo Celebrates 18 Years of Free Avalanche Awareness Seminars"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "IBTG", "prev_state": "QUIET", "state": "CHURN", "price": 22.865, "tp": 12.611407083802463, "note": "12.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 25.19, "tp": 1.1463696835750175, "note": "pace 1.1x off peak 2.3x"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "VGZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.77, "tp": 4.592288245428509, "note": "sustained 4.6x"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "ABX", "prev_state": "QUIET", "state": "RUNNING", "price": 7.735, "tp": 2.3016607715685597, "note": "sustained 2.3x"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "RES", "prev_state": "RUNNING", "state": "CHURN", "price": 5.835, "tp": 3.4724565226014708, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "STRZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 23.87, "tp": 4.373857415977692, "note": "pace 4.4x and accelerating (87.5x vs prior window) \u00b7 -3.7% in window"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "IONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.17, "tp": 2.737810836368236, "note": "sustained 2.7x"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "RXRX", "prev_state": "RUNNING", "state": "QUIET", "price": 3.885, "tp": 1.753868215697578, "note": ""}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "VTGN", "prev_state": "RUNNING", "state": "FADING", "price": 0.4002, "tp": 119.54139290553165, "note": "pace 119.5x vs peak 717.1x \u00b7 -25.9% off HOD \u00b7 chart still +55% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-23T11:24:29.227171-04:00", "demo": 0, "ticker": "CUE", "prev_state": "RUNNING", "state": "COOLING", "price": 33.05, "tp": 1.008258753377648, "note": "pace 1.0x off peak 2.7x"}
