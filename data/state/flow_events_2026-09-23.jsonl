@@ -196,3 +196,11 @@
 {"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "CSTM", "prev_state": "CHURN", "state": "RUNNING", "price": 24.855, "tp": 6.529278913670163, "note": "sustained 6.5x"}
 {"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.72, "tp": 2.683661411564802, "note": "sustained 2.7x"}
 {"ts": "2026-09-23T12:16:59.237847-04:00", "demo": 0, "ticker": "BIT", "prev_state": "QUIET", "state": "RUNNING", "price": 11.335, "tp": 4.092015884558676, "note": "sustained 4.1x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "EFG", "prev_state": "COOLING", "state": "RUNNING", "price": 120.59, "tp": 2.282636693574543, "note": "sustained 2.3x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "DISV", "prev_state": "CHURN", "state": "RUNNING", "price": 43.555, "tp": 4.838437602098369, "note": "sustained 4.8x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "NUAI", "prev_state": "IGNITING", "state": "CHURN", "price": 7.055, "tp": 10.507202235053455, "note": "10.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.12, "tp": 3.607786087039876, "note": "pace 3.6x and accelerating (18.1x vs prior window) \u00b7 -1.9% in window"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "ADP", "prev_state": "RUNNING", "state": "COOLING", "price": 267.56, "tp": 1.453725762030253, "note": "pace 1.5x off peak 6.3x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "GSOL", "prev_state": "RUNNING", "state": "COOLING", "price": 8.71, "tp": 1.0756030477948486, "note": "pace 1.1x off peak 4.6x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "AVLC", "prev_state": "COOLING", "state": "RUNNING", "price": 91.18, "tp": 5.303412583232043, "note": "sustained 5.3x"}
+{"ts": "2026-09-23T12:20:44.238544-04:00", "demo": 0, "ticker": "CZR", "prev_state": "CHURN", "state": "RUNNING", "price": 29.595, "tp": 4.332227486369555, "note": "sustained 4.3x"}
