@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-09-23T16:46:39-04:00", "session": "post", "rows": [{"ticker": "GCTK", "last": 5.25, "gap": 0.9279, "dollars": 117753.23000000001, "vs_adv": 45.91, "new": true}, {"ticker": "BENF", "last": 2.15, "gap": -0.1244, "dollars": 125861.79, "vs_adv": 1.95, "new": false}]}
+{"v": 4, "ts": "2026-09-23T16:49:39-04:00", "session": "post", "rows": [{"ticker": "GCTK", "last": 4.92, "gap": 0.9967, "dollars": 139640.16, "vs_adv": 52.57, "new": false}, {"ticker": "BENF", "last": 2.21, "gap": -0.1359, "dollars": 137221.13999999998, "vs_adv": 2.15, "new": false}]}
