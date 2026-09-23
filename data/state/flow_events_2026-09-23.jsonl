@@ -405,3 +405,4 @@
 {"ts": "2026-09-23T15:58:39.509023-04:00", "demo": 0, "ticker": "ARMG", "prev_state": "FADING", "state": "COOLING", "price": 28.13, "tp": 0.09067900374730613, "note": "pace 0.1x off peak 2.4x"}
 {"ts": "2026-09-23T15:58:39.509023-04:00", "demo": 0, "ticker": "NUAI", "prev_state": "FADING", "state": "LEAVING", "price": 7.025, "tp": 1.1410475416842172, "note": "pace 1.1x off peak 11.8x \u00b7 VWAP lost (was +3.3% above)"}
 {"ts": "2026-09-23T15:58:39.509023-04:00", "demo": 0, "ticker": "PTY", "prev_state": "RUNNING", "state": "COOLING", "price": 10.85, "tp": 1.056704844709666, "note": "pace 1.1x off peak 6.3x"}
+{"ts": "2026-09-23T16:12:09.497799-04:00", "demo": 0, "ticker": "FTK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Flotek Secures $120 Million Senior Secured Term Loan to Support Continued Strategic Growth"}
