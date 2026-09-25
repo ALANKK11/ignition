@@ -252,3 +252,4 @@
 {"ts": "2026-09-25T12:49:05.113902-04:00", "demo": 0, "ticker": "FTHM", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6137, "tp": 522.7595767980243, "note": "pace 522.8x and accelerating (8.3x vs prior window) \u00b7 +3.1% in window"}
 {"ts": "2026-09-25T16:11:06.990791-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Datavault AI Inc. Deadline: DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit"}
 {"ts": "2026-09-25T16:11:06.990791-04:00", "demo": 0, "ticker": "KLXE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "KLX Energy Services Announces Preliminary Results of Subscription Rights Offering"}
+{"ts": "2026-09-25T16:17:06.992075-04:00", "demo": 0, "ticker": "NKTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Nektar Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"}
