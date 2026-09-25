@@ -60,3 +60,4 @@
 {"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "ABX", "prev_state": "COOLING", "state": "CHURN", "price": 8.4, "tp": 2.550253198082817, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "PFIX", "prev_state": "RUNNING", "state": "QUIET", "price": 58.87, "tp": 1.7035700541855827, "note": ""}
 {"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.915, "tp": 12.33312200823423, "note": "pace 12.3x and accelerating (43.9x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-09-25T12:03:20.095275-04:00", "demo": 0, "ticker": "AARD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Aardvark Therapeutics, Inc. (AARD) Investors with Substantial Losses Have Opportunity to Lead Aardvark Class Action Laws"}
