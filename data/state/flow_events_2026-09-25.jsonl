@@ -1,2 +1,9 @@
 {"ts": "2026-09-25T11:44:35.092407-04:00", "demo": 0, "ticker": "ASTS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ASTS INVESTOR ALERT: AST SpaceMobile, Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Befor"}
 {"ts": "2026-09-25T11:44:35.092407-04:00", "demo": 0, "ticker": "IAUX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "i-80 Gold Publishes its 2025 Sustainability Report"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "ABX", "prev_state": "QUIET", "state": "RUNNING", "price": 8.385, "tp": 2.0545315439327405, "note": "sustained 2.1x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "FPE", "prev_state": "QUIET", "state": "RUNNING", "price": 17.215, "tp": 1.934193217570058, "note": "sustained 1.9x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "PFFA", "prev_state": "CHURN", "state": "RUNNING", "price": 19.91, "tp": 4.570687826081905, "note": "sustained 4.6x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "QUIET", "state": "RUNNING", "price": 46.035, "tp": 1.897585243127427, "note": "sustained 1.9x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "QUIET", "state": "RUNNING", "price": 9.055, "tp": 1.93301261624577, "note": "sustained 1.9x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "DFEV", "prev_state": "CHURN", "state": "COOLING", "price": 42.63, "tp": 1.4586545802560942, "note": "pace 1.5x off peak 3.3x"}
+{"ts": "2026-09-25T11:47:35.103670-04:00", "demo": 0, "ticker": "XNDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.97, "tp": 4.740214463265301, "note": "pace 4.7x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
