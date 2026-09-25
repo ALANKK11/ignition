@@ -46,3 +46,17 @@
 {"ts": "2026-09-25T11:58:05.105304-04:00", "demo": 0, "ticker": "XNDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.97, "tp": 2.550977437983396, "note": "sustained 2.6x"}
 {"ts": "2026-09-25T11:58:05.105304-04:00", "demo": 0, "ticker": "PFFA", "prev_state": "RUNNING", "state": "CHURN", "price": 19.92, "tp": 4.307217819793824, "note": "4.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-25T11:58:05.105304-04:00", "demo": 0, "ticker": "PUR", "prev_state": "RUNNING", "state": "COOLING", "price": 35.08, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "ASPN", "prev_state": "QUIET", "state": "RUNNING", "price": 5.15, "tp": 2.315307784904204, "note": "sustained 2.3x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "SUIL", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.41, "tp": 71.51547031264677, "note": "pace 71.5x and accelerating (31.4x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "RUNNING", "price": 4.82, "tp": 147.60383830760625, "note": "sustained 147.6x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "NEA", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.95, "tp": 3.5501867798134294, "note": "pace 3.6x and accelerating (2.4x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "PTY", "prev_state": "RUNNING", "state": "CHURN", "price": 10.86, "tp": 6.40346888941502, "note": "6.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "PFFA", "prev_state": "CHURN", "state": "RUNNING", "price": 19.955, "tp": 3.4281736786261807, "note": "sustained 3.4x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "PPLI", "prev_state": "QUIET", "state": "RUNNING", "price": 39.855, "tp": 2.156803294042617, "note": "sustained 2.2x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "FFAI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.67, "tp": 18.3588408021245, "note": "pace 18.4x and accelerating (1.9x vs prior window) \u00b7 -2.6% in window"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "XNDU", "prev_state": "RUNNING", "state": "COOLING", "price": 4.99, "tp": 1.3685374793627676, "note": "pace 1.4x off peak 4.7x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "KDK", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.43, "tp": 11.350929264913, "note": "sustained 11.4x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "SMCIP", "prev_state": "IGNITING", "state": "RUNNING", "price": 71.47, "tp": 55.03615495087503, "note": "sustained 55.0x"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "ABX", "prev_state": "COOLING", "state": "CHURN", "price": 8.4, "tp": 2.550253198082817, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "PFIX", "prev_state": "RUNNING", "state": "QUIET", "price": 58.87, "tp": 1.7035700541855827, "note": ""}
+{"ts": "2026-09-25T12:01:05.105706-04:00", "demo": 0, "ticker": "OXLC", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.915, "tp": 12.33312200823423, "note": "pace 12.3x and accelerating (43.9x vs prior window) \u00b7 -0.7% in window"}
