@@ -74,3 +74,4 @@
 {"ts": "2026-09-25T12:04:50.106486-04:00", "demo": 0, "ticker": "ABX", "prev_state": "CHURN", "state": "IGNITING", "price": 8.45, "tp": 3.2525686866963164, "note": "pace 3.3x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-09-25T12:04:50.106486-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "COOLING", "state": "RUNNING", "price": 9.15, "tp": 2.3353865713991495, "note": "sustained 2.3x"}
 {"ts": "2026-09-25T12:04:50.106486-04:00", "demo": 0, "ticker": "NCPL", "prev_state": "QUIET", "state": "RUNNING", "price": 1.47, "tp": 1.9384341102073581, "note": "sustained 1.9x"}
+{"ts": "2026-09-25T12:06:20.095748-04:00", "demo": 0, "ticker": "DVLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Datavault AI Inc. (NASDAQ: DVLT) Deadline Approaching: Berger Montague Advises Investors of Deadline in Securities Fraud"}
