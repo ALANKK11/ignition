@@ -246,3 +246,14 @@
 {"ts": "2026-09-28T15:21:08.246250-04:00", "demo": 0, "ticker": "FUSE", "prev_state": "IGNITING", "state": "FADING", "price": 0.6601, "tp": 0.0, "note": "pace 0.0x vs peak 79.8x \u00b7 -29.0% off HOD \u00b7 chart still +16% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-28T15:21:08.246250-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "RUNNING", "state": "CHURN", "price": 45.765, "tp": 14.025935884242841, "note": "14.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-28T15:21:08.246250-04:00", "demo": 0, "ticker": "FLRT", "prev_state": "RUNNING", "state": "CHURN", "price": 46.565, "tp": 15.093427256970493, "note": "15.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CGUI", "prev_state": "RUNNING", "state": "CHURN", "price": 25.24, "tp": 39.03889966406828, "note": "39.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "ACET", "prev_state": "RUNNING", "state": "COOLING", "price": 6.52, "tp": 0.6914405981148786, "note": "pace 0.7x off peak 25.8x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "THRM", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.675, "tp": 7.029321077320079, "note": "sustained 7.0x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "TR", "prev_state": "RUNNING", "state": "COOLING", "price": 37.84, "tp": 1.4093364467792133, "note": "pace 1.4x off peak 8.7x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "ITM", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 43.755, "tp": 3.574598275442087, "note": "quiet open (0.9x) \u2192 now 3.6x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "GDOT", "prev_state": "FADING", "state": "RUNNING", "price": 12.355, "tp": 2.3784619515154417, "note": "sustained 2.4x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "DBND", "prev_state": "RUNNING", "state": "COOLING", "price": 43.545, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "OPRT", "prev_state": "RUNNING", "state": "CHURN", "price": 8.325, "tp": 3.966415180905523, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CGEM", "prev_state": "FADING", "state": "RUNNING", "price": 15.075, "tp": 6.598891915215198, "note": "sustained 6.6x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CAM", "prev_state": "CHURN", "state": "RUNNING", "price": 24.03, "tp": 30.966903909106154, "note": "sustained 31.0x"}
+{"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CMF", "prev_state": "CHURN", "state": "RUNNING", "price": 53.785, "tp": 12.23965543628608, "note": "sustained 12.2x"}
