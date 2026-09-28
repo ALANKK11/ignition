@@ -257,3 +257,15 @@
 {"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CGEM", "prev_state": "FADING", "state": "RUNNING", "price": 15.075, "tp": 6.598891915215198, "note": "sustained 6.6x"}
 {"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CAM", "prev_state": "CHURN", "state": "RUNNING", "price": 24.03, "tp": 30.966903909106154, "note": "sustained 31.0x"}
 {"ts": "2026-09-28T15:24:53.246589-04:00", "demo": 0, "ticker": "CMF", "prev_state": "CHURN", "state": "RUNNING", "price": 53.785, "tp": 12.23965543628608, "note": "sustained 12.2x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "RUNNING", "state": "CHURN", "price": 118.335, "tp": 2.245934106161663, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "CHURN", "state": "RUNNING", "price": 45.785, "tp": 14.6970422291839, "note": "sustained 14.7x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "EGG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.25, "tp": 393.24359107647325, "note": "sustained 393.2x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "AOM", "prev_state": "QUIET", "state": "CHURN", "price": 48.91, "tp": 10.660014169725232, "note": "10.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "FLRT", "prev_state": "CHURN", "state": "RUNNING", "price": 46.57, "tp": 22.465043154602718, "note": "sustained 22.5x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "CORP", "prev_state": "RUNNING", "state": "COOLING", "price": 92.04, "tp": 1.1747338773071365, "note": "pace 1.2x off peak 15.9x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "ESGD", "prev_state": "COOLING", "state": "RUNNING", "price": 104.34, "tp": 2.3324291455606554, "note": "sustained 2.3x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "ITM", "prev_state": "NEW MONEY", "state": "COOLING", "price": 43.755, "tp": 1.4753404848873184, "note": "pace 1.5x off peak 12.5x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "ARIS", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.685, "tp": 8.238910798433066, "note": "pace 8.2x and accelerating (2.1x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "OPRT", "prev_state": "CHURN", "state": "RUNNING", "price": 8.32, "tp": 2.5202026254556755, "note": "sustained 2.5x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "ONT", "prev_state": "RUNNING", "state": "COOLING", "price": 14.72, "tp": 1.7001426239766277, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-09-28T15:28:38.247737-04:00", "demo": 0, "ticker": "CGUI", "prev_state": "CHURN", "state": "RUNNING", "price": 25.24, "tp": 47.77211133918723, "note": "sustained 47.8x"}
