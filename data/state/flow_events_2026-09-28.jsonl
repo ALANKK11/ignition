@@ -67,3 +67,22 @@
 {"ts": "2026-09-28T14:43:38.239373-04:00", "demo": 0, "ticker": "ITM", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 43.775, "tp": 2.280848132845747, "note": "sustained 2.3x"}
 {"ts": "2026-09-28T14:43:38.239373-04:00", "demo": 0, "ticker": "NVG", "prev_state": "QUIET", "state": "RUNNING", "price": 10.44, "tp": 3.670568386039085, "note": "sustained 3.7x"}
 {"ts": "2026-09-28T14:43:38.239373-04:00", "demo": 0, "ticker": "NZF", "prev_state": "CHURN", "state": "RUNNING", "price": 10.675, "tp": 7.6626205193667465, "note": "sustained 7.7x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "MSFD", "prev_state": "QUIET", "state": "CHURN", "price": 9.99, "tp": 4.12758066198339, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "KNDI", "prev_state": "RUNNING", "state": "FADING", "price": 0.7879, "tp": 11.08731658399495, "note": "pace 11.1x vs peak 2361.6x \u00b7 -23.1% off HOD \u00b7 chart still +31% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "LRMR", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.165, "tp": 3.6342922113751484, "note": "sustained 3.6x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "MMD", "prev_state": "RUNNING", "state": "CHURN", "price": 13.375, "tp": 13.00013223636081, "note": "13.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "RUNNING", "state": "CHURN", "price": 43.895, "tp": 22.818565696450573, "note": "22.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "METQ", "prev_state": "RUNNING", "state": "FADING", "price": 14.24, "tp": 0.0, "note": "pace 0.0x vs peak 8.9x \u00b7 -0.8% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "MTEK", "prev_state": "RUNNING", "state": "COOLING", "price": 0.98, "tp": 0.0, "note": "pace 0.0x off peak 246.6x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "BINV", "prev_state": "RUNNING", "state": "COOLING", "price": 43.74, "tp": 0.0, "note": "pace 0.0x off peak 237.0x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "FBT", "prev_state": "FADING", "state": "RUNNING", "price": 273.96, "tp": 10.627414030020326, "note": "sustained 10.6x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "FLRT", "prev_state": "QUIET", "state": "RUNNING", "price": 46.6, "tp": 2.6172927013191156, "note": "sustained 2.6x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "ITM", "prev_state": "RUNNING", "state": "COOLING", "price": 43.775, "tp": 1.1344392197594915, "note": "pace 1.1x off peak 12.5x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "KDK", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.365, "tp": 9.87874645032745, "note": "sustained 9.9x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "AOK", "prev_state": "RUNNING", "state": "COOLING", "price": 40.47, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "MDB", "prev_state": "CHURN", "state": "RUNNING", "price": 342.42, "tp": 3.4123484273981566, "note": "sustained 3.4x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "MX", "prev_state": "COOLING", "state": "RUNNING", "price": 3.86, "tp": 3.0860570950578707, "note": "sustained 3.1x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "CLB", "prev_state": "QUIET", "state": "RUNNING", "price": 10.22, "tp": 2.20319715529185, "note": "sustained 2.2x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "CGEM", "prev_state": "QUIET", "state": "RUNNING", "price": 15.155, "tp": 2.397989471921814, "note": "sustained 2.4x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "KNRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.08, "tp": 5894.858446696321, "note": "sustained 5894.9x"}
+{"ts": "2026-09-28T14:47:23.239172-04:00", "demo": 0, "ticker": "NUV", "prev_state": "CHURN", "state": "RUNNING", "price": 8.115, "tp": 13.943459417813434, "note": "sustained 13.9x"}
