@@ -19,3 +19,11 @@
 {"ts": "2026-09-28T14:28:38.235300-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "CHURN", "state": "RUNNING", "price": 12.28, "tp": 1.8192622816798654, "note": "sustained 1.8x"}
 {"ts": "2026-09-28T14:28:38.235300-04:00", "demo": 0, "ticker": "ACAD", "prev_state": "QUIET", "state": "COOLING", "price": 19.87, "tp": 1.1809726640710267, "note": "pace 1.2x off peak 2.1x"}
 {"ts": "2026-09-28T14:28:38.235300-04:00", "demo": 0, "ticker": "GSL", "prev_state": "CHURN", "state": "COOLING", "price": 43.965, "tp": 0.6479575735666621, "note": "pace 0.6x off peak 2.5x"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "BEAG", "prev_state": "RUNNING", "state": "COOLING", "price": 10.705, "tp": 0.0, "note": "pace 0.0x off peak 70.3x"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "TR", "prev_state": "QUIET", "state": "CHURN", "price": 37.655, "tp": 5.17101708917991, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "NAMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.17, "tp": 3.3165529592749268, "note": "pace 3.3x and accelerating (6.4x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "PACB", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.79, "tp": 13.565746125124571, "note": "sustained 13.6x"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "THRM", "prev_state": "RUNNING", "state": "COOLING", "price": 33.91, "tp": 0.2720989883910153, "note": "pace 0.3x off peak 2.4x"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "ARAY", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.3293, "tp": 177.92380183153358, "note": "pace 177.9x and accelerating (2.3x vs prior window) \u00b7 -3.7% in window"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "KOD", "prev_state": "IGNITING", "state": "RUNNING", "price": 91.3, "tp": 14.27244831124653, "note": "sustained 14.3x"}
+{"ts": "2026-09-28T14:32:23.236016-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "RUNNING", "state": "CHURN", "price": 12.27, "tp": 2.3505286432643864, "note": "2.4x participation, no progress at highs \u2014 absorption"}
