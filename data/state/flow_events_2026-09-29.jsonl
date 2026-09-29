@@ -878,3 +878,4 @@
 {"ts": "2026-09-29T15:59:07.669729-04:00", "demo": 0, "ticker": "CFFI", "prev_state": "FADING", "state": "IGNITING", "price": 99.195, "tp": 6.838564611002005, "note": "pace 6.8x and accelerating (136.8x vs prior window) \u00b7 +1.4% in window"}
 {"ts": "2026-09-29T15:59:07.669729-04:00", "demo": 0, "ticker": "TRTX", "prev_state": "FADING", "state": "RUNNING", "price": 6.345, "tp": 2.0981794279102206, "note": "sustained 2.1x"}
 {"ts": "2026-09-29T15:59:07.669729-04:00", "demo": 0, "ticker": "LXRX", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.875, "tp": 3.6918653710600386, "note": "pace 3.7x and accelerating (11.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-29T16:17:07.658068-04:00", "demo": 0, "ticker": "SOLS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Solstice Advanced Materials, Plaintiffs Announce Agreement in Principle to Settle Longstanding Litigation Related to Met"}
