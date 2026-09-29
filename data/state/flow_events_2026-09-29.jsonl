@@ -21,3 +21,13 @@
 {"ts": "2026-09-29T12:50:07.632489-04:00", "demo": 0, "ticker": "NAUT", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.49, "tp": 25.40715286464044, "note": "sustained 25.4x"}
 {"ts": "2026-09-29T12:50:07.632489-04:00", "demo": 0, "ticker": "ZIM", "prev_state": "RUNNING", "state": "COOLING", "price": 27.985, "tp": 1.6129312739768624, "note": "pace 1.6x off peak 3.5x"}
 {"ts": "2026-09-29T12:50:07.632489-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "RUNNING", "state": "FADING", "price": 2.79, "tp": 195.1787984514849, "note": "pace 195.2x vs peak 946.5x \u00b7 -39.3% off HOD \u00b7 chart still +54% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "PCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.42, "tp": 2.022479668857468, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "AMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.05, "tp": 10.56557672011342, "note": "sustained 10.6x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "HIMU", "prev_state": "QUIET", "state": "RUNNING", "price": 45.11, "tp": 1.8220728122630578, "note": "sustained 1.8x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "MEC", "prev_state": "QUIET", "state": "RUNNING", "price": 16.505, "tp": 2.5902573497793475, "note": "sustained 2.6x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "SANG", "prev_state": "CHURN", "state": "RUNNING", "price": 4.915, "tp": 270.7728616087485, "note": "sustained 270.8x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "BKLC", "prev_state": "RUNNING", "state": "CHURN", "price": 48.91, "tp": 5.425882015881666, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "DXST", "prev_state": "RUNNING", "state": "FADING", "price": 2.86, "tp": 21.954280375981277, "note": "pace 22.0x vs peak 122.0x \u00b7 -48.3% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "MSGY", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.94, "tp": 8.248154223960993, "note": "pace 8.2x and accelerating (7.3x vs prior window) \u00b7 +2.3% in window"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "SPCG", "prev_state": "RUNNING", "state": "COOLING", "price": 15.48, "tp": 1.5498050592498698, "note": "pace 1.5x off peak 5.1x"}
+{"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "MQY", "prev_state": "COOLING", "state": "RUNNING", "price": 9.855, "tp": 1.9313460066429406, "note": "sustained 1.9x"}
