@@ -589,3 +589,4 @@
 {"ts": "2026-09-29T14:56:07.657398-04:00", "demo": 0, "ticker": "APO", "prev_state": "CHURN", "state": "RUNNING", "price": 119.32, "tp": 4.404673216620292, "note": "sustained 4.4x"}
 {"ts": "2026-09-29T14:56:07.657398-04:00", "demo": 0, "ticker": "ALDX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.355, "tp": 4.016702238851928, "note": "sustained 4.0x"}
 {"ts": "2026-09-29T14:56:07.657398-04:00", "demo": 0, "ticker": "CRTC", "prev_state": "RUNNING", "state": "COOLING", "price": 41.28, "tp": 0.0, "note": "pace 0.0x off peak 180.9x"}
+{"ts": "2026-09-29T14:57:37.642835-04:00", "demo": 0, "ticker": "FWAC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "$HAREHOLDER ALERT: The M&amp;A Class Action Firm Announces An Investigation of Futurewave Acquisition Corporation (NASDA"}
