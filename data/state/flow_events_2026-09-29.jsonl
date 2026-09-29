@@ -672,3 +672,13 @@
 {"ts": "2026-09-29T15:17:07.662158-04:00", "demo": 0, "ticker": "TRTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.39, "tp": 4.293447536197737, "note": "sustained 4.3x"}
 {"ts": "2026-09-29T15:17:07.662158-04:00", "demo": 0, "ticker": "CGMU", "prev_state": "RUNNING", "state": "CHURN", "price": 25.775, "tp": 3.3959631753881423, "note": "3.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-29T15:17:07.662158-04:00", "demo": 0, "ticker": "AMPH", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 26.64, "tp": 2.6713422185587676, "note": "quiet open (0.8x) \u2192 now 2.7x \u00b7 taking +0.6% flow share"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "DXST", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.95, "tp": 443.84967676574564, "note": "sustained 443.8x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "CHURN", "state": "RUNNING", "price": 54.7, "tp": 4.091602957317989, "note": "sustained 4.1x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "QUIET", "state": "RUNNING", "price": 10.0, "tp": 1.8784022924641597, "note": "sustained 1.9x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "CWI", "prev_state": "COOLING", "state": "RUNNING", "price": 40.68, "tp": 8.71642919872395, "note": "sustained 8.7x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.875, "tp": 2.489583804680722, "note": "sustained 2.5x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "CORD", "prev_state": "IGNITING", "state": "COOLING", "price": 2.99, "tp": 0.0, "note": "pace 0.0x off peak 7.8x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "RUNNING", "state": "COOLING", "price": 12.03, "tp": 1.551290300811141, "note": "pace 1.6x off peak 6.8x"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "FADING", "state": "IGNITING", "price": 14.95, "tp": 3.165021725649823, "note": "pace 3.2x and accelerating (3.5x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "BKAG", "prev_state": "RUNNING", "state": "CHURN", "price": 40.08, "tp": 2.5336700168400963, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T15:20:07.662294-04:00", "demo": 0, "ticker": "PCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.51, "tp": 2.7011266906829965, "note": "sustained 2.7x"}
