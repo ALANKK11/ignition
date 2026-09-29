@@ -39,3 +39,12 @@
 {"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "SMRI", "prev_state": "QUIET", "state": "RUNNING", "price": 44.36, "tp": 100.48287318619917, "note": "sustained 100.5x"}
 {"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "MQY", "prev_state": "RUNNING", "state": "COOLING", "price": 9.84, "tp": 0.8426311857762728, "note": "pace 0.8x off peak 2.7x"}
 {"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "CHURN", "price": 1.775, "tp": 2.4260369570391123, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "AMC", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.045, "tp": 11.118916455042477, "note": "pace 11.1x and accelerating (2.4x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "COOLING", "state": "RUNNING", "price": 25.825, "tp": 1.8426560034850965, "note": "sustained 1.8x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "PCT", "prev_state": "RUNNING", "state": "COOLING", "price": 4.42, "tp": 1.6180398270866, "note": "pace 1.6x off peak 3.0x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "DXST", "prev_state": "FADING", "state": "RUNNING", "price": 2.94, "tp": 84.88690280086657, "note": "sustained 84.9x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "IOVA", "prev_state": "RUNNING", "state": "IGNITING", "price": 14.88, "tp": 5.60749844864026, "note": "pace 5.6x and accelerating (1.7x vs prior window) \u00b7 +1.9% in window"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "PACB", "prev_state": "CHURN", "state": "COOLING", "price": 1.775, "tp": 0.9966118885790105, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "AXTQ", "prev_state": "IGNITING", "state": "COOLING", "price": 22.59, "tp": 0.0, "note": "pace 0.0x off peak 4.3x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "ZIM", "prev_state": "COOLING", "state": "RUNNING", "price": 28.295, "tp": 3.539655640659322, "note": "sustained 3.5x"}
+{"ts": "2026-09-29T12:59:07.634722-04:00", "demo": 0, "ticker": "SSTI", "prev_state": "RUNNING", "state": "FADING", "price": 8.2, "tp": 22.962650034175493, "note": "pace 23.0x vs peak 67.2x \u00b7 -2.7% off HOD \u00b7 chart still +50% \u2014 crowd buying a cooled tape"}
