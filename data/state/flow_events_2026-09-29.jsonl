@@ -212,3 +212,14 @@
 {"ts": "2026-09-29T13:35:07.641956-04:00", "demo": 0, "ticker": "CBOE", "prev_state": "RUNNING", "state": "COOLING", "price": 264.24, "tp": 1.1724928251292073, "note": "pace 1.2x off peak 2.0x"}
 {"ts": "2026-09-29T13:35:07.641956-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "RUNNING", "state": "QUIET", "price": 34.62, "tp": 1.6590628957048954, "note": ""}
 {"ts": "2026-09-29T13:35:07.641956-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.4, "tp": 5.43326578421345, "note": "sustained 5.4x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "CORD", "prev_state": "IGNITING", "state": "COOLING", "price": 3.01, "tp": 1.7821289631770816, "note": "pace 1.8x off peak 7.8x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "RUNNING", "state": "CHURN", "price": 4.815, "tp": 4.792011295634686, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "BSJQ", "prev_state": "RUNNING", "state": "COOLING", "price": 22.8, "tp": 0.7671556528455705, "note": "pace 0.8x off peak 72.0x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.83, "tp": 1.9670122132933137, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.76, "tp": 2.885736289858155, "note": "pace 2.9x and accelerating (20.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "CHURN", "state": "RUNNING", "price": 25.78, "tp": 7.7905657951288365, "note": "sustained 7.8x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.43, "tp": 6.9864843064231215, "note": "pace 7.0x and accelerating (2.3x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "ALDX", "prev_state": "FADING", "state": "RUNNING", "price": 1.34, "tp": 6.595654423259499, "note": "sustained 6.6x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "BGIN", "prev_state": "FADING", "state": "IGNITING", "price": 2.09, "tp": 46306.62006032141, "note": "pace 46306.6x and accelerating (2.0x vs prior window) \u00b7 -10.3% in window"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "EMLP", "prev_state": "COOLING", "state": "RUNNING", "price": 41.18, "tp": 2.76524525474846, "note": "sustained 2.8x"}
+{"ts": "2026-09-29T13:38:07.642632-04:00", "demo": 0, "ticker": "EXG", "prev_state": "RUNNING", "state": "COOLING", "price": 9.33, "tp": 1.5788593226683758, "note": "pace 1.6x off peak 4.9x"}
