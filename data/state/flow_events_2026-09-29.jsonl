@@ -12,3 +12,4 @@
 {"ts": "2026-09-29T12:47:07.631971-04:00", "demo": 0, "ticker": "EVV", "prev_state": "QUIET", "state": "CHURN", "price": 8.345, "tp": 4.0970116959884475, "note": "4.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-29T12:47:07.631971-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "QUIET", "state": "RUNNING", "price": 5.905, "tp": 1.8353170491853417, "note": "sustained 1.8x"}
 {"ts": "2026-09-29T12:47:07.631971-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "QUIET", "state": "RUNNING", "price": 25.86, "tp": 1.8856941889496726, "note": "sustained 1.9x"}
+{"ts": "2026-09-29T12:47:52.617959-04:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Shareholder Class"}
