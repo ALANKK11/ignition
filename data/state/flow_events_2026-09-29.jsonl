@@ -845,3 +845,17 @@
 {"ts": "2026-09-29T15:53:07.668351-04:00", "demo": 0, "ticker": "DV", "prev_state": "CHURN", "state": "RUNNING", "price": 13.38, "tp": 2.737282321338563, "note": "sustained 2.7x"}
 {"ts": "2026-09-29T15:53:07.668351-04:00", "demo": 0, "ticker": "SPCG", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.26, "tp": 2.938541073714246, "note": "pace 2.9x and accelerating (1.7x vs prior window) \u00b7 -1.8% in window"}
 {"ts": "2026-09-29T15:53:07.668351-04:00", "demo": 0, "ticker": "MQY", "prev_state": "RUNNING", "state": "COOLING", "price": 9.9, "tp": 1.7562051459196262, "note": "pace 1.8x off peak 3.7x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "CHURN", "state": "RUNNING", "price": 26.0, "tp": 4.392142104909157, "note": "sustained 4.4x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "CGDG", "prev_state": "COOLING", "state": "RUNNING", "price": 37.455, "tp": 2.0295689976232585, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "BEAG", "prev_state": "CHURN", "state": "COOLING", "price": 10.695, "tp": 1.4554814985175157, "note": "pace 1.5x off peak 6.8x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 4.515, "tp": 1.2312874385067059, "note": "pace 1.2x off peak 9.2x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "OCUL", "prev_state": "FADING", "state": "LEAVING", "price": 7.835, "tp": 0.8787554232995964, "note": "pace 0.9x off peak 3.9x \u00b7 VWAP lost (was +3.5% above)"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "SVRA", "prev_state": "FADING", "state": "RUNNING", "price": 5.075, "tp": 1.9031944229884452, "note": "sustained 1.9x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "EEMV", "prev_state": "COOLING", "state": "RUNNING", "price": 74.715, "tp": 2.7589863639829955, "note": "sustained 2.8x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "MQY", "prev_state": "COOLING", "state": "CHURN", "price": 9.895, "tp": 2.481975628450552, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "SPCG", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.365, "tp": 2.0332624508123303, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "HIMU", "prev_state": "CHURN", "state": "RUNNING", "price": 45.205, "tp": 3.953432099525952, "note": "sustained 4.0x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "AMPH", "prev_state": "COOLING", "state": "RUNNING", "price": 26.67, "tp": 1.9679637302963413, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "APO", "prev_state": "CHURN", "state": "RUNNING", "price": 119.285, "tp": 3.799417533015189, "note": "sustained 3.8x"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "IGNITING", "state": "LEAVING", "price": 11.7, "tp": 3.1720040756887435, "note": "pace 3.2x off peak 6.8x \u00b7 VWAP lost (was +4.1% above)"}
+{"ts": "2026-09-29T15:56:07.669022-04:00", "demo": 0, "ticker": "CGIC", "prev_state": "RUNNING", "state": "COOLING", "price": 36.385, "tp": 1.245243569145955, "note": "pace 1.2x off peak 3.5x"}
