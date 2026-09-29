@@ -636,3 +636,13 @@
 {"ts": "2026-09-29T15:08:07.659922-04:00", "demo": 0, "ticker": "CGMU", "prev_state": "CHURN", "state": "RUNNING", "price": 25.775, "tp": 1.8454773427362292, "note": "sustained 1.8x"}
 {"ts": "2026-09-29T15:08:07.659922-04:00", "demo": 0, "ticker": "COFS", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.82, "tp": 22.68115005001841, "note": "sustained 22.7x"}
 {"ts": "2026-09-29T15:08:07.659922-04:00", "demo": 0, "ticker": "CWI", "prev_state": "RUNNING", "state": "COOLING", "price": 40.67, "tp": 0.0, "note": "pace 0.0x off peak 28.0x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "BSMT", "prev_state": "CHURN", "state": "COOLING", "price": 22.085, "tp": 0.0, "note": "pace 0.0x off peak 168.6x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.95, "tp": 1.848195303862204, "note": "sustained 1.8x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "CGMU", "prev_state": "RUNNING", "state": "CHURN", "price": 25.775, "tp": 2.9642336038912354, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "LEAVING", "price": 13.38, "tp": 1.029482601364762, "note": "pace 1.0x off peak 7.5x \u00b7 VWAP lost (was +3.0% above)"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "AMPH", "prev_state": "QUIET", "state": "RUNNING", "price": 26.56, "tp": 1.9820345778253172, "note": "sustained 2.0x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "RUNNING", "state": "COOLING", "price": 12.08, "tp": 1.5829124993655066, "note": "pace 1.6x off peak 6.8x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "EQWL", "prev_state": "COOLING", "state": "RUNNING", "price": 129.715, "tp": 3.374460592217533, "note": "sustained 3.4x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "CHURN", "state": "RUNNING", "price": 45.755, "tp": 12.801880889911068, "note": "sustained 12.8x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "MEC", "prev_state": "RUNNING", "state": "COOLING", "price": 16.49, "tp": 1.0413111747267376, "note": "pace 1.0x off peak 3.5x"}
+{"ts": "2026-09-29T15:11:07.660395-04:00", "demo": 0, "ticker": "ANGI", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.83, "tp": 3.0268197326708286, "note": "pace 3.0x and accelerating (12.5x vs prior window) \u00b7 +0.5% in window"}
