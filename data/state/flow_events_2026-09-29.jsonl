@@ -253,3 +253,11 @@
 {"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "RUNNING", "state": "COOLING", "price": 54.7, "tp": 0.1455387317920306, "note": "pace 0.1x off peak 6.2x"}
 {"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "RUNNING", "state": "CHURN", "price": 20.1, "tp": 5.627247273236935, "note": "5.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "RUNNING", "state": "IGNITING", "price": 25.85, "tp": 8.58320980366117, "note": "pace 8.6x and accelerating (2.7x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "EMLP", "prev_state": "RUNNING", "state": "CHURN", "price": 41.2, "tp": 2.747452667745059, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "CBOE", "prev_state": "COOLING", "state": "QUIET", "price": 266.705, "tp": 1.7127870575789776, "note": ""}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "EXG", "prev_state": "CHURN", "state": "RUNNING", "price": 9.335, "tp": 18.50563111896943, "note": "sustained 18.5x"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "IGNITING", "state": "RUNNING", "price": 25.85, "tp": 7.590616742877474, "note": "sustained 7.6x"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "PCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.405, "tp": 1.874153146341856, "note": "sustained 1.9x"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "MUNI", "prev_state": "RUNNING", "state": "COOLING", "price": 49.325, "tp": 1.7953101446820356, "note": "pace 1.8x off peak 10.6x"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "FDD", "prev_state": "COOLING", "state": "RUNNING", "price": 19.415, "tp": 3.7205012049024697, "note": "sustained 3.7x"}
+{"ts": "2026-09-29T13:50:07.645123-04:00", "demo": 0, "ticker": "CCB", "prev_state": "QUIET", "state": "RUNNING", "price": 39.265, "tp": 2.1071968263258607, "note": "sustained 2.1x"}
