@@ -277,3 +277,14 @@
 {"ts": "2026-09-29T13:53:07.645596-04:00", "demo": 0, "ticker": "APO", "prev_state": "RUNNING", "state": "COOLING", "price": 119.0, "tp": 1.3373502566280053, "note": "pace 1.3x off peak 3.6x"}
 {"ts": "2026-09-29T13:53:07.645596-04:00", "demo": 0, "ticker": "EQWL", "prev_state": "RUNNING", "state": "COOLING", "price": 129.39, "tp": 0.0, "note": "pace 0.0x off peak 17.7x"}
 {"ts": "2026-09-29T13:53:07.645596-04:00", "demo": 0, "ticker": "EMLP", "prev_state": "CHURN", "state": "RUNNING", "price": 41.22, "tp": 2.65080309938631, "note": "sustained 2.7x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "VRP", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 23.67, "tp": 4.522959886775486, "note": "sustained 4.5x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "APO", "prev_state": "COOLING", "state": "RUNNING", "price": 118.925, "tp": 7.474786788634653, "note": "sustained 7.5x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "CRTC", "prev_state": "COOLING", "state": "IGNITING", "price": 41.075, "tp": 52.89534670589893, "note": "pace 52.9x and accelerating (1057.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "SPCG", "prev_state": "RUNNING", "state": "COOLING", "price": 15.66, "tp": 1.3807985072957272, "note": "pace 1.4x off peak 10.5x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "CHURN", "state": "RUNNING", "price": 4.81, "tp": 6.620574581227217, "note": "sustained 6.6x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "RUNNING", "state": "LEAVING", "price": 11.96, "tp": 3.5369727989263735, "note": "pace 3.5x off peak 6.8x \u00b7 VWAP lost (was +4.1% above)"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "CGDG", "prev_state": "RUNNING", "state": "CHURN", "price": 37.36, "tp": 3.4947208104073173, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "FADING", "state": "QUIET", "price": 34.595, "tp": 1.6150544395159243, "note": ""}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "RUNNING", "state": "COOLING", "price": 14.615, "tp": 1.5552564539772877, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "CHURN", "state": "COOLING", "price": 20.1, "tp": 1.7863198297771992, "note": "pace 1.8x off peak 8.1x"}
+{"ts": "2026-09-29T13:56:07.646249-04:00", "demo": 0, "ticker": "AMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.05, "tp": 3.2530284970145167, "note": "sustained 3.3x"}
