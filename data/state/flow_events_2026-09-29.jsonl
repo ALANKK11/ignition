@@ -731,3 +731,15 @@
 {"ts": "2026-09-29T15:29:07.664100-04:00", "demo": 0, "ticker": "PCT", "prev_state": "RUNNING", "state": "COOLING", "price": 4.49, "tp": 1.0819909609125362, "note": "pace 1.1x off peak 4.5x"}
 {"ts": "2026-09-29T15:29:07.664100-04:00", "demo": 0, "ticker": "CMF", "prev_state": "RUNNING", "state": "CHURN", "price": 53.675, "tp": 6.867931920718092, "note": "6.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-29T15:29:07.664100-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "RUNNING", "state": "CHURN", "price": 10.885, "tp": 4.292859835273657, "note": "4.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "ASHR", "prev_state": "RUNNING", "state": "QUIET", "price": 32.635, "tp": 1.7654699613473663, "note": ""}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "EEMV", "prev_state": "CHURN", "state": "RUNNING", "price": 74.655, "tp": 3.7503246198049296, "note": "sustained 3.8x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "BSJQ", "prev_state": "CHURN", "state": "RUNNING", "price": 22.81, "tp": 59.523899643754326, "note": "sustained 59.5x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "BEAG", "prev_state": "CHURN", "state": "RUNNING", "price": 10.69, "tp": 2.190431410832913, "note": "sustained 2.2x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "CMF", "prev_state": "CHURN", "state": "RUNNING", "price": 53.67, "tp": 4.46565286365332, "note": "sustained 4.5x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "CLBT", "prev_state": "CHURN", "state": "RUNNING", "price": 10.9, "tp": 3.9084353418511992, "note": "sustained 3.9x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "CLPT", "prev_state": "COOLING", "state": "LEAVING", "price": 11.88, "tp": 1.5047777086130238, "note": "pace 1.5x off peak 6.8x \u00b7 VWAP lost (was +4.1% above)"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "ALDX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.36, "tp": 17.993731859547207, "note": "sustained 18.0x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "SVRA", "prev_state": "FADING", "state": "COOLING", "price": 5.08, "tp": 0.7882597373996817, "note": "pace 0.8x off peak 12.7x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 13.57, "tp": 0.39372669543487326, "note": "pace 0.4x off peak 7.5x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "CHURN", "state": "RUNNING", "price": 14.97, "tp": 2.6344079319035343, "note": "sustained 2.6x"}
+{"ts": "2026-09-29T15:32:07.665134-04:00", "demo": 0, "ticker": "NUV", "prev_state": "COOLING", "state": "RUNNING", "price": 8.135, "tp": 2.29194074555159, "note": "sustained 2.3x"}
