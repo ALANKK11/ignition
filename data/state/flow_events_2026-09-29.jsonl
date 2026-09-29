@@ -245,3 +245,11 @@
 {"ts": "2026-09-29T13:44:07.644029-04:00", "demo": 0, "ticker": "BEZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.45, "tp": 5.951343785505126, "note": "sustained 6.0x"}
 {"ts": "2026-09-29T13:44:07.644029-04:00", "demo": 0, "ticker": "ALDX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.35, "tp": 6.083239313126, "note": "sustained 6.1x"}
 {"ts": "2026-09-29T13:44:07.644029-04:00", "demo": 0, "ticker": "ABCL", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.59, "tp": 2.90513874932656, "note": "sustained 2.9x"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "PCT", "prev_state": "COOLING", "state": "IGNITING", "price": 4.405, "tp": 2.8944083232188347, "note": "pace 2.9x and accelerating (2.1x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "EXG", "prev_state": "RUNNING", "state": "CHURN", "price": 9.335, "tp": 17.488561804878938, "note": "17.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "OFIX", "prev_state": "QUIET", "state": "RUNNING", "price": 9.535, "tp": 2.427409934788834, "note": "sustained 2.4x"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.755, "tp": 1.3997545745074846, "note": "pace 1.4x off peak 2.9x"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "CWI", "prev_state": "RUNNING", "state": "COOLING", "price": 40.5, "tp": 0.0, "note": "pace 0.0x off peak 3.6x"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "RUNNING", "state": "COOLING", "price": 54.7, "tp": 0.1455387317920306, "note": "pace 0.1x off peak 6.2x"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "BSCS", "prev_state": "RUNNING", "state": "CHURN", "price": 20.1, "tp": 5.627247273236935, "note": "5.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-29T13:47:07.644526-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "RUNNING", "state": "IGNITING", "price": 25.85, "tp": 8.58320980366117, "note": "pace 8.6x and accelerating (2.7x vs prior window) \u00b7 +0.7% in window"}
