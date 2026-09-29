@@ -31,3 +31,11 @@
 {"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "MSGY", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.94, "tp": 8.248154223960993, "note": "pace 8.2x and accelerating (7.3x vs prior window) \u00b7 +2.3% in window"}
 {"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "SPCG", "prev_state": "RUNNING", "state": "COOLING", "price": 15.48, "tp": 1.5498050592498698, "note": "pace 1.5x off peak 5.1x"}
 {"ts": "2026-09-29T12:53:07.633205-04:00", "demo": 0, "ticker": "MQY", "prev_state": "COOLING", "state": "RUNNING", "price": 9.855, "tp": 1.9313460066429406, "note": "sustained 1.9x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "QNC", "prev_state": "QUIET", "state": "RUNNING", "price": 1.78, "tp": 2.618142161713389, "note": "sustained 2.6x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "CAAP", "prev_state": "RUNNING", "state": "COOLING", "price": 25.815, "tp": 1.086794515365497, "note": "pace 1.1x off peak 2.4x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "MINT", "prev_state": "CHURN", "state": "RUNNING", "price": 100.56, "tp": 19.41386006522134, "note": "sustained 19.4x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "SANG", "prev_state": "RUNNING", "state": "FADING", "price": 4.915, "tp": 28.406920990847077, "note": "pace 28.4x vs peak 588.7x \u00b7 -1.7% off HOD \u00b7 chart still +39% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "XRPN", "prev_state": "QUIET", "state": "IGNITING", "price": 13.57, "tp": 5.547189782328911, "note": "pace 5.5x and accelerating (110.9x vs prior window) \u00b7 -4.4% in window"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "SMRI", "prev_state": "QUIET", "state": "RUNNING", "price": 44.36, "tp": 100.48287318619917, "note": "sustained 100.5x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "MQY", "prev_state": "RUNNING", "state": "COOLING", "price": 9.84, "tp": 0.8426311857762728, "note": "pace 0.8x off peak 2.7x"}
+{"ts": "2026-09-29T12:56:07.633974-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "CHURN", "price": 1.775, "tp": 2.4260369570391123, "note": "2.4x participation, no progress at highs \u2014 absorption"}
