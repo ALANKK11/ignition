@@ -26,3 +26,4 @@
 {"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "JMTG", "prev_state": "COOLING", "state": "RUNNING", "price": 48.32, "tp": 1.9639148579734822, "note": "sustained 2.0x"}
 {"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "FDEV", "prev_state": "RUNNING", "state": "FADING", "price": 36.225, "tp": 0.0, "note": "pace 0.0x vs peak 28.9x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "COOLING", "state": "CHURN", "price": 15.73, "tp": 2.3986523148588685, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T12:52:06.786986-04:00", "demo": 0, "ticker": "AVEX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Levi &amp; Korsinsky Reminds AEVEX Corp. Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of"}
