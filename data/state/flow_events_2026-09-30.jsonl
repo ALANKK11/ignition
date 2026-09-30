@@ -471,3 +471,11 @@
 {"ts": "2026-09-30T14:55:06.820806-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "CHURN", "state": "RUNNING", "price": 34.355, "tp": 4.309795269061388, "note": "sustained 4.3x"}
 {"ts": "2026-09-30T14:55:06.820806-04:00", "demo": 0, "ticker": "CGMU", "prev_state": "CHURN", "state": "RUNNING", "price": 25.935, "tp": 10.745871238036573, "note": "sustained 10.7x"}
 {"ts": "2026-09-30T14:55:06.820806-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 26.63, "tp": 1.5891785590336975, "note": "pace 1.6x off peak 5.3x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "CGMS", "prev_state": "CHURN", "state": "RUNNING", "price": 26.23, "tp": 6.338502014058679, "note": "sustained 6.3x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "CELC", "prev_state": "COOLING", "state": "RUNNING", "price": 78.81, "tp": 2.131924396076311, "note": "sustained 2.1x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "CMCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.88, "tp": 1053.4314055023121, "note": "sustained 1053.4x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "AIB", "prev_state": "COOLING", "state": "RUNNING", "price": 1.47, "tp": 2.0823858128385435, "note": "sustained 2.1x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "CHURN", "price": 2.405, "tp": 16.590430243240878, "note": "16.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "DFAT", "prev_state": "COOLING", "state": "RUNNING", "price": 66.58, "tp": 2.715091555677405, "note": "sustained 2.7x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "AIG", "prev_state": "CHURN", "state": "RUNNING", "price": 74.63, "tp": 10.578611796755894, "note": "sustained 10.6x"}
+{"ts": "2026-09-30T14:58:51.821623-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "RUNNING", "state": "COOLING", "price": 9.64, "tp": 1.5131117956009736, "note": "pace 1.5x off peak 4.1x"}
