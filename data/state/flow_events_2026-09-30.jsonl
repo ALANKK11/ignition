@@ -47,3 +47,16 @@
 {"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "DFCA", "prev_state": "CHURN", "state": "RUNNING", "price": 47.77, "tp": 370.05788009330576, "note": "sustained 370.1x"}
 {"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "SCTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.25, "tp": 3.5574196637603666, "note": "sustained 3.6x"}
 {"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "FDEV", "prev_state": "FADING", "state": "RUNNING", "price": 36.22, "tp": 21.95230006493944, "note": "sustained 22.0x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "BBBI", "prev_state": "CHURN", "state": "FADING", "price": 48.73, "tp": 0.0, "note": "pace 0.0x vs peak 7.5x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "DRSK", "prev_state": "RUNNING", "state": "COOLING", "price": 27.2, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "PONY", "prev_state": "QUIET", "state": "RUNNING", "price": 6.545, "tp": 2.8545433673664555, "note": "sustained 2.9x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "CHGA", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.9, "tp": 1694.3666071685595, "note": "pace 1694.4x off peak 3146.3x \u00b7 VWAP lost (was +13.3% above)"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "CMCT", "prev_state": "RUNNING", "state": "FADING", "price": 2.51, "tp": 47.473745997002474, "note": "pace 47.5x vs peak 227.0x \u00b7 -32.5% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "MUNI", "prev_state": "CHURN", "state": "RUNNING", "price": 49.72, "tp": 25.428554820321292, "note": "sustained 25.4x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "DNA", "prev_state": "CHURN", "state": "RUNNING", "price": 13.4, "tp": 12.682534720544204, "note": "sustained 12.7x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "MLN", "prev_state": "FADING", "state": "RUNNING", "price": 16.4, "tp": 1.8282041730762186, "note": "sustained 1.8x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "ELME", "prev_state": "CHURN", "state": "RUNNING", "price": 1.75, "tp": 29.211912782657883, "note": "sustained 29.2x"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "DFCA", "prev_state": "RUNNING", "state": "CHURN", "price": 47.765, "tp": 547.1581014110491, "note": "547.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "CMF", "prev_state": "RUNNING", "state": "CHURN", "price": 54.195, "tp": 13.448496247111118, "note": "13.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "FNGR", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.168, "tp": 2.890335486474492, "note": "pace 2.9x and accelerating (3.0x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-09-30T13:02:36.800136-04:00", "demo": 0, "ticker": "FDEV", "prev_state": "RUNNING", "state": "CHURN", "price": 36.225, "tp": 59.939988229929256, "note": "59.9x participation, no progress at highs \u2014 absorption"}
