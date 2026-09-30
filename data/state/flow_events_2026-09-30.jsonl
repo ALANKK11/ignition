@@ -6,3 +6,9 @@
 {"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "IDNA", "prev_state": "QUIET", "state": "RUNNING", "price": 42.775, "tp": 2.785305176885645, "note": "sustained 2.8x"}
 {"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "DEA", "prev_state": "RUNNING", "state": "FADING", "price": 23.31, "tp": 0.3938434322781383, "note": "pace 0.4x vs peak 4.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "MLN", "prev_state": "RUNNING", "state": "COOLING", "price": 16.4, "tp": 0.9670992226994615, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "JMTG", "prev_state": "RUNNING", "state": "COOLING", "price": 48.325, "tp": 0.0, "note": "pace 0.0x off peak 4.9x"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "TNON", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.1, "tp": 4.78763297122167, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 +8.8% in window"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "PCY", "prev_state": "RUNNING", "state": "CHURN", "price": 19.905, "tp": 2.5812655469802954, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "CMCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.55, "tp": 97.36813298354981, "note": "sustained 97.4x"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "QUIET", "state": "RUNNING", "price": 46.095, "tp": 4.754862914017744, "note": "sustained 4.8x"}
+{"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "MLN", "prev_state": "COOLING", "state": "FADING", "price": 16.4, "tp": 0.37297348127171603, "note": "pace 0.4x vs peak 2.2x \u00b7 -0.2% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
