@@ -12,3 +12,11 @@
 {"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "CMCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.55, "tp": 97.36813298354981, "note": "sustained 97.4x"}
 {"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "DFNM", "prev_state": "QUIET", "state": "RUNNING", "price": 46.095, "tp": 4.754862914017744, "note": "sustained 4.8x"}
 {"ts": "2026-09-30T12:43:51.795858-04:00", "demo": 0, "ticker": "MLN", "prev_state": "COOLING", "state": "FADING", "price": 16.4, "tp": 0.37297348127171603, "note": "pace 0.4x vs peak 2.2x \u00b7 -0.2% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "JHCR", "prev_state": "RUNNING", "state": "CHURN", "price": 24.03, "tp": 50.575794596477046, "note": "50.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "FNGR", "prev_state": "RUNNING", "state": "COOLING", "price": 0.1703, "tp": 0.9759719543387272, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "RUNNING", "state": "COOLING", "price": 15.705, "tp": 1.5858941285674792, "note": "pace 1.6x off peak 2.7x"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "AEON", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.3056, "tp": 5.179738244702818, "note": "pace 5.2x and accelerating (30.6x vs prior window) \u00b7 +2.8% in window"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "ZCSH", "prev_state": "RUNNING", "state": "COOLING", "price": 39.02, "tp": 0.5988997824562071, "note": "pace 0.6x off peak 2.0x"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "TNON", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.09, "tp": 3.413993560468635, "note": "sustained 3.4x"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "PCY", "prev_state": "CHURN", "state": "COOLING", "price": 19.905, "tp": 0.0, "note": "pace 0.0x off peak 3.8x"}
+{"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "MSOX", "prev_state": "QUIET", "state": "IGNITING", "price": 2.355, "tp": 2.9312668544881872, "note": "pace 2.9x and accelerating (7.6x vs prior window) \u00b7 -0.4% in window"}
