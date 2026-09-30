@@ -20,3 +20,9 @@
 {"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "TNON", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.09, "tp": 3.413993560468635, "note": "sustained 3.4x"}
 {"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "PCY", "prev_state": "CHURN", "state": "COOLING", "price": 19.905, "tp": 0.0, "note": "pace 0.0x off peak 3.8x"}
 {"ts": "2026-09-30T12:47:36.796819-04:00", "demo": 0, "ticker": "MSOX", "prev_state": "QUIET", "state": "IGNITING", "price": 2.355, "tp": 2.9312668544881872, "note": "pace 2.9x and accelerating (7.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "VBIO", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.18, "tp": 9.044352830147067, "note": "sustained 9.0x"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "CVRX", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.75, "tp": 5.441662645748059, "note": "pace 5.4x and accelerating (1.9x vs prior window) \u00b7 -5.9% in window"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "XSLV", "prev_state": "RUNNING", "state": "COOLING", "price": 49.055, "tp": 0.0, "note": "pace 0.0x off peak 71.7x"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "JMTG", "prev_state": "COOLING", "state": "RUNNING", "price": 48.32, "tp": 1.9639148579734822, "note": "sustained 2.0x"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "FDEV", "prev_state": "RUNNING", "state": "FADING", "price": 36.225, "tp": 0.0, "note": "pace 0.0x vs peak 28.9x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T12:51:21.797529-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "COOLING", "state": "CHURN", "price": 15.73, "tp": 2.3986523148588685, "note": "2.4x participation, no progress at highs \u2014 absorption"}
