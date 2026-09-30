@@ -516,3 +516,12 @@
 {"ts": "2026-09-30T15:10:06.823665-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "CHURN", "price": 2.41, "tp": 13.438435459535896, "note": "13.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-30T15:10:06.823665-04:00", "demo": 0, "ticker": "SPIR", "prev_state": "RUNNING", "state": "FADING", "price": 11.47, "tp": 0.46434022683047055, "note": "pace 0.5x vs peak 2.8x \u00b7 -3.2% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-30T15:10:06.823665-04:00", "demo": 0, "ticker": "APLX", "prev_state": "COOLING", "state": "RUNNING", "price": 6.98, "tp": 1.8965402645637361, "note": "sustained 1.9x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "BBBI", "prev_state": "RUNNING", "state": "COOLING", "price": 48.685, "tp": 0.0, "note": "pace 0.0x off peak 69.6x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "FADING", "state": "COOLING", "price": 15.805, "tp": 0.9902751640034314, "note": "pace 1.0x off peak 16.0x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "AIOT", "prev_state": "FADING", "state": "RUNNING", "price": 2.84, "tp": 2.427498901603984, "note": "sustained 2.4x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "COOLING", "state": "RUNNING", "price": 2.75, "tp": 2.3994857450050224, "note": "sustained 2.4x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "CHGA", "prev_state": "FADING", "state": "LEAVING", "price": 2.3, "tp": 43.67984220159822, "note": "pace 43.7x off peak 3146.3x \u00b7 VWAP lost (was +13.3% above)"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "COOLING", "state": "RUNNING", "price": 26.65, "tp": 2.762223485927403, "note": "sustained 2.8x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "CHURN", "state": "RUNNING", "price": 90.315, "tp": 15.339892342767133, "note": "sustained 15.3x"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "DNA", "prev_state": "FADING", "state": "IGNITING", "price": 13.045, "tp": 6.100845336135526, "note": "pace 6.1x and accelerating (2.7x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-09-30T15:13:51.824373-04:00", "demo": 0, "ticker": "PACB", "prev_state": "CHURN", "state": "RUNNING", "price": 2.42, "tp": 12.77491973760903, "note": "sustained 12.8x"}
