@@ -497,3 +497,12 @@
 {"ts": "2026-09-30T15:02:36.822176-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "COOLING", "state": "IGNITING", "price": 2.04, "tp": 4.543378012144671, "note": "pace 4.5x and accelerating (90.9x vs prior window) \u00b7 +1.5% in window"}
 {"ts": "2026-09-30T15:02:36.822176-04:00", "demo": 0, "ticker": "PONY", "prev_state": "RUNNING", "state": "COOLING", "price": 6.525, "tp": 1.1756250170853826, "note": "pace 1.2x off peak 3.2x"}
 {"ts": "2026-09-30T15:02:36.822176-04:00", "demo": 0, "ticker": "CEMB", "prev_state": "RUNNING", "state": "CHURN", "price": 44.01, "tp": 11.020672735143739, "note": "11.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "BBBI", "prev_state": "CHURN", "state": "RUNNING", "price": 48.685, "tp": 23.166725275074775, "note": "sustained 23.2x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "JMTG", "prev_state": "COOLING", "state": "RUNNING", "price": 48.31, "tp": 3.2240232781700846, "note": "sustained 3.2x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "ATII", "prev_state": "CHURN", "state": "COOLING", "price": 10.685, "tp": 0.0, "note": "pace 0.0x off peak 124.2x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "DFAT", "prev_state": "RUNNING", "state": "COOLING", "price": 66.58, "tp": 1.0060279301569124, "note": "pace 1.0x off peak 10.9x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "FADING", "price": 13.5, "tp": 3.7011011954220674, "note": "pace 3.7x vs peak 12.0x \u00b7 -0.3% off HOD \u00b7 chart still +25% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "AIB", "prev_state": "COOLING", "state": "RUNNING", "price": 1.47, "tp": 2.0690689422326574, "note": "sustained 2.1x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "FADING", "state": "RUNNING", "price": 20.87, "tp": 21.97369284206515, "note": "sustained 22.0x"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "FADING", "state": "IGNITING", "price": 1.19, "tp": 20.813653636563508, "note": "pace 20.8x and accelerating (6.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-09-30T15:06:21.822865-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "RUNNING", "state": "CHURN", "price": 49.26, "tp": 4.233396354839041, "note": "4.2x participation, no progress at highs \u2014 absorption"}
