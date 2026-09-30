@@ -725,3 +725,4 @@
 {"ts": "2026-09-30T15:58:51.832746-04:00", "demo": 0, "ticker": "DNA", "prev_state": "FADING", "state": "LEAVING", "price": 12.86, "tp": 3.620891917952839, "note": "pace 3.6x off peak 15.6x \u00b7 VWAP lost (was +5.3% above)"}
 {"ts": "2026-09-30T15:58:51.832746-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.055, "tp": 10.81995229083988, "note": "pace 10.8x and accelerating (2.1x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-09-30T15:58:51.832746-04:00", "demo": 0, "ticker": "XERS", "prev_state": "COOLING", "state": "RUNNING", "price": 9.56, "tp": 1.993808557171039, "note": "sustained 2.0x"}
+{"ts": "2026-09-30T16:10:51.823239-04:00", "demo": 0, "ticker": "HIT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Health In Tech Launches HitRix to Modernize the Nearly $1 Trillion U.S. Self-Funded Health Insurance Market and Announce"}
