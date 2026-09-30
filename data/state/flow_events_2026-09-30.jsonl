@@ -1,1 +1,8 @@
 {"ts": "2026-09-30T12:37:06.784032-04:00", "demo": 0, "ticker": "OCLT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "$HAREHOLDER ALERT: The M&amp;A Class Action Firm Announces An Investigation of OceanLight Acquisition Corporation (NASDA"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "CHGA", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.05, "tp": 2492.704771071903, "note": "sustained 2492.7x"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "IOVA", "prev_state": "QUIET", "state": "RUNNING", "price": 15.015, "tp": 1.8485344006967759, "note": "sustained 1.8x"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "CMCT", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.55, "tp": 226.96128983130626, "note": "pace 227.0x and accelerating (2.3x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "TNON", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.08, "tp": 3.967318993999569, "note": "sustained 4.0x"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "IDNA", "prev_state": "QUIET", "state": "RUNNING", "price": 42.775, "tp": 2.785305176885645, "note": "sustained 2.8x"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "DEA", "prev_state": "RUNNING", "state": "FADING", "price": 23.31, "tp": 0.3938434322781383, "note": "pace 0.4x vs peak 4.1x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T12:40:06.795150-04:00", "demo": 0, "ticker": "MLN", "prev_state": "RUNNING", "state": "COOLING", "price": 16.4, "tp": 0.9670992226994615, "note": "pace 1.0x off peak 2.2x"}
