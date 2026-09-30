@@ -428,3 +428,15 @@
 {"ts": "2026-09-30T14:43:51.818762-04:00", "demo": 0, "ticker": "BSCT", "prev_state": "CHURN", "state": "COOLING", "price": 18.19, "tp": 0.0, "note": "pace 0.0x off peak 13.0x"}
 {"ts": "2026-09-30T14:43:51.818762-04:00", "demo": 0, "ticker": "CWI", "prev_state": "RUNNING", "state": "COOLING", "price": 40.44, "tp": 1.2432880206524675, "note": "pace 1.2x off peak 12.9x"}
 {"ts": "2026-09-30T14:43:51.818762-04:00", "demo": 0, "ticker": "CBNK", "prev_state": "RUNNING", "state": "FADING", "price": 39.77, "tp": 0.0, "note": "pace 0.0x vs peak 46.5x \u00b7 -0.5% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "CHURN", "state": "RUNNING", "price": 26.66, "tp": 2.481967734237539, "note": "sustained 2.5x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "CHURN", "price": 28.58, "tp": 3.071666961602511, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "FADING", "state": "IGNITING", "price": 1.2, "tp": 5.455382938831586, "note": "pace 5.5x and accelerating (2.5x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CELC", "prev_state": "RUNNING", "state": "COOLING", "price": 79.09, "tp": 0.9938548947824467, "note": "pace 1.0x off peak 4.7x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "BTO", "prev_state": "RUNNING", "state": "COOLING", "price": 35.85, "tp": 0.0, "note": "pace 0.0x off peak 208.1x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "LODE", "prev_state": "COOLING", "state": "QUIET", "price": 2.32, "tp": 1.7279319248038654, "note": ""}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CLMB", "prev_state": "COOLING", "state": "RUNNING", "price": 31.93, "tp": 2.397296775430853, "note": "sustained 2.4x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.715, "tp": 3.16533117604345, "note": "sustained 3.2x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CVRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.79, "tp": 2.822625123122252, "note": "sustained 2.8x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "FSEC", "prev_state": "RUNNING", "state": "COOLING", "price": 41.6, "tp": 1.5358088066917266, "note": "pace 1.5x off peak 4.4x"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CGMU", "prev_state": "RUNNING", "state": "CHURN", "price": 25.945, "tp": 18.407090688120743, "note": "18.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:47:36.819423-04:00", "demo": 0, "ticker": "CEMB", "prev_state": "COOLING", "state": "RUNNING", "price": 44.01, "tp": 4.901448006495717, "note": "sustained 4.9x"}
