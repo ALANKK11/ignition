@@ -322,3 +322,13 @@
 {"ts": "2026-09-30T14:13:51.813099-04:00", "demo": 0, "ticker": "BSCY", "prev_state": "CHURN", "state": "RUNNING", "price": 19.505, "tp": 2.2052749065603527, "note": "sustained 2.2x"}
 {"ts": "2026-09-30T14:13:51.813099-04:00", "demo": 0, "ticker": "MQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.02, "tp": 4.199097603958602, "note": "sustained 4.2x"}
 {"ts": "2026-09-30T14:13:51.813099-04:00", "demo": 0, "ticker": "CGHM", "prev_state": "CHURN", "state": "FADING", "price": 24.08, "tp": 3.6523184191067735, "note": "pace 3.7x vs peak 16.8x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "CWI", "prev_state": "RUNNING", "state": "COOLING", "price": 40.495, "tp": 0.0, "note": "pace 0.0x off peak 12.9x"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "DNA", "prev_state": "FADING", "state": "LEAVING", "price": 12.87, "tp": 2.560460864842677, "note": "pace 2.6x off peak 15.6x \u00b7 VWAP lost (was +5.3% above)"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "PONY", "prev_state": "CHURN", "state": "RUNNING", "price": 6.52, "tp": 2.192695014055454, "note": "sustained 2.2x"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "BBBI", "prev_state": "RUNNING", "state": "COOLING", "price": 48.675, "tp": 0.0, "note": "pace 0.0x off peak 61.5x"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "EEMV", "prev_state": "RUNNING", "state": "CHURN", "price": 74.055, "tp": 23.700718795353858, "note": "23.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "CTBI", "prev_state": "RUNNING", "state": "COOLING", "price": 73.92, "tp": 0.0, "note": "pace 0.0x off peak 11.9x"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.03, "tp": 21.303840250855483, "note": "sustained 21.3x"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "RUNNING", "state": "CHURN", "price": 26.67, "tp": 3.793012682901127, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "NEOG", "prev_state": "QUIET", "state": "IGNITING", "price": 13.085, "tp": 8.511762020931267, "note": "pace 8.5x and accelerating (11.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-09-30T14:17:36.813835-04:00", "demo": 0, "ticker": "CAG", "prev_state": "RUNNING", "state": "COOLING", "price": 13.73, "tp": 1.5597783987360851, "note": "pace 1.6x off peak 4.2x"}
