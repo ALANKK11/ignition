@@ -384,3 +384,14 @@
 {"ts": "2026-09-30T14:32:36.824605-04:00", "demo": 0, "ticker": "BBHY", "prev_state": "CHURN", "state": "RUNNING", "price": 44.415, "tp": 427.6083514434932, "note": "sustained 427.6x"}
 {"ts": "2026-09-30T14:32:36.824605-04:00", "demo": 0, "ticker": "NEOG", "prev_state": "CHURN", "state": "FADING", "price": 13.025, "tp": 0.803488979854512, "note": "pace 0.8x vs peak 9.0x \u00b7 -0.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-09-30T14:32:36.824605-04:00", "demo": 0, "ticker": "BTO", "prev_state": "COOLING", "state": "RUNNING", "price": 35.85, "tp": 4.627751039627716, "note": "sustained 4.6x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "MQ", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.93, "tp": 10.154572382550324, "note": "pace 10.2x and accelerating (22.3x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "RUNNING", "state": "COOLING", "price": 15.72, "tp": 1.6931996060012762, "note": "pace 1.7x off peak 16.0x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "FADING", "state": "RUNNING", "price": 9.675, "tp": 2.4768158270150455, "note": "sustained 2.5x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.01, "tp": 1.4816544058911798, "note": "pace 1.5x off peak 35.0x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "CEMB", "prev_state": "RUNNING", "state": "COOLING", "price": 44.0, "tp": 0.0, "note": "pace 0.0x off peak 26.5x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "RUNNING", "state": "COOLING", "price": 26.63, "tp": 1.3181690777841317, "note": "pace 1.3x off peak 5.3x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "BBHY", "prev_state": "RUNNING", "state": "CHURN", "price": 44.415, "tp": 128.2544744718677, "note": "128.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.745, "tp": 1.5664476932169742, "note": "pace 1.6x off peak 8.0x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "CAG", "prev_state": "RUNNING", "state": "COOLING", "price": 13.615, "tp": 1.382112413408002, "note": "pace 1.4x off peak 4.2x"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "CHGA", "prev_state": "FADING", "state": "LEAVING", "price": 2.22, "tp": 180.19479823296913, "note": "pace 180.2x off peak 3146.3x \u00b7 VWAP lost (was +13.3% above)"}
+{"ts": "2026-09-30T14:36:21.817228-04:00", "demo": 0, "ticker": "EDV", "prev_state": "RUNNING", "state": "CHURN", "price": 55.205, "tp": 47.809449207395446, "note": "47.8x participation, no progress at highs \u2014 absorption"}
