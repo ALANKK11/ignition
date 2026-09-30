@@ -347,3 +347,18 @@
 {"ts": "2026-09-30T14:21:21.814567-04:00", "demo": 0, "ticker": "NEOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.085, "tp": 7.5120675517296895, "note": "sustained 7.5x"}
 {"ts": "2026-09-30T14:21:21.814567-04:00", "demo": 0, "ticker": "IBDX", "prev_state": "NEW MONEY", "state": "COOLING", "price": 24.05, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
 {"ts": "2026-09-30T14:21:21.814567-04:00", "demo": 0, "ticker": "CAG", "prev_state": "COOLING", "state": "RUNNING", "price": 13.7, "tp": 2.022653900519809, "note": "sustained 2.0x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "BBHY", "prev_state": "RUNNING", "state": "CHURN", "price": 44.415, "tp": 1047.4685042371639, "note": "1047.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CAPR", "prev_state": "RUNNING", "state": "COOLING", "price": 9.6, "tp": 1.710490064349711, "note": "pace 1.7x off peak 4.1x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "BKHY", "prev_state": "CHURN", "state": "COOLING", "price": 45.89, "tp": 0.0, "note": "pace 0.0x off peak 12.8x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CGBL", "prev_state": "CHURN", "state": "COOLING", "price": 36.89, "tp": 1.5087774145781745, "note": "pace 1.5x off peak 33.6x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "IEZ", "prev_state": "RUNNING", "state": "CHURN", "price": 26.66, "tp": 2.6657757701387936, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "NEOG", "prev_state": "RUNNING", "state": "CHURN", "price": 13.07, "tp": 9.019731114487728, "note": "9.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "FADING", "state": "RUNNING", "price": 13.16, "tp": 2.795765984316321, "note": "sustained 2.8x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CEMB", "prev_state": "COOLING", "state": "RUNNING", "price": 44.0, "tp": 2.067187076062794, "note": "sustained 2.1x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CVRX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.74, "tp": 0.2906568531002271, "note": "pace 0.3x off peak 9.1x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "MQ", "prev_state": "COOLING", "state": "RUNNING", "price": 16.98, "tp": 6.366495407497714, "note": "sustained 6.4x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "CGXU", "prev_state": "RUNNING", "state": "COOLING", "price": 34.425, "tp": 1.1415839863496042, "note": "pace 1.1x off peak 13.6x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "IOVA", "prev_state": "RUNNING", "state": "COOLING", "price": 14.95, "tp": 0.99546305216312, "note": "pace 1.0x off peak 2.3x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "CHURN", "state": "RUNNING", "price": 15.68, "tp": 3.398847549128179, "note": "sustained 3.4x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "COOLING", "price": 28.575, "tp": 1.031699764179802, "note": "pace 1.0x off peak 8.3x"}
+{"ts": "2026-09-30T14:25:06.815197-04:00", "demo": 0, "ticker": "ARXS", "prev_state": "CHURN", "state": "RUNNING", "price": 49.4, "tp": 5.495976872484511, "note": "sustained 5.5x"}
