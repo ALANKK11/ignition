@@ -39,3 +39,11 @@
 {"ts": "2026-09-30T12:55:06.798588-04:00", "demo": 0, "ticker": "DNA", "prev_state": "IGNITING", "state": "CHURN", "price": 13.29, "tp": 15.544866611900938, "note": "15.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-09-30T12:55:06.798588-04:00", "demo": 0, "ticker": "LGHL", "prev_state": "QUIET", "state": "IGNITING", "price": 5.255, "tp": 27.635196766184837, "note": "pace 27.6x and accelerating (552.7x vs prior window) \u00b7 +2.0% in window"}
 {"ts": "2026-09-30T12:55:06.798588-04:00", "demo": 0, "ticker": "TGE", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.45, "tp": 4382.9327478423975, "note": "pace 4382.9x and accelerating (2.9x vs prior window) \u00b7 +2.8% in window"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "MQ", "prev_state": "QUIET", "state": "RUNNING", "price": 17.0, "tp": 2.283720284064688, "note": "sustained 2.3x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "AIB", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.505, "tp": 19.036650931829715, "note": "sustained 19.0x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "JHCR", "prev_state": "CHURN", "state": "COOLING", "price": 24.03, "tp": 0.0, "note": "pace 0.0x off peak 181.6x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "SHM", "prev_state": "QUIET", "state": "RUNNING", "price": 46.675, "tp": 5.045279477517469, "note": "sustained 5.0x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "CNTB", "prev_state": "RUNNING", "state": "FADING", "price": 1.23, "tp": 1.8263407411287471, "note": "pace 1.8x vs peak 6.1x \u00b7 -34.6% off HOD \u00b7 chart still +23% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "DFCA", "prev_state": "CHURN", "state": "RUNNING", "price": 47.77, "tp": 370.05788009330576, "note": "sustained 370.1x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "SCTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.25, "tp": 3.5574196637603666, "note": "sustained 3.6x"}
+{"ts": "2026-09-30T12:58:51.799545-04:00", "demo": 0, "ticker": "FDEV", "prev_state": "FADING", "state": "RUNNING", "price": 36.22, "tp": 21.95230006493944, "note": "sustained 22.0x"}
