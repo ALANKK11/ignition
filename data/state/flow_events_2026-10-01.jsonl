@@ -348,3 +348,13 @@
 {"ts": "2026-10-01T14:38:19.281319-04:00", "demo": 0, "ticker": "ARIS", "prev_state": "CHURN", "state": "RUNNING", "price": 17.32, "tp": 2.83474806637078, "note": "sustained 2.8x"}
 {"ts": "2026-10-01T14:38:19.281319-04:00", "demo": 0, "ticker": "CSV", "prev_state": "IGNITING", "state": "FADING", "price": 32.465, "tp": 4.178555285307889, "note": "pace 4.2x vs peak 25.8x \u00b7 -1.7% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-01T14:38:19.281319-04:00", "demo": 0, "ticker": "ACT", "prev_state": "FADING", "state": "COOLING", "price": 44.16, "tp": 1.390207291601385, "note": "pace 1.4x off peak 2.2x"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "OFRM", "prev_state": "RUNNING", "state": "QUIET", "price": 16.13, "tp": 1.5673409680273904, "note": ""}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "CDP", "prev_state": "RUNNING", "state": "CHURN", "price": 33.14, "tp": 9.521538690153601, "note": "9.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "FADING", "state": "CHURN", "price": 6.12, "tp": 3.6621066963303788, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "ACT", "prev_state": "COOLING", "state": "QUIET", "price": 44.185, "tp": 1.6365469919205358, "note": ""}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "QTTB", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.56, "tp": 18.317289084578707, "note": "sustained 18.3x"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "DGCB", "prev_state": "CHURN", "state": "FADING", "price": 51.955, "tp": 1.7673512415390304, "note": "pace 1.8x vs peak 6.8x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "RUNNING", "state": "COOLING", "price": 12.605, "tp": 1.2386941285373712, "note": "pace 1.2x off peak 2.3x"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "DBEF", "prev_state": "CHURN", "state": "RUNNING", "price": 54.545, "tp": 1.8973257318269576, "note": "sustained 1.9x"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "PACB", "prev_state": "FADING", "state": "IGNITING", "price": 2.515, "tp": 11.592310783654778, "note": "pace 11.6x and accelerating (2.3x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-10-01T14:42:04.282049-04:00", "demo": 0, "ticker": "AVIG", "prev_state": "COOLING", "state": "RUNNING", "price": 39.49, "tp": 1.830862645723168, "note": "sustained 1.8x"}
