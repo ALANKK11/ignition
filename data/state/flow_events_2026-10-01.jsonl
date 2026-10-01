@@ -657,3 +657,4 @@
 {"ts": "2026-10-01T15:57:04.295629-04:00", "demo": 0, "ticker": "SLVM", "prev_state": "CHURN", "state": "RUNNING", "price": 33.29, "tp": 5.060710524297634, "note": "sustained 5.1x"}
 {"ts": "2026-10-01T16:11:19.284120-04:00", "demo": 0, "ticker": "KPTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Karyopharm Therapeutics Reports Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)"}
 {"ts": "2026-10-01T16:11:19.284120-04:00", "demo": 0, "ticker": "MDT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Medtronic Receives Category I CPT\u00ae Code Approvals for Altaviva\u2122 and Symplicity Spyral\u2122 Systems"}
+{"ts": "2026-10-01T16:33:04.288127-04:00", "demo": 0, "ticker": "CDNL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cardinal Infrastructure Group, Inc., Announces Closing of Allied Paving Contractors Acquisition"}
