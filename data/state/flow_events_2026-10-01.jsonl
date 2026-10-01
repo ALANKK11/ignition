@@ -3,3 +3,9 @@
 {"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "NAMM", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.28, "tp": 16.89226018341561, "note": "sustained 16.9x"}
 {"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "ORC", "prev_state": "RUNNING", "state": "CHURN", "price": 5.33, "tp": 2.4045667505038186, "note": "2.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "SVRN", "prev_state": "RUNNING", "state": "COOLING", "price": 39.77, "tp": 1.2261405235296101, "note": "pace 1.2x off peak 5.0x"}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "FOSL", "prev_state": "QUIET", "state": "CHURN", "price": 6.83, "tp": 2.6636695475337095, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "VIOT", "prev_state": "RUNNING", "state": "QUIET", "price": 2.1, "tp": 1.7793719934031882, "note": ""}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "LONA", "prev_state": "IGNITING", "state": "FADING", "price": 4.22, "tp": 5.376489662408627, "note": "pace 5.4x vs peak 32.0x \u00b7 -19.5% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "AISP", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.39, "tp": 9.05444875938609, "note": "sustained 9.1x"}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "MNKD", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.995, "tp": 2.454065220349238, "note": "sustained 2.5x"}
+{"ts": "2026-10-01T13:23:19.266835-04:00", "demo": 0, "ticker": "ORC", "prev_state": "CHURN", "state": "RUNNING", "price": 5.34, "tp": 2.8939276151459814, "note": "sustained 2.9x"}
