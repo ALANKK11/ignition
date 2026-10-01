@@ -1,0 +1,5 @@
+{"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "BXSL", "prev_state": "QUIET", "state": "RUNNING", "price": 23.7, "tp": 1.9664710086883965, "note": "sustained 2.0x"}
+{"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "FESM", "prev_state": "QUIET", "state": "RUNNING", "price": 45.2, "tp": 2.379800228406795, "note": "sustained 2.4x"}
+{"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "NAMM", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.28, "tp": 16.89226018341561, "note": "sustained 16.9x"}
+{"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "ORC", "prev_state": "RUNNING", "state": "CHURN", "price": 5.33, "tp": 2.4045667505038186, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:19:34.266045-04:00", "demo": 0, "ticker": "SVRN", "prev_state": "RUNNING", "state": "COOLING", "price": 39.77, "tp": 1.2261405235296101, "note": "pace 1.2x off peak 5.0x"}
