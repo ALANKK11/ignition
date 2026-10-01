@@ -290,3 +290,16 @@
 {"ts": "2026-10-01T14:23:19.278839-04:00", "demo": 0, "ticker": "AKRE", "prev_state": "RUNNING", "state": "COOLING", "price": 53.35, "tp": 1.7749427094647072, "note": "pace 1.8x off peak 3.0x"}
 {"ts": "2026-10-01T14:23:19.278839-04:00", "demo": 0, "ticker": "ARCO", "prev_state": "RUNNING", "state": "COOLING", "price": 6.725, "tp": 1.6540714415172701, "note": "pace 1.7x off peak 6.2x"}
 {"ts": "2026-10-01T14:24:04.264624-04:00", "demo": 0, "ticker": "CDNL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HAGENS BERMAN, NATIONAL SECURITIES LAW FIRM, Announces Investigation into Cardinal Infrastructure Group Inc. (NASDAQ: CD"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "BBAX", "prev_state": "RUNNING", "state": "QUIET", "price": 61.07, "tp": 1.731871641929274, "note": ""}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "BTTC", "prev_state": "COOLING", "state": "FADING", "price": 0.6101, "tp": 0.07970301596976968, "note": "pace 0.1x vs peak 2.1x \u00b7 -25.4% off HOD \u00b7 chart still +18% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "COOLING", "state": "QUIET", "price": 12.6, "tp": 1.7233665285611837, "note": ""}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "DPST", "prev_state": "COOLING", "state": "RUNNING", "price": 109.43, "tp": 2.411295508672019, "note": "sustained 2.4x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "AKRE", "prev_state": "COOLING", "state": "FADING", "price": 53.35, "tp": 1.0439187173817903, "note": "pace 1.0x vs peak 3.0x \u00b7 -0.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "BJ", "prev_state": "RUNNING", "state": "COOLING", "price": 94.87, "tp": 1.6723584911285958, "note": "pace 1.7x off peak 4.4x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "QUIET", "state": "RUNNING", "price": 3.36, "tp": 2.0773058861606764, "note": "sustained 2.1x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "DULL", "prev_state": "RUNNING", "state": "COOLING", "price": 64.09, "tp": 0.0, "note": "pace 0.0x off peak 13.2x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "AAOI", "prev_state": "COOLING", "state": "FADING", "price": 106.78, "tp": 0.9138783023376053, "note": "pace 0.9x vs peak 2.9x \u00b7 -1.2% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "BXSL", "prev_state": "CHURN", "state": "RUNNING", "price": 23.84, "tp": 3.402250816690533, "note": "sustained 3.4x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "CIBR", "prev_state": "COOLING", "state": "RUNNING", "price": 103.875, "tp": 2.0042970084558798, "note": "sustained 2.0x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "DBEF", "prev_state": "COOLING", "state": "RUNNING", "price": 54.545, "tp": 1.859733069011147, "note": "sustained 1.9x"}
+{"ts": "2026-10-01T14:27:04.279415-04:00", "demo": 0, "ticker": "AISP", "prev_state": "FADING", "state": "RUNNING", "price": 2.35, "tp": 21.088342357480606, "note": "sustained 21.1x"}
