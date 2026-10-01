@@ -191,3 +191,4 @@
 {"ts": "2026-10-01T14:04:34.275409-04:00", "demo": 0, "ticker": "BIRD", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.545, "tp": 42.31088144197673, "note": "pace 42.3x and accelerating (1.8x vs prior window) \u00b7 +5.2% in window"}
 {"ts": "2026-10-01T14:04:34.275409-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "QUIET", "state": "IGNITING", "price": 34.205, "tp": 3.079873341679012, "note": "pace 3.1x and accelerating (61.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-10-01T14:04:34.275409-04:00", "demo": 0, "ticker": "DULL", "prev_state": "QUIET", "state": "RUNNING", "price": 63.86, "tp": 7.153371335007845, "note": "sustained 7.2x"}
+{"ts": "2026-10-01T14:07:34.261677-04:00", "demo": 0, "ticker": "MTB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "M&amp;T Bank/Wilmington Trust Women Leaders to Receive 2026 Awards from American Banker"}
