@@ -66,3 +66,21 @@
 {"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "MNKD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.015, "tp": 1.1853907543642332, "note": "pace 1.2x off peak 4.1x"}
 {"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "OKUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.69, "tp": 9.788771787900503, "note": "sustained 9.8x"}
 {"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "NTWO", "prev_state": "CHURN", "state": "COOLING", "price": 10.86, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "BIRD", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.355, "tp": 33.27231681065936, "note": "sustained 33.3x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "LGH", "prev_state": "IGNITING", "state": "FADING", "price": 65.86, "tp": 0.0, "note": "pace 0.0x vs peak 63.1x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "RUNNING", "state": "QUIET", "price": 42.015, "tp": 1.5066948796953685, "note": ""}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "RUNNING", "state": "COOLING", "price": 8.355, "tp": 0.8126606121708371, "note": "pace 0.8x off peak 2.5x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "FOSL", "prev_state": "IGNITING", "state": "CHURN", "price": 6.915, "tp": 8.327901603251721, "note": "8.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "GBDC", "prev_state": "RUNNING", "state": "QUIET", "price": 12.56, "tp": 1.6573564469149888, "note": ""}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "MNKD", "prev_state": "COOLING", "state": "RUNNING", "price": 4.065, "tp": 3.2334839037189735, "note": "sustained 3.2x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "COHH", "prev_state": "IGNITING", "state": "COOLING", "price": 6.9, "tp": 1.6879550307819258, "note": "pace 1.7x off peak 3.3x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "SHM", "prev_state": "RUNNING", "state": "COOLING", "price": 46.7, "tp": 1.4542887179269637, "note": "pace 1.5x off peak 3.3x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "NAMM", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.38, "tp": 10.737224676031778, "note": "sustained 10.7x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "NVG", "prev_state": "RUNNING", "state": "COOLING", "price": 10.66, "tp": 1.372781189244996, "note": "pace 1.4x off peak 2.2x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "OFIX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.45, "tp": 1.366681603750438, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "PACB", "prev_state": "CHURN", "state": "RUNNING", "price": 2.44, "tp": 16.02549652122674, "note": "sustained 16.0x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "IWN", "prev_state": "RUNNING", "state": "CHURN", "price": 210.6, "tp": 8.628964582947457, "note": "8.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "ONT", "prev_state": "COOLING", "state": "RUNNING", "price": 12.75, "tp": 2.873134412051816, "note": "sustained 2.9x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "JIRE", "prev_state": "RUNNING", "state": "CHURN", "price": 81.36, "tp": 4.1118858670578, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "LONA", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.3, "tp": 24.89236423243343, "note": "sustained 24.9x"}
+{"ts": "2026-10-01T13:42:04.271333-04:00", "demo": 0, "ticker": "AISP", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.385, "tp": 19.6930067903842, "note": "sustained 19.7x"}
