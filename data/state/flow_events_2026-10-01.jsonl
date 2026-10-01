@@ -49,3 +49,20 @@
 {"ts": "2026-10-01T13:34:34.269679-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "QUIET", "state": "IGNITING", "price": 6.125, "tp": 8.179192965273769, "note": "pace 8.2x and accelerating (9.6x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-10-01T13:34:34.269679-04:00", "demo": 0, "ticker": "FXZ", "prev_state": "QUIET", "state": "IGNITING", "price": 77.3, "tp": 9.608992159392303, "note": "pace 9.6x and accelerating (192.2x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-10-01T13:34:34.269679-04:00", "demo": 0, "ticker": "CTVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.16, "tp": 14.89092492459931, "note": "sustained 14.9x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "MEDS", "prev_state": "COOLING", "state": "FADING", "price": 4.02, "tp": 0.6979502632698862, "note": "pace 0.7x vs peak 3.9x \u00b7 -6.9% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "OFIX", "prev_state": "QUIET", "state": "RUNNING", "price": 9.45, "tp": 2.131716810377677, "note": "sustained 2.1x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "ONT", "prev_state": "RUNNING", "state": "COOLING", "price": 12.8, "tp": 1.0055951785983757, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "AHRT", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.115, "tp": 8.850391778567328, "note": "sustained 8.9x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "NXL", "prev_state": "FADING", "state": "RUNNING", "price": 7.235, "tp": 1302.9799867216013, "note": "sustained 1303.0x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "AISP", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.38, "tp": 20.331578759382822, "note": "pace 20.3x and accelerating (2.2x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "NVG", "prev_state": "QUIET", "state": "RUNNING", "price": 10.66, "tp": 2.190187836207925, "note": "sustained 2.2x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "NAMM", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.38, "tp": 17.23052136881282, "note": "pace 17.2x and accelerating (1.6x vs prior window) \u00b7 +3.8% in window"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "RUNNING", "state": "CHURN", "price": 118.38, "tp": 6.434291727613481, "note": "6.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "IWN", "prev_state": "IGNITING", "state": "RUNNING", "price": 210.64, "tp": 10.036214571313016, "note": "sustained 10.0x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "VNDA", "prev_state": "QUIET", "state": "CHURN", "price": 4.91, "tp": 2.655130694607011, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "LONA", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.3, "tp": 43.490488738312244, "note": "pace 43.5x and accelerating (4.2x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "LITZ", "prev_state": "QUIET", "state": "RUNNING", "price": 19.99, "tp": 2.720174664503148, "note": "sustained 2.7x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "QUIET", "state": "RUNNING", "price": 42.015, "tp": 1.9022248058912874, "note": "sustained 1.9x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "MNKD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.015, "tp": 1.1853907543642332, "note": "pace 1.2x off peak 4.1x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "OKUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.69, "tp": 9.788771787900503, "note": "sustained 9.8x"}
+{"ts": "2026-10-01T13:38:19.270494-04:00", "demo": 0, "ticker": "NTWO", "prev_state": "CHURN", "state": "COOLING", "price": 10.86, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
