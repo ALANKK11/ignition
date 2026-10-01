@@ -537,3 +537,10 @@
 {"ts": "2026-10-01T15:27:04.290193-04:00", "demo": 0, "ticker": "DDFO", "prev_state": "FADING", "state": "CHURN", "price": 22.98, "tp": 29.353919772993716, "note": "29.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-01T15:27:04.290193-04:00", "demo": 0, "ticker": "BXSL", "prev_state": "RUNNING", "state": "COOLING", "price": 23.92, "tp": 1.4652055053592892, "note": "pace 1.5x off peak 4.0x"}
 {"ts": "2026-10-01T15:27:04.290193-04:00", "demo": 0, "ticker": "LEMB", "prev_state": "RUNNING", "state": "COOLING", "price": 42.02, "tp": 1.5802598469272509, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "NVG", "prev_state": "FADING", "state": "COOLING", "price": 10.59, "tp": 0.5171793008055955, "note": "pace 0.5x off peak 2.7x"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "ASUR", "prev_state": "FADING", "state": "LEAVING", "price": 7.695, "tp": 1.0994311601494249, "note": "pace 1.1x off peak 33.4x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "ORC", "prev_state": "COOLING", "state": "RUNNING", "price": 5.27, "tp": 2.1484277433825163, "note": "sustained 2.1x"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "BMA", "prev_state": "RUNNING", "state": "CHURN", "price": 65.15, "tp": 3.0281038327843124, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "BXSL", "prev_state": "COOLING", "state": "RUNNING", "price": 23.93, "tp": 2.2750519845088344, "note": "sustained 2.3x"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "AVDE", "prev_state": "RUNNING", "state": "CHURN", "price": 89.24, "tp": 2.364277346565963, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T15:30:49.290911-04:00", "demo": 0, "ticker": "BBAX", "prev_state": "COOLING", "state": "RUNNING", "price": 61.16, "tp": 2.383371498432373, "note": "sustained 2.4x"}
