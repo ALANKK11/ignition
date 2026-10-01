@@ -192,3 +192,26 @@
 {"ts": "2026-10-01T14:04:34.275409-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "QUIET", "state": "IGNITING", "price": 34.205, "tp": 3.079873341679012, "note": "pace 3.1x and accelerating (61.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-10-01T14:04:34.275409-04:00", "demo": 0, "ticker": "DULL", "prev_state": "QUIET", "state": "RUNNING", "price": 63.86, "tp": 7.153371335007845, "note": "sustained 7.2x"}
 {"ts": "2026-10-01T14:07:34.261677-04:00", "demo": 0, "ticker": "MTB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "M&amp;T Bank/Wilmington Trust Women Leaders to Receive 2026 Awards from American Banker"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "IGNITING", "state": "COOLING", "price": 34.205, "tp": 1.575034767186214, "note": "pace 1.6x off peak 3.1x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "PGEN", "prev_state": "COOLING", "state": "RUNNING", "price": 8.235, "tp": 2.4032346419429267, "note": "sustained 2.4x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "NVG", "prev_state": "RUNNING", "state": "COOLING", "price": 10.6, "tp": 0.9310663173909216, "note": "pace 0.9x off peak 2.7x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "COLO", "prev_state": "RUNNING", "state": "COOLING", "price": 46.16, "tp": 1.6945747353637084, "note": "pace 1.7x off peak 24.2x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "ETJ", "prev_state": "RUNNING", "state": "CHURN", "price": 8.14, "tp": 7.8392122346881745, "note": "7.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "PACB", "prev_state": "FADING", "state": "IGNITING", "price": 2.455, "tp": 14.089587531010554, "note": "pace 14.1x and accelerating (4.6x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "ABUS", "prev_state": "COOLING", "state": "RUNNING", "price": 4.615, "tp": 2.4760109659790395, "note": "sustained 2.5x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.255, "tp": 3.4256596694652033, "note": "pace 3.4x and accelerating (7.4x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "AIB", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.485, "tp": 6.170203031816436, "note": "sustained 6.2x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "BXSL", "prev_state": "CHURN", "state": "RUNNING", "price": 23.84, "tp": 2.8787345698027784, "note": "sustained 2.9x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "RUNNING", "state": "COOLING", "price": 9.64, "tp": 1.4277754411799506, "note": "pace 1.4x off peak 2.8x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "AKRE", "prev_state": "QUIET", "state": "RUNNING", "price": 53.27, "tp": 2.993333268515432, "note": "sustained 3.0x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "FESM", "prev_state": "RUNNING", "state": "IGNITING", "price": 45.12, "tp": 5.194307111996851, "note": "pace 5.2x and accelerating (3.3x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "ACT", "prev_state": "COOLING", "state": "FADING", "price": 44.18, "tp": 0.0, "note": "pace 0.0x vs peak 2.2x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "TKC", "prev_state": "RUNNING", "state": "QUIET", "price": 5.025, "tp": 1.6755621353007135, "note": ""}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "VNDA", "prev_state": "COOLING", "state": "CHURN", "price": 4.895, "tp": 4.5753052446899165, "note": "4.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "BJ", "prev_state": "CHURN", "state": "RUNNING", "price": 94.88, "tp": 4.225333107181102, "note": "sustained 4.2x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "OFIX", "prev_state": "COOLING", "state": "QUIET", "price": 9.35, "tp": 1.6697939119845218, "note": ""}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "QTTB", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.63, "tp": 18.230873897986893, "note": "sustained 18.2x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "BTTC", "prev_state": "QUIET", "state": "COOLING", "price": 0.6257, "tp": 1.193868201882719, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "FICO", "prev_state": "RUNNING", "state": "COOLING", "price": 668.89, "tp": 1.6866230571788836, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "ONT", "prev_state": "COOLING", "state": "RUNNING", "price": 12.74, "tp": 2.575095468010564, "note": "sustained 2.6x"}
+{"ts": "2026-10-01T14:08:19.275959-04:00", "demo": 0, "ticker": "SHM", "prev_state": "RUNNING", "state": "FADING", "price": 46.68, "tp": 0.5961073277410818, "note": "pace 0.6x vs peak 3.3x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
