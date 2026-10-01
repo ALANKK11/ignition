@@ -655,3 +655,5 @@
 {"ts": "2026-10-01T15:57:04.295629-04:00", "demo": 0, "ticker": "QTTB", "prev_state": "FADING", "state": "LEAVING", "price": 8.34, "tp": 15.793417374684873, "note": "pace 15.8x off peak 29.6x \u00b7 VWAP lost (was +6.4% above)"}
 {"ts": "2026-10-01T15:57:04.295629-04:00", "demo": 0, "ticker": "SGMT", "prev_state": "COOLING", "state": "RUNNING", "price": 9.41, "tp": 2.427359840882177, "note": "sustained 2.4x"}
 {"ts": "2026-10-01T15:57:04.295629-04:00", "demo": 0, "ticker": "SLVM", "prev_state": "CHURN", "state": "RUNNING", "price": 33.29, "tp": 5.060710524297634, "note": "sustained 5.1x"}
+{"ts": "2026-10-01T16:11:19.284120-04:00", "demo": 0, "ticker": "KPTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Karyopharm Therapeutics Reports Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)"}
+{"ts": "2026-10-01T16:11:19.284120-04:00", "demo": 0, "ticker": "MDT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Medtronic Receives Category I CPT\u00ae Code Approvals for Altaviva\u2122 and Symplicity Spyral\u2122 Systems"}
