@@ -289,3 +289,4 @@
 {"ts": "2026-10-01T14:23:19.278839-04:00", "demo": 0, "ticker": "BBAX", "prev_state": "QUIET", "state": "RUNNING", "price": 61.07, "tp": 1.81544253419998, "note": "sustained 1.8x"}
 {"ts": "2026-10-01T14:23:19.278839-04:00", "demo": 0, "ticker": "AKRE", "prev_state": "RUNNING", "state": "COOLING", "price": 53.35, "tp": 1.7749427094647072, "note": "pace 1.8x off peak 3.0x"}
 {"ts": "2026-10-01T14:23:19.278839-04:00", "demo": 0, "ticker": "ARCO", "prev_state": "RUNNING", "state": "COOLING", "price": 6.725, "tp": 1.6540714415172701, "note": "pace 1.7x off peak 6.2x"}
+{"ts": "2026-10-01T14:24:04.264624-04:00", "demo": 0, "ticker": "CDNL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HAGENS BERMAN, NATIONAL SECURITIES LAW FIRM, Announces Investigation into Cardinal Infrastructure Group Inc. (NASDAQ: CD"}
