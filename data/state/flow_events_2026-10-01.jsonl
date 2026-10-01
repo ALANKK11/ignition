@@ -414,3 +414,4 @@
 {"ts": "2026-10-01T15:00:49.285457-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.5, "tp": 1.2317883910845, "note": "pace 1.2x off peak 14.3x"}
 {"ts": "2026-10-01T15:00:49.285457-04:00", "demo": 0, "ticker": "DDFO", "prev_state": "COOLING", "state": "RUNNING", "price": 22.98, "tp": 36.46635948441399, "note": "sustained 36.5x"}
 {"ts": "2026-10-01T15:00:49.285457-04:00", "demo": 0, "ticker": "AGZD", "prev_state": "RUNNING", "state": "COOLING", "price": 22.52, "tp": 0.0, "note": "pace 0.0x off peak 67.9x"}
+{"ts": "2026-10-01T15:02:19.271368-04:00", "demo": 0, "ticker": "SUJA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SUJA INVESTIGATION ALERT: Investigation Launched into Suja Life, Inc., Robbins Geller Rudman &amp; Dowd LLP Attorneys En"}
