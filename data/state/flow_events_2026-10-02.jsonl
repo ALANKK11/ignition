@@ -4,3 +4,10 @@
 {"ts": "2026-10-02T12:32:37.136628-04:00", "demo": 0, "ticker": "CABO", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.765, "tp": 4.34019270607452, "note": "sustained 4.3x"}
 {"ts": "2026-10-02T12:32:37.136628-04:00", "demo": 0, "ticker": "SDEV", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.45, "tp": 3.4016195817654227, "note": "pace 3.4x and accelerating (2.8x vs prior window) \u00b7 +5.6% in window"}
 {"ts": "2026-10-02T12:32:37.136628-04:00", "demo": 0, "ticker": "UCON", "prev_state": "RUNNING", "state": "FADING", "price": 23.79, "tp": 0.2630403724008807, "note": "pace 0.3x vs peak 2.1x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "QUIET", "state": "RUNNING", "price": 8.215, "tp": 1.848704256575936, "note": "sustained 1.8x"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "GRND", "prev_state": "QUIET", "state": "RUNNING", "price": 13.74, "tp": 2.042861984918396, "note": "sustained 2.0x"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "STXL", "prev_state": "QUIET", "state": "RUNNING", "price": 28.57, "tp": 13.255856815099051, "note": "sustained 13.3x"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "AMOD", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.39, "tp": 60.0397466189618, "note": "pace 60.0x and accelerating (2.0x vs prior window) \u00b7 +4.0% in window"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "FPEI", "prev_state": "QUIET", "state": "RUNNING", "price": 18.415, "tp": 3.795907504421186, "note": "sustained 3.8x"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "KYIV", "prev_state": "QUIET", "state": "RUNNING", "price": 12.345, "tp": 2.349320000014133, "note": "sustained 2.3x"}
+{"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "XZO", "prev_state": "IGNITING", "state": "COOLING", "price": 14.04, "tp": 1.6403147699397427, "note": "pace 1.6x off peak 3.4x"}
