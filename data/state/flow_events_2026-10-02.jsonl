@@ -11,3 +11,13 @@
 {"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "FPEI", "prev_state": "QUIET", "state": "RUNNING", "price": 18.415, "tp": 3.795907504421186, "note": "sustained 3.8x"}
 {"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "KYIV", "prev_state": "QUIET", "state": "RUNNING", "price": 12.345, "tp": 2.349320000014133, "note": "sustained 2.3x"}
 {"ts": "2026-10-02T12:36:22.137478-04:00", "demo": 0, "ticker": "XZO", "prev_state": "IGNITING", "state": "COOLING", "price": 14.04, "tp": 1.6403147699397427, "note": "pace 1.6x off peak 3.4x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "XRPNW", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.725, "tp": 1316.049934798777, "note": "sustained 1316.0x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "AGEN", "prev_state": "RUNNING", "state": "COOLING", "price": 8.215, "tp": 1.2087205164514039, "note": "pace 1.2x off peak 1.8x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "QTEX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.13, "tp": 15.065595802624431, "note": "sustained 15.1x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "DBND", "prev_state": "RUNNING", "state": "COOLING", "price": 43.35, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "FRNW", "prev_state": "QUIET", "state": "RUNNING", "price": 21.3, "tp": 18.371286070901775, "note": "sustained 18.4x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "SCKT", "prev_state": "RUNNING", "state": "FADING", "price": 0.6965, "tp": 5.763971818278717, "note": "pace 5.8x vs peak 31.7x \u00b7 -15.3% off HOD \u00b7 chart still +29% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "UNIT", "prev_state": "RUNNING", "state": "COOLING", "price": 8.285, "tp": 1.3761502718275338, "note": "pace 1.4x off peak 2.5x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "FHTX", "prev_state": "QUIET", "state": "IGNITING", "price": 2.235, "tp": 2.827455066396924, "note": "pace 2.8x and accelerating (5.3x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "SDEV", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.08, "tp": 1.9973220609384335, "note": "sustained 2.0x"}
+{"ts": "2026-10-02T12:40:07.138532-04:00", "demo": 0, "ticker": "AIXI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.67, "tp": 55.713624133590244, "note": "pace 55.7x and accelerating (2.0x vs prior window) \u00b7 +1.2% in window"}
