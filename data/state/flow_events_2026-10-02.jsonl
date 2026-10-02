@@ -44,3 +44,4 @@
 {"ts": "2026-10-02T12:47:37.139608-04:00", "demo": 0, "ticker": "CYCU", "prev_state": "RUNNING", "state": "LEAVING", "price": 4.015, "tp": 39.73259542567413, "note": "pace 39.7x off peak 78.6x \u00b7 VWAP lost (was +2.6% above)"}
 {"ts": "2026-10-02T12:47:37.139608-04:00", "demo": 0, "ticker": "CABO", "prev_state": "RUNNING", "state": "FADING", "price": 12.495, "tp": 1.5431950500481257, "note": "pace 1.5x vs peak 4.8x \u00b7 -4.3% off HOD \u00b7 chart still +20% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-02T12:47:37.139608-04:00", "demo": 0, "ticker": "GRND", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.735, "tp": 1.947177537308404, "note": "sustained 1.9x"}
+{"ts": "2026-10-02T17:36:18.279264-04:00", "demo": 0, "ticker": "AVXL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AVXL Investor Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Filed Agains"}
