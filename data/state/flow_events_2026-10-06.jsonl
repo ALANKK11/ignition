@@ -57,3 +57,5 @@
 {"ts": "2026-10-06T13:23:38.041374-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "RUNNING", "state": "COOLING", "price": 1.8, "tp": 0.1357480772418911, "note": "pace 0.1x off peak 2.5x"}
 {"ts": "2026-10-06T13:23:38.041374-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "COOLING", "price": 2.675, "tp": 1.2724378482471665, "note": "pace 1.3x off peak 5.5x"}
 {"ts": "2026-10-06T17:18:25.486314-04:00", "demo": 0, "ticker": "MI", "prev_state": null, "state": "AH IGNITION", "price": 1.54, "tp": null, "note": "+30% on $0.06M ext tape"}
+{"ts": "2026-10-06T17:19:10.471698-04:00", "demo": 0, "ticker": "RLGT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "RADIANT LOGISTICS ACQUIRES WHITACRE LOGISTICS' DALLAS OPERATIONS"}
+{"ts": "2026-10-06T17:19:10.471698-04:00", "demo": 0, "ticker": "QUIK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "QuickLogic Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)"}
