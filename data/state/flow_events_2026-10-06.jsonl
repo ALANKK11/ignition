@@ -10,3 +10,13 @@
 {"ts": "2026-10-06T13:08:38.037668-04:00", "demo": 0, "ticker": "AIFA", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.71, "tp": 3.562870887320201, "note": "sustained 3.6x"}
 {"ts": "2026-10-06T13:08:38.037668-04:00", "demo": 0, "ticker": "NXH", "prev_state": "QUIET", "state": "RUNNING", "price": 1.805, "tp": 4.552673100133894, "note": "sustained 4.6x"}
 {"ts": "2026-10-06T13:08:38.037668-04:00", "demo": 0, "ticker": "PACB", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.65, "tp": 4.390408935799795, "note": "pace 4.4x and accelerating (3.3x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "CHURN", "state": "RUNNING", "price": 31.085, "tp": 16.239069321697343, "note": "sustained 16.2x"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "AVIG", "prev_state": "QUIET", "state": "RUNNING", "price": 39.325, "tp": 2.246018696738825, "note": "sustained 2.2x"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "SECU", "prev_state": "RUNNING", "state": "FADING", "price": 48.52, "tp": 0.0, "note": "pace 0.0x vs peak 11.3x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "XIFR", "prev_state": "RUNNING", "state": "CHURN", "price": 10.38, "tp": 4.834046636409212, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "SUSA", "prev_state": "RUNNING", "state": "CHURN", "price": 159.375, "tp": 319.02315769039933, "note": "319.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "XHG", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.91, "tp": 384.5219286597446, "note": "sustained 384.5x"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "AUTL", "prev_state": "QUIET", "state": "RUNNING", "price": 1.8, "tp": 2.5081427148444266, "note": "sustained 2.5x"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "XRPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.58, "tp": 4.951935634857895, "note": "pace 5.0x and accelerating (1.9x vs prior window) \u00b7 +6.0% in window"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "RUNNING", "state": "CHURN", "price": 15.56, "tp": 10.169679738481484, "note": "10.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-06T13:12:23.038480-04:00", "demo": 0, "ticker": "KAPA", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.15, "tp": 20.389576650612824, "note": "sustained 20.4x"}
