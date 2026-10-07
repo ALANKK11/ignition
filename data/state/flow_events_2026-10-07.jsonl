@@ -53,3 +53,22 @@
 {"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "APOG", "prev_state": "FADING", "state": "COOLING", "price": 41.285, "tp": 1.4479573001855224, "note": "pace 1.4x off peak 2.1x"}
 {"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "PCVX", "prev_state": "CHURN", "state": "RUNNING", "price": 66.285, "tp": 3.8460807102598644, "note": "sustained 3.8x"}
 {"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "QUIET", "price": 29.22, "tp": 1.7859882742814526, "note": ""}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "BCH", "prev_state": "RUNNING", "state": "CHURN", "price": 38.2, "tp": 5.073513100012749, "note": "5.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "DKI", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.16, "tp": 32.7663749311032, "note": "pace 32.8x and accelerating (14.3x vs prior window) \u00b7 +3.3% in window"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "IGOV", "prev_state": "QUIET", "state": "CHURN", "price": 39.69, "tp": 11.56355519219452, "note": "11.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "FADING", "state": "RUNNING", "price": 16.06, "tp": 2.5449393725719127, "note": "sustained 2.5x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "HEFA", "prev_state": "RUNNING", "state": "COOLING", "price": 46.36, "tp": 0.0, "note": "pace 0.0x off peak 4.6x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "LOFF", "prev_state": "IGNITING", "state": "COOLING", "price": 20.11, "tp": 1.424933765926412, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "PICS", "prev_state": "QUIET", "state": "COOLING", "price": 12.36, "tp": 1.446093462050389, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "MI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.61, "tp": 2.2759304537930913, "note": "sustained 2.3x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "PENG", "prev_state": "RUNNING", "state": "COOLING", "price": 71.84, "tp": 1.705430628988745, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "NVDG", "prev_state": "IGNITING", "state": "RUNNING", "price": 22.38, "tp": 2.840091212445959, "note": "sustained 2.8x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "FFR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.9, "tp": 11.54083465150054, "note": "sustained 11.5x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "APUS", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.47, "tp": 2.00349323833733, "note": "sustained 2.0x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "CHURN", "state": "RUNNING", "price": 19.7, "tp": 52.08878843832948, "note": "sustained 52.1x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "OPCH", "prev_state": "CHURN", "state": "RUNNING", "price": 31.02, "tp": 2.771439520980205, "note": "sustained 2.8x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.66, "tp": 3.5980678145400558, "note": "pace 3.6x and accelerating (4.7x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "GILT", "prev_state": "RUNNING", "state": "CHURN", "price": 9.15, "tp": 5.760400811110221, "note": "5.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "JMSB", "prev_state": "COOLING", "state": "RUNNING", "price": 22.865, "tp": 1.9910058252161769, "note": "sustained 2.0x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.09, "tp": 11.621369540670392, "note": "sustained 11.6x"}
+{"ts": "2026-10-07T13:59:27.166004-04:00", "demo": 0, "ticker": "LGCL", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.94, "tp": 417.94821287040804, "note": "pace 417.9x off peak 1167.9x \u00b7 VWAP lost (was +4.6% above)"}
