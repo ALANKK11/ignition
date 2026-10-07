@@ -651,3 +651,4 @@
 {"ts": "2026-10-07T15:57:12.186319-04:00", "demo": 0, "ticker": "CZR", "prev_state": "RUNNING", "state": "COOLING", "price": 29.475, "tp": 1.1811388086493415, "note": "pace 1.2x off peak 6.0x"}
 {"ts": "2026-10-07T15:57:12.186319-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "COOLING", "state": "RUNNING", "price": 9.875, "tp": 2.515630477161788, "note": "sustained 2.5x"}
 {"ts": "2026-10-07T15:57:12.186319-04:00", "demo": 0, "ticker": "WWW", "prev_state": "COOLING", "state": "RUNNING", "price": 18.72, "tp": 2.5042252729041157, "note": "sustained 2.5x"}
+{"ts": "2026-10-07T16:32:27.179666-04:00", "demo": 0, "ticker": "CCO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Clear Channel Outdoor Receives CFIUS Clearance for Acquisition by Mubadala Capital"}
