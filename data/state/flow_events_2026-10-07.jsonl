@@ -144,3 +144,14 @@
 {"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "FSIG", "prev_state": "CHURN", "state": "COOLING", "price": 18.415, "tp": 0.0, "note": "pace 0.0x off peak 149.2x"}
 {"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "AVK", "prev_state": "QUIET", "state": "RUNNING", "price": 11.62, "tp": 2.391709285394182, "note": "sustained 2.4x"}
 {"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "OABI", "prev_state": "QUIET", "state": "FADING", "price": 4.565, "tp": 0.6181189438858896, "note": "pace 0.6x vs peak 2.1x \u00b7 -3.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "WWW", "prev_state": "CHURN", "state": "RUNNING", "price": 19.01, "tp": 3.208989225866798, "note": "sustained 3.2x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "FTNJ", "prev_state": "RUNNING", "state": "CHURN", "price": 8.205, "tp": 9.273694500675878, "note": "9.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "RUNNING", "state": "COOLING", "price": 10.05, "tp": 0.2567534907882781, "note": "pace 0.3x off peak 3.7x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "QUIET", "state": "COOLING", "price": 28.12, "tp": 0.35851673078769125, "note": "pace 0.4x off peak 2.2x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "FRSH", "prev_state": "RUNNING", "state": "CHURN", "price": 13.82, "tp": 10.14494967432509, "note": "10.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "FSIG", "prev_state": "COOLING", "state": "RUNNING", "price": 18.41, "tp": 41.38941723080615, "note": "sustained 41.4x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "RUNNING", "state": "COOLING", "price": 104.17, "tp": 0.46890405844034405, "note": "pace 0.5x off peak 1.9x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "INTR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.335, "tp": 4.044684544243328, "note": "sustained 4.0x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "BULL", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.93, "tp": 4.218495485435714, "note": "sustained 4.2x"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "FMS", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.805, "tp": 4.247621330805419, "note": "pace 4.2x and accelerating (1.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-07T14:21:12.169222-04:00", "demo": 0, "ticker": "CD", "prev_state": "RUNNING", "state": "COOLING", "price": 9.795, "tp": 1.2662998045837164, "note": "pace 1.3x off peak 1.8x"}
