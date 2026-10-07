@@ -1,0 +1,11 @@
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "NXTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.11, "tp": 96.89011715202966, "note": "sustained 96.9x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "APUS", "prev_state": "QUIET", "state": "RUNNING", "price": 7.45, "tp": 1.941765362647301, "note": "sustained 1.9x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "TOPP", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.16, "tp": 40.954201603367125, "note": "sustained 41.0x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "MTEN", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.15, "tp": 16.51232530977973, "note": "sustained 16.5x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "XRPN", "prev_state": "RUNNING", "state": "COOLING", "price": 25.4, "tp": 1.3536694929333526, "note": "pace 1.4x off peak 3.1x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.73, "tp": 3.110012734582384, "note": "sustained 3.1x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "BCH", "prev_state": "RUNNING", "state": "QUIET", "price": 38.19, "tp": 1.6758625605200967, "note": ""}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "MI", "prev_state": "QUIET", "state": "RUNNING", "price": 1.57, "tp": 2.0306928837203113, "note": "sustained 2.0x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "CRBU", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6229, "tp": 7.534239519678691, "note": "sustained 7.5x"}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "RUNNING", "state": "QUIET", "price": 0.491, "tp": 1.6381612198505908, "note": ""}
+{"ts": "2026-10-07T13:43:42.161114-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "CHURN", "state": "RUNNING", "price": 10.04, "tp": 3.011852015489155, "note": "sustained 3.0x"}
