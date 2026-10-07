@@ -446,3 +446,11 @@
 {"ts": "2026-10-07T15:18:57.178985-04:00", "demo": 0, "ticker": "FMS", "prev_state": "COOLING", "state": "RUNNING", "price": 20.775, "tp": 2.25267601373053, "note": "sustained 2.3x"}
 {"ts": "2026-10-07T15:18:57.178985-04:00", "demo": 0, "ticker": "LOFF", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.58, "tp": 6.480382250093335, "note": "pace 6.5x and accelerating (6.4x vs prior window) \u00b7 +1.0% in window"}
 {"ts": "2026-10-07T15:18:57.178985-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "RUNNING", "state": "CHURN", "price": 19.705, "tp": 3.9875795299712116, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "BAK", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.8, "tp": 3.4415298974650246, "note": "sustained 3.4x"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "FADING", "price": 15.96, "tp": 0.3059288844403832, "note": "pace 0.3x vs peak 6.5x \u00b7 -0.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "EMN", "prev_state": "RUNNING", "state": "COOLING", "price": 63.335, "tp": 0.7666254037194195, "note": "pace 0.8x off peak 9.6x"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "BKH", "prev_state": "RUNNING", "state": "CHURN", "price": 76.49, "tp": 5.957864398219033, "note": "6.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "AGNCP", "prev_state": "RUNNING", "state": "COOLING", "price": 24.51, "tp": 1.366241829356211, "note": "pace 1.4x off peak 51.3x"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "ACYQ", "prev_state": "CHURN", "state": "COOLING", "price": 21.035, "tp": 0.0, "note": "pace 0.0x off peak 30.6x"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "QUIET", "state": "RUNNING", "price": 146.99, "tp": 1.9254803424671478, "note": "sustained 1.9x"}
+{"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "APOG", "prev_state": "IGNITING", "state": "COOLING", "price": 41.48, "tp": 1.5822660784177796, "note": "pace 1.6x off peak 3.5x"}
