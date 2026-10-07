@@ -131,3 +131,16 @@
 {"ts": "2026-10-07T14:14:27.168139-04:00", "demo": 0, "ticker": "OABI", "prev_state": "RUNNING", "state": "QUIET", "price": 4.56, "tp": 1.7895884140418097, "note": ""}
 {"ts": "2026-10-07T14:14:27.168139-04:00", "demo": 0, "ticker": "WWW", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.0, "tp": 4.4752920776476754, "note": "sustained 4.5x"}
 {"ts": "2026-10-07T14:14:27.168139-04:00", "demo": 0, "ticker": "FLTR", "prev_state": "RUNNING", "state": "FADING", "price": 25.525, "tp": 2.312110906596145, "note": "pace 2.3x vs peak 9.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "CD", "prev_state": "QUIET", "state": "RUNNING", "price": 9.795, "tp": 1.8194171764641296, "note": "sustained 1.8x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "APOG", "prev_state": "RUNNING", "state": "FADING", "price": 41.19, "tp": 0.8435684371616908, "note": "pace 0.8x vs peak 3.5x \u00b7 -0.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "PICS", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.31, "tp": 3.184397370732024, "note": "sustained 3.2x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "FMHI", "prev_state": "CHURN", "state": "COOLING", "price": 44.435, "tp": 0.0, "note": "pace 0.0x off peak 38.4x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "INTR", "prev_state": "CHURN", "state": "IGNITING", "price": 7.35, "tp": 6.579189694710203, "note": "pace 6.6x and accelerating (2.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "DAC", "prev_state": "COOLING", "state": "RUNNING", "price": 165.52, "tp": 10.145189017314818, "note": "sustained 10.1x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "SPAX", "prev_state": "QUIET", "state": "RUNNING", "price": 12.345, "tp": 2.292996693783011, "note": "sustained 2.3x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "GIPR", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.4864, "tp": 2.3616702890179226, "note": "sustained 2.4x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "APAM", "prev_state": "RUNNING", "state": "COOLING", "price": 33.7, "tp": 1.6886371603623629, "note": "pace 1.7x off peak 9.0x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "WWW", "prev_state": "RUNNING", "state": "CHURN", "price": 19.02, "tp": 4.19643405208942, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "FSIG", "prev_state": "CHURN", "state": "COOLING", "price": 18.415, "tp": 0.0, "note": "pace 0.0x off peak 149.2x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "AVK", "prev_state": "QUIET", "state": "RUNNING", "price": 11.62, "tp": 2.391709285394182, "note": "sustained 2.4x"}
+{"ts": "2026-10-07T14:17:27.167617-04:00", "demo": 0, "ticker": "OABI", "prev_state": "QUIET", "state": "FADING", "price": 4.565, "tp": 0.6181189438858896, "note": "pace 0.6x vs peak 2.1x \u00b7 -3.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
