@@ -87,3 +87,10 @@
 {"ts": "2026-10-07T14:02:27.165340-04:00", "demo": 0, "ticker": "FTPA", "prev_state": "CHURN", "state": "RUNNING", "price": 8.04, "tp": 30.117900115501648, "note": "sustained 30.1x"}
 {"ts": "2026-10-07T14:02:27.165340-04:00", "demo": 0, "ticker": "IGOV", "prev_state": "CHURN", "state": "RUNNING", "price": 39.725, "tp": 16.019466323275665, "note": "sustained 16.0x"}
 {"ts": "2026-10-07T14:02:27.165340-04:00", "demo": 0, "ticker": "NXH", "prev_state": "RUNNING", "state": "COOLING", "price": 1.735, "tp": 0.5340685170957332, "note": "pace 0.5x off peak 3.8x"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "APOG", "prev_state": "RUNNING", "state": "IGNITING", "price": 41.155, "tp": 3.539683748800996, "note": "pace 3.5x and accelerating (70.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "IGNITING", "state": "RUNNING", "price": 36.67, "tp": 1.8291726840357907, "note": "sustained 1.8x"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "WWW", "prev_state": "QUIET", "state": "RUNNING", "price": 19.02, "tp": 3.397743706866542, "note": "sustained 3.4x"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "OABI", "prev_state": "QUIET", "state": "RUNNING", "price": 4.56, "tp": 2.137613996784127, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "CHURN", "state": "COOLING", "price": 44.325, "tp": 0.401699302245002, "note": "pace 0.4x off peak 3.5x"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "MTEN", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.19, "tp": 17.446976039817812, "note": "pace 17.4x and accelerating (1.6x vs prior window) \u00b7 +4.4% in window"}
+{"ts": "2026-10-07T14:05:27.165371-04:00", "demo": 0, "ticker": "FFR", "prev_state": "RUNNING", "state": "FADING", "price": 1.88, "tp": 4.675059810928269, "note": "pace 4.7x vs peak 16.0x \u00b7 -6.5% off HOD \u00b7 chart still +36% \u2014 crowd buying a cooled tape"}
