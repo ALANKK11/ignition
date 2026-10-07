@@ -30,3 +30,17 @@
 {"ts": "2026-10-07T13:49:42.161836-04:00", "demo": 0, "ticker": "XHE", "prev_state": "QUIET", "state": "RUNNING", "price": 89.05, "tp": 11.51608527975261, "note": "sustained 11.5x"}
 {"ts": "2026-10-07T13:49:42.161836-04:00", "demo": 0, "ticker": "SXTC", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.87, "tp": 195.40559016954887, "note": "sustained 195.4x"}
 {"ts": "2026-10-07T13:49:42.161836-04:00", "demo": 0, "ticker": "TARK", "prev_state": "QUIET", "state": "RUNNING", "price": 53.8, "tp": 178.62223460384484, "note": "sustained 178.6x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "DKI", "prev_state": "FADING", "state": "RUNNING", "price": 2.07, "tp": 5.436332616483395, "note": "sustained 5.4x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "JMSB", "prev_state": "RUNNING", "state": "COOLING", "price": 22.895, "tp": 0.0, "note": "pace 0.0x off peak 2.0x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "MTEN", "prev_state": "RUNNING", "state": "FADING", "price": 1.14, "tp": 6.415528127062766, "note": "pace 6.4x vs peak 23.9x \u00b7 -18.0% off HOD \u00b7 chart still +19% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "RUNNING", "state": "CHURN", "price": 19.71, "tp": 39.55218915395468, "note": "39.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "QUIET", "state": "RUNNING", "price": 29.225, "tp": 2.184152188323389, "note": "sustained 2.2x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "APAM", "prev_state": "QUIET", "state": "RUNNING", "price": 33.885, "tp": 2.395855825829833, "note": "sustained 2.4x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "NVDG", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.38, "tp": 40.521276055163256, "note": "pace 40.5x and accelerating (810.4x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "LOFF", "prev_state": "QUIET", "state": "IGNITING", "price": 20.11, "tp": 3.1832730221692693, "note": "pace 3.2x and accelerating (3.4x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "RUNNING", "state": "COOLING", "price": 10.04, "tp": 0.682750723217128, "note": "pace 0.7x off peak 3.7x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "IGNITING", "state": "CHURN", "price": 36.43, "tp": 2.630946318774882, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "MI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.57, "tp": 2.927792902842184, "note": "pace 2.9x and accelerating (2.5x vs prior window) \u00b7 -3.1% in window"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "TRPA", "prev_state": "QUIET", "state": "RUNNING", "price": 38.96, "tp": 274.048205991898, "note": "sustained 274.0x"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "XRPN", "prev_state": "COOLING", "state": "IGNITING", "price": 27.1, "tp": 8.245783664211709, "note": "pace 8.2x and accelerating (2.3x vs prior window) \u00b7 +6.7% in window"}
+{"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "GILT", "prev_state": "QUIET", "state": "RUNNING", "price": 9.13, "tp": 4.687802852252524, "note": "sustained 4.7x"}
