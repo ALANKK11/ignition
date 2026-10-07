@@ -614,3 +614,21 @@
 {"ts": "2026-10-07T15:50:27.185057-04:00", "demo": 0, "ticker": "BIIB", "prev_state": "COOLING", "state": "RUNNING", "price": 221.83, "tp": 1.9675413802277022, "note": "sustained 2.0x"}
 {"ts": "2026-10-07T15:50:27.185057-04:00", "demo": 0, "ticker": "SPCF", "prev_state": "RUNNING", "state": "COOLING", "price": 20.33, "tp": 1.5973822223515652, "note": "pace 1.6x off peak 6.9x"}
 {"ts": "2026-10-07T15:50:27.185057-04:00", "demo": 0, "ticker": "BAK", "prev_state": "FADING", "state": "IGNITING", "price": 1.795, "tp": 6.193235193279796, "note": "pace 6.2x and accelerating (2.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "COOLING", "state": "QUIET", "price": 147.475, "tp": 1.7324965712001614, "note": ""}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 48.71, "tp": 0.0, "note": "pace 0.0x off peak 18.5x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "DKI", "prev_state": "RUNNING", "state": "FADING", "price": 1.58, "tp": 17.08573878897869, "note": "pace 17.1x vs peak 63.1x \u00b7 -55.7% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "FADING", "state": "RUNNING", "price": 8.57, "tp": 2.905139807418454, "note": "sustained 2.9x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "COOLING", "state": "RUNNING", "price": 28.47, "tp": 1.9653626302735956, "note": "sustained 2.0x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "AVK", "prev_state": "RUNNING", "state": "CHURN", "price": 11.61, "tp": 4.022066850228932, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "CHURN", "price": 2.545, "tp": 2.9585167472118057, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "NBIZ", "prev_state": "RUNNING", "state": "COOLING", "price": 19.88, "tp": 0.9873887289374531, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "BBD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.335, "tp": 1.5042147289270267, "note": "pace 1.5x off peak 10.7x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.975, "tp": 3.2511929377274735, "note": "sustained 3.3x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "EMN", "prev_state": "RUNNING", "state": "CHURN", "price": 63.205, "tp": 5.285125776922538, "note": "5.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "FADING", "state": "LEAVING", "price": 2.25, "tp": 131.09496977982653, "note": "pace 131.1x off peak 606.7x \u00b7 VWAP lost (was +19.2% above)"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "APOG", "prev_state": "FADING", "state": "RUNNING", "price": 41.34, "tp": 2.1413435430225545, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "CRBU", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6095, "tp": 6.892479802660719, "note": "pace 6.9x and accelerating (1.9x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "CHURN", "state": "RUNNING", "price": 19.7, "tp": 90.87130702856962, "note": "sustained 90.9x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "BSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.68, "tp": 4.539240641527504, "note": "sustained 4.5x"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "GILT", "prev_state": "RUNNING", "state": "CHURN", "price": 9.215, "tp": 5.5548213323120335, "note": "5.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:54:12.185754-04:00", "demo": 0, "ticker": "VNQI", "prev_state": "QUIET", "state": "RUNNING", "price": 41.81, "tp": 1.9815734096514506, "note": "sustained 2.0x"}
