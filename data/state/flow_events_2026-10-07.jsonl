@@ -262,3 +262,17 @@
 {"ts": "2026-10-07T14:43:42.172588-04:00", "demo": 0, "ticker": "GILT", "prev_state": "FADING", "state": "RUNNING", "price": 9.205, "tp": 4.1017603171417, "note": "sustained 4.1x"}
 {"ts": "2026-10-07T14:43:42.172588-04:00", "demo": 0, "ticker": "BKH", "prev_state": "RUNNING", "state": "CHURN", "price": 76.66, "tp": 4.336830481482407, "note": "4.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-07T14:43:42.172588-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.48, "tp": 5.309255233107885, "note": "sustained 5.3x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "BKH", "prev_state": "CHURN", "state": "RUNNING", "price": 76.44, "tp": 5.182285348926186, "note": "sustained 5.2x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.06, "tp": 3.434205381235894, "note": "sustained 3.4x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "CGCP", "prev_state": "CHURN", "state": "RUNNING", "price": 21.22, "tp": 7.579603156238918, "note": "sustained 7.6x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "NXH", "prev_state": "RUNNING", "state": "COOLING", "price": 1.735, "tp": 0.2047038565388987, "note": "pace 0.2x off peak 4.3x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "CPHI", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.86, "tp": 560.3587340878812, "note": "pace 560.4x off peak 1204.2x \u00b7 VWAP lost (was +27.6% above)"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "AVR", "prev_state": "CHURN", "state": "RUNNING", "price": 6.945, "tp": 2.1242712355531004, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "QUIET", "state": "RUNNING", "price": 29.21, "tp": 1.8662967987277101, "note": "sustained 1.9x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "ETHD", "prev_state": "RUNNING", "state": "CHURN", "price": 26.8, "tp": 20.400163230965365, "note": "20.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "AVK", "prev_state": "CHURN", "state": "COOLING", "price": 11.62, "tp": 0.0, "note": "pace 0.0x off peak 20.5x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "SPCF", "prev_state": "COOLING", "state": "RUNNING", "price": 20.315, "tp": 1.8066251455021742, "note": "sustained 1.8x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "LEAVING", "state": "FADING", "price": 2.31, "tp": 94.26472603729465, "note": "pace 94.3x vs peak 606.7x \u00b7 -18.9% off HOD \u00b7 chart still +62% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "CSTL", "prev_state": "COOLING", "state": "FADING", "price": 33.58, "tp": 0.3884409656722664, "note": "pace 0.4x vs peak 2.4x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.06, "tp": 4.855164062930474, "note": "sustained 4.9x"}
+{"ts": "2026-10-07T14:46:42.173313-04:00", "demo": 0, "ticker": "APLX", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.58, "tp": 5.1892556566109365, "note": "pace 5.2x and accelerating (2.4x vs prior window) \u00b7 +0.8% in window"}
