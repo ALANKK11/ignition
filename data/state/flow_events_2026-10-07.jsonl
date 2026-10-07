@@ -454,3 +454,21 @@
 {"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "ACYQ", "prev_state": "CHURN", "state": "COOLING", "price": 21.035, "tp": 0.0, "note": "pace 0.0x off peak 30.6x"}
 {"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "ALLE", "prev_state": "QUIET", "state": "RUNNING", "price": 146.99, "tp": 1.9254803424671478, "note": "sustained 1.9x"}
 {"ts": "2026-10-07T15:21:57.179822-04:00", "demo": 0, "ticker": "APOG", "prev_state": "IGNITING", "state": "COOLING", "price": 41.48, "tp": 1.5822660784177796, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "SPCF", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.345, "tp": 3.135281532316392, "note": "sustained 3.1x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 39.61, "tp": 4.215093722398577, "note": "pace 4.2x and accelerating (2.2x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "DGCB", "prev_state": "RUNNING", "state": "COOLING", "price": 52.08, "tp": 0.896151636065062, "note": "pace 0.9x off peak 17.0x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "DNA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.48, "tp": 2.435947463618393, "note": "sustained 2.4x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "CHURN", "state": "RUNNING", "price": 19.695, "tp": 11.642475952064686, "note": "sustained 11.6x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "FADING", "state": "IGNITING", "price": 16.895, "tp": 6.52778398818527, "note": "pace 6.5x and accelerating (2.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "BIIB", "prev_state": "FADING", "state": "IGNITING", "price": 222.35, "tp": 3.195345916087826, "note": "pace 3.2x and accelerating (3.3x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "EWK", "prev_state": "RUNNING", "state": "COOLING", "price": 25.39, "tp": 1.4680731619461385, "note": "pace 1.5x off peak 5.6x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "LOFF", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.58, "tp": 3.9025467847256614, "note": "sustained 3.9x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.51, "tp": 1.7413989619325003, "note": "pace 1.7x off peak 8.8x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "IMTX", "prev_state": "COOLING", "state": "RUNNING", "price": 7.47, "tp": 1.8583878723226246, "note": "sustained 1.9x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "APOG", "prev_state": "COOLING", "state": "RUNNING", "price": 41.52, "tp": 2.1156640245235665, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "SPAX", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.42, "tp": 3.0572542122893105, "note": "sustained 3.1x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "CPHI", "prev_state": "FADING", "state": "IGNITING", "price": 0.885, "tp": 737.0211355086584, "note": "pace 737.0x and accelerating (1.7x vs prior window) \u00b7 -2.1% in window"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "QUIET", "state": "RUNNING", "price": 8.56, "tp": 1.8521200586643969, "note": "sustained 1.9x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "COOLING", "state": "RUNNING", "price": 28.595, "tp": 2.2100735398242115, "note": "sustained 2.2x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "BKH", "prev_state": "CHURN", "state": "RUNNING", "price": 76.43, "tp": 6.073699831710195, "note": "sustained 6.1x"}
+{"ts": "2026-10-07T15:24:57.180175-04:00", "demo": 0, "ticker": "SPCM", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.18, "tp": 2.1325437969943377, "note": "sustained 2.1x"}
