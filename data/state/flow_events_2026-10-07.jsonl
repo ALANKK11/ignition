@@ -360,3 +360,20 @@
 {"ts": "2026-10-07T15:01:42.175745-04:00", "demo": 0, "ticker": "CD", "prev_state": "FADING", "state": "IGNITING", "price": 10.11, "tp": 5.210710958496867, "note": "pace 5.2x and accelerating (4.3x vs prior window) \u00b7 +3.0% in window"}
 {"ts": "2026-10-07T15:01:42.175745-04:00", "demo": 0, "ticker": "DNA", "prev_state": "RUNNING", "state": "COOLING", "price": 11.77, "tp": 1.6566129781865633, "note": "pace 1.7x off peak 2.9x"}
 {"ts": "2026-10-07T15:01:42.175745-04:00", "demo": 0, "ticker": "FFR", "prev_state": "LEAVING", "state": "FADING", "price": 1.82, "tp": 7.007343545947555, "note": "pace 7.0x vs peak 23.7x \u00b7 -9.5% off HOD \u00b7 chart still +31% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "BAK", "prev_state": "CHURN", "state": "RUNNING", "price": 1.76, "tp": 4.392630494248634, "note": "sustained 4.4x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "CHURN", "state": "IGNITING", "price": 9.99, "tp": 3.1152038027011084, "note": "pace 3.1x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "AOM", "prev_state": "CHURN", "state": "RUNNING", "price": 48.71, "tp": 13.509560788639833, "note": "sustained 13.5x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "RUNNING", "state": "CHURN", "price": 36.58, "tp": 2.2359622342752736, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "ALMR", "prev_state": "QUIET", "state": "RUNNING", "price": 28.29, "tp": 2.3057803237482988, "note": "sustained 2.3x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "AMDG", "prev_state": "RUNNING", "state": "IGNITING", "price": 147.14, "tp": 17.799546225968182, "note": "pace 17.8x and accelerating (356.0x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "DKI", "prev_state": "FADING", "state": "RUNNING", "price": 1.7, "tp": 44.27000115019066, "note": "sustained 44.3x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "CZR", "prev_state": "CHURN", "state": "COOLING", "price": 29.515, "tp": 0.6410738758992477, "note": "pace 0.6x off peak 6.0x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "FMHI", "prev_state": "COOLING", "state": "RUNNING", "price": 44.54, "tp": 9.038908596925689, "note": "sustained 9.0x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "DNA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.71, "tp": 2.6375398238110135, "note": "sustained 2.6x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "AVR", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.905, "tp": 4.9396306493550695, "note": "pace 4.9x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "CGMS", "prev_state": "RUNNING", "state": "CHURN", "price": 26.315, "tp": 10.196778447315964, "note": "10.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "EMHY", "prev_state": "RUNNING", "state": "COOLING", "price": 38.585, "tp": 1.3886526588060877, "note": "pace 1.4x off peak 3.3x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.06, "tp": 3.617491070744309, "note": "sustained 3.6x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "ENFR", "prev_state": "CHURN", "state": "RUNNING", "price": 37.66, "tp": 7.341775018604869, "note": "sustained 7.3x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "EAGG", "prev_state": "FADING", "state": "COOLING", "price": 45.155, "tp": 0.9167941093719753, "note": "pace 0.9x off peak 8.8x"}
+{"ts": "2026-10-07T15:05:27.176932-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "COOLING", "state": "RUNNING", "price": 29.2, "tp": 2.14125796502013, "note": "sustained 2.1x"}
