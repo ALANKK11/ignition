@@ -44,3 +44,12 @@
 {"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "TRPA", "prev_state": "QUIET", "state": "RUNNING", "price": 38.96, "tp": 274.048205991898, "note": "sustained 274.0x"}
 {"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "XRPN", "prev_state": "COOLING", "state": "IGNITING", "price": 27.1, "tp": 8.245783664211709, "note": "pace 8.2x and accelerating (2.3x vs prior window) \u00b7 +6.7% in window"}
 {"ts": "2026-10-07T13:52:42.163343-04:00", "demo": 0, "ticker": "GILT", "prev_state": "QUIET", "state": "RUNNING", "price": 9.13, "tp": 4.687802852252524, "note": "sustained 4.7x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "GMUB", "prev_state": "QUIET", "state": "RUNNING", "price": 48.74, "tp": 3.3404796858150823, "note": "sustained 3.3x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "SPCF", "prev_state": "RUNNING", "state": "COOLING", "price": 19.97, "tp": 1.3261292058025043, "note": "pace 1.3x off peak 2.8x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "BCH", "prev_state": "QUIET", "state": "RUNNING", "price": 38.14, "tp": 2.1205948060274755, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "CHURN", "state": "RUNNING", "price": 36.535, "tp": 2.7802161970787314, "note": "sustained 2.8x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "LGCL", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.87, "tp": 744.698435131798, "note": "sustained 744.7x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "PICS", "prev_state": "RUNNING", "state": "QUIET", "price": 12.36, "tp": 1.7539550971849993, "note": ""}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "APOG", "prev_state": "FADING", "state": "COOLING", "price": 41.285, "tp": 1.4479573001855224, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "PCVX", "prev_state": "CHURN", "state": "RUNNING", "price": 66.285, "tp": 3.8460807102598644, "note": "sustained 3.8x"}
+{"ts": "2026-10-07T13:55:42.164335-04:00", "demo": 0, "ticker": "AIPO", "prev_state": "RUNNING", "state": "QUIET", "price": 29.22, "tp": 1.7859882742814526, "note": ""}
