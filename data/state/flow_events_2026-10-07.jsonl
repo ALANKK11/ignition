@@ -306,3 +306,22 @@
 {"ts": "2026-10-07T14:52:42.174558-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "CHURN", "price": 16.055, "tp": 2.5844318215923088, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-07T14:52:42.174558-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "COOLING", "state": "IGNITING", "price": 9.95, "tp": 3.5176312957078553, "note": "pace 3.5x and accelerating (6.8x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-10-07T14:52:42.174558-04:00", "demo": 0, "ticker": "APLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.58, "tp": 4.016782712061859, "note": "sustained 4.0x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "EMN", "prev_state": "CHURN", "state": "RUNNING", "price": 63.205, "tp": 8.120170089226413, "note": "sustained 8.1x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "EWK", "prev_state": "RUNNING", "state": "QUIET", "price": 25.39, "tp": 1.6647868860962436, "note": ""}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.07, "tp": 5.265787018646006, "note": "sustained 5.3x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "CZR", "prev_state": "RUNNING", "state": "CHURN", "price": 29.515, "tp": 2.77712207400263, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "AIRR", "prev_state": "RUNNING", "state": "COOLING", "price": 104.22, "tp": 0.19758295166368367, "note": "pace 0.2x off peak 5.6x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "DKI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.7, "tp": 35.4885569100835, "note": "sustained 35.5x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "EMA", "prev_state": "RUNNING", "state": "CHURN", "price": 45.72, "tp": 6.53597999420258, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "COOLING", "state": "CHURN", "price": 33.005, "tp": 18.831823544487573, "note": "18.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "RUNNING", "state": "COOLING", "price": 14.12, "tp": 1.4580558934591479, "note": "pace 1.5x off peak 6.6x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "BIYA", "prev_state": "FADING", "state": "LEAVING", "price": 2.12, "tp": 97.48047275622379, "note": "pace 97.5x off peak 606.7x \u00b7 VWAP lost (was +19.2% above)"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "BKH", "prev_state": "CHURN", "state": "RUNNING", "price": 76.58, "tp": 6.717453700027706, "note": "sustained 6.7x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "FFR", "prev_state": "RUNNING", "state": "LEAVING", "price": 1.755, "tp": 9.163981948873644, "note": "pace 9.2x off peak 23.7x \u00b7 VWAP lost (was +8.8% above)"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "AMDG", "prev_state": "QUIET", "state": "RUNNING", "price": 148.12, "tp": 5.850609320022586, "note": "sustained 5.9x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "BAK", "prev_state": "FADING", "state": "IGNITING", "price": 1.77, "tp": 3.957389691124829, "note": "pace 4.0x and accelerating (8.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "COOLING", "price": 48.74, "tp": 0.7612312415738435, "note": "pace 0.8x off peak 18.5x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "BFLX", "prev_state": "CHURN", "state": "COOLING", "price": 26.025, "tp": 0.7941793012838906, "note": "pace 0.8x off peak 58.9x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "FRSH", "prev_state": "RUNNING", "state": "CHURN", "price": 13.815, "tp": 9.174430793283697, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "GILT", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.21, "tp": 5.341667471395428, "note": "sustained 5.3x"}
+{"ts": "2026-10-07T14:55:42.176563-04:00", "demo": 0, "ticker": "BBD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.395, "tp": 0.660866537958984, "note": "pace 0.7x off peak 7.8x"}
