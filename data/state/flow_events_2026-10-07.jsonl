@@ -103,3 +103,13 @@
 {"ts": "2026-10-07T14:08:27.166241-04:00", "demo": 0, "ticker": "FLTR", "prev_state": "CHURN", "state": "RUNNING", "price": 25.525, "tp": 7.480350267861885, "note": "sustained 7.5x"}
 {"ts": "2026-10-07T14:08:27.166241-04:00", "demo": 0, "ticker": "SEPN", "prev_state": "RUNNING", "state": "COOLING", "price": 36.785, "tp": 1.692507936592007, "note": "pace 1.7x off peak 3.8x"}
 {"ts": "2026-10-07T14:08:27.166241-04:00", "demo": 0, "ticker": "WBTN", "prev_state": "COOLING", "state": "RUNNING", "price": 10.05, "tp": 2.978062887394547, "note": "sustained 3.0x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "WLFC", "prev_state": "QUIET", "state": "RUNNING", "price": 41.05, "tp": 2.776094171870791, "note": "sustained 2.8x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "RUNNING", "state": "CHURN", "price": 19.705, "tp": 20.589458407389586, "note": "20.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "FMS", "prev_state": "QUIET", "state": "RUNNING", "price": 20.755, "tp": 2.463565483024816, "note": "sustained 2.5x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "APOG", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.155, "tp": 2.1167711813613748, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "HTZ", "prev_state": "RUNNING", "state": "FADING", "price": 2.2, "tp": 2.820329564721089, "note": "pace 2.8x vs peak 8.3x \u00b7 -1.3% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "COOLING", "state": "RUNNING", "price": 44.375, "tp": 2.087885739464109, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "DAC", "prev_state": "CHURN", "state": "RUNNING", "price": 165.43, "tp": 2.1076835915424335, "note": "sustained 2.1x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "APAM", "prev_state": "RUNNING", "state": "COOLING", "price": 33.81, "tp": 1.3568632627235224, "note": "pace 1.4x off peak 9.0x"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "BULL", "prev_state": "QUIET", "state": "IGNITING", "price": 5.93, "tp": 2.9682931489920583, "note": "pace 3.0x and accelerating (2.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-07T14:11:27.166404-04:00", "demo": 0, "ticker": "PICS", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.31, "tp": 3.695921303201554, "note": "pace 3.7x and accelerating (2.1x vs prior window) \u00b7 -0.4% in window"}
