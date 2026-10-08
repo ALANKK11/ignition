@@ -52,3 +52,4 @@
 {"ts": "2026-10-08T14:03:32.883232-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "CHURN", "state": "RUNNING", "price": 20.75, "tp": 2.0844959979021724, "note": "sustained 2.1x"}
 {"ts": "2026-10-08T14:03:32.883232-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "CHURN", "state": "RUNNING", "price": 22.26, "tp": 3.1841715337919023, "note": "sustained 3.2x"}
 {"ts": "2026-10-08T14:03:32.883232-04:00", "demo": 0, "ticker": "NOCT", "prev_state": "RUNNING", "state": "COOLING", "price": 64.765, "tp": 0.0, "note": "pace 0.0x off peak 9.3x"}
+{"ts": "2026-10-08T14:05:02.868077-04:00", "demo": 0, "ticker": "WDAY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Workday Named as a Market Shaper in the 2026 Gartner\u00ae Emerging Market Quadrant for AI Agents in Human Resources -- Estab"}
