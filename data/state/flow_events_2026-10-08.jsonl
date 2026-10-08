@@ -364,3 +364,20 @@
 {"ts": "2026-10-08T15:18:32.899283-04:00", "demo": 0, "ticker": "EMA", "prev_state": "COOLING", "state": "RUNNING", "price": 45.725, "tp": 2.3516767299465826, "note": "sustained 2.4x"}
 {"ts": "2026-10-08T15:18:32.899283-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "CHURN", "state": "COOLING", "price": 20.75, "tp": 0.4668288115364869, "note": "pace 0.5x off peak 10.9x"}
 {"ts": "2026-10-08T15:18:32.899283-04:00", "demo": 0, "ticker": "EAGG", "prev_state": "RUNNING", "state": "COOLING", "price": 45.29, "tp": 1.2426165344745272, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "CRGY", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.09, "tp": 3.6102856806873, "note": "pace 3.6x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "APAM", "prev_state": "CHURN", "state": "RUNNING", "price": 33.65, "tp": 1.9564964359612738, "note": "sustained 2.0x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "BMO", "prev_state": "COOLING", "state": "RUNNING", "price": 161.14, "tp": 1.8628485283747118, "note": "sustained 1.9x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "ELVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.835, "tp": 5.15923359691652, "note": "sustained 5.2x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "NAK", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 1.145, "tp": 2.7306743198303844, "note": "quiet open (1.1x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "COOLING", "state": "RUNNING", "price": 2.21, "tp": 2.754074066467179, "note": "sustained 2.8x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "FADING", "state": "RUNNING", "price": 46.365, "tp": 3.73259920562537, "note": "sustained 3.7x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "LEAVING", "state": "FADING", "price": 5.17, "tp": 4.912554999439328, "note": "pace 4.9x vs peak 21.0x \u00b7 -3.5% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "CAM", "prev_state": "RUNNING", "state": "FADING", "price": 24.025, "tp": 32.321616495799496, "note": "pace 32.3x vs peak 151.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "PRG", "prev_state": "FADING", "state": "RUNNING", "price": 30.545, "tp": 6.816069230923183, "note": "sustained 6.8x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "SIDU", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.56, "tp": 5.841913245987786, "note": "pace 5.8x and accelerating (9.6x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "EVN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.12, "tp": 0.7327218507322412, "note": "pace 0.7x off peak 19.4x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "CHPY", "prev_state": "RUNNING", "state": "COOLING", "price": 67.855, "tp": 1.7954110193441586, "note": "pace 1.8x off peak 5.5x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "LOB", "prev_state": "QUIET", "state": "RUNNING", "price": 34.425, "tp": 2.4882716612842803, "note": "sustained 2.5x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.96, "tp": 3.804826962907335, "note": "sustained 3.8x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "CBRG", "prev_state": "IGNITING", "state": "COOLING", "price": 2.33, "tp": 1.309214265754702, "note": "pace 1.3x off peak 5.6x"}
+{"ts": "2026-10-08T15:22:17.899933-04:00", "demo": 0, "ticker": "DKI", "prev_state": "RUNNING", "state": "COOLING", "price": 0.7294, "tp": 0.0, "note": "pace 0.0x off peak 10.3x"}
