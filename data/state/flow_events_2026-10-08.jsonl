@@ -538,3 +538,7 @@
 {"ts": "2026-10-08T15:59:47.907686-04:00", "demo": 0, "ticker": "CLDX", "prev_state": "COOLING", "state": "RUNNING", "price": 29.26, "tp": 2.3915854029154833, "note": "sustained 2.4x"}
 {"ts": "2026-10-08T15:59:47.907686-04:00", "demo": 0, "ticker": "PRME", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.605, "tp": 4.520852162171936, "note": "sustained 4.5x"}
 {"ts": "2026-10-08T15:59:47.907686-04:00", "demo": 0, "ticker": "RSPH", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 36.97, "tp": 10.519548112957738, "note": "quiet open (0.8x) \u2192 now 10.5x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-10-08T16:11:02.894876-04:00", "demo": 0, "ticker": "AIOT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leading Glassmaker Encirc Selects Powerfleet's Unity Portfolio to Optimize On-site Safety Across its UK Manufacturing En"}
+{"ts": "2026-10-08T16:11:02.894876-04:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Brad Nielsen Named Future President of Pennsylvania American Water"}
+{"ts": "2026-10-08T16:11:02.894876-04:00", "demo": 0, "ticker": "WTRG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Brad Nielsen Named Future President of Pennsylvania American Water"}
+{"ts": "2026-10-08T16:11:02.894876-04:00", "demo": 0, "ticker": "HIT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Health In Tech Launches HitRix, a Broker-First Environment for Self-Funded Stop-Loss Placement"}
