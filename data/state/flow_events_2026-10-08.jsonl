@@ -6,3 +6,14 @@
 {"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "APAM", "prev_state": "QUIET", "state": "RUNNING", "price": 33.8, "tp": 1.9868807731732894, "note": "sustained 2.0x"}
 {"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "CSV", "prev_state": "RUNNING", "state": "FADING", "price": 33.94, "tp": 0.0, "note": "pace 0.0x vs peak 19.2x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "QUIET", "state": "RUNNING", "price": 11.01, "tp": 2.6211780969151506, "note": "sustained 2.6x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "UTRE", "prev_state": "RUNNING", "state": "FADING", "price": 48.18, "tp": 0.0, "note": "pace 0.0x vs peak 238.3x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "RGP", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.97, "tp": 3.009090940646269, "note": "pace 3.0x and accelerating (2.0x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "SDEV", "prev_state": "RUNNING", "state": "COOLING", "price": 1.965, "tp": 1.0495612633452844, "note": "pace 1.0x off peak 2.4x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "QDTE", "prev_state": "RUNNING", "state": "COOLING", "price": 29.28, "tp": 0.0, "note": "pace 0.0x off peak 2.6x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "COOLING", "state": "RUNNING", "price": 22.27, "tp": 2.7929677844494756, "note": "sustained 2.8x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "ONCO", "prev_state": "RUNNING", "state": "FADING", "price": 0.727, "tp": 0.6731595183884796, "note": "pace 0.7x vs peak 3.1x \u00b7 -14.5% off HOD \u00b7 chart still +20% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "CRBU", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.485, "tp": 11.94367245484214, "note": "sustained 11.9x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "SXTC", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.3384, "tp": 2.8795920718849324, "note": "sustained 2.9x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.57, "tp": 4.692071674386623, "note": "sustained 4.7x"}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "APAM", "prev_state": "RUNNING", "state": "QUIET", "price": 33.79, "tp": 1.6044587362113356, "note": ""}
+{"ts": "2026-10-08T13:52:17.879887-04:00", "demo": 0, "ticker": "EMA", "prev_state": "CHURN", "state": "RUNNING", "price": 46.03, "tp": 5.309558227395226, "note": "sustained 5.3x"}
