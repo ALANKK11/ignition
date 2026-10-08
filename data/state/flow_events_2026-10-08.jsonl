@@ -1,0 +1,8 @@
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "EQPT", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.59, "tp": 16.2786592332882, "note": "sustained 16.3x"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "EMA", "prev_state": "RUNNING", "state": "CHURN", "price": 46.045, "tp": 7.228545461936029, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "UWMC", "prev_state": "RUNNING", "state": "QUIET", "price": 1.095, "tp": 1.5991250004060875, "note": ""}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "PCRX", "prev_state": "CHURN", "state": "RUNNING", "price": 36.295, "tp": 29.501193694659307, "note": "sustained 29.5x"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "FTQI", "prev_state": "RUNNING", "state": "COOLING", "price": 22.26, "tp": 0.1708724988510324, "note": "pace 0.2x off peak 3.9x"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "APAM", "prev_state": "QUIET", "state": "RUNNING", "price": 33.8, "tp": 1.9868807731732894, "note": "sustained 2.0x"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "CSV", "prev_state": "RUNNING", "state": "FADING", "price": 33.94, "tp": 0.0, "note": "pace 0.0x vs peak 19.2x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-08T13:48:32.879108-04:00", "demo": 0, "ticker": "AEBI", "prev_state": "QUIET", "state": "RUNNING", "price": 11.01, "tp": 2.6211780969151506, "note": "sustained 2.6x"}
