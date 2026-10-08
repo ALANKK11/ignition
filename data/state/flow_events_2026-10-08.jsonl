@@ -544,3 +544,4 @@
 {"ts": "2026-10-08T16:11:02.894876-04:00", "demo": 0, "ticker": "HIT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Health In Tech Launches HitRix, a Broker-First Environment for Self-Funded Stop-Loss Placement"}
 {"ts": "2026-10-08T16:17:02.896079-04:00", "demo": 0, "ticker": "SVRN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SVRN Acquires FastNEAR, Expanding Its Role Operating Essential NEAR Infrastructure"}
 {"ts": "2026-10-08T16:35:02.899913-04:00", "demo": 0, "ticker": "ARGX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "argenx Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into argenx (ARGX)"}
+{"ts": "2026-10-08T16:55:17.918670-04:00", "demo": 0, "ticker": "XRTX", "prev_state": null, "state": "AH IGNITION", "price": 2.26, "tp": null, "note": "+32% on $0.10M ext tape"}
