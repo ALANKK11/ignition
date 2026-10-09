@@ -342,3 +342,12 @@
 {"ts": "2026-10-09T15:07:52.457518-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "IGNITING", "price": 9.96, "tp": 3.134181397393326, "note": "pace 3.1x and accelerating (8.4x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-10-09T15:07:52.457518-04:00", "demo": 0, "ticker": "DXC", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.535, "tp": 3.7549890952872746, "note": "sustained 3.8x"}
 {"ts": "2026-10-09T15:07:52.457518-04:00", "demo": 0, "ticker": "FTRB", "prev_state": "CHURN", "state": "FADING", "price": 24.025, "tp": 13.933152423730945, "note": "pace 13.9x vs peak 48.7x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "CD", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.74, "tp": 2.35141203443463, "note": "sustained 2.4x"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "EVIM", "prev_state": "RUNNING", "state": "FADING", "price": 50.41, "tp": 5.9580098736354214, "note": "pace 6.0x vs peak 17.1x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.04, "tp": 86.14862460049245, "note": "sustained 86.1x"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "NTLA", "prev_state": "RUNNING", "state": "COOLING", "price": 13.115, "tp": 1.765398174648722, "note": "pace 1.8x off peak 3.5x"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.79, "tp": 6.794903695006506, "note": "sustained 6.8x"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "CGMS", "prev_state": "FADING", "state": "RUNNING", "price": 26.365, "tp": 16.830234702533733, "note": "sustained 16.8x"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "EIX", "prev_state": "RUNNING", "state": "CHURN", "price": 55.135, "tp": 5.182348692807091, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "BHR", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.18, "tp": 4.951768422951486, "note": "pace 5.0x and accelerating (99.0x vs prior window) \u00b7 -2.9% in window"}
+{"ts": "2026-10-09T15:11:37.457940-04:00", "demo": 0, "ticker": "BAK", "prev_state": "RUNNING", "state": "COOLING", "price": 1.81, "tp": 1.5637520686753654, "note": "pace 1.6x off peak 3.4x"}
