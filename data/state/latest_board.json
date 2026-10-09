@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-10-09T16:31:52-04:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-10-09T16:35:37-04:00", "session": "post", "rows": [{"headline": null, "pr_ts": null, "catalyst": false, "flags": null, "ticker": "YMAT", "move": 0.5027, "last": 1.93, "dollars": 92524.04999999999, "vs_adv": 5.9, "off_hi": -0.081, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": true, "pin": false, "heat": 0.4, "swings": 0, "path": 0.379, "first_seen": "16:35", "new": true}]}
