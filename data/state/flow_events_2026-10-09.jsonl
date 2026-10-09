@@ -66,3 +66,12 @@
 {"ts": "2026-10-09T13:45:22.437603-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "RUNNING", "state": "COOLING", "price": 15.585, "tp": 1.4782113882695695, "note": "pace 1.5x off peak 3.1x"}
 {"ts": "2026-10-09T13:45:22.437603-04:00", "demo": 0, "ticker": "MRNX", "prev_state": "CHURN", "state": "FADING", "price": 176.815, "tp": 1.2490146396265311, "note": "pace 1.2x vs peak 5.3x \u00b7 -0.1% off HOD \u00b7 chart still +25% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T13:45:22.437603-04:00", "demo": 0, "ticker": "DXC", "prev_state": "COOLING", "state": "RUNNING", "price": 12.365, "tp": 2.4512431628388622, "note": "sustained 2.5x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "CMCL", "prev_state": "QUIET", "state": "RUNNING", "price": 24.18, "tp": 2.7252442838229864, "note": "sustained 2.7x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "AMT", "prev_state": "RUNNING", "state": "CHURN", "price": 179.27, "tp": 3.7321015329518934, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "QUIET", "state": "RUNNING", "price": 68.74, "tp": 12.752110722902923, "note": "sustained 12.8x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "ASTS", "prev_state": "QUIET", "state": "RUNNING", "price": 48.52, "tp": 1.9517584265518813, "note": "sustained 2.0x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "RUNNING", "state": "FADING", "price": 11.745, "tp": 1.6600550654944939, "note": "pace 1.7x vs peak 5.8x \u00b7 -1.8% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "FJP", "prev_state": "RUNNING", "state": "COOLING", "price": 78.61, "tp": 0.0, "note": "pace 0.0x off peak 576.2x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "HELE", "prev_state": "QUIET", "state": "COOLING", "price": 26.49, "tp": 1.050538263230612, "note": "pace 1.1x off peak 1.8x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "CABO", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.35, "tp": 15.749193626988369, "note": "sustained 15.7x"}
+{"ts": "2026-10-09T13:49:07.438968-04:00", "demo": 0, "ticker": "INDI", "prev_state": "QUIET", "state": "RUNNING", "price": 2.545, "tp": 1.9306068250615307, "note": "sustained 1.9x"}
