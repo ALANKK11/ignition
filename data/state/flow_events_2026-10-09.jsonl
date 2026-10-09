@@ -436,3 +436,8 @@
 {"ts": "2026-10-09T15:34:07.463433-04:00", "demo": 0, "ticker": "DEM", "prev_state": "RUNNING", "state": "FADING", "price": 55.38, "tp": 7.227755008639855, "note": "pace 7.2x vs peak 29.7x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T15:34:07.463433-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.655, "tp": 4.458609481904428, "note": "sustained 4.5x"}
 {"ts": "2026-10-09T15:34:07.463433-04:00", "demo": 0, "ticker": "UPB", "prev_state": "CHURN", "state": "RUNNING", "price": 4.74, "tp": 3.5458953837338996, "note": "sustained 3.5x"}
+{"ts": "2026-10-09T15:37:52.464190-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.02, "tp": 2.631706174853353, "note": "sustained 2.6x"}
+{"ts": "2026-10-09T15:37:52.464190-04:00", "demo": 0, "ticker": "ASTS", "prev_state": "RUNNING", "state": "IGNITING", "price": 50.415, "tp": 3.1783270997679325, "note": "pace 3.2x and accelerating (1.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-09T15:37:52.464190-04:00", "demo": 0, "ticker": "BOW", "prev_state": "RUNNING", "state": "CHURN", "price": 34.095, "tp": 2.998710209033599, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T15:37:52.464190-04:00", "demo": 0, "ticker": "DFAT", "prev_state": "COOLING", "state": "RUNNING", "price": 67.405, "tp": 2.3674807382555336, "note": "sustained 2.4x"}
+{"ts": "2026-10-09T15:37:52.464190-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.765, "tp": 3.8902892729933036, "note": "pace 3.9x and accelerating (3.2x vs prior window) \u00b7 +0.8% in window"}
