@@ -100,3 +100,12 @@
 {"ts": "2026-10-09T13:56:37.440027-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.11, "tp": 4.092969834489931, "note": "sustained 4.1x"}
 {"ts": "2026-10-09T13:56:37.440027-04:00", "demo": 0, "ticker": "UPB", "prev_state": "CHURN", "state": "COOLING", "price": 4.58, "tp": 1.1611890447750604, "note": "pace 1.2x off peak 3.1x"}
 {"ts": "2026-10-09T13:56:37.440027-04:00", "demo": 0, "ticker": "EMAT", "prev_state": "RUNNING", "state": "QUIET", "price": 1.775, "tp": 1.7717669946596268, "note": ""}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "EMAT", "prev_state": "QUIET", "state": "RUNNING", "price": 1.79, "tp": 1.9744365472699716, "note": "sustained 2.0x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "INDI", "prev_state": "QUIET", "state": "COOLING", "price": 2.565, "tp": 1.1634499496678221, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "AVO", "prev_state": "RUNNING", "state": "COOLING", "price": 11.615, "tp": 1.0389824409119026, "note": "pace 1.0x off peak 3.8x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "CHURN", "state": "RUNNING", "price": 38.31, "tp": 4.553853123518244, "note": "sustained 4.6x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "FJP", "prev_state": "COOLING", "state": "CHURN", "price": 78.615, "tp": 371.16108463773696, "note": "371.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "GGLS", "prev_state": "COOLING", "state": "RUNNING", "price": 56.82, "tp": 4.812948598417231, "note": "sustained 4.8x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.41, "tp": 4.280234281242852, "note": "sustained 4.3x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "AXSM", "prev_state": "QUIET", "state": "RUNNING", "price": 169.28, "tp": 6.013605741569838, "note": "sustained 6.0x"}
+{"ts": "2026-10-09T14:00:22.441030-04:00", "demo": 0, "ticker": "UPB", "prev_state": "COOLING", "state": "FADING", "price": 4.58, "tp": 1.0449689275178802, "note": "pace 1.0x vs peak 3.1x \u00b7 -1.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
