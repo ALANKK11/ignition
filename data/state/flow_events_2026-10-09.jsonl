@@ -501,3 +501,4 @@
 {"ts": "2026-10-09T15:56:37.467970-04:00", "demo": 0, "ticker": "UPB", "prev_state": "RUNNING", "state": "FADING", "price": 4.685, "tp": 2.1285604425441225, "note": "pace 2.1x vs peak 7.1x \u00b7 -1.6% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T16:10:07.470572-04:00", "demo": 0, "ticker": "WFF", "prev_state": null, "state": "AH IGNITION", "price": 14.08, "tp": null, "note": "+13% on $0.06M ext tape"}
 {"ts": "2026-10-09T16:35:37.476613-04:00", "demo": 0, "ticker": "YMAT", "prev_state": null, "state": "AH IGNITION", "price": 1.93, "tp": null, "note": "+50% on $0.09M ext tape"}
+{"ts": "2026-10-09T16:54:22.466176-04:00", "demo": 0, "ticker": "XRPN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Evernorth Completes Business Combination with Armada Acquisition Corp. II"}
