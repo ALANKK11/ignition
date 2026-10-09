@@ -41,3 +41,10 @@
 {"ts": "2026-10-09T13:34:07.434580-04:00", "demo": 0, "ticker": "SXTC", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.1384, "tp": 8.062901102626306, "note": "sustained 8.1x"}
 {"ts": "2026-10-09T13:34:07.434580-04:00", "demo": 0, "ticker": "HYLS", "prev_state": "RUNNING", "state": "FADING", "price": 39.54, "tp": 0.0, "note": "pace 0.0x vs peak 24.3x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T13:34:07.434580-04:00", "demo": 0, "ticker": "MRNX", "prev_state": "IGNITING", "state": "FADING", "price": 175.625, "tp": 1.2590572283739256, "note": "pace 1.3x vs peak 5.3x \u00b7 -0.8% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "QUIET", "state": "RUNNING", "price": 6.09, "tp": 2.4098510066550145, "note": "sustained 2.4x"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "SMJF", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.55, "tp": 3.014151968937392, "note": "sustained 3.0x"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "SYSB", "prev_state": "RUNNING", "state": "FADING", "price": 84.26, "tp": 5.957395914175911, "note": "pace 6.0x vs peak 460.7x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "GOVZ", "prev_state": "NEW MONEY", "state": "COOLING", "price": 30.97, "tp": 1.473236708826304, "note": "pace 1.5x off peak 3.6x"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "HELE", "prev_state": "COOLING", "state": "QUIET", "price": 26.54, "tp": 1.3709138066385251, "note": ""}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.76, "tp": 5.627985360170879, "note": "sustained 5.6x"}
+{"ts": "2026-10-09T13:37:52.436095-04:00", "demo": 0, "ticker": "HMOP", "prev_state": "QUIET", "state": "CHURN", "price": 36.99, "tp": 10.306426581990065, "note": "10.3x participation, no progress at highs \u2014 absorption"}
