@@ -416,3 +416,12 @@
 {"ts": "2026-10-09T15:26:37.461955-04:00", "demo": 0, "ticker": "DEM", "prev_state": "CHURN", "state": "RUNNING", "price": 55.4, "tp": 18.30459557683271, "note": "sustained 18.3x"}
 {"ts": "2026-10-09T15:26:37.461955-04:00", "demo": 0, "ticker": "DXC", "prev_state": "CHURN", "state": "RUNNING", "price": 12.525, "tp": 4.090082683957071, "note": "sustained 4.1x"}
 {"ts": "2026-10-09T15:26:37.461955-04:00", "demo": 0, "ticker": "INDI", "prev_state": "RUNNING", "state": "COOLING", "price": 2.59, "tp": 0.3613842362479354, "note": "pace 0.4x off peak 2.5x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "ENTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.68, "tp": 19.390290780676622, "note": "pace 19.4x and accelerating (4.3x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 17.01, "tp": 3.635386318505073, "note": "sustained 3.6x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "AIV", "prev_state": "CHURN", "state": "RUNNING", "price": 1.775, "tp": 2.0960594089615396, "note": "sustained 2.1x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "AXSM", "prev_state": "IGNITING", "state": "RUNNING", "price": 168.04, "tp": 2.889792092643028, "note": "sustained 2.9x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "AMT", "prev_state": "CHURN", "state": "IGNITING", "price": 181.335, "tp": 3.506512539123463, "note": "pace 3.5x and accelerating (1.8x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "BKD", "prev_state": "CHURN", "state": "RUNNING", "price": 10.27, "tp": 1.8152414778030086, "note": "sustained 1.8x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "ATII", "prev_state": "COOLING", "state": "CHURN", "price": 10.69, "tp": 5.692574366062114, "note": "5.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "BHR", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.195, "tp": 3.315521555842063, "note": "sustained 3.3x"}
+{"ts": "2026-10-09T15:30:22.462568-04:00", "demo": 0, "ticker": "UPB", "prev_state": "RUNNING", "state": "CHURN", "price": 4.74, "tp": 3.365914285931886, "note": "3.4x participation, no progress at highs \u2014 absorption"}
