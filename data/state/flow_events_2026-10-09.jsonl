@@ -123,3 +123,12 @@
 {"ts": "2026-10-09T14:04:07.442156-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "RUNNING", "state": "CHURN", "price": 15.57, "tp": 2.620756787563346, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-09T14:04:07.442156-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "RUNNING", "state": "COOLING", "price": 6.15, "tp": 1.7348308220888753, "note": "pace 1.7x off peak 4.1x"}
 {"ts": "2026-10-09T14:04:07.442156-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "RUNNING", "state": "COOLING", "price": 4.37, "tp": 0.6170510919589648, "note": "pace 0.6x off peak 34.7x"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.33, "tp": 3.6269676327895146, "note": "sustained 3.6x"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "ARES", "prev_state": "CHURN", "state": "RUNNING", "price": 117.84, "tp": 8.494062236227444, "note": "sustained 8.5x"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "CCI", "prev_state": "RUNNING", "state": "FADING", "price": 77.815, "tp": 3.137786362930493, "note": "pace 3.1x vs peak 9.2x \u00b7 -1.8% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "CMCL", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.03, "tp": 32.2372897995255, "note": "pace 32.2x and accelerating (10.9x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "ASTS", "prev_state": "QUIET", "state": "RUNNING", "price": 49.375, "tp": 1.812383185650274, "note": "sustained 1.8x"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "FADING", "state": "IGNITING", "price": 11.695, "tp": 3.140547538146269, "note": "pace 3.1x and accelerating (2.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.96, "tp": 5.19754865254205, "note": "sustained 5.2x"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "BORR", "prev_state": "IGNITING", "state": "FADING", "price": 4.78, "tp": 2.172175410883437, "note": "pace 2.2x vs peak 12.7x \u00b7 +0.0% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T14:07:52.442823-04:00", "demo": 0, "ticker": "FEAM", "prev_state": "CHURN", "state": "RUNNING", "price": 3.9, "tp": 3.784953746900107, "note": "sustained 3.8x"}
