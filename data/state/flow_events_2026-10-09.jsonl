@@ -163,3 +163,11 @@
 {"ts": "2026-10-09T14:15:22.444695-04:00", "demo": 0, "ticker": "FTRB", "prev_state": "CHURN", "state": "FADING", "price": 24.025, "tp": 1.3543262381230183, "note": "pace 1.4x vs peak 33.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T14:15:22.444695-04:00", "demo": 0, "ticker": "FTXH", "prev_state": "FADING", "state": "RUNNING", "price": 41.28, "tp": 8.608219231222119, "note": "sustained 8.6x"}
 {"ts": "2026-10-09T14:15:22.444695-04:00", "demo": 0, "ticker": "FJP", "prev_state": "RUNNING", "state": "COOLING", "price": 78.615, "tp": 0.0, "note": "pace 0.0x off peak 576.2x"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "AIV", "prev_state": "RUNNING", "state": "CHURN", "price": 1.775, "tp": 6.819195648439827, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "RUNNING", "state": "CHURN", "price": 38.025, "tp": 4.478321131174632, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "BHRB", "prev_state": "CHURN", "state": "COOLING", "price": 68.705, "tp": 1.0931268991580316, "note": "pace 1.1x off peak 17.0x"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "AIXI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 2.065, "tp": 2.4957666267732734, "note": "quiet open (0.5x) \u2192 now 2.5x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "CMCL", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.9, "tp": 39.948123489380954, "note": "sustained 39.9x"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.8, "tp": 8.44350670444149, "note": "pace 8.4x and accelerating (4.0x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.01, "tp": 1.1482182747822152, "note": "pace 1.1x off peak 10.2x"}
+{"ts": "2026-10-09T14:19:07.445329-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "COOLING", "state": "RUNNING", "price": 4.365, "tp": 4.178253898593073, "note": "sustained 4.2x"}
