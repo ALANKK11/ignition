@@ -184,3 +184,14 @@
 {"ts": "2026-10-09T14:22:52.446895-04:00", "demo": 0, "ticker": "FJP", "prev_state": "COOLING", "state": "FADING", "price": 80.565, "tp": 89.1818646182251, "note": "pace 89.2x vs peak 576.2x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T14:22:52.446895-04:00", "demo": 0, "ticker": "FMDE", "prev_state": "FADING", "state": "RUNNING", "price": 41.565, "tp": 6.77257350846224, "note": "sustained 6.8x"}
 {"ts": "2026-10-09T14:22:52.446895-04:00", "demo": 0, "ticker": "SWIM", "prev_state": "FADING", "state": "RUNNING", "price": 6.135, "tp": 2.486394978142465, "note": "sustained 2.5x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "ELV", "prev_state": "RUNNING", "state": "CHURN", "price": 416.68, "tp": 4.203835623093402, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "CABO", "prev_state": "LEAVING", "state": "IGNITING", "price": 11.345, "tp": 7.484490498757372, "note": "pace 7.5x and accelerating (3.3x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "BILZ", "prev_state": "CHURN", "state": "FADING", "price": 100.74, "tp": 0.0, "note": "pace 0.0x vs peak 40.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "BOW", "prev_state": "QUIET", "state": "CHURN", "price": 34.095, "tp": 2.262190466842297, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "CUE", "prev_state": "RUNNING", "state": "COOLING", "price": 27.82, "tp": 1.7856536909883012, "note": "pace 1.8x off peak 2.6x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "DRS", "prev_state": "CHURN", "state": "RUNNING", "price": 36.485, "tp": 8.695255141401072, "note": "sustained 8.7x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.89, "tp": 5.734366019998411, "note": "sustained 5.7x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "AAOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 9.86, "tp": 2.238858412929499, "note": "sustained 2.2x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "CCI", "prev_state": "FADING", "state": "CHURN", "price": 77.81, "tp": 4.225304503555302, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "EWM", "prev_state": "FADING", "state": "RUNNING", "price": 26.595, "tp": 10.41734569588549, "note": "sustained 10.4x"}
+{"ts": "2026-10-09T14:26:37.447498-04:00", "demo": 0, "ticker": "INDI", "prev_state": "COOLING", "state": "RUNNING", "price": 2.555, "tp": 2.4740610908185796, "note": "sustained 2.5x"}
