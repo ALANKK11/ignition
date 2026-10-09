@@ -1,0 +1,12 @@
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "NXH", "prev_state": "QUIET", "state": "RUNNING", "price": 1.67, "tp": 2.495404689769126, "note": "sustained 2.5x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "AVO", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.58, "tp": 3.449016539232738, "note": "sustained 3.4x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "DXC", "prev_state": "RUNNING", "state": "QUIET", "price": 12.35, "tp": 1.7543713697227057, "note": ""}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "CABO", "prev_state": "QUIET", "state": "RUNNING", "price": 10.22, "tp": 3.304783771817742, "note": "sustained 3.3x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "RUNNING", "state": "CHURN", "price": 15.59, "tp": 3.1484118239556933, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "VEEA", "prev_state": "QUIET", "state": "RUNNING", "price": 5.74, "tp": 1.8938754064041263, "note": "sustained 1.9x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "HELE", "prev_state": "QUIET", "state": "RUNNING", "price": 26.9, "tp": 1.8249488406841359, "note": "sustained 1.8x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "SMJF", "prev_state": "QUIET", "state": "RUNNING", "price": 1.56, "tp": 3.069117779984039, "note": "sustained 3.1x"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "GOVZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 31.015, "tp": 2.2227855864733326, "note": "quiet open (0.9x) \u2192 now 2.2x \u00b7 taking +0.9% flow share"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "QSI", "prev_state": "QUIET", "state": "IGNITING", "price": 1.62, "tp": 4.047399900343875, "note": "pace 4.0x and accelerating (3.5x vs prior window) \u00b7 +1.9% in window"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "WFF", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.14, "tp": 523.3306995874225, "note": "pace 523.3x and accelerating (2.0x vs prior window) \u00b7 +14.6% in window"}
+{"ts": "2026-10-09T13:22:52.432188-04:00", "demo": 0, "ticker": "BBDC", "prev_state": "QUIET", "state": "RUNNING", "price": 8.53, "tp": 3.0258309994740578, "note": "sustained 3.0x"}
