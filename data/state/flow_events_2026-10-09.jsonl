@@ -456,3 +456,11 @@
 {"ts": "2026-10-09T15:41:37.465468-04:00", "demo": 0, "ticker": "BOW", "prev_state": "CHURN", "state": "RUNNING", "price": 34.085, "tp": 2.1419732080121636, "note": "sustained 2.1x"}
 {"ts": "2026-10-09T15:41:37.465468-04:00", "demo": 0, "ticker": "AXSM", "prev_state": "RUNNING", "state": "COOLING", "price": 168.3, "tp": 1.2560628207855038, "note": "pace 1.3x off peak 6.0x"}
 {"ts": "2026-10-09T15:41:37.465468-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "RUNNING", "state": "COOLING", "price": 7.31, "tp": 1.476286587740136, "note": "pace 1.5x off peak 5.5x"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "NTLA", "prev_state": "RUNNING", "state": "CHURN", "price": 13.2, "tp": 2.309842214467728, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "AMBP", "prev_state": "COOLING", "state": "IGNITING", "price": 4.365, "tp": 3.2169029370936806, "note": "pace 3.2x and accelerating (9.1x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "CURE", "prev_state": "RUNNING", "state": "FADING", "price": 133.88, "tp": 0.0, "note": "pace 0.0x vs peak 11.1x \u00b7 -0.1% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "EUAD", "prev_state": "FADING", "state": "RUNNING", "price": 40.08, "tp": 2.9567651034536753, "note": "sustained 3.0x"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "DFAT", "prev_state": "RUNNING", "state": "COOLING", "price": 67.405, "tp": 1.3183314893701215, "note": "pace 1.3x off peak 5.2x"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "DXC", "prev_state": "RUNNING", "state": "CHURN", "price": 12.46, "tp": 2.356354743047032, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "COOLING", "state": "RUNNING", "price": 7.365, "tp": 2.9588049279042514, "note": "sustained 3.0x"}
+{"ts": "2026-10-09T15:45:22.465513-04:00", "demo": 0, "ticker": "BOW", "prev_state": "RUNNING", "state": "COOLING", "price": 34.08, "tp": 1.7353768484599876, "note": "pace 1.7x off peak 3.0x"}
