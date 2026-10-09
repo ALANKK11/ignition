@@ -258,3 +258,16 @@
 {"ts": "2026-10-09T14:45:22.451801-04:00", "demo": 0, "ticker": "DRS", "prev_state": "CHURN", "state": "RUNNING", "price": 36.285, "tp": 6.745715321473522, "note": "sustained 6.7x"}
 {"ts": "2026-10-09T14:45:22.451801-04:00", "demo": 0, "ticker": "FMDE", "prev_state": "RUNNING", "state": "FADING", "price": 41.555, "tp": 3.1001035116559854, "note": "pace 3.1x vs peak 8.9x \u00b7 -0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T14:45:22.451801-04:00", "demo": 0, "ticker": "ENTX", "prev_state": "RUNNING", "state": "CHURN", "price": 2.72, "tp": 5.559855884255648, "note": "5.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "AIV", "prev_state": "CHURN", "state": "RUNNING", "price": 1.775, "tp": 3.0198327288944062, "note": "sustained 3.0x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "AXSM", "prev_state": "COOLING", "state": "RUNNING", "price": 169.01, "tp": 2.929581347894311, "note": "sustained 2.9x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "FTRB", "prev_state": "FADING", "state": "RUNNING", "price": 24.02, "tp": 22.448709952363032, "note": "sustained 22.4x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "FMUB", "prev_state": "CHURN", "state": "FADING", "price": 48.445, "tp": 13.271984697035919, "note": "pace 13.3x vs peak 51.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "FTXH", "prev_state": "RUNNING", "state": "FADING", "price": 41.29, "tp": 3.8049604551387435, "note": "pace 3.8x vs peak 11.8x \u00b7 -0.2% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "IGNITING", "state": "COOLING", "price": 8.06, "tp": 1.3183522261857488, "note": "pace 1.3x off peak 6.6x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "FADING", "state": "RUNNING", "price": 11.72, "tp": 5.5393275738650205, "note": "sustained 5.5x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "AMT", "prev_state": "CHURN", "state": "RUNNING", "price": 179.87, "tp": 3.7535532537814746, "note": "sustained 3.8x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "RUNNING", "state": "COOLING", "price": 19.825, "tp": 1.7555221863714217, "note": "pace 1.8x off peak 3.7x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "HELE", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.895, "tp": 2.021705074858716, "note": "sustained 2.0x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "CGMS", "prev_state": "FADING", "state": "RUNNING", "price": 26.375, "tp": 20.649587655112636, "note": "sustained 20.6x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "ENTX", "prev_state": "CHURN", "state": "RUNNING", "price": 2.715, "tp": 5.019103703393823, "note": "sustained 5.0x"}
+{"ts": "2026-10-09T14:49:07.452992-04:00", "demo": 0, "ticker": "NTLA", "prev_state": "COOLING", "state": "RUNNING", "price": 13.17, "tp": 2.0452692879999907, "note": "sustained 2.0x"}
