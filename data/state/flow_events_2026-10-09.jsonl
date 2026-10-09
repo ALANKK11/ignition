@@ -239,3 +239,11 @@
 {"ts": "2026-10-09T14:37:52.450303-04:00", "demo": 0, "ticker": "CCI", "prev_state": "RUNNING", "state": "FADING", "price": 77.585, "tp": 2.771317009855974, "note": "pace 2.8x vs peak 9.2x \u00b7 -2.1% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-09T14:37:52.450303-04:00", "demo": 0, "ticker": "FTXH", "prev_state": "FADING", "state": "RUNNING", "price": 41.29, "tp": 7.407952405978665, "note": "sustained 7.4x"}
 {"ts": "2026-10-09T14:37:52.450303-04:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.45, "tp": 6.871428041059481, "note": "sustained 6.9x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "DRS", "prev_state": "RUNNING", "state": "CHURN", "price": 36.39, "tp": 7.8706109146778624, "note": "7.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "CRGY", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.825, "tp": 4.10618315560904, "note": "sustained 4.1x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "BHR", "prev_state": "RUNNING", "state": "COOLING", "price": 1.215, "tp": 0.7548283659820756, "note": "pace 0.8x off peak 16.8x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "ECHO", "prev_state": "COOLING", "state": "RUNNING", "price": 94.265, "tp": 2.091059691140299, "note": "sustained 2.1x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "AIV", "prev_state": "CHURN", "state": "RUNNING", "price": 1.77, "tp": 6.7437261460556615, "note": "sustained 6.7x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "AMT", "prev_state": "RUNNING", "state": "CHURN", "price": 179.39, "tp": 6.977512311807499, "note": "7.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "EVIM", "prev_state": "CHURN", "state": "RUNNING", "price": 50.405, "tp": 9.804428928696764, "note": "sustained 9.8x"}
+{"ts": "2026-10-09T14:41:37.451344-04:00", "demo": 0, "ticker": "ANGO", "prev_state": "RUNNING", "state": "CHURN", "price": 11.84, "tp": 4.725597271292631, "note": "4.7x participation, no progress at highs \u2014 absorption"}
