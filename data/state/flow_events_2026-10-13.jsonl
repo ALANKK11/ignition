@@ -352,3 +352,15 @@
 {"ts": "2026-10-13T15:30:43.155848-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "FADING", "state": "CHURN", "price": 84.7, "tp": 4.001444393378557, "note": "4.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-13T15:30:43.155848-04:00", "demo": 0, "ticker": "EWK", "prev_state": "RUNNING", "state": "QUIET", "price": 25.135, "tp": 1.7500186562249889, "note": ""}
 {"ts": "2026-10-13T15:30:43.155848-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.64, "tp": 15.36034904341664, "note": "sustained 15.4x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.76, "tp": 4.185558281054493, "note": "sustained 4.2x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "DUOT", "prev_state": "COOLING", "state": "RUNNING", "price": 6.41, "tp": 2.642252139331505, "note": "sustained 2.6x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "EWS", "prev_state": "CHURN", "state": "RUNNING", "price": 31.56, "tp": 6.787231386197515, "note": "sustained 6.8x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.63, "tp": 14.769496071712956, "note": "pace 14.8x and accelerating (2.8x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "DFUS", "prev_state": "CHURN", "state": "FADING", "price": 84.72, "tp": 3.461494235498357, "note": "pace 3.5x vs peak 11.0x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "CORP", "prev_state": "RUNNING", "state": "CHURN", "price": 91.97, "tp": 49.398843948591434, "note": "49.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "EAGG", "prev_state": "RUNNING", "state": "CHURN", "price": 45.355, "tp": 6.045536640255472, "note": "6.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "FRMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.83, "tp": 2.9534683331239324, "note": "pace 3.0x and accelerating (2.9x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "EWD", "prev_state": "RUNNING", "state": "QUIET", "price": 51.195, "tp": 1.7593862665300735, "note": ""}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "ANL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.705, "tp": 3.199424650339306, "note": "sustained 3.2x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "LWLG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.32, "tp": 3.5848680531653767, "note": "sustained 3.6x"}
+{"ts": "2026-10-13T15:33:43.156356-04:00", "demo": 0, "ticker": "EDN", "prev_state": "RUNNING", "state": "FADING", "price": 20.65, "tp": 0.5676252842192798, "note": "pace 0.6x vs peak 39.4x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
