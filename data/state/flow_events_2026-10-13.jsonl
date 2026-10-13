@@ -39,3 +39,11 @@
 {"ts": "2026-10-13T14:08:58.141246-04:00", "demo": 0, "ticker": "MMED", "prev_state": "QUIET", "state": "RUNNING", "price": 18.78, "tp": 2.013479093571762, "note": "sustained 2.0x"}
 {"ts": "2026-10-13T14:08:58.141246-04:00", "demo": 0, "ticker": "SVC", "prev_state": "RUNNING", "state": "QUIET", "price": 5.865, "tp": 1.6996487661785253, "note": ""}
 {"ts": "2026-10-13T14:08:58.141246-04:00", "demo": 0, "ticker": "FUN", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.055, "tp": 8.52370326551295, "note": "pace 8.5x and accelerating (3.0x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "QUIET", "state": "CHURN", "price": 5.935, "tp": 2.48699467720798, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "TMC", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.76, "tp": 6.329708683148841, "note": "pace 6.3x and accelerating (4.7x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "JYD", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.4, "tp": 752.0357130075214, "note": "pace 752.0x and accelerating (1.6x vs prior window) \u00b7 +6.1% in window"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.92, "tp": 3.6447383360155765, "note": "sustained 3.6x"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "CHURN", "state": "RUNNING", "price": 38.965, "tp": 3.7544212023856955, "note": "sustained 3.8x"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.6, "tp": 4.235757718998466, "note": "sustained 4.2x"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "VTEI", "prev_state": "QUIET", "state": "CHURN", "price": 96.045, "tp": 13.55411646144585, "note": "13.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "SVC", "prev_state": "QUIET", "state": "IGNITING", "price": 5.82, "tp": 3.1303616634476588, "note": "pace 3.1x and accelerating (3.3x vs prior window) \u00b7 +0.4% in window"}
