@@ -218,3 +218,12 @@
 {"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "RUNNING", "price": 11.72, "tp": 7.4261851367549, "note": "sustained 7.4x"}
 {"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "BUFZ", "prev_state": "RUNNING", "state": "QUIET", "price": 28.8, "tp": 1.7865371112912491, "note": ""}
 {"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "SVC", "prev_state": "COOLING", "state": "RUNNING", "price": 5.82, "tp": 1.8748390544875455, "note": "sustained 1.9x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "GLIBK", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.32, "tp": 3.936870305284124, "note": "sustained 3.9x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.19, "tp": 9.050644511025501, "note": "pace 9.1x and accelerating (1.9x vs prior window) \u00b7 +3.7% in window"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "FRMI", "prev_state": "COOLING", "state": "FADING", "price": 3.95, "tp": 0.8083385872828454, "note": "pace 0.8x vs peak 3.1x \u00b7 -2.8% off HOD \u00b7 chart still +22% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "COOLING", "state": "RUNNING", "price": 39.02, "tp": 1.8580161940363373, "note": "sustained 1.9x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "EWS", "prev_state": "RUNNING", "state": "CHURN", "price": 31.54, "tp": 6.539271931762018, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.86, "tp": 4.131879593310214, "note": "sustained 4.1x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "COOLING", "state": "RUNNING", "price": 8.615, "tp": 3.044076151750185, "note": "sustained 3.0x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "COOLING", "price": 16.36, "tp": 1.3362454721318717, "note": "pace 1.3x off peak 4.4x"}
+{"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "DRUG", "prev_state": "IGNITING", "state": "RUNNING", "price": 52.79, "tp": 3.74576596424728, "note": "sustained 3.7x"}
