@@ -206,3 +206,15 @@
 {"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "BGT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.125, "tp": 4.532580811388685, "note": "sustained 4.5x"}
 {"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "NFJ", "prev_state": "QUIET", "state": "RUNNING", "price": 14.91, "tp": 2.662787227536468, "note": "sustained 2.7x"}
 {"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "ANL", "prev_state": "RUNNING", "state": "COOLING", "price": 11.67, "tp": 1.0692297147399072, "note": "pace 1.1x off peak 12.1x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "GFR", "prev_state": "RUNNING", "state": "COOLING", "price": 6.725, "tp": 1.5310848267906711, "note": "pace 1.5x off peak 2.9x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "FENC", "prev_state": "COOLING", "state": "RUNNING", "price": 10.12, "tp": 3.5681838770941288, "note": "sustained 3.6x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "WD", "prev_state": "COOLING", "state": "RUNNING", "price": 31.865, "tp": 2.024739129623486, "note": "sustained 2.0x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "COOLING", "state": "RUNNING", "price": 9.59, "tp": 2.213625120184216, "note": "sustained 2.2x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.685, "tp": 11.501650111327203, "note": "sustained 11.5x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 31.42, "tp": 2.5092055835771236, "note": "sustained 2.5x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.86, "tp": 10.06277571225067, "note": "pace 10.1x and accelerating (2.5x vs prior window) \u00b7 +1.9% in window"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CIFR", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.635, "tp": 4.157456336923887, "note": "sustained 4.2x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "COOLING", "price": 8.65, "tp": 1.644138278374072, "note": "pace 1.6x off peak 4.2x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "CWVX", "prev_state": "COOLING", "state": "RUNNING", "price": 11.72, "tp": 7.4261851367549, "note": "sustained 7.4x"}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "BUFZ", "prev_state": "RUNNING", "state": "QUIET", "price": 28.8, "tp": 1.7865371112912491, "note": ""}
+{"ts": "2026-10-13T14:57:43.150058-04:00", "demo": 0, "ticker": "SVC", "prev_state": "COOLING", "state": "RUNNING", "price": 5.82, "tp": 1.8748390544875455, "note": "sustained 1.9x"}
