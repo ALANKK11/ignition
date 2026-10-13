@@ -1,0 +1,4 @@
+{"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "IGNITING", "state": "CHURN", "price": 4.64, "tp": 9.529311334594379, "note": "9.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "QUIET", "state": "IGNITING", "price": 6.835, "tp": 4.212391312519163, "note": "pace 4.2x and accelerating (3.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "COOLING", "price": 8.59, "tp": 1.233015441184195, "note": "pace 1.2x off peak 2.1x"}
+{"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "AII", "prev_state": "QUIET", "state": "IGNITING", "price": 27.445, "tp": 4.031767580853091, "note": "pace 4.0x and accelerating (80.6x vs prior window) \u00b7 +0.4% in window"}
