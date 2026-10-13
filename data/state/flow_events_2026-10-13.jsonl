@@ -196,3 +196,13 @@
 {"ts": "2026-10-13T14:51:43.149148-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "FADING", "state": "COOLING", "price": 8.64, "tp": 1.316250050747021, "note": "pace 1.3x off peak 2.0x"}
 {"ts": "2026-10-13T14:51:43.149148-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "RUNNING", "state": "COOLING", "price": 38.94, "tp": 1.0580030479449232, "note": "pace 1.1x off peak 4.4x"}
 {"ts": "2026-10-13T14:51:43.149148-04:00", "demo": 0, "ticker": "FENC", "prev_state": "RUNNING", "state": "COOLING", "price": 10.16, "tp": 1.2625891955912225, "note": "pace 1.3x off peak 6.3x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "TMC", "prev_state": "RUNNING", "state": "COOLING", "price": 2.8, "tp": 1.6050673255434122, "note": "pace 1.6x off peak 6.3x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "FTCB", "prev_state": "CHURN", "state": "RUNNING", "price": 19.835, "tp": 5.823932445681057, "note": "sustained 5.8x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.65, "tp": 2.2761225971059207, "note": "sustained 2.3x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "BBVA", "prev_state": "RUNNING", "state": "FADING", "price": 26.515, "tp": 0.8422683614795209, "note": "pace 0.8x vs peak 3.0x \u00b7 -0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.65, "tp": 10.908033766039756, "note": "pace 10.9x and accelerating (3.1x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "FSSL", "prev_state": "COOLING", "state": "RUNNING", "price": 11.38, "tp": 2.118659398244302, "note": "sustained 2.1x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.46, "tp": 1.4666674057528328, "note": "pace 1.5x off peak 7.2x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "BGT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.125, "tp": 4.532580811388685, "note": "sustained 4.5x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "NFJ", "prev_state": "QUIET", "state": "RUNNING", "price": 14.91, "tp": 2.662787227536468, "note": "sustained 2.7x"}
+{"ts": "2026-10-13T14:54:43.149617-04:00", "demo": 0, "ticker": "ANL", "prev_state": "RUNNING", "state": "COOLING", "price": 11.67, "tp": 1.0692297147399072, "note": "pace 1.1x off peak 12.1x"}
