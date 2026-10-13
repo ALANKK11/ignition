@@ -2,3 +2,10 @@
 {"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "QUIET", "state": "IGNITING", "price": 6.835, "tp": 4.212391312519163, "note": "pace 4.2x and accelerating (3.9x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "COOLING", "price": 8.59, "tp": 1.233015441184195, "note": "pace 1.2x off peak 2.1x"}
 {"ts": "2026-10-13T13:58:28.138999-04:00", "demo": 0, "ticker": "AII", "prev_state": "QUIET", "state": "IGNITING", "price": 27.445, "tp": 4.031767580853091, "note": "pace 4.0x and accelerating (80.6x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "QUIET", "state": "RUNNING", "price": 9.58, "tp": 2.3531181936959134, "note": "sustained 2.4x"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "WD", "prev_state": "QUIET", "state": "RUNNING", "price": 31.59, "tp": 3.1216292999777577, "note": "sustained 3.1x"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "FRMI", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.885, "tp": 3.1072649877443586, "note": "pace 3.1x and accelerating (3.2x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "COOLING", "state": "IGNITING", "price": 8.485, "tp": 3.0386446154514557, "note": "pace 3.0x and accelerating (1.7x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.835, "tp": 4.227449034304211, "note": "sustained 4.2x"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "CHURN", "state": "RUNNING", "price": 4.64, "tp": 3.6321413346241327, "note": "sustained 3.6x"}
+{"ts": "2026-10-13T14:01:28.139687-04:00", "demo": 0, "ticker": "MMED", "prev_state": "QUIET", "state": "RUNNING", "price": 18.82, "tp": 1.8567424926974723, "note": "sustained 1.9x"}
