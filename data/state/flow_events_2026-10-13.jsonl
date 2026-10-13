@@ -89,3 +89,13 @@
 {"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "AMA", "prev_state": "RUNNING", "state": "COOLING", "price": 19.94, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
 {"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "GLIBK", "prev_state": "CHURN", "state": "RUNNING", "price": 20.255, "tp": 2.9552667806290636, "note": "sustained 3.0x"}
 {"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "TMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.755, "tp": 3.1820896512564105, "note": "sustained 3.2x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "AVNT", "prev_state": "RUNNING", "state": "COOLING", "price": 38.875, "tp": 1.6187438415808808, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "EWJV", "prev_state": "QUIET", "state": "RUNNING", "price": 48.015, "tp": 9.856824797298597, "note": "sustained 9.9x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "ANL", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.64, "tp": 12.091519503825934, "note": "pace 12.1x and accelerating (21.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "URG", "prev_state": "RUNNING", "state": "COOLING", "price": 0.8894, "tp": 1.5243265623868851, "note": "pace 1.5x off peak 4.1x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "BLCO", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.78, "tp": 3.381045044590422, "note": "pace 3.4x and accelerating (2.7x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "COOLING", "state": "RUNNING", "price": 3.43, "tp": 1.8876090925717375, "note": "sustained 1.9x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "MMED", "prev_state": "RUNNING", "state": "COOLING", "price": 18.72, "tp": 1.4504849217865925, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "SVC", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.815, "tp": 4.776489736084202, "note": "sustained 4.8x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "QUIET", "state": "RUNNING", "price": 7.61, "tp": 1.8229098788751703, "note": "sustained 1.8x"}
+{"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "CANG", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.45, "tp": 7.729147376621459, "note": "pace 7.7x and accelerating (3.0x vs prior window) \u00b7 -0.6% in window"}
