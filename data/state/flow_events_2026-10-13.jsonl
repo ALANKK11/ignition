@@ -47,3 +47,11 @@
 {"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.6, "tp": 4.235757718998466, "note": "sustained 4.2x"}
 {"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "VTEI", "prev_state": "QUIET", "state": "CHURN", "price": 96.045, "tp": 13.55411646144585, "note": "13.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-13T14:11:58.141942-04:00", "demo": 0, "ticker": "SVC", "prev_state": "QUIET", "state": "IGNITING", "price": 5.82, "tp": 3.1303616634476588, "note": "pace 3.1x and accelerating (3.3x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "ANL", "prev_state": "QUIET", "state": "RUNNING", "price": 11.57, "tp": 2.4942572174684527, "note": "sustained 2.5x"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "JYD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.38, "tp": 654.4264952573157, "note": "sustained 654.4x"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "RUNNING", "state": "COOLING", "price": 3.685, "tp": 1.3468185796601997, "note": "pace 1.3x off peak 2.3x"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "WD", "prev_state": "RUNNING", "state": "COOLING", "price": 31.6, "tp": 0.32030117932745844, "note": "pace 0.3x off peak 3.1x"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "AII", "prev_state": "IGNITING", "state": "FADING", "price": 27.535, "tp": 0.5947046995667447, "note": "pace 0.6x vs peak 7.3x \u00b7 +0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "ENOR", "prev_state": "RUNNING", "state": "FADING", "price": 35.905, "tp": 0.0, "note": "pace 0.0x vs peak 23.0x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.95, "tp": 7.73671849456381, "note": "sustained 7.7x"}
+{"ts": "2026-10-13T14:14:58.142737-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "RUNNING", "state": "QUIET", "price": 8.675, "tp": 1.7532496660142816, "note": ""}
