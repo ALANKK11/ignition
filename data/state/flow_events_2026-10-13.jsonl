@@ -227,3 +227,10 @@
 {"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "COOLING", "state": "RUNNING", "price": 8.615, "tp": 3.044076151750185, "note": "sustained 3.0x"}
 {"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "COOLING", "price": 16.36, "tp": 1.3362454721318717, "note": "pace 1.3x off peak 4.4x"}
 {"ts": "2026-10-13T15:00:43.150570-04:00", "demo": 0, "ticker": "DRUG", "prev_state": "IGNITING", "state": "RUNNING", "price": 52.79, "tp": 3.74576596424728, "note": "sustained 3.7x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "EWS", "prev_state": "CHURN", "state": "RUNNING", "price": 31.55, "tp": 5.823125100518047, "note": "sustained 5.8x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "DUG", "prev_state": "COOLING", "state": "RUNNING", "price": 13.02, "tp": 2.4332092335648356, "note": "sustained 2.4x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "DFE", "prev_state": "CHURN", "state": "COOLING", "price": 73.695, "tp": 0.0, "note": "pace 0.0x off peak 11.6x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "ENGS", "prev_state": "RUNNING", "state": "COOLING", "price": 3.5, "tp": 1.282830899749852, "note": "pace 1.3x off peak 2.4x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "GFR", "prev_state": "COOLING", "state": "CHURN", "price": 6.755, "tp": 2.525471445405596, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "COOLING", "price": 4.51, "tp": 0.0, "note": "pace 0.0x off peak 18.7x"}
+{"ts": "2026-10-13T15:03:43.150949-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.65, "tp": 2.8746769169275486, "note": "pace 2.9x and accelerating (3.5x vs prior window) \u00b7 +0.6% in window"}
