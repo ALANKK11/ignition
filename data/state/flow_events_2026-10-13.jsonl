@@ -72,3 +72,20 @@
 {"ts": "2026-10-13T14:18:43.143051-04:00", "demo": 0, "ticker": "BBVA", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.465, "tp": 1.944816587168691, "note": "sustained 1.9x"}
 {"ts": "2026-10-13T14:18:43.143051-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "COOLING", "state": "FADING", "price": 3.685, "tp": 0.12069862203867873, "note": "pace 0.1x vs peak 2.3x \u00b7 -41.5% off HOD \u00b7 chart still +63% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-13T14:18:43.143051-04:00", "demo": 0, "ticker": "IBDR", "prev_state": "FADING", "state": "CHURN", "price": 24.195, "tp": 2.718481633419451, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "RUNNING", "state": "QUIET", "price": 7.61, "tp": 1.6147072522353612, "note": ""}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "EIX", "prev_state": "COOLING", "state": "RUNNING", "price": 55.26, "tp": 2.0515781543670606, "note": "sustained 2.1x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "SVC", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.825, "tp": 3.9771785972523412, "note": "pace 4.0x and accelerating (2.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "XMAX", "prev_state": "QUIET", "state": "FADING", "price": 8.675, "tp": 0.3823881766864672, "note": "pace 0.4x vs peak 2.0x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "LWLG", "prev_state": "RUNNING", "state": "COOLING", "price": 4.265, "tp": 0.2302155328804987, "note": "pace 0.2x off peak 5.2x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "OKLL", "prev_state": "RUNNING", "state": "COOLING", "price": 6.9, "tp": 1.3377330247713057, "note": "pace 1.3x off peak 6.1x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "ANL", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.73, "tp": 8.77457051109277, "note": "sustained 8.8x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "CANG", "prev_state": "QUIET", "state": "RUNNING", "price": 3.45, "tp": 3.1744978864554008, "note": "sustained 3.2x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "URG", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.8884, "tp": 2.2019808771829124, "note": "sustained 2.2x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.445, "tp": 2.242652572983987, "note": "sustained 2.2x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.76, "tp": 7.972608885170715, "note": "sustained 8.0x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "WD", "prev_state": "COOLING", "state": "RUNNING", "price": 31.7, "tp": 3.5328557914881618, "note": "sustained 3.5x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "ATII", "prev_state": "COOLING", "state": "CHURN", "price": 10.67, "tp": 10.132079219748086, "note": "10.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "FXL", "prev_state": "CHURN", "state": "FADING", "price": 226.98, "tp": 0.0, "note": "pace 0.0x vs peak 36.9x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "AMA", "prev_state": "RUNNING", "state": "COOLING", "price": 19.94, "tp": 0.0, "note": "pace 0.0x off peak 2.8x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "GLIBK", "prev_state": "CHURN", "state": "RUNNING", "price": 20.255, "tp": 2.9552667806290636, "note": "sustained 3.0x"}
+{"ts": "2026-10-13T14:21:43.143640-04:00", "demo": 0, "ticker": "TMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.755, "tp": 3.1820896512564105, "note": "sustained 3.2x"}
