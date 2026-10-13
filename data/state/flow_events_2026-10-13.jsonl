@@ -99,3 +99,12 @@
 {"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "SVC", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.815, "tp": 4.776489736084202, "note": "sustained 4.8x"}
 {"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "QUIET", "state": "RUNNING", "price": 7.61, "tp": 1.8229098788751703, "note": "sustained 1.8x"}
 {"ts": "2026-10-13T14:24:43.144084-04:00", "demo": 0, "ticker": "CANG", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.45, "tp": 7.729147376621459, "note": "pace 7.7x and accelerating (3.0x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "CIFR", "prev_state": "RUNNING", "state": "COOLING", "price": 11.785, "tp": 1.7813860551275542, "note": "pace 1.8x off peak 4.5x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "FLYE", "prev_state": "FADING", "state": "RUNNING", "price": 3.67, "tp": 2.241495325468066, "note": "sustained 2.2x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "ANL", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.64, "tp": 11.010327827786924, "note": "sustained 11.0x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "BLCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.825, "tp": 3.8553986072842483, "note": "sustained 3.9x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "TMC", "prev_state": "RUNNING", "state": "COOLING", "price": 2.765, "tp": 1.1934329330457554, "note": "pace 1.2x off peak 6.3x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "QUIET", "state": "RUNNING", "price": 3.03, "tp": 2.185092150349637, "note": "sustained 2.2x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "FRMI", "prev_state": "FADING", "state": "RUNNING", "price": 3.905, "tp": 2.322529875652723, "note": "sustained 2.3x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "BGT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.13, "tp": 1.1783500637732793, "note": "pace 1.2x off peak 2.2x"}
+{"ts": "2026-10-13T14:27:43.144729-04:00", "demo": 0, "ticker": "MMED", "prev_state": "COOLING", "state": "RUNNING", "price": 18.665, "tp": 2.2093705623258506, "note": "sustained 2.2x"}
