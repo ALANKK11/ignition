@@ -111,3 +111,19 @@
 {"ts": "2026-10-14T12:15:57.757932-04:00", "demo": 0, "ticker": "BAC", "prev_state": "RUNNING", "state": "CHURN", "price": 50.89, "tp": 4.47415408927525, "note": "4.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-14T12:15:57.757932-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "QUIET", "state": "RUNNING", "price": 4.43, "tp": 2.2104047401929714, "note": "sustained 2.2x"}
 {"ts": "2026-10-14T12:15:57.757932-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "CHURN", "state": "RUNNING", "price": 111.13, "tp": 65.14743965751464, "note": "sustained 65.1x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "RNW", "prev_state": "FADING", "state": "COOLING", "price": 6.885, "tp": 0.6353801074616313, "note": "pace 0.6x off peak 3.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "BAC", "prev_state": "CHURN", "state": "RUNNING", "price": 50.825, "tp": 4.9786558697375, "note": "sustained 5.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "CRWV", "prev_state": "IGNITING", "state": "RUNNING", "price": 65.17, "tp": 4.584953421427149, "note": "sustained 4.6x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "RGR", "prev_state": "CHURN", "state": "RUNNING", "price": 43.235, "tp": 6.415668057869779, "note": "sustained 6.4x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "DSGN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.5, "tp": 2.178487746987062, "note": "sustained 2.2x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "CALF", "prev_state": "CHURN", "state": "RUNNING", "price": 54.9, "tp": 1.9759135948759878, "note": "sustained 2.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "IGNITING", "state": "COOLING", "price": 18.59, "tp": 0.0, "note": "pace 0.0x off peak 17.6x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "SLDB", "prev_state": "QUIET", "state": "RUNNING", "price": 5.52, "tp": 1.9167826970290813, "note": "sustained 1.9x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.52, "tp": 36.737193204958814, "note": "sustained 36.7x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "FFAI", "prev_state": "RUNNING", "state": "COOLING", "price": 1.14, "tp": 1.7410858586947395, "note": "pace 1.7x off peak 14.6x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "ALMU", "prev_state": "QUIET", "state": "RUNNING", "price": 9.075, "tp": 2.0320342415519566, "note": "sustained 2.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "GLIBK", "prev_state": "QUIET", "state": "RUNNING", "price": 20.17, "tp": 1.9670392480731635, "note": "sustained 2.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "FAST", "prev_state": "CHURN", "state": "RUNNING", "price": 51.835, "tp": 3.0552646313200578, "note": "sustained 3.1x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "FIZZ", "prev_state": "QUIET", "state": "NEW MONEY", "price": 33.32, "tp": 2.0292461045243178, "note": "quiet open (0.8x) \u2192 now 2.0x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "IGNITING", "state": "COOLING", "price": 17.81, "tp": 1.7646228252250342, "note": "pace 1.8x off peak 3.0x"}
+{"ts": "2026-10-14T12:18:57.758641-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "RUNNING", "state": "QUIET", "price": 4.425, "tp": 1.777495616853056, "note": ""}
