@@ -38,3 +38,12 @@
 {"ts": "2026-10-14T11:57:57.753787-04:00", "demo": 0, "ticker": "RNW", "prev_state": "FADING", "state": "RUNNING", "price": 6.89, "tp": 2.1932393906556764, "note": "sustained 2.2x"}
 {"ts": "2026-10-14T11:57:57.753787-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "COOLING", "state": "IGNITING", "price": 0.8264, "tp": 5.109549657285214, "note": "pace 5.1x and accelerating (2.2x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-10-14T11:57:57.753787-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.28, "tp": 5.067955207237758, "note": "sustained 5.1x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "EUV", "prev_state": "RUNNING", "state": "COOLING", "price": 23.21, "tp": 1.129544107662537, "note": "pace 1.1x off peak 7.4x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "RCKT", "prev_state": "QUIET", "state": "RUNNING", "price": 2.205, "tp": 2.2645143010708417, "note": "sustained 2.3x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.28, "tp": 4.84789981159751, "note": "pace 4.8x and accelerating (11.5x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "RUNNING", "state": "COOLING", "price": 19.175, "tp": 0.0, "note": "pace 0.0x off peak 14.3x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "QUIET", "state": "RUNNING", "price": 14.36, "tp": 2.3682697216810356, "note": "sustained 2.4x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "IXP", "prev_state": "CHURN", "state": "RUNNING", "price": 117.59, "tp": 102.36969805487652, "note": "sustained 102.4x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "RNW", "prev_state": "RUNNING", "state": "CHURN", "price": 6.89, "tp": 2.3153068303578554, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "QUIET", "state": "COOLING", "price": 4.51, "tp": 1.2854326765447597, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-10-14T12:00:57.754499-04:00", "demo": 0, "ticker": "RGR", "prev_state": "RUNNING", "state": "FADING", "price": 43.32, "tp": 2.9753248775723597, "note": "pace 3.0x vs peak 9.1x \u00b7 -0.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
