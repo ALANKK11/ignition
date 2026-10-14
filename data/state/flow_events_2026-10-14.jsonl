@@ -189,3 +189,13 @@
 {"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "PTLO", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.67, "tp": 4.140636461908106, "note": "sustained 4.1x"}
 {"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "RGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 43.085, "tp": 8.675686437663952, "note": "sustained 8.7x"}
 {"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "DUG", "prev_state": "QUIET", "state": "RUNNING", "price": 12.855, "tp": 2.2247890368743977, "note": "sustained 2.2x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "ARDT", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.905, "tp": 3.9345422817836435, "note": "sustained 3.9x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "ASST", "prev_state": "RUNNING", "state": "IGNITING", "price": 24.87, "tp": 6.7514130429012775, "note": "pace 6.8x and accelerating (2.1x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "AIA", "prev_state": "RUNNING", "state": "CHURN", "price": 133.88, "tp": 32.73175552339045, "note": "32.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "CHURN", "state": "RUNNING", "price": 77.12, "tp": 8.097746571397794, "note": "sustained 8.1x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "TENX", "prev_state": "QUIET", "state": "COOLING", "price": 1.575, "tp": 1.2663301422285278, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "QUIET", "state": "COOLING", "price": 4.425, "tp": 1.3116273339418125, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "CMBT", "prev_state": "QUIET", "state": "COOLING", "price": 18.9, "tp": 1.3287997188075555, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "ALLT", "prev_state": "RUNNING", "state": "CHURN", "price": 8.74, "tp": 3.3839268882413878, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "RUNNING", "state": "CHURN", "price": 5.94, "tp": 5.042437189777887, "note": "5.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:36:57.762304-04:00", "demo": 0, "ticker": "AWF", "prev_state": "QUIET", "state": "RUNNING", "price": 9.445, "tp": 2.1106901969349625, "note": "sustained 2.1x"}
