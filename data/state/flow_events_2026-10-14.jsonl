@@ -259,3 +259,4 @@
 {"ts": "2026-10-14T12:51:57.765305-04:00", "demo": 0, "ticker": "CLOI", "prev_state": "RUNNING", "state": "COOLING", "price": 52.845, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
 {"ts": "2026-10-14T16:21:59.682505-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hillphoenix Unveils Advansor FlexONE CO\u2082 Condensing Unit for Food Retail and Industrial Markets"}
 {"ts": "2026-10-14T16:24:59.683110-04:00", "demo": 0, "ticker": "TAOP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Taoping Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency"}
+{"ts": "2026-10-14T16:53:29.688803-04:00", "demo": 0, "ticker": "WTTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Select Water Solutions, Inc. Announces Pricing of Upsized $900 Million of 7.625% Senior Notes Due 2034"}
