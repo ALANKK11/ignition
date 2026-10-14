@@ -61,3 +61,12 @@
 {"ts": "2026-10-14T12:03:57.755186-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "RUNNING", "state": "CHURN", "price": 111.23, "tp": 45.895261375621395, "note": "45.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-14T12:03:57.755186-04:00", "demo": 0, "ticker": "FUN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.49, "tp": 1.6556264734900703, "note": "pace 1.7x off peak 4.0x"}
 {"ts": "2026-10-14T12:03:57.755186-04:00", "demo": 0, "ticker": "RNW", "prev_state": "CHURN", "state": "RUNNING", "price": 6.885, "tp": 2.6686862106947484, "note": "sustained 2.7x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.625, "tp": 3.5019125065403376, "note": "sustained 3.5x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "FUN", "prev_state": "COOLING", "state": "RUNNING", "price": 9.515, "tp": 2.6989938729541256, "note": "sustained 2.7x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "GLND", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.015, "tp": 3.789321766603926, "note": "sustained 3.8x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "FIGS", "prev_state": "QUIET", "state": "RUNNING", "price": 17.78, "tp": 2.6364863722348746, "note": "sustained 2.6x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "CVIE", "prev_state": "QUIET", "state": "RUNNING", "price": 81.1, "tp": 5.369150965285298, "note": "sustained 5.4x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "FAST", "prev_state": "RUNNING", "state": "CHURN", "price": 51.88, "tp": 3.166771288862258, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "RNW", "prev_state": "RUNNING", "state": "CHURN", "price": 6.89, "tp": 2.8241614668243464, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "CHURN", "state": "RUNNING", "price": 14.25, "tp": 2.7519319089005925, "note": "sustained 2.8x"}
+{"ts": "2026-10-14T12:06:57.755859-04:00", "demo": 0, "ticker": "CORD", "prev_state": "FADING", "state": "RUNNING", "price": 4.68, "tp": 2.165300041541442, "note": "sustained 2.2x"}
