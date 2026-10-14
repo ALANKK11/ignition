@@ -236,3 +236,12 @@
 {"ts": "2026-10-14T12:45:57.764147-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 55.25, "tp": 6.424494015571017, "note": "pace 6.4x and accelerating (2.2x vs prior window) \u00b7 +3.6% in window"}
 {"ts": "2026-10-14T12:45:57.764147-04:00", "demo": 0, "ticker": "ASGI", "prev_state": "QUIET", "state": "RUNNING", "price": 19.12, "tp": 2.851985876647034, "note": "sustained 2.9x"}
 {"ts": "2026-10-14T12:45:57.764147-04:00", "demo": 0, "ticker": "PTLO", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.69, "tp": 2.0538715311005173, "note": "sustained 2.1x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "RGR", "prev_state": "CHURN", "state": "RUNNING", "price": 42.98, "tp": 7.545511733430937, "note": "sustained 7.5x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "VLRS", "prev_state": "RUNNING", "state": "COOLING", "price": 5.94, "tp": 1.4743790974532218, "note": "pace 1.5x off peak 5.7x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "CLOI", "prev_state": "QUIET", "state": "RUNNING", "price": 52.845, "tp": 1.8345062969445216, "note": "sustained 1.8x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "PTLO", "prev_state": "RUNNING", "state": "COOLING", "price": 4.69, "tp": 1.7848840004097752, "note": "pace 1.8x off peak 4.8x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "AMTD", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6308, "tp": 4807.4233916482235, "note": "sustained 4807.4x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "BBN", "prev_state": "CHURN", "state": "COOLING", "price": 14.42, "tp": 0.4049507826198931, "note": "pace 0.4x off peak 9.8x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "COOLING", "state": "RUNNING", "price": 77.13, "tp": 4.6423529108234405, "note": "sustained 4.6x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.625, "tp": 4.257812366495695, "note": "sustained 4.3x"}
+{"ts": "2026-10-14T12:48:57.765185-04:00", "demo": 0, "ticker": "HPK", "prev_state": "COOLING", "state": "QUIET", "price": 10.07, "tp": 1.7561524560802477, "note": ""}
