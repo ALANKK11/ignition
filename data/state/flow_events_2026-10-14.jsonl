@@ -15,3 +15,9 @@
 {"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.685, "tp": 3.296486393622703, "note": "pace 3.3x and accelerating (3.1x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "CRIB", "prev_state": "RUNNING", "state": "COOLING", "price": 23.48, "tp": 0.0, "note": "pace 0.0x off peak 3033.8x"}
 {"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "TDIC", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.485, "tp": 159.31526621639546, "note": "sustained 159.3x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "QUIET", "state": "RUNNING", "price": 4.535, "tp": 1.8657867581061387, "note": "sustained 1.9x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "WSE", "prev_state": "RUNNING", "state": "COOLING", "price": 12.065, "tp": 1.3524561572370168, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "CORD", "prev_state": "RUNNING", "state": "COOLING", "price": 4.62, "tp": 1.1340536950651585, "note": "pace 1.1x off peak 2.9x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "HPK", "prev_state": "QUIET", "state": "COOLING", "price": 10.05, "tp": 1.2873501378748688, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.715, "tp": 2.504085789059516, "note": "sustained 2.5x"}
+{"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "IGNITING", "state": "FADING", "price": 23.04, "tp": 0.0, "note": "pace 0.0x vs peak 6.8x \u00b7 -22.4% off HOD \u00b7 chart still +126% \u2014 crowd buying a cooled tape"}
