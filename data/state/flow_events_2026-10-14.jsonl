@@ -180,3 +180,12 @@
 {"ts": "2026-10-14T12:30:57.760994-04:00", "demo": 0, "ticker": "EUV", "prev_state": "RUNNING", "state": "IGNITING", "price": 23.06, "tp": 3.0274937492323275, "note": "pace 3.0x and accelerating (5.4x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-10-14T12:30:57.760994-04:00", "demo": 0, "ticker": "TENX", "prev_state": "RUNNING", "state": "QUIET", "price": 1.575, "tp": 1.4507913914723995, "note": ""}
 {"ts": "2026-10-14T12:30:57.760994-04:00", "demo": 0, "ticker": "CORD", "prev_state": "RUNNING", "state": "FADING", "price": 4.66, "tp": 1.3718159523279807, "note": "pace 1.4x vs peak 8.6x \u00b7 -1.4% off HOD \u00b7 chart still +32% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "BMBL", "prev_state": "CHURN", "state": "RUNNING", "price": 5.94, "tp": 5.462745727630613, "note": "sustained 5.5x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "COOLING", "price": 15.78, "tp": 1.3390560512083582, "note": "pace 1.3x off peak 3.4x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "CMBT", "prev_state": "RUNNING", "state": "QUIET", "price": 18.9, "tp": 1.72533330580655, "note": ""}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "VLRS", "prev_state": "COOLING", "state": "RUNNING", "price": 5.93, "tp": 1.9053878959355952, "note": "sustained 1.9x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "NEW MONEY", "state": "COOLING", "price": 159.65, "tp": 0.0, "note": "pace 0.0x off peak 5.5x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "EEMA", "prev_state": "RUNNING", "state": "CHURN", "price": 111.2, "tp": 80.81241239452602, "note": "80.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "PTLO", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.67, "tp": 4.140636461908106, "note": "sustained 4.1x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "RGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 43.085, "tp": 8.675686437663952, "note": "sustained 8.7x"}
+{"ts": "2026-10-14T12:33:57.761593-04:00", "demo": 0, "ticker": "DUG", "prev_state": "QUIET", "state": "RUNNING", "price": 12.855, "tp": 2.2247890368743977, "note": "sustained 2.2x"}
