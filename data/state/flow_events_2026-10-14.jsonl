@@ -21,3 +21,11 @@
 {"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "HPK", "prev_state": "QUIET", "state": "COOLING", "price": 10.05, "tp": 1.2873501378748688, "note": "pace 1.3x off peak 1.8x"}
 {"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.715, "tp": 2.504085789059516, "note": "sustained 2.5x"}
 {"ts": "2026-10-14T11:51:57.752306-04:00", "demo": 0, "ticker": "AEHL", "prev_state": "IGNITING", "state": "FADING", "price": 23.04, "tp": 0.0, "note": "pace 0.0x vs peak 6.8x \u00b7 -22.4% off HOD \u00b7 chart still +126% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.28, "tp": 4.904944379366049, "note": "pace 4.9x and accelerating (6.5x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "BMEA", "prev_state": "RUNNING", "state": "COOLING", "price": 0.83, "tp": 1.0311081761973941, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "TC", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.18, "tp": 758.9089235516377, "note": "pace 758.9x and accelerating (1.7x vs prior window) \u00b7 +3.8% in window"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "CORD", "prev_state": "COOLING", "state": "FADING", "price": 4.61, "tp": 0.49265539706069705, "note": "pace 0.5x vs peak 2.9x \u00b7 -0.8% off HOD \u00b7 chart still +30% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "RUNNING", "state": "COOLING", "price": 6.745, "tp": 1.5535296792577369, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "ZURA", "prev_state": "RUNNING", "state": "QUIET", "price": 4.535, "tp": 1.4430010971675322, "note": ""}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "BBC", "prev_state": "RUNNING", "state": "COOLING", "price": 40.3, "tp": 0.0, "note": "pace 0.0x off peak 337.8x"}
+{"ts": "2026-10-14T11:54:57.754635-04:00", "demo": 0, "ticker": "YRD", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.606, "tp": 184.71204657301425, "note": "pace 184.7x and accelerating (9.0x vs prior window) \u00b7 -2.4% in window"}
