@@ -4,3 +4,14 @@
 {"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "HPK", "prev_state": "QUIET", "state": "RUNNING", "price": 10.06, "tp": 1.829360874190802, "note": "sustained 1.8x"}
 {"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 51.75, "tp": 3.6469370443767586, "note": "pace 3.6x and accelerating (1.7x vs prior window) \u00b7 -3.3% in window"}
 {"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.735, "tp": 3.6369789392937006, "note": "sustained 3.6x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "GENK", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.705, "tp": 364.27182104245736, "note": "pace 364.3x and accelerating (2.6x vs prior window) \u00b7 -5.8% in window"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "BSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 51.89, "tp": 3.0683386697450468, "note": "sustained 3.1x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.02, "tp": 10.376970996843255, "note": "sustained 10.4x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "EUV", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.22, "tp": 2.2379404868221746, "note": "sustained 2.2x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "QUIET", "state": "RUNNING", "price": 8.245, "tp": 4.420935257669132, "note": "sustained 4.4x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "GRRR", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.7, "tp": 5.040547077748456, "note": "sustained 5.0x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "RNW", "prev_state": "CHURN", "state": "FADING", "price": 6.89, "tp": 0.8174839522841547, "note": "pace 0.8x vs peak 3.0x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "HPK", "prev_state": "RUNNING", "state": "QUIET", "price": 10.05, "tp": 1.6587559011509054, "note": ""}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.685, "tp": 3.296486393622703, "note": "pace 3.3x and accelerating (3.1x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "CRIB", "prev_state": "RUNNING", "state": "COOLING", "price": 23.48, "tp": 0.0, "note": "pace 0.0x off peak 3033.8x"}
+{"ts": "2026-10-14T11:48:57.751268-04:00", "demo": 0, "ticker": "TDIC", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.485, "tp": 159.31526621639546, "note": "sustained 159.3x"}
