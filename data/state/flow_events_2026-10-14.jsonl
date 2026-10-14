@@ -1,0 +1,6 @@
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "TGL", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.7397, "tp": 12.509543434924922, "note": "sustained 12.5x"}
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "CORD", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.61, "tp": 2.764723334804768, "note": "sustained 2.8x"}
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "CRWU", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.175, "tp": 14.294162247577129, "note": "pace 14.3x and accelerating (7.3x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "HPK", "prev_state": "QUIET", "state": "RUNNING", "price": 10.06, "tp": 1.829360874190802, "note": "sustained 1.8x"}
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 51.75, "tp": 3.6469370443767586, "note": "pace 3.6x and accelerating (1.7x vs prior window) \u00b7 -3.3% in window"}
+{"ts": "2026-10-14T11:45:57.750812-04:00", "demo": 0, "ticker": "SKYD", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.735, "tp": 3.6369789392937006, "note": "sustained 3.6x"}
