@@ -257,3 +257,4 @@
 {"ts": "2026-10-14T12:51:57.765305-04:00", "demo": 0, "ticker": "BSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 54.8, "tp": 6.221064065050964, "note": "sustained 6.2x"}
 {"ts": "2026-10-14T12:51:57.765305-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.08, "tp": 11.21921261958228, "note": "sustained 11.2x"}
 {"ts": "2026-10-14T12:51:57.765305-04:00", "demo": 0, "ticker": "CLOI", "prev_state": "RUNNING", "state": "COOLING", "price": 52.845, "tp": 0.0, "note": "pace 0.0x off peak 1.8x"}
+{"ts": "2026-10-14T16:21:59.682505-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hillphoenix Unveils Advansor FlexONE CO\u2082 Condensing Unit for Food Retail and Industrial Markets"}
