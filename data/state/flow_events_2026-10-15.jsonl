@@ -277,3 +277,4 @@
 {"ts": "2026-10-15T12:49:43.874652-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "RUNNING", "state": "FADING", "price": 7.515, "tp": 1.2378732722131147, "note": "pace 1.2x vs peak 5.6x \u00b7 -0.3% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-15T12:49:43.874652-04:00", "demo": 0, "ticker": "VSTM", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.775, "tp": 4.193939149445416, "note": "pace 4.2x and accelerating (1.8x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-10-15T12:49:43.874652-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "COOLING", "state": "RUNNING", "price": 239.51, "tp": 2.371373240821192, "note": "sustained 2.4x"}
+{"ts": "2026-10-15T18:12:43.963386-04:00", "demo": 0, "ticker": "QDEL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "QuidelOrtho Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"}
