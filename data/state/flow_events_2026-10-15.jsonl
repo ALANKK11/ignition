@@ -22,3 +22,10 @@
 {"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.87, "tp": 3.0248954185272843, "note": "pace 3.0x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "EVAC", "prev_state": "CHURN", "state": "COOLING", "price": 10.315, "tp": 0.0, "note": "pace 0.0x off peak 587.4x"}
 {"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "SNES", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.8964, "tp": 615.1778404753655, "note": "pace 615.2x and accelerating (2.3x vs prior window) \u00b7 +14.9% in window"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "OAKM", "prev_state": "RUNNING", "state": "CHURN", "price": 30.61, "tp": 4.607287286016056, "note": "4.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "VFMO", "prev_state": "RUNNING", "state": "COOLING", "price": 221.26, "tp": 0.0, "note": "pace 0.0x off peak 20.7x"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "BILI", "prev_state": "COOLING", "state": "FADING", "price": 14.385, "tp": 0.6410969198027137, "note": "pace 0.6x vs peak 2.7x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "CCC", "prev_state": "RUNNING", "state": "CHURN", "price": 7.615, "tp": 3.3896977140930606, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "EUV", "prev_state": "RUNNING", "state": "CHURN", "price": 22.03, "tp": 44.996874935719, "note": "45.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "FADING", "state": "RUNNING", "price": 2.7, "tp": 3.59142644311398, "note": "sustained 3.6x"}
+{"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.29, "tp": 0.6201884532082511, "note": "pace 0.6x off peak 2.6x"}
