@@ -194,3 +194,12 @@
 {"ts": "2026-10-15T12:25:43.869890-04:00", "demo": 0, "ticker": "ERIC", "prev_state": "RUNNING", "state": "FADING", "price": 10.37, "tp": 1.1398620763518663, "note": "pace 1.1x vs peak 4.4x \u00b7 -2.7% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-15T12:25:43.869890-04:00", "demo": 0, "ticker": "CORZ", "prev_state": "QUIET", "state": "COOLING", "price": 13.055, "tp": 0.785752708763707, "note": "pace 0.8x off peak 2.2x"}
 {"ts": "2026-10-15T12:25:43.869890-04:00", "demo": 0, "ticker": "EROC", "prev_state": "RUNNING", "state": "COOLING", "price": 9.6, "tp": 1.1188060451340895, "note": "pace 1.1x off peak 4.2x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "DELL", "prev_state": "QUIET", "state": "RUNNING", "price": 465.31, "tp": 1.8806461490183852, "note": "sustained 1.9x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "FMC", "prev_state": "RUNNING", "state": "CHURN", "price": 5.515, "tp": 3.133611189653677, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "BOAT", "prev_state": "CHURN", "state": "COOLING", "price": 52.41, "tp": 0.0, "note": "pace 0.0x off peak 7.0x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "COOLING", "state": "RUNNING", "price": 54.73, "tp": 2.1371615450864283, "note": "sustained 2.1x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "BZH", "prev_state": "RUNNING", "state": "CHURN", "price": 33.43, "tp": 4.547075038731245, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "AEXA", "prev_state": "CHURN", "state": "RUNNING", "price": 10.64, "tp": 2.997625540029385, "note": "sustained 3.0x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "CWB", "prev_state": "CHURN", "state": "RUNNING", "price": 95.78, "tp": 16.649725647798462, "note": "sustained 16.6x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "COOLING", "state": "RUNNING", "price": 33.46, "tp": 2.344237307746827, "note": "sustained 2.3x"}
+{"ts": "2026-10-15T12:28:43.870590-04:00", "demo": 0, "ticker": "BLDR", "prev_state": "CHURN", "state": "FADING", "price": 53.12, "tp": 1.0884478214426752, "note": "pace 1.1x vs peak 6.1x \u00b7 -1.7% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
