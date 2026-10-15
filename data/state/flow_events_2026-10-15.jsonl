@@ -242,3 +242,16 @@
 {"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "CWB", "prev_state": "CHURN", "state": "RUNNING", "price": 95.89, "tp": 10.023015904240852, "note": "sustained 10.0x"}
 {"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "FADING", "state": "CHURN", "price": 7.515, "tp": 2.779622736735428, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 33.53, "tp": 1.7174489736212684, "note": "pace 1.7x off peak 3.6x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "CORZ", "prev_state": "COOLING", "state": "QUIET", "price": 13.18, "tp": 1.7096606107394752, "note": ""}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "RUNNING", "state": "COOLING", "price": 23.59, "tp": 0.0, "note": "pace 0.0x off peak 6.1x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "VSTM", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.785, "tp": 4.612767100204649, "note": "pace 4.6x and accelerating (1.7x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "COOLING", "price": 9.27, "tp": 1.533711252832484, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "ARMK", "prev_state": "QUIET", "state": "RUNNING", "price": 54.69, "tp": 1.8835867184201194, "note": "sustained 1.9x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "ECH", "prev_state": "RUNNING", "state": "CHURN", "price": 36.97, "tp": 7.368857818523772, "note": "7.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "ULCC", "prev_state": "QUIET", "state": "COOLING", "price": 4.845, "tp": 1.3032003211895118, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "RUNNING", "state": "COOLING", "price": 44.03, "tp": 0.0, "note": "pace 0.0x off peak 91.9x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "COHX", "prev_state": "QUIET", "state": "COOLING", "price": 15.33, "tp": 0.7944834584136253, "note": "pace 0.8x off peak 1.9x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "DELL", "prev_state": "RUNNING", "state": "COOLING", "price": 465.71, "tp": 1.5947324955150664, "note": "pace 1.6x off peak 2.5x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "CRWV", "prev_state": "RUNNING", "state": "COOLING", "price": 64.15, "tp": 1.4663318910010015, "note": "pace 1.5x off peak 3.7x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "DTM", "prev_state": "QUIET", "state": "COOLING", "price": 118.005, "tp": 1.5341708758814212, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-10-15T12:43:43.873503-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "CHURN", "state": "RUNNING", "price": 7.515, "tp": 2.5921482118953034, "note": "sustained 2.6x"}
