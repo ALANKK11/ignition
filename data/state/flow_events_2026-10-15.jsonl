@@ -1,0 +1,9 @@
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "STRO", "prev_state": "RUNNING", "state": "QUIET", "price": 11.31, "tp": 1.5856020330935434, "note": ""}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "VSTM", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.99, "tp": 3.1396083722991572, "note": "pace 3.1x and accelerating (2.5x vs prior window) \u00b7 -2.0% in window"}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "DFH", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.38, "tp": 3.164840979898019, "note": "sustained 3.2x"}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "RUNNING", "state": "FADING", "price": 2.68, "tp": 0.40391640971045134, "note": "pace 0.4x vs peak 2.4x \u00b7 -0.4% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "RKLX", "prev_state": "RUNNING", "state": "QUIET", "price": 9.67, "tp": 1.7459913208282711, "note": ""}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "SNDR", "prev_state": "RUNNING", "state": "QUIET", "price": 31.355, "tp": 1.7059521339625152, "note": ""}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "AII", "prev_state": "RUNNING", "state": "FADING", "price": 27.84, "tp": 0.0, "note": "pace 0.0x vs peak 2.2x \u00b7 -1.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "INDI", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.98, "tp": 6.532541267349324, "note": "pace 6.5x and accelerating (4.7x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-15T11:31:43.858004-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "CHURN", "state": "RUNNING", "price": 2.3, "tp": 2.587907169683666, "note": "sustained 2.6x"}
