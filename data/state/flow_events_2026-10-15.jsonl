@@ -235,3 +235,10 @@
 {"ts": "2026-10-15T12:37:43.872215-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "COOLING", "state": "RUNNING", "price": 33.535, "tp": 2.8943088655956455, "note": "sustained 2.9x"}
 {"ts": "2026-10-15T12:37:43.872215-04:00", "demo": 0, "ticker": "CCC", "prev_state": "CHURN", "state": "RUNNING", "price": 7.615, "tp": 6.1211582262664805, "note": "sustained 6.1x"}
 {"ts": "2026-10-15T12:37:43.872215-04:00", "demo": 0, "ticker": "DRMA", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.8241, "tp": 479.67379235672945, "note": "pace 479.7x off peak 1159.2x \u00b7 VWAP lost (was +5.4% above)"}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "CANG", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.865, "tp": 2.269694099099491, "note": "sustained 2.3x"}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "ULCC", "prev_state": "COOLING", "state": "QUIET", "price": 4.845, "tp": 1.4794929930875045, "note": ""}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "DTM", "prev_state": "RUNNING", "state": "QUIET", "price": 118.24, "tp": 1.674960620816924, "note": ""}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "QUIET", "price": 15.29, "tp": 1.7611846521787418, "note": ""}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "CWB", "prev_state": "CHURN", "state": "RUNNING", "price": 95.89, "tp": 10.023015904240852, "note": "sustained 10.0x"}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "FADING", "state": "CHURN", "price": 7.515, "tp": 2.779622736735428, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:40:43.873171-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 33.53, "tp": 1.7174489736212684, "note": "pace 1.7x off peak 3.6x"}
