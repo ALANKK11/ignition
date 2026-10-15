@@ -93,3 +93,10 @@
 {"ts": "2026-10-15T12:01:43.864873-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "FADING", "state": "RUNNING", "price": 8.84, "tp": 2.0741816748544175, "note": "sustained 2.1x"}
 {"ts": "2026-10-15T12:01:43.864873-04:00", "demo": 0, "ticker": "HYP", "prev_state": "CHURN", "state": "RUNNING", "price": 27.0, "tp": 21.183960377456874, "note": "sustained 21.2x"}
 {"ts": "2026-10-15T12:02:28.849638-04:00", "demo": 0, "ticker": "LMT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Skunk Works and the Royal Netherlands Aerospace Centre Expand Strategic Collaboration"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "IAK", "prev_state": "CHURN", "state": "RUNNING", "price": 143.52, "tp": 2.2851035496998917, "note": "sustained 2.3x"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "IBTH", "prev_state": "NEW MONEY", "state": "FADING", "price": 22.29, "tp": 0.0, "note": "pace 0.0x vs peak 4.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "ERIC", "prev_state": "RUNNING", "state": "QUIET", "price": 10.41, "tp": 1.7922244825972182, "note": ""}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "DRMA", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.89, "tp": 109.38802693642253, "note": "pace 109.4x off peak 1159.2x \u00b7 VWAP lost (was +5.4% above)"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "BETR", "prev_state": "QUIET", "state": "RUNNING", "price": 9.075, "tp": 1.9338733354006468, "note": "sustained 1.9x"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "CHURN", "state": "IGNITING", "price": 44.4, "tp": 63.808668013387525, "note": "pace 63.8x and accelerating (2.4x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-15T12:04:43.865468-04:00", "demo": 0, "ticker": "IREN", "prev_state": "RUNNING", "state": "IGNITING", "price": 28.405, "tp": 4.207254631068236, "note": "pace 4.2x and accelerating (2.1x vs prior window) \u00b7 +1.6% in window"}
