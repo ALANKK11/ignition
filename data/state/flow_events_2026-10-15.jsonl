@@ -213,3 +213,13 @@
 {"ts": "2026-10-15T12:31:43.871320-04:00", "demo": 0, "ticker": "CBZ", "prev_state": "RUNNING", "state": "COOLING", "price": 54.74, "tp": 1.5657838130000732, "note": "pace 1.6x off peak 5.2x"}
 {"ts": "2026-10-15T12:31:43.871320-04:00", "demo": 0, "ticker": "DRMA", "prev_state": "LEAVING", "state": "IGNITING", "price": 0.825, "tp": 735.0207770065791, "note": "pace 735.0x and accelerating (1.7x vs prior window) \u00b7 -7.9% in window"}
 {"ts": "2026-10-15T12:31:43.871320-04:00", "demo": 0, "ticker": "DFH", "prev_state": "FADING", "state": "CHURN", "price": 8.47, "tp": 2.393804845861619, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 33.485, "tp": 1.7502930672009969, "note": "pace 1.8x off peak 3.6x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "RUNNING", "state": "COOLING", "price": 41.74, "tp": 0.9244028711649239, "note": "pace 0.9x off peak 2.8x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "BZH", "prev_state": "CHURN", "state": "RUNNING", "price": 33.425, "tp": 4.53866508477567, "note": "sustained 4.5x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "DFH", "prev_state": "CHURN", "state": "FADING", "price": 8.47, "tp": 1.1768912669102762, "note": "pace 1.2x vs peak 6.2x \u00b7 -1.2% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "SNDR", "prev_state": "CHURN", "state": "RUNNING", "price": 31.105, "tp": 4.375044512120466, "note": "sustained 4.4x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "RUNNING", "state": "CHURN", "price": 109.6, "tp": 2.6966880090301957, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "DLLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.59, "tp": 3.220854082022054, "note": "sustained 3.2x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "EWY", "prev_state": "RUNNING", "state": "COOLING", "price": 154.35, "tp": 1.402007065952738, "note": "pace 1.4x off peak 3.0x"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "BSCR", "prev_state": "RUNNING", "state": "CHURN", "price": 19.59, "tp": 19.25059589187312, "note": "19.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T12:34:43.871503-04:00", "demo": 0, "ticker": "ARMK", "prev_state": "RUNNING", "state": "QUIET", "price": 54.645, "tp": 1.7477286422737333, "note": ""}
