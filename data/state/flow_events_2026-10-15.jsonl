@@ -92,3 +92,4 @@
 {"ts": "2026-10-15T12:01:43.864873-04:00", "demo": 0, "ticker": "CCC", "prev_state": "RUNNING", "state": "COOLING", "price": 7.615, "tp": 1.0263477013245055, "note": "pace 1.0x off peak 3.4x"}
 {"ts": "2026-10-15T12:01:43.864873-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "FADING", "state": "RUNNING", "price": 8.84, "tp": 2.0741816748544175, "note": "sustained 2.1x"}
 {"ts": "2026-10-15T12:01:43.864873-04:00", "demo": 0, "ticker": "HYP", "prev_state": "CHURN", "state": "RUNNING", "price": 27.0, "tp": 21.183960377456874, "note": "sustained 21.2x"}
+{"ts": "2026-10-15T12:02:28.849638-04:00", "demo": 0, "ticker": "LMT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Skunk Works and the Royal Netherlands Aerospace Centre Expand Strategic Collaboration"}
