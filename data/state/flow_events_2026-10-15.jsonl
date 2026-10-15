@@ -16,3 +16,9 @@
 {"ts": "2026-10-15T11:37:43.859411-04:00", "demo": 0, "ticker": "IREG", "prev_state": "RUNNING", "state": "COOLING", "price": 3.42, "tp": 1.4036937999395545, "note": "pace 1.4x off peak 3.6x"}
 {"ts": "2026-10-15T11:37:43.859411-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "QUIET", "state": "RUNNING", "price": 8.88, "tp": 1.9310760201573347, "note": "sustained 1.9x"}
 {"ts": "2026-10-15T11:37:43.859411-04:00", "demo": 0, "ticker": "BOTZ", "prev_state": "QUIET", "state": "RUNNING", "price": 33.545, "tp": 2.0503824430110513, "note": "sustained 2.1x"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "INDI", "prev_state": "RUNNING", "state": "CHURN", "price": 1.985, "tp": 3.1032868460288046, "note": "3.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "VSTM", "prev_state": "RUNNING", "state": "COOLING", "price": 8.02, "tp": 1.5542232855504834, "note": "pace 1.6x off peak 3.1x"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "DFH", "prev_state": "RUNNING", "state": "FADING", "price": 8.35, "tp": 1.0517304205095555, "note": "pace 1.1x vs peak 6.2x \u00b7 -2.1% off HOD \u00b7 chart still +13% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.87, "tp": 3.0248954185272843, "note": "pace 3.0x and accelerating (1.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "EVAC", "prev_state": "CHURN", "state": "COOLING", "price": 10.315, "tp": 0.0, "note": "pace 0.0x off peak 587.4x"}
+{"ts": "2026-10-15T11:40:43.859853-04:00", "demo": 0, "ticker": "SNES", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.8964, "tp": 615.1778404753655, "note": "pace 615.2x and accelerating (2.3x vs prior window) \u00b7 +14.9% in window"}
