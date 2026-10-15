@@ -29,3 +29,9 @@
 {"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "EUV", "prev_state": "RUNNING", "state": "CHURN", "price": 22.03, "tp": 44.996874935719, "note": "45.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "CCCC", "prev_state": "FADING", "state": "RUNNING", "price": 2.7, "tp": 3.59142644311398, "note": "sustained 3.6x"}
 {"ts": "2026-10-15T11:43:43.860572-04:00", "demo": 0, "ticker": "ITRG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.29, "tp": 0.6201884532082511, "note": "pace 0.6x off peak 2.6x"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "GRFS", "prev_state": "RUNNING", "state": "FADING", "price": 7.465, "tp": 1.0463870165050466, "note": "pace 1.0x vs peak 5.6x \u00b7 -0.8% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "LGIH", "prev_state": "QUIET", "state": "RUNNING", "price": 43.8, "tp": 2.021531948308751, "note": "sustained 2.0x"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "OAKM", "prev_state": "CHURN", "state": "RUNNING", "price": 30.62, "tp": 4.09795990195326, "note": "sustained 4.1x"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "CCC", "prev_state": "CHURN", "state": "RUNNING", "price": 7.615, "tp": 2.8236848771215826, "note": "sustained 2.8x"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "SPRC", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.36, "tp": 441.10100425146334, "note": "pace 441.1x and accelerating (1.8x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-10-15T11:46:43.861670-04:00", "demo": 0, "ticker": "OPK", "prev_state": "QUIET", "state": "RUNNING", "price": 1.6, "tp": 2.7230178003505987, "note": "sustained 2.7x"}
