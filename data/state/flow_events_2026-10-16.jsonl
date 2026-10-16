@@ -133,3 +133,4 @@
 {"ts": "2026-10-16T11:59:35.955958-04:00", "demo": 0, "ticker": "FOCT", "prev_state": "RUNNING", "state": "COOLING", "price": 54.68, "tp": 0.0, "note": "pace 0.0x off peak 513.2x"}
 {"ts": "2026-10-16T11:59:35.955958-04:00", "demo": 0, "ticker": "PACS", "prev_state": "QUIET", "state": "RUNNING", "price": 47.065, "tp": 1.8686577994573654, "note": "sustained 1.9x"}
 {"ts": "2026-10-16T11:59:35.955958-04:00", "demo": 0, "ticker": "FLRN", "prev_state": "CHURN", "state": "FADING", "price": 30.79, "tp": 5.099852732985911, "note": "pace 5.1x vs peak 24.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T12:00:20.941850-04:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Securities Class "}
