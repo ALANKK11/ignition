@@ -35,3 +35,10 @@
 {"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "VRNS", "prev_state": "CHURN", "state": "RUNNING", "price": 48.715, "tp": 33.27884788641792, "note": "sustained 33.3x"}
 {"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "RUNNING", "state": "CHURN", "price": 10.12, "tp": 4.400887552547878, "note": "4.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "TDAQ", "prev_state": "RUNNING", "state": "COOLING", "price": 26.46, "tp": 1.2533504486665497, "note": "pace 1.3x off peak 4.4x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "CHURN", "state": "RUNNING", "price": 25.0, "tp": 3.4376337331386573, "note": "sustained 3.4x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "TCRT", "prev_state": "RUNNING", "state": "COOLING", "price": 2.345, "tp": 1.066324839683803, "note": "pace 1.1x off peak 2.2x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "NEBX", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.55, "tp": 2.2395284697132443, "note": "sustained 2.2x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "APLX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.98, "tp": 1.4559153984900672, "note": "pace 1.5x off peak 5.3x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "TLK", "prev_state": "RUNNING", "state": "CHURN", "price": 11.305, "tp": 7.319789892072902, "note": "7.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "EBS", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.25, "tp": 6.015192778217556, "note": "sustained 6.0x"}
+{"ts": "2026-10-16T11:29:35.949677-04:00", "demo": 0, "ticker": "VIS", "prev_state": "RUNNING", "state": "CHURN", "price": 322.12, "tp": 51.586563720282925, "note": "51.6x participation, no progress at highs \u2014 absorption"}
