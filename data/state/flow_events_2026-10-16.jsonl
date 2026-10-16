@@ -151,3 +151,4 @@
 {"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "GEF", "prev_state": "QUIET", "state": "RUNNING", "price": 81.78, "tp": 4.596528846014917, "note": "sustained 4.6x"}
 {"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "QUIET", "state": "RUNNING", "price": 41.275, "tp": 2.0405784852320537, "note": "sustained 2.0x"}
 {"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "LRMR", "prev_state": "RUNNING", "state": "QUIET", "price": 2.03, "tp": 1.707213231792803, "note": ""}
+{"ts": "2026-10-16T12:05:35.942862-04:00", "demo": 0, "ticker": "FLNC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fluence Energy (FLNC) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Be"}
