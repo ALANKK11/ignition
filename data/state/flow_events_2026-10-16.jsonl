@@ -268,3 +268,15 @@
 {"ts": "2026-10-16T12:29:35.962275-04:00", "demo": 0, "ticker": "ESTC", "prev_state": "RUNNING", "state": "COOLING", "price": 91.28, "tp": 1.7488207187937967, "note": "pace 1.7x off peak 6.3x"}
 {"ts": "2026-10-16T12:29:35.962275-04:00", "demo": 0, "ticker": "FMC", "prev_state": "RUNNING", "state": "COOLING", "price": 5.885, "tp": 1.7429568577885974, "note": "pace 1.7x off peak 3.3x"}
 {"ts": "2026-10-16T12:29:35.962275-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "QUIET", "state": "COOLING", "price": 7.89, "tp": 0.7736635857220993, "note": "pace 0.8x off peak 1.9x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "COOLING", "state": "CHURN", "price": 12.985, "tp": 2.699784265929164, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "AQST", "prev_state": "COOLING", "state": "RUNNING", "price": 3.905, "tp": 2.21952162176596, "note": "sustained 2.2x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "ALLT", "prev_state": "RUNNING", "state": "COOLING", "price": 9.065, "tp": 1.2510139162835479, "note": "pace 1.3x off peak 2.3x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "TDAQ", "prev_state": "RUNNING", "state": "COOLING", "price": 26.44, "tp": 0.3998953063558337, "note": "pace 0.4x off peak 4.5x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "CHURN", "state": "COOLING", "price": 24.96, "tp": 0.0, "note": "pace 0.0x off peak 9.8x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "PEGA", "prev_state": "QUIET", "state": "RUNNING", "price": 34.85, "tp": 1.8399550616178089, "note": "sustained 1.8x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "ECH", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 37.26, "tp": 4.426270558047154, "note": "quiet open (1.0x) \u2192 now 4.4x \u00b7 taking +1.0% flow share"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "ENGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.765, "tp": 11.02746584026927, "note": "sustained 11.0x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "BALI", "prev_state": "RUNNING", "state": "CHURN", "price": 34.515, "tp": 15.132127528236662, "note": "15.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "CHURN", "state": "RUNNING", "price": 77.83, "tp": 2.963402322030898, "note": "sustained 3.0x"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "CBLL", "prev_state": "QUIET", "state": "NEW MONEY", "price": 25.98, "tp": 2.1576850305199375, "note": "quiet open (0.2x) \u2192 now 2.2x \u00b7 taking +0.4% flow share"}
+{"ts": "2026-10-16T12:33:20.962776-04:00", "demo": 0, "ticker": "CVIE", "prev_state": "IGNITING", "state": "RUNNING", "price": 81.02, "tp": 15.8948212830122, "note": "sustained 15.9x"}
