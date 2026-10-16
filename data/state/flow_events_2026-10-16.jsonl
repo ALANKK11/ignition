@@ -180,3 +180,18 @@
 {"ts": "2026-10-16T12:10:50.958068-04:00", "demo": 0, "ticker": "FXL", "prev_state": "IGNITING", "state": "RUNNING", "price": 213.49, "tp": 411.22138996595413, "note": "sustained 411.2x"}
 {"ts": "2026-10-16T12:10:50.958068-04:00", "demo": 0, "ticker": "LRMR", "prev_state": "QUIET", "state": "RUNNING", "price": 2.015, "tp": 1.9023813222484767, "note": "sustained 1.9x"}
 {"ts": "2026-10-16T12:11:35.944014-04:00", "demo": 0, "ticker": "CCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CCB INVESTOR NOTICE: Coastal Financial Corporation Investors with Substantial Losses Have Opportunity to Lead Class Acti"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "BDJ", "prev_state": "CHURN", "state": "RUNNING", "price": 9.505, "tp": 7.464770022467313, "note": "sustained 7.5x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "CANG", "prev_state": "RUNNING", "state": "COOLING", "price": 3.26, "tp": 1.3740859558177363, "note": "pace 1.4x off peak 16.2x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "INTA", "prev_state": "RUNNING", "state": "COOLING", "price": 42.7, "tp": 1.6951261829033872, "note": "pace 1.7x off peak 3.9x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "RGR", "prev_state": "CHURN", "state": "RUNNING", "price": 42.38, "tp": 2.9437960804355603, "note": "sustained 2.9x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "AMN", "prev_state": "FADING", "state": "IGNITING", "price": 40.85, "tp": 8.959188131714635, "note": "pace 9.0x and accelerating (1.6x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "BTT", "prev_state": "FADING", "state": "RUNNING", "price": 21.93, "tp": 24.73925794456788, "note": "sustained 24.7x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "ECH", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 37.24, "tp": 4.5707438856782145, "note": "quiet open (1.0x) \u2192 now 4.6x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "PACS", "prev_state": "IGNITING", "state": "COOLING", "price": 46.51, "tp": 1.6336642711622866, "note": "pace 1.6x off peak 4.4x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "BCAT", "prev_state": "CHURN", "state": "COOLING", "price": 12.985, "tp": 0.5877802230841987, "note": "pace 0.6x off peak 3.0x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "RKLX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.04, "tp": 1.0136411817671438, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "COOLING", "state": "RUNNING", "price": 7.965, "tp": 1.8791952607503082, "note": "sustained 1.9x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "FOCT", "prev_state": "COOLING", "state": "RUNNING", "price": 54.73, "tp": 11.616648848036748, "note": "sustained 11.6x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "CHURN", "state": "COOLING", "price": 19.555, "tp": 0.6319332020024028, "note": "pace 0.6x off peak 102.3x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "FTF", "prev_state": "CHURN", "state": "RUNNING", "price": 5.445, "tp": 27.359184512360656, "note": "sustained 27.4x"}
+{"ts": "2026-10-16T12:14:35.959444-04:00", "demo": 0, "ticker": "CLNE", "prev_state": "IGNITING", "state": "CHURN", "price": 1.595, "tp": 13.343751853624205, "note": "13.3x participation, no progress at highs \u2014 absorption"}
