@@ -424,3 +424,5 @@
 {"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "COOLING", "state": "RUNNING", "price": 15.13, "tp": 2.2063383768960607, "note": "sustained 2.2x"}
 {"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "BALI", "prev_state": "CHURN", "state": "RUNNING", "price": 34.36, "tp": 2.6642202058333777, "note": "sustained 2.7x"}
 {"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "TBN", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.26, "tp": 3.7848889662084093, "note": "sustained 3.8x"}
+{"ts": "2026-10-16T16:11:37.667759-04:00", "demo": 0, "ticker": "VTRS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Viatris Receives U.S. FDA Approval for RYZUMVI\u00ae for the Treatment of Presbyopia"}
+{"ts": "2026-10-16T16:11:37.667759-04:00", "demo": 0, "ticker": "AIIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robo.ai Inc. Announces Reverse Stock Split and Extraordinary General Meeting on October 26, 2026"}
