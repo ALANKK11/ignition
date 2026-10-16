@@ -134,3 +134,20 @@
 {"ts": "2026-10-16T11:59:35.955958-04:00", "demo": 0, "ticker": "PACS", "prev_state": "QUIET", "state": "RUNNING", "price": 47.065, "tp": 1.8686577994573654, "note": "sustained 1.9x"}
 {"ts": "2026-10-16T11:59:35.955958-04:00", "demo": 0, "ticker": "FLRN", "prev_state": "CHURN", "state": "FADING", "price": 30.79, "tp": 5.099852732985911, "note": "pace 5.1x vs peak 24.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-16T12:00:20.941850-04:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Securities Class "}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "COOLING", "price": 10.12, "tp": 0.16333795548664945, "note": "pace 0.2x off peak 10.6x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "PACS", "prev_state": "RUNNING", "state": "NEW MONEY", "price": 46.915, "tp": 2.716842636360248, "note": "quiet open (0.6x) \u2192 now 2.7x \u00b7 taking +0.9% flow share"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "RKLX", "prev_state": "QUIET", "state": "RUNNING", "price": 9.08, "tp": 1.9781125591826485, "note": "sustained 2.0x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "ECH", "prev_state": "QUIET", "state": "NEW MONEY", "price": 37.32, "tp": 2.889130606348929, "note": "quiet open (1.0x) \u2192 now 2.9x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "COOLING", "state": "RUNNING", "price": 24.94, "tp": 2.3480233894268157, "note": "sustained 2.3x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "CLNE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.585, "tp": 10.461045653598434, "note": "sustained 10.5x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "EUAD", "prev_state": "RUNNING", "state": "FADING", "price": 41.71, "tp": 0.0, "note": "pace 0.0x vs peak 17.3x \u00b7 -0.6% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "EWJV", "prev_state": "RUNNING", "state": "COOLING", "price": 47.62, "tp": 0.0, "note": "pace 0.0x off peak 2.0x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "ACP", "prev_state": "FADING", "state": "RUNNING", "price": 4.39, "tp": 7.088697524161694, "note": "sustained 7.1x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "AMN", "prev_state": "IGNITING", "state": "RUNNING", "price": 40.555, "tp": 6.754796260504982, "note": "sustained 6.8x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "RUNNING", "price": 15.36, "tp": 2.449449599201195, "note": "sustained 2.4x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "BTT", "prev_state": "RUNNING", "state": "FADING", "price": 21.955, "tp": 0.0, "note": "pace 0.0x vs peak 11.4x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "APLX", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.84, "tp": 5.148199518648155, "note": "pace 5.1x and accelerating (6.7x vs prior window) \u00b7 -3.3% in window"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "EVAC", "prev_state": "CHURN", "state": "COOLING", "price": 10.31, "tp": 0.0, "note": "pace 0.0x off peak 159.0x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "GEF", "prev_state": "QUIET", "state": "RUNNING", "price": 81.78, "tp": 4.596528846014917, "note": "sustained 4.6x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "QUIET", "state": "RUNNING", "price": 41.275, "tp": 2.0405784852320537, "note": "sustained 2.0x"}
+{"ts": "2026-10-16T12:03:20.956775-04:00", "demo": 0, "ticker": "LRMR", "prev_state": "RUNNING", "state": "QUIET", "price": 2.03, "tp": 1.707213231792803, "note": ""}
