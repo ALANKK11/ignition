@@ -405,3 +405,22 @@
 {"ts": "2026-10-16T15:55:07.672966-04:00", "demo": 0, "ticker": "APLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.535, "tp": 4.164202983799537, "note": "sustained 4.2x"}
 {"ts": "2026-10-16T15:55:07.672966-04:00", "demo": 0, "ticker": "BALI", "prev_state": "RUNNING", "state": "CHURN", "price": 34.36, "tp": 5.493049477268081, "note": "5.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-16T15:55:07.672966-04:00", "demo": 0, "ticker": "DUSB", "prev_state": "NEW MONEY", "state": "CHURN", "price": 50.655, "tp": 19.16314464306544, "note": "19.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "INTA", "prev_state": "RUNNING", "state": "IGNITING", "price": 43.69, "tp": 4.1817445280173455, "note": "pace 4.2x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "DUSB", "prev_state": "CHURN", "state": "NEW MONEY", "price": 50.655, "tp": 25.587419943186838, "note": "quiet open (0.3x) \u2192 now 25.6x \u00b7 taking +1.6% flow share"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "AMDY", "prev_state": "IGNITING", "state": "RUNNING", "price": 42.64, "tp": 50.11691551665664, "note": "sustained 50.1x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "ADBG", "prev_state": "RUNNING", "state": "QUIET", "price": 3.84, "tp": 1.6200993317375862, "note": ""}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "BZUN", "prev_state": "RUNNING", "state": "COOLING", "price": 3.71, "tp": 1.6427481093156664, "note": "pace 1.6x off peak 4.7x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "IVES", "prev_state": "RUNNING", "state": "COOLING", "price": 38.155, "tp": 1.6154658593960345, "note": "pace 1.6x off peak 6.2x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "AVGE", "prev_state": "RUNNING", "state": "COOLING", "price": 98.49, "tp": 1.625369815378185, "note": "pace 1.6x off peak 4.3x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "CCC", "prev_state": "COOLING", "state": "RUNNING", "price": 7.61, "tp": 3.662507535179829, "note": "sustained 3.7x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "ALLT", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.02, "tp": 9.05725768316098, "note": "pace 9.1x and accelerating (1.8x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "MAGN", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 10.98, "tp": 1.8070082006895503, "note": "sustained 1.8x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "CZR", "prev_state": "RUNNING", "state": "CHURN", "price": 28.81, "tp": 3.4048127714666467, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "BSCQ", "prev_state": "RUNNING", "state": "COOLING", "price": 19.555, "tp": 0.0, "note": "pace 0.0x off peak 102.3x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "BDJ", "prev_state": "COOLING", "state": "RUNNING", "price": 9.49, "tp": 2.4966579799002675, "note": "sustained 2.5x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "APPN", "prev_state": "COOLING", "state": "RUNNING", "price": 41.2, "tp": 1.9024413705136327, "note": "sustained 1.9x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "DJD", "prev_state": "QUIET", "state": "COOLING", "price": 65.7, "tp": 1.051870201384208, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "IYZ", "prev_state": "RUNNING", "state": "COOLING", "price": 39.05, "tp": 1.307542527053928, "note": "pace 1.3x off peak 6.6x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "TBCH", "prev_state": "COOLING", "state": "RUNNING", "price": 15.13, "tp": 2.2063383768960607, "note": "sustained 2.2x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "BALI", "prev_state": "CHURN", "state": "RUNNING", "price": 34.36, "tp": 2.6642202058333777, "note": "sustained 2.7x"}
+{"ts": "2026-10-16T15:58:52.673661-04:00", "demo": 0, "ticker": "TBN", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.26, "tp": 3.7848889662084093, "note": "sustained 3.8x"}
