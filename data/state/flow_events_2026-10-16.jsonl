@@ -179,3 +179,4 @@
 {"ts": "2026-10-16T12:10:50.958068-04:00", "demo": 0, "ticker": "FEZ", "prev_state": "QUIET", "state": "RUNNING", "price": 66.16, "tp": 3.4560170833323944, "note": "sustained 3.5x"}
 {"ts": "2026-10-16T12:10:50.958068-04:00", "demo": 0, "ticker": "FXL", "prev_state": "IGNITING", "state": "RUNNING", "price": 213.49, "tp": 411.22138996595413, "note": "sustained 411.2x"}
 {"ts": "2026-10-16T12:10:50.958068-04:00", "demo": 0, "ticker": "LRMR", "prev_state": "QUIET", "state": "RUNNING", "price": 2.015, "tp": 1.9023813222484767, "note": "sustained 1.9x"}
+{"ts": "2026-10-16T12:11:35.944014-04:00", "demo": 0, "ticker": "CCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CCB INVESTOR NOTICE: Coastal Financial Corporation Investors with Substantial Losses Have Opportunity to Lead Class Acti"}
