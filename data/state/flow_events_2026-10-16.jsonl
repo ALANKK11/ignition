@@ -83,3 +83,12 @@
 {"ts": "2026-10-16T11:44:35.953335-04:00", "demo": 0, "ticker": "FIDU", "prev_state": "QUIET", "state": "RUNNING", "price": 88.99, "tp": 3.375289858615542, "note": "sustained 3.4x"}
 {"ts": "2026-10-16T11:44:35.953335-04:00", "demo": 0, "ticker": "EIS", "prev_state": "FADING", "state": "RUNNING", "price": 120.39, "tp": 98.54450780190382, "note": "sustained 98.5x"}
 {"ts": "2026-10-16T11:44:35.953335-04:00", "demo": 0, "ticker": "CCC", "prev_state": "RUNNING", "state": "COOLING", "price": 7.635, "tp": 1.4327281451439753, "note": "pace 1.4x off peak 2.4x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "APLX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.97, "tp": 0.7685548856826568, "note": "pace 0.8x off peak 5.3x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "SHO", "prev_state": "RUNNING", "state": "CHURN", "price": 12.205, "tp": 4.37965304413545, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "IYZ", "prev_state": "QUIET", "state": "COOLING", "price": 39.5, "tp": 0.4833653706819588, "note": "pace 0.5x off peak 1.9x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "MMU", "prev_state": "RUNNING", "state": "FADING", "price": 9.64, "tp": 9.101004672314835, "note": "pace 9.1x vs peak 27.5x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "RUNNING", "state": "QUIET", "price": 7.98, "tp": 1.6614506991006543, "note": ""}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "RGR", "prev_state": "IGNITING", "state": "RUNNING", "price": 42.35, "tp": 5.892154747407846, "note": "sustained 5.9x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "JMOM", "prev_state": "CHURN", "state": "RUNNING", "price": 81.03, "tp": 10.915218747755809, "note": "sustained 10.9x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "RUNNING", "state": "COOLING", "price": 25.01, "tp": 0.564992181478058, "note": "pace 0.6x off peak 8.1x"}
+{"ts": "2026-10-16T11:48:20.953830-04:00", "demo": 0, "ticker": "HIO", "prev_state": "RUNNING", "state": "FADING", "price": 3.315, "tp": 9.98705395803311, "note": "pace 10.0x vs peak 37.1x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
