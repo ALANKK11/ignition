@@ -25,3 +25,13 @@
 {"ts": "2026-10-16T11:22:05.948160-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "CHURN", "state": "RUNNING", "price": 10.12, "tp": 4.5580727943257315, "note": "sustained 4.6x"}
 {"ts": "2026-10-16T11:22:05.948160-04:00", "demo": 0, "ticker": "IRE", "prev_state": "RUNNING", "state": "COOLING", "price": 4.0, "tp": 1.733829312099419, "note": "pace 1.7x off peak 3.2x"}
 {"ts": "2026-10-16T11:22:05.948160-04:00", "demo": 0, "ticker": "APLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.99, "tp": 3.1528671203845646, "note": "sustained 3.2x"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "XSW", "prev_state": "IGNITING", "state": "RUNNING", "price": 199.28, "tp": 29.457245335053116, "note": "sustained 29.5x"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "CRWG", "prev_state": "RUNNING", "state": "COOLING", "price": 8.9, "tp": 1.4295089221010968, "note": "pace 1.4x off peak 5.3x"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "NEBX", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.55, "tp": 2.8137355460965385, "note": "pace 2.8x and accelerating (2.0x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 25.06, "tp": 2.6742835480915654, "note": "2.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "EIS", "prev_state": "RUNNING", "state": "FADING", "price": 120.35, "tp": 0.0, "note": "pace 0.0x vs peak 92.0x \u00b7 -0.2% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "RUNNING", "state": "COOLING", "price": 41.35, "tp": 1.2110574439734572, "note": "pace 1.2x off peak 2.2x"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "EBS", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.28, "tp": 6.222323054043416, "note": "pace 6.2x and accelerating (4.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "VRNS", "prev_state": "CHURN", "state": "RUNNING", "price": 48.715, "tp": 33.27884788641792, "note": "sustained 33.3x"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "RUNNING", "state": "CHURN", "price": 10.12, "tp": 4.400887552547878, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T11:25:50.948867-04:00", "demo": 0, "ticker": "TDAQ", "prev_state": "RUNNING", "state": "COOLING", "price": 26.46, "tp": 1.2533504486665497, "note": "pace 1.3x off peak 4.4x"}
