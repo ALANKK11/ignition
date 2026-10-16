@@ -122,3 +122,4 @@
 {"ts": "2026-10-16T11:55:50.955227-04:00", "demo": 0, "ticker": "CBL", "prev_state": "COOLING", "state": "FADING", "price": 49.53, "tp": 0.7507583757151127, "note": "pace 0.8x vs peak 2.4x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-16T11:55:50.955227-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "COOLING", "state": "RUNNING", "price": 77.98, "tp": 4.216398035480142, "note": "sustained 4.2x"}
 {"ts": "2026-10-16T11:55:50.955227-04:00", "demo": 0, "ticker": "IEV", "prev_state": "RUNNING", "state": "COOLING", "price": 72.02, "tp": 1.2709062777451539, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-10-16T11:57:20.941274-04:00", "demo": 0, "ticker": "BBNX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Beta Bionics (BBNX) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Befo"}
