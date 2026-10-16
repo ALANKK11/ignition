@@ -123,3 +123,4 @@
 {"ts": "2026-10-16T11:55:50.955227-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "COOLING", "state": "RUNNING", "price": 77.98, "tp": 4.216398035480142, "note": "sustained 4.2x"}
 {"ts": "2026-10-16T11:55:50.955227-04:00", "demo": 0, "ticker": "IEV", "prev_state": "RUNNING", "state": "COOLING", "price": 72.02, "tp": 1.2709062777451539, "note": "pace 1.3x off peak 2.2x"}
 {"ts": "2026-10-16T11:57:20.941274-04:00", "demo": 0, "ticker": "BBNX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Beta Bionics (BBNX) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Befo"}
+{"ts": "2026-10-16T11:58:05.941416-04:00", "demo": 0, "ticker": "LINC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "LINC INVESTOR DEADLINE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead th"}
