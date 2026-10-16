@@ -215,3 +215,20 @@
 {"ts": "2026-10-16T12:18:20.959948-04:00", "demo": 0, "ticker": "ECH", "prev_state": "NEW MONEY", "state": "CHURN", "price": 37.28, "tp": 2.591513433681713, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-16T12:18:20.959948-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 15.455, "tp": 1.3667058531147638, "note": "pace 1.4x off peak 2.5x"}
 {"ts": "2026-10-16T12:18:20.959948-04:00", "demo": 0, "ticker": "OTEX", "prev_state": "RUNNING", "state": "COOLING", "price": 25.31, "tp": 1.5616937658416548, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "CLNE", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.575, "tp": 21.137481942628817, "note": "pace 21.1x and accelerating (2.1x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "AQST", "prev_state": "COOLING", "state": "RUNNING", "price": 3.885, "tp": 1.9239661942057114, "note": "sustained 1.9x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "FEZ", "prev_state": "CHURN", "state": "RUNNING", "price": 66.155, "tp": 3.6426396612866885, "note": "sustained 3.6x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "COOLING", "state": "RUNNING", "price": 16.52, "tp": 1.8257327944958088, "note": "sustained 1.8x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "FFIN", "prev_state": "IGNITING", "state": "COOLING", "price": 30.925, "tp": 1.6730653391061767, "note": "pace 1.7x off peak 8.4x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "BDJ", "prev_state": "RUNNING", "state": "CHURN", "price": 9.505, "tp": 4.042048472722342, "note": "4.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "EBS", "prev_state": "COOLING", "state": "RUNNING", "price": 6.415, "tp": 1.811224783907159, "note": "sustained 1.8x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "ECH", "prev_state": "CHURN", "state": "RUNNING", "price": 37.27, "tp": 3.161222045925321, "note": "sustained 3.2x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "ACP", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.365, "tp": 12.044936657269636, "note": "sustained 12.0x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "CAIQ", "prev_state": "RUNNING", "state": "CHURN", "price": 24.96, "tp": 6.328805644035957, "note": "6.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "QUIET", "state": "COOLING", "price": 7.865, "tp": 1.304504929730641, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "APPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 42.08, "tp": 3.382402136889776, "note": "pace 3.4x and accelerating (3.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "CIFG", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.12, "tp": 10.476856995884111, "note": "sustained 10.5x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "CZR", "prev_state": "RUNNING", "state": "CHURN", "price": 28.94, "tp": 4.255252207726387, "note": "4.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "IYZ", "prev_state": "CHURN", "state": "RUNNING", "price": 39.445, "tp": 3.847211216218217, "note": "sustained 3.8x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "CQQQ", "prev_state": "COOLING", "state": "RUNNING", "price": 41.355, "tp": 2.022838190365944, "note": "sustained 2.0x"}
+{"ts": "2026-10-16T12:22:05.960820-04:00", "demo": 0, "ticker": "DOO", "prev_state": "CHURN", "state": "RUNNING", "price": 56.13, "tp": 3.7336680948368093, "note": "sustained 3.7x"}
