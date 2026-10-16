@@ -63,3 +63,13 @@
 {"ts": "2026-10-16T11:37:05.951631-04:00", "demo": 0, "ticker": "TDAQ", "prev_state": "COOLING", "state": "RUNNING", "price": 26.5, "tp": 2.2023290221399145, "note": "sustained 2.2x"}
 {"ts": "2026-10-16T11:37:05.951631-04:00", "demo": 0, "ticker": "FYX", "prev_state": "CHURN", "state": "RUNNING", "price": 135.7, "tp": 81.51310601497222, "note": "sustained 81.5x"}
 {"ts": "2026-10-16T11:37:05.951631-04:00", "demo": 0, "ticker": "PTIR", "prev_state": "QUIET", "state": "RUNNING", "price": 20.805, "tp": 2.7650198440012668, "note": "sustained 2.8x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "IVES", "prev_state": "COOLING", "state": "RUNNING", "price": 38.59, "tp": 2.2731766178526915, "note": "sustained 2.3x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "SHO", "prev_state": "RUNNING", "state": "CHURN", "price": 12.23, "tp": 9.166004654318291, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "EBS", "prev_state": "IGNITING", "state": "COOLING", "price": 6.375, "tp": 1.5134437505881582, "note": "pace 1.5x off peak 6.2x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "RSPH", "prev_state": "QUIET", "state": "RUNNING", "price": 38.9, "tp": 2.0633624879938415, "note": "sustained 2.1x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "IYZ", "prev_state": "RUNNING", "state": "QUIET", "price": 39.53, "tp": 1.5195673675652193, "note": ""}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "IBHF", "prev_state": "CHURN", "state": "FADING", "price": 22.505, "tp": 25.52093895494998, "note": "pace 25.5x vs peak 104.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "PLAY", "prev_state": "QUIET", "state": "RUNNING", "price": 8.015, "tp": 1.8042242035942626, "note": "sustained 1.8x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "AQST", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.855, "tp": 7.620123483970686, "note": "pace 7.6x and accelerating (2.6x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "MMU", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.64, "tp": 27.320996794642785, "note": "sustained 27.3x"}
+{"ts": "2026-10-16T11:40:50.952774-04:00", "demo": 0, "ticker": "BAND", "prev_state": "RUNNING", "state": "COOLING", "price": 42.78, "tp": 1.6727437233909377, "note": "pace 1.7x off peak 3.3x"}
