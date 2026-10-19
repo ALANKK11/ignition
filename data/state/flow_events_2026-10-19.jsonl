@@ -6,3 +6,11 @@
 {"ts": "2026-10-19T13:22:39.499272-04:00", "demo": 0, "ticker": "SLN", "prev_state": "RUNNING", "state": "CHURN", "price": 19.585, "tp": 23.11391683502557, "note": "23.1x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-19T13:22:39.499272-04:00", "demo": 0, "ticker": "EXYN", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.44, "tp": 44.3969809322287, "note": "pace 44.4x and accelerating (4.5x vs prior window) \u00b7 +1.7% in window"}
 {"ts": "2026-10-19T13:22:39.499272-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "CHURN", "state": "RUNNING", "price": 4.12, "tp": 4.860263669664915, "note": "sustained 4.9x"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "SLN", "prev_state": "CHURN", "state": "RUNNING", "price": 19.585, "tp": 16.520754496942434, "note": "sustained 16.5x"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "AAME", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.425, "tp": 572.3758436686915, "note": "sustained 572.4x"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "PLAG", "prev_state": "RUNNING", "state": "FADING", "price": 1.7, "tp": 2.4983575489778187, "note": "pace 2.5x vs peak 195.9x \u00b7 -3.4% off HOD \u00b7 chart still +159% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "IRON", "prev_state": "RUNNING", "state": "CHURN", "price": 79.2, "tp": 4.115953557564031, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "MASK", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.9901, "tp": 4.494906994480286, "note": "pace 4.5x and accelerating (6.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "HPP", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.05, "tp": 6.005642095211871, "note": "sustained 6.0x"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "QUIET", "state": "RUNNING", "price": 9.635, "tp": 2.0380671390962855, "note": "sustained 2.0x"}
+{"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "FFSM", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 33.595, "tp": 11.678675545730593, "note": "quiet open (0.8x) \u2192 now 11.7x \u00b7 taking +3.9% flow share"}
