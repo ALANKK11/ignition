@@ -14,3 +14,8 @@
 {"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "HPP", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.05, "tp": 6.005642095211871, "note": "sustained 6.0x"}
 {"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "QUIET", "state": "RUNNING", "price": 9.635, "tp": 2.0380671390962855, "note": "sustained 2.0x"}
 {"ts": "2026-10-19T13:26:24.499723-04:00", "demo": 0, "ticker": "FFSM", "prev_state": "IGNITING", "state": "NEW MONEY", "price": 33.595, "tp": 11.678675545730593, "note": "quiet open (0.8x) \u2192 now 11.7x \u00b7 taking +3.9% flow share"}
+{"ts": "2026-10-19T13:30:09.500607-04:00", "demo": 0, "ticker": "MESO", "prev_state": "QUIET", "state": "RUNNING", "price": 12.02, "tp": 1.874797288831508, "note": "sustained 1.9x"}
+{"ts": "2026-10-19T13:30:09.500607-04:00", "demo": 0, "ticker": "INLF", "prev_state": "QUIET", "state": "RUNNING", "price": 0.31, "tp": 2.8708657849592663, "note": "sustained 2.9x"}
+{"ts": "2026-10-19T13:30:09.500607-04:00", "demo": 0, "ticker": "MASK", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.9901, "tp": 2.76607678526409, "note": "sustained 2.8x"}
+{"ts": "2026-10-19T13:30:09.500607-04:00", "demo": 0, "ticker": "IRON", "prev_state": "CHURN", "state": "RUNNING", "price": 79.3, "tp": 4.411708148216294, "note": "sustained 4.4x"}
+{"ts": "2026-10-19T13:30:09.500607-04:00", "demo": 0, "ticker": "HPP", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.11, "tp": 7.933648333435781, "note": "pace 7.9x and accelerating (3.7x vs prior window) \u00b7 +0.9% in window"}
