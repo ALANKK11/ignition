@@ -31,3 +31,10 @@
 {"ts": "2026-10-19T13:33:54.501361-04:00", "demo": 0, "ticker": "AQST", "prev_state": "QUIET", "state": "RUNNING", "price": 3.765, "tp": 1.8364682768287108, "note": "sustained 1.8x"}
 {"ts": "2026-10-19T13:33:54.501361-04:00", "demo": 0, "ticker": "HPP", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.08, "tp": 3.135579358201704, "note": "sustained 3.1x"}
 {"ts": "2026-10-19T13:33:54.501361-04:00", "demo": 0, "ticker": "IRON", "prev_state": "RUNNING", "state": "IGNITING", "price": 78.0, "tp": 16.32712410035844, "note": "pace 16.3x and accelerating (3.0x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "FFSM", "prev_state": "NEW MONEY", "state": "FADING", "price": 33.605, "tp": 1.3884452133949876, "note": "pace 1.4x vs peak 13.9x \u00b7 -0.7% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "DTCR", "prev_state": "CHURN", "state": "RUNNING", "price": 25.73, "tp": 2.679584624683858, "note": "sustained 2.7x"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "SLN", "prev_state": "RUNNING", "state": "CHURN", "price": 19.585, "tp": 18.152383485465716, "note": "18.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.845, "tp": 7.301246811556115, "note": "sustained 7.3x"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "RUNNING", "state": "COOLING", "price": 9.64, "tp": 1.0325724878662441, "note": "pace 1.0x off peak 2.4x"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "FADING", "price": 4.08, "tp": 1.4528768770018463, "note": "pace 1.5x vs peak 4.9x \u00b7 -1.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.965, "tp": 0.9752683908965, "note": "pace 1.0x off peak 2.2x"}
