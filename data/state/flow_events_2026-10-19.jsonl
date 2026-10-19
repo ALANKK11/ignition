@@ -38,3 +38,11 @@
 {"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "RUNNING", "state": "COOLING", "price": 9.64, "tp": 1.0325724878662441, "note": "pace 1.0x off peak 2.4x"}
 {"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "FADING", "price": 4.08, "tp": 1.4528768770018463, "note": "pace 1.5x vs peak 4.9x \u00b7 -1.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-19T13:37:39.502245-04:00", "demo": 0, "ticker": "CDZI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.965, "tp": 0.9752683908965, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "DXUV", "prev_state": "QUIET", "state": "RUNNING", "price": 68.1, "tp": 8.963879134948705, "note": "sustained 9.0x"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "KURE", "prev_state": "RUNNING", "state": "CHURN", "price": 17.73, "tp": 14.659362142468304, "note": "14.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "CHOW", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.354, "tp": 140.4011083487724, "note": "sustained 140.4x"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "SPCM", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.4, "tp": 4.2303664028380785, "note": "pace 4.2x and accelerating (1.8x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "DTCR", "prev_state": "RUNNING", "state": "COOLING", "price": 25.71, "tp": 1.4904351053012028, "note": "pace 1.5x off peak 6.4x"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "AQST", "prev_state": "RUNNING", "state": "QUIET", "price": 3.76, "tp": 1.687750146245696, "note": ""}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "JFLX", "prev_state": "RUNNING", "state": "COOLING", "price": 48.95, "tp": 0.0, "note": "pace 0.0x off peak 9.8x"}
+{"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "PLAG", "prev_state": "FADING", "state": "IGNITING", "price": 2.63, "tp": 112.47251721684232, "note": "pace 112.5x and accelerating (45.0x vs prior window) \u00b7 +54.7% in window"}
