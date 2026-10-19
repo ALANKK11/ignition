@@ -46,3 +46,17 @@
 {"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "AQST", "prev_state": "RUNNING", "state": "QUIET", "price": 3.76, "tp": 1.687750146245696, "note": ""}
 {"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "JFLX", "prev_state": "RUNNING", "state": "COOLING", "price": 48.95, "tp": 0.0, "note": "pace 0.0x off peak 9.8x"}
 {"ts": "2026-10-19T13:41:24.503166-04:00", "demo": 0, "ticker": "PLAG", "prev_state": "FADING", "state": "IGNITING", "price": 2.63, "tp": 112.47251721684232, "note": "pace 112.5x and accelerating (45.0x vs prior window) \u00b7 +54.7% in window"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "EIDO", "prev_state": "COOLING", "state": "RUNNING", "price": 9.64, "tp": 2.297459743743575, "note": "sustained 2.3x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "COOLING", "price": 0.31, "tp": 0.0, "note": "pace 0.0x off peak 2.9x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "JFLX", "prev_state": "COOLING", "state": "RUNNING", "price": 49.01, "tp": 3.828725833797074, "note": "sustained 3.8x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "SITC", "prev_state": "QUIET", "state": "RUNNING", "price": 3.53, "tp": 2.8558484922732483, "note": "sustained 2.9x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "EYPT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.4281, "tp": 42.77861611414538, "note": "pace 42.8x and accelerating (2.3x vs prior window) \u00b7 -1.1% in window"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "IMCV", "prev_state": "QUIET", "state": "RUNNING", "price": 95.86, "tp": 12.450806907935855, "note": "sustained 12.5x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "AIBZ", "prev_state": "QUIET", "state": "RUNNING", "price": 3.03, "tp": 2.678150716776172, "note": "sustained 2.7x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "AQST", "prev_state": "QUIET", "state": "COOLING", "price": 3.755, "tp": 0.2535014583306096, "note": "pace 0.3x off peak 1.8x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "NBET", "prev_state": "RUNNING", "state": "FADING", "price": 41.03, "tp": 0.0, "note": "pace 0.0x vs peak 192.3x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "SMTI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 33.24, "tp": 1.4836059737428895, "note": "pace 1.5x off peak 3.3x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "MDXG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.335, "tp": 2.3235618320226745, "note": "sustained 2.3x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "HPP", "prev_state": "RUNNING", "state": "COOLING", "price": 9.08, "tp": 1.6313992860820627, "note": "pace 1.6x off peak 7.9x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "LBTYK", "prev_state": "QUIET", "state": "RUNNING", "price": 7.525, "tp": 1.8857277688313256, "note": "sustained 1.9x"}
+{"ts": "2026-10-19T13:45:09.504146-04:00", "demo": 0, "ticker": "DTCR", "prev_state": "COOLING", "state": "CHURN", "price": 25.73, "tp": 2.787628727593664, "note": "2.8x participation, no progress at highs \u2014 absorption"}
