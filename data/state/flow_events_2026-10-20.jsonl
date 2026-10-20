@@ -176,3 +176,16 @@
 {"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "BLK", "prev_state": "RUNNING", "state": "COOLING", "price": 1134.0, "tp": 1.7954529999203854, "note": "pace 1.8x off peak 2.5x"}
 {"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "COOLING", "state": "QUIET", "price": 15.65, "tp": 1.6183571161762471, "note": ""}
 {"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "IGNITING", "state": "COOLING", "price": 0.9525, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "GE", "prev_state": "QUIET", "state": "RUNNING", "price": 298.32, "tp": 1.9536156901309691, "note": "sustained 2.0x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.08, "tp": 3.7514394427509306, "note": "sustained 3.8x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "ESPO", "prev_state": "CHURN", "state": "FADING", "price": 101.94, "tp": 0.0, "note": "pace 0.0x vs peak 111.3x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.2408, "tp": 4.624649715970982, "note": "pace 4.6x off peak 11.6x \u00b7 VWAP lost (was +3.0% above)"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "PEB", "prev_state": "RUNNING", "state": "QUIET", "price": 20.63, "tp": 1.5727163988253814, "note": ""}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "BIRK", "prev_state": "QUIET", "state": "RUNNING", "price": 33.075, "tp": 2.1770910735061, "note": "sustained 2.2x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "KMTS", "prev_state": "COOLING", "state": "RUNNING", "price": 29.27, "tp": 1.8719735098426336, "note": "sustained 1.9x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "QUIET", "state": "COOLING", "price": 15.66, "tp": 1.1493869273022366, "note": "pace 1.1x off peak 2.0x"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "GOW", "prev_state": "FADING", "state": "LEAVING", "price": 4.07, "tp": 3.392520638677494, "note": "pace 3.4x off peak 22.5x \u00b7 VWAP lost (was +8.1% above)"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "BDN", "prev_state": "RUNNING", "state": "FADING", "price": 2.69, "tp": 1.1361518631848393, "note": "pace 1.1x vs peak 8.0x \u00b7 -0.4% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "BLK", "prev_state": "COOLING", "state": "CHURN", "price": 1133.665, "tp": 2.8214463095672864, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "FLBL", "prev_state": "FADING", "state": "CHURN", "price": 22.755, "tp": 7.800318533943475, "note": "7.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "COOLING", "price": 28.96, "tp": 0.5972883550568561, "note": "pace 0.6x off peak 1.9x"}
