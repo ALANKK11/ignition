@@ -102,3 +102,4 @@
 {"ts": "2026-10-20T12:16:51.379975-04:00", "demo": 0, "ticker": "HLT", "prev_state": "RUNNING", "state": "CHURN", "price": 358.645, "tp": 2.5289496962116793, "note": "2.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-20T12:16:51.379975-04:00", "demo": 0, "ticker": "BDN", "prev_state": "COOLING", "state": "IGNITING", "price": 2.69, "tp": 2.825152501111908, "note": "pace 2.8x and accelerating (26.5x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-10-20T12:16:51.379975-04:00", "demo": 0, "ticker": "HAS", "prev_state": "RUNNING", "state": "COOLING", "price": 104.47, "tp": 1.7130831194397942, "note": "pace 1.7x off peak 4.4x"}
+{"ts": "2026-10-20T12:18:21.368414-04:00", "demo": 0, "ticker": "FHN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "First Horizon Bank and Greenlight Bring Family Financial Tools to Kids and Teens"}
