@@ -56,3 +56,4 @@
 {"ts": "2026-10-20T11:58:06.376487-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "COOLING", "state": "RUNNING", "price": 0.9724, "tp": 3.999164920544648, "note": "sustained 4.0x"}
 {"ts": "2026-10-20T11:58:06.376487-04:00", "demo": 0, "ticker": "TSAT", "prev_state": "QUIET", "state": "IGNITING", "price": 43.16, "tp": 3.2778415501755656, "note": "pace 3.3x and accelerating (2.8x vs prior window) \u00b7 +1.2% in window"}
 {"ts": "2026-10-20T11:58:06.376487-04:00", "demo": 0, "ticker": "DJIA", "prev_state": "QUIET", "state": "RUNNING", "price": 22.61, "tp": 36.13448954404884, "note": "sustained 36.1x"}
+{"ts": "2026-10-20T11:58:51.365047-04:00", "demo": 0, "ticker": "HYLN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "HYLN Investor Alert: Johnson Fistel Encourages Hyliion Holdings Corp. Investors to Contact the Firm Ahead of October 27,"}
