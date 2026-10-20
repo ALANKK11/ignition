@@ -189,3 +189,11 @@
 {"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "BLK", "prev_state": "COOLING", "state": "CHURN", "price": 1133.665, "tp": 2.8214463095672864, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "FLBL", "prev_state": "FADING", "state": "CHURN", "price": 22.755, "tp": 7.800318533943475, "note": "7.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-20T12:43:06.384540-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "RUNNING", "state": "COOLING", "price": 28.96, "tp": 0.5972883550568561, "note": "pace 0.6x off peak 1.9x"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "COOLING", "state": "RUNNING", "price": 1.0, "tp": 5.025238816006797, "note": "sustained 5.0x"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "PEB", "prev_state": "QUIET", "state": "COOLING", "price": 20.64, "tp": 0.9799112724568597, "note": "pace 1.0x off peak 1.9x"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "XRN", "prev_state": "FADING", "state": "RUNNING", "price": 29.99, "tp": 3.819138264614335, "note": "sustained 3.8x"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "DFAS", "prev_state": "RUNNING", "state": "FADING", "price": 78.48, "tp": 1.3746873531693118, "note": "pace 1.4x vs peak 6.3x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.075, "tp": 4.050185540162814, "note": "pace 4.1x and accelerating (2.4x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "COOLING", "state": "QUIET", "price": 15.72, "tp": 1.551783928194087, "note": ""}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "EFX", "prev_state": "IGNITING", "state": "FADING", "price": 174.74, "tp": 1.7439074996697168, "note": "pace 1.7x vs peak 5.0x \u00b7 -1.7% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:46:51.385252-04:00", "demo": 0, "ticker": "TSAT", "prev_state": "COOLING", "state": "RUNNING", "price": 42.725, "tp": 3.8302626087483134, "note": "sustained 3.8x"}
