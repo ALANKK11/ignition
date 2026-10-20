@@ -84,3 +84,4 @@
 {"ts": "2026-10-20T12:09:21.378651-04:00", "demo": 0, "ticker": "TBN", "prev_state": "QUIET", "state": "RUNNING", "price": 29.955, "tp": 1.8570742810258074, "note": "sustained 1.9x"}
 {"ts": "2026-10-20T12:09:21.378651-04:00", "demo": 0, "ticker": "EWM", "prev_state": "RUNNING", "state": "FADING", "price": 26.545, "tp": 1.3503802324567191, "note": "pace 1.4x vs peak 4.5x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-20T12:09:21.378651-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.34, "tp": 0.6201752591697237, "note": "pace 0.6x off peak 2.5x"}
+{"ts": "2026-10-20T12:10:51.367130-04:00", "demo": 0, "ticker": "DOO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Phil Blurton wins inaugural American Off-Road Racing Championship UTV Pro and Limited Overall Championships while Michae"}
