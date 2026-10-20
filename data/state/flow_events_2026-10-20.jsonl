@@ -168,3 +168,11 @@
 {"ts": "2026-10-20T12:35:36.383588-04:00", "demo": 0, "ticker": "HPP", "prev_state": "COOLING", "state": "RUNNING", "price": 9.29, "tp": 2.504544829466831, "note": "sustained 2.5x"}
 {"ts": "2026-10-20T12:35:36.383588-04:00", "demo": 0, "ticker": "XRN", "prev_state": "RUNNING", "state": "FADING", "price": 29.8, "tp": 0.5617670920838645, "note": "pace 0.6x vs peak 5.5x \u00b7 -1.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-20T12:35:36.383588-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "QUIET", "state": "RUNNING", "price": 4.1, "tp": 4.779411845812458, "note": "sustained 4.8x"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "ALLW", "prev_state": "QUIET", "state": "RUNNING", "price": 28.965, "tp": 1.8537113687721074, "note": "sustained 1.9x"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.08, "tp": 5.335488058851828, "note": "pace 5.3x and accelerating (3.9x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "BDN", "prev_state": "CHURN", "state": "RUNNING", "price": 2.69, "tp": 5.790825042553382, "note": "sustained 5.8x"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "EWM", "prev_state": "RUNNING", "state": "FADING", "price": 26.565, "tp": 0.463594112009312, "note": "pace 0.5x vs peak 11.8x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "TLK", "prev_state": "RUNNING", "state": "FADING", "price": 11.6, "tp": 0.7178670118937426, "note": "pace 0.7x vs peak 4.5x \u00b7 +0.0% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "BLK", "prev_state": "RUNNING", "state": "COOLING", "price": 1134.0, "tp": 1.7954529999203854, "note": "pace 1.8x off peak 2.5x"}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "FOXF", "prev_state": "COOLING", "state": "QUIET", "price": 15.65, "tp": 1.6183571161762471, "note": ""}
+{"ts": "2026-10-20T12:39:21.383912-04:00", "demo": 0, "ticker": "GMEX", "prev_state": "IGNITING", "state": "COOLING", "price": 0.9525, "tp": 0.0, "note": "pace 0.0x off peak 10.4x"}
