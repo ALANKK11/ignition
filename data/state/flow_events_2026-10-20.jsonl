@@ -1,0 +1,7 @@
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "ORIC", "prev_state": "CHURN", "state": "RUNNING", "price": 14.135, "tp": 3.908797453975922, "note": "sustained 3.9x"}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "HTZ", "prev_state": "QUIET", "state": "RUNNING", "price": 2.055, "tp": 2.061709054918144, "note": "sustained 2.1x"}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "MSTX", "prev_state": "RUNNING", "state": "COOLING", "price": 15.475, "tp": 1.1780964296315997, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "RAIL", "prev_state": "QUIET", "state": "RUNNING", "price": 3.925, "tp": 2.033392347168106, "note": "sustained 2.0x"}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "BWX", "prev_state": "RUNNING", "state": "QUIET", "price": 21.35, "tp": 1.7551788465434985, "note": ""}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "WORX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.31, "tp": 3.546539026526767, "note": "sustained 3.5x"}
+{"ts": "2026-10-20T11:39:21.372353-04:00", "demo": 0, "ticker": "AIXI", "prev_state": "RUNNING", "state": "QUIET", "price": 3.44, "tp": 1.7285607260523856, "note": ""}
