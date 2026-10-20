@@ -36,3 +36,13 @@
 {"ts": "2026-10-20T11:50:36.374818-04:00", "demo": 0, "ticker": "RAIL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.89, "tp": 4.515417532379793, "note": "pace 4.5x and accelerating (3.1x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-10-20T11:50:36.374818-04:00", "demo": 0, "ticker": "EFX", "prev_state": "QUIET", "state": "RUNNING", "price": 176.975, "tp": 1.8195856339815561, "note": "sustained 1.8x"}
 {"ts": "2026-10-20T11:50:36.374818-04:00", "demo": 0, "ticker": "OVID", "prev_state": "QUIET", "state": "RUNNING", "price": 2.39, "tp": 1.8410721928987583, "note": "sustained 1.8x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "ORIC", "prev_state": "CHURN", "state": "RUNNING", "price": 14.035, "tp": 2.4288338309819397, "note": "sustained 2.4x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "HPP", "prev_state": "QUIET", "state": "RUNNING", "price": 9.32, "tp": 2.052601652191821, "note": "sustained 2.1x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "FSTA", "prev_state": "RUNNING", "state": "CHURN", "price": 55.41, "tp": 3.204761626772494, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "OVID", "prev_state": "RUNNING", "state": "COOLING", "price": 2.39, "tp": 0.8382767592211985, "note": "pace 0.8x off peak 1.8x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "PFFV", "prev_state": "RUNNING", "state": "FADING", "price": 21.42, "tp": 1.56511983682536, "note": "pace 1.6x vs peak 42.9x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "SPRX", "prev_state": "CHURN", "state": "COOLING", "price": 39.75, "tp": 0.8464932974194078, "note": "pace 0.8x off peak 3.9x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "AIXI", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.96, "tp": 3.3328296333018756, "note": "pace 3.3x and accelerating (1.8x vs prior window) \u00b7 -11.1% in window"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "RUNNING", "price": 16.86, "tp": 2.31177929329294, "note": "sustained 2.3x"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "CTNM", "prev_state": "FADING", "state": "LEAVING", "price": 8.35, "tp": 0.27151157684008853, "note": "pace 0.3x off peak 6.6x \u00b7 VWAP lost (was +1.6% above)"}
+{"ts": "2026-10-20T11:54:21.375478-04:00", "demo": 0, "ticker": "MSTX", "prev_state": "COOLING", "state": "QUIET", "price": 15.34, "tp": 1.7312162545307397, "note": ""}
