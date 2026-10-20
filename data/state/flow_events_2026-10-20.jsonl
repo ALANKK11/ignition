@@ -206,3 +206,4 @@
 {"ts": "2026-10-20T12:50:36.385963-04:00", "demo": 0, "ticker": "FLBL", "prev_state": "CHURN", "state": "RUNNING", "price": 22.755, "tp": 12.679595913136694, "note": "sustained 12.7x"}
 {"ts": "2026-10-20T12:50:36.385963-04:00", "demo": 0, "ticker": "BLK", "prev_state": "CHURN", "state": "RUNNING", "price": 1133.61, "tp": 1.9021044438540695, "note": "sustained 1.9x"}
 {"ts": "2026-10-20T12:50:36.385963-04:00", "demo": 0, "ticker": "FEZ", "prev_state": "RUNNING", "state": "FADING", "price": 65.63, "tp": 0.6931029247759052, "note": "pace 0.7x vs peak 3.4x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-20T16:15:52.993840-04:00", "demo": 0, "ticker": "NUE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Nucor Expands Alabama Towers &amp; Structures Facility to Meet Growing Demand for Utility Infrastructure"}
