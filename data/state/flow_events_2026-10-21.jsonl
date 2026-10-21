@@ -207,3 +207,21 @@
 {"ts": "2026-10-21T12:45:56.856620-04:00", "demo": 0, "ticker": "DSP", "prev_state": "QUIET", "state": "COOLING", "price": 13.455, "tp": 0.3733839064364459, "note": "pace 0.4x off peak 2.0x"}
 {"ts": "2026-10-21T12:45:56.856620-04:00", "demo": 0, "ticker": "ECVT", "prev_state": "CHURN", "state": "RUNNING", "price": 10.01, "tp": 2.557487251322588, "note": "sustained 2.6x"}
 {"ts": "2026-10-21T12:45:56.856620-04:00", "demo": 0, "ticker": "AUB", "prev_state": "FADING", "state": "RUNNING", "price": 38.6, "tp": 2.1104197245107352, "note": "sustained 2.1x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "LI", "prev_state": "RUNNING", "state": "COOLING", "price": 11.5, "tp": 1.7913552665590597, "note": "pace 1.8x off peak 2.7x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2089, "tp": 4.04455945119453, "note": "sustained 4.0x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "AHT", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.45, "tp": 128.15696067146152, "note": "pace 128.2x off peak 370.8x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "ARKQ", "prev_state": "COOLING", "state": "RUNNING", "price": 116.17, "tp": 4.107058995725191, "note": "sustained 4.1x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "EUSA", "prev_state": "RUNNING", "state": "FADING", "price": 115.24, "tp": 0.0, "note": "pace 0.0x vs peak 3.8x \u00b7 -0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "TTI", "prev_state": "COOLING", "state": "QUIET", "price": 5.335, "tp": 1.4310581315680972, "note": ""}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "DLO", "prev_state": "CHURN", "state": "RUNNING", "price": 15.32, "tp": 3.424566506055354, "note": "sustained 3.4x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "DFTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 35.87, "tp": 7.773712385714928, "note": "sustained 7.8x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "BDN", "prev_state": "FADING", "state": "IGNITING", "price": 2.72, "tp": 4.16688429802455, "note": "pace 4.2x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "EZBC", "prev_state": "CHURN", "state": "RUNNING", "price": 48.92, "tp": 64.66530545304059, "note": "sustained 64.7x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "FTAI", "prev_state": "IGNITING", "state": "FADING", "price": 162.88, "tp": 2.923276286620853, "note": "pace 2.9x vs peak 9.0x \u00b7 -5.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "CYPH", "prev_state": "QUIET", "state": "RUNNING", "price": 3.37, "tp": 1.833297727785783, "note": "sustained 1.8x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "SBGI", "prev_state": "QUIET", "state": "RUNNING", "price": 12.8, "tp": 1.8517959433572595, "note": "sustained 1.9x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "EVSM", "prev_state": "CHURN", "state": "RUNNING", "price": 49.625, "tp": 9.761949297580557, "note": "sustained 9.8x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "AMOD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.98, "tp": 12.761039460978816, "note": "sustained 12.8x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "SSYS", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.98, "tp": 3.7934967504777335, "note": "sustained 3.8x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "DMB", "prev_state": "FADING", "state": "RUNNING", "price": 9.815, "tp": 2.4049058807585797, "note": "sustained 2.4x"}
+{"ts": "2026-10-21T12:48:56.859987-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.62, "tp": 5.563266043767245, "note": "sustained 5.6x"}
