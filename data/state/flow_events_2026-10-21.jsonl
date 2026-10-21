@@ -240,3 +240,4 @@
 {"ts": "2026-10-21T12:51:56.859236-04:00", "demo": 0, "ticker": "CRTC", "prev_state": "RUNNING", "state": "FADING", "price": 41.42, "tp": 0.0, "note": "pace 0.0x vs peak 38.3x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-21T12:51:56.859236-04:00", "demo": 0, "ticker": "DFTX", "prev_state": "RUNNING", "state": "CHURN", "price": 35.895, "tp": 4.700551305139702, "note": "4.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-21T16:23:44.834281-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CPC Launches DripFree Connectors for Cleaner, More Efficient Printing Processes"}
+{"ts": "2026-10-21T16:40:59.847373-04:00", "demo": 0, "ticker": "STAK", "prev_state": null, "state": "AH IGNITION", "price": 1.23, "tp": null, "note": "+22% on $0.06M ext tape"}
