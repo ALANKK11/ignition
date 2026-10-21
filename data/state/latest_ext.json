@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-10-21T18:01:59-04:00", "session": "post", "rows": [{"ticker": "STAK", "last": 1.58, "gap": 0.3738, "dollars": 242318.33000000002, "vs_adv": 9.7, "new": false}, {"ticker": "NCPL", "last": 1.83, "gap": 0.1984, "dollars": 59358.68000000001, "vs_adv": 0.31, "new": false}]}
+{"v": 4, "ts": "2026-10-21T18:04:59-04:00", "session": "post", "rows": [{"ticker": "STAK", "last": 1.58, "gap": 0.3738, "dollars": 242318.33000000002, "vs_adv": 9.7, "new": false}, {"ticker": "NCPL", "last": 1.83, "gap": 0.1984, "dollars": 59358.68000000001, "vs_adv": 0.31, "new": false}]}
