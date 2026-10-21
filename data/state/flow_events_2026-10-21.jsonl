@@ -1,0 +1,5 @@
+{"ts": "2026-10-21T11:52:41.847066-04:00", "demo": 0, "ticker": "INVE", "prev_state": "RUNNING", "state": "COOLING", "price": 2.79, "tp": 1.2207229315737007, "note": "pace 1.2x off peak 3.4x"}
+{"ts": "2026-10-21T11:52:41.847066-04:00", "demo": 0, "ticker": "SPCM", "prev_state": "QUIET", "state": "RUNNING", "price": 19.76, "tp": 1.820764457818563, "note": "sustained 1.8x"}
+{"ts": "2026-10-21T11:52:41.847066-04:00", "demo": 0, "ticker": "AVEX", "prev_state": "QUIET", "state": "RUNNING", "price": 10.95, "tp": 1.922478171416908, "note": "sustained 1.9x"}
+{"ts": "2026-10-21T11:52:41.847066-04:00", "demo": 0, "ticker": "PEY", "prev_state": "QUIET", "state": "RUNNING", "price": 23.5, "tp": 2.144579697181016, "note": "sustained 2.1x"}
+{"ts": "2026-10-21T11:52:41.847066-04:00", "demo": 0, "ticker": "RCUS", "prev_state": "QUIET", "state": "RUNNING", "price": 22.025, "tp": 1.9014875461789664, "note": "sustained 1.9x"}
