@@ -126,3 +126,5 @@
 {"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "SSYS", "prev_state": "QUIET", "state": "COOLING", "price": 6.94, "tp": 1.0990649466434075, "note": "pace 1.1x off peak 2.1x"}
 {"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "RCUS", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.78, "tp": 4.857837284745385, "note": "sustained 4.9x"}
 {"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "BRZE", "prev_state": "CHURN", "state": "RUNNING", "price": 45.55, "tp": 2.2401406169677727, "note": "sustained 2.2x"}
+{"ts": "2026-10-21T12:32:26.843601-04:00", "demo": 0, "ticker": "FLNC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fluence Energy (FLNC) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Be"}
+{"ts": "2026-10-21T12:32:26.843601-04:00", "demo": 0, "ticker": "DAVA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Endava plc (DAVA) Alert: Securities Fraud Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman"}
