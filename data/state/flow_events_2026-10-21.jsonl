@@ -35,3 +35,10 @@
 {"ts": "2026-10-21T12:01:41.847854-04:00", "demo": 0, "ticker": "CBC", "prev_state": "RUNNING", "state": "COOLING", "price": 33.44, "tp": 0.9906116724126272, "note": "pace 1.0x off peak 3.3x"}
 {"ts": "2026-10-21T12:01:41.847854-04:00", "demo": 0, "ticker": "OABI", "prev_state": "COOLING", "state": "FADING", "price": 5.095, "tp": 0.5362166550581551, "note": "pace 0.5x vs peak 2.1x \u00b7 -0.5% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-21T12:01:41.847854-04:00", "demo": 0, "ticker": "TLK", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.78, "tp": 2.1891106772903473, "note": "sustained 2.2x"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "IMCR", "prev_state": "QUIET", "state": "CHURN", "price": 33.215, "tp": 7.122906463078529, "note": "7.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "PDSB", "prev_state": "RUNNING", "state": "COOLING", "price": 1.22, "tp": 1.672852763186854, "note": "pace 1.7x off peak 2.6x"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "IRON", "prev_state": "CHURN", "state": "RUNNING", "price": 79.6, "tp": 2.4311457074117486, "note": "sustained 2.4x"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "OABI", "prev_state": "FADING", "state": "COOLING", "price": 5.09, "tp": 1.2774804080321975, "note": "pace 1.3x off peak 2.1x"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "RCUS", "prev_state": "QUIET", "state": "COOLING", "price": 21.76, "tp": 0.8140829292453865, "note": "pace 0.8x off peak 2.0x"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "AVEX", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.91, "tp": 5.18718094921231, "note": "pace 5.2x and accelerating (3.1x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-10-21T12:05:26.848594-04:00", "demo": 0, "ticker": "SPHL", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.71, "tp": 93.89694620607781, "note": "pace 93.9x and accelerating (1.6x vs prior window) \u00b7 +2.5% in window"}
