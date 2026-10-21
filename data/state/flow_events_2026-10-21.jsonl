@@ -49,3 +49,4 @@
 {"ts": "2026-10-21T12:09:11.849328-04:00", "demo": 0, "ticker": "SDEV", "prev_state": "RUNNING", "state": "LEAVING", "price": 1.37, "tp": 2.5561335702807124, "note": "pace 2.6x off peak 8.7x \u00b7 VWAP lost (was +5.2% above)"}
 {"ts": "2026-10-21T12:09:11.849328-04:00", "demo": 0, "ticker": "IMCR", "prev_state": "CHURN", "state": "RUNNING", "price": 33.165, "tp": 8.859037881170012, "note": "sustained 8.9x"}
 {"ts": "2026-10-21T12:09:11.849328-04:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1927, "tp": 3.2590113400454466, "note": "pace 3.3x and accelerating (2.8x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-10-21T12:11:26.839654-04:00", "demo": 0, "ticker": "LINC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "LINC INVESTOR DEADLINE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead th"}
