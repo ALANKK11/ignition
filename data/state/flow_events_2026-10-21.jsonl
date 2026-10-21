@@ -117,3 +117,12 @@
 {"ts": "2026-10-21T12:27:11.852684-04:00", "demo": 0, "ticker": "ABT", "prev_state": "IGNITING", "state": "RUNNING", "price": 99.11, "tp": 5.41769808611359, "note": "sustained 5.4x"}
 {"ts": "2026-10-21T12:27:56.842686-04:00", "demo": 0, "ticker": "CCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Coastal Financial Corporation (CCB) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Ha"}
 {"ts": "2026-10-21T12:27:56.842686-04:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Securities Fraud "}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "BFC", "prev_state": "RUNNING", "state": "COOLING", "price": 139.745, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "DSP", "prev_state": "QUIET", "state": "RUNNING", "price": 13.48, "tp": 1.9057518885100722, "note": "sustained 1.9x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "ACYN", "prev_state": "RUNNING", "state": "FADING", "price": 20.785, "tp": 0.4586986461004707, "note": "pace 0.5x vs peak 19.4x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "DLO", "prev_state": "RUNNING", "state": "FADING", "price": 15.35, "tp": 1.3848169103353614, "note": "pace 1.4x vs peak 4.6x \u00b7 -0.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "TTI", "prev_state": "QUIET", "state": "RUNNING", "price": 5.345, "tp": 1.8029075054368955, "note": "sustained 1.8x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "OABI", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.035, "tp": 2.4563787606400647, "note": "sustained 2.5x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "SSYS", "prev_state": "QUIET", "state": "COOLING", "price": 6.94, "tp": 1.0990649466434075, "note": "pace 1.1x off peak 2.1x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "RCUS", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.78, "tp": 4.857837284745385, "note": "sustained 4.9x"}
+{"ts": "2026-10-21T12:30:11.853795-04:00", "demo": 0, "ticker": "BRZE", "prev_state": "CHURN", "state": "RUNNING", "price": 45.55, "tp": 2.2401406169677727, "note": "sustained 2.2x"}
