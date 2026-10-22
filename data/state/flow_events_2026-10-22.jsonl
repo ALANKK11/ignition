@@ -21,3 +21,4 @@
 {"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "KALU", "prev_state": "IGNITING", "state": "RUNNING", "price": 120.635, "tp": 3.700368725276013, "note": "sustained 3.7x"}
 {"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "JILL", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.95, "tp": 3.504430320546979, "note": "pace 3.5x and accelerating (70.1x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "XLAB", "prev_state": "RUNNING", "state": "QUIET", "price": 3.38, "tp": 1.6410816827667296, "note": ""}
+{"ts": "2026-10-22T12:01:33.781538-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos bringing AI advances to Pentagon logistics system"}
