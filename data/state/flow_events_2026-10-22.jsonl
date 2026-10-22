@@ -22,3 +22,10 @@
 {"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "JILL", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.95, "tp": 3.504430320546979, "note": "pace 3.5x and accelerating (70.1x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "XLAB", "prev_state": "RUNNING", "state": "QUIET", "price": 3.38, "tp": 1.6410816827667296, "note": ""}
 {"ts": "2026-10-22T12:01:33.781538-04:00", "demo": 0, "ticker": "LDOS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Leidos bringing AI advances to Pentagon logistics system"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "CRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 288.875, "tp": 3.50946485645384, "note": "sustained 3.5x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "XLAB", "prev_state": "QUIET", "state": "RUNNING", "price": 3.41, "tp": 1.8666732204964143, "note": "sustained 1.9x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "RUNNING", "price": 0.1984, "tp": 3.7498798689813833, "note": "sustained 3.7x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "JILL", "prev_state": "IGNITING", "state": "COOLING", "price": 22.95, "tp": 0.610861083790982, "note": "pace 0.6x off peak 3.5x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "SHO", "prev_state": "COOLING", "state": "RUNNING", "price": 12.515, "tp": 2.0384887945564514, "note": "sustained 2.0x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "TSLZ", "prev_state": "COOLING", "state": "RUNNING", "price": 10.395, "tp": 2.3178158473002815, "note": "sustained 2.3x"}
+{"ts": "2026-10-22T12:03:48.796591-04:00", "demo": 0, "ticker": "TTMI", "prev_state": "QUIET", "state": "RUNNING", "price": 74.8, "tp": 2.174773781864982, "note": "sustained 2.2x"}
