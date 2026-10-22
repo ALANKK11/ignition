@@ -169,3 +169,4 @@
 {"ts": "2026-10-22T12:48:48.805715-04:00", "demo": 0, "ticker": "BETR", "prev_state": "RUNNING", "state": "COOLING", "price": 16.1, "tp": 1.7610374425812003, "note": "pace 1.8x off peak 2.8x"}
 {"ts": "2026-10-22T12:48:48.805715-04:00", "demo": 0, "ticker": "CRK", "prev_state": "RUNNING", "state": "CHURN", "price": 13.72, "tp": 2.3355087225192084, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-22T16:20:36.177519-04:00", "demo": 0, "ticker": "DTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Drilling Tools International Corp. Announces 2026 Third Quarter Earnings Release and Conference Call Schedule"}
+{"ts": "2026-10-22T16:30:21.179252-04:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Urges APP Stockholders to Contact the Firm for Information About the AppLovin Corporation Class Action Lawsu"}
