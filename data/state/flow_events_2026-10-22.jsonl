@@ -15,3 +15,9 @@
 {"ts": "2026-10-22T11:56:18.794803-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "RUNNING", "state": "COOLING", "price": 4.535, "tp": 1.0584700550456823, "note": "pace 1.1x off peak 2.4x"}
 {"ts": "2026-10-22T11:56:18.794803-04:00", "demo": 0, "ticker": "CRS", "prev_state": "RUNNING", "state": "IGNITING", "price": 289.75, "tp": 5.031035072619313, "note": "pace 5.0x and accelerating (2.1x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-10-22T11:56:18.794803-04:00", "demo": 0, "ticker": "STAK", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.85, "tp": 99.41865375631821, "note": "pace 99.4x and accelerating (2.0x vs prior window) \u00b7 +12.8% in window"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "CWEB", "prev_state": "RUNNING", "state": "COOLING", "price": 16.35, "tp": 1.2354571864829662, "note": "pace 1.2x off peak 3.7x"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "CRTC", "prev_state": "QUIET", "state": "RUNNING", "price": 40.725, "tp": 11.343295932991285, "note": "sustained 11.3x"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "JCAL", "prev_state": "RUNNING", "state": "FADING", "price": 48.26, "tp": 0.0, "note": "pace 0.0x vs peak 2.7x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "KALU", "prev_state": "IGNITING", "state": "RUNNING", "price": 120.635, "tp": 3.700368725276013, "note": "sustained 3.7x"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "JILL", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.95, "tp": 3.504430320546979, "note": "pace 3.5x and accelerating (70.1x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-10-22T12:00:03.795455-04:00", "demo": 0, "ticker": "XLAB", "prev_state": "RUNNING", "state": "QUIET", "price": 3.38, "tp": 1.6410816827667296, "note": ""}
