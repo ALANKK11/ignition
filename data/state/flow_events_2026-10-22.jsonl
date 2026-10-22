@@ -53,3 +53,10 @@
 {"ts": "2026-10-22T12:11:18.798239-04:00", "demo": 0, "ticker": "DFJ", "prev_state": "RUNNING", "state": "COOLING", "price": 112.355, "tp": 0.0, "note": "pace 0.0x off peak 20.4x"}
 {"ts": "2026-10-22T12:11:18.798239-04:00", "demo": 0, "ticker": "JCAL", "prev_state": "FADING", "state": "RUNNING", "price": 48.27, "tp": 2.807586519015668, "note": "sustained 2.8x"}
 {"ts": "2026-10-22T12:11:18.798239-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "RUNNING", "state": "CHURN", "price": 70.87, "tp": 2.977143009548494, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "METQ", "prev_state": "QUIET", "state": "IGNITING", "price": 16.91, "tp": 4.729300312464491, "note": "pace 4.7x and accelerating (10.2x vs prior window) \u00b7 +2.1% in window"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "CRTC", "prev_state": "RUNNING", "state": "COOLING", "price": 40.725, "tp": 0.0, "note": "pace 0.0x off peak 11.3x"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "CHURN", "state": "FADING", "price": 70.87, "tp": 0.0, "note": "pace 0.0x vs peak 3.8x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 6.105, "tp": 2.018304834417293, "note": "sustained 2.0x"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "LDUR", "prev_state": "RUNNING", "state": "FADING", "price": 94.41, "tp": 8.4385316766751, "note": "pace 8.4x vs peak 154.0x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "BETR", "prev_state": "QUIET", "state": "RUNNING", "price": 16.34, "tp": 2.4097298438348864, "note": "sustained 2.4x"}
+{"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "IYF", "prev_state": "QUIET", "state": "RUNNING", "price": 131.36, "tp": 9.312736948314884, "note": "sustained 9.3x"}
