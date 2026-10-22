@@ -60,3 +60,11 @@
 {"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "LDUR", "prev_state": "RUNNING", "state": "FADING", "price": 94.41, "tp": 8.4385316766751, "note": "pace 8.4x vs peak 154.0x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "BETR", "prev_state": "QUIET", "state": "RUNNING", "price": 16.34, "tp": 2.4097298438348864, "note": "sustained 2.4x"}
 {"ts": "2026-10-22T12:15:03.798943-04:00", "demo": 0, "ticker": "IYF", "prev_state": "QUIET", "state": "RUNNING", "price": 131.36, "tp": 9.312736948314884, "note": "sustained 9.3x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "COOLING", "price": 0.1981, "tp": 1.6398737110005976, "note": "pace 1.6x off peak 4.6x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "HALO", "prev_state": "CHURN", "state": "RUNNING", "price": 123.29, "tp": 4.145899045675107, "note": "sustained 4.1x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "NVEC", "prev_state": "COOLING", "state": "RUNNING", "price": 70.55, "tp": 5.215750407171523, "note": "sustained 5.2x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "UCB", "prev_state": "QUIET", "state": "RUNNING", "price": 36.72, "tp": 1.8913155406036308, "note": "sustained 1.9x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "ASIC", "prev_state": "RUNNING", "state": "COOLING", "price": 24.17, "tp": 0.0, "note": "pace 0.0x off peak 7.7x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "MLTX", "prev_state": "RUNNING", "state": "FADING", "price": 12.79, "tp": 3.3699582257316223, "note": "pace 3.4x vs peak 9.9x \u00b7 -3.9% off HOD \u00b7 chart still +20% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "TSLZ", "prev_state": "RUNNING", "state": "COOLING", "price": 10.38, "tp": 1.465584039505977, "note": "pace 1.5x off peak 2.4x"}
+{"ts": "2026-10-22T12:18:48.799593-04:00", "demo": 0, "ticker": "KALU", "prev_state": "COOLING", "state": "RUNNING", "price": 116.75, "tp": 3.460799270437184, "note": "sustained 3.5x"}
