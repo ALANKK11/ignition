@@ -101,3 +101,13 @@
 {"ts": "2026-10-22T12:30:03.802047-04:00", "demo": 0, "ticker": "FSTA", "prev_state": "RUNNING", "state": "FADING", "price": 56.375, "tp": 0.0, "note": "pace 0.0x vs peak 2.7x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-22T12:30:03.802047-04:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "IGNITING", "price": 0.201, "tp": 33.831511312934936, "note": "pace 33.8x and accelerating (7.4x vs prior window) \u00b7 +2.8% in window"}
 {"ts": "2026-10-22T12:30:03.802047-04:00", "demo": 0, "ticker": "COCO", "prev_state": "RUNNING", "state": "COOLING", "price": 59.9, "tp": 1.4668874565719563, "note": "pace 1.5x off peak 3.8x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "SHO", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.61, "tp": 6.286728496996632, "note": "sustained 6.3x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "INDY", "prev_state": "FADING", "state": "CHURN", "price": 41.96, "tp": 6.454789439043792, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "BOXX", "prev_state": "CHURN", "state": "RUNNING", "price": 118.7, "tp": 2.1438737970093062, "note": "sustained 2.1x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "DLO", "prev_state": "QUIET", "state": "RUNNING", "price": 14.99, "tp": 3.212063315253561, "note": "sustained 3.2x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "UCB", "prev_state": "RUNNING", "state": "COOLING", "price": 36.725, "tp": 1.664604603737651, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "IBM", "prev_state": "QUIET", "state": "RUNNING", "price": 249.81, "tp": 2.166994563891416, "note": "sustained 2.2x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "AAXJ", "prev_state": "CHURN", "state": "RUNNING", "price": 106.23, "tp": 2.2389357373051753, "note": "sustained 2.2x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "BETR", "prev_state": "FADING", "state": "COOLING", "price": 16.27, "tp": 1.6266840523103716, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "IHE", "prev_state": "RUNNING", "state": "CHURN", "price": 105.07, "tp": 8.73565514874158, "note": "8.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-22T12:33:48.802671-04:00", "demo": 0, "ticker": "FCFS", "prev_state": "QUIET", "state": "RUNNING", "price": 192.11, "tp": 3.749133711302157, "note": "sustained 3.7x"}
