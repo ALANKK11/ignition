@@ -14,3 +14,6 @@
 {"ts": "2026-10-23T11:45:03.417755-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "FADING", "state": "RUNNING", "price": 7.02, "tp": 386.3154825475046, "note": "sustained 386.3x"}
 {"ts": "2026-10-23T11:45:03.417755-04:00", "demo": 0, "ticker": "AVTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.685, "tp": 3.9247392373495678, "note": "sustained 3.9x"}
 {"ts": "2026-10-23T11:45:03.417755-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "IGNITING", "price": 15.85, "tp": 10.506490816919419, "note": "pace 10.5x and accelerating (1.9x vs prior window) \u00b7 -3.2% in window"}
+{"ts": "2026-10-23T11:48:03.418778-04:00", "demo": 0, "ticker": "RHI", "prev_state": "IGNITING", "state": "RUNNING", "price": 45.475, "tp": 5.269249051148254, "note": "sustained 5.3x"}
+{"ts": "2026-10-23T11:48:03.418778-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.645, "tp": 4.185417058007687, "note": "sustained 4.2x"}
+{"ts": "2026-10-23T11:48:03.418778-04:00", "demo": 0, "ticker": "YMAT", "prev_state": "QUIET", "state": "COOLING", "price": 2.64, "tp": 0.7933258628079116, "note": "pace 0.8x off peak 2.1x"}
