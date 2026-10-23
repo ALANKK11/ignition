@@ -71,3 +71,10 @@
 {"ts": "2026-10-23T12:06:48.422656-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "LEAVING", "state": "FADING", "price": 6.88, "tp": 130.19186389350654, "note": "pace 130.2x vs peak 446.6x \u00b7 -8.6% off HOD \u00b7 chart still +66% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-23T12:06:48.422656-04:00", "demo": 0, "ticker": "BE", "prev_state": "QUIET", "state": "RUNNING", "price": 192.67, "tp": 1.8716259485693443, "note": "sustained 1.9x"}
 {"ts": "2026-10-23T12:06:48.422656-04:00", "demo": 0, "ticker": "CCI", "prev_state": "QUIET", "state": "RUNNING", "price": 87.12, "tp": 1.9414671064669384, "note": "sustained 1.9x"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.75, "tp": 3.0860488388896568, "note": "sustained 3.1x"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "GPUS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1824, "tp": 17.047273607373086, "note": "pace 17.0x and accelerating (3.1x vs prior window) \u00b7 +9.0% in window"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "CLIK", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.11, "tp": 21.58129090655887, "note": "pace 21.6x and accelerating (2.7x vs prior window) \u00b7 -3.9% in window"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "FADING", "state": "RUNNING", "price": 7.07, "tp": 378.38551921336455, "note": "sustained 378.4x"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "BUFP", "prev_state": "RUNNING", "state": "FADING", "price": 33.0, "tp": 0.0, "note": "pace 0.0x vs peak 38.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "RUNNING", "state": "COOLING", "price": 70.72, "tp": 0.0, "note": "pace 0.0x off peak 2.3x"}
+{"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "EOT", "prev_state": "CHURN", "state": "COOLING", "price": 15.515, "tp": 0.0, "note": "pace 0.0x off peak 10.3x"}
