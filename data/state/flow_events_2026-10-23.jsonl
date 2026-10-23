@@ -36,3 +36,13 @@
 {"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "BEG", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.11, "tp": 20.18997383498459, "note": "pace 20.2x and accelerating (4.7x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 25.865, "tp": 33.91235736915324, "note": "sustained 33.9x"}
 {"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.75, "tp": 5.69992272356968, "note": "pace 5.7x and accelerating (2.2x vs prior window) \u00b7 +4.2% in window"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "IGNITING", "state": "LEAVING", "price": 6.85, "tp": 93.90585270105278, "note": "pace 93.9x off peak 446.6x \u00b7 VWAP lost (was +3.6% above)"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "AVTX", "prev_state": "COOLING", "state": "RUNNING", "price": 6.82, "tp": 2.205284449776213, "note": "sustained 2.2x"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "QUIET", "state": "COOLING", "price": 33.62, "tp": 1.1540447944981926, "note": "pace 1.2x off peak 2.0x"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "LUCD", "prev_state": "FADING", "state": "IGNITING", "price": 0.4183, "tp": 5.777028376196841, "note": "pace 5.8x and accelerating (2.0x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "CHURN", "price": 16.22, "tp": 16.769376483846674, "note": "16.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "COOLING", "state": "RUNNING", "price": 28.4, "tp": 2.194101814162389, "note": "sustained 2.2x"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "MGNX", "prev_state": "COOLING", "state": "RUNNING", "price": 2.305, "tp": 2.9573924180845608, "note": "sustained 3.0x"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "NAUT", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.175, "tp": 2.888672785066068, "note": "pace 2.9x and accelerating (3.3x vs prior window) \u00b7 +2.8% in window"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "RUNNING", "state": "CHURN", "price": 25.855, "tp": 43.95800278985581, "note": "44.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:00:48.421339-04:00", "demo": 0, "ticker": "LKQ", "prev_state": "CHURN", "state": "RUNNING", "price": 17.995, "tp": 4.822759746753568, "note": "sustained 4.8x"}
