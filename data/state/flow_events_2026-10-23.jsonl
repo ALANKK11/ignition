@@ -175,3 +175,13 @@
 {"ts": "2026-10-23T12:33:48.428321-04:00", "demo": 0, "ticker": "BULZ", "prev_state": "QUIET", "state": "RUNNING", "price": 32.96, "tp": 2.7634284669258604, "note": "sustained 2.8x"}
 {"ts": "2026-10-23T12:33:48.428321-04:00", "demo": 0, "ticker": "CRDO", "prev_state": "IGNITING", "state": "RUNNING", "price": 150.21, "tp": 3.2250401061917295, "note": "sustained 3.2x"}
 {"ts": "2026-10-23T12:33:48.428321-04:00", "demo": 0, "ticker": "COCO", "prev_state": "RUNNING", "state": "COOLING", "price": 58.565, "tp": 1.7957968372308368, "note": "pace 1.8x off peak 3.7x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "AIOK", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.64, "tp": 4187.355623402334, "note": "pace 4187.4x and accelerating (2.4x vs prior window) \u00b7 +6.2% in window"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "LEAVING", "state": "FADING", "price": 7.11, "tp": 254.6549633680004, "note": "pace 254.7x vs peak 861.8x \u00b7 -5.6% off HOD \u00b7 chart still +72% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "CENTA", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.96, "tp": 6.836889050487493, "note": "sustained 6.8x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "FCNCA", "prev_state": "CHURN", "state": "RUNNING", "price": 2375.17, "tp": 4.158700933297685, "note": "sustained 4.2x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "CCI", "prev_state": "IGNITING", "state": "RUNNING", "price": 86.15, "tp": 7.1748571899083124, "note": "sustained 7.2x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "ZLAB", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.89, "tp": 3.734053727016328, "note": "sustained 3.7x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "AARD", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.645, "tp": 24.560657289885253, "note": "sustained 24.6x"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "BULZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.96, "tp": 2.8573785681384094, "note": "pace 2.9x and accelerating (2.8x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "KRC", "prev_state": "RUNNING", "state": "CHURN", "price": 37.135, "tp": 4.223053611865579, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "COCO", "prev_state": "COOLING", "state": "RUNNING", "price": 58.49, "tp": 2.082479968042717, "note": "sustained 2.1x"}
