@@ -235,3 +235,14 @@
 {"ts": "2026-10-23T12:48:48.431496-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "COOLING", "state": "RUNNING", "price": 70.68, "tp": 11.336570656557159, "note": "sustained 11.3x"}
 {"ts": "2026-10-23T12:48:48.431496-04:00", "demo": 0, "ticker": "BBT", "prev_state": "RUNNING", "state": "COOLING", "price": 30.005, "tp": 1.5401119007968362, "note": "pace 1.5x off peak 2.2x"}
 {"ts": "2026-10-23T12:48:48.431496-04:00", "demo": 0, "ticker": "ZLAB", "prev_state": "IGNITING", "state": "CHURN", "price": 23.84, "tp": 11.425912653708334, "note": "11.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "AZN", "prev_state": "RUNNING", "state": "COOLING", "price": 171.445, "tp": 1.523267775814535, "note": "pace 1.5x off peak 3.9x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "EAGL", "prev_state": "RUNNING", "state": "CHURN", "price": 36.32, "tp": 7.923770831804004, "note": "7.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "COOLING", "state": "RUNNING", "price": 13.47, "tp": 1.9450471032180228, "note": "sustained 1.9x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "COOLING", "state": "RUNNING", "price": 11.315, "tp": 5.316898618166703, "note": "sustained 5.3x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.345, "tp": 3.332719672321464, "note": "sustained 3.3x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "BBT", "prev_state": "COOLING", "state": "QUIET", "price": 30.01, "tp": 1.7197295633541978, "note": ""}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "SLM", "prev_state": "COOLING", "state": "IGNITING", "price": 19.605, "tp": 5.054774890760332, "note": "pace 5.1x and accelerating (2.0x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "CLIK", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.14, "tp": 2.8240659977691323, "note": "sustained 2.8x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "GRNT", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.885, "tp": 3.805050168004117, "note": "sustained 3.8x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "BE", "prev_state": "COOLING", "state": "RUNNING", "price": 192.075, "tp": 1.9346777128579107, "note": "sustained 1.9x"}
+{"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "FCNCA", "prev_state": "FADING", "state": "CHURN", "price": 2379.1, "tp": 6.154058276304259, "note": "6.2x participation, no progress at highs \u2014 absorption"}
