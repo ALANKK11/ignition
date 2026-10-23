@@ -246,3 +246,4 @@
 {"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "GRNT", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.885, "tp": 3.805050168004117, "note": "sustained 3.8x"}
 {"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "BE", "prev_state": "COOLING", "state": "RUNNING", "price": 192.075, "tp": 1.9346777128579107, "note": "sustained 1.9x"}
 {"ts": "2026-10-23T12:51:48.431714-04:00", "demo": 0, "ticker": "FCNCA", "prev_state": "FADING", "state": "CHURN", "price": 2379.1, "tp": 6.154058276304259, "note": "6.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T16:17:12.778116-04:00", "demo": 0, "ticker": "NKTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Nektar Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"}
