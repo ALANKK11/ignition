@@ -111,3 +111,4 @@
 {"ts": "2026-10-23T12:18:48.424912-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "FADING", "state": "RUNNING", "price": 16.2, "tp": 4.455106852477489, "note": "sustained 4.5x"}
 {"ts": "2026-10-23T12:18:48.424912-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.32, "tp": 4.65101829200018, "note": "sustained 4.7x"}
 {"ts": "2026-10-23T12:18:48.424912-04:00", "demo": 0, "ticker": "AARD", "prev_state": "COOLING", "state": "RUNNING", "price": 1.605, "tp": 9.205329939580245, "note": "sustained 9.2x"}
+{"ts": "2026-10-23T12:19:33.409742-04:00", "demo": 0, "ticker": "CCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Coastal Financial Corporation (CCB) Faces Securities Class Action Amid Scrutiny Over BaaS Credit Risk Management Effecti"}
