@@ -78,3 +78,11 @@
 {"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "BUFP", "prev_state": "RUNNING", "state": "FADING", "price": 33.0, "tp": 0.0, "note": "pace 0.0x vs peak 38.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "RUNNING", "state": "COOLING", "price": 70.72, "tp": 0.0, "note": "pace 0.0x off peak 2.3x"}
 {"ts": "2026-10-23T12:09:48.423740-04:00", "demo": 0, "ticker": "EOT", "prev_state": "CHURN", "state": "COOLING", "price": 15.515, "tp": 0.0, "note": "pace 0.0x off peak 10.3x"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "DECK", "prev_state": "QUIET", "state": "RUNNING", "price": 81.415, "tp": 2.657241185011988, "note": "sustained 2.7x"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "FBP", "prev_state": "RUNNING", "state": "QUIET", "price": 27.38, "tp": 1.7798174347702662, "note": ""}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "AVTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.78, "tp": 4.405416892800235, "note": "sustained 4.4x"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "RUNNING", "state": "FADING", "price": 3.75, "tp": 1.5512145811295233, "note": "pace 1.6x vs peak 5.7x \u00b7 -4.1% off HOD \u00b7 chart still +37% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "RUNNING", "state": "FADING", "price": 16.21, "tp": 4.244543452675299, "note": "pace 4.2x vs peak 16.8x \u00b7 -0.6% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "KRC", "prev_state": "FADING", "state": "CHURN", "price": 37.055, "tp": 3.3519275143253946, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "BEG", "prev_state": "COOLING", "state": "RUNNING", "price": 22.24, "tp": 9.29151904710074, "note": "sustained 9.3x"}
+{"ts": "2026-10-23T12:12:48.423763-04:00", "demo": 0, "ticker": "FLJP", "prev_state": "RUNNING", "state": "CHURN", "price": 40.155, "tp": 4.816206658792328, "note": "4.8x participation, no progress at highs \u2014 absorption"}
