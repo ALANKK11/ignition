@@ -124,3 +124,4 @@
 {"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "KRC", "prev_state": "RUNNING", "state": "IGNITING", "price": 37.15, "tp": 4.143615649680047, "note": "pace 4.1x and accelerating (1.8x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "CCI", "prev_state": "RUNNING", "state": "IGNITING", "price": 86.77, "tp": 3.750745257988655, "note": "pace 3.8x and accelerating (1.8x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "FADING", "state": "RUNNING", "price": 218.505, "tp": 3.4197064916696225, "note": "sustained 3.4x"}
+{"ts": "2026-10-23T12:22:33.410374-04:00", "demo": 0, "ticker": "LINC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lincoln Educational Services Corp. (LINC) Investors: Hagens Berman Alerts Investors to Pending Securities Class Action, "}
