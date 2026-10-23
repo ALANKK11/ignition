@@ -185,3 +185,11 @@
 {"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "BULZ", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.96, "tp": 2.8573785681384094, "note": "pace 2.9x and accelerating (2.8x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "KRC", "prev_state": "RUNNING", "state": "CHURN", "price": 37.135, "tp": 4.223053611865579, "note": "4.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-23T12:36:48.428807-04:00", "demo": 0, "ticker": "COCO", "prev_state": "COOLING", "state": "RUNNING", "price": 58.49, "tp": 2.082479968042717, "note": "sustained 2.1x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "AIOK", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.64, "tp": 2655.461369409329, "note": "sustained 2655.5x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "ENVX", "prev_state": "CHURN", "state": "RUNNING", "price": 2.79, "tp": 6.601522770111971, "note": "sustained 6.6x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "COCO", "prev_state": "RUNNING", "state": "COOLING", "price": 58.49, "tp": 1.482312572677978, "note": "pace 1.5x off peak 3.7x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "EAGL", "prev_state": "QUIET", "state": "RUNNING", "price": 36.32, "tp": 2.882274185729169, "note": "sustained 2.9x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "ZLAB", "prev_state": "RUNNING", "state": "IGNITING", "price": 23.76, "tp": 5.108480184254778, "note": "pace 5.1x and accelerating (1.8x vs prior window) \u00b7 +1.8% in window"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "BHVN", "prev_state": "QUIET", "state": "RUNNING", "price": 14.145, "tp": 1.8727869616931399, "note": "sustained 1.9x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "FBP", "prev_state": "RUNNING", "state": "COOLING", "price": 27.37, "tp": 1.3559123963283854, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-10-23T12:39:48.429240-04:00", "demo": 0, "ticker": "KRC", "prev_state": "CHURN", "state": "RUNNING", "price": 37.155, "tp": 4.3736456305544875, "note": "sustained 4.4x"}
