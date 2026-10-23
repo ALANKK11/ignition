@@ -58,3 +58,4 @@
 {"ts": "2026-10-23T12:03:48.422353-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "COOLING", "state": "RUNNING", "price": 33.685, "tp": 1.86363941840673, "note": "sustained 1.9x"}
 {"ts": "2026-10-23T12:03:48.422353-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.185, "tp": 12.835529826509251, "note": "sustained 12.8x"}
 {"ts": "2026-10-23T12:03:48.422353-04:00", "demo": 0, "ticker": "ZGN", "prev_state": "CHURN", "state": "RUNNING", "price": 13.59, "tp": 6.7083593023629415, "note": "sustained 6.7x"}
+{"ts": "2026-10-23T12:05:18.406941-04:00", "demo": 0, "ticker": "FLNC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fluence Energy (NASDAQ: FLNC) Facing Securities Class Action Amid Inability to Ramp Houston Facility"}
