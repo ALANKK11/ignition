@@ -23,3 +23,4 @@
 {"ts": "2026-10-23T11:51:03.419599-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "QUIET", "state": "RUNNING", "price": 33.57, "tp": 1.9538888725894183, "note": "sustained 2.0x"}
 {"ts": "2026-10-23T11:51:03.419599-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.61, "tp": 5.2000967919733805, "note": "pace 5.2x and accelerating (2.4x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-10-23T11:51:03.419599-04:00", "demo": 0, "ticker": "SPRX", "prev_state": "QUIET", "state": "RUNNING", "price": 37.65, "tp": 1.9412094873724597, "note": "sustained 1.9x"}
+{"ts": "2026-10-23T11:51:48.404148-04:00", "demo": 0, "ticker": "DAVA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Endava plc (DAVA) Facing Securities Class Action Amid Delayed Financials, Potential Improper Accounting, CFO On Leave"}
