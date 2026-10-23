@@ -112,3 +112,15 @@
 {"ts": "2026-10-23T12:18:48.424912-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.32, "tp": 4.65101829200018, "note": "sustained 4.7x"}
 {"ts": "2026-10-23T12:18:48.424912-04:00", "demo": 0, "ticker": "AARD", "prev_state": "COOLING", "state": "RUNNING", "price": 1.605, "tp": 9.205329939580245, "note": "sustained 9.2x"}
 {"ts": "2026-10-23T12:19:33.409742-04:00", "demo": 0, "ticker": "CCB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Coastal Financial Corporation (CCB) Faces Securities Class Action Amid Scrutiny Over BaaS Credit Risk Management Effecti"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "FCG", "prev_state": "RUNNING", "state": "COOLING", "price": 32.36, "tp": 1.2946678242476597, "note": "pace 1.3x off peak 2.0x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "ZLAB", "prev_state": "QUIET", "state": "RUNNING", "price": 23.195, "tp": 2.187577586967467, "note": "sustained 2.2x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "BEX", "prev_state": "RUNNING", "state": "IGNITING", "price": 16.05, "tp": 8.880053011393564, "note": "pace 8.9x and accelerating (2.3x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "BE", "prev_state": "QUIET", "state": "COOLING", "price": 190.945, "tp": 1.2825453653501175, "note": "pace 1.3x off peak 1.9x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "AARD", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.645, "tp": 52.33877734159072, "note": "pace 52.3x and accelerating (8.7x vs prior window) \u00b7 -4.1% in window"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "AIOK", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.84, "tp": 1746.7030333192265, "note": "sustained 1746.7x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "HTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 2.26, "tp": 1.1223930196278145, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "CHURN", "state": "COOLING", "price": 33.81, "tp": 1.6761519299857723, "note": "pace 1.7x off peak 4.6x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "FLJP", "prev_state": "CHURN", "state": "COOLING", "price": 40.07, "tp": 0.11974353846114273, "note": "pace 0.1x off peak 4.8x"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "KRC", "prev_state": "RUNNING", "state": "IGNITING", "price": 37.15, "tp": 4.143615649680047, "note": "pace 4.1x and accelerating (1.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "CCI", "prev_state": "RUNNING", "state": "IGNITING", "price": 86.77, "tp": 3.750745257988655, "note": "pace 3.8x and accelerating (1.8x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-10-23T12:21:48.425392-04:00", "demo": 0, "ticker": "AEIS", "prev_state": "FADING", "state": "RUNNING", "price": 218.505, "tp": 3.4197064916696225, "note": "sustained 3.4x"}
