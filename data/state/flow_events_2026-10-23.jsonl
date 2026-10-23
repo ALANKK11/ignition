@@ -28,3 +28,11 @@
 {"ts": "2026-10-23T11:54:48.420236-04:00", "demo": 0, "ticker": "BOLT", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.85, "tp": 446.6222415068479, "note": "pace 446.6x and accelerating (3.6x vs prior window) \u00b7 +1.6% in window"}
 {"ts": "2026-10-23T11:54:48.420236-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "QUIET", "state": "RUNNING", "price": 28.31, "tp": 2.476610113052388, "note": "sustained 2.5x"}
 {"ts": "2026-10-23T11:54:48.420236-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "RUNNING", "state": "CHURN", "price": 25.855, "tp": 31.4615122987985, "note": "31.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "LKQ", "prev_state": "RUNNING", "state": "CHURN", "price": 17.985, "tp": 4.646048201410343, "note": "4.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "EZPW", "prev_state": "RUNNING", "state": "COOLING", "price": 28.31, "tp": 1.5372339413479765, "note": "pace 1.5x off peak 2.5x"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "RUNNING", "state": "QUIET", "price": 33.57, "tp": 1.6201212834381002, "note": ""}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "MGNX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.365, "tp": 1.7223314124049078, "note": "pace 1.7x off peak 4.7x"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "NAUT", "prev_state": "QUIET", "state": "RUNNING", "price": 3.165, "tp": 2.7155795847976503, "note": "sustained 2.7x"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "BEG", "prev_state": "RUNNING", "state": "IGNITING", "price": 22.11, "tp": 20.18997383498459, "note": "pace 20.2x and accelerating (4.7x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "CHURN", "state": "RUNNING", "price": 25.865, "tp": 33.91235736915324, "note": "sustained 33.9x"}
+{"ts": "2026-10-23T11:57:48.421190-04:00", "demo": 0, "ticker": "BKYI", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.75, "tp": 5.69992272356968, "note": "pace 5.7x and accelerating (2.2x vs prior window) \u00b7 +4.2% in window"}
