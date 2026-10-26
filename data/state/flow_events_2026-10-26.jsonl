@@ -236,3 +236,12 @@
 {"ts": "2026-10-26T14:04:03.280489-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "RUNNING", "state": "COOLING", "price": 11.54, "tp": 1.6840102538730046, "note": "pace 1.7x off peak 2.9x"}
 {"ts": "2026-10-26T14:04:03.280489-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "FADING", "state": "IGNITING", "price": 4.79, "tp": 28.05411149132356, "note": "pace 28.1x and accelerating (7.2x vs prior window) \u00b7 +5.0% in window"}
 {"ts": "2026-10-26T14:04:03.280489-04:00", "demo": 0, "ticker": "BBD", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.855, "tp": 2.117406706259931, "note": "sustained 2.1x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "EMLC", "prev_state": "RUNNING", "state": "COOLING", "price": 24.595, "tp": 0.5602411932466881, "note": "pace 0.6x off peak 5.2x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "DNUT", "prev_state": "CHURN", "state": "RUNNING", "price": 2.85, "tp": 6.439780074714839, "note": "sustained 6.4x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "FLBR", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.15, "tp": 2.4207419712748894, "note": "sustained 2.4x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "CGNG", "prev_state": "RUNNING", "state": "COOLING", "price": 33.68, "tp": 0.7896921162672459, "note": "pace 0.8x off peak 10.8x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "RITM", "prev_state": "COOLING", "state": "QUIET", "price": 9.26, "tp": 1.7224125525035807, "note": ""}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "ENTA", "prev_state": "FADING", "state": "RUNNING", "price": 11.82, "tp": 2.94955449670672, "note": "sustained 2.9x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "BRZU", "prev_state": "RUNNING", "state": "COOLING", "price": 73.58, "tp": 0.0, "note": "pace 0.0x off peak 26.0x"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "FADING", "price": 5.99, "tp": 0.0, "note": "pace 0.0x vs peak 3.9x \u00b7 -0.5% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T14:07:03.281115-04:00", "demo": 0, "ticker": "BBD", "prev_state": "RUNNING", "state": "COOLING", "price": 2.87, "tp": 1.7051472288940925, "note": "pace 1.7x off peak 3.4x"}
