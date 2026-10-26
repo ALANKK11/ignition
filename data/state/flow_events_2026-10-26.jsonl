@@ -689,3 +689,13 @@
 {"ts": "2026-10-26T15:43:03.298251-04:00", "demo": 0, "ticker": "DSGR", "prev_state": "FADING", "state": "RUNNING", "price": 35.04, "tp": 2.198739297349755, "note": "sustained 2.2x"}
 {"ts": "2026-10-26T15:43:03.298251-04:00", "demo": 0, "ticker": "ASTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.84, "tp": 32.00812882249068, "note": "sustained 32.0x"}
 {"ts": "2026-10-26T15:43:03.298251-04:00", "demo": 0, "ticker": "MAMA", "prev_state": "COOLING", "state": "RUNNING", "price": 12.22, "tp": 3.0132528287088873, "note": "sustained 3.0x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "ELPC", "prev_state": "RUNNING", "state": "COOLING", "price": 11.18, "tp": 1.3232656045619964, "note": "pace 1.3x off peak 10.0x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "RUNNING", "state": "COOLING", "price": 28.66, "tp": 1.7819652308514047, "note": "pace 1.8x off peak 7.1x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "CHURN", "state": "RUNNING", "price": 22.155, "tp": 1.9510700797951974, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "CWBC", "prev_state": "FADING", "state": "RUNNING", "price": 26.19, "tp": 2.004891066213142, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "CLM", "prev_state": "RUNNING", "state": "COOLING", "price": 5.875, "tp": 1.7255539203551296, "note": "pace 1.7x off peak 9.3x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "CHURN", "state": "IGNITING", "price": 33.325, "tp": 2.9715553079618306, "note": "pace 3.0x and accelerating (1.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "RUNNING", "state": "COOLING", "price": 10.465, "tp": 1.6429672894325824, "note": "pace 1.6x off peak 57.3x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "RUNNING", "state": "COOLING", "price": 4.685, "tp": 1.6516341361637055, "note": "pace 1.7x off peak 13.8x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "RUNNING", "price": 0.1766, "tp": 2.3908588618041478, "note": "sustained 2.4x"}
+{"ts": "2026-10-26T15:46:03.298197-04:00", "demo": 0, "ticker": "OLMA", "prev_state": "RUNNING", "state": "COOLING", "price": 6.635, "tp": 1.7335175962727343, "note": "pace 1.7x off peak 3.5x"}
