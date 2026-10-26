@@ -8,3 +8,13 @@
 {"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "RCT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1226, "tp": 173.323242635789, "note": "pace 173.3x and accelerating (1.7x vs prior window) \u00b7 +2.3% in window"}
 {"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "CLB", "prev_state": "QUIET", "state": "RUNNING", "price": 10.315, "tp": 2.1436239756070865, "note": "sustained 2.1x"}
 {"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "REI", "prev_state": "QUIET", "state": "RUNNING", "price": 1.395, "tp": 1.8782730331724307, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.78, "tp": 11.547345419772151, "note": "sustained 11.5x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.14, "tp": 1.8151652277832564, "note": "sustained 1.8x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "EAF", "prev_state": "CHURN", "state": "RUNNING", "price": 11.22, "tp": 4.460920352119527, "note": "sustained 4.5x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "XP", "prev_state": "RUNNING", "state": "CHURN", "price": 15.765, "tp": 6.72823128931392, "note": "6.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "SGRY", "prev_state": "CHURN", "state": "RUNNING", "price": 23.155, "tp": 11.890507792098601, "note": "sustained 11.9x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "BAK", "prev_state": "RUNNING", "state": "COOLING", "price": 1.095, "tp": 1.234288062512152, "note": "pace 1.2x off peak 2.4x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "LUCD", "prev_state": "CHURN", "state": "RUNNING", "price": 0.5495, "tp": 4.011368846498377, "note": "sustained 4.0x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "QUIET", "state": "RUNNING", "price": 11.51, "tp": 2.009017782190641, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "WEST", "prev_state": "QUIET", "state": "IGNITING", "price": 9.85, "tp": 3.96903930949148, "note": "pace 4.0x and accelerating (2.6x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "BBD", "prev_state": "QUIET", "state": "RUNNING", "price": 2.895, "tp": 2.5382773679111628, "note": "sustained 2.5x"}
