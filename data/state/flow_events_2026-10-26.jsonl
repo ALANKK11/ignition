@@ -18,3 +18,12 @@
 {"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "QUIET", "state": "RUNNING", "price": 11.51, "tp": 2.009017782190641, "note": "sustained 2.0x"}
 {"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "WEST", "prev_state": "QUIET", "state": "IGNITING", "price": 9.85, "tp": 3.96903930949148, "note": "pace 4.0x and accelerating (2.6x vs prior window) \u00b7 +0.7% in window"}
 {"ts": "2026-10-26T13:14:33.271011-04:00", "demo": 0, "ticker": "BBD", "prev_state": "QUIET", "state": "RUNNING", "price": 2.895, "tp": 2.5382773679111628, "note": "sustained 2.5x"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "OII", "prev_state": "QUIET", "state": "CHURN", "price": 40.62, "tp": 2.5909363741146145, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "RUNNING", "state": "QUIET", "price": 20.23, "tp": 1.455293905609506, "note": ""}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "SPRC", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.47, "tp": 16.665347990908323, "note": "sustained 16.7x"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "XP", "prev_state": "CHURN", "state": "IGNITING", "price": 15.865, "tp": 7.947703808105695, "note": "pace 7.9x and accelerating (2.0x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "ARHS", "prev_state": "RUNNING", "state": "COOLING", "price": 11.52, "tp": 1.0340519282456384, "note": "pace 1.0x off peak 2.0x"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "HUN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.05, "tp": 1.9252480349614072, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.55, "tp": 9.814261395263896, "note": "pace 9.8x and accelerating (1.6x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "INTR", "prev_state": "QUIET", "state": "RUNNING", "price": 4.51, "tp": 2.5507082077812893, "note": "sustained 2.6x"}
+{"ts": "2026-10-26T13:17:33.271908-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 5.76, "tp": 1.4104471591311118, "note": "pace 1.4x off peak 2.5x"}
