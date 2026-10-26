@@ -208,3 +208,13 @@
 {"ts": "2026-10-26T13:57:18.279415-04:00", "demo": 0, "ticker": "FLBR", "prev_state": "QUIET", "state": "IGNITING", "price": 21.15, "tp": 4.206306355493818, "note": "pace 4.2x and accelerating (84.1x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-10-26T13:57:18.279415-04:00", "demo": 0, "ticker": "BRZU", "prev_state": "IGNITING", "state": "RUNNING", "price": 73.58, "tp": 24.554530532852844, "note": "sustained 24.6x"}
 {"ts": "2026-10-26T13:57:18.279415-04:00", "demo": 0, "ticker": "FDV", "prev_state": "RUNNING", "state": "COOLING", "price": 33.96, "tp": 0.0, "note": "pace 0.0x off peak 46.5x"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "AGBK", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.55, "tp": 10.035520935584229, "note": "pace 10.0x and accelerating (2.1x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "IGNITING", "state": "RUNNING", "price": 15.41, "tp": 4.678116186256001, "note": "sustained 4.7x"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "RUNNING", "state": "CHURN", "price": 33.32, "tp": 2.3417774180579434, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "EWA", "prev_state": "CHURN", "state": "RUNNING", "price": 29.275, "tp": 8.323601319269477, "note": "sustained 8.3x"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 5.76, "tp": 1.256031473745192, "note": "pace 1.3x off peak 2.5x"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "OII", "prev_state": "RUNNING", "state": "COOLING", "price": 40.67, "tp": 1.498405394503849, "note": "pace 1.5x off peak 2.6x"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "CIG", "prev_state": "CHURN", "state": "IGNITING", "price": 1.88, "tp": 4.203356974958577, "note": "pace 4.2x and accelerating (6.0x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "CGNT", "prev_state": "COOLING", "state": "FADING", "price": 10.095, "tp": 0.6291909852129469, "note": "pace 0.6x vs peak 3.0x \u00b7 -3.7% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "RITM", "prev_state": "COOLING", "state": "QUIET", "price": 9.265, "tp": 1.667098421920089, "note": ""}
+{"ts": "2026-10-26T14:00:18.279970-04:00", "demo": 0, "ticker": "BBD", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.865, "tp": 2.938586197660706, "note": "pace 2.9x and accelerating (1.8x vs prior window) \u00b7 +0.5% in window"}
