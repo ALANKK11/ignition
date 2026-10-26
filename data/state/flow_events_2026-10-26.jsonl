@@ -307,3 +307,4 @@
 {"ts": "2026-10-26T14:19:48.283765-04:00", "demo": 0, "ticker": "IEP", "prev_state": "FADING", "state": "COOLING", "price": 5.75, "tp": 0.2083056155721575, "note": "pace 0.2x off peak 2.5x"}
 {"ts": "2026-10-26T14:19:48.283765-04:00", "demo": 0, "ticker": "BBD", "prev_state": "COOLING", "state": "RUNNING", "price": 2.87, "tp": 3.041289469082012, "note": "sustained 3.0x"}
 {"ts": "2026-10-26T14:19:48.283765-04:00", "demo": 0, "ticker": "CLOZ", "prev_state": "COOLING", "state": "RUNNING", "price": 25.855, "tp": 5.079548404844742, "note": "sustained 5.1x"}
+{"ts": "2026-10-26T14:20:33.274042-04:00", "demo": 0, "ticker": "FRHC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Freedom Holding Corp. avanza en el desarrollo de infraestructura de IA en Kazajist\u00e1n"}
