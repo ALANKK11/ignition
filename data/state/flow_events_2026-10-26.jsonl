@@ -673,3 +673,4 @@
 {"ts": "2026-10-26T15:39:18.297541-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.67, "tp": 6.231501053791648, "note": "sustained 6.2x"}
 {"ts": "2026-10-26T15:39:18.297541-04:00", "demo": 0, "ticker": "OLMA", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.65, "tp": 2.501425457763107, "note": "sustained 2.5x"}
 {"ts": "2026-10-26T15:39:18.297541-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "COOLING", "state": "FADING", "price": 5.88, "tp": 1.383034269844669, "note": "pace 1.4x vs peak 6.1x \u00b7 -2.9% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T15:40:03.288239-04:00", "demo": 0, "ticker": "FRHC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Freedom Holding Corp. treibt den Ausbau der KI-Infrastruktur in Kasachstan voran"}
