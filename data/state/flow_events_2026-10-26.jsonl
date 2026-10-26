@@ -393,3 +393,20 @@
 {"ts": "2026-10-26T14:35:33.285778-04:00", "demo": 0, "ticker": "BLV", "prev_state": "RUNNING", "state": "CHURN", "price": 65.135, "tp": 16.909622197229805, "note": "16.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-26T14:35:33.285778-04:00", "demo": 0, "ticker": "SHBI", "prev_state": "COOLING", "state": "RUNNING", "price": 22.75, "tp": 2.79344573074323, "note": "sustained 2.8x"}
 {"ts": "2026-10-26T14:35:33.285778-04:00", "demo": 0, "ticker": "UWMC", "prev_state": "RUNNING", "state": "COOLING", "price": 1.415, "tp": 1.7686715441341705, "note": "pace 1.8x off peak 5.5x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "EWZS", "prev_state": "COOLING", "state": "RUNNING", "price": 11.32, "tp": 1.9234749173172099, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "ENTA", "prev_state": "RUNNING", "state": "CHURN", "price": 11.82, "tp": 2.314961889985673, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "AFYA", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.33, "tp": 32.80713603382527, "note": "sustained 32.8x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "CIG", "prev_state": "RUNNING", "state": "CHURN", "price": 1.89, "tp": 5.259651119751923, "note": "5.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "DXD", "prev_state": "RUNNING", "state": "CHURN", "price": 17.25, "tp": 3.2347538259923443, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "CHURN", "price": 5.635, "tp": 4.951739576612095, "note": "5.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "HUN", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.975, "tp": 3.389820809481703, "note": "sustained 3.4x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "AMKR", "prev_state": "IGNITING", "state": "RUNNING", "price": 37.345, "tp": 12.51775443941468, "note": "sustained 12.5x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "RUNNING", "state": "COOLING", "price": 22.155, "tp": 0.0, "note": "pace 0.0x off peak 48.1x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "RUNNING", "state": "CHURN", "price": 33.305, "tp": 2.5849587310403868, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "CATX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.275, "tp": 1.1923825970008015, "note": "pace 1.2x off peak 7.1x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "INLF", "prev_state": "QUIET", "state": "RUNNING", "price": 0.1775, "tp": 2.0054557185036996, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "BLV", "prev_state": "CHURN", "state": "FADING", "price": 65.125, "tp": 9.88872375956016, "note": "pace 9.9x vs peak 47.1x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "BRZU", "prev_state": "RUNNING", "state": "IGNITING", "price": 76.91, "tp": 8.166499369687399, "note": "pace 8.2x and accelerating (163.3x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "ARKB", "prev_state": "COOLING", "state": "CHURN", "price": 26.55, "tp": 4.172766518967023, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "FCFS", "prev_state": "IGNITING", "state": "COOLING", "price": 173.87, "tp": 1.5715751852961781, "note": "pace 1.6x off peak 4.0x"}
+{"ts": "2026-10-26T14:39:18.286656-04:00", "demo": 0, "ticker": "DSGR", "prev_state": "CHURN", "state": "RUNNING", "price": 35.02, "tp": 2.132136154768769, "note": "sustained 2.1x"}
