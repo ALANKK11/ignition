@@ -591,3 +591,11 @@
 {"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "FADING", "state": "IGNITING", "price": 5.81, "tp": 4.469512698524705, "note": "pace 4.5x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "WEST", "prev_state": "COOLING", "state": "RUNNING", "price": 9.73, "tp": 1.9068773050921208, "note": "sustained 1.9x"}
 {"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "OII", "prev_state": "FADING", "state": "CHURN", "price": 40.52, "tp": 2.9578148608666255, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "CGNT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.06, "tp": 1.5903439538155906, "note": "pace 1.6x off peak 3.0x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.95, "tp": 41.832927355156066, "note": "sustained 41.8x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "CRF", "prev_state": "CHURN", "state": "RUNNING", "price": 5.655, "tp": 3.7725741636287693, "note": "sustained 3.8x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "RUNNING", "state": "COOLING", "price": 28.53, "tp": 1.741111863781884, "note": "pace 1.7x off peak 7.1x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "DUHP", "prev_state": "RUNNING", "state": "FADING", "price": 42.43, "tp": 8.86313150759406, "note": "pace 8.9x vs peak 26.5x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "BAK", "prev_state": "RUNNING", "state": "COOLING", "price": 1.065, "tp": 0.1372749064940673, "note": "pace 0.1x off peak 21.3x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "OII", "prev_state": "CHURN", "state": "RUNNING", "price": 40.595, "tp": 3.0832335269261555, "note": "sustained 3.1x"}
+{"ts": "2026-10-26T15:22:03.294075-04:00", "demo": 0, "ticker": "WEST", "prev_state": "RUNNING", "state": "COOLING", "price": 9.73, "tp": 1.4503970392521552, "note": "pace 1.5x off peak 12.6x"}
