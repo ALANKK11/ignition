@@ -574,3 +574,20 @@
 {"ts": "2026-10-26T15:15:18.293028-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "CHURN", "price": 5.635, "tp": 4.7396846622562006, "note": "4.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-26T15:15:18.293028-04:00", "demo": 0, "ticker": "SA", "prev_state": "RUNNING", "state": "FADING", "price": 25.555, "tp": 1.243974776833613, "note": "pace 1.2x vs peak 18.1x \u00b7 -1.6% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-26T15:15:18.293028-04:00", "demo": 0, "ticker": "WEST", "prev_state": "RUNNING", "state": "COOLING", "price": 9.74, "tp": 1.26653061469781, "note": "pace 1.3x off peak 12.6x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "CIG", "prev_state": "COOLING", "state": "RUNNING", "price": 1.885, "tp": 5.665793528848849, "note": "sustained 5.7x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "DXD", "prev_state": "CHURN", "state": "RUNNING", "price": 17.28, "tp": 4.5965822031008265, "note": "sustained 4.6x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "CART", "prev_state": "COOLING", "state": "RUNNING", "price": 53.83, "tp": 2.055130609483118, "note": "sustained 2.1x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "CLRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.05, "tp": 45.74445487750559, "note": "pace 45.7x and accelerating (2.1x vs prior window) \u00b7 -1.9% in window"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "BIL", "prev_state": "CHURN", "state": "FADING", "price": 91.64, "tp": 3.0509119480971996, "note": "pace 3.1x vs peak 9.8x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "DG", "prev_state": "IGNITING", "state": "RUNNING", "price": 125.6, "tp": 5.864258810411372, "note": "sustained 5.9x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "CGNT", "prev_state": "FADING", "state": "RUNNING", "price": 10.08, "tp": 1.9002172999957136, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "CTEV", "prev_state": "QUIET", "state": "COOLING", "price": 22.24, "tp": 0.0, "note": "pace 0.0x off peak 2.0x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "DGT", "prev_state": "RUNNING", "state": "COOLING", "price": 189.215, "tp": 0.0, "note": "pace 0.0x off peak 106.0x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "COOLING", "state": "RUNNING", "price": 28.48, "tp": 1.836006567835613, "note": "sustained 1.8x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "ENTA", "prev_state": "RUNNING", "state": "FADING", "price": 11.76, "tp": 0.5650114876113591, "note": "pace 0.6x vs peak 4.2x \u00b7 -2.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "AVBP", "prev_state": "COOLING", "state": "RUNNING", "price": 15.51, "tp": 1.932526626673719, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "EWZ", "prev_state": "CHURN", "state": "RUNNING", "price": 34.07, "tp": 5.458424957308665, "note": "sustained 5.5x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "UWMC", "prev_state": "RUNNING", "state": "COOLING", "price": 1.43, "tp": 1.0291185685265436, "note": "pace 1.0x off peak 5.5x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "FADING", "state": "IGNITING", "price": 5.81, "tp": 4.469512698524705, "note": "pace 4.5x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "WEST", "prev_state": "COOLING", "state": "RUNNING", "price": 9.73, "tp": 1.9068773050921208, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T15:19:03.293978-04:00", "demo": 0, "ticker": "OII", "prev_state": "FADING", "state": "CHURN", "price": 40.52, "tp": 2.9578148608666255, "note": "3.0x participation, no progress at highs \u2014 absorption"}
