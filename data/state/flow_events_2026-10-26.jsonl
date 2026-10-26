@@ -775,3 +775,5 @@
 {"ts": "2026-10-26T15:58:48.300591-04:00", "demo": 0, "ticker": "SHBI", "prev_state": "COOLING", "state": "RUNNING", "price": 22.75, "tp": 3.0301394115964713, "note": "sustained 3.0x"}
 {"ts": "2026-10-26T15:58:48.300591-04:00", "demo": 0, "ticker": "MRTN", "prev_state": "COOLING", "state": "FADING", "price": 11.775, "tp": 0.6800969521327681, "note": "pace 0.7x vs peak 2.1x \u00b7 -1.9% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-26T15:58:48.300591-04:00", "demo": 0, "ticker": "OLMA", "prev_state": "RUNNING", "state": "COOLING", "price": 6.605, "tp": 1.6476462637816747, "note": "pace 1.6x off peak 3.5x"}
+{"ts": "2026-10-26T16:10:48.293383-04:00", "demo": 0, "ticker": "FTK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Flotek Receives EPA Approval For VeraCAL Flare Monitoring At Petroleum Refineries"}
+{"ts": "2026-10-26T16:10:48.293383-04:00", "demo": 0, "ticker": "AIIO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robo.ai Inc. Announces Results of Extraordinary General Meeting"}
