@@ -1,1 +1,10 @@
 {"ts": "2026-10-26T13:08:33.261572-04:00", "demo": 0, "ticker": "UFPI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "UFP Industries Expands Pallet Manufacturing Network Through Acquisition of Apache Products"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "UWMC", "prev_state": "RUNNING", "state": "QUIET", "price": 1.42, "tp": 1.634365323194734, "note": ""}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "EAF", "prev_state": "IGNITING", "state": "CHURN", "price": 11.34, "tp": 4.53957535313437, "note": "4.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "SGRY", "prev_state": "RUNNING", "state": "CHURN", "price": 23.14, "tp": 11.13362328481946, "note": "11.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "ACYS", "prev_state": "QUIET", "state": "CHURN", "price": 20.48, "tp": 2.3324695423535613, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "LUCD", "prev_state": "RUNNING", "state": "CHURN", "price": 0.545, "tp": 2.3871751965594346, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "PHAT", "prev_state": "QUIET", "state": "RUNNING", "price": 5.865, "tp": 3.255017004528685, "note": "sustained 3.3x"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "RCT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1226, "tp": 173.323242635789, "note": "pace 173.3x and accelerating (1.7x vs prior window) \u00b7 +2.3% in window"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "CLB", "prev_state": "QUIET", "state": "RUNNING", "price": 10.315, "tp": 2.1436239756070865, "note": "sustained 2.1x"}
+{"ts": "2026-10-26T13:11:33.270106-04:00", "demo": 0, "ticker": "REI", "prev_state": "QUIET", "state": "RUNNING", "price": 1.395, "tp": 1.8782730331724307, "note": "sustained 1.9x"}
