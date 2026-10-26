@@ -455,3 +455,14 @@
 {"ts": "2026-10-26T14:49:03.287740-04:00", "demo": 0, "ticker": "BSJR", "prev_state": "COOLING", "state": "CHURN", "price": 22.155, "tp": 7.238174612191655, "note": "7.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-26T14:49:03.287740-04:00", "demo": 0, "ticker": "EGBN", "prev_state": "RUNNING", "state": "COOLING", "price": 33.31, "tp": 1.7123139483368064, "note": "pace 1.7x off peak 6.9x"}
 {"ts": "2026-10-26T14:49:03.287740-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.51, "tp": 2.6428390711294965, "note": "sustained 2.6x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "DRVN", "prev_state": "QUIET", "state": "RUNNING", "price": 11.685, "tp": 1.8830810060394572, "note": "sustained 1.9x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "RUNNING", "state": "COOLING", "price": 28.54, "tp": 0.8804442244750077, "note": "pace 0.9x off peak 7.1x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "COOLING", "state": "RUNNING", "price": 4.855, "tp": 1.9907308117757383, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "CRS", "prev_state": "RUNNING", "state": "CHURN", "price": 293.67, "tp": 55.67454146219199, "note": "55.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "AGYS", "prev_state": "COOLING", "state": "FADING", "price": 122.33, "tp": 2.7371535016985566, "note": "pace 2.7x vs peak 21.5x \u00b7 -2.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "ENVX", "prev_state": "COOLING", "state": "RUNNING", "price": 2.74, "tp": 2.0225581996699944, "note": "sustained 2.0x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "CATX", "prev_state": "COOLING", "state": "RUNNING", "price": 1.275, "tp": 2.3788316145557826, "note": "sustained 2.4x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "BBD", "prev_state": "RUNNING", "state": "LEAVING", "price": 2.855, "tp": 2.27610007156816, "note": "pace 2.3x off peak 4.3x \u00b7 VWAP lost (was +1.5% above)"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "EQT", "prev_state": "CHURN", "state": "RUNNING", "price": 54.66, "tp": 5.266014048913167, "note": "sustained 5.3x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "ARKB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.52, "tp": 0.7218490941907069, "note": "pace 0.7x off peak 12.8x"}
+{"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "CHURN", "state": "RUNNING", "price": 44.075, "tp": 3.5827738260665964, "note": "sustained 3.6x"}
