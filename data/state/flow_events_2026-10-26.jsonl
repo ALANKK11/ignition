@@ -466,3 +466,10 @@
 {"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "EQT", "prev_state": "CHURN", "state": "RUNNING", "price": 54.66, "tp": 5.266014048913167, "note": "sustained 5.3x"}
 {"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "ARKB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.52, "tp": 0.7218490941907069, "note": "pace 0.7x off peak 12.8x"}
 {"ts": "2026-10-26T14:52:03.288255-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "CHURN", "state": "RUNNING", "price": 44.075, "tp": 3.5827738260665964, "note": "sustained 3.6x"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "BRZU", "prev_state": "COOLING", "state": "RUNNING", "price": 76.4, "tp": 6.83942895334912, "note": "sustained 6.8x"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "CHURN", "price": 5.635, "tp": 6.469106057463484, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "BEP", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.63, "tp": 14.636652282447026, "note": "sustained 14.6x"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "ENVX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.735, "tp": 1.7432733517155408, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "AXTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.68, "tp": 2.934853070697028, "note": "sustained 2.9x"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "BMNZ", "prev_state": "RUNNING", "state": "FADING", "price": 5.99, "tp": 0.0, "note": "pace 0.0x vs peak 3.9x \u00b7 -0.5% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-26T14:55:03.292585-04:00", "demo": 0, "ticker": "DRVN", "prev_state": "RUNNING", "state": "QUIET", "price": 11.685, "tp": 1.6506217528653961, "note": ""}
