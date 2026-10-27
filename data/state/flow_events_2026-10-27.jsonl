@@ -25,3 +25,13 @@
 {"ts": "2026-10-27T12:18:20.030833-04:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "FADING", "price": 0.1794, "tp": 2.3514641246171983, "note": "pace 2.4x vs peak 6.7x \u00b7 -0.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-27T12:18:20.030833-04:00", "demo": 0, "ticker": "SOFX", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.415, "tp": 3.801522306770027, "note": "sustained 3.8x"}
 {"ts": "2026-10-27T12:18:20.030833-04:00", "demo": 0, "ticker": "SXTP", "prev_state": "IGNITING", "state": "COOLING", "price": 0.742, "tp": 0.0, "note": "pace 0.0x off peak 8.0x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "MFIC", "prev_state": "RUNNING", "state": "CHURN", "price": 10.34, "tp": 17.33692387510906, "note": "17.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "ENVX", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.275, "tp": 2.0053310623502916, "note": "sustained 2.0x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "DRIP", "prev_state": "CHURN", "state": "RUNNING", "price": 29.86, "tp": 3.1102642064244113, "note": "sustained 3.1x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "SVV", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.06, "tp": 2.8002271868888062, "note": "pace 2.8x and accelerating (2.3x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "OSPN", "prev_state": "COOLING", "state": "RUNNING", "price": 20.275, "tp": 2.7276858075869135, "note": "sustained 2.7x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "HE", "prev_state": "COOLING", "state": "RUNNING", "price": 8.315, "tp": 2.4945940441614813, "note": "sustained 2.5x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.215, "tp": 46.94805944846093, "note": "pace 46.9x and accelerating (939.0x vs prior window) \u00b7 +5.0% in window"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "CTMX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.32, "tp": 2.6725741302806445, "note": "sustained 2.7x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "GBX", "prev_state": "QUIET", "state": "RUNNING", "price": 36.65, "tp": 2.266725461989705, "note": "sustained 2.3x"}
+{"ts": "2026-10-27T12:22:05.031780-04:00", "demo": 0, "ticker": "NBIZ", "prev_state": "QUIET", "state": "RUNNING", "price": 33.06, "tp": 1.9131236547286332, "note": "sustained 1.9x"}
