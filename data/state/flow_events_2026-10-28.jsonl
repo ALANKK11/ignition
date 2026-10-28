@@ -1,0 +1,6 @@
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "PODC", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.35, "tp": 168.4201525053275, "note": "pace 168.4x and accelerating (3.2x vs prior window) \u00b7 +4.7% in window"}
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "BOOM", "prev_state": "RUNNING", "state": "CHURN", "price": 7.42, "tp": 5.381650853620291, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "OPRA", "prev_state": "QUIET", "state": "IGNITING", "price": 18.435, "tp": 4.032500268235005, "note": "pace 4.0x and accelerating (4.2x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "INBX", "prev_state": "QUIET", "state": "RUNNING", "price": 72.445, "tp": 2.5972737976372486, "note": "sustained 2.6x"}
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "OSW", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.485, "tp": 3.528290144267181, "note": "pace 3.5x and accelerating (8.3x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-10-28T13:02:48.155784-04:00", "demo": 0, "ticker": "BNC", "prev_state": "RUNNING", "state": "COOLING", "price": 5.5, "tp": 1.6209992489756457, "note": "pace 1.6x off peak 2.8x"}
