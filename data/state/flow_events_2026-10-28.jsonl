@@ -92,3 +92,15 @@
 {"ts": "2026-10-28T13:25:18.161117-04:00", "demo": 0, "ticker": "HOOW", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.77, "tp": 3.0788164945150034, "note": "pace 3.1x and accelerating (61.6x vs prior window) \u00b7 -0.6% in window"}
 {"ts": "2026-10-28T13:25:18.161117-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "CHURN", "state": "RUNNING", "price": 11.04, "tp": 2.366324754668995, "note": "sustained 2.4x"}
 {"ts": "2026-10-28T13:25:18.161117-04:00", "demo": 0, "ticker": "ARTV", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.33, "tp": 8.156182843635076, "note": "pace 8.2x and accelerating (8.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "ADVB", "prev_state": "IGNITING", "state": "COOLING", "price": 2.98, "tp": 0.0, "note": "pace 0.0x off peak 24.1x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "EAF", "prev_state": "CHURN", "state": "RUNNING", "price": 11.995, "tp": 5.628761214254394, "note": "sustained 5.6x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "COPJ", "prev_state": "IGNITING", "state": "RUNNING", "price": 38.84, "tp": 16.35829230043241, "note": "sustained 16.4x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "LII", "prev_state": "RUNNING", "state": "IGNITING", "price": 333.68, "tp": 3.6840582858812447, "note": "pace 3.7x and accelerating (3.3x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "MAMA", "prev_state": "QUIET", "state": "RUNNING", "price": 13.14, "tp": 1.9056323684383412, "note": "sustained 1.9x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "IGNITING", "state": "LEAVING", "price": 6.44, "tp": 16.243589215760966, "note": "pace 16.2x off peak 35.3x \u00b7 VWAP lost (was +5.8% above)"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "HOOW", "prev_state": "IGNITING", "state": "COOLING", "price": 19.77, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "ARKF", "prev_state": "CHURN", "state": "COOLING", "price": 44.02, "tp": 0.0, "note": "pace 0.0x off peak 5.1x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "BIPC", "prev_state": "RUNNING", "state": "QUIET", "price": 37.09, "tp": 1.5954333738517048, "note": ""}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "BSX", "prev_state": "RUNNING", "state": "IGNITING", "price": 43.22, "tp": 10.51058747675189, "note": "pace 10.5x and accelerating (3.2x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "QUIET", "state": "RUNNING", "price": 26.51, "tp": 1.9625477328791348, "note": "sustained 2.0x"}
+{"ts": "2026-10-28T13:29:03.162435-04:00", "demo": 0, "ticker": "BBNX", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.875, "tp": 2.545264408814263, "note": "sustained 2.5x"}
