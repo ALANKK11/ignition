@@ -233,3 +233,20 @@
 {"ts": "2026-10-28T13:55:18.166906-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "LEAVING", "state": "FADING", "price": 6.39, "tp": 2.9720572957130513, "note": "pace 3.0x vs peak 35.3x \u00b7 -11.3% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-28T13:55:18.166906-04:00", "demo": 0, "ticker": "AVTR", "prev_state": "IGNITING", "state": "RUNNING", "price": 16.49, "tp": 12.79140866780209, "note": "sustained 12.8x"}
 {"ts": "2026-10-28T13:55:18.166906-04:00", "demo": 0, "ticker": "ENPH", "prev_state": "COOLING", "state": "RUNNING", "price": 24.82, "tp": 1.8909812654443692, "note": "sustained 1.9x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.27, "tp": 4.129293949558394, "note": "pace 4.1x and accelerating (1.8x vs prior window) \u00b7 +4.1% in window"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BRCB", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.14, "tp": 4.433507056307639, "note": "pace 4.4x and accelerating (6.8x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "CSGP", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.645, "tp": 4.504038767359052, "note": "sustained 4.5x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "CSTM", "prev_state": "IGNITING", "state": "RUNNING", "price": 24.275, "tp": 3.887856127972863, "note": "sustained 3.9x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "CHURN", "state": "RUNNING", "price": 70.04, "tp": 5.95274297646455, "note": "sustained 6.0x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BOOM", "prev_state": "RUNNING", "state": "FADING", "price": 7.39, "tp": 9.966346487334746, "note": "pace 10.0x vs peak 29.4x \u00b7 -2.4% off HOD \u00b7 chart still +38% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "EAF", "prev_state": "FADING", "state": "COOLING", "price": 11.815, "tp": 1.5889407493703807, "note": "pace 1.6x off peak 6.5x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BHC", "prev_state": "CHURN", "state": "COOLING", "price": 6.7, "tp": 0.9576012571494186, "note": "pace 1.0x off peak 2.6x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BKR", "prev_state": "RUNNING", "state": "COOLING", "price": 55.48, "tp": 1.7069679492696506, "note": "pace 1.7x off peak 2.8x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BSBR", "prev_state": "RUNNING", "state": "COOLING", "price": 4.58, "tp": 1.6187334149745802, "note": "pace 1.6x off peak 4.3x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "CFFN", "prev_state": "RUNNING", "state": "COOLING", "price": 8.385, "tp": 1.498217014610234, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "SOFX", "prev_state": "RUNNING", "state": "COOLING", "price": 7.61, "tp": 1.441261743630099, "note": "pace 1.4x off peak 4.1x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "OSS", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.44, "tp": 6.385730566335808, "note": "sustained 6.4x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "OSW", "prev_state": "CHURN", "state": "RUNNING", "price": 27.57, "tp": 3.468283874852153, "note": "sustained 3.5x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "AWK", "prev_state": "RUNNING", "state": "CHURN", "price": 140.38, "tp": 2.9087437660975954, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "COOLING", "state": "RUNNING", "price": 11.03, "tp": 2.320755920161106, "note": "sustained 2.3x"}
+{"ts": "2026-10-28T13:59:03.167820-04:00", "demo": 0, "ticker": "BRSP", "prev_state": "FADING", "state": "COOLING", "price": 3.705, "tp": 0.6319579963543127, "note": "pace 0.6x off peak 5.4x"}
