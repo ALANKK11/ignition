@@ -704,3 +704,4 @@
 {"ts": "2026-10-28T15:29:03.184160-04:00", "demo": 0, "ticker": "DSTL", "prev_state": "RUNNING", "state": "CHURN", "price": 67.75, "tp": 10.228841963679598, "note": "10.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-28T15:29:03.184160-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "COOLING", "state": "RUNNING", "price": 69.88, "tp": 2.4174297753772245, "note": "sustained 2.4x"}
 {"ts": "2026-10-28T15:29:03.184160-04:00", "demo": 0, "ticker": "EYE", "prev_state": "COOLING", "state": "RUNNING", "price": 15.065, "tp": 2.2193441499918327, "note": "sustained 2.2x"}
+{"ts": "2026-10-28T15:31:18.172816-04:00", "demo": 0, "ticker": "FSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Federal Signal Expands Vacuum Truck Portfolio by Acquiring Global Vacuum Systems"}
