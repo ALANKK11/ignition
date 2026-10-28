@@ -802,3 +802,4 @@
 {"ts": "2026-10-28T15:59:03.189280-04:00", "demo": 0, "ticker": "VLRS", "prev_state": "FADING", "state": "COOLING", "price": 6.095, "tp": 1.5935765971321303, "note": "pace 1.6x off peak 18.4x"}
 {"ts": "2026-10-28T15:59:03.189280-04:00", "demo": 0, "ticker": "OSW", "prev_state": "RUNNING", "state": "FADING", "price": 27.89, "tp": 2.299564238385411, "note": "pace 2.3x vs peak 6.6x \u00b7 -0.4% off HOD \u00b7 chart still +12% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-28T16:11:03.180089-04:00", "demo": 0, "ticker": "YFOR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "YYForce Targets 100% Malaysia Revenue Growth to US$20 Million in FY2027"}
+{"ts": "2026-10-28T16:17:03.181201-04:00", "demo": 0, "ticker": "HIPO", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hippo partners with Greenlight Re to link early-stage insurance investment with Spinnaker carrier capacity"}
