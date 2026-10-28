@@ -688,3 +688,4 @@
 {"ts": "2026-10-28T15:25:18.183236-04:00", "demo": 0, "ticker": "BRSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.7, "tp": 4.533481328620623, "note": "sustained 4.5x"}
 {"ts": "2026-10-28T15:25:18.183236-04:00", "demo": 0, "ticker": "EDIV", "prev_state": "RUNNING", "state": "COOLING", "price": 40.38, "tp": 0.0, "note": "pace 0.0x off peak 2.1x"}
 {"ts": "2026-10-28T15:25:18.183236-04:00", "demo": 0, "ticker": "JFLX", "prev_state": "COOLING", "state": "RUNNING", "price": 49.15, "tp": 7.044126789737209, "note": "sustained 7.0x"}
+{"ts": "2026-10-28T15:26:03.171847-04:00", "demo": 0, "ticker": "ROK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Food & Beverage Manufacturers Race to Scale AI Beyond the Pilot Stage"}
