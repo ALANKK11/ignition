@@ -134,3 +134,21 @@
 {"ts": "2026-10-28T13:36:33.165010-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "COOLING", "state": "CHURN", "price": 26.54, "tp": 2.5873296971276836, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-28T13:36:33.165010-04:00", "demo": 0, "ticker": "GDE", "prev_state": "RUNNING", "state": "CHURN", "price": 53.89, "tp": 12.23825405411226, "note": "12.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-28T13:36:33.165010-04:00", "demo": 0, "ticker": "ARTV", "prev_state": "CHURN", "state": "RUNNING", "price": 4.305, "tp": 7.548552757609847, "note": "sustained 7.5x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "FADING", "state": "LEAVING", "price": 6.38, "tp": 3.4027880096722005, "note": "pace 3.4x off peak 35.3x \u00b7 VWAP lost (was +5.8% above)"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "VLRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.12, "tp": 4.263564222198546, "note": "sustained 4.3x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "FLKR", "prev_state": "QUIET", "state": "RUNNING", "price": 54.08, "tp": 2.908827787518695, "note": "sustained 2.9x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "GEHC", "prev_state": "QUIET", "state": "RUNNING", "price": 76.385, "tp": 2.9783276737148436, "note": "sustained 3.0x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "ICLR", "prev_state": "RUNNING", "state": "CHURN", "price": 205.09, "tp": 5.2492470979615975, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "CTOS", "prev_state": "RUNNING", "state": "QUIET", "price": 10.81, "tp": 1.7157171897906789, "note": ""}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "GDE", "prev_state": "CHURN", "state": "RUNNING", "price": 53.895, "tp": 16.952939192619112, "note": "sustained 17.0x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "OPRA", "prev_state": "FADING", "state": "CHURN", "price": 18.54, "tp": 3.5343800403889407, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "EPRT", "prev_state": "CHURN", "state": "RUNNING", "price": 26.535, "tp": 2.0939454001755147, "note": "sustained 2.1x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "CSTM", "prev_state": "CHURN", "state": "RUNNING", "price": 24.33, "tp": 2.149286351283202, "note": "sustained 2.1x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "CTO", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.91, "tp": 8.924227183003829, "note": "pace 8.9x and accelerating (2.2x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "BRAI", "prev_state": "IGNITING", "state": "FADING", "price": 3.64, "tp": 2.28508205945581, "note": "pace 2.3x vs peak 18.2x \u00b7 -32.2% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "BSX", "prev_state": "IGNITING", "state": "RUNNING", "price": 43.2, "tp": 8.544654231336256, "note": "sustained 8.5x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "ADT", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.47, "tp": 29.590509716873996, "note": "sustained 29.6x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "MAMA", "prev_state": "RUNNING", "state": "COOLING", "price": 13.135, "tp": 1.5950304901320833, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "FSUN", "prev_state": "QUIET", "state": "RUNNING", "price": 39.365, "tp": 1.9385184424512822, "note": "sustained 1.9x"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "PICS", "prev_state": "FADING", "state": "IGNITING", "price": 7.845, "tp": 4.513144809513224, "note": "pace 4.5x and accelerating (3.0x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-10-28T13:40:18.164392-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "QUIET", "state": "RUNNING", "price": 70.05, "tp": 3.9486625095241084, "note": "sustained 3.9x"}
