@@ -705,3 +705,18 @@
 {"ts": "2026-10-28T15:29:03.184160-04:00", "demo": 0, "ticker": "DIVB", "prev_state": "COOLING", "state": "RUNNING", "price": 69.88, "tp": 2.4174297753772245, "note": "sustained 2.4x"}
 {"ts": "2026-10-28T15:29:03.184160-04:00", "demo": 0, "ticker": "EYE", "prev_state": "COOLING", "state": "RUNNING", "price": 15.065, "tp": 2.2193441499918327, "note": "sustained 2.2x"}
 {"ts": "2026-10-28T15:31:18.172816-04:00", "demo": 0, "ticker": "FSS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Federal Signal Expands Vacuum Truck Portfolio by Acquiring Global Vacuum Systems"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "AXGN", "prev_state": "CHURN", "state": "RUNNING", "price": 49.465, "tp": 8.235894192666546, "note": "sustained 8.2x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "BRSP", "prev_state": "RUNNING", "state": "COOLING", "price": 3.695, "tp": 1.3498926133213027, "note": "pace 1.3x off peak 14.3x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "BNC", "prev_state": "RUNNING", "state": "COOLING", "price": 5.56, "tp": 0.8157758228411345, "note": "pace 0.8x off peak 2.8x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "CLOU", "prev_state": "CHURN", "state": "COOLING", "price": 30.24, "tp": 1.1808670605042992, "note": "pace 1.2x off peak 12.0x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "ASCE", "prev_state": "RUNNING", "state": "COOLING", "price": 32.63, "tp": 1.291385101071932, "note": "pace 1.3x off peak 12.6x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "BLCO", "prev_state": "RUNNING", "state": "CHURN", "price": 19.87, "tp": 8.756718297578763, "note": "8.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "CAL", "prev_state": "CHURN", "state": "RUNNING", "price": 12.9, "tp": 3.0306539076051533, "note": "sustained 3.0x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "AIOK", "prev_state": "RUNNING", "state": "FADING", "price": 26.9, "tp": 2.5569203796108613, "note": "pace 2.6x vs peak 10.2x \u00b7 +0.0% off HOD \u00b7 chart still +98% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "AVSC", "prev_state": "RUNNING", "state": "COOLING", "price": 70.93, "tp": 0.8552581834026499, "note": "pace 0.9x off peak 21.4x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "CIFU", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.33, "tp": 9.361295164673436, "note": "sustained 9.4x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "ARTV", "prev_state": "COOLING", "state": "FADING", "price": 4.285, "tp": 1.452836435156303, "note": "pace 1.5x vs peak 8.8x \u00b7 -1.6% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "CTO", "prev_state": "CHURN", "state": "RUNNING", "price": 19.01, "tp": 6.321138462898301, "note": "sustained 6.3x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "CTOS", "prev_state": "RUNNING", "state": "LEAVING", "price": 10.635, "tp": 1.6208020432246828, "note": "pace 1.6x off peak 3.3x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "DMC", "prev_state": "CHURN", "state": "RUNNING", "price": 29.08, "tp": 4.284333384840319, "note": "sustained 4.3x"}
+{"ts": "2026-10-28T15:32:48.184593-04:00", "demo": 0, "ticker": "DSTL", "prev_state": "CHURN", "state": "COOLING", "price": 67.75, "tp": 0.0, "note": "pace 0.0x off peak 57.4x"}
