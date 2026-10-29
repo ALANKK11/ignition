@@ -720,3 +720,4 @@
 {"ts": "2026-10-29T16:10:22.483821-04:00", "demo": 0, "ticker": "INTC", "prev_state": null, "state": "AH IGNITION", "price": 73.17, "tp": null, "note": "-18% on $2.27M ext tape"}
 {"ts": "2026-10-29T16:11:07.475245-04:00", "demo": 0, "ticker": "REAL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "THE REALREAL ANNOUNCES THIRD QUARTER 2026 RESULTS"}
 {"ts": "2026-10-29T16:11:07.475245-04:00", "demo": 0, "ticker": "IPWR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Ideal Power to Host Third Quarter 2026 Results Conference Call on November 12, 2026 at 10:00 AM Eastern Time"}
+{"ts": "2026-10-29T16:17:07.476278-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CDS Visual Launches New Platform Enabling Collaboration Between Industrial Manufacturers and Partners"}
