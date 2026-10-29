@@ -83,3 +83,13 @@
 {"ts": "2026-10-29T13:39:37.458395-04:00", "demo": 0, "ticker": "GERN", "prev_state": "RUNNING", "state": "COOLING", "price": 0.9148, "tp": 0.5946943563319549, "note": "pace 0.6x off peak 17.8x"}
 {"ts": "2026-10-29T13:39:37.458395-04:00", "demo": 0, "ticker": "EVMN", "prev_state": "COOLING", "state": "RUNNING", "price": 7.105, "tp": 2.0076815660582903, "note": "sustained 2.0x"}
 {"ts": "2026-10-29T13:39:37.458395-04:00", "demo": 0, "ticker": "GOOGL", "prev_state": "CHURN", "state": "RUNNING", "price": 283.78, "tp": 4.902294138637526, "note": "sustained 4.9x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "GOOGN", "prev_state": "CHURN", "state": "RUNNING", "price": 42.45, "tp": 9.966579008064695, "note": "sustained 10.0x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "ORCX", "prev_state": "RUNNING", "state": "COOLING", "price": 17.82, "tp": 1.3045943597888323, "note": "pace 1.3x off peak 3.8x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "DYNC", "prev_state": "RUNNING", "state": "CHURN", "price": 10.97, "tp": 42.88858027806633, "note": "42.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "GKOS", "prev_state": "FADING", "state": "RUNNING", "price": 237.14, "tp": 2.2205633523147, "note": "sustained 2.2x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "CYH", "prev_state": "COOLING", "state": "RUNNING", "price": 2.26, "tp": 2.7306861725460014, "note": "sustained 2.7x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "KIDS", "prev_state": "FADING", "state": "RUNNING", "price": 32.48, "tp": 2.7961716599864364, "note": "sustained 2.8x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "CROX", "prev_state": "CHURN", "state": "RUNNING", "price": 150.98, "tp": 5.979890500648733, "note": "sustained 6.0x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "IOO", "prev_state": "QUIET", "state": "RUNNING", "price": 143.08, "tp": 2.0624846253981137, "note": "sustained 2.1x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "DMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.03, "tp": 2.0135475449607325, "note": "sustained 2.0x"}
+{"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "IVVB", "prev_state": "RUNNING", "state": "CHURN", "price": 35.64, "tp": 318.36514915827183, "note": "318.4x participation, no progress at highs \u2014 absorption"}
