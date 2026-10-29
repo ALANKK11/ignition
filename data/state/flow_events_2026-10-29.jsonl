@@ -93,3 +93,13 @@
 {"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "IOO", "prev_state": "QUIET", "state": "RUNNING", "price": 143.08, "tp": 2.0624846253981137, "note": "sustained 2.1x"}
 {"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "DMC", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.03, "tp": 2.0135475449607325, "note": "sustained 2.0x"}
 {"ts": "2026-10-29T13:42:37.459332-04:00", "demo": 0, "ticker": "IVVB", "prev_state": "RUNNING", "state": "CHURN", "price": 35.64, "tp": 318.36514915827183, "note": "318.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "OIS", "prev_state": "QUIET", "state": "RUNNING", "price": 9.165, "tp": 1.9343033524409035, "note": "sustained 1.9x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "REPL", "prev_state": "COOLING", "state": "RUNNING", "price": 17.175, "tp": 2.8728296536455953, "note": "sustained 2.9x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "BURU", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.3725, "tp": 72.10445882512616, "note": "sustained 72.1x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "GOOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 46.39, "tp": 4.264380986631198, "note": "sustained 4.3x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "GGLL", "prev_state": "COOLING", "state": "RUNNING", "price": 65.05, "tp": 5.588235141585935, "note": "sustained 5.6x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "DMC", "prev_state": "RUNNING", "state": "COOLING", "price": 27.03, "tp": 1.7686956420038416, "note": "pace 1.8x off peak 4.1x"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "DYNC", "prev_state": "CHURN", "state": "FADING", "price": 10.97, "tp": 12.61455174511139, "note": "pace 12.6x vs peak 80.7x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "GKOS", "prev_state": "RUNNING", "state": "IGNITING", "price": 237.15, "tp": 3.00157391448776, "note": "pace 3.0x and accelerating (1.9x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "ALNY", "prev_state": "RUNNING", "state": "IGNITING", "price": 173.37, "tp": 18.599366990296087, "note": "pace 18.6x and accelerating (1.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-29T13:45:37.459321-04:00", "demo": 0, "ticker": "SPRY", "prev_state": "QUIET", "state": "RUNNING", "price": 3.77, "tp": 1.9261009385872128, "note": "sustained 1.9x"}
