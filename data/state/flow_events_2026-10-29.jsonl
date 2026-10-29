@@ -568,3 +568,4 @@
 {"ts": "2026-10-29T15:26:07.477300-04:00", "demo": 0, "ticker": "ARTV", "prev_state": "RUNNING", "state": "CHURN", "price": 4.21, "tp": 2.4559359640353686, "note": "2.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-29T15:26:07.477300-04:00", "demo": 0, "ticker": "ULCC", "prev_state": "IGNITING", "state": "CHURN", "price": 6.465, "tp": 2.397712410420676, "note": "2.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-29T15:26:07.477300-04:00", "demo": 0, "ticker": "SPRY", "prev_state": "COOLING", "state": "QUIET", "price": 3.655, "tp": 1.7972196149565467, "note": ""}
+{"ts": "2026-10-29T15:28:22.468076-04:00", "demo": 0, "ticker": "QDEL", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Transforming Data Into Actionable Insights in the Lab"}
