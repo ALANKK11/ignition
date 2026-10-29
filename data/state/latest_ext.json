@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-10-29T16:37:22-04:00", "session": "post", "rows": [{"ticker": "WKHS", "last": 3.08, "gap": 0.2162, "dollars": 109962.56, "vs_adv": 26.88, "new": true}]}
+{"v": 4, "ts": "2026-10-29T16:40:22-04:00", "session": "post", "rows": [{"ticker": "WKHS", "last": 3.05, "gap": 0.213, "dollars": 123360.77, "vs_adv": 30.23, "new": false}, {"ticker": "RDDT", "last": 106.81, "gap": -0.0942, "dollars": 418851.5, "vs_adv": 0.02, "new": true}]}
