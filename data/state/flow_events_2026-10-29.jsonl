@@ -717,3 +717,4 @@
 {"ts": "2026-10-29T15:57:37.481959-04:00", "demo": 0, "ticker": "DBVT", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.33, "tp": 6.8206965469448475, "note": "pace 6.8x and accelerating (2.5x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-10-29T15:57:37.481959-04:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2664, "tp": 57.99729180017538, "note": "sustained 58.0x"}
 {"ts": "2026-10-29T15:57:37.481959-04:00", "demo": 0, "ticker": "INVX", "prev_state": "COOLING", "state": "RUNNING", "price": 29.96, "tp": 1.9296193897017477, "note": "sustained 1.9x"}
+{"ts": "2026-10-29T16:10:22.483821-04:00", "demo": 0, "ticker": "INTC", "prev_state": null, "state": "AH IGNITION", "price": 73.17, "tp": null, "note": "-18% on $2.27M ext tape"}
