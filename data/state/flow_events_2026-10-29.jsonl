@@ -728,3 +728,4 @@
 {"ts": "2026-10-29T16:58:22.491897-04:00", "demo": 0, "ticker": "NCPL", "prev_state": null, "state": "AH IGNITION", "price": 2.16, "tp": null, "note": "+13% on $0.06M ext tape"}
 {"ts": "2026-10-29T17:11:52.485700-04:00", "demo": 0, "ticker": "KMB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes"}
 {"ts": "2026-10-29T17:28:31.754244-04:00", "demo": 0, "ticker": "KMB", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes"}
+{"ts": "2026-10-29T18:41:16.767488-04:00", "demo": 0, "ticker": "TCBS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACI"}
