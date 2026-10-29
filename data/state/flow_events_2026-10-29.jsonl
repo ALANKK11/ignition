@@ -723,3 +723,4 @@
 {"ts": "2026-10-29T16:17:07.476278-04:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CDS Visual Launches New Platform Enabling Collaboration Between Industrial Manufacturers and Partners"}
 {"ts": "2026-10-29T16:32:07.478902-04:00", "demo": 0, "ticker": "VUZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Vuzix Schedules Conference Call to Discuss Third Quarter 2026 Financial Results and Business Update"}
 {"ts": "2026-10-29T16:32:07.478902-04:00", "demo": 0, "ticker": "WYFI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WhiteFiber Announces Third Quarter 2026 Earnings Conference Call"}
+{"ts": "2026-10-29T16:37:22.488300-04:00", "demo": 0, "ticker": "WKHS", "prev_state": null, "state": "AH IGNITION", "price": 3.08, "tp": null, "note": "+22% on $0.11M ext tape"}
