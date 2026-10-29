@@ -725,3 +725,4 @@
 {"ts": "2026-10-29T16:32:07.478902-04:00", "demo": 0, "ticker": "WYFI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WhiteFiber Announces Third Quarter 2026 Earnings Conference Call"}
 {"ts": "2026-10-29T16:37:22.488300-04:00", "demo": 0, "ticker": "WKHS", "prev_state": null, "state": "AH IGNITION", "price": 3.08, "tp": null, "note": "+22% on $0.11M ext tape"}
 {"ts": "2026-10-29T16:40:22.488513-04:00", "demo": 0, "ticker": "RDDT", "prev_state": null, "state": "AH IGNITION", "price": 106.81, "tp": null, "note": "-9% on $0.42M ext tape"}
+{"ts": "2026-10-29T16:58:22.491897-04:00", "demo": 0, "ticker": "NCPL", "prev_state": null, "state": "AH IGNITION", "price": 2.16, "tp": null, "note": "+13% on $0.06M ext tape"}
