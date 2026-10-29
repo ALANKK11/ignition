@@ -12,3 +12,15 @@
 {"ts": "2026-10-29T13:23:52.454641-04:00", "demo": 0, "ticker": "CLMB", "prev_state": "QUIET", "state": "IGNITING", "price": 41.79, "tp": 4.230740246131936, "note": "pace 4.2x and accelerating (84.6x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-10-29T13:23:52.454641-04:00", "demo": 0, "ticker": "NCPL", "prev_state": "QUIET", "state": "RUNNING", "price": 1.81, "tp": 2.720039040139259, "note": "sustained 2.7x"}
 {"ts": "2026-10-29T13:23:52.454641-04:00", "demo": 0, "ticker": "ORN", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.45, "tp": 2.0418872847239147, "note": "sustained 2.0x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "IVVB", "prev_state": "CHURN", "state": "COOLING", "price": 35.68, "tp": 0.0, "note": "pace 0.0x off peak 226.4x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "DYNC", "prev_state": "CHURN", "state": "RUNNING", "price": 10.97, "tp": 80.71428391554194, "note": "sustained 80.7x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "TDOC", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.85, "tp": 5.467167721262326, "note": "sustained 5.5x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "CROX", "prev_state": "RUNNING", "state": "CHURN", "price": 150.58, "tp": 7.38683292295899, "note": "7.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "GGLL", "prev_state": "RUNNING", "state": "IGNITING", "price": 65.49, "tp": 6.477600650335291, "note": "pace 6.5x and accelerating (5.1x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "CETX", "prev_state": "RUNNING", "state": "FADING", "price": 1.94, "tp": 19.112022390081684, "note": "pace 19.1x vs peak 84.5x \u00b7 -33.8% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "DAN", "prev_state": "QUIET", "state": "IGNITING", "price": 25.085, "tp": 5.514530533044654, "note": "pace 5.5x and accelerating (5.6x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "ORCX", "prev_state": "QUIET", "state": "RUNNING", "price": 17.815, "tp": 1.9944822274261298, "note": "sustained 2.0x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "GERN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.9283, "tp": 16.656481049682224, "note": "sustained 16.7x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "ORN", "prev_state": "RUNNING", "state": "COOLING", "price": 8.43, "tp": 1.0802877870975256, "note": "pace 1.1x off peak 4.6x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "GENB", "prev_state": "RUNNING", "state": "COOLING", "price": 15.58, "tp": 1.4199063426517953, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-10-29T13:26:52.456537-04:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.2396, "tp": 44.50243515783041, "note": "pace 44.5x and accelerating (8.5x vs prior window) \u00b7 -1.7% in window"}
