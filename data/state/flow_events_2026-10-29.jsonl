@@ -158,3 +158,21 @@
 {"ts": "2026-10-29T13:55:22.460923-04:00", "demo": 0, "ticker": "CETX", "prev_state": "FADING", "state": "IGNITING", "price": 1.92, "tp": 40.790959495874894, "note": "pace 40.8x and accelerating (2.5x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-10-29T13:55:22.460923-04:00", "demo": 0, "ticker": "ETD", "prev_state": "RUNNING", "state": "CHURN", "price": 20.05, "tp": 7.6476500736382, "note": "7.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-29T13:55:22.460923-04:00", "demo": 0, "ticker": "BHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.785, "tp": 8.38121789187283, "note": "sustained 8.4x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "ESTA", "prev_state": "RUNNING", "state": "COOLING", "price": 71.0, "tp": 1.546309949477586, "note": "pace 1.5x off peak 3.1x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "GILT", "prev_state": "QUIET", "state": "RUNNING", "price": 8.075, "tp": 2.448805783337191, "note": "sustained 2.4x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "BSCW", "prev_state": "RUNNING", "state": "CHURN", "price": 19.795, "tp": 25.806654538533138, "note": "25.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "CAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 649.18, "tp": 3.08648031953273, "note": "sustained 3.1x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "REPL", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.12, "tp": 3.534594388535938, "note": "sustained 3.5x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "DBVT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.28, "tp": 3.5806183258864674, "note": "sustained 3.6x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "OIS", "prev_state": "RUNNING", "state": "CHURN", "price": 9.165, "tp": 3.296908473452169, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "AGCO", "prev_state": "CHURN", "state": "RUNNING", "price": 109.43, "tp": 3.913830845866004, "note": "sustained 3.9x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "AGQ", "prev_state": "RUNNING", "state": "COOLING", "price": 48.78, "tp": 0.9316490444604746, "note": "pace 0.9x off peak 3.3x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "GGLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 64.91, "tp": 3.555175702436061, "note": "sustained 3.6x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "BAX", "prev_state": "COOLING", "state": "RUNNING", "price": 23.925, "tp": 1.8317914569174847, "note": "sustained 1.8x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "CTO", "prev_state": "COOLING", "state": "FADING", "price": 19.15, "tp": 0.7863579898973936, "note": "pace 0.8x vs peak 2.4x \u00b7 -0.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "DVA", "prev_state": "CHURN", "state": "RUNNING", "price": 195.255, "tp": 2.698453568478907, "note": "sustained 2.7x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "BHC", "prev_state": "RUNNING", "state": "CHURN", "price": 8.795, "tp": 7.176585971508148, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "COWG", "prev_state": "QUIET", "state": "RUNNING", "price": 40.245, "tp": 18.52963417206475, "note": "sustained 18.5x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "ALNY", "prev_state": "IGNITING", "state": "RUNNING", "price": 175.33, "tp": 17.950167044245372, "note": "sustained 18.0x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "ORN", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.465, "tp": 2.7188280251111525, "note": "sustained 2.7x"}
+{"ts": "2026-10-29T13:58:22.461907-04:00", "demo": 0, "ticker": "GKOS", "prev_state": "CHURN", "state": "RUNNING", "price": 236.91, "tp": 4.928521117730258, "note": "sustained 4.9x"}
