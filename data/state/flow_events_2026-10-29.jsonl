@@ -485,3 +485,12 @@
 {"ts": "2026-10-29T15:02:52.473184-04:00", "demo": 0, "ticker": "AVPT", "prev_state": "RUNNING", "state": "COOLING", "price": 17.18, "tp": 1.6283743829884703, "note": "pace 1.6x off peak 9.8x"}
 {"ts": "2026-10-29T15:02:52.473184-04:00", "demo": 0, "ticker": "DBVT", "prev_state": "RUNNING", "state": "COOLING", "price": 10.23, "tp": 0.9246961215348345, "note": "pace 0.9x off peak 5.6x"}
 {"ts": "2026-10-29T15:02:52.473184-04:00", "demo": 0, "ticker": "EEMS", "prev_state": "CHURN", "state": "COOLING", "price": 70.34, "tp": 0.0, "note": "pace 0.0x off peak 11.3x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "AVIV", "prev_state": "RUNNING", "state": "CHURN", "price": 79.73, "tp": 3.265496188124878, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "CARE", "prev_state": "RUNNING", "state": "CHURN", "price": 29.77, "tp": 7.209834367335205, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "AGCO", "prev_state": "RUNNING", "state": "COOLING", "price": 108.56, "tp": 1.6284863395696683, "note": "pace 1.6x off peak 4.2x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "DMC", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.88, "tp": 31.84234729155223, "note": "pace 31.8x and accelerating (7.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "BHC", "prev_state": "CHURN", "state": "RUNNING", "price": 8.93, "tp": 7.461742058119393, "note": "sustained 7.5x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "GENB", "prev_state": "RUNNING", "state": "COOLING", "price": 15.59, "tp": 0.322689251160446, "note": "pace 0.3x off peak 4.0x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "BWFG", "prev_state": "FADING", "state": "RUNNING", "price": 69.16, "tp": 7.883268768540594, "note": "sustained 7.9x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "EEMS", "prev_state": "COOLING", "state": "RUNNING", "price": 70.52, "tp": 4.189478976597218, "note": "sustained 4.2x"}
+{"ts": "2026-10-29T15:06:37.473742-04:00", "demo": 0, "ticker": "REPL", "prev_state": "COOLING", "state": "FADING", "price": 17.275, "tp": 1.2763948823457878, "note": "pace 1.3x vs peak 3.8x \u00b7 -1.6% off HOD \u00b7 chart still +8% \u2014 crowd buying a cooled tape"}
