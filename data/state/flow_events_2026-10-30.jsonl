@@ -161,3 +161,4 @@
 {"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "AZN", "prev_state": "QUIET", "state": "RUNNING", "price": 187.22, "tp": 1.968614590696374, "note": "sustained 2.0x"}
 {"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "FHLC", "prev_state": "FADING", "state": "RUNNING", "price": 88.83, "tp": 2.7928864009456067, "note": "sustained 2.8x"}
 {"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "CARE", "prev_state": "COOLING", "state": "RUNNING", "price": 29.5, "tp": 1.808807629952862, "note": "sustained 1.8x"}
+{"ts": "2026-10-30T13:50:20.412905-04:00", "demo": 0, "ticker": "LINC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "LINC SHAREHOLDER NOTICE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead t"}
