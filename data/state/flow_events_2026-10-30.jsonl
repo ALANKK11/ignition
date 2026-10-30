@@ -40,3 +40,14 @@
 {"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "CARE", "prev_state": "COOLING", "state": "RUNNING", "price": 29.55, "tp": 2.2429443449081794, "note": "sustained 2.2x"}
 {"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "DBND", "prev_state": "RUNNING", "state": "FADING", "price": 44.155, "tp": 1.9650613549851073, "note": "pace 2.0x vs peak 10.1x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "STC", "prev_state": "CHURN", "state": "RUNNING", "price": 45.11, "tp": 26.59611601998959, "note": "sustained 26.6x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "BURU", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2752, "tp": 2.8173734563697472, "note": "sustained 2.8x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "INTC", "prev_state": "IGNITING", "state": "RUNNING", "price": 64.575, "tp": 6.179401521576365, "note": "sustained 6.2x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "SXT", "prev_state": "CHURN", "state": "RUNNING", "price": 116.85, "tp": 2.886503015290444, "note": "sustained 2.9x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "INTW", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.06, "tp": 9.344147176299078, "note": "pace 9.3x and accelerating (2.0x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "STC", "prev_state": "RUNNING", "state": "CHURN", "price": 45.2, "tp": 20.546027472685225, "note": "20.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "TRS", "prev_state": "RUNNING", "state": "QUIET", "price": 37.83, "tp": 1.4369290952596137, "note": ""}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "RDTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.52, "tp": 17.729811617313576, "note": "sustained 17.7x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "RYZ", "prev_state": "RUNNING", "state": "QUIET", "price": 30.78, "tp": 1.7644089933787297, "note": ""}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.92, "tp": 5.35759588572194, "note": "pace 5.4x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.5, "tp": 1.5508338652939604, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-10-30T13:19:35.418832-04:00", "demo": 0, "ticker": "DRS", "prev_state": "IGNITING", "state": "RUNNING", "price": 37.56, "tp": 2.1045717175999727, "note": "sustained 2.1x"}
