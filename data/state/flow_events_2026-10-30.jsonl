@@ -28,3 +28,15 @@
 {"ts": "2026-10-30T13:12:05.417115-04:00", "demo": 0, "ticker": "REPL", "prev_state": "RUNNING", "state": "COOLING", "price": 17.35, "tp": 1.3366520327523863, "note": "pace 1.3x off peak 2.1x"}
 {"ts": "2026-10-30T13:12:05.417115-04:00", "demo": 0, "ticker": "TNMG", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.67, "tp": 2223.9909949233393, "note": "sustained 2224.0x"}
 {"ts": "2026-10-30T13:12:05.417115-04:00", "demo": 0, "ticker": "PNOV", "prev_state": "COOLING", "state": "RUNNING", "price": 45.6, "tp": 29.625459713667095, "note": "sustained 29.6x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "MYE", "prev_state": "QUIET", "state": "IGNITING", "price": 29.065, "tp": 3.226935014177294, "note": "pace 3.2x and accelerating (64.5x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "TRS", "prev_state": "QUIET", "state": "RUNNING", "price": 37.805, "tp": 1.8809313395991463, "note": "sustained 1.9x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "VUG", "prev_state": "RUNNING", "state": "COOLING", "price": 84.92, "tp": 1.503218687456361, "note": "pace 1.5x off peak 2.3x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "TWI", "prev_state": "RUNNING", "state": "COOLING", "price": 4.65, "tp": 0.9765955843020847, "note": "pace 1.0x off peak 4.9x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "INTC", "prev_state": "RUNNING", "state": "IGNITING", "price": 64.17, "tp": 6.858279792726009, "note": "pace 6.9x and accelerating (2.3x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "SLGB", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2997, "tp": 570.4706735277599, "note": "sustained 570.5x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "GPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 96.305, "tp": 58.04453325512185, "note": "pace 58.0x and accelerating (2.1x vs prior window) \u00b7 +1.6% in window"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "ASUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.315, "tp": 13.912969444560275, "note": "sustained 13.9x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "RYZ", "prev_state": "QUIET", "state": "RUNNING", "price": 30.78, "tp": 1.9083185682640482, "note": "sustained 1.9x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "CARE", "prev_state": "COOLING", "state": "RUNNING", "price": 29.55, "tp": 2.2429443449081794, "note": "sustained 2.2x"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "DBND", "prev_state": "RUNNING", "state": "FADING", "price": 44.155, "tp": 1.9650613549851073, "note": "pace 2.0x vs peak 10.1x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T13:15:50.418062-04:00", "demo": 0, "ticker": "STC", "prev_state": "CHURN", "state": "RUNNING", "price": 45.11, "tp": 26.59611601998959, "note": "sustained 26.6x"}
