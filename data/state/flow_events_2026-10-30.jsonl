@@ -80,3 +80,12 @@
 {"ts": "2026-10-30T13:27:05.420604-04:00", "demo": 0, "ticker": "GLTR", "prev_state": "QUIET", "state": "RUNNING", "price": 165.7, "tp": 49.134141335656665, "note": "sustained 49.1x"}
 {"ts": "2026-10-30T13:27:05.420604-04:00", "demo": 0, "ticker": "TWI", "prev_state": "COOLING", "state": "RUNNING", "price": 4.69, "tp": 2.192375759968239, "note": "sustained 2.2x"}
 {"ts": "2026-10-30T13:27:05.420604-04:00", "demo": 0, "ticker": "ACCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.39, "tp": 8.65876401107787, "note": "sustained 8.7x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "CHOW", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.34, "tp": 23.57430454769399, "note": "sustained 23.6x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "INDY", "prev_state": "QUIET", "state": "CHURN", "price": 42.41, "tp": 4.675572955398943, "note": "4.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "FXH", "prev_state": "RUNNING", "state": "COOLING", "price": 137.27, "tp": 0.0, "note": "pace 0.0x off peak 8.2x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "NEXN", "prev_state": "QUIET", "state": "RUNNING", "price": 8.795, "tp": 3.0786416998380646, "note": "sustained 3.1x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "NRXP", "prev_state": "RUNNING", "state": "COOLING", "price": 2.255, "tp": 1.515931903020846, "note": "pace 1.5x off peak 3.7x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "NPKI", "prev_state": "RUNNING", "state": "COOLING", "price": 10.16, "tp": 1.5236905245231724, "note": "pace 1.5x off peak 3.0x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "ARGT", "prev_state": "QUIET", "state": "IGNITING", "price": 78.92, "tp": 4.57475395515479, "note": "pace 4.6x and accelerating (2.8x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "APMD", "prev_state": "RUNNING", "state": "COOLING", "price": 16.4, "tp": 1.3953114386787568, "note": "pace 1.4x off peak 2.3x"}
+{"ts": "2026-10-30T13:30:50.421441-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "RUNNING", "state": "IGNITING", "price": 33.04, "tp": 6.815343876219601, "note": "pace 6.8x and accelerating (2.1x vs prior window) \u00b7 +0.6% in window"}
