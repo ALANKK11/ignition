@@ -620,3 +620,16 @@
 {"ts": "2026-10-30T15:30:50.442910-04:00", "demo": 0, "ticker": "CVSA", "prev_state": "IGNITING", "state": "RUNNING", "price": 127.71, "tp": 9.289579429113275, "note": "sustained 9.3x"}
 {"ts": "2026-10-30T15:30:50.442910-04:00", "demo": 0, "ticker": "COUR", "prev_state": "RUNNING", "state": "COOLING", "price": 3.55, "tp": 1.754431470027702, "note": "pace 1.8x off peak 18.0x"}
 {"ts": "2026-10-30T15:30:50.442910-04:00", "demo": 0, "ticker": "MYE", "prev_state": "COOLING", "state": "RUNNING", "price": 29.53, "tp": 1.8085925026066774, "note": "sustained 1.8x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "RUNNING", "state": "COOLING", "price": 239.015, "tp": 1.6309319663559407, "note": "pace 1.6x off peak 3.9x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "AGIO", "prev_state": "QUIET", "state": "RUNNING", "price": 30.35, "tp": 2.141349912558223, "note": "sustained 2.1x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "CMPR", "prev_state": "RUNNING", "state": "IGNITING", "price": 58.13, "tp": 4.822931099378789, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "CDNA", "prev_state": "IGNITING", "state": "RUNNING", "price": 87.12, "tp": 2.6798877614035166, "note": "sustained 2.7x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "CNDT", "prev_state": "RUNNING", "state": "FADING", "price": 1.55, "tp": 2.0778600407906422, "note": "pace 2.1x vs peak 6.1x \u00b7 -0.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 3.565, "tp": 1.9107314451612118, "note": "sustained 1.9x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "BBW", "prev_state": "RUNNING", "state": "FADING", "price": 27.66, "tp": 2.4698646495757615, "note": "pace 2.5x vs peak 7.3x \u00b7 -2.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "ARKW", "prev_state": "COOLING", "state": "RUNNING", "price": 146.14, "tp": 3.9222813014899556, "note": "sustained 3.9x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "ARGT", "prev_state": "CHURN", "state": "RUNNING", "price": 78.7, "tp": 12.706106832099247, "note": "sustained 12.7x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "CAL", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.535, "tp": 3.1120576593547744, "note": "sustained 3.1x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "MYE", "prev_state": "RUNNING", "state": "COOLING", "price": 29.53, "tp": 1.6776300043310919, "note": "pace 1.7x off peak 3.7x"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "CVSA", "prev_state": "RUNNING", "state": "IGNITING", "price": 126.77, "tp": 9.623382313287797, "note": "pace 9.6x and accelerating (1.7x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-10-30T15:34:35.443277-04:00", "demo": 0, "ticker": "TWI", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.645, "tp": 3.023030575294098, "note": "sustained 3.0x"}
