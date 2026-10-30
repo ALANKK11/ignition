@@ -142,3 +142,4 @@
 {"ts": "2026-10-30T13:45:50.423861-04:00", "demo": 0, "ticker": "REPL", "prev_state": "COOLING", "state": "RUNNING", "price": 17.455, "tp": 1.9445794312199434, "note": "sustained 1.9x"}
 {"ts": "2026-10-30T13:45:50.423861-04:00", "demo": 0, "ticker": "CARE", "prev_state": "RUNNING", "state": "COOLING", "price": 29.495, "tp": 0.6505238937349769, "note": "pace 0.7x off peak 21.0x"}
 {"ts": "2026-10-30T13:45:50.423861-04:00", "demo": 0, "ticker": "GPN", "prev_state": "LEAVING", "state": "FADING", "price": 94.91, "tp": 12.624501572054571, "note": "pace 12.6x vs peak 58.0x \u00b7 -6.1% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T13:48:50.412608-04:00", "demo": 0, "ticker": "FLNC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fluence Energy (FLNC) Faces Securities Class Action Amid Inability to Ramp Houston Facility"}
