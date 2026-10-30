@@ -6,3 +6,15 @@
 {"ts": "2026-10-30T13:04:35.415675-04:00", "demo": 0, "ticker": "RDTL", "prev_state": "QUIET", "state": "RUNNING", "price": 3.53, "tp": 5.800529555818692, "note": "sustained 5.8x"}
 {"ts": "2026-10-30T13:04:35.415675-04:00", "demo": 0, "ticker": "STC", "prev_state": "RUNNING", "state": "CHURN", "price": 45.37, "tp": 7.5733372422410765, "note": "7.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-10-30T13:06:50.405083-04:00", "demo": 0, "ticker": "ZION", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ZIONS BANCORPORATION'S BOARD ANNOUNCES APPROVAL OF SHARE REPURCHASE AND DECLARES DIVIDENDS ON COMMON AND PREFERRED STOCK"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "LINT", "prev_state": "RUNNING", "state": "COOLING", "price": 36.32, "tp": 0.0, "note": "pace 0.0x off peak 14.1x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "PNOV", "prev_state": "RUNNING", "state": "COOLING", "price": 45.61, "tp": 0.0, "note": "pace 0.0x off peak 12.9x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "CAL", "prev_state": "RUNNING", "state": "COOLING", "price": 13.47, "tp": 0.5388123690854427, "note": "pace 0.5x off peak 2.7x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "XRX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.515, "tp": 0.9314575667672353, "note": "pace 0.9x off peak 5.5x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "BV", "prev_state": "QUIET", "state": "IGNITING", "price": 11.66, "tp": 3.585906858546152, "note": "pace 3.6x and accelerating (4.1x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "CARE", "prev_state": "IGNITING", "state": "COOLING", "price": 29.56, "tp": 1.5929712913245666, "note": "pace 1.6x off peak 3.4x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "STC", "prev_state": "CHURN", "state": "IGNITING", "price": 45.18, "tp": 9.86711132040016, "note": "pace 9.9x and accelerating (6.7x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "DRS", "prev_state": "QUIET", "state": "RUNNING", "price": 37.54, "tp": 2.322018153380247, "note": "sustained 2.3x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "GDYN", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.735, "tp": 14.551984566014847, "note": "pace 14.6x and accelerating (2.1x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "ASUR", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.49, "tp": 13.501005347292178, "note": "sustained 13.5x"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "SLGB", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.3024, "tp": 520.8364981945408, "note": "pace 520.8x and accelerating (3.1x vs prior window) \u00b7 +3.4% in window"}
+{"ts": "2026-10-30T13:08:20.416218-04:00", "demo": 0, "ticker": "TWI", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.63, "tp": 2.5098310857672375, "note": "sustained 2.5x"}
