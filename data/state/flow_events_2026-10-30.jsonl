@@ -5,3 +5,4 @@
 {"ts": "2026-10-30T13:04:35.415675-04:00", "demo": 0, "ticker": "MG", "prev_state": "QUIET", "state": "RUNNING", "price": 20.18, "tp": 1.9510873727371556, "note": "sustained 2.0x"}
 {"ts": "2026-10-30T13:04:35.415675-04:00", "demo": 0, "ticker": "RDTL", "prev_state": "QUIET", "state": "RUNNING", "price": 3.53, "tp": 5.800529555818692, "note": "sustained 5.8x"}
 {"ts": "2026-10-30T13:04:35.415675-04:00", "demo": 0, "ticker": "STC", "prev_state": "RUNNING", "state": "CHURN", "price": 45.37, "tp": 7.5733372422410765, "note": "7.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T13:06:50.405083-04:00", "demo": 0, "ticker": "ZION", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "ZIONS BANCORPORATION'S BOARD ANNOUNCES APPROVAL OF SHARE REPURCHASE AND DECLARES DIVIDENDS ON COMMON AND PREFERRED STOCK"}
