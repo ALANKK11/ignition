@@ -190,3 +190,4 @@
 {"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "AZN", "prev_state": "QUIET", "state": "RUNNING", "price": 187.305, "tp": 2.077734710183002, "note": "sustained 2.1x"}
 {"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "BV", "prev_state": "FADING", "state": "IGNITING", "price": 11.59, "tp": 4.157977920728102, "note": "pace 4.2x and accelerating (8.1x vs prior window) \u00b7 -0.4% in window"}
 {"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "CHOW", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.99, "tp": 26.113198204362554, "note": "sustained 26.1x"}
+{"ts": "2026-10-30T13:57:50.414184-04:00", "demo": 0, "ticker": "DAVA", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "DAVA SHAREHOLDER NOTICE: Endava plc Investors with Substantial Losses Have Opportunity to Lead the Endava Class Action L"}
