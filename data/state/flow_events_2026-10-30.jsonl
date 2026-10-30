@@ -143,3 +143,21 @@
 {"ts": "2026-10-30T13:45:50.423861-04:00", "demo": 0, "ticker": "CARE", "prev_state": "RUNNING", "state": "COOLING", "price": 29.495, "tp": 0.6505238937349769, "note": "pace 0.7x off peak 21.0x"}
 {"ts": "2026-10-30T13:45:50.423861-04:00", "demo": 0, "ticker": "GPN", "prev_state": "LEAVING", "state": "FADING", "price": 94.91, "tp": 12.624501572054571, "note": "pace 12.6x vs peak 58.0x \u00b7 -6.1% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-10-30T13:48:50.412608-04:00", "demo": 0, "ticker": "FLNC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Fluence Energy (FLNC) Faces Securities Class Action Amid Inability to Ramp Houston Facility"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "FBOT", "prev_state": "RUNNING", "state": "CHURN", "price": 36.87, "tp": 73.90095163887358, "note": "73.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "BBAG", "prev_state": "FADING", "state": "RUNNING", "price": 44.625, "tp": 93.31486100775372, "note": "sustained 93.3x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "BHC", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.56, "tp": 3.3720547241345633, "note": "sustained 3.4x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "GRAL", "prev_state": "QUIET", "state": "RUNNING", "price": 142.225, "tp": 2.0704527794775776, "note": "sustained 2.1x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "TWI", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.8, "tp": 4.2534902957810825, "note": "sustained 4.3x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "CRMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.91, "tp": 3.1257497834738395, "note": "sustained 3.1x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "FXH", "prev_state": "COOLING", "state": "RUNNING", "price": 137.225, "tp": 6.876467834258159, "note": "sustained 6.9x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "CYH", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.335, "tp": 3.45471350394238, "note": "pace 3.5x and accelerating (24.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.06, "tp": 9.254484812629244, "note": "pace 9.3x and accelerating (4.3x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "ACCO", "prev_state": "RUNNING", "state": "FADING", "price": 5.385, "tp": 4.609144606483036, "note": "pace 4.6x vs peak 15.6x \u00b7 -1.2% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "BFAM", "prev_state": "IGNITING", "state": "RUNNING", "price": 53.84, "tp": 10.440961980968781, "note": "sustained 10.4x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "BURU", "prev_state": "COOLING", "state": "RUNNING", "price": 0.2768, "tp": 1.816542512566367, "note": "sustained 1.8x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "CHPS", "prev_state": "CHURN", "state": "RUNNING", "price": 74.425, "tp": 8.351506369523012, "note": "sustained 8.4x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "GOOGN", "prev_state": "RUNNING", "state": "COOLING", "price": 41.19, "tp": 0.6573628116543535, "note": "pace 0.7x off peak 5.7x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.78, "tp": 4.965222390284061, "note": "pace 5.0x and accelerating (1.7x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "AZN", "prev_state": "QUIET", "state": "RUNNING", "price": 187.22, "tp": 1.968614590696374, "note": "sustained 2.0x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "FHLC", "prev_state": "FADING", "state": "RUNNING", "price": 88.83, "tp": 2.7928864009456067, "note": "sustained 2.8x"}
+{"ts": "2026-10-30T13:49:35.424630-04:00", "demo": 0, "ticker": "CARE", "prev_state": "COOLING", "state": "RUNNING", "price": 29.5, "tp": 1.808807629952862, "note": "sustained 1.8x"}
