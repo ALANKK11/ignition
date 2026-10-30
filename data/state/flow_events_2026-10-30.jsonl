@@ -182,3 +182,11 @@
 {"ts": "2026-10-30T13:53:20.425203-04:00", "demo": 0, "ticker": "BURU", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.2786, "tp": 4.8976754031119505, "note": "pace 4.9x and accelerating (2.7x vs prior window) \u00b7 +1.6% in window"}
 {"ts": "2026-10-30T13:53:20.425203-04:00", "demo": 0, "ticker": "ATEC", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.97, "tp": 8.818663508707989, "note": "sustained 8.8x"}
 {"ts": "2026-10-30T13:53:20.425203-04:00", "demo": 0, "ticker": "CAL", "prev_state": "RUNNING", "state": "COOLING", "price": 13.48, "tp": 1.602074691806221, "note": "pace 1.6x off peak 4.6x"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "GDYN", "prev_state": "RUNNING", "state": "FADING", "price": 12.565, "tp": 13.130458192358644, "note": "pace 13.1x vs peak 39.1x \u00b7 -2.5% off HOD \u00b7 chart still +32% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "ADT", "prev_state": "QUIET", "state": "CHURN", "price": 9.865, "tp": 3.6017266644016974, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "APMD", "prev_state": "RUNNING", "state": "COOLING", "price": 16.41, "tp": 0.4096521177493644, "note": "pace 0.4x off peak 3.3x"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "EDIV", "prev_state": "CHURN", "state": "RUNNING", "price": 40.18, "tp": 24.367802814874278, "note": "sustained 24.4x"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "BBW", "prev_state": "IGNITING", "state": "RUNNING", "price": 27.49, "tp": 3.3672605582436086, "note": "sustained 3.4x"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "AZN", "prev_state": "QUIET", "state": "RUNNING", "price": 187.305, "tp": 2.077734710183002, "note": "sustained 2.1x"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "BV", "prev_state": "FADING", "state": "IGNITING", "price": 11.59, "tp": 4.157977920728102, "note": "pace 4.2x and accelerating (8.1x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-10-30T13:57:05.425810-04:00", "demo": 0, "ticker": "CHOW", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.99, "tp": 26.113198204362554, "note": "sustained 26.1x"}
