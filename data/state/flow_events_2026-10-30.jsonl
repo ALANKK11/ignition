@@ -426,3 +426,18 @@
 {"ts": "2026-10-30T14:45:50.434884-04:00", "demo": 0, "ticker": "MYE", "prev_state": "IGNITING", "state": "RUNNING", "price": 28.79, "tp": 3.066629209633527, "note": "sustained 3.1x"}
 {"ts": "2026-10-30T14:45:50.434884-04:00", "demo": 0, "ticker": "STC", "prev_state": "IGNITING", "state": "RUNNING", "price": 45.03, "tp": 4.265498950438263, "note": "sustained 4.3x"}
 {"ts": "2026-10-30T14:45:50.434884-04:00", "demo": 0, "ticker": "TWI", "prev_state": "COOLING", "state": "RUNNING", "price": 4.745, "tp": 2.3899631488778845, "note": "sustained 2.4x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "CONL", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.93, "tp": 2.137679393748756, "note": "sustained 2.1x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "AAOG", "prev_state": "IGNITING", "state": "COOLING", "price": 0.7608, "tp": 1.6657532401765967, "note": "pace 1.7x off peak 5.6x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "AIOK", "prev_state": "RUNNING", "state": "IGNITING", "price": 26.07, "tp": 3.0178229578702513, "note": "pace 3.0x and accelerating (2.5x vs prior window) \u00b7 -3.4% in window"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "AMZN", "prev_state": "CHURN", "state": "RUNNING", "price": 237.4, "tp": 2.888549216273313, "note": "sustained 2.9x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "AAOX", "prev_state": "RUNNING", "state": "COOLING", "price": 3.43, "tp": 1.6458716703590512, "note": "pace 1.6x off peak 3.2x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "CCJ", "prev_state": "CHURN", "state": "RUNNING", "price": 74.86, "tp": 3.3643485355564327, "note": "sustained 3.4x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "CHOW", "prev_state": "FADING", "state": "IGNITING", "price": 4.875, "tp": 38.01731422512008, "note": "pace 38.0x and accelerating (4.6x vs prior window) \u00b7 +6.7% in window"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "AEYE", "prev_state": "COOLING", "state": "RUNNING", "price": 13.15, "tp": 10.083672597785476, "note": "sustained 10.1x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "ACCO", "prev_state": "FADING", "state": "IGNITING", "price": 5.285, "tp": 11.41193059106368, "note": "pace 11.4x and accelerating (1.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "CVEO", "prev_state": "IGNITING", "state": "RUNNING", "price": 33.79, "tp": 5.530484158064718, "note": "sustained 5.5x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "STC", "prev_state": "RUNNING", "state": "COOLING", "price": 44.975, "tp": 0.745643496229992, "note": "pace 0.7x off peak 26.6x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "EEMV", "prev_state": "RUNNING", "state": "CHURN", "price": 70.8, "tp": 7.179788841043984, "note": "7.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "FVRR", "prev_state": "QUIET", "state": "RUNNING", "price": 8.35, "tp": 1.8004363527431089, "note": "sustained 1.8x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "MYE", "prev_state": "RUNNING", "state": "COOLING", "price": 28.79, "tp": 0.0, "note": "pace 0.0x off peak 3.7x"}
+{"ts": "2026-10-30T14:49:35.435279-04:00", "demo": 0, "ticker": "REPL", "prev_state": "RUNNING", "state": "COOLING", "price": 17.445, "tp": 1.508775591260901, "note": "pace 1.5x off peak 2.7x"}
