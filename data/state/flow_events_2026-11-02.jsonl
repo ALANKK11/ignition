@@ -71,3 +71,4 @@
 {"ts": "2026-11-02T15:58:20.145797-05:00", "demo": 0, "ticker": "DBND", "prev_state": "COOLING", "state": "CHURN", "price": 44.04, "tp": 22.654758802775007, "note": "22.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-02T15:58:20.145797-05:00", "demo": 0, "ticker": "DINT", "prev_state": "CHURN", "state": "RUNNING", "price": 27.495, "tp": 52.247110274478665, "note": "sustained 52.2x"}
 {"ts": "2026-11-02T15:58:20.145797-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "QUIET", "state": "RUNNING", "price": 4.015, "tp": 2.8224153120254862, "note": "sustained 2.8x"}
+{"ts": "2026-11-02T16:11:05.133376-05:00", "demo": 0, "ticker": "CPS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cooper Standard Adopts Tax Benefits Preservation Plan to Protect its Tax Benefits and Shareholder Value"}
