@@ -1,2 +1,11 @@
 {"ts": "2026-11-02T15:40:20.127424-05:00", "demo": 0, "ticker": "LAZ", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lazard finalise l'acquisition de Campbell Lutyens et lance Lazard CL, leader mondial de la nouvelle \u00e8re du capital-inves"}
 {"ts": "2026-11-02T15:40:20.127424-05:00", "demo": 0, "ticker": "FE", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "FirstEnergy Names Don Rettig VP, FirstEnergy Foundation President"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "NPKI", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.135, "tp": 11.228497157357424, "note": "pace 11.2x and accelerating (1.9x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "CDP", "prev_state": "RUNNING", "state": "COOLING", "price": 33.47, "tp": 1.7536372712864212, "note": "pace 1.8x off peak 2.6x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "QUIET", "state": "RUNNING", "price": 14.35, "tp": 2.0989168960703846, "note": "sustained 2.1x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "OFRM", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.675, "tp": 14.447504495309209, "note": "sustained 14.4x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "MVLL", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.38, "tp": 7.535128773989188, "note": "sustained 7.5x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "WNC", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.79, "tp": 5.681985523122522, "note": "sustained 5.7x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "LFTO", "prev_state": "RUNNING", "state": "QUIET", "price": 14.225, "tp": 1.7249235697883416, "note": ""}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "OSS", "prev_state": "QUIET", "state": "RUNNING", "price": 4.82, "tp": 2.1326287167938704, "note": "sustained 2.1x"}
+{"ts": "2026-11-02T15:43:20.142288-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "CHURN", "state": "RUNNING", "price": 22.63, "tp": 2.505965918037951, "note": "sustained 2.5x"}
