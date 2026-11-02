@@ -72,3 +72,5 @@
 {"ts": "2026-11-02T15:58:20.145797-05:00", "demo": 0, "ticker": "DINT", "prev_state": "CHURN", "state": "RUNNING", "price": 27.495, "tp": 52.247110274478665, "note": "sustained 52.2x"}
 {"ts": "2026-11-02T15:58:20.145797-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "QUIET", "state": "RUNNING", "price": 4.015, "tp": 2.8224153120254862, "note": "sustained 2.8x"}
 {"ts": "2026-11-02T16:11:05.133376-05:00", "demo": 0, "ticker": "CPS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cooper Standard Adopts Tax Benefits Preservation Plan to Protect its Tax Benefits and Shareholder Value"}
+{"ts": "2026-11-02T16:17:05.134489-05:00", "demo": 0, "ticker": "WTTR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Select Water Solutions Announces Closing of Pilot Water Solutions Acquisition"}
+{"ts": "2026-11-02T16:17:05.134489-05:00", "demo": 0, "ticker": "LII", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Lennox Announces Building Climate Solutions Leadership Transition"}
