@@ -33,3 +33,4 @@
 {"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "AVPT", "prev_state": "QUIET", "state": "RUNNING", "price": 16.805, "tp": 2.0337072339298876, "note": "sustained 2.0x"}
 {"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "EVGO", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.865, "tp": 20.72397505810143, "note": "pace 20.7x and accelerating (10.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "PERI", "prev_state": "CHURN", "state": "RUNNING", "price": 11.415, "tp": 12.436848345833484, "note": "sustained 12.4x"}
+{"ts": "2026-11-02T15:51:35.129764-05:00", "demo": 0, "ticker": "TRS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WOODWARD PARK PARTNERS ADVISES TRIMAS IN ITS SALE OF RAPAK TO RINGMETALL"}
