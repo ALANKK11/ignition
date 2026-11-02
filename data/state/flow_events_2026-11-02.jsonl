@@ -25,3 +25,11 @@
 {"ts": "2026-11-02T15:47:05.143227-05:00", "demo": 0, "ticker": "LFTO", "prev_state": "QUIET", "state": "RUNNING", "price": 14.16, "tp": 2.0596065869433535, "note": "sustained 2.1x"}
 {"ts": "2026-11-02T15:47:05.143227-05:00", "demo": 0, "ticker": "EVGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.88, "tp": 19.71838673903389, "note": "sustained 19.7x"}
 {"ts": "2026-11-02T15:47:05.143227-05:00", "demo": 0, "ticker": "ENHA", "prev_state": "IGNITING", "state": "COOLING", "price": 7.07, "tp": 0.0, "note": "pace 0.0x off peak 3.9x"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "OSS", "prev_state": "RUNNING", "state": "COOLING", "price": 4.825, "tp": 1.5741668637934667, "note": "pace 1.6x off peak 2.1x"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "APEI", "prev_state": "QUIET", "state": "IGNITING", "price": 41.78, "tp": 2.8324968951325618, "note": "pace 2.8x and accelerating (56.6x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "SEGG", "prev_state": "RUNNING", "state": "FADING", "price": 1.9, "tp": 157.25024238312764, "note": "pace 157.3x vs peak 663.2x \u00b7 -17.4% off HOD \u00b7 chart still +39% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "EPAC", "prev_state": "QUIET", "state": "RUNNING", "price": 43.57, "tp": 1.8117961263280358, "note": "sustained 1.8x"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "CHURN", "state": "RUNNING", "price": 22.6, "tp": 2.3685273489563867, "note": "sustained 2.4x"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "AVPT", "prev_state": "QUIET", "state": "RUNNING", "price": 16.805, "tp": 2.0337072339298876, "note": "sustained 2.0x"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "EVGO", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.865, "tp": 20.72397505810143, "note": "pace 20.7x and accelerating (10.6x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "PERI", "prev_state": "CHURN", "state": "RUNNING", "price": 11.415, "tp": 12.436848345833484, "note": "sustained 12.4x"}
