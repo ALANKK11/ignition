@@ -34,3 +34,18 @@
 {"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "EVGO", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.865, "tp": 20.72397505810143, "note": "pace 20.7x and accelerating (10.6x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-11-02T15:50:50.143837-05:00", "demo": 0, "ticker": "PERI", "prev_state": "CHURN", "state": "RUNNING", "price": 11.415, "tp": 12.436848345833484, "note": "sustained 12.4x"}
 {"ts": "2026-11-02T15:51:35.129764-05:00", "demo": 0, "ticker": "TRS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "WOODWARD PARK PARTNERS ADVISES TRIMAS IN ITS SALE OF RAPAK TO RINGMETALL"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "RUNNING", "state": "QUIET", "price": 4.085, "tp": 1.71105209892306, "note": ""}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "DINT", "prev_state": "RUNNING", "state": "CHURN", "price": 27.495, "tp": 142.2124260545211, "note": "142.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "GDYN", "prev_state": "QUIET", "state": "RUNNING", "price": 13.815, "tp": 1.9926039745789843, "note": "sustained 2.0x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "RUNNING", "state": "COOLING", "price": 22.58, "tp": 1.584127945825562, "note": "pace 1.6x off peak 2.7x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "FLCA", "prev_state": "CHURN", "state": "RUNNING", "price": 54.385, "tp": 2.1682860729393254, "note": "sustained 2.2x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "AVPT", "prev_state": "RUNNING", "state": "QUIET", "price": 16.75, "tp": 1.7437054148646327, "note": ""}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "DBND", "prev_state": "RUNNING", "state": "COOLING", "price": 44.05, "tp": 1.1527321920314562, "note": "pace 1.2x off peak 20.9x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "APEI", "prev_state": "IGNITING", "state": "RUNNING", "price": 41.78, "tp": 1.9129045696948603, "note": "sustained 1.9x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "AVNM", "prev_state": "RUNNING", "state": "FADING", "price": 80.185, "tp": 73.10021974557755, "note": "pace 73.1x vs peak 225.1x \u00b7 -0.8% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "CORP", "prev_state": "CHURN", "state": "RUNNING", "price": 93.095, "tp": 5.88828347170236, "note": "sustained 5.9x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "ENHA", "prev_state": "COOLING", "state": "RUNNING", "price": 7.31, "tp": 2.0401670831714673, "note": "sustained 2.0x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "PSF", "prev_state": "RUNNING", "state": "CHURN", "price": 19.06, "tp": 16.459239635435402, "note": "16.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "NNOV", "prev_state": "RUNNING", "state": "COOLING", "price": 31.14, "tp": 0.0, "note": "pace 0.0x off peak 32.3x"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "RBNE", "prev_state": "RUNNING", "state": "FADING", "price": 0.1522, "tp": 1.4447107295470207, "note": "pace 1.4x vs peak 4.2x \u00b7 -50.7% off HOD \u00b7 chart still +11% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-02T15:54:35.144802-05:00", "demo": 0, "ticker": "CLRO", "prev_state": "RUNNING", "state": "QUIET", "price": 5.49, "tp": 1.7308618638346305, "note": ""}
