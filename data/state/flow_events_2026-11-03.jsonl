@@ -491,3 +491,10 @@
 {"ts": "2026-11-03T15:32:44.542789-05:00", "demo": 0, "ticker": "CHPT", "prev_state": "LEAVING", "state": "FADING", "price": 10.84, "tp": 0.8299147386872608, "note": "pace 0.8x vs peak 22.3x \u00b7 -2.5% off HOD \u00b7 chart still +10% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-03T15:32:44.542789-05:00", "demo": 0, "ticker": "AEHG", "prev_state": "FADING", "state": "IGNITING", "price": 3.04, "tp": 5.188959529564399, "note": "pace 5.2x and accelerating (2.2x vs prior window) \u00b7 -1.0% in window"}
 {"ts": "2026-11-03T15:32:44.542789-05:00", "demo": 0, "ticker": "AROW", "prev_state": "CHURN", "state": "RUNNING", "price": 38.74, "tp": 24.237673910439565, "note": "sustained 24.2x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "DRD", "prev_state": "COOLING", "state": "RUNNING", "price": 22.53, "tp": 2.345958484241459, "note": "sustained 2.3x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "CEMB", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 43.87, "tp": 1.9940849003740575, "note": "sustained 2.0x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "PAYO", "prev_state": "CHURN", "state": "RUNNING", "price": 7.165, "tp": 3.966065055739199, "note": "sustained 4.0x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "ALSN", "prev_state": "IGNITING", "state": "RUNNING", "price": 118.915, "tp": 4.57367659685557, "note": "sustained 4.6x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "BCC", "prev_state": "COOLING", "state": "RUNNING", "price": 75.71, "tp": 2.2559457000012975, "note": "sustained 2.3x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "DFSI", "prev_state": "RUNNING", "state": "COOLING", "price": 45.055, "tp": 0.0, "note": "pace 0.0x off peak 42.4x"}
+{"ts": "2026-11-03T15:35:44.542998-05:00", "demo": 0, "ticker": "FCOM", "prev_state": "RUNNING", "state": "FADING", "price": 65.4, "tp": 4.140079258303966, "note": "pace 4.1x vs peak 15.4x \u00b7 -0.5% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
