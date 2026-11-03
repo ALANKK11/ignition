@@ -345,3 +345,10 @@
 {"ts": "2026-11-03T14:49:14.534220-05:00", "demo": 0, "ticker": "BCC", "prev_state": "COOLING", "state": "RUNNING", "price": 75.73, "tp": 3.1572878048946373, "note": "sustained 3.2x"}
 {"ts": "2026-11-03T14:49:14.534220-05:00", "demo": 0, "ticker": "BSCQ", "prev_state": "CHURN", "state": "FADING", "price": 19.53, "tp": 0.0, "note": "pace 0.0x vs peak 161.3x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-03T14:49:14.534220-05:00", "demo": 0, "ticker": "INGM", "prev_state": "COOLING", "state": "RUNNING", "price": 26.53, "tp": 2.1393340249890214, "note": "sustained 2.1x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "COOLING", "price": 7.44, "tp": 1.6697698740230402, "note": "pace 1.7x off peak 3.4x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "AKTS", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.815, "tp": 3.4627155388611173, "note": "sustained 3.5x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "BVS", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.82, "tp": 4.380086979322164, "note": "sustained 4.4x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "CGCV", "prev_state": "QUIET", "state": "RUNNING", "price": 33.59, "tp": 1.8419702733368184, "note": "sustained 1.8x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "BETA", "prev_state": "LEAVING", "state": "FADING", "price": 23.365, "tp": 2.1016274625510087, "note": "pace 2.1x vs peak 6.5x \u00b7 -2.9% off HOD \u00b7 chart still +15% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "FDX", "prev_state": "CHURN", "state": "RUNNING", "price": 320.66, "tp": 3.6746853396063415, "note": "sustained 3.7x"}
+{"ts": "2026-11-03T14:52:14.534855-05:00", "demo": 0, "ticker": "THRO", "prev_state": "RUNNING", "state": "CHURN", "price": 42.79, "tp": 7.127206553163108, "note": "7.1x participation, no progress at highs \u2014 absorption"}
