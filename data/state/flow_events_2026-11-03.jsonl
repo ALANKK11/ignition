@@ -466,3 +466,12 @@
 {"ts": "2026-11-03T15:22:59.540726-05:00", "demo": 0, "ticker": "CNSY", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.37, "tp": 15.794438322495433, "note": "sustained 15.8x"}
 {"ts": "2026-11-03T15:22:59.540726-05:00", "demo": 0, "ticker": "INGM", "prev_state": "RUNNING", "state": "CHURN", "price": 26.47, "tp": 2.3226193054499276, "note": "2.3x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-03T15:22:59.540726-05:00", "demo": 0, "ticker": "FDT", "prev_state": "QUIET", "state": "RUNNING", "price": 88.43, "tp": 1.8179394886429139, "note": "sustained 1.8x"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "INGM", "prev_state": "CHURN", "state": "RUNNING", "price": 26.47, "tp": 1.926442308589038, "note": "sustained 1.9x"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "FDT", "prev_state": "RUNNING", "state": "QUIET", "price": 88.43, "tp": 1.6787269633309319, "note": ""}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "BRCC", "prev_state": "RUNNING", "state": "COOLING", "price": 9.77, "tp": 1.416297146557399, "note": "pace 1.4x off peak 3.0x"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "DD", "prev_state": "CHURN", "state": "IGNITING", "price": 153.035, "tp": 5.764320535780891, "note": "pace 5.8x and accelerating (2.0x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "AKR", "prev_state": "RUNNING", "state": "CHURN", "price": 19.095, "tp": 3.8001134181045373, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "EVER", "prev_state": "IGNITING", "state": "CHURN", "price": 28.74, "tp": 5.798331007767728, "note": "5.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "TRS", "prev_state": "RUNNING", "state": "COOLING", "price": 39.26, "tp": 1.1646383546307317, "note": "pace 1.2x off peak 2.4x"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "CVSA", "prev_state": "RUNNING", "state": "COOLING", "price": 122.95, "tp": 1.5649772020717734, "note": "pace 1.6x off peak 15.3x"}
+{"ts": "2026-11-03T15:26:44.541279-05:00", "demo": 0, "ticker": "CVLG", "prev_state": "CHURN", "state": "COOLING", "price": 33.5, "tp": 1.0440347339783669, "note": "pace 1.0x off peak 12.9x"}
