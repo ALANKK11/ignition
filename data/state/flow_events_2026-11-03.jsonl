@@ -390,3 +390,14 @@
 {"ts": "2026-11-03T15:01:59.536824-05:00", "demo": 0, "ticker": "CRUX", "prev_state": "RUNNING", "state": "CHURN", "price": 28.985, "tp": 12.500185356596889, "note": "12.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-03T15:01:59.536824-05:00", "demo": 0, "ticker": "DOLE", "prev_state": "RUNNING", "state": "CHURN", "price": 13.045, "tp": 6.912071716240264, "note": "6.9x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-03T15:01:59.536824-05:00", "demo": 0, "ticker": "AHCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.08, "tp": 7.421504607922198, "note": "sustained 7.4x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "BGSI", "prev_state": "IGNITING", "state": "RUNNING", "price": 88.3, "tp": 3.7392298703345, "note": "sustained 3.7x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "CGCV", "prev_state": "QUIET", "state": "RUNNING", "price": 33.565, "tp": 1.9285303349384388, "note": "sustained 1.9x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "AMDD", "prev_state": "COOLING", "state": "RUNNING", "price": 27.24, "tp": 2.205620636563285, "note": "sustained 2.2x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "CVSA", "prev_state": "COOLING", "state": "IGNITING", "price": 122.82, "tp": 13.771150089293279, "note": "pace 13.8x and accelerating (32.7x vs prior window) \u00b7 +1.0% in window"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "DJIA", "prev_state": "COOLING", "state": "RUNNING", "price": 22.37, "tp": 2.0263758978029824, "note": "sustained 2.0x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "FCOM", "prev_state": "FADING", "state": "RUNNING", "price": 65.36, "tp": 11.20281129290361, "note": "sustained 11.2x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.175, "tp": 3.826562030915377, "note": "pace 3.8x and accelerating (1.9x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "DBP", "prev_state": "CHURN", "state": "COOLING", "price": 87.19, "tp": 0.0, "note": "pace 0.0x off peak 30.1x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "ACYN", "prev_state": "FADING", "state": "RUNNING", "price": 20.485, "tp": 6.153367605165097, "note": "sustained 6.2x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "CDP", "prev_state": "COOLING", "state": "RUNNING", "price": 33.1, "tp": 2.4887041109768533, "note": "sustained 2.5x"}
+{"ts": "2026-11-03T15:04:59.537329-05:00", "demo": 0, "ticker": "MLYS", "prev_state": "LEAVING", "state": "FADING", "price": 15.86, "tp": 0.7644330395430856, "note": "pace 0.8x vs peak 7.9x \u00b7 -2.3% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
