@@ -332,3 +332,7 @@
 {"ts": "2026-11-03T14:43:14.533567-05:00", "demo": 0, "ticker": "CDP", "prev_state": "COOLING", "state": "RUNNING", "price": 33.025, "tp": 1.8092890192612814, "note": "sustained 1.8x"}
 {"ts": "2026-11-03T14:43:14.533567-05:00", "demo": 0, "ticker": "ARRY", "prev_state": "CHURN", "state": "RUNNING", "price": 4.645, "tp": 6.241965365893267, "note": "sustained 6.2x"}
 {"ts": "2026-11-03T14:43:14.533567-05:00", "demo": 0, "ticker": "BBUC", "prev_state": "RUNNING", "state": "COOLING", "price": 30.21, "tp": 1.3501949586568516, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-11-03T14:46:14.533673-05:00", "demo": 0, "ticker": "EHGO", "prev_state": "FADING", "state": "IGNITING", "price": 2.33, "tp": 311.4459394782055, "note": "pace 311.4x and accelerating (2.0x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-11-03T14:46:14.533673-05:00", "demo": 0, "ticker": "DD", "prev_state": "RUNNING", "state": "FADING", "price": 154.225, "tp": 1.7199106845187944, "note": "pace 1.7x vs peak 7.3x \u00b7 -0.9% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T14:46:14.533673-05:00", "demo": 0, "ticker": "EUSB", "prev_state": "RUNNING", "state": "COOLING", "price": 42.155, "tp": 0.0, "note": "pace 0.0x off peak 59.7x"}
+{"ts": "2026-11-03T14:46:14.533673-05:00", "demo": 0, "ticker": "BBUC", "prev_state": "COOLING", "state": "RUNNING", "price": 30.16, "tp": 3.2912713977539725, "note": "sustained 3.3x"}
