@@ -612,3 +612,4 @@
 {"ts": "2026-11-03T16:31:59.542192-05:00", "demo": 0, "ticker": "VRRM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Verra Mobility Announces Inducement Grant under Nasdaq Listing Rule 5635(c)(4)"}
 {"ts": "2026-11-03T16:31:59.542192-05:00", "demo": 0, "ticker": "DCH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dauch Corporation Announces Employee Inducement Award Under NYSE Rule 303A.08"}
 {"ts": "2026-11-03T16:31:59.542192-05:00", "demo": 0, "ticker": "VKTX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Viking Therapeutics to Participate at Upcoming Investor Conferences"}
+{"ts": "2026-11-03T16:32:44.542324-05:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AppLovin (APP) Facing Securities Fraud Class Action Amid Concerns Over Model Improvements"}
