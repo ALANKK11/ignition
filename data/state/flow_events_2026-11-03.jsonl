@@ -43,3 +43,9 @@
 {"ts": "2026-11-03T13:30:29.519480-05:00", "demo": 0, "ticker": "TAN", "prev_state": "RUNNING", "state": "COOLING", "price": 43.41, "tp": 1.7367784848962504, "note": "pace 1.7x off peak 3.0x"}
 {"ts": "2026-11-03T13:30:29.519480-05:00", "demo": 0, "ticker": "ACB", "prev_state": "FADING", "state": "RUNNING", "price": 5.135, "tp": 4.2694975211457065, "note": "sustained 4.3x"}
 {"ts": "2026-11-03T13:30:29.519480-05:00", "demo": 0, "ticker": "AKR", "prev_state": "RUNNING", "state": "COOLING", "price": 19.03, "tp": 0.5511196834125424, "note": "pace 0.6x off peak 4.8x"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "IBTA", "prev_state": "RUNNING", "state": "FADING", "price": 62.91, "tp": 1.4253123128883147, "note": "pace 1.4x vs peak 7.9x \u00b7 -5.0% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "RDAC", "prev_state": "FADING", "state": "RUNNING", "price": 11.2, "tp": 270.10263721364265, "note": "sustained 270.1x"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "BRAI", "prev_state": "COOLING", "state": "RUNNING", "price": 3.21, "tp": 2.2375894639803753, "note": "sustained 2.2x"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "AEHR", "prev_state": "RUNNING", "state": "FADING", "price": 65.36, "tp": 1.6817855689950798, "note": "pace 1.7x vs peak 5.9x \u00b7 -1.0% off HOD \u00b7 chart still +27% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "USDU", "prev_state": "NEW MONEY", "state": "FADING", "price": 27.2, "tp": 0.0, "note": "pace 0.0x vs peak 19.4x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T13:33:29.519955-05:00", "demo": 0, "ticker": "BBUC", "prev_state": "QUIET", "state": "RUNNING", "price": 30.035, "tp": 2.751254828843976, "note": "sustained 2.8x"}
