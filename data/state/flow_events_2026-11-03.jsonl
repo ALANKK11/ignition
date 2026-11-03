@@ -7,3 +7,8 @@
 {"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "TRS", "prev_state": "QUIET", "state": "RUNNING", "price": 39.53, "tp": 2.0829616431568643, "note": "sustained 2.1x"}
 {"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "USDU", "prev_state": "QUIET", "state": "NEW MONEY", "price": 27.2, "tp": 15.884561563986532, "note": "quiet open (0.6x) \u2192 now 15.9x \u00b7 taking +7.0% flow share"}
 {"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "OFIX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.775, "tp": 1.1286375995725795, "note": "pace 1.1x off peak 1.8x"}
+{"ts": "2026-11-03T13:21:29.516938-05:00", "demo": 0, "ticker": "ACB", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.13, "tp": 6.933931563111063, "note": "pace 6.9x and accelerating (4.9x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-03T13:21:29.516938-05:00", "demo": 0, "ticker": "CIFU", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.92, "tp": 11.891914398057223, "note": "sustained 11.9x"}
+{"ts": "2026-11-03T13:21:29.516938-05:00", "demo": 0, "ticker": "TRS", "prev_state": "RUNNING", "state": "CHURN", "price": 39.53, "tp": 2.3414049025615626, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T13:21:29.516938-05:00", "demo": 0, "ticker": "INLF", "prev_state": "RUNNING", "state": "COOLING", "price": 0.2744, "tp": 0.7217318996592514, "note": "pace 0.7x off peak 3.7x"}
+{"ts": "2026-11-03T13:21:29.516938-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.2, "tp": 3.284564599579741, "note": "sustained 3.3x"}
