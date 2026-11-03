@@ -1,0 +1,9 @@
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "AKR", "prev_state": "QUIET", "state": "RUNNING", "price": 19.045, "tp": 4.113097879884377, "note": "sustained 4.1x"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.2781, "tp": 2.714194199561525, "note": "sustained 2.7x"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "CVLG", "prev_state": "QUIET", "state": "RUNNING", "price": 33.72, "tp": 2.7655283890515583, "note": "sustained 2.8x"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.175, "tp": 3.131916041433906, "note": "pace 3.1x and accelerating (3.9x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "CNSY", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.29, "tp": 39.86923807423857, "note": "pace 39.9x and accelerating (4.2x vs prior window) \u00b7 -3.4% in window"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "QURE", "prev_state": "RUNNING", "state": "COOLING", "price": 23.115, "tp": 0.5979982847514024, "note": "pace 0.6x off peak 5.7x"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "TRS", "prev_state": "QUIET", "state": "RUNNING", "price": 39.53, "tp": 2.0829616431568643, "note": "sustained 2.1x"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "USDU", "prev_state": "QUIET", "state": "NEW MONEY", "price": 27.2, "tp": 15.884561563986532, "note": "quiet open (0.6x) \u2192 now 15.9x \u00b7 taking +7.0% flow share"}
+{"ts": "2026-11-03T13:18:28.233651-05:00", "demo": 0, "ticker": "OFIX", "prev_state": "RUNNING", "state": "COOLING", "price": 8.775, "tp": 1.1286375995725795, "note": "pace 1.1x off peak 1.8x"}
