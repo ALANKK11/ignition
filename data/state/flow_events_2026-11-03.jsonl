@@ -55,3 +55,12 @@
 {"ts": "2026-11-03T13:36:29.520812-05:00", "demo": 0, "ticker": "HUBC", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1045, "tp": 7.449814451592388, "note": "pace 7.4x and accelerating (1.9x vs prior window) \u00b7 +1.1% in window"}
 {"ts": "2026-11-03T13:36:29.520812-05:00", "demo": 0, "ticker": "DJIA", "prev_state": "RUNNING", "state": "COOLING", "price": 22.41, "tp": 0.0, "note": "pace 0.0x off peak 12.4x"}
 {"ts": "2026-11-03T13:36:29.520812-05:00", "demo": 0, "ticker": "CMPS", "prev_state": "FADING", "state": "RUNNING", "price": 8.82, "tp": 2.741237076974688, "note": "sustained 2.7x"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "BVS", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.815, "tp": 7.747913698052318, "note": "pace 7.7x and accelerating (4.7x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "ACB", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.185, "tp": 8.625171177565658, "note": "pace 8.6x and accelerating (4.0x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "MLYS", "prev_state": "RUNNING", "state": "CHURN", "price": 16.05, "tp": 5.719502274917106, "note": "5.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "IBIG", "prev_state": "QUIET", "state": "CHURN", "price": 25.38, "tp": 37.84396921210167, "note": "37.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "BBUC", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.135, "tp": 2.8174249416092, "note": "pace 2.8x and accelerating (56.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "BETA", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.75, "tp": 3.420174504862977, "note": "sustained 3.4x"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "INGM", "prev_state": "RUNNING", "state": "CHURN", "price": 26.59, "tp": 3.302155705460381, "note": "3.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "BRCC", "prev_state": "QUIET", "state": "RUNNING", "price": 9.675, "tp": 2.162174519298836, "note": "sustained 2.2x"}
+{"ts": "2026-11-03T13:39:29.520950-05:00", "demo": 0, "ticker": "ARRY", "prev_state": "CHURN", "state": "RUNNING", "price": 4.64, "tp": 6.674991886353928, "note": "sustained 6.7x"}
