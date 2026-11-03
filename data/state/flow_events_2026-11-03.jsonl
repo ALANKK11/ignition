@@ -82,3 +82,9 @@
 {"ts": "2026-11-03T13:45:29.522342-05:00", "demo": 0, "ticker": "MLYS", "prev_state": "CHURN", "state": "RUNNING", "price": 16.04, "tp": 5.516505257103238, "note": "sustained 5.5x"}
 {"ts": "2026-11-03T13:45:29.522342-05:00", "demo": 0, "ticker": "CVGI", "prev_state": "RUNNING", "state": "QUIET", "price": 3.835, "tp": 1.601229234703463, "note": ""}
 {"ts": "2026-11-03T13:45:29.522342-05:00", "demo": 0, "ticker": "BRAI", "prev_state": "COOLING", "state": "FADING", "price": 3.19, "tp": 1.069879341441699, "note": "pace 1.1x vs peak 3.2x \u00b7 -2.7% off HOD \u00b7 chart still +24% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "BBUC", "prev_state": "RUNNING", "state": "COOLING", "price": 30.05, "tp": 0.618996968603569, "note": "pace 0.6x off peak 2.9x"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "CMPS", "prev_state": "RUNNING", "state": "FADING", "price": 8.82, "tp": 1.1083683694989113, "note": "pace 1.1x vs peak 4.1x \u00b7 -7.1% off HOD \u00b7 chart still +5% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "AHCO", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.125, "tp": 5.819379661912616, "note": "sustained 5.8x"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "DD", "prev_state": "RUNNING", "state": "CHURN", "price": 154.18, "tp": 5.073814526913232, "note": "5.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "DOLE", "prev_state": "QUIET", "state": "RUNNING", "price": 13.04, "tp": 5.679613249530479, "note": "sustained 5.7x"}
+{"ts": "2026-11-03T13:48:29.522780-05:00", "demo": 0, "ticker": "ADEA", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.15, "tp": 6.707132020196279, "note": "sustained 6.7x"}
