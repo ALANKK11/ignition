@@ -233,3 +233,4 @@
 {"ts": "2026-11-04T14:22:32.180070-05:00", "demo": 0, "ticker": "VGNT", "prev_state": "FADING", "state": "IGNITING", "price": 42.525, "tp": 3.4903946373159718, "note": "pace 3.5x and accelerating (2.8x vs prior window) \u00b7 -0.5% in window"}
 {"ts": "2026-11-04T14:22:32.180070-05:00", "demo": 0, "ticker": "SHC", "prev_state": "FADING", "state": "QUIET", "price": 16.49, "tp": 1.704117497773985, "note": ""}
 {"ts": "2026-11-04T14:22:32.180070-05:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.225, "tp": 3.216087874322362, "note": "sustained 3.2x"}
+{"ts": "2026-11-04T14:23:17.169909-05:00", "demo": 0, "ticker": "AMTD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AMTD IDEA in advanced dialogue to attempt to acquire a third hotel in New York City"}
