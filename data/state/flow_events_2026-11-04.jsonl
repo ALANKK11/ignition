@@ -684,3 +684,5 @@
 {"ts": "2026-11-04T15:57:47.199451-05:00", "demo": 0, "ticker": "COFS", "prev_state": "RUNNING", "state": "FADING", "price": 37.62, "tp": 1.3313385975534224, "note": "pace 1.3x vs peak 9.1x \u00b7 -0.1% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-04T15:57:47.199451-05:00", "demo": 0, "ticker": "SHC", "prev_state": "QUIET", "state": "RUNNING", "price": 16.395, "tp": 1.965826883009899, "note": "sustained 2.0x"}
 {"ts": "2026-11-04T15:57:47.199451-05:00", "demo": 0, "ticker": "TCMD", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.46, "tp": 4.922454739765717, "note": "pace 4.9x and accelerating (3.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-04T16:17:17.193073-05:00", "demo": 0, "ticker": "SVRN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SVRN Appoints Patrick O'Kain as Chief Operating Officer"}
+{"ts": "2026-11-04T16:17:17.193073-05:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover Completes Acquisition of Leistung"}
