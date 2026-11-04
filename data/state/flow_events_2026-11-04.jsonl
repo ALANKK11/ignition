@@ -689,3 +689,6 @@
 {"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "AH IGNITION", "price": 320.68, "tp": null, "note": "+14% on $0.78M ext tape"}
 {"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "ADMA", "prev_state": null, "state": "AH IGNITION", "price": 14.03, "tp": null, "note": "+30% on $0.06M ext tape"}
 {"ts": "2026-11-04T16:27:02.195045-05:00", "demo": 0, "ticker": "ROAD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Construction Partners, Inc. Completes Georgia Acquisition"}
+{"ts": "2026-11-04T16:32:17.196075-05:00", "demo": 0, "ticker": "CPS", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Cooper Standard Highlights Continued Strong New Business Awards in the Third Quarter of 2026"}
+{"ts": "2026-11-04T16:32:17.196075-05:00", "demo": 0, "ticker": "ABTC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Bitcoin Reports Third Quarter 2026 Results"}
+{"ts": "2026-11-04T16:32:17.196075-05:00", "demo": 0, "ticker": "GTES", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Gates Launches Poly Chain\u00ae Carbon\u2122 ONE to Expand Chain to Belt Conversion Opportunities Across Industrial Markets"}
