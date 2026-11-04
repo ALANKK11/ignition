@@ -234,3 +234,17 @@
 {"ts": "2026-11-04T14:22:32.180070-05:00", "demo": 0, "ticker": "SHC", "prev_state": "FADING", "state": "QUIET", "price": 16.49, "tp": 1.704117497773985, "note": ""}
 {"ts": "2026-11-04T14:22:32.180070-05:00", "demo": 0, "ticker": "XRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.225, "tp": 3.216087874322362, "note": "sustained 3.2x"}
 {"ts": "2026-11-04T14:23:17.169909-05:00", "demo": 0, "ticker": "AMTD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AMTD IDEA in advanced dialogue to attempt to acquire a third hotel in New York City"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "DUOL", "prev_state": "IGNITING", "state": "RUNNING", "price": 171.565, "tp": 7.846912809189767, "note": "sustained 7.8x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "CRCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.705, "tp": 20.628743249237452, "note": "sustained 20.6x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "DBO", "prev_state": "COOLING", "state": "RUNNING", "price": 23.33, "tp": 1.8605350174601085, "note": "sustained 1.9x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "AMZU", "prev_state": "RUNNING", "state": "FADING", "price": 38.5, "tp": 1.690366324592364, "note": "pace 1.7x vs peak 5.0x \u00b7 -1.8% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "BETA", "prev_state": "COOLING", "state": "FADING", "price": 25.24, "tp": 0.7546987569828241, "note": "pace 0.8x vs peak 2.7x \u00b7 -1.5% off HOD \u00b7 chart still +7% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "DKI", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.09, "tp": 72.17158748362486, "note": "sustained 72.2x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "ARRY", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.225, "tp": 9.752227877986877, "note": "sustained 9.8x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "ADTN", "prev_state": "QUIET", "state": "RUNNING", "price": 4.705, "tp": 1.9762434842068546, "note": "sustained 2.0x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "CRTO", "prev_state": "COOLING", "state": "RUNNING", "price": 14.965, "tp": 2.9941867861855767, "note": "sustained 3.0x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "CLVT", "prev_state": "FADING", "state": "RUNNING", "price": 2.17, "tp": 3.5589527821032205, "note": "sustained 3.6x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "TCMD", "prev_state": "RUNNING", "state": "FADING", "price": 28.405, "tp": 0.6034930344740136, "note": "pace 0.6x vs peak 2.2x \u00b7 -0.7% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "SHC", "prev_state": "QUIET", "state": "COOLING", "price": 16.445, "tp": 1.266136513636791, "note": "pace 1.3x off peak 2.3x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "UPWK", "prev_state": "FADING", "state": "COOLING", "price": 10.335, "tp": 1.5202360723817363, "note": "pace 1.5x off peak 2.5x"}
+{"ts": "2026-11-04T14:25:32.180446-05:00", "demo": 0, "ticker": "VITL", "prev_state": "CHURN", "state": "RUNNING", "price": 10.8, "tp": 1.9984149595068361, "note": "sustained 2.0x"}
