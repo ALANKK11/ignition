@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-04T16:40:32-05:00", "session": "post", "rows": [{"ticker": "APP", "last": 331.29, "gap": 0.1657, "dollars": 1229964.05, "vs_adv": 0.02, "new": false}, {"ticker": "ADMA", "last": 14.03, "gap": 0.3039, "dollars": 61775.549999999996, "vs_adv": 0.02, "new": false}]}
+{"v": 4, "ts": "2026-11-04T16:43:32-05:00", "session": "post", "rows": [{"ticker": "APP", "last": 331.04, "gap": 0.168, "dollars": 1290420.07, "vs_adv": 0.02, "new": false}, {"ticker": "ADMA", "last": 14.03, "gap": 0.3039, "dollars": 61775.549999999996, "vs_adv": 0.02, "new": false}]}
