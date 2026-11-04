@@ -459,3 +459,21 @@
 {"ts": "2026-11-04T15:09:47.189645-05:00", "demo": 0, "ticker": "VGNT", "prev_state": "FADING", "state": "IGNITING", "price": 42.66, "tp": 4.769154379361089, "note": "pace 4.8x and accelerating (1.7x vs prior window) \u00b7 -0.7% in window"}
 {"ts": "2026-11-04T15:09:47.189645-05:00", "demo": 0, "ticker": "LSPD", "prev_state": "RUNNING", "state": "CHURN", "price": 11.56, "tp": 2.6676271843664803, "note": "2.7x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-04T15:09:47.189645-05:00", "demo": 0, "ticker": "TREE", "prev_state": "RUNNING", "state": "QUIET", "price": 38.825, "tp": 1.7528547425653642, "note": ""}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ACB", "prev_state": "FADING", "state": "RUNNING", "price": 5.19, "tp": 6.726245238373017, "note": "sustained 6.7x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "AOM", "prev_state": "FADING", "state": "CHURN", "price": 49.15, "tp": 6.271145137991412, "note": "6.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ACAD", "prev_state": "RUNNING", "state": "CHURN", "price": 21.285, "tp": 3.696395841666231, "note": "3.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "AMDD", "prev_state": "FADING", "state": "RUNNING", "price": 27.48, "tp": 1.8879514153449655, "note": "sustained 1.9x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ARKB", "prev_state": "RUNNING", "state": "COOLING", "price": 26.54, "tp": 1.5515600900004556, "note": "pace 1.6x off peak 3.4x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ACEL", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.72, "tp": 15.91561931851552, "note": "pace 15.9x and accelerating (3.8x vs prior window) \u00b7 +1.4% in window"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ALNT", "prev_state": "QUIET", "state": "RUNNING", "price": 77.07, "tp": 3.6088096575076594, "note": "sustained 3.6x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.01, "tp": 9.931839092405314, "note": "pace 9.9x and accelerating (2.1x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ALB", "prev_state": "CHURN", "state": "RUNNING", "price": 94.38, "tp": 5.93878638494178, "note": "sustained 5.9x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "CRCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.775, "tp": 9.147980785372352, "note": "sustained 9.1x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "AIZ", "prev_state": "CHURN", "state": "RUNNING", "price": 310.21, "tp": 3.575719249359095, "note": "sustained 3.6x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "AAPD", "prev_state": "COOLING", "state": "RUNNING", "price": 9.73, "tp": 2.0253635527620606, "note": "sustained 2.0x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "TREE", "prev_state": "QUIET", "state": "FADING", "price": 38.825, "tp": 0.4362272338202045, "note": "pace 0.4x vs peak 2.3x \u00b7 -1.7% off HOD \u00b7 chart still +34% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "UPWK", "prev_state": "FADING", "state": "CHURN", "price": 10.39, "tp": 2.3289638117988756, "note": "2.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "DRVN", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.94, "tp": 5.640664217806464, "note": "sustained 5.6x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "VGNT", "prev_state": "IGNITING", "state": "RUNNING", "price": 42.66, "tp": 3.28085119717032, "note": "sustained 3.3x"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "ODTX", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.37, "tp": 4.730802776780357, "note": "pace 4.7x and accelerating (5.6x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-04T15:12:47.190512-05:00", "demo": 0, "ticker": "LSPD", "prev_state": "CHURN", "state": "RUNNING", "price": 11.55, "tp": 4.68899491360868, "note": "sustained 4.7x"}
