@@ -11,3 +11,14 @@
 {"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "DUOL", "prev_state": "CHURN", "state": "RUNNING", "price": 172.15, "tp": 3.2831606340421837, "note": "sustained 3.3x"}
 {"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "ANGI", "prev_state": "RUNNING", "state": "QUIET", "price": 7.35, "tp": 1.7162722825253272, "note": ""}
 {"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "DRVN", "prev_state": "CHURN", "state": "RUNNING", "price": 12.27, "tp": 2.15290358877902, "note": "sustained 2.2x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "EVER", "prev_state": "QUIET", "state": "RUNNING", "price": 30.55, "tp": 2.758115251657553, "note": "sustained 2.8x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "CLVT", "prev_state": "RUNNING", "state": "COOLING", "price": 2.225, "tp": 1.681939412932108, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "CYRX", "prev_state": "RUNNING", "state": "COOLING", "price": 16.895, "tp": 1.3379703534090364, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "LYEL", "prev_state": "QUIET", "state": "IGNITING", "price": 15.5, "tp": 3.0229441594798105, "note": "pace 3.0x and accelerating (6.2x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "BVS", "prev_state": "RUNNING", "state": "COOLING", "price": 11.71, "tp": 0.7597923428672971, "note": "pace 0.8x off peak 1.8x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "BETA", "prev_state": "RUNNING", "state": "QUIET", "price": 25.46, "tp": 1.5245957389149134, "note": ""}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "STVN", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.56, "tp": 3.1340454674879474, "note": "sustained 3.1x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "CHURN", "state": "RUNNING", "price": 5.37, "tp": 2.3558323749121497, "note": "sustained 2.4x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "ANGI", "prev_state": "QUIET", "state": "COOLING", "price": 7.335, "tp": 1.4793858278036933, "note": "pace 1.5x off peak 2.2x"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "CMTG", "prev_state": "RUNNING", "state": "FADING", "price": 1.84, "tp": 2.9884541218618335, "note": "pace 3.0x vs peak 10.4x \u00b7 -5.6% off HOD \u00b7 chart still +63% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T13:33:47.168935-05:00", "demo": 0, "ticker": "DKI", "prev_state": "RUNNING", "state": "FADING", "price": 2.1, "tp": 2.792384927709039, "note": "pace 2.8x vs peak 21.1x \u00b7 -16.7% off HOD \u00b7 chart still +35% \u2014 crowd buying a cooled tape"}
