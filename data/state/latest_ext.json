@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-04T16:19:32-05:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-11-04T16:22:32-05:00", "session": "post", "rows": [{"ticker": "APP", "last": 320.68, "gap": 0.1373, "dollars": 780304.36, "vs_adv": 0.02, "new": true}, {"ticker": "ADMA", "last": 14.03, "gap": 0.3039, "dollars": 61775.549999999996, "vs_adv": 0.02, "new": true}]}

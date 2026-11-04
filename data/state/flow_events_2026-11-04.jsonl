@@ -686,3 +686,5 @@
 {"ts": "2026-11-04T15:57:47.199451-05:00", "demo": 0, "ticker": "TCMD", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.46, "tp": 4.922454739765717, "note": "pace 4.9x and accelerating (3.0x vs prior window) \u00b7 -0.7% in window"}
 {"ts": "2026-11-04T16:17:17.193073-05:00", "demo": 0, "ticker": "SVRN", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "SVRN Appoints Patrick O'Kain as Chief Operating Officer"}
 {"ts": "2026-11-04T16:17:17.193073-05:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover Completes Acquisition of Leistung"}
+{"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "AH IGNITION", "price": 320.68, "tp": null, "note": "+14% on $0.78M ext tape"}
+{"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "ADMA", "prev_state": null, "state": "AH IGNITION", "price": 14.03, "tp": null, "note": "+30% on $0.06M ext tape"}
