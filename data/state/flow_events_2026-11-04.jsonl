@@ -1,0 +1,13 @@
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "BETA", "prev_state": "QUIET", "state": "RUNNING", "price": 25.46, "tp": 1.8043315505669058, "note": "sustained 1.8x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "STVN", "prev_state": "QUIET", "state": "IGNITING", "price": 12.52, "tp": 3.736997301975724, "note": "pace 3.7x and accelerating (2.3x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "VGNT", "prev_state": "RUNNING", "state": "FADING", "price": 42.38, "tp": 1.9962318763157942, "note": "pace 2.0x vs peak 8.7x \u00b7 -5.0% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "XRX", "prev_state": "QUIET", "state": "RUNNING", "price": 1.215, "tp": 2.2318567735573844, "note": "sustained 2.2x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "DKI", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.1, "tp": 9.603477975477817, "note": "sustained 9.6x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "RVLV", "prev_state": "QUIET", "state": "RUNNING", "price": 20.62, "tp": 2.520146790383417, "note": "sustained 2.5x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "UPWK", "prev_state": "QUIET", "state": "RUNNING", "price": 10.325, "tp": 2.5186908845480156, "note": "sustained 2.5x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "BVS", "prev_state": "QUIET", "state": "RUNNING", "price": 11.69, "tp": 1.8225641331477325, "note": "sustained 1.8x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "XMAX", "prev_state": "RUNNING", "state": "CHURN", "price": 5.375, "tp": 3.229156692746867, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "CYRX", "prev_state": "QUIET", "state": "RUNNING", "price": 16.895, "tp": 1.8032444629903814, "note": "sustained 1.8x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "DUOL", "prev_state": "CHURN", "state": "RUNNING", "price": 172.15, "tp": 3.2831606340421837, "note": "sustained 3.3x"}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "ANGI", "prev_state": "RUNNING", "state": "QUIET", "price": 7.35, "tp": 1.7162722825253272, "note": ""}
+{"ts": "2026-11-04T13:30:02.168330-05:00", "demo": 0, "ticker": "DRVN", "prev_state": "CHURN", "state": "RUNNING", "price": 12.27, "tp": 2.15290358877902, "note": "sustained 2.2x"}
