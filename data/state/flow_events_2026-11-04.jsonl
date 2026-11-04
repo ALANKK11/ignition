@@ -688,3 +688,4 @@
 {"ts": "2026-11-04T16:17:17.193073-05:00", "demo": 0, "ticker": "DOV", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Dover Completes Acquisition of Leistung"}
 {"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "AH IGNITION", "price": 320.68, "tp": null, "note": "+14% on $0.78M ext tape"}
 {"ts": "2026-11-04T16:22:32.203550-05:00", "demo": 0, "ticker": "ADMA", "prev_state": null, "state": "AH IGNITION", "price": 14.03, "tp": null, "note": "+30% on $0.06M ext tape"}
+{"ts": "2026-11-04T16:27:02.195045-05:00", "demo": 0, "ticker": "ROAD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Construction Partners, Inc. Completes Georgia Acquisition"}
