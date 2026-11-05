@@ -136,3 +136,15 @@
 {"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "LMRI", "prev_state": "COOLING", "state": "IGNITING", "price": 13.54, "tp": 5.018103326193182, "note": "pace 5.0x and accelerating (3.8x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "SOC", "prev_state": "COOLING", "state": "RUNNING", "price": 1.84, "tp": 3.835423416947986, "note": "sustained 3.8x"}
 {"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "BDVL", "prev_state": "COOLING", "state": "RUNNING", "price": 26.115, "tp": 151.2218700994321, "note": "sustained 151.2x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "UA", "prev_state": "QUIET", "state": "RUNNING", "price": 5.29, "tp": 1.8805162774424797, "note": "sustained 1.9x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "FTEC", "prev_state": "RUNNING", "state": "COOLING", "price": 256.83, "tp": 1.1602185573091428, "note": "pace 1.2x off peak 13.5x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "ACEL", "prev_state": "COOLING", "state": "FADING", "price": 13.42, "tp": 0.2695263221380349, "note": "pace 0.3x vs peak 3.4x \u00b7 -1.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "EVER", "prev_state": "IGNITING", "state": "COOLING", "price": 30.245, "tp": 0.5666687205124773, "note": "pace 0.6x off peak 7.8x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "EWTX", "prev_state": "RUNNING", "state": "QUIET", "price": 40.16, "tp": 1.4195260900182654, "note": ""}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "GBND", "prev_state": "RUNNING", "state": "CHURN", "price": 49.115, "tp": 3.523807934223085, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "EQWL", "prev_state": "RUNNING", "state": "COOLING", "price": 130.355, "tp": 0.0, "note": "pace 0.0x off peak 20.9x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "VCEL", "prev_state": "IGNITING", "state": "RUNNING", "price": 50.39, "tp": 7.806309899933536, "note": "sustained 7.8x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "APPX", "prev_state": "FADING", "state": "RUNNING", "price": 14.42, "tp": 7.83449581046852, "note": "sustained 7.8x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "DMXF", "prev_state": "RUNNING", "state": "COOLING", "price": 83.17, "tp": 0.0, "note": "pace 0.0x off peak 25.0x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "SHLS", "prev_state": "RUNNING", "state": "COOLING", "price": 8.685, "tp": 1.7350197431108396, "note": "pace 1.7x off peak 3.3x"}
+{"ts": "2026-11-05T14:14:48.132549-05:00", "demo": 0, "ticker": "AOK", "prev_state": "QUIET", "state": "CHURN", "price": 40.39, "tp": 5.665488031068852, "note": "5.7x participation, no progress at highs \u2014 absorption"}
