@@ -257,3 +257,13 @@
 {"ts": "2026-11-05T14:37:18.136713-05:00", "demo": 0, "ticker": "PAR", "prev_state": "RUNNING", "state": "COOLING", "price": 18.915, "tp": 1.7315723991976695, "note": "pace 1.7x off peak 13.2x"}
 {"ts": "2026-11-05T14:37:18.136713-05:00", "demo": 0, "ticker": "LMRI", "prev_state": "RUNNING", "state": "FADING", "price": 13.56, "tp": 2.5533441484060915, "note": "pace 2.6x vs peak 8.5x \u00b7 -2.8% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-05T14:37:18.136713-05:00", "demo": 0, "ticker": "PAYP", "prev_state": "QUIET", "state": "COOLING", "price": 14.71, "tp": 1.2918815880628851, "note": "pace 1.3x off peak 1.8x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "DBO", "prev_state": "QUIET", "state": "COOLING", "price": 23.865, "tp": 1.5270134449024475, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "BDVL", "prev_state": "COOLING", "state": "RUNNING", "price": 26.12, "tp": 2.406740334348838, "note": "sustained 2.4x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "ACIO", "prev_state": "QUIET", "state": "RUNNING", "price": 45.65, "tp": 2.3789806105371603, "note": "sustained 2.4x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "EQWL", "prev_state": "RUNNING", "state": "COOLING", "price": 130.26, "tp": 0.0, "note": "pace 0.0x off peak 33.5x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "EVER", "prev_state": "IGNITING", "state": "COOLING", "price": 30.07, "tp": 0.901408133122268, "note": "pace 0.9x off peak 7.8x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "ACEL", "prev_state": "CHURN", "state": "RUNNING", "price": 13.485, "tp": 3.465719571900742, "note": "sustained 3.5x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "COLO", "prev_state": "RUNNING", "state": "COOLING", "price": 47.18, "tp": 0.9443822703200944, "note": "pace 0.9x off peak 58.2x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "DAVE", "prev_state": "COOLING", "state": "RUNNING", "price": 261.495, "tp": 2.253762335248623, "note": "sustained 2.3x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "EUSA", "prev_state": "RUNNING", "state": "COOLING", "price": 113.69, "tp": 0.0, "note": "pace 0.0x off peak 12.2x"}
+{"ts": "2026-11-05T14:41:03.137215-05:00", "demo": 0, "ticker": "PAYP", "prev_state": "COOLING", "state": "QUIET", "price": 14.78, "tp": 1.6585249170099372, "note": ""}
