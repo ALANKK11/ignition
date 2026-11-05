@@ -623,3 +623,4 @@
 {"ts": "2026-11-05T15:59:48.151141-05:00", "demo": 0, "ticker": "EVER", "prev_state": "RUNNING", "state": "IGNITING", "price": 30.345, "tp": 3.5464468554472783, "note": "pace 3.5x and accelerating (4.0x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-11-05T15:59:48.151141-05:00", "demo": 0, "ticker": "SHLS", "prev_state": "COOLING", "state": "RUNNING", "price": 9.04, "tp": 2.1072651320594504, "note": "sustained 2.1x"}
 {"ts": "2026-11-05T15:59:48.151141-05:00", "demo": 0, "ticker": "KSTR", "prev_state": "COOLING", "state": "RUNNING", "price": 17.97, "tp": 2.117679701542298, "note": "sustained 2.1x"}
+{"ts": "2026-11-05T16:17:03.142316-05:00", "demo": 0, "ticker": "DTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Drilling Tools International Corporation Reports 2026 Third Quarter Results"}
