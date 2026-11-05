@@ -1,0 +1,10 @@
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "AMTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.795, "tp": 4.554884638835945, "note": "sustained 4.6x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "MTW", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.325, "tp": 10.58102492261618, "note": "pace 10.6x and accelerating (2.5x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "AHCO", "prev_state": "QUIET", "state": "RUNNING", "price": 7.47, "tp": 2.059783132204049, "note": "sustained 2.1x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "VCEL", "prev_state": "QUIET", "state": "RUNNING", "price": 50.055, "tp": 2.920582603394155, "note": "sustained 2.9x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "TCMD", "prev_state": "RUNNING", "state": "COOLING", "price": 26.11, "tp": 1.5885675845538052, "note": "pace 1.6x off peak 2.4x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "LMRI", "prev_state": "QUIET", "state": "RUNNING", "price": 13.57, "tp": 2.2308951203832974, "note": "sustained 2.2x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "ACEL", "prev_state": "QUIET", "state": "RUNNING", "price": 13.375, "tp": 2.505926310925383, "note": "sustained 2.5x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "ZVRA", "prev_state": "RUNNING", "state": "COOLING", "price": 10.85, "tp": 1.4311993235399723, "note": "pace 1.4x off peak 2.1x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "NTCL", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6448, "tp": 127.46447018701386, "note": "sustained 127.5x"}
+{"ts": "2026-11-05T13:33:33.124196-05:00", "demo": 0, "ticker": "CRCT", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.0, "tp": 4.277582369813607, "note": "sustained 4.3x"}
