@@ -454,3 +454,10 @@
 {"ts": "2026-11-05T15:22:18.144263-05:00", "demo": 0, "ticker": "CHCT", "prev_state": "COOLING", "state": "FADING", "price": 14.53, "tp": 0.569529135135112, "note": "pace 0.6x vs peak 3.8x \u00b7 -2.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-05T15:22:18.144263-05:00", "demo": 0, "ticker": "PAR", "prev_state": "RUNNING", "state": "IGNITING", "price": 19.185, "tp": 10.215463016868519, "note": "pace 10.2x and accelerating (1.9x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-11-05T15:22:18.144263-05:00", "demo": 0, "ticker": "MTW", "prev_state": "IGNITING", "state": "RUNNING", "price": 21.44, "tp": 2.5534802099049485, "note": "sustained 2.6x"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "BSCY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.02, "tp": 23.388782747380386, "note": "sustained 23.4x"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "AOM", "prev_state": "RUNNING", "state": "CHURN", "price": 48.47, "tp": 7.3339146650866285, "note": "7.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "AOK", "prev_state": "RUNNING", "state": "COOLING", "price": 40.39, "tp": 0.0, "note": "pace 0.0x off peak 13.3x"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "COLD", "prev_state": "CHURN", "state": "RUNNING", "price": 15.895, "tp": 4.2515913487151895, "note": "sustained 4.3x"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "CAVA", "prev_state": "COOLING", "state": "RUNNING", "price": 58.52, "tp": 2.902701172068535, "note": "sustained 2.9x"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "PAR", "prev_state": "IGNITING", "state": "FADING", "price": 19.16, "tp": 2.182384221184203, "note": "pace 2.2x vs peak 13.5x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-05T15:26:03.145154-05:00", "demo": 0, "ticker": "MTW", "prev_state": "RUNNING", "state": "COOLING", "price": 21.485, "tp": 1.3157640523715528, "note": "pace 1.3x off peak 12.2x"}
