@@ -122,3 +122,17 @@
 {"ts": "2026-11-05T14:07:18.131234-05:00", "demo": 0, "ticker": "MTW", "prev_state": "COOLING", "state": "RUNNING", "price": 21.58, "tp": 2.4002336529042956, "note": "sustained 2.4x"}
 {"ts": "2026-11-05T14:07:18.131234-05:00", "demo": 0, "ticker": "PAR", "prev_state": "IGNITING", "state": "RUNNING", "price": 18.87, "tp": 3.695685662846455, "note": "sustained 3.7x"}
 {"ts": "2026-11-05T14:07:18.131234-05:00", "demo": 0, "ticker": "SHLS", "prev_state": "COOLING", "state": "RUNNING", "price": 8.615, "tp": 1.9596772267413984, "note": "sustained 2.0x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "CSHI", "prev_state": "CHURN", "state": "RUNNING", "price": 49.59, "tp": 48.41539971674179, "note": "sustained 48.4x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "EWTX", "prev_state": "QUIET", "state": "RUNNING", "price": 39.85, "tp": 1.8744048701626659, "note": "sustained 1.9x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "ANVS", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.6447, "tp": 53.147879682764405, "note": "pace 53.1x and accelerating (5.5x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "AOK", "prev_state": "COOLING", "state": "QUIET", "price": 40.39, "tp": 1.7833563222755395, "note": ""}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "CGIE", "prev_state": "RUNNING", "state": "CHURN", "price": 35.74, "tp": 27.47748033510077, "note": "27.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "COLO", "prev_state": "CHURN", "state": "RUNNING", "price": 47.105, "tp": 42.99405317577385, "note": "sustained 43.0x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "TAN", "prev_state": "RUNNING", "state": "COOLING", "price": 43.655, "tp": 1.4792067185849567, "note": "pace 1.5x off peak 5.3x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "HFGM", "prev_state": "RUNNING", "state": "COOLING", "price": 27.71, "tp": 0.0, "note": "pace 0.0x off peak 64.8x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "EZBC", "prev_state": "RUNNING", "state": "COOLING", "price": 43.86, "tp": 0.9940492474397614, "note": "pace 1.0x off peak 42.7x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "APPX", "prev_state": "RUNNING", "state": "FADING", "price": 14.28, "tp": 3.699159955546943, "note": "pace 3.7x vs peak 12.5x \u00b7 -5.6% off HOD \u00b7 chart still +60% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "GIL", "prev_state": "RUNNING", "state": "CHURN", "price": 34.48, "tp": 3.924477656173834, "note": "3.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "LMRI", "prev_state": "COOLING", "state": "IGNITING", "price": 13.54, "tp": 5.018103326193182, "note": "pace 5.0x and accelerating (3.8x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "SOC", "prev_state": "COOLING", "state": "RUNNING", "price": 1.84, "tp": 3.835423416947986, "note": "sustained 3.8x"}
+{"ts": "2026-11-05T14:11:03.131835-05:00", "demo": 0, "ticker": "BDVL", "prev_state": "COOLING", "state": "RUNNING", "price": 26.115, "tp": 151.2218700994321, "note": "sustained 151.2x"}
