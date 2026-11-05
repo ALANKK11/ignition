@@ -624,3 +624,4 @@
 {"ts": "2026-11-05T15:59:48.151141-05:00", "demo": 0, "ticker": "SHLS", "prev_state": "COOLING", "state": "RUNNING", "price": 9.04, "tp": 2.1072651320594504, "note": "sustained 2.1x"}
 {"ts": "2026-11-05T15:59:48.151141-05:00", "demo": 0, "ticker": "KSTR", "prev_state": "COOLING", "state": "RUNNING", "price": 17.97, "tp": 2.117679701542298, "note": "sustained 2.1x"}
 {"ts": "2026-11-05T16:17:03.142316-05:00", "demo": 0, "ticker": "DTI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Drilling Tools International Corporation Reports 2026 Third Quarter Results"}
+{"ts": "2026-11-05T17:02:03.150450-05:00", "demo": 0, "ticker": "CODX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Co-Diagnostics Announces Updated Third Quarter 2026 Earnings Release Date and Webcast"}
