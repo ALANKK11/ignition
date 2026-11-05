@@ -85,3 +85,12 @@
 {"ts": "2026-11-05T13:56:03.129307-05:00", "demo": 0, "ticker": "JAN", "prev_state": "CHURN", "state": "RUNNING", "price": 30.225, "tp": 9.924666091948188, "note": "sustained 9.9x"}
 {"ts": "2026-11-05T13:56:03.129307-05:00", "demo": 0, "ticker": "CGIE", "prev_state": "RUNNING", "state": "CHURN", "price": 35.755, "tp": 47.62129862350443, "note": "47.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-05T13:56:03.129307-05:00", "demo": 0, "ticker": "CSHI", "prev_state": "CHURN", "state": "RUNNING", "price": 49.6, "tp": 14.07952618414954, "note": "sustained 14.1x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "JAN", "prev_state": "RUNNING", "state": "CHURN", "price": 30.195, "tp": 9.382210495503159, "note": "9.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "ANGL", "prev_state": "RUNNING", "state": "COOLING", "price": 27.63, "tp": 0.5331380903000719, "note": "pace 0.5x off peak 3.2x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "AORT", "prev_state": "COOLING", "state": "RUNNING", "price": 24.76, "tp": 1.8688508179747598, "note": "sustained 1.9x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "CGIE", "prev_state": "CHURN", "state": "RUNNING", "price": 35.765, "tp": 35.60089754332084, "note": "sustained 35.6x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "HFGM", "prev_state": "COOLING", "state": "RUNNING", "price": 27.71, "tp": 64.8333301850323, "note": "sustained 64.8x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "VCEL", "prev_state": "RUNNING", "state": "COOLING", "price": 50.285, "tp": 1.579264671709666, "note": "pace 1.6x off peak 3.6x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "BDYN", "prev_state": "RUNNING", "state": "CHURN", "price": 26.24, "tp": 46.46355367718411, "note": "46.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "PAR", "prev_state": "CHURN", "state": "RUNNING", "price": 18.89, "tp": 3.362723003379754, "note": "sustained 3.4x"}
+{"ts": "2026-11-05T13:59:48.129906-05:00", "demo": 0, "ticker": "XIFR", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.415, "tp": 4.081433418781482, "note": "sustained 4.1x"}
