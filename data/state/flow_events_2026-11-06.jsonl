@@ -636,3 +636,4 @@
 {"ts": "2026-11-06T15:36:18.964427-05:00", "demo": 0, "ticker": "AQN", "prev_state": "IGNITING", "state": "LEAVING", "price": 5.57, "tp": 7.23198223670186, "note": "pace 7.2x off peak 20.9x \u00b7 VWAP lost (was +1.8% above)"}
 {"ts": "2026-11-06T15:36:18.964427-05:00", "demo": 0, "ticker": "ASH", "prev_state": "FADING", "state": "RUNNING", "price": 77.59, "tp": 5.4414976087398825, "note": "sustained 5.4x"}
 {"ts": "2026-11-06T15:36:18.964427-05:00", "demo": 0, "ticker": "BOTZ", "prev_state": "COOLING", "state": "RUNNING", "price": 31.04, "tp": 2.0787581277495453, "note": "sustained 2.1x"}
+{"ts": "2026-11-06T15:38:33.954882-05:00", "demo": 0, "ticker": "LINC", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "LINC Class Action Lead Plaintiff Deadline is November 10, 2026 - Contact Robbins LLP About Leading the Case Against Linc"}
