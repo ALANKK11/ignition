@@ -728,3 +728,4 @@
 {"ts": "2026-11-06T16:10:48.961911-05:00", "demo": 0, "ticker": "INM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "InMed Pharmaceuticals Completes Closing of Merger with Mentari Therapeutics"}
 {"ts": "2026-11-06T16:16:48.963302-05:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water and Essential Utilities Proposed Merger Progresses with Approval from the Illinois Commerce Commission"}
 {"ts": "2026-11-06T16:16:48.963302-05:00", "demo": 0, "ticker": "WTRG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water and Essential Utilities Proposed Merger Progresses with Approval from the Illinois Commerce Commission"}
+{"ts": "2026-11-06T16:46:48.969104-05:00", "demo": 0, "ticker": "MYND", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Mynd.ai Announces Change to American Depositary Share Ratio"}
