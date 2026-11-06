@@ -67,3 +67,9 @@
 {"ts": "2026-11-06T13:10:48.938305-05:00", "demo": 0, "ticker": "INDI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.795, "tp": 4.059164968313499, "note": "sustained 4.1x"}
 {"ts": "2026-11-06T13:10:48.938305-05:00", "demo": 0, "ticker": "AIA", "prev_state": "RUNNING", "state": "FADING", "price": 119.32, "tp": 6.577246073983958, "note": "pace 6.6x vs peak 19.5x \u00b7 -1.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-06T13:10:48.938305-05:00", "demo": 0, "ticker": "SBIT", "prev_state": "COOLING", "state": "FADING", "price": 36.32, "tp": 0.6058056824141296, "note": "pace 0.6x vs peak 2.9x \u00b7 -1.8% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "NVDY", "prev_state": "COOLING", "state": "RUNNING", "price": 10.165, "tp": 4.913010050871979, "note": "sustained 4.9x"}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "XERS", "prev_state": "QUIET", "state": "RUNNING", "price": 14.7, "tp": 2.5144581166758555, "note": "sustained 2.5x"}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "GOGO", "prev_state": "FADING", "state": "RUNNING", "price": 3.605, "tp": 6.105068314609972, "note": "sustained 6.1x"}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "IQQ", "prev_state": "RUNNING", "state": "FADING", "price": 22.21, "tp": 0.18170341918958216, "note": "pace 0.2x vs peak 4.9x \u00b7 -0.9% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "GQGU", "prev_state": "RUNNING", "state": "QUIET", "price": 22.78, "tp": 1.7668914574954653, "note": ""}
+{"ts": "2026-11-06T13:14:33.938902-05:00", "demo": 0, "ticker": "OBX", "prev_state": "CHURN", "state": "RUNNING", "price": 13.53, "tp": 9.505923581042921, "note": "sustained 9.5x"}
