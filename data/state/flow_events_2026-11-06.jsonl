@@ -323,3 +323,14 @@
 {"ts": "2026-11-06T14:22:03.951282-05:00", "demo": 0, "ticker": "AVIG", "prev_state": "RUNNING", "state": "COOLING", "price": 40.24, "tp": 1.7298171635457176, "note": "pace 1.7x off peak 9.3x"}
 {"ts": "2026-11-06T14:22:03.951282-05:00", "demo": 0, "ticker": "CSV", "prev_state": "IGNITING", "state": "RUNNING", "price": 26.43, "tp": 4.864906969586624, "note": "sustained 4.9x"}
 {"ts": "2026-11-06T14:22:03.951282-05:00", "demo": 0, "ticker": "SBIT", "prev_state": "CHURN", "state": "RUNNING", "price": 36.3, "tp": 6.371328747810461, "note": "sustained 6.4x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "ATEN", "prev_state": "COOLING", "state": "FADING", "price": 24.58, "tp": 1.0365588936038699, "note": "pace 1.0x vs peak 3.3x \u00b7 -4.1% off HOD \u00b7 chart still +9% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "AQN", "prev_state": "CHURN", "state": "RUNNING", "price": 5.65, "tp": 9.839873458686208, "note": "sustained 9.8x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "AORT", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.25, "tp": 21.442285226763012, "note": "pace 21.4x and accelerating (1.8x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "CRAI", "prev_state": "NEW MONEY", "state": "COOLING", "price": 196.23, "tp": 0.0, "note": "pace 0.0x off peak 4.4x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "BTGO", "prev_state": "QUIET", "state": "RUNNING", "price": 4.84, "tp": 1.8012299539694772, "note": "sustained 1.8x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "AAUC", "prev_state": "RUNNING", "state": "COOLING", "price": 22.935, "tp": 1.2931055066444141, "note": "pace 1.3x off peak 3.3x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "ACHC", "prev_state": "RUNNING", "state": "COOLING", "price": 36.79, "tp": 1.704800861714422, "note": "pace 1.7x off peak 2.4x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "ACB", "prev_state": "CHURN", "state": "COOLING", "price": 5.195, "tp": 1.2684896569512278, "note": "pace 1.3x off peak 5.3x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "ARI", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.315, "tp": 10.121842704556236, "note": "sustained 10.1x"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "ARDT", "prev_state": "FADING", "state": "CHURN", "price": 17.42, "tp": 13.503464801761783, "note": "13.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-06T14:25:48.951963-05:00", "demo": 0, "ticker": "CSTL", "prev_state": "COOLING", "state": "RUNNING", "price": 32.36, "tp": 1.9059343357553782, "note": "sustained 1.9x"}
