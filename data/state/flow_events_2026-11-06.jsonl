@@ -476,3 +476,4 @@
 {"ts": "2026-11-06T14:58:48.957918-05:00", "demo": 0, "ticker": "AMTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.665, "tp": 6.53640261023529, "note": "sustained 6.5x"}
 {"ts": "2026-11-06T14:58:48.957918-05:00", "demo": 0, "ticker": "IMAX", "prev_state": "CHURN", "state": "RUNNING", "price": 48.08, "tp": 5.268950821443693, "note": "sustained 5.3x"}
 {"ts": "2026-11-06T14:58:48.957918-05:00", "demo": 0, "ticker": "ARI", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.28, "tp": 22.812655899785256, "note": "sustained 22.8x"}
+{"ts": "2026-11-06T14:59:33.948110-05:00", "demo": 0, "ticker": "APP", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Robbins LLP Reminds APP Investors of the November 16, 2026 Lead Plaintiff Deadline; Harmed Investors Should Contact the "}
