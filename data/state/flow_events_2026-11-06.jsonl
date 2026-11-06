@@ -410,3 +410,14 @@
 {"ts": "2026-11-06T14:40:03.955154-05:00", "demo": 0, "ticker": "PRDO", "prev_state": "RUNNING", "state": "COOLING", "price": 26.63, "tp": 1.0559166386018222, "note": "pace 1.1x off peak 9.8x"}
 {"ts": "2026-11-06T14:40:03.955154-05:00", "demo": 0, "ticker": "ASH", "prev_state": "IGNITING", "state": "RUNNING", "price": 78.25, "tp": 4.303280976351374, "note": "sustained 4.3x"}
 {"ts": "2026-11-06T14:40:03.955154-05:00", "demo": 0, "ticker": "CSTL", "prev_state": "RUNNING", "state": "IGNITING", "price": 32.05, "tp": 4.274147495730572, "note": "pace 4.3x and accelerating (2.2x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "CDT", "prev_state": "FADING", "state": "RUNNING", "price": 1.19, "tp": 6.9216988402037405, "note": "sustained 6.9x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "XERS", "prev_state": "COOLING", "state": "RUNNING", "price": 14.845, "tp": 1.980251539792241, "note": "sustained 2.0x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "AMUU", "prev_state": "QUIET", "state": "RUNNING", "price": 131.51, "tp": 2.4566678896267984, "note": "sustained 2.5x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "ASTH", "prev_state": "RUNNING", "state": "IGNITING", "price": 34.17, "tp": 3.517663699882964, "note": "pace 3.5x and accelerating (1.8x vs prior window) \u00b7 +1.5% in window"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "CSTL", "prev_state": "IGNITING", "state": "RUNNING", "price": 32.16, "tp": 3.844586073145179, "note": "sustained 3.8x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "PRDO", "prev_state": "COOLING", "state": "RUNNING", "price": 26.57, "tp": 2.1002986417578624, "note": "sustained 2.1x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "CRTO", "prev_state": "COOLING", "state": "FADING", "price": 15.41, "tp": 2.905437881903982, "note": "pace 2.9x vs peak 24.6x \u00b7 -1.3% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "AOK", "prev_state": "CHURN", "state": "RUNNING", "price": 40.39, "tp": 4.735575662175454, "note": "sustained 4.7x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "GIL", "prev_state": "RUNNING", "state": "CHURN", "price": 35.03, "tp": 2.815908189924328, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "TTAM", "prev_state": "COOLING", "state": "RUNNING", "price": 11.49, "tp": 6.01757096265382, "note": "sustained 6.0x"}
+{"ts": "2026-11-06T14:43:48.955171-05:00", "demo": 0, "ticker": "AAUC", "prev_state": "CHURN", "state": "RUNNING", "price": 22.915, "tp": 2.406433453188246, "note": "sustained 2.4x"}
