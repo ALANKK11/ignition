@@ -726,3 +726,5 @@
 {"ts": "2026-11-06T15:58:48.970014-05:00", "demo": 0, "ticker": "DHC", "prev_state": "FADING", "state": "COOLING", "price": 7.005, "tp": 1.2762811477177707, "note": "pace 1.3x off peak 4.4x"}
 {"ts": "2026-11-06T15:58:48.970014-05:00", "demo": 0, "ticker": "CRCT", "prev_state": "COOLING", "state": "RUNNING", "price": 8.815, "tp": 2.0896422611659946, "note": "sustained 2.1x"}
 {"ts": "2026-11-06T16:10:48.961911-05:00", "demo": 0, "ticker": "INM", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "InMed Pharmaceuticals Completes Closing of Merger with Mentari Therapeutics"}
+{"ts": "2026-11-06T16:16:48.963302-05:00", "demo": 0, "ticker": "AWK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water and Essential Utilities Proposed Merger Progresses with Approval from the Illinois Commerce Commission"}
+{"ts": "2026-11-06T16:16:48.963302-05:00", "demo": 0, "ticker": "WTRG", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "American Water and Essential Utilities Proposed Merger Progresses with Approval from the Illinois Commerce Commission"}
