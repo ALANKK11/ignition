@@ -344,3 +344,16 @@
 {"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "RUNNING", "state": "COOLING", "price": 11.26, "tp": 1.6241036782033027, "note": "pace 1.6x off peak 23.4x"}
 {"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "LINC", "prev_state": "RUNNING", "state": "COOLING", "price": 22.9, "tp": 1.2558628055735062, "note": "pace 1.3x off peak 2.1x"}
 {"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "JANX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.0, "tp": 1.3614542613495313, "note": "pace 1.4x off peak 2.8x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "APPS", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.975, "tp": 6.098670026077143, "note": "pace 6.1x and accelerating (2.5x vs prior window) \u00b7 -2.4% in window"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "BMGL", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.88, "tp": 2.28675453630494, "note": "sustained 2.3x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "FLGT", "prev_state": "RUNNING", "state": "IGNITING", "price": 25.74, "tp": 11.375049522277466, "note": "pace 11.4x and accelerating (5.0x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "INLF", "prev_state": "FADING", "state": "IGNITING", "price": 0.5134, "tp": 14.524934647182874, "note": "pace 14.5x and accelerating (5.4x vs prior window) \u00b7 +15.9% in window"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "CTEV", "prev_state": "RUNNING", "state": "CHURN", "price": 26.69, "tp": 5.185576063461293, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "ENFR", "prev_state": "QUIET", "state": "RUNNING", "price": 37.51, "tp": 3.0614729872866304, "note": "sustained 3.1x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "NWGL", "prev_state": "COOLING", "state": "RUNNING", "price": 2.45, "tp": 1.863194632610074, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "ASPN", "prev_state": "COOLING", "state": "RUNNING", "price": 5.695, "tp": 1.8541006219990028, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "COOLING", "state": "RUNNING", "price": 2.53, "tp": 2.3028357241565636, "note": "sustained 2.3x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "AEHG", "prev_state": "COOLING", "state": "RUNNING", "price": 2.26, "tp": 2.0734162459487147, "note": "sustained 2.1x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "JANX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.02, "tp": 2.001516547216792, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "TLS", "prev_state": "FADING", "state": "LEAVING", "price": 7.395, "tp": 2.082319636106469, "note": "pace 2.1x off peak 8.8x \u00b7 VWAP lost (was +1.7% above)"}
+{"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "CARY", "prev_state": "RUNNING", "state": "CHURN", "price": 20.285, "tp": 86.6382952431403, "note": "86.6x participation, no progress at highs \u2014 absorption"}
