@@ -242,3 +242,14 @@
 {"ts": "2026-11-10T14:26:50.533665-05:00", "demo": 0, "ticker": "NVDX", "prev_state": "COOLING", "state": "RUNNING", "price": 10.65, "tp": 3.120699553522787, "note": "sustained 3.1x"}
 {"ts": "2026-11-10T14:26:50.533665-05:00", "demo": 0, "ticker": "AEHG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.26, "tp": 1.187833917511226, "note": "pace 1.2x off peak 42.6x"}
 {"ts": "2026-11-10T14:26:50.533665-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "RUNNING", "state": "COOLING", "price": 11.255, "tp": 1.1577843245471162, "note": "pace 1.2x off peak 23.4x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.11, "tp": 5.55528236640744, "note": "sustained 5.6x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "JBI", "prev_state": "RUNNING", "state": "COOLING", "price": 3.895, "tp": 1.1956815073390537, "note": "pace 1.2x off peak 5.2x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "BATRA", "prev_state": "RUNNING", "state": "FADING", "price": 57.71, "tp": 7.79096288558202, "note": "pace 7.8x vs peak 53.2x \u00b7 -0.1% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "FDMO", "prev_state": "RUNNING", "state": "COOLING", "price": 87.3, "tp": 0.0, "note": "pace 0.0x off peak 3.8x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "CRDU", "prev_state": "RUNNING", "state": "COOLING", "price": 3.33, "tp": 1.1483957984442097, "note": "pace 1.1x off peak 2.9x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "FLJP", "prev_state": "COOLING", "state": "RUNNING", "price": 38.61, "tp": 1.917290383556931, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "AGNT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.925, "tp": 2.9797199957753553, "note": "sustained 3.0x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "FRD", "prev_state": "CHURN", "state": "FADING", "price": 38.765, "tp": 2.2730065636902936, "note": "pace 2.3x vs peak 27.9x \u00b7 +0.0% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "GTN", "prev_state": "RUNNING", "state": "FADING", "price": 5.845, "tp": 1.2999426157984137, "note": "pace 1.3x vs peak 7.3x \u00b7 -0.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.24, "tp": 0.6955022471698652, "note": "pace 0.7x off peak 10.5x"}
+{"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "BDSX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.75, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
