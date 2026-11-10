@@ -509,3 +509,20 @@
 {"ts": "2026-11-10T15:26:50.543942-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.635, "tp": 3.2312156116292323, "note": "sustained 3.2x"}
 {"ts": "2026-11-10T15:26:50.543942-05:00", "demo": 0, "ticker": "FLJP", "prev_state": "RUNNING", "state": "COOLING", "price": 38.625, "tp": 1.718523049341275, "note": "pace 1.7x off peak 13.4x"}
 {"ts": "2026-11-10T15:26:50.543942-05:00", "demo": 0, "ticker": "GTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.8, "tp": 3.1442313551631935, "note": "sustained 3.1x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "EPS", "prev_state": "COOLING", "state": "RUNNING", "price": 78.42, "tp": 3.1516306912910874, "note": "sustained 3.2x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "RUNNING", "state": "COOLING", "price": 21.765, "tp": 1.4835162146128782, "note": "pace 1.5x off peak 13.9x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "GTN", "prev_state": "RUNNING", "state": "CHURN", "price": 5.8, "tp": 3.354220928498353, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "NRGV", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.575, "tp": 8.12874477270443, "note": "pace 8.1x and accelerating (2.0x vs prior window) \u00b7 +2.1% in window"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "ONT", "prev_state": "QUIET", "state": "COOLING", "price": 23.405, "tp": 1.3810208630897913, "note": "pace 1.4x off peak 2.0x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "AGNG", "prev_state": "COOLING", "state": "RUNNING", "price": 40.7, "tp": 20.5364691218877, "note": "sustained 20.5x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "FDMO", "prev_state": "COOLING", "state": "RUNNING", "price": 87.49, "tp": 19.49757147766521, "note": "sustained 19.5x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "FLJP", "prev_state": "COOLING", "state": "RUNNING", "price": 38.635, "tp": 1.9658071842059515, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "BSCR", "prev_state": "CHURN", "state": "RUNNING", "price": 19.58, "tp": 4.910152084333022, "note": "sustained 4.9x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "CLX", "prev_state": "CHURN", "state": "RUNNING", "price": 107.805, "tp": 6.188121979862082, "note": "sustained 6.2x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "FF", "prev_state": "COOLING", "state": "RUNNING", "price": 3.11, "tp": 2.8977024766462596, "note": "sustained 2.9x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "APEI", "prev_state": "COOLING", "state": "RUNNING", "price": 41.05, "tp": 2.04646122451573, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "ASPN", "prev_state": "COOLING", "state": "QUIET", "price": 5.76, "tp": 1.447148423076709, "note": ""}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "SGHT", "prev_state": "COOLING", "state": "RUNNING", "price": 10.715, "tp": 2.113665080474189, "note": "sustained 2.1x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.66, "tp": 1.6280212057880488, "note": "pace 1.6x off peak 5.0x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "BRHY", "prev_state": "QUIET", "state": "RUNNING", "price": 49.575, "tp": 62.13338312103636, "note": "sustained 62.1x"}
+{"ts": "2026-11-10T15:29:50.544478-05:00", "demo": 0, "ticker": "CNEQ", "prev_state": "COOLING", "state": "RUNNING", "price": 35.99, "tp": 2.009156876884526, "note": "sustained 2.0x"}
