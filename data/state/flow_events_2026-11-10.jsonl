@@ -684,3 +684,4 @@
 {"ts": "2026-11-10T16:11:05.539867-05:00", "demo": 0, "ticker": "QUIK", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "QuickLogic Reports Fiscal Third Quarter 2026 Financial Results"}
 {"ts": "2026-11-10T16:11:05.539867-05:00", "demo": 0, "ticker": "CPIX", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "CUMBERLAND PHARMACEUTICALS REPORTS Q3 2026 FINANCIAL RESULTS & COMPANY UPDATE"}
 {"ts": "2026-11-10T16:11:05.539867-05:00", "demo": 0, "ticker": "HGTY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Hagerty Announces Secondary Offering of its Class A Common Stock"}
+{"ts": "2026-11-10T16:53:05.547232-05:00", "demo": 0, "ticker": "NVST", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Envista Announces Pricing of $430 Million of Senior Notes"}
