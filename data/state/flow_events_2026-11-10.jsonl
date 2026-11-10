@@ -623,3 +623,16 @@
 {"ts": "2026-11-10T15:47:50.547562-05:00", "demo": 0, "ticker": "FDMO", "prev_state": "RUNNING", "state": "COOLING", "price": 87.5, "tp": 1.5706919848117165, "note": "pace 1.6x off peak 22.5x"}
 {"ts": "2026-11-10T15:47:50.547562-05:00", "demo": 0, "ticker": "CLX", "prev_state": "CHURN", "state": "LEAVING", "price": 107.22, "tp": 4.395612179032405, "note": "pace 4.4x off peak 10.8x \u00b7 VWAP lost (was +1.5% above)"}
 {"ts": "2026-11-10T15:47:50.547562-05:00", "demo": 0, "ticker": "CARY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.285, "tp": 2.121082765666131, "note": "sustained 2.1x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "FLRN", "prev_state": "RUNNING", "state": "COOLING", "price": 30.74, "tp": 0.0, "note": "pace 0.0x off peak 13.9x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "BDSX", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.055, "tp": 2.5836265854339153, "note": "sustained 2.6x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "FF", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.11, "tp": 11.731596388232699, "note": "sustained 11.7x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.63, "tp": 1.6262921973813567, "note": "pace 1.6x off peak 5.0x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "CHURN", "price": 21.57, "tp": 7.036462519495843, "note": "7.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "EVC", "prev_state": "RUNNING", "state": "COOLING", "price": 9.19, "tp": 1.6586328081054016, "note": "pace 1.7x off peak 3.5x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "FLGT", "prev_state": "COOLING", "state": "RUNNING", "price": 25.83, "tp": 1.8222874445391488, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "NRGV", "prev_state": "COOLING", "state": "RUNNING", "price": 3.535, "tp": 2.0045556873451287, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "APEI", "prev_state": "RUNNING", "state": "COOLING", "price": 40.95, "tp": 1.7136076407263972, "note": "pace 1.7x off peak 3.1x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "APPS", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.145, "tp": 8.027235529983063, "note": "sustained 8.0x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "BWAY", "prev_state": "COOLING", "state": "RUNNING", "price": 10.62, "tp": 3.9539809698509267, "note": "sustained 4.0x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "BMGL", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.955, "tp": 3.546060582548016, "note": "sustained 3.5x"}
+{"ts": "2026-11-10T15:50:50.548227-05:00", "demo": 0, "ticker": "CNEQ", "prev_state": "COOLING", "state": "RUNNING", "price": 36.0, "tp": 5.697329498656561, "note": "sustained 5.7x"}
