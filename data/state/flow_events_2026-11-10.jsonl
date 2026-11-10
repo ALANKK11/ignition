@@ -357,3 +357,17 @@
 {"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "JANX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.02, "tp": 2.001516547216792, "note": "sustained 2.0x"}
 {"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "TLS", "prev_state": "FADING", "state": "LEAVING", "price": 7.395, "tp": 2.082319636106469, "note": "pace 2.1x off peak 8.8x \u00b7 VWAP lost (was +1.7% above)"}
 {"ts": "2026-11-10T14:56:50.538631-05:00", "demo": 0, "ticker": "CARY", "prev_state": "RUNNING", "state": "CHURN", "price": 20.285, "tp": 86.6382952431403, "note": "86.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "CTMX", "prev_state": "FADING", "state": "IGNITING", "price": 1.95, "tp": 6.846305766209044, "note": "pace 6.8x and accelerating (12.8x vs prior window) \u00b7 -2.3% in window"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "FHLC", "prev_state": "COOLING", "state": "QUIET", "price": 89.98, "tp": 1.7385626349800434, "note": ""}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "ASH", "prev_state": "CHURN", "state": "RUNNING", "price": 76.99, "tp": 2.077849014310282, "note": "sustained 2.1x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "JANX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.02, "tp": 1.4057572838312757, "note": "pace 1.4x off peak 2.8x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "COOLING", "state": "CHURN", "price": 11.255, "tp": 2.4572493091124303, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.53, "tp": 1.2704290654389079, "note": "pace 1.3x off peak 5.0x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "EPHE", "prev_state": "CHURN", "state": "RUNNING", "price": 22.595, "tp": 4.140071597512904, "note": "sustained 4.1x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "CEMB", "prev_state": "QUIET", "state": "NEW MONEY", "price": 43.95, "tp": 2.67964446292227, "note": "quiet open (0.3x) \u2192 now 2.7x \u00b7 taking +0.1% flow share"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "EDGH", "prev_state": "RUNNING", "state": "COOLING", "price": 32.48, "tp": 0.0, "note": "pace 0.0x off peak 54.1x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "FLJP", "prev_state": "RUNNING", "state": "CHURN", "price": 38.6, "tp": 2.386120700936843, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "NWGL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.45, "tp": 1.2497178484480096, "note": "pace 1.2x off peak 3.3x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "CARY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.29, "tp": 86.53727639552542, "note": "sustained 86.5x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "FG", "prev_state": "COOLING", "state": "RUNNING", "price": 25.36, "tp": 1.8336711865029391, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T14:59:50.539095-05:00", "demo": 0, "ticker": "CTEV", "prev_state": "CHURN", "state": "RUNNING", "price": 26.59, "tp": 5.347773024916223, "note": "sustained 5.3x"}
