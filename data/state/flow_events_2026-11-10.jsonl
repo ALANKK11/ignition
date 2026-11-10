@@ -216,3 +216,4 @@
 {"ts": "2026-11-10T14:20:50.532405-05:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 1.65, "tp": 2.32628917287944, "note": "sustained 2.3x"}
 {"ts": "2026-11-10T14:20:50.532405-05:00", "demo": 0, "ticker": "ESGV", "prev_state": "COOLING", "state": "RUNNING", "price": 132.03, "tp": 1.8200097437216585, "note": "sustained 1.8x"}
 {"ts": "2026-11-10T14:20:50.532405-05:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "CHURN", "price": 21.595, "tp": 9.213195833874583, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:23:05.520990-05:00", "demo": 0, "ticker": "QNT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Quantinuum participera \u00e0 la 4e conf\u00e9rence annuelle Cantor Convergence sur les cryptomonnaies, la FinTech, l'IA et les in"}
