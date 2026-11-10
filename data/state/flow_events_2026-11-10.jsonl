@@ -28,3 +28,16 @@
 {"ts": "2026-11-10T13:35:50.524188-05:00", "demo": 0, "ticker": "TIPZ", "prev_state": "CHURN", "state": "RUNNING", "price": 49.72, "tp": 1897.812492719771, "note": "sustained 1897.8x"}
 {"ts": "2026-11-10T13:35:50.524188-05:00", "demo": 0, "ticker": "SMX", "prev_state": "FADING", "state": "LEAVING", "price": 16.28, "tp": 7.059873997848722, "note": "pace 7.1x off peak 28.6x \u00b7 VWAP lost (was +6.9% above)"}
 {"ts": "2026-11-10T13:35:50.524188-05:00", "demo": 0, "ticker": "APPS", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.285, "tp": 2.956123618527412, "note": "pace 3.0x and accelerating (1.7x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "XGN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.05, "tp": 6.0231083537520576, "note": "sustained 6.0x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "CTMX", "prev_state": "COOLING", "state": "FADING", "price": 1.965, "tp": 0.36620432456318514, "note": "pace 0.4x vs peak 2.6x \u00b7 -2.7% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "MNTK", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.295, "tp": 8.409578408049704, "note": "sustained 8.4x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "NNOX", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.3374, "tp": 25.705475598805595, "note": "sustained 25.7x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "JBI", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.845, "tp": 3.647680997936411, "note": "sustained 3.6x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "PEPG", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.04, "tp": 9.24930908182722, "note": "pace 9.2x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "EMAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.255, "tp": 4.1180245163686005, "note": "sustained 4.1x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "IHRT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6026, "tp": 9.65801916563247, "note": "sustained 9.7x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "NVDX", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.8, "tp": 3.0775766890000513, "note": "pace 3.1x and accelerating (2.5x vs prior window) \u00b7 +2.0% in window"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "AGNT", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.985, "tp": 7.538227235362989, "note": "pace 7.5x and accelerating (3.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "MNDO", "prev_state": "QUIET", "state": "RUNNING", "price": 1.26, "tp": 4844.07519046844, "note": "sustained 4844.1x"}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "HE", "prev_state": "RUNNING", "state": "QUIET", "price": 9.125, "tp": 1.7377269240433653, "note": ""}
+{"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "GTN", "prev_state": "QUIET", "state": "COOLING", "price": 5.78, "tp": 1.1835759294586237, "note": "pace 1.2x off peak 2.0x"}
