@@ -41,3 +41,10 @@
 {"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "MNDO", "prev_state": "QUIET", "state": "RUNNING", "price": 1.26, "tp": 4844.07519046844, "note": "sustained 4844.1x"}
 {"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "HE", "prev_state": "RUNNING", "state": "QUIET", "price": 9.125, "tp": 1.7377269240433653, "note": ""}
 {"ts": "2026-11-10T13:38:50.524965-05:00", "demo": 0, "ticker": "GTN", "prev_state": "QUIET", "state": "COOLING", "price": 5.78, "tp": 1.1835759294586237, "note": "pace 1.2x off peak 2.0x"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "FF", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.98, "tp": 23.379180361874486, "note": "sustained 23.4x"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "OFIX", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.3, "tp": 2.8687376024700537, "note": "pace 2.9x and accelerating (7.9x vs prior window) \u00b7 +1.1% in window"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "BMGL", "prev_state": "IGNITING", "state": "COOLING", "price": 4.69, "tp": 0.0, "note": "pace 0.0x off peak 13.8x"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "APPS", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.195, "tp": 3.7113634630014576, "note": "sustained 3.7x"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "GTN", "prev_state": "COOLING", "state": "QUIET", "price": 5.775, "tp": 1.5028720196157344, "note": ""}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "SERV", "prev_state": "QUIET", "state": "RUNNING", "price": 3.125, "tp": 2.520154765982308, "note": "sustained 2.5x"}
+{"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "GRPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.91, "tp": 3.0019686653072575, "note": "pace 3.0x and accelerating (2.2x vs prior window) \u00b7 -1.2% in window"}
