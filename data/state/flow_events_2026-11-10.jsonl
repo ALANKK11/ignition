@@ -385,3 +385,18 @@
 {"ts": "2026-11-10T15:02:50.539607-05:00", "demo": 0, "ticker": "E", "prev_state": "RUNNING", "state": "COOLING", "price": 55.015, "tp": 1.663488299460917, "note": "pace 1.7x off peak 15.7x"}
 {"ts": "2026-11-10T15:02:50.539607-05:00", "demo": 0, "ticker": "GTN", "prev_state": "FADING", "state": "CHURN", "price": 5.83, "tp": 2.756936171516965, "note": "2.8x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-10T15:02:50.539607-05:00", "demo": 0, "ticker": "CRDU", "prev_state": "COOLING", "state": "RUNNING", "price": 3.32, "tp": 2.4902327202649657, "note": "sustained 2.5x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "FHLC", "prev_state": "QUIET", "state": "COOLING", "price": 89.98, "tp": 1.123368283454198, "note": "pace 1.1x off peak 2.1x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "NVDX", "prev_state": "COOLING", "state": "IGNITING", "price": 10.43, "tp": 3.379178023338965, "note": "pace 3.4x and accelerating (3.1x vs prior window) \u00b7 -1.9% in window"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "FTH", "prev_state": "FADING", "state": "RUNNING", "price": 12.66, "tp": 2.1105420959392944, "note": "sustained 2.1x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "CWI", "prev_state": "QUIET", "state": "NEW MONEY", "price": 39.25, "tp": 2.8526080847746913, "note": "quiet open (0.6x) \u2192 now 2.9x \u00b7 taking +0.5% flow share"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "RUNNING", "state": "COOLING", "price": 21.66, "tp": 1.737468285190178, "note": "pace 1.7x off peak 13.9x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "ESGV", "prev_state": "RUNNING", "state": "COOLING", "price": 132.1, "tp": 0.0, "note": "pace 0.0x off peak 4.0x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "COOLING", "state": "IGNITING", "price": 2.51, "tp": 3.142007508750285, "note": "pace 3.1x and accelerating (1.8x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "RUNNING", "state": "COOLING", "price": 20.435, "tp": 1.5625846042844225, "note": "pace 1.6x off peak 9.6x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "ASPN", "prev_state": "RUNNING", "state": "COOLING", "price": 5.68, "tp": 1.117674317809313, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "EPS", "prev_state": "IGNITING", "state": "COOLING", "price": 78.44, "tp": 0.0, "note": "pace 0.0x off peak 6.0x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "LINC", "prev_state": "COOLING", "state": "FADING", "price": 22.765, "tp": 0.5468478375003166, "note": "pace 0.5x vs peak 2.1x \u00b7 -3.3% off HOD \u00b7 chart still +3% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "CLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 108.12, "tp": 6.335442918065084, "note": "sustained 6.3x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "FIVA", "prev_state": "RUNNING", "state": "COOLING", "price": 38.59, "tp": 0.0, "note": "pace 0.0x off peak 18.9x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "CARY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.29, "tp": 88.25083491064639, "note": "sustained 88.3x"}
+{"ts": "2026-11-10T15:05:50.540204-05:00", "demo": 0, "ticker": "GTN", "prev_state": "CHURN", "state": "FADING", "price": 5.83, "tp": 2.2628409859884395, "note": "pace 2.3x vs peak 7.3x \u00b7 -0.7% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
