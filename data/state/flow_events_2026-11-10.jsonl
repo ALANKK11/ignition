@@ -334,3 +334,13 @@
 {"ts": "2026-11-10T14:50:50.537613-05:00", "demo": 0, "ticker": "NVDX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.63, "tp": 1.1034242950323905, "note": "pace 1.1x off peak 7.4x"}
 {"ts": "2026-11-10T14:50:50.537613-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "COOLING", "state": "RUNNING", "price": 11.26, "tp": 1.9532620082476946, "note": "sustained 2.0x"}
 {"ts": "2026-11-10T14:50:50.537613-05:00", "demo": 0, "ticker": "JANX", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.985, "tp": 1.826011566470407, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.22, "tp": 0.0, "note": "pace 0.0x off peak 10.5x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "COOLING", "state": "RUNNING", "price": 20.44, "tp": 1.89286829014715, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "BWAY", "prev_state": "COOLING", "state": "RUNNING", "price": 10.66, "tp": 5.931507913854938, "note": "sustained 5.9x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "EPHE", "prev_state": "COOLING", "state": "CHURN", "price": 22.59, "tp": 3.0138991645396778, "note": "3.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "EPS", "prev_state": "QUIET", "state": "IGNITING", "price": 78.44, "tp": 5.736642080815587, "note": "pace 5.7x and accelerating (114.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "COOLING", "price": 21.49, "tp": 1.7578316495788486, "note": "pace 1.8x off peak 12.1x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "AEHG", "prev_state": "RUNNING", "state": "COOLING", "price": 2.275, "tp": 1.3849403082671343, "note": "pace 1.4x off peak 42.6x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "RUNNING", "state": "COOLING", "price": 11.26, "tp": 1.6241036782033027, "note": "pace 1.6x off peak 23.4x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "LINC", "prev_state": "RUNNING", "state": "COOLING", "price": 22.9, "tp": 1.2558628055735062, "note": "pace 1.3x off peak 2.1x"}
+{"ts": "2026-11-10T14:53:50.538252-05:00", "demo": 0, "ticker": "JANX", "prev_state": "RUNNING", "state": "COOLING", "price": 12.0, "tp": 1.3614542613495313, "note": "pace 1.4x off peak 2.8x"}
