@@ -48,3 +48,12 @@
 {"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "GTN", "prev_state": "COOLING", "state": "QUIET", "price": 5.775, "tp": 1.5028720196157344, "note": ""}
 {"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "SERV", "prev_state": "QUIET", "state": "RUNNING", "price": 3.125, "tp": 2.520154765982308, "note": "sustained 2.5x"}
 {"ts": "2026-11-10T13:41:50.525824-05:00", "demo": 0, "ticker": "GRPN", "prev_state": "RUNNING", "state": "IGNITING", "price": 11.91, "tp": 3.0019686653072575, "note": "pace 3.0x and accelerating (2.2x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "ASPN", "prev_state": "QUIET", "state": "RUNNING", "price": 5.745, "tp": 1.8457885532554346, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "SSP", "prev_state": "QUIET", "state": "RUNNING", "price": 3.695, "tp": 2.537439938857413, "note": "sustained 2.5x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "APPS", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.13, "tp": 4.143690189244106, "note": "pace 4.1x and accelerating (1.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "OFIX", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.32, "tp": 1.8708872037916386, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "HE", "prev_state": "QUIET", "state": "COOLING", "price": 9.125, "tp": 1.1094757628417773, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.96, "tp": 2.7095402806147098, "note": "sustained 2.7x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "AGNT", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.96, "tp": 2.8822066601091314, "note": "sustained 2.9x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "NVDU", "prev_state": "RUNNING", "state": "COOLING", "price": 75.87, "tp": 1.0660898551498812, "note": "pace 1.1x off peak 2.0x"}
+{"ts": "2026-11-10T13:44:50.526428-05:00", "demo": 0, "ticker": "NWGL", "prev_state": "COOLING", "state": "RUNNING", "price": 2.55, "tp": 2.4931950885390464, "note": "sustained 2.5x"}
