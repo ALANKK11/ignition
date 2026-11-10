@@ -217,3 +217,18 @@
 {"ts": "2026-11-10T14:20:50.532405-05:00", "demo": 0, "ticker": "ESGV", "prev_state": "COOLING", "state": "RUNNING", "price": 132.03, "tp": 1.8200097437216585, "note": "sustained 1.8x"}
 {"ts": "2026-11-10T14:20:50.532405-05:00", "demo": 0, "ticker": "FA", "prev_state": "RUNNING", "state": "CHURN", "price": 21.595, "tp": 9.213195833874583, "note": "9.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-10T14:23:05.520990-05:00", "demo": 0, "ticker": "QNT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Quantinuum participera \u00e0 la 4e conf\u00e9rence annuelle Cantor Convergence sur les cryptomonnaies, la FinTech, l'IA et les in"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "ETOR", "prev_state": "COOLING", "state": "RUNNING", "price": 21.785, "tp": 1.9065341642972802, "note": "sustained 1.9x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "COOLING", "state": "RUNNING", "price": 11.255, "tp": 1.8428843998293616, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "NVDX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.71, "tp": 0.8818350176814369, "note": "pace 0.9x off peak 7.4x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "E", "prev_state": "CHURN", "state": "COOLING", "price": 54.96, "tp": 0.5494627481799236, "note": "pace 0.5x off peak 10.4x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "APEI", "prev_state": "RUNNING", "state": "FADING", "price": 41.7, "tp": 0.3431628916701059, "note": "pace 0.3x vs peak 2.3x \u00b7 -1.9% off HOD \u00b7 chart still +6% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "CLX", "prev_state": "RUNNING", "state": "FADING", "price": 107.47, "tp": 1.3240429858351916, "note": "pace 1.3x vs peak 4.9x \u00b7 -2.1% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "TLS", "prev_state": "RUNNING", "state": "IGNITING", "price": 7.415, "tp": 7.852089105173465, "note": "pace 7.9x and accelerating (3.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.405, "tp": 2.8978886765222396, "note": "sustained 2.9x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "NWGL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.45, "tp": 0.0, "note": "pace 0.0x off peak 3.3x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "FA", "prev_state": "CHURN", "state": "RUNNING", "price": 21.58, "tp": 9.326372704130726, "note": "sustained 9.3x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "CNEQ", "prev_state": "RUNNING", "state": "COOLING", "price": 35.87, "tp": 0.0, "note": "pace 0.0x off peak 3.1x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "DCTH", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.09, "tp": 8.43646725466597, "note": "pace 8.4x and accelerating (2.9x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "ONT", "prev_state": "QUIET", "state": "RUNNING", "price": 23.645, "tp": 1.9950128162000094, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "EDGI", "prev_state": "QUIET", "state": "RUNNING", "price": 29.84, "tp": 16.804288069342803, "note": "sustained 16.8x"}
+{"ts": "2026-11-10T14:23:50.532868-05:00", "demo": 0, "ticker": "BSMZ", "prev_state": "RUNNING", "state": "COOLING", "price": 24.67, "tp": 0.0, "note": "pace 0.0x off peak 38.0x"}
