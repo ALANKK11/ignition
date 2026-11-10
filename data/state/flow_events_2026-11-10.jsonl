@@ -253,3 +253,10 @@
 {"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "GTN", "prev_state": "RUNNING", "state": "FADING", "price": 5.845, "tp": 1.2999426157984137, "note": "pace 1.3x vs peak 7.3x \u00b7 -0.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
 {"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "COHX", "prev_state": "RUNNING", "state": "COOLING", "price": 10.24, "tp": 0.6955022471698652, "note": "pace 0.7x off peak 10.5x"}
 {"ts": "2026-11-10T14:29:50.534046-05:00", "demo": 0, "ticker": "BDSX", "prev_state": "RUNNING", "state": "COOLING", "price": 9.75, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "BSCY", "prev_state": "RUNNING", "state": "COOLING", "price": 19.86, "tp": 0.0, "note": "pace 0.0x off peak 130.7x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "GCOR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.78, "tp": 0.0, "note": "pace 0.0x off peak 390.9x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "FADING", "price": 0.4566, "tp": 3.394972414606919, "note": "pace 3.4x vs peak 16.2x \u00b7 -15.8% off HOD \u00b7 chart still +56% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "ONT", "prev_state": "QUIET", "state": "RUNNING", "price": 23.535, "tp": 1.8164796509056986, "note": "sustained 1.8x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "JBI", "prev_state": "COOLING", "state": "RUNNING", "price": 3.9, "tp": 1.9545571139713986, "note": "sustained 2.0x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "ASTX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.48, "tp": 1.2466080507305852, "note": "pace 1.2x off peak 4.6x"}
+{"ts": "2026-11-10T14:32:50.534742-05:00", "demo": 0, "ticker": "TLS", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.445, "tp": 6.003611485743983, "note": "sustained 6.0x"}
