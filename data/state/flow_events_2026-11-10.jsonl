@@ -5,3 +5,11 @@
 {"ts": "2026-11-10T13:29:50.522569-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "QUIET", "state": "RUNNING", "price": 5.78, "tp": 1.8405277547182781, "note": "sustained 1.8x"}
 {"ts": "2026-11-10T13:29:50.522569-05:00", "demo": 0, "ticker": "INLF", "prev_state": "IGNITING", "state": "LEAVING", "price": 0.4025, "tp": 7.807801667397434, "note": "pace 7.8x off peak 16.2x \u00b7 VWAP lost (was +9.9% above)"}
 {"ts": "2026-11-10T13:29:50.522569-05:00", "demo": 0, "ticker": "JBI", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.815, "tp": 4.903719140283623, "note": "pace 4.9x and accelerating (2.8x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "PXLW", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.81, "tp": 79.78366449105837, "note": "sustained 79.8x"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "INLF", "prev_state": "LEAVING", "state": "FADING", "price": 0.4272, "tp": 5.437260077392473, "note": "pace 5.4x vs peak 16.2x \u00b7 -21.2% off HOD \u00b7 chart still +46% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "NWGL", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.52, "tp": 2.4113156875596213, "note": "sustained 2.4x"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "SGHT", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.565, "tp": 8.475501788268462, "note": "pace 8.5x and accelerating (169.5x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "AGNT", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.975, "tp": 5.9942959974832934, "note": "pace 6.0x and accelerating (3.3x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "CTMX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.955, "tp": 0.06395469541821537, "note": "pace 0.1x off peak 2.6x"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "FTH", "prev_state": "RUNNING", "state": "COOLING", "price": 12.46, "tp": 0.5095909504583086, "note": "pace 0.5x off peak 2.4x"}
+{"ts": "2026-11-10T13:32:50.523359-05:00", "demo": 0, "ticker": "GTN", "prev_state": "RUNNING", "state": "QUIET", "price": 5.78, "tp": 1.6765075002881258, "note": ""}
