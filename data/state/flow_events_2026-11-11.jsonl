@@ -577,3 +577,12 @@
 {"ts": "2026-11-11T15:47:41.768725-05:00", "demo": 0, "ticker": "EWU", "prev_state": "CHURN", "state": "RUNNING", "price": 47.865, "tp": 11.647521419087823, "note": "sustained 11.6x"}
 {"ts": "2026-11-11T15:47:41.768725-05:00", "demo": 0, "ticker": "GDXY", "prev_state": "RUNNING", "state": "COOLING", "price": 9.36, "tp": 0.43044857050415936, "note": "pace 0.4x off peak 146.0x"}
 {"ts": "2026-11-11T15:47:41.768725-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "COOLING", "state": "RUNNING", "price": 5.86, "tp": 1.9454307941140243, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "ODD", "prev_state": "COOLING", "state": "RUNNING", "price": 19.735, "tp": 1.9131658300329246, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "EPOL", "prev_state": "RUNNING", "state": "CHURN", "price": 43.635, "tp": 19.955710482074114, "note": "20.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "ATRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 60.2, "tp": 6.3540091607312315, "note": "pace 6.4x and accelerating (2.1x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "EAD", "prev_state": "CHURN", "state": "RUNNING", "price": 6.06, "tp": 2.628513955161226, "note": "sustained 2.6x"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "EWI", "prev_state": "RUNNING", "state": "CHURN", "price": 58.73, "tp": 9.002302125993989, "note": "9.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "FNCL", "prev_state": "COOLING", "state": "FADING", "price": 82.595, "tp": 0.0, "note": "pace 0.0x vs peak 2.8x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "HROW", "prev_state": "RUNNING", "state": "COOLING", "price": 29.13, "tp": 1.425539756258971, "note": "pace 1.4x off peak 3.0x"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "EQAL", "prev_state": "CHURN", "state": "RUNNING", "price": 60.24, "tp": 21.167158427552668, "note": "sustained 21.2x"}
+{"ts": "2026-11-11T15:50:41.769148-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "RUNNING", "state": "COOLING", "price": 5.865, "tp": 1.5784865852590233, "note": "pace 1.6x off peak 9.9x"}
