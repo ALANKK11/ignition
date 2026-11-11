@@ -174,3 +174,15 @@
 {"ts": "2026-11-11T14:08:41.751603-05:00", "demo": 0, "ticker": "APEI", "prev_state": "QUIET", "state": "COOLING", "price": 43.735, "tp": 1.1346651779901853, "note": "pace 1.1x off peak 2.0x"}
 {"ts": "2026-11-11T14:08:41.751603-05:00", "demo": 0, "ticker": "INLF", "prev_state": "QUIET", "state": "RUNNING", "price": 0.57, "tp": 2.176622218000371, "note": "sustained 2.2x"}
 {"ts": "2026-11-11T14:08:41.751603-05:00", "demo": 0, "ticker": "HROW", "prev_state": "COOLING", "state": "RUNNING", "price": 29.685, "tp": 1.8877277338560683, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "COHX", "prev_state": "QUIET", "state": "IGNITING", "price": 12.78, "tp": 3.188976179522522, "note": "pace 3.2x and accelerating (63.8x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "EAD", "prev_state": "QUIET", "state": "RUNNING", "price": 6.06, "tp": 1.9099020052810434, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "CRVO", "prev_state": "FADING", "state": "RUNNING", "price": 1.75, "tp": 16.802156324988605, "note": "sustained 16.8x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "BGS", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.525, "tp": 2.3836878196314317, "note": "sustained 2.4x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.95, "tp": 5.084530140709482, "note": "sustained 5.1x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "NRDS", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.8, "tp": 9.498159300082687, "note": "sustained 9.5x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "VIA", "prev_state": "RUNNING", "state": "COOLING", "price": 42.18, "tp": 0.7441326510813443, "note": "pace 0.7x off peak 2.8x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "CORD", "prev_state": "COOLING", "state": "RUNNING", "price": 3.3, "tp": 1.9081745645662964, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "GEVO", "prev_state": "FADING", "state": "IGNITING", "price": 1.78, "tp": 4.913738753359373, "note": "pace 4.9x and accelerating (2.4x vs prior window) \u00b7 -1.4% in window"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "EWU", "prev_state": "CHURN", "state": "RUNNING", "price": 47.795, "tp": 5.502545930136637, "note": "sustained 5.5x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "RUNNING", "price": 2.25, "tp": 2.742936796004868, "note": "sustained 2.7x"}
+{"ts": "2026-11-11T14:11:41.752130-05:00", "demo": 0, "ticker": "FIP", "prev_state": "QUIET", "state": "RUNNING", "price": 4.355, "tp": 2.0611676462804445, "note": "sustained 2.1x"}
