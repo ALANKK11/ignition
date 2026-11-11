@@ -376,3 +376,12 @@
 {"ts": "2026-11-11T14:56:41.760126-05:00", "demo": 0, "ticker": "CARL", "prev_state": "FADING", "state": "IGNITING", "price": 18.08, "tp": 33.11417963767433, "note": "pace 33.1x and accelerating (6.3x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-11-11T14:56:41.760126-05:00", "demo": 0, "ticker": "ODD", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.845, "tp": 3.590475539678576, "note": "sustained 3.6x"}
 {"ts": "2026-11-11T14:56:41.760126-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.915, "tp": 4.0407163742752505, "note": "pace 4.0x and accelerating (1.7x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "BV", "prev_state": "RUNNING", "state": "COOLING", "price": 9.825, "tp": 1.725892323218788, "note": "pace 1.7x off peak 5.0x"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "ANGX", "prev_state": "FADING", "state": "LEAVING", "price": 4.22, "tp": 1.4125674505835495, "note": "pace 1.4x off peak 11.5x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "EAD", "prev_state": "COOLING", "state": "RUNNING", "price": 6.06, "tp": 4.118437174207211, "note": "sustained 4.1x"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "BURU", "prev_state": "FADING", "state": "IGNITING", "price": 0.2757, "tp": 3.4232596737280714, "note": "pace 3.4x and accelerating (2.1x vs prior window) \u00b7 +2.2% in window"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "DLLL", "prev_state": "IGNITING", "state": "FADING", "price": 14.01, "tp": 0.0, "note": "pace 0.0x vs peak 5.7x \u00b7 -2.4% off HOD \u00b7 chart still +26% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "NAVI", "prev_state": "IGNITING", "state": "COOLING", "price": 6.265, "tp": 1.6052154558773748, "note": "pace 1.6x off peak 8.4x"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "VIA", "prev_state": "COOLING", "state": "RUNNING", "price": 42.51, "tp": 1.9529428584549178, "note": "sustained 2.0x"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "JANX", "prev_state": "FADING", "state": "RUNNING", "price": 12.31, "tp": 4.60522473139191, "note": "sustained 4.6x"}
+{"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "AIBU", "prev_state": "FADING", "state": "RUNNING", "price": 57.94, "tp": 1172.9775310312798, "note": "sustained 1173.0x"}
