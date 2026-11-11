@@ -630,3 +630,4 @@
 {"ts": "2026-11-11T15:59:41.770808-05:00", "demo": 0, "ticker": "SWBI", "prev_state": "QUIET", "state": "IGNITING", "price": 15.835, "tp": 4.140425846870648, "note": "pace 4.1x and accelerating (4.4x vs prior window) \u00b7 +0.6% in window"}
 {"ts": "2026-11-11T15:59:41.770808-05:00", "demo": 0, "ticker": "VIA", "prev_state": "RUNNING", "state": "IGNITING", "price": 42.81, "tp": 2.9551262156632387, "note": "pace 3.0x and accelerating (1.6x vs prior window) \u00b7 +0.5% in window"}
 {"ts": "2026-11-11T15:59:41.770808-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.88, "tp": 2.887313933559878, "note": "pace 2.9x and accelerating (1.6x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-11-11T16:10:56.760858-05:00", "demo": 0, "ticker": "Z", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Zillow Group to present at UBS Global Technology and AI Conference 2026"}
