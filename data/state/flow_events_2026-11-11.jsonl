@@ -385,3 +385,11 @@
 {"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "VIA", "prev_state": "COOLING", "state": "RUNNING", "price": 42.51, "tp": 1.9529428584549178, "note": "sustained 2.0x"}
 {"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "JANX", "prev_state": "FADING", "state": "RUNNING", "price": 12.31, "tp": 4.60522473139191, "note": "sustained 4.6x"}
 {"ts": "2026-11-11T14:59:41.760725-05:00", "demo": 0, "ticker": "AIBU", "prev_state": "FADING", "state": "RUNNING", "price": 57.94, "tp": 1172.9775310312798, "note": "sustained 1173.0x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "ANGX", "prev_state": "LEAVING", "state": "FADING", "price": 4.255, "tp": 1.7856326155738451, "note": "pace 1.8x vs peak 11.5x \u00b7 -4.3% off HOD \u00b7 chart still +14% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "EVMO", "prev_state": "NEW MONEY", "state": "COOLING", "price": 48.7, "tp": 0.0, "note": "pace 0.0x off peak 4.1x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "MASS", "prev_state": "IGNITING", "state": "COOLING", "price": 9.96, "tp": 0.33246193105973465, "note": "pace 0.3x off peak 4.4x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "MUX", "prev_state": "COOLING", "state": "RUNNING", "price": 12.615, "tp": 1.8760016777360435, "note": "sustained 1.9x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "INLF", "prev_state": "COOLING", "state": "RUNNING", "price": 0.6662, "tp": 2.831212040819081, "note": "sustained 2.8x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "BURU", "prev_state": "IGNITING", "state": "FADING", "price": 0.28, "tp": 2.3223023498598008, "note": "pace 2.3x vs peak 7.0x \u00b7 -5.7% off HOD \u00b7 chart still +38% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "IHS", "prev_state": "COOLING", "state": "RUNNING", "price": 8.47, "tp": 2.241968316474687, "note": "sustained 2.2x"}
+{"ts": "2026-11-11T15:02:41.761083-05:00", "demo": 0, "ticker": "ZIP", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.795, "tp": 2.7262363407636307, "note": "sustained 2.7x"}
