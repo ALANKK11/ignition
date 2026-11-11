@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-11T16:13:11-05:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-11-11T16:16:11-05:00", "session": "post", "rows": [{"headline": null, "pr_ts": null, "catalyst": false, "flags": null, "ticker": "NXXT", "move": 0.657, "last": 3.24, "dollars": 117069.09, "vs_adv": 10.46, "off_hi": -0.0663, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": true, "pin": false, "heat": 0.5, "swings": 0, "path": 0.944, "first_seen": "13:20", "new": false}]}
