@@ -3,3 +3,10 @@
 {"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "PLTK", "prev_state": "RUNNING", "state": "COOLING", "price": 2.62, "tp": 0.3782371191879626, "note": "pace 0.4x off peak 2.2x"}
 {"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "MASS", "prev_state": "QUIET", "state": "IGNITING", "price": 10.45, "tp": 4.168622893874968, "note": "pace 4.2x and accelerating (6.4x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "SENS", "prev_state": "RUNNING", "state": "COOLING", "price": 10.585, "tp": 1.4420259257301615, "note": "pace 1.4x off peak 3.1x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "FLJP", "prev_state": "RUNNING", "state": "COOLING", "price": 39.255, "tp": 1.6877104297753933, "note": "pace 1.7x off peak 2.7x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "PUBM", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.89, "tp": 4.003247863819677, "note": "sustained 4.0x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "AXTX", "prev_state": "QUIET", "state": "RUNNING", "price": 9.815, "tp": 3.7397662037141406, "note": "sustained 3.7x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "HROW", "prev_state": "RUNNING", "state": "COOLING", "price": 29.455, "tp": 1.3579483886783208, "note": "pace 1.4x off peak 2.6x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "ALLO", "prev_state": "RUNNING", "state": "COOLING", "price": 0.9002, "tp": 1.517936055258834, "note": "pace 1.5x off peak 2.9x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "ODD", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.01, "tp": 3.5344694331352557, "note": "sustained 3.5x"}
+{"ts": "2026-11-11T13:26:41.743212-05:00", "demo": 0, "ticker": "SNDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.93, "tp": 5.759145292079204, "note": "sustained 5.8x"}
