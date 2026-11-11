@@ -1,0 +1,5 @@
+{"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "PUBM", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.89, "tp": 4.801010548410016, "note": "pace 4.8x and accelerating (1.6x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "LCID", "prev_state": "RUNNING", "state": "COOLING", "price": 3.685, "tp": 1.3709632164610106, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "PLTK", "prev_state": "RUNNING", "state": "COOLING", "price": 2.62, "tp": 0.3782371191879626, "note": "pace 0.4x off peak 2.2x"}
+{"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "MASS", "prev_state": "QUIET", "state": "IGNITING", "price": 10.45, "tp": 4.168622893874968, "note": "pace 4.2x and accelerating (6.4x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-11T13:23:41.742635-05:00", "demo": 0, "ticker": "SENS", "prev_state": "RUNNING", "state": "COOLING", "price": 10.585, "tp": 1.4420259257301615, "note": "pace 1.4x off peak 3.1x"}
