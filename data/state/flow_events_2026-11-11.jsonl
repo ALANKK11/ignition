@@ -58,3 +58,13 @@
 {"ts": "2026-11-11T13:38:41.746557-05:00", "demo": 0, "ticker": "MASS", "prev_state": "RUNNING", "state": "COOLING", "price": 10.3, "tp": 0.968155666802896, "note": "pace 1.0x off peak 4.4x"}
 {"ts": "2026-11-11T13:38:41.746557-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "RUNNING", "state": "QUIET", "price": 10.04, "tp": 1.7673577021442233, "note": ""}
 {"ts": "2026-11-11T13:38:41.746557-05:00", "demo": 0, "ticker": "CENN", "prev_state": "RUNNING", "state": "LEAVING", "price": 0.2113, "tp": 103.16021043609003, "note": "pace 103.2x off peak 212.0x \u00b7 VWAP lost (was +3.1% above)"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "JANX", "prev_state": "RUNNING", "state": "IGNITING", "price": 12.375, "tp": 3.1804728036707104, "note": "pace 3.2x and accelerating (4.6x vs prior window) \u00b7 +0.9% in window"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "LCID", "prev_state": "QUIET", "state": "RUNNING", "price": 3.68, "tp": 3.6905113215165573, "note": "sustained 3.7x"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "NXXT", "prev_state": "FADING", "state": "RUNNING", "price": 3.27, "tp": 63.80427780928342, "note": "sustained 63.8x"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "CRWG", "prev_state": "RUNNING", "state": "COOLING", "price": 7.3, "tp": 1.6619583312118025, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "ANGX", "prev_state": "RUNNING", "state": "IGNITING", "price": 4.32, "tp": 11.4784185805457, "note": "pace 11.5x and accelerating (2.3x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "AAOX", "prev_state": "COOLING", "state": "QUIET", "price": 2.295, "tp": 1.795330312898463, "note": ""}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "QUIET", "state": "RUNNING", "price": 10.025, "tp": 2.029304887350704, "note": "sustained 2.0x"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "GEVO", "prev_state": "QUIET", "state": "IGNITING", "price": 1.81, "tp": 4.092519720018982, "note": "pace 4.1x and accelerating (2.3x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "CARL", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.27, "tp": 92.06436844262083, "note": "pace 92.1x and accelerating (1.9x vs prior window) \u00b7 +1.2% in window"}
+{"ts": "2026-11-11T13:41:41.746743-05:00", "demo": 0, "ticker": "EMCS", "prev_state": "FADING", "state": "RUNNING", "price": 43.735, "tp": 156.55502871186548, "note": "sustained 156.6x"}
