@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-12T16:31:27-05:00", "session": "post", "rows": [{"ticker": "CBRS", "last": 113.25, "gap": 0.1281, "dollars": 707879.4, "vs_adv": 0.02, "new": true}, {"ticker": "CBRX", "last": 2.61, "gap": 0.2264, "dollars": 84716.63, "vs_adv": 1.16, "new": false}]}
+{"v": 4, "ts": "2026-11-12T16:34:27-05:00", "session": "post", "rows": [{"ticker": "CBRS", "last": 116.95, "gap": 0.1375, "dollars": 841062.89, "vs_adv": 0.02, "new": false}, {"ticker": "CBRX", "last": 2.61, "gap": 0.2264, "dollars": 84716.63, "vs_adv": 1.16, "new": false}]}
