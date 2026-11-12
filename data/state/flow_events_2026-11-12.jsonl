@@ -212,3 +212,13 @@
 {"ts": "2026-11-12T14:35:57.593086-05:00", "demo": 0, "ticker": "ADIG", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.035, "tp": 16.402758622066102, "note": "pace 16.4x and accelerating (2.7x vs prior window) \u00b7 -1.6% in window"}
 {"ts": "2026-11-12T14:35:57.593086-05:00", "demo": 0, "ticker": "AGQ", "prev_state": "CHURN", "state": "RUNNING", "price": 44.595, "tp": 2.1962140704749715, "note": "sustained 2.2x"}
 {"ts": "2026-11-12T14:35:57.593086-05:00", "demo": 0, "ticker": "EWP", "prev_state": "COOLING", "state": "RUNNING", "price": 59.71, "tp": 2.1658550426371974, "note": "sustained 2.2x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "AGQ", "prev_state": "RUNNING", "state": "COOLING", "price": 44.595, "tp": 0.4459434751559728, "note": "pace 0.4x off peak 12.1x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "EWD", "prev_state": "RUNNING", "state": "COOLING", "price": 52.805, "tp": 1.1553742771213522, "note": "pace 1.2x off peak 17.1x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "FLRT", "prev_state": "RUNNING", "state": "CHURN", "price": 46.47, "tp": 2.3653854190911106, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "GRNT", "prev_state": "CHURN", "state": "COOLING", "price": 6.475, "tp": 1.1472017460956416, "note": "pace 1.1x off peak 3.2x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "CRWU", "prev_state": "COOLING", "state": "IGNITING", "price": 11.59, "tp": 10.172352284104978, "note": "pace 10.2x and accelerating (1.6x vs prior window) \u00b7 -3.2% in window"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "EWH", "prev_state": "RUNNING", "state": "FADING", "price": 23.215, "tp": 1.6205026222386385, "note": "pace 1.6x vs peak 7.1x \u00b7 -0.2% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "COOLING", "state": "RUNNING", "price": 8.94, "tp": 1.9374677361159034, "note": "sustained 1.9x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "BZ", "prev_state": "IGNITING", "state": "RUNNING", "price": 12.705, "tp": 3.84951653100017, "note": "sustained 3.8x"}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "ANRO", "prev_state": "COOLING", "state": "QUIET", "price": 32.02, "tp": 1.7663060487759832, "note": ""}
+{"ts": "2026-11-12T14:39:42.593778-05:00", "demo": 0, "ticker": "LMRI", "prev_state": "RUNNING", "state": "COOLING", "price": 15.185, "tp": 1.7763650870199532, "note": "pace 1.8x off peak 6.3x"}
