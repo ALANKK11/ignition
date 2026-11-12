@@ -41,3 +41,23 @@
 {"ts": "2026-11-12T13:59:12.585938-05:00", "demo": 0, "ticker": "ADIG", "prev_state": "RUNNING", "state": "IGNITING", "price": 10.58, "tp": 21.384024313869144, "note": "pace 21.4x and accelerating (2.0x vs prior window) \u00b7 -1.2% in window"}
 {"ts": "2026-11-12T13:59:12.585938-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "QUIET", "state": "RUNNING", "price": 9.03, "tp": 2.227160775495439, "note": "sustained 2.2x"}
 {"ts": "2026-11-12T13:59:12.585938-05:00", "demo": 0, "ticker": "LAC", "prev_state": "RUNNING", "state": "COOLING", "price": 1.625, "tp": 0.7432550433540965, "note": "pace 0.7x off peak 1.9x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "AII", "prev_state": "FADING", "state": "COOLING", "price": 29.22, "tp": 1.746617504819612, "note": "pace 1.7x off peak 3.1x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "NEBX", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.1, "tp": 6.625096683894633, "note": "pace 6.6x and accelerating (2.1x vs prior window) \u00b7 -1.8% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "BRCB", "prev_state": "QUIET", "state": "RUNNING", "price": 9.06, "tp": 2.0272980125608586, "note": "sustained 2.0x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "EWU", "prev_state": "COOLING", "state": "RUNNING", "price": 47.745, "tp": 2.3822801747669673, "note": "sustained 2.4x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "PLX", "prev_state": "QUIET", "state": "IGNITING", "price": 2.995, "tp": 3.283586895059249, "note": "pace 3.3x and accelerating (8.9x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "FLRT", "prev_state": "COOLING", "state": "RUNNING", "price": 46.44, "tp": 2.0547897191836637, "note": "sustained 2.1x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "SMCL", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.59, "tp": 11.053277548501544, "note": "sustained 11.1x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "GEVO", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.9, "tp": 6.9643773975403, "note": "pace 7.0x and accelerating (2.2x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "ANRO", "prev_state": "RUNNING", "state": "QUIET", "price": 32.27, "tp": 1.7967655370976472, "note": ""}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "IDEF", "prev_state": "CHURN", "state": "RUNNING", "price": 29.445, "tp": 491.9351301869013, "note": "sustained 491.9x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "PARA", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.1042, "tp": 9.594109680638844, "note": "pace 9.6x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "CMCO", "prev_state": "QUIET", "state": "RUNNING", "price": 21.45, "tp": 2.7480197605075745, "note": "sustained 2.7x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "PSFE", "prev_state": "IGNITING", "state": "RUNNING", "price": 4.31, "tp": 6.525703076363539, "note": "sustained 6.5x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "TLH", "prev_state": "QUIET", "state": "RUNNING", "price": 93.98, "tp": 3.224606652580398, "note": "sustained 3.2x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "ABEO", "prev_state": "COOLING", "state": "IGNITING", "price": 2.305, "tp": 4.016960542061707, "note": "pace 4.0x and accelerating (2.6x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "NBIL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.02, "tp": 6.821999951357357, "note": "pace 6.8x and accelerating (3.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "SYSB", "prev_state": "CHURN", "state": "RUNNING", "price": 84.745, "tp": 68.11636277004972, "note": "sustained 68.1x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "FTXH", "prev_state": "QUIET", "state": "RUNNING", "price": 44.34, "tp": 31.245942706705478, "note": "sustained 31.2x"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "EWL", "prev_state": "RUNNING", "state": "CHURN", "price": 64.88, "tp": 5.243082481276821, "note": "5.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T14:02:57.586661-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.99, "tp": 3.0966294996637367, "note": "pace 3.1x and accelerating (3.7x vs prior window) \u00b7 -2.4% in window"}
