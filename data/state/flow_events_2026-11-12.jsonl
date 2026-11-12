@@ -627,3 +627,4 @@
 {"ts": "2026-11-12T16:31:27.614333-05:00", "demo": 0, "ticker": "CBRS", "prev_state": null, "state": "AH IGNITION", "price": 113.25, "tp": null, "note": "+13% on $0.71M ext tape"}
 {"ts": "2026-11-12T16:32:12.604981-05:00", "demo": 0, "ticker": "HIT", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Health In Tech Reports Third Quarter 2026 Financial Results"}
 {"ts": "2026-11-12T16:32:12.604981-05:00", "demo": 0, "ticker": "GTES", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Gates Introduces Compact ThermalCool\u2122 2100SS Pump to Expand Data Center Portfolio"}
+{"ts": "2026-11-12T16:46:27.617133-05:00", "demo": 0, "ticker": "CADL", "prev_state": null, "state": "AH IGNITION", "price": 5.04, "tp": null, "note": "-37% on $0.05M ext tape"}
