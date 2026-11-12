@@ -1,0 +1,5 @@
+{"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.585, "tp": 21.575833551926518, "note": "pace 21.6x and accelerating (2.2x vs prior window) \u00b7 -0.8% in window"}
+{"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "AIMD", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.9953, "tp": 359.2966080302303, "note": "pace 359.3x and accelerating (1.8x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "NEBX", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.21, "tp": 3.1352355601993853, "note": "pace 3.1x and accelerating (1.7x vs prior window) \u00b7 -4.0% in window"}
+{"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "SGMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.91, "tp": 2.8675657289363286, "note": "sustained 2.9x"}
+{"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "FLRT", "prev_state": "QUIET", "state": "CHURN", "price": 46.46, "tp": 3.375777097678506, "note": "3.4x participation, no progress at highs \u2014 absorption"}
