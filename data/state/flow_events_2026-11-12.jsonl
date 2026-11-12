@@ -448,3 +448,20 @@
 {"ts": "2026-11-12T15:23:57.602193-05:00", "demo": 0, "ticker": "PAYO", "prev_state": "RUNNING", "state": "CHURN", "price": 7.16, "tp": 10.962059675739381, "note": "11.0x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-12T15:23:57.602193-05:00", "demo": 0, "ticker": "SONO", "prev_state": "COOLING", "state": "IGNITING", "price": 18.67, "tp": 3.061918207577656, "note": "pace 3.1x and accelerating (2.6x vs prior window) \u00b7 +0.4% in window"}
 {"ts": "2026-11-12T15:23:57.602193-05:00", "demo": 0, "ticker": "FOSL", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.94, "tp": 3.89321811341346, "note": "sustained 3.9x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "BOT", "prev_state": "RUNNING", "state": "CHURN", "price": 20.19, "tp": 2.9107426097395277, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "CORO", "prev_state": "RUNNING", "state": "CHURN", "price": 35.15, "tp": 13.091256894935162, "note": "13.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "EWG", "prev_state": "CHURN", "state": "RUNNING", "price": 42.835, "tp": 6.5490393598540315, "note": "sustained 6.5x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "EWH", "prev_state": "RUNNING", "state": "CHURN", "price": 23.205, "tp": 4.6046604294113855, "note": "4.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "ANRO", "prev_state": "COOLING", "state": "RUNNING", "price": 31.38, "tp": 2.2715476232029026, "note": "sustained 2.3x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "EWD", "prev_state": "RUNNING", "state": "CHURN", "price": 52.735, "tp": 19.171387919311613, "note": "19.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "AGQ", "prev_state": "RUNNING", "state": "CHURN", "price": 44.63, "tp": 13.08182467060743, "note": "13.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "BBEU", "prev_state": "COOLING", "state": "RUNNING", "price": 77.47, "tp": 1.9407016916385185, "note": "sustained 1.9x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "DGII", "prev_state": "IGNITING", "state": "RUNNING", "price": 56.75, "tp": 26.818034402565896, "note": "sustained 26.8x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "EFG", "prev_state": "CHURN", "state": "RUNNING", "price": 39.445, "tp": 2.549300644955949, "note": "sustained 2.5x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "ENOR", "prev_state": "CHURN", "state": "RUNNING", "price": 36.065, "tp": 48.941170002303124, "note": "sustained 48.9x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "BABA", "prev_state": "CHURN", "state": "RUNNING", "price": 94.64, "tp": 2.754213770845035, "note": "sustained 2.8x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "FLRT", "prev_state": "RUNNING", "state": "COOLING", "price": 46.465, "tp": 0.0, "note": "pace 0.0x off peak 11.8x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "LWLG", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.435, "tp": 3.49378056489042, "note": "sustained 3.5x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "PLX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.965, "tp": 2.4453320252377804, "note": "sustained 2.4x"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "NAVI", "prev_state": "LEAVING", "state": "FADING", "price": 6.165, "tp": 0.7753473376020393, "note": "pace 0.8x vs peak 5.8x \u00b7 -3.2% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-12T15:27:42.603021-05:00", "demo": 0, "ticker": "FIP", "prev_state": "QUIET", "state": "RUNNING", "price": 4.2, "tp": 1.8399114278584499, "note": "sustained 1.8x"}
