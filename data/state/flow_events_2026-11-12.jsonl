@@ -3,3 +3,12 @@
 {"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "NEBX", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.21, "tp": 3.1352355601993853, "note": "pace 3.1x and accelerating (1.7x vs prior window) \u00b7 -4.0% in window"}
 {"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "SGMT", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.91, "tp": 2.8675657289363286, "note": "sustained 2.9x"}
 {"ts": "2026-11-12T13:47:57.583568-05:00", "demo": 0, "ticker": "FLRT", "prev_state": "QUIET", "state": "CHURN", "price": 46.46, "tp": 3.375777097678506, "note": "3.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "EWU", "prev_state": "RUNNING", "state": "COOLING", "price": 47.755, "tp": 1.7671357792965081, "note": "pace 1.8x off peak 4.1x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "NEBX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.21, "tp": 2.3063907812616113, "note": "sustained 2.3x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "CDNL", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.59, "tp": 17.225277407742386, "note": "sustained 17.2x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "LAC", "prev_state": "QUIET", "state": "RUNNING", "price": 1.625, "tp": 1.8689518695223057, "note": "sustained 1.9x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "NBIG", "prev_state": "IGNITING", "state": "COOLING", "price": 4.17, "tp": 1.2337388723143432, "note": "pace 1.2x off peak 9.5x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "XLAB", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.895, "tp": 9.534952458429126, "note": "pace 9.5x and accelerating (1.7x vs prior window) \u00b7 +7.4% in window"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "NVDU", "prev_state": "IGNITING", "state": "RUNNING", "price": 72.77, "tp": 6.721003145372734, "note": "sustained 6.7x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "ABEO", "prev_state": "QUIET", "state": "RUNNING", "price": 2.315, "tp": 2.4994002572767933, "note": "sustained 2.5x"}
+{"ts": "2026-11-12T13:51:42.584228-05:00", "demo": 0, "ticker": "AIMD", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.9953, "tp": 143.04869194311493, "note": "sustained 143.0x"}
