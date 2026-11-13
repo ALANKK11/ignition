@@ -375,3 +375,20 @@
 {"ts": "2026-11-13T15:18:40.727727-05:00", "demo": 0, "ticker": "HIO", "prev_state": "RUNNING", "state": "COOLING", "price": 3.245, "tp": 1.250307571140241, "note": "pace 1.3x off peak 9.4x"}
 {"ts": "2026-11-13T15:18:40.727727-05:00", "demo": 0, "ticker": "MANU", "prev_state": "RUNNING", "state": "QUIET", "price": 22.31, "tp": 1.7786504724631116, "note": ""}
 {"ts": "2026-11-13T15:18:40.727727-05:00", "demo": 0, "ticker": "FLO", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.505, "tp": 4.859323157510873, "note": "sustained 4.9x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "GBND", "prev_state": "COOLING", "state": "RUNNING", "price": 48.38, "tp": 3.202230003948067, "note": "sustained 3.2x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "AGNG", "prev_state": "CHURN", "state": "FADING", "price": 41.23, "tp": 0.0, "note": "pace 0.0x vs peak 20.8x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "MANU", "prev_state": "QUIET", "state": "COOLING", "price": 22.31, "tp": 1.2393788784698163, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "ADIG", "prev_state": "CHURN", "state": "RUNNING", "price": 9.96, "tp": 12.806859242712932, "note": "sustained 12.8x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "AGQ", "prev_state": "RUNNING", "state": "COOLING", "price": 42.49, "tp": 1.570185265002448, "note": "pace 1.6x off peak 8.5x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "ARKF", "prev_state": "CHURN", "state": "RUNNING", "price": 41.63, "tp": 3.36348806737809, "note": "sustained 3.4x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "CORO", "prev_state": "RUNNING", "state": "CHURN", "price": 35.075, "tp": 10.014704148494085, "note": "10.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "IHS", "prev_state": "FADING", "state": "RUNNING", "price": 8.45, "tp": 3.464435086134519, "note": "sustained 3.5x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "AGRO", "prev_state": "FADING", "state": "CHURN", "price": 8.925, "tp": 2.2108725897864554, "note": "2.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "XTEN", "prev_state": "RUNNING", "state": "CHURN", "price": 42.91, "tp": 9.470982969118026, "note": "9.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "ASMB", "prev_state": "FADING", "state": "RUNNING", "price": 20.79, "tp": 2.4409131819570025, "note": "sustained 2.4x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "ENGN", "prev_state": "FADING", "state": "IGNITING", "price": 2.385, "tp": 8.79801268227886, "note": "pace 8.8x and accelerating (4.7x vs prior window) \u00b7 +0.6% in window"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "IDEF", "prev_state": "COOLING", "state": "RUNNING", "price": 29.065, "tp": 1.9592125509918843, "note": "sustained 2.0x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "PANL", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.35, "tp": 3.5607087154708714, "note": "pace 3.6x and accelerating (3.0x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "ALVO", "prev_state": "RUNNING", "state": "COOLING", "price": 4.205, "tp": 1.7648213782824844, "note": "pace 1.8x off peak 5.4x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "HQI", "prev_state": "IGNITING", "state": "RUNNING", "price": 14.21, "tp": 9.89038829007058, "note": "sustained 9.9x"}
+{"ts": "2026-11-13T15:22:25.729936-05:00", "demo": 0, "ticker": "CADL", "prev_state": "IGNITING", "state": "LEAVING", "price": 6.135, "tp": 3.369499406348712, "note": "pace 3.4x off peak 14.7x \u00b7 VWAP lost (was +1.9% above)"}
