@@ -305,3 +305,11 @@
 {"ts": "2026-11-13T14:56:10.723927-05:00", "demo": 0, "ticker": "FCUV", "prev_state": "FADING", "state": "LEAVING", "price": 6.25, "tp": 930.4680773909421, "note": "pace 930.5x off peak 3812.9x \u00b7 VWAP lost (was +8.7% above)"}
 {"ts": "2026-11-13T14:56:10.723927-05:00", "demo": 0, "ticker": "BRTR", "prev_state": "RUNNING", "state": "COOLING", "price": 48.03, "tp": 0.0, "note": "pace 0.0x off peak 13.0x"}
 {"ts": "2026-11-13T14:56:10.723927-05:00", "demo": 0, "ticker": "XTEN", "prev_state": "COOLING", "state": "CHURN", "price": 42.92, "tp": 9.429456361190963, "note": "9.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "AMUU", "prev_state": "COOLING", "state": "RUNNING", "price": 183.15, "tp": 2.566033208010403, "note": "sustained 2.6x"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "NX", "prev_state": "COOLING", "state": "CHURN", "price": 19.13, "tp": 2.638089150936019, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "ITRG", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.81, "tp": 4.128314411556423, "note": "pace 4.1x and accelerating (1.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "CADL", "prev_state": "QUIET", "state": "RUNNING", "price": 6.22, "tp": 1.8979526979864028, "note": "sustained 1.9x"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "BZ", "prev_state": "RUNNING", "state": "COOLING", "price": 12.985, "tp": 1.7444863959569903, "note": "pace 1.7x off peak 4.0x"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "CIEG", "prev_state": "QUIET", "state": "RUNNING", "price": 2.14, "tp": 2.0544685319059295, "note": "sustained 2.1x"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "CEMB", "prev_state": "COOLING", "state": "CHURN", "price": 43.775, "tp": 2.5782655335742435, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T14:59:55.727680-05:00", "demo": 0, "ticker": "MANU", "prev_state": "QUIET", "state": "RUNNING", "price": 22.255, "tp": 1.8988605856036063, "note": "sustained 1.9x"}
