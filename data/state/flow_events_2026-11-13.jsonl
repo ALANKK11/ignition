@@ -326,3 +326,15 @@
 {"ts": "2026-11-13T15:03:40.724966-05:00", "demo": 0, "ticker": "ABUF", "prev_state": "CHURN", "state": "COOLING", "price": 27.77, "tp": 0.0, "note": "pace 0.0x off peak 60.7x"}
 {"ts": "2026-11-13T15:03:40.724966-05:00", "demo": 0, "ticker": "GBND", "prev_state": "QUIET", "state": "RUNNING", "price": 48.39, "tp": 3.5903864423893337, "note": "sustained 3.6x"}
 {"ts": "2026-11-13T15:06:40.708845-05:00", "demo": 0, "ticker": "KEY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AI-NATIVE SOFTWARE COMPANIES LEAD ON GROWTH, BUT STRONGER ECONOMICS HAVE NOT YET FOLLOWED"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "CIEG", "prev_state": "RUNNING", "state": "QUIET", "price": 2.14, "tp": 1.7659373642895029, "note": ""}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "CORO", "prev_state": "CHURN", "state": "RUNNING", "price": 35.075, "tp": 4.858149009699733, "note": "sustained 4.9x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "FLN", "prev_state": "FADING", "state": "CHURN", "price": 24.15, "tp": 4.844056443294583, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "MANU", "prev_state": "RUNNING", "state": "COOLING", "price": 22.255, "tp": 0.4655367660947737, "note": "pace 0.5x off peak 1.9x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "PANL", "prev_state": "RUNNING", "state": "COOLING", "price": 9.31, "tp": 1.1824621023232453, "note": "pace 1.2x off peak 3.0x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "BZ", "prev_state": "COOLING", "state": "FADING", "price": 12.975, "tp": 1.1875522483597012, "note": "pace 1.2x vs peak 4.0x \u00b7 -1.4% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "XTEN", "prev_state": "CHURN", "state": "RUNNING", "price": 42.91, "tp": 12.342365943627309, "note": "sustained 12.3x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "HQI", "prev_state": "COOLING", "state": "RUNNING", "price": 14.23, "tp": 2.674652543619133, "note": "sustained 2.7x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "CADL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.16, "tp": 12.959109400768703, "note": "pace 13.0x and accelerating (7.5x vs prior window) \u00b7 -1.0% in window"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "CGON", "prev_state": "LEAVING", "state": "IGNITING", "price": 72.395, "tp": 3.627619345818476, "note": "pace 3.6x and accelerating (1.9x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "ASIX", "prev_state": "RUNNING", "state": "COOLING", "price": 15.645, "tp": 1.2655078645203084, "note": "pace 1.3x off peak 5.2x"}
+{"ts": "2026-11-13T15:07:25.725364-05:00", "demo": 0, "ticker": "ITRG", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.81, "tp": 4.7200807939556295, "note": "pace 4.7x and accelerating (2.6x vs prior window) \u00b7 -0.5% in window"}
