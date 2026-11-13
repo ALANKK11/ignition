@@ -466,3 +466,18 @@
 {"ts": "2026-11-13T15:41:10.734789-05:00", "demo": 0, "ticker": "FLN", "prev_state": "CHURN", "state": "RUNNING", "price": 24.14, "tp": 4.248848076499606, "note": "sustained 4.2x"}
 {"ts": "2026-11-13T15:41:10.734789-05:00", "demo": 0, "ticker": "ITRG", "prev_state": "COOLING", "state": "RUNNING", "price": 1.8, "tp": 2.3495083687410863, "note": "sustained 2.3x"}
 {"ts": "2026-11-13T15:41:10.734789-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "RUNNING", "state": "COOLING", "price": 24.9, "tp": 1.3060882202930635, "note": "pace 1.3x off peak 2.2x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "CHA", "prev_state": "FADING", "state": "RUNNING", "price": 14.37, "tp": 5.72696966330499, "note": "sustained 5.7x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "EEMV", "prev_state": "RUNNING", "state": "CHURN", "price": 70.75, "tp": 20.66088160515654, "note": "20.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "EIS", "prev_state": "NEW MONEY", "state": "COOLING", "price": 112.425, "tp": 0.0, "note": "pace 0.0x off peak 4.8x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "NX", "prev_state": "IGNITING", "state": "RUNNING", "price": 19.08, "tp": 2.834738977176981, "note": "sustained 2.8x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "LYTS", "prev_state": "FADING", "state": "RUNNING", "price": 15.465, "tp": 2.0054876817445804, "note": "sustained 2.0x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "IHS", "prev_state": "FADING", "state": "RUNNING", "price": 8.44, "tp": 5.594789073173291, "note": "sustained 5.6x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "MANU", "prev_state": "COOLING", "state": "RUNNING", "price": 22.37, "tp": 2.1821601700594537, "note": "sustained 2.2x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "IDEF", "prev_state": "RUNNING", "state": "CHURN", "price": 29.03, "tp": 2.820746790000386, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "CADL", "prev_state": "RUNNING", "state": "LEAVING", "price": 6.135, "tp": 12.258100657064297, "note": "pace 12.3x off peak 37.1x \u00b7 VWAP lost (was +1.9% above)"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "PLGO", "prev_state": "FADING", "state": "RUNNING", "price": 28.885, "tp": 5.121009795431665, "note": "sustained 5.1x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "COOLING", "state": "RUNNING", "price": 24.855, "tp": 11.84315855399611, "note": "sustained 11.8x"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "FLN", "prev_state": "RUNNING", "state": "CHURN", "price": 24.15, "tp": 5.750750858153625, "note": "5.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "BZ", "prev_state": "FADING", "state": "CHURN", "price": 12.945, "tp": 2.6007700393279376, "note": "2.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "DFIS", "prev_state": "RUNNING", "state": "CHURN", "price": 35.6, "tp": 59.57890201080215, "note": "59.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T15:44:55.736826-05:00", "demo": 0, "ticker": "CGCB", "prev_state": "CHURN", "state": "RUNNING", "price": 25.155, "tp": 2.0349068947547546, "note": "sustained 2.0x"}
