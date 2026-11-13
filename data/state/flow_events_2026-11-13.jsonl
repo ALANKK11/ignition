@@ -89,3 +89,12 @@
 {"ts": "2026-11-13T13:52:25.711290-05:00", "demo": 0, "ticker": "MRLN", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.31, "tp": 13.193555159307703, "note": "sustained 13.2x"}
 {"ts": "2026-11-13T13:52:25.711290-05:00", "demo": 0, "ticker": "PANL", "prev_state": "COOLING", "state": "RUNNING", "price": 9.31, "tp": 2.1644020192762063, "note": "sustained 2.2x"}
 {"ts": "2026-11-13T13:52:25.711290-05:00", "demo": 0, "ticker": "AMDD", "prev_state": "CHURN", "state": "RUNNING", "price": 23.26, "tp": 11.879975095138736, "note": "sustained 11.9x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "CGON", "prev_state": "IGNITING", "state": "RUNNING", "price": 74.96, "tp": 6.650297978285053, "note": "sustained 6.7x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "LYTS", "prev_state": "QUIET", "state": "RUNNING", "price": 15.395, "tp": 2.1871579587740646, "note": "sustained 2.2x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "ALT", "prev_state": "RUNNING", "state": "COOLING", "price": 1.655, "tp": 0.9446463001464936, "note": "pace 0.9x off peak 2.2x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "PLGO", "prev_state": "QUIET", "state": "COOLING", "price": 29.41, "tp": 1.2146098070905262, "note": "pace 1.2x off peak 1.9x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "HQI", "prev_state": "IGNITING", "state": "COOLING", "price": 13.3, "tp": 0.0, "note": "pace 0.0x off peak 94.2x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "GTN", "prev_state": "COOLING", "state": "RUNNING", "price": 5.92, "tp": 1.8462547249253203, "note": "sustained 1.8x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "HYTI", "prev_state": "CHURN", "state": "COOLING", "price": 18.21, "tp": 0.0, "note": "pace 0.0x off peak 887.3x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "CTRN", "prev_state": "CHURN", "state": "COOLING", "price": 43.0, "tp": 0.0, "note": "pace 0.0x off peak 8.4x"}
+{"ts": "2026-11-13T13:56:10.712910-05:00", "demo": 0, "ticker": "AGRO", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.835, "tp": 3.071021939827005, "note": "pace 3.1x and accelerating (2.4x vs prior window) \u00b7 -0.6% in window"}
