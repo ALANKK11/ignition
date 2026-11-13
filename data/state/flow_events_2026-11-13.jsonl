@@ -325,3 +325,4 @@
 {"ts": "2026-11-13T15:03:40.724966-05:00", "demo": 0, "ticker": "CORO", "prev_state": "RUNNING", "state": "CHURN", "price": 35.055, "tp": 4.436638989529732, "note": "4.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-13T15:03:40.724966-05:00", "demo": 0, "ticker": "ABUF", "prev_state": "CHURN", "state": "COOLING", "price": 27.77, "tp": 0.0, "note": "pace 0.0x off peak 60.7x"}
 {"ts": "2026-11-13T15:03:40.724966-05:00", "demo": 0, "ticker": "GBND", "prev_state": "QUIET", "state": "RUNNING", "price": 48.39, "tp": 3.5903864423893337, "note": "sustained 3.6x"}
+{"ts": "2026-11-13T15:06:40.708845-05:00", "demo": 0, "ticker": "KEY", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AI-NATIVE SOFTWARE COMPANIES LEAD ON GROWTH, BUT STRONGER ECONOMICS HAVE NOT YET FOLLOWED"}
