@@ -13,3 +13,13 @@
 {"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "PLGO", "prev_state": "QUIET", "state": "RUNNING", "price": 29.39, "tp": 1.9020342250636468, "note": "sustained 1.9x"}
 {"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "VTSI", "prev_state": "RUNNING", "state": "CHURN", "price": 3.95, "tp": 151.51460641962504, "note": "151.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "GTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.87, "tp": 3.332653746608012, "note": "sustained 3.3x"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "RUNNING", "state": "QUIET", "price": 24.49, "tp": 1.7774918054696445, "note": ""}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "HQI", "prev_state": "IGNITING", "state": "RUNNING", "price": 13.02, "tp": 25.95485019885068, "note": "sustained 26.0x"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "SLSN", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.55, "tp": 2351.954357170758, "note": "sustained 2352.0x"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "OWLT", "prev_state": "RUNNING", "state": "CHURN", "price": 3.39, "tp": 12.204706822479451, "note": "12.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "ADIG", "prev_state": "RUNNING", "state": "CHURN", "price": 9.765, "tp": 4.181786714312184, "note": "4.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "ASIX", "prev_state": "RUNNING", "state": "QUIET", "price": 15.575, "tp": 1.506783925769894, "note": ""}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "RAIN", "prev_state": "RUNNING", "state": "FADING", "price": 0.6948, "tp": 540.39801156562, "note": "pace 540.4x vs peak 2059.7x \u00b7 -17.8% off HOD \u00b7 chart still +38% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "CDNL", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.6, "tp": 3.8860721179876796, "note": "sustained 3.9x"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "VTSI", "prev_state": "CHURN", "state": "FADING", "price": 3.95, "tp": 28.80486639668958, "note": "pace 28.8x vs peak 217.7x \u00b7 -0.5% off HOD \u00b7 chart still +51% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-13T13:33:40.708216-05:00", "demo": 0, "ticker": "PLGO", "prev_state": "RUNNING", "state": "COOLING", "price": 29.39, "tp": 0.8537779562257903, "note": "pace 0.9x off peak 1.9x"}
