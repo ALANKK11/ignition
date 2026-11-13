@@ -1,0 +1,8 @@
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "EDIT", "prev_state": "CHURN", "state": "IGNITING", "price": 2.135, "tp": 7.478728792437138, "note": "pace 7.5x and accelerating (7.3x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "MRLN", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.315, "tp": 7.797192506067634, "note": "pace 7.8x and accelerating (3.8x vs prior window) \u00b7 +6.0% in window"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "GTN", "prev_state": "RUNNING", "state": "IGNITING", "price": 5.865, "tp": 3.424744040427729, "note": "pace 3.4x and accelerating (9.5x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "QUIET", "state": "RUNNING", "price": 24.415, "tp": 1.8941326087102033, "note": "sustained 1.9x"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "NX", "prev_state": "CHURN", "state": "RUNNING", "price": 19.045, "tp": 5.801310728369584, "note": "sustained 5.8x"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "RAIN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.7183, "tp": 965.0393896087978, "note": "sustained 965.0x"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "VUZI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.355, "tp": 6.782044643365084, "note": "sustained 6.8x"}
+{"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.6, "tp": 4.621848257584391, "note": "pace 4.6x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
