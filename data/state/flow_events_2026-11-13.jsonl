@@ -6,3 +6,10 @@
 {"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "RAIN", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.7183, "tp": 965.0393896087978, "note": "sustained 965.0x"}
 {"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "VUZI", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.355, "tp": 6.782044643365084, "note": "sustained 6.8x"}
 {"ts": "2026-11-13T13:26:10.705767-05:00", "demo": 0, "ticker": "CDNL", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.6, "tp": 4.621848257584391, "note": "pace 4.6x and accelerating (1.8x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "ASIX", "prev_state": "QUIET", "state": "RUNNING", "price": 15.57, "tp": 1.949142179135681, "note": "sustained 1.9x"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "PANL", "prev_state": "QUIET", "state": "RUNNING", "price": 9.32, "tp": 2.0221926721725554, "note": "sustained 2.0x"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "HYTI", "prev_state": "QUIET", "state": "RUNNING", "price": 18.21, "tp": 151.84183857930253, "note": "sustained 151.8x"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "IDEF", "prev_state": "RUNNING", "state": "COOLING", "price": 28.99, "tp": 1.0716206247650575, "note": "pace 1.1x off peak 1.9x"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "PLGO", "prev_state": "QUIET", "state": "RUNNING", "price": 29.39, "tp": 1.9020342250636468, "note": "sustained 1.9x"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "VTSI", "prev_state": "RUNNING", "state": "CHURN", "price": 3.95, "tp": 151.51460641962504, "note": "151.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-13T13:29:55.706559-05:00", "demo": 0, "ticker": "GTN", "prev_state": "IGNITING", "state": "RUNNING", "price": 5.87, "tp": 3.332653746608012, "note": "sustained 3.3x"}
