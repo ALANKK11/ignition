@@ -4,3 +4,10 @@
 {"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "EMBJ", "prev_state": "QUIET", "state": "RUNNING", "price": 18.71, "tp": 2.1407949153344665, "note": "sustained 2.1x"}
 {"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "TRMK", "prev_state": "QUIET", "state": "RUNNING", "price": 47.5, "tp": 2.0430450778060907, "note": "sustained 2.0x"}
 {"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "GDHG", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.59, "tp": 32.39047743182762, "note": "pace 32.4x and accelerating (1.7x vs prior window) \u00b7 -3.0% in window"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "MNTK", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.185, "tp": 3.837701427660235, "note": "pace 3.8x and accelerating (1.7x vs prior window) \u00b7 +0.4% in window"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "GDHG", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.48, "tp": 32.49672151146262, "note": "sustained 32.5x"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "NOMA", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.03, "tp": 1420.5181188903514, "note": "sustained 1420.5x"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "STIM", "prev_state": "QUIET", "state": "RUNNING", "price": 1.26, "tp": 2.6731261174828234, "note": "sustained 2.7x"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "CLRO", "prev_state": "RUNNING", "state": "QUIET", "price": 4.79, "tp": 1.4526679193952274, "note": ""}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "TRMK", "prev_state": "RUNNING", "state": "COOLING", "price": 47.62, "tp": 1.393995865326172, "note": "pace 1.4x off peak 2.0x"}
+{"ts": "2026-11-16T15:52:42.535236-05:00", "demo": 0, "ticker": "TDTH", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.9353, "tp": 17.91643476998873, "note": "sustained 17.9x"}
