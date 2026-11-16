@@ -1,0 +1,6 @@
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "TDTH", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.943, "tp": 21.014313924477495, "note": "pace 21.0x and accelerating (3.0x vs prior window) \u00b7 +3.6% in window"}
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "CYAB", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.1454, "tp": 62.61468121757986, "note": "sustained 62.6x"}
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "ASMB", "prev_state": "IGNITING", "state": "FADING", "price": 21.42, "tp": 2.1102778901141206, "note": "pace 2.1x vs peak 8.5x \u00b7 -1.3% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "EMBJ", "prev_state": "QUIET", "state": "RUNNING", "price": 18.71, "tp": 2.1407949153344665, "note": "sustained 2.1x"}
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "TRMK", "prev_state": "QUIET", "state": "RUNNING", "price": 47.5, "tp": 2.0430450778060907, "note": "sustained 2.0x"}
+{"ts": "2026-11-16T15:49:42.534673-05:00", "demo": 0, "ticker": "GDHG", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.59, "tp": 32.39047743182762, "note": "pace 32.4x and accelerating (1.7x vs prior window) \u00b7 -3.0% in window"}
