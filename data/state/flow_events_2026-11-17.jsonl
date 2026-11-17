@@ -297,3 +297,12 @@
 {"ts": "2026-11-17T15:37:28.857586-05:00", "demo": 0, "ticker": "ODD", "prev_state": "CHURN", "state": "COOLING", "price": 15.725, "tp": 1.5117477421216088, "note": "pace 1.5x off peak 3.4x"}
 {"ts": "2026-11-17T15:37:28.857586-05:00", "demo": 0, "ticker": "CBAN", "prev_state": "QUIET", "state": "RUNNING", "price": 20.25, "tp": 1.9086325709718062, "note": "sustained 1.9x"}
 {"ts": "2026-11-17T15:37:28.857586-05:00", "demo": 0, "ticker": "CRTO", "prev_state": "RUNNING", "state": "LEAVING", "price": 19.91, "tp": 26.108350518892316, "note": "pace 26.1x off peak 57.2x \u00b7 VWAP lost (was +5.2% above)"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "CONL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.05, "tp": 0.6754493257471179, "note": "pace 0.7x off peak 3.9x"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "DGCB", "prev_state": "COOLING", "state": "CHURN", "price": 51.865, "tp": 4.434964215875123, "note": "4.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "HELP", "prev_state": "COOLING", "state": "RUNNING", "price": 7.23, "tp": 1.9356187274092924, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "CBAN", "prev_state": "RUNNING", "state": "QUIET", "price": 20.25, "tp": 1.7904597313727264, "note": ""}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "BPRE", "prev_state": "RUNNING", "state": "CHURN", "price": 12.09, "tp": 3.6442631701767296, "note": "3.6x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "DFAX", "prev_state": "RUNNING", "state": "CHURN", "price": 34.66, "tp": 6.660859076172582, "note": "6.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "ABX", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.645, "tp": 10.541896836458452, "note": "sustained 10.5x"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "DGS", "prev_state": "RUNNING", "state": "COOLING", "price": 56.93, "tp": 0.0, "note": "pace 0.0x off peak 122.1x"}
+{"ts": "2026-11-17T15:40:28.866891-05:00", "demo": 0, "ticker": "UTZ", "prev_state": "RUNNING", "state": "COOLING", "price": 14.275, "tp": 1.5790942704711461, "note": "pace 1.6x off peak 3.3x"}
