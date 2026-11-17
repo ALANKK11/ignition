@@ -258,3 +258,13 @@
 {"ts": "2026-11-17T15:28:28.855423-05:00", "demo": 0, "ticker": "NIQ", "prev_state": "RUNNING", "state": "COOLING", "price": 18.235, "tp": 1.7298928260765989, "note": "pace 1.7x off peak 2.9x"}
 {"ts": "2026-11-17T15:28:28.855423-05:00", "demo": 0, "ticker": "UTZ", "prev_state": "RUNNING", "state": "CHURN", "price": 14.28, "tp": 3.171664419174542, "note": "3.2x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-17T15:28:28.855423-05:00", "demo": 0, "ticker": "VIR", "prev_state": "RUNNING", "state": "COOLING", "price": 9.26, "tp": 1.3978965481807277, "note": "pace 1.4x off peak 4.1x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "BMNG", "prev_state": "RUNNING", "state": "COOLING", "price": 9.1, "tp": 0.0, "note": "pace 0.0x off peak 17.2x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "CAIE", "prev_state": "COOLING", "state": "RUNNING", "price": 25.03, "tp": 5.963350351405684, "note": "sustained 6.0x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 7.19, "tp": 1.51994598238101, "note": "pace 1.5x off peak 4.2x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "SPCE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.325, "tp": 3.0448311886310115, "note": "sustained 3.0x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "NEXN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.985, "tp": 1.7590247839736957, "note": "pace 1.8x off peak 3.3x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "DRTS", "prev_state": "COOLING", "state": "RUNNING", "price": 12.02, "tp": 2.197172762980616, "note": "sustained 2.2x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "ENTA", "prev_state": "IGNITING", "state": "RUNNING", "price": 8.8, "tp": 15.351049154894355, "note": "sustained 15.4x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "DFAX", "prev_state": "RUNNING", "state": "CHURN", "price": 34.64, "tp": 11.043953187876989, "note": "11.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "BILL", "prev_state": "IGNITING", "state": "RUNNING", "price": 64.87, "tp": 9.161998540670071, "note": "sustained 9.2x"}
+{"ts": "2026-11-17T15:31:28.856516-05:00", "demo": 0, "ticker": "NIQ", "prev_state": "COOLING", "state": "RUNNING", "price": 18.22, "tp": 2.173942183492814, "note": "sustained 2.2x"}
