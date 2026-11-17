@@ -333,3 +333,13 @@
 {"ts": "2026-11-17T15:46:28.858527-05:00", "demo": 0, "ticker": "BSMS", "prev_state": "COOLING", "state": "RUNNING", "price": 23.105, "tp": 2.646872671631004, "note": "sustained 2.6x"}
 {"ts": "2026-11-17T15:46:28.858527-05:00", "demo": 0, "ticker": "SPCE", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.315, "tp": 7.534402402192456, "note": "pace 7.5x and accelerating (2.0x vs prior window) \u00b7 -3.0% in window"}
 {"ts": "2026-11-17T15:46:28.858527-05:00", "demo": 0, "ticker": "USAS", "prev_state": "RUNNING", "state": "COOLING", "price": 2.225, "tp": 1.3279535858953242, "note": "pace 1.3x off peak 6.1x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "DFAC", "prev_state": "RUNNING", "state": "CHURN", "price": 43.53, "tp": 3.1786138760337797, "note": "3.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "KEP", "prev_state": "COOLING", "state": "RUNNING", "price": 9.16, "tp": 2.2684500789237485, "note": "sustained 2.3x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "DFUS", "prev_state": "CHURN", "state": "RUNNING", "price": 79.665, "tp": 3.6947877114236154, "note": "sustained 3.7x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "IEP", "prev_state": "COOLING", "state": "RUNNING", "price": 3.19, "tp": 2.1998832638066768, "note": "sustained 2.2x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "GEMI", "prev_state": "LEAVING", "state": "RUNNING", "price": 2.11, "tp": 6.126507544041665, "note": "sustained 6.1x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "CRSP", "prev_state": "IGNITING", "state": "CHURN", "price": 40.79, "tp": 9.181434892867701, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "MAMA", "prev_state": "RUNNING", "state": "COOLING", "price": 11.65, "tp": 0.8290830528181834, "note": "pace 0.8x off peak 8.2x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "NEWP", "prev_state": "CHURN", "state": "RUNNING", "price": 4.93, "tp": 3.437257574514019, "note": "sustained 3.4x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "ACM", "prev_state": "CHURN", "state": "RUNNING", "price": 81.465, "tp": 3.444949304637225, "note": "sustained 3.4x"}
+{"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "SPCE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.32, "tp": 4.1342002098342014, "note": "sustained 4.1x"}
