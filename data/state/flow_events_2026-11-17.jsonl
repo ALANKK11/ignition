@@ -1,0 +1,4 @@
+{"ts": "2026-11-17T14:34:28.845387-05:00", "demo": 0, "ticker": "PKX", "prev_state": "RUNNING", "state": "COOLING", "price": 47.975, "tp": 1.3334929750171862, "note": "pace 1.3x off peak 2.4x"}
+{"ts": "2026-11-17T14:34:28.845387-05:00", "demo": 0, "ticker": "ODD", "prev_state": "QUIET", "state": "RUNNING", "price": 15.85, "tp": 1.9458495623601542, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T14:34:28.845387-05:00", "demo": 0, "ticker": "PICS", "prev_state": "QUIET", "state": "RUNNING", "price": 4.905, "tp": 2.1897821507884534, "note": "sustained 2.2x"}
+{"ts": "2026-11-17T14:34:28.845387-05:00", "demo": 0, "ticker": "NIQ", "prev_state": "QUIET", "state": "RUNNING", "price": 18.275, "tp": 2.0249502980094856, "note": "sustained 2.0x"}
