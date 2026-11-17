@@ -398,3 +398,4 @@
 {"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "PKX", "prev_state": "RUNNING", "state": "COOLING", "price": 47.86, "tp": 1.2733397785593006, "note": "pace 1.3x off peak 4.4x"}
 {"ts": "2026-11-17T16:11:13.853708-05:00", "demo": 0, "ticker": "REZI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Resideo Introduces AI-Powered Water Intelligence with New First Alert\u00ae L7 Smart Water Flow Monitor & Shutoff Valve"}
 {"ts": "2026-11-17T16:11:13.853708-05:00", "demo": 0, "ticker": "LMNR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "GreenFruit Avocados and Limoneira Company Announce Custom Avocado Packing and Supply Agreement"}
+{"ts": "2026-11-17T16:16:28.862878-05:00", "demo": 0, "ticker": "SLS", "prev_state": null, "state": "AH IGNITION", "price": 15.94, "tp": null, "note": "-13% on $0.12M ext tape"}
