@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-17T16:16:28-05:00", "session": "post", "rows": [{"ticker": "SLS", "last": 15.94, "gap": -0.1265, "dollars": 118788.94000000002, "vs_adv": 0.03, "new": true}]}
+{"v": 4, "ts": "2026-11-17T16:19:28-05:00", "session": "post", "rows": [{"ticker": "SLS", "last": 15.94, "gap": -0.1265, "dollars": 118788.94000000002, "vs_adv": 0.03, "new": false}]}
