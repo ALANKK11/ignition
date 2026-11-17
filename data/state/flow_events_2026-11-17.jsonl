@@ -9,3 +9,12 @@
 {"ts": "2026-11-17T14:37:28.846656-05:00", "demo": 0, "ticker": "OGG", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.08, "tp": 7.788375267094449, "note": "sustained 7.8x"}
 {"ts": "2026-11-17T14:37:28.846656-05:00", "demo": 0, "ticker": "ODD", "prev_state": "RUNNING", "state": "COOLING", "price": 15.85, "tp": 1.1551612661223003, "note": "pace 1.2x off peak 1.9x"}
 {"ts": "2026-11-17T14:37:28.846656-05:00", "demo": 0, "ticker": "PKX", "prev_state": "COOLING", "state": "RUNNING", "price": 47.995, "tp": 3.0236306227877083, "note": "sustained 3.0x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "AZI", "prev_state": "RUNNING", "state": "FADING", "price": 0.7664, "tp": 368.9286666652755, "note": "pace 368.9x vs peak 1164.3x \u00b7 -21.8% off HOD \u00b7 chart still +46% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "PICS", "prev_state": "QUIET", "state": "COOLING", "price": 4.935, "tp": 1.6261275834085407, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "FUBO", "prev_state": "IGNITING", "state": "COOLING", "price": 7.585, "tp": 0.5790356621676873, "note": "pace 0.6x off peak 7.8x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "BPRE", "prev_state": "RUNNING", "state": "COOLING", "price": 12.11, "tp": 1.218137521494804, "note": "pace 1.2x off peak 3.9x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "RCAT", "prev_state": "RUNNING", "state": "QUIET", "price": 2.31, "tp": 1.742553753158633, "note": ""}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "RUNNING", "state": "COOLING", "price": 11.08, "tp": 0.9661588003477346, "note": "pace 1.0x off peak 103.8x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "CLBT", "prev_state": "QUIET", "state": "RUNNING", "price": 10.565, "tp": 2.0848825903566426, "note": "sustained 2.1x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "PFXF", "prev_state": "RUNNING", "state": "COOLING", "price": 15.935, "tp": 0.4682004014999248, "note": "pace 0.5x off peak 3.0x"}
+{"ts": "2026-11-17T14:40:28.846543-05:00", "demo": 0, "ticker": "SENEA", "prev_state": "RUNNING", "state": "IGNITING", "price": 37.59, "tp": 11.77528639389215, "note": "pace 11.8x and accelerating (3.0x vs prior window) \u00b7 +0.6% in window"}
