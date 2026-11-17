@@ -343,3 +343,23 @@
 {"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "NEWP", "prev_state": "CHURN", "state": "RUNNING", "price": 4.93, "tp": 3.437257574514019, "note": "sustained 3.4x"}
 {"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "ACM", "prev_state": "CHURN", "state": "RUNNING", "price": 81.465, "tp": 3.444949304637225, "note": "sustained 3.4x"}
 {"ts": "2026-11-17T15:49:28.859411-05:00", "demo": 0, "ticker": "SPCE", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.32, "tp": 4.1342002098342014, "note": "sustained 4.1x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "AVMU", "prev_state": "RUNNING", "state": "COOLING", "price": 43.99, "tp": 0.0, "note": "pace 0.0x off peak 11.5x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "DFAC", "prev_state": "CHURN", "state": "COOLING", "price": 43.47, "tp": 1.3414658259989873, "note": "pace 1.3x off peak 15.9x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "EEMV", "prev_state": "CHURN", "state": "RUNNING", "price": 69.13, "tp": 6.625072692594255, "note": "sustained 6.6x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "BSMT", "prev_state": "COOLING", "state": "RUNNING", "price": 22.65, "tp": 2.0626183708571033, "note": "sustained 2.1x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "IEP", "prev_state": "RUNNING", "state": "COOLING", "price": 3.19, "tp": 1.4696737443973893, "note": "pace 1.5x off peak 9.5x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "CRSP", "prev_state": "CHURN", "state": "RUNNING", "price": 40.47, "tp": 7.511876274290661, "note": "sustained 7.5x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "BKIE", "prev_state": "QUIET", "state": "RUNNING", "price": 32.465, "tp": 1.9809166844457426, "note": "sustained 2.0x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "BUG", "prev_state": "RUNNING", "state": "COOLING", "price": 43.19, "tp": 1.7695767986058353, "note": "pace 1.8x off peak 3.6x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "FUBO", "prev_state": "RUNNING", "state": "COOLING", "price": 7.03, "tp": 1.5837229739688954, "note": "pace 1.6x off peak 7.8x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "BILL", "prev_state": "CHURN", "state": "RUNNING", "price": 65.03, "tp": 8.461939658935304, "note": "sustained 8.5x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "ED", "prev_state": "CHURN", "state": "RUNNING", "price": 119.655, "tp": 4.2722127253766935, "note": "sustained 4.3x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 7.17, "tp": 1.4837423529861897, "note": "pace 1.5x off peak 4.2x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "IDNA", "prev_state": "COOLING", "state": "RUNNING", "price": 38.81, "tp": 3.0726692476943875, "note": "sustained 3.1x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "KEP", "prev_state": "RUNNING", "state": "COOLING", "price": 9.165, "tp": 1.7539708596519763, "note": "pace 1.8x off peak 2.8x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "MAMA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.68, "tp": 1.8918683670537157, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "DFUS", "prev_state": "RUNNING", "state": "COOLING", "price": 79.595, "tp": 1.707885435883988, "note": "pace 1.7x off peak 10.7x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "AIRJ", "prev_state": "QUIET", "state": "RUNNING", "price": 1.765, "tp": 2.2030262240573233, "note": "sustained 2.2x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "CBAN", "prev_state": "RUNNING", "state": "COOLING", "price": 20.26, "tp": 1.1741334260923653, "note": "pace 1.2x off peak 2.5x"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "PKX", "prev_state": "RUNNING", "state": "IGNITING", "price": 47.79, "tp": 3.3030070427973155, "note": "pace 3.3x and accelerating (2.2x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-17T15:52:28.860467-05:00", "demo": 0, "ticker": "VIR", "prev_state": "COOLING", "state": "RUNNING", "price": 9.235, "tp": 2.050316956175738, "note": "sustained 2.1x"}
