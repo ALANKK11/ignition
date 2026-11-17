@@ -147,3 +147,16 @@
 {"ts": "2026-11-17T15:07:28.851875-05:00", "demo": 0, "ticker": "UTZ", "prev_state": "CHURN", "state": "RUNNING", "price": 14.275, "tp": 2.490425022174407, "note": "sustained 2.5x"}
 {"ts": "2026-11-17T15:07:28.851875-05:00", "demo": 0, "ticker": "NEXN", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.94, "tp": 2.504853332392306, "note": "sustained 2.5x"}
 {"ts": "2026-11-17T15:07:28.851875-05:00", "demo": 0, "ticker": "ABX", "prev_state": "COOLING", "state": "IGNITING", "price": 6.495, "tp": 11.211321599807802, "note": "pace 11.2x and accelerating (6.3x vs prior window) \u00b7 +3.4% in window"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "USAS", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.235, "tp": 3.6270060732885505, "note": "pace 3.6x and accelerating (1.8x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "BPRE", "prev_state": "RUNNING", "state": "COOLING", "price": 12.085, "tp": 1.4441154294690055, "note": "pace 1.4x off peak 5.4x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "NMAX", "prev_state": "IGNITING", "state": "COOLING", "price": 8.45, "tp": 1.39229126268247, "note": "pace 1.4x off peak 3.2x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "AMDG", "prev_state": "IGNITING", "state": "COOLING", "price": 72.62, "tp": 0.0, "note": "pace 0.0x off peak 8.3x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "AAAU", "prev_state": "QUIET", "state": "RUNNING", "price": 37.9, "tp": 6.691240718175442, "note": "sustained 6.7x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "FTMH", "prev_state": "RUNNING", "state": "COOLING", "price": 11.06, "tp": 0.49567219977218163, "note": "pace 0.5x off peak 103.8x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "EMEQ", "prev_state": "RUNNING", "state": "COOLING", "price": 53.71, "tp": 0.0, "note": "pace 0.0x off peak 3.2x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "HELP", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.23, "tp": 3.1257149523622223, "note": "sustained 3.1x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "IEP", "prev_state": "QUIET", "state": "RUNNING", "price": 3.245, "tp": 2.9555766822754426, "note": "sustained 3.0x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "ODD", "prev_state": "QUIET", "state": "RUNNING", "price": 15.7, "tp": 1.8940919088200912, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "CING", "prev_state": "FADING", "state": "IGNITING", "price": 4.745, "tp": 3.476523768358226, "note": "pace 3.5x and accelerating (3.0x vs prior window) \u00b7 -1.6% in window"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "FENC", "prev_state": "CHURN", "state": "RUNNING", "price": 13.29, "tp": 16.003730961624726, "note": "sustained 16.0x"}
+{"ts": "2026-11-17T15:10:28.852695-05:00", "demo": 0, "ticker": "BILL", "prev_state": "RUNNING", "state": "CHURN", "price": 64.26, "tp": 6.109704920774221, "note": "6.1x participation, no progress at highs \u2014 absorption"}
