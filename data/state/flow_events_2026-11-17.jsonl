@@ -401,3 +401,4 @@
 {"ts": "2026-11-17T16:16:28.862878-05:00", "demo": 0, "ticker": "SLS", "prev_state": null, "state": "AH IGNITION", "price": 15.94, "tp": null, "note": "-13% on $0.12M ext tape"}
 {"ts": "2026-11-17T16:32:13.857121-05:00", "demo": 0, "ticker": "LH", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Labcorp to Expand Clinical Trial Operations in Brazil with Dedicated Kit Assembly and Future Laboratory Operations throu"}
 {"ts": "2026-11-17T17:02:13.862301-05:00", "demo": 0, "ticker": "QSR", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "Restaurant Brands International Inc. Announces Pricing of Senior Secured Notes Offering"}
+{"ts": "2026-11-17T17:17:58.864985-05:00", "demo": 0, "ticker": "AES", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "AES Receives Final Regulatory Approval for Acquisition by Consortium Led by Global Infrastructure Partners and EQT; Clos"}
