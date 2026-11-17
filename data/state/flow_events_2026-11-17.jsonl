@@ -69,3 +69,14 @@
 {"ts": "2026-11-17T14:52:28.849393-05:00", "demo": 0, "ticker": "ED", "prev_state": "RUNNING", "state": "CHURN", "price": 120.11, "tp": 2.6436381934668867, "note": "2.6x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-17T14:52:28.849393-05:00", "demo": 0, "ticker": "USAS", "prev_state": "QUIET", "state": "RUNNING", "price": 2.24, "tp": 2.475290337848915, "note": "sustained 2.5x"}
 {"ts": "2026-11-17T14:52:28.849393-05:00", "demo": 0, "ticker": "DUOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.32, "tp": 6.14627900747027, "note": "sustained 6.1x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "FRTT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.6523, "tp": 238.856582371964, "note": "sustained 238.9x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "HELP", "prev_state": "COOLING", "state": "RUNNING", "price": 7.19, "tp": 2.4631092766734044, "note": "sustained 2.5x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "BPRE", "prev_state": "COOLING", "state": "RUNNING", "price": 12.1, "tp": 2.3668467682208343, "note": "sustained 2.4x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "EMEQ", "prev_state": "QUIET", "state": "RUNNING", "price": 53.71, "tp": 2.838684514206337, "note": "sustained 2.8x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "DUOT", "prev_state": "RUNNING", "state": "IGNITING", "price": 3.31, "tp": 7.602865665453748, "note": "pace 7.6x and accelerating (1.7x vs prior window) \u00b7 -1.3% in window"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "ED", "prev_state": "CHURN", "state": "RUNNING", "price": 120.03, "tp": 3.3281097664318775, "note": "sustained 3.3x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "VIR", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.335, "tp": 3.0760322821780104, "note": "pace 3.1x and accelerating (2.5x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "UTZ", "prev_state": "COOLING", "state": "RUNNING", "price": 14.28, "tp": 1.8820516949323565, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "ODD", "prev_state": "QUIET", "state": "RUNNING", "price": 15.885, "tp": 2.0827164545445487, "note": "sustained 2.1x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "JCAP", "prev_state": "QUIET", "state": "RUNNING", "price": 20.5, "tp": 2.75914963549748, "note": "sustained 2.8x"}
+{"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "FUBO", "prev_state": "FADING", "state": "IGNITING", "price": 7.43, "tp": 3.11611103044013, "note": "pace 3.1x and accelerating (5.4x vs prior window) \u00b7 -2.0% in window"}
