@@ -80,3 +80,21 @@
 {"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "ODD", "prev_state": "QUIET", "state": "RUNNING", "price": 15.885, "tp": 2.0827164545445487, "note": "sustained 2.1x"}
 {"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "JCAP", "prev_state": "QUIET", "state": "RUNNING", "price": 20.5, "tp": 2.75914963549748, "note": "sustained 2.8x"}
 {"ts": "2026-11-17T14:55:28.850115-05:00", "demo": 0, "ticker": "FUBO", "prev_state": "FADING", "state": "IGNITING", "price": 7.43, "tp": 3.11611103044013, "note": "pace 3.1x and accelerating (5.4x vs prior window) \u00b7 -2.0% in window"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "CAM", "prev_state": "QUIET", "state": "NEW MONEY", "price": 24.49, "tp": 2.8737116803890963, "note": "quiet open (0.3x) \u2192 now 2.9x \u00b7 taking +0.2% flow share"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "BSMT", "prev_state": "RUNNING", "state": "COOLING", "price": 22.67, "tp": 0.0, "note": "pace 0.0x off peak 2.5x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "FNOV", "prev_state": "QUIET", "state": "RUNNING", "price": 58.56, "tp": 5.676102656722505, "note": "sustained 5.7x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "GP", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.43, "tp": 9.851343248619171, "note": "pace 9.9x and accelerating (3.0x vs prior window) \u00b7 -2.0% in window"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "ABX", "prev_state": "COOLING", "state": "RUNNING", "price": 6.28, "tp": 2.038364492675288, "note": "sustained 2.0x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "GLSI", "prev_state": "QUIET", "state": "IGNITING", "price": 18.18, "tp": 4.145154709768867, "note": "pace 4.1x and accelerating (3.0x vs prior window) \u00b7 -0.7% in window"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "NEXN", "prev_state": "QUIET", "state": "RUNNING", "price": 9.97, "tp": 1.9118713698428438, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "UTZ", "prev_state": "RUNNING", "state": "CHURN", "price": 14.28, "tp": 2.910707273896964, "note": "2.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "HELP", "prev_state": "RUNNING", "state": "COOLING", "price": 7.19, "tp": 1.702461977637975, "note": "pace 1.7x off peak 3.6x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "NMAX", "prev_state": "QUIET", "state": "RUNNING", "price": 8.485, "tp": 2.5431196443096935, "note": "sustained 2.5x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "VIR", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.33, "tp": 4.120856077616468, "note": "sustained 4.1x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "ODD", "prev_state": "RUNNING", "state": "COOLING", "price": 15.83, "tp": 1.4638417196626408, "note": "pace 1.5x off peak 2.1x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "SLDP", "prev_state": "RUNNING", "state": "COOLING", "price": 1.54, "tp": 1.795183155373218, "note": "pace 1.8x off peak 3.5x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "DRTS", "prev_state": "QUIET", "state": "RUNNING", "price": 12.08, "tp": 1.96430167936686, "note": "sustained 2.0x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "GEMI", "prev_state": "QUIET", "state": "RUNNING", "price": 2.135, "tp": 1.8582433078562235, "note": "sustained 1.9x"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "ERX", "prev_state": "RUNNING", "state": "IGNITING", "price": 103.88, "tp": 9.973846086575797, "note": "pace 10.0x and accelerating (1.7x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "AZI", "prev_state": "IGNITING", "state": "FADING", "price": 0.7825, "tp": 144.68385671985666, "note": "pace 144.7x vs peak 1244.6x \u00b7 -20.2% off HOD \u00b7 chart still +50% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-17T14:58:28.850307-05:00", "demo": 0, "ticker": "DUOT", "prev_state": "IGNITING", "state": "RUNNING", "price": 3.31, "tp": 2.887779267150235, "note": "sustained 2.9x"}
