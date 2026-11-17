@@ -379,3 +379,20 @@
 {"ts": "2026-11-17T15:55:28.860624-05:00", "demo": 0, "ticker": "BSMS", "prev_state": "RUNNING", "state": "COOLING", "price": 23.105, "tp": 1.764380254527878, "note": "pace 1.8x off peak 29.8x"}
 {"ts": "2026-11-17T15:55:28.860624-05:00", "demo": 0, "ticker": "PKX", "prev_state": "IGNITING", "state": "RUNNING", "price": 47.79, "tp": 2.163398801441244, "note": "sustained 2.2x"}
 {"ts": "2026-11-17T15:55:28.860624-05:00", "demo": 0, "ticker": "VIR", "prev_state": "RUNNING", "state": "COOLING", "price": 9.26, "tp": 1.6494547039311045, "note": "pace 1.6x off peak 4.1x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "LXEO", "prev_state": "COOLING", "state": "QUIET", "price": 2.835, "tp": 1.7405792876002277, "note": ""}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "BMNG", "prev_state": "COOLING", "state": "RUNNING", "price": 8.93, "tp": 1.970100996916276, "note": "sustained 2.0x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "DFUS", "prev_state": "RUNNING", "state": "COOLING", "price": 79.705, "tp": 1.2716198770830884, "note": "pace 1.3x off peak 10.7x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "AVXL", "prev_state": "RUNNING", "state": "COOLING", "price": 0.731, "tp": 1.382883749964315, "note": "pace 1.4x off peak 3.4x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "BKIE", "prev_state": "QUIET", "state": "COOLING", "price": 32.465, "tp": 1.1611373658592568, "note": "pace 1.2x off peak 2.0x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "DISV", "prev_state": "RUNNING", "state": "CHURN", "price": 41.21, "tp": 9.125521041857532, "note": "9.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "NEXN", "prev_state": "RUNNING", "state": "COOLING", "price": 9.945, "tp": 1.317453562739257, "note": "pace 1.3x off peak 3.3x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "AZTA", "prev_state": "RUNNING", "state": "COOLING", "price": 45.75, "tp": 1.7646002792045643, "note": "pace 1.8x off peak 15.7x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "MAMA", "prev_state": "COOLING", "state": "RUNNING", "price": 11.61, "tp": 2.143701088548639, "note": "sustained 2.1x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "ACM", "prev_state": "IGNITING", "state": "RUNNING", "price": 80.84, "tp": 3.265700877083406, "note": "sustained 3.3x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "AMUU", "prev_state": "QUIET", "state": "RUNNING", "price": 155.67, "tp": 2.2424085816567003, "note": "sustained 2.2x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "FTHI", "prev_state": "RUNNING", "state": "CHURN", "price": 22.46, "tp": 6.764418539552644, "note": "6.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "AOUT", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.96, "tp": 6.051547062757694, "note": "pace 6.1x and accelerating (3.3x vs prior window) \u00b7 -1.5% in window"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "CRSP", "prev_state": "FADING", "state": "RUNNING", "price": 40.205, "tp": 2.714143903442216, "note": "sustained 2.7x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "DRTS", "prev_state": "FADING", "state": "RUNNING", "price": 12.02, "tp": 1.8444978097894233, "note": "sustained 1.8x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "VIR", "prev_state": "COOLING", "state": "RUNNING", "price": 9.25, "tp": 1.9692227657033274, "note": "sustained 2.0x"}
+{"ts": "2026-11-17T15:58:28.861115-05:00", "demo": 0, "ticker": "PKX", "prev_state": "RUNNING", "state": "COOLING", "price": 47.86, "tp": 1.2733397785593006, "note": "pace 1.3x off peak 4.4x"}
