@@ -4,3 +4,11 @@
 {"ts": "2026-11-18T14:17:09.250665-05:00", "demo": 0, "ticker": "ADIG", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.295, "tp": 3.0226041907996093, "note": "pace 3.0x and accelerating (5.4x vs prior window) \u00b7 +0.9% in window"}
 {"ts": "2026-11-18T14:17:09.250665-05:00", "demo": 0, "ticker": "MNR", "prev_state": "RUNNING", "state": "IGNITING", "price": 8.12, "tp": 6.518401775406017, "note": "pace 6.5x and accelerating (4.3x vs prior window) \u00b7 -0.7% in window"}
 {"ts": "2026-11-18T14:17:09.250665-05:00", "demo": 0, "ticker": "HIHO", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.645, "tp": 11.061662203086014, "note": "sustained 11.1x"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "LMBS", "prev_state": "QUIET", "state": "RUNNING", "price": 48.925, "tp": 2.144285132494825, "note": "sustained 2.1x"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "SPCE", "prev_state": "QUIET", "state": "RUNNING", "price": 1.205, "tp": 1.9975833792424522, "note": "sustained 2.0x"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "FINV", "prev_state": "QUIET", "state": "CHURN", "price": 2.61, "tp": 2.4740524249162923, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "BRBR", "prev_state": "RUNNING", "state": "IGNITING", "price": 13.315, "tp": 9.856843802469125, "note": "pace 9.9x and accelerating (3.7x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "FUBO", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.04, "tp": 2.391040414962241, "note": "sustained 2.4x"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "AIOT", "prev_state": "QUIET", "state": "IGNITING", "price": 2.115, "tp": 3.7200440578871445, "note": "pace 3.7x and accelerating (1.7x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "CLRO", "prev_state": "IGNITING", "state": "RUNNING", "price": 7.67, "tp": 10.415697313930625, "note": "sustained 10.4x"}
+{"ts": "2026-11-18T14:20:54.251404-05:00", "demo": 0, "ticker": "TROX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.325, "tp": 1.5029752584209612, "note": "pace 1.5x off peak 2.3x"}
