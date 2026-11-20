@@ -151,3 +151,11 @@
 {"ts": "2026-11-20T14:36:07.446380-05:00", "demo": 0, "ticker": "CTAS", "prev_state": "QUIET", "state": "RUNNING", "price": 222.37, "tp": 1.9475942457996704, "note": "sustained 1.9x"}
 {"ts": "2026-11-20T14:36:07.446380-05:00", "demo": 0, "ticker": "FXU", "prev_state": "RUNNING", "state": "IGNITING", "price": 47.96, "tp": 6.626469973174445, "note": "pace 6.6x and accelerating (5.1x vs prior window) \u00b7 -0.4% in window"}
 {"ts": "2026-11-20T14:36:07.446380-05:00", "demo": 0, "ticker": "SVM", "prev_state": "COOLING", "state": "RUNNING", "price": 6.51, "tp": 2.3716199596376932, "note": "sustained 2.4x"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "CMF", "prev_state": "RUNNING", "state": "CHURN", "price": 55.6, "tp": 102.96248678359628, "note": "103.0x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "EMLC", "prev_state": "RUNNING", "state": "FADING", "price": 24.0, "tp": 1.2416700998171248, "note": "pace 1.2x vs peak 5.7x \u00b7 -0.5% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "FFLG", "prev_state": "RUNNING", "state": "IGNITING", "price": 27.1, "tp": 7.765114007385145, "note": "pace 7.8x and accelerating (155.3x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "CCD", "prev_state": "RUNNING", "state": "COOLING", "price": 18.75, "tp": 0.0, "note": "pace 0.0x off peak 45.3x"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "FXU", "prev_state": "IGNITING", "state": "RUNNING", "price": 47.96, "tp": 5.739066125241835, "note": "sustained 5.7x"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "MANU", "prev_state": "IGNITING", "state": "COOLING", "price": 19.58, "tp": 1.18619427639148, "note": "pace 1.2x off peak 22.2x"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "PDO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.07, "tp": 2.8479588649231338, "note": "sustained 2.8x"}
+{"ts": "2026-11-20T14:39:07.446642-05:00", "demo": 0, "ticker": "FEGE", "prev_state": "RUNNING", "state": "COOLING", "price": 49.05, "tp": 0.2876245038656656, "note": "pace 0.3x off peak 50.6x"}
