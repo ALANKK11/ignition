@@ -56,3 +56,11 @@
 {"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "NBIL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.465, "tp": 1.412041314155471, "note": "pace 1.4x off peak 2.5x"}
 {"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "SNDU", "prev_state": "RUNNING", "state": "COOLING", "price": 2.685, "tp": 1.0980110151580427, "note": "pace 1.1x off peak 2.3x"}
 {"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "SNXX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.8, "tp": 1.0642296843267434, "note": "pace 1.1x off peak 4.4x"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "NMR", "prev_state": "RUNNING", "state": "COOLING", "price": 8.65, "tp": 0.9895892694599348, "note": "pace 1.0x off peak 3.4x"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "RUNNING", "state": "FADING", "price": 20.13, "tp": 1.41399919421218, "note": "pace 1.4x vs peak 4.9x \u00b7 -1.6% off HOD \u00b7 chart still +4% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "WLY", "prev_state": "RUNNING", "state": "IGNITING", "price": 46.47, "tp": 2.8439162045179414, "note": "pace 2.8x and accelerating (2.3x vs prior window) \u00b7 -0.4% in window"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "GQGU", "prev_state": "COOLING", "state": "RUNNING", "price": 21.035, "tp": 1.8097931331595811, "note": "sustained 1.8x"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "BSMS", "prev_state": "RUNNING", "state": "CHURN", "price": 23.145, "tp": 24.94629049725736, "note": "24.9x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "BSJQ", "prev_state": "RUNNING", "state": "CHURN", "price": 22.84, "tp": 15.739048230837232, "note": "15.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "XYLD", "prev_state": "COOLING", "state": "RUNNING", "price": 38.23, "tp": 4.622433328507266, "note": "sustained 4.6x"}
+{"ts": "2026-11-20T14:15:07.442411-05:00", "demo": 0, "ticker": "IBTM", "prev_state": "QUIET", "state": "RUNNING", "price": 22.13, "tp": 1.8814248067450632, "note": "sustained 1.9x"}
