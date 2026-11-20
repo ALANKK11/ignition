@@ -13,3 +13,13 @@
 {"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.065, "tp": 4.661046713993953, "note": "sustained 4.7x"}
 {"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "CNA", "prev_state": "QUIET", "state": "NEW MONEY", "price": 48.42, "tp": 2.277299474530303, "note": "quiet open (0.8x) \u2192 now 2.3x \u00b7 taking +0.3% flow share"}
 {"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "BTAL", "prev_state": "QUIET", "state": "RUNNING", "price": 13.92, "tp": 1.873605366398999, "note": "sustained 1.9x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "LSGR", "prev_state": "RUNNING", "state": "COOLING", "price": 39.08, "tp": 0.0, "note": "pace 0.0x off peak 26.2x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "CNA", "prev_state": "NEW MONEY", "state": "RUNNING", "price": 48.44, "tp": 2.182796718279978, "note": "sustained 2.2x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "VWAV", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.192, "tp": 44.708901339494304, "note": "pace 44.7x and accelerating (2.7x vs prior window) \u00b7 -2.3% in window"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "NBIL", "prev_state": "QUIET", "state": "RUNNING", "price": 2.495, "tp": 2.421280985021642, "note": "sustained 2.4x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "PDO", "prev_state": "QUIET", "state": "CHURN", "price": 11.11, "tp": 2.841266998658222, "note": "2.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "NXAT", "prev_state": "RUNNING", "state": "IGNITING", "price": 0.5195, "tp": 832.980241495893, "note": "pace 833.0x and accelerating (1.8x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "SNDK", "prev_state": "IGNITING", "state": "RUNNING", "price": 80.69, "tp": 11.447463424042013, "note": "sustained 11.4x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "CRAN", "prev_state": "CHURN", "state": "FADING", "price": 10.14, "tp": 0.0, "note": "pace 0.0x vs peak 979.5x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "HEFA", "prev_state": "RUNNING", "state": "COOLING", "price": 44.42, "tp": 1.0680636170005564, "note": "pace 1.1x off peak 4.2x"}
+{"ts": "2026-11-20T14:06:07.440312-05:00", "demo": 0, "ticker": "IREX", "prev_state": "RUNNING", "state": "COOLING", "price": 0.911, "tp": 0.292901423677747, "note": "pace 0.3x off peak 2.2x"}
