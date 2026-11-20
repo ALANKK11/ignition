@@ -39,3 +39,20 @@
 {"ts": "2026-11-20T14:09:07.441159-05:00", "demo": 0, "ticker": "SNXX", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.83, "tp": 1.8447490522529493, "note": "sustained 1.8x"}
 {"ts": "2026-11-20T14:09:07.441159-05:00", "demo": 0, "ticker": "GMEU", "prev_state": "RUNNING", "state": "COOLING", "price": 10.12, "tp": 1.7036037672654951, "note": "pace 1.7x off peak 2.5x"}
 {"ts": "2026-11-20T14:09:07.441159-05:00", "demo": 0, "ticker": "BTAL", "prev_state": "RUNNING", "state": "QUIET", "price": 13.92, "tp": 1.591797973503626, "note": ""}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "SNDK", "prev_state": "IGNITING", "state": "RUNNING", "price": 80.3, "tp": 5.930284108612949, "note": "sustained 5.9x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "CCD", "prev_state": "RUNNING", "state": "IGNITING", "price": 18.755, "tp": 35.75413242016235, "note": "pace 35.8x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "NXAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 0.51, "tp": 735.8048337535187, "note": "sustained 735.8x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "BTAL", "prev_state": "QUIET", "state": "COOLING", "price": 13.92, "tp": 1.428542907089646, "note": "pace 1.4x off peak 1.9x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "BSCY", "prev_state": "RUNNING", "state": "FADING", "price": 19.87, "tp": 3.2980136267970916, "note": "pace 3.3x vs peak 449.2x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "FXU", "prev_state": "RUNNING", "state": "FADING", "price": 48.25, "tp": 0.9194422919883897, "note": "pace 0.9x vs peak 2.9x \u00b7 -0.4% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "LQDT", "prev_state": "RUNNING", "state": "COOLING", "price": 31.6, "tp": 0.5485327711307906, "note": "pace 0.5x off peak 8.4x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.08, "tp": 2.288217177242256, "note": "sustained 2.3x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "GIGB", "prev_state": "RUNNING", "state": "FADING", "price": 44.065, "tp": 0.0, "note": "pace 0.0x vs peak 4.9x \u00b7 +0.0% off HOD \u00b7 chart still +1% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "GSIE", "prev_state": "RUNNING", "state": "COOLING", "price": 43.39, "tp": 1.1281095845441973, "note": "pace 1.1x off peak 3.2x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "GQGU", "prev_state": "RUNNING", "state": "COOLING", "price": 21.1, "tp": 1.047199582139199, "note": "pace 1.0x off peak 19.2x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "CNA", "prev_state": "RUNNING", "state": "COOLING", "price": 48.44, "tp": 1.2388596802027292, "note": "pace 1.2x off peak 2.3x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "GIGL", "prev_state": "RUNNING", "state": "CHURN", "price": 48.635, "tp": 160.33306465609343, "note": "160.3x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "XYLD", "prev_state": "RUNNING", "state": "COOLING", "price": 38.28, "tp": 1.2626522478969253, "note": "pace 1.3x off peak 2.4x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "NBIL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.465, "tp": 1.412041314155471, "note": "pace 1.4x off peak 2.5x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "SNDU", "prev_state": "RUNNING", "state": "COOLING", "price": 2.685, "tp": 1.0980110151580427, "note": "pace 1.1x off peak 2.3x"}
+{"ts": "2026-11-20T14:12:07.441601-05:00", "demo": 0, "ticker": "SNXX", "prev_state": "RUNNING", "state": "COOLING", "price": 1.8, "tp": 1.0642296843267434, "note": "pace 1.1x off peak 4.4x"}
