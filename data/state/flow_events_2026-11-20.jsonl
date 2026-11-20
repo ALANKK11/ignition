@@ -1,0 +1,12 @@
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "CHURN", "state": "RUNNING", "price": 20.32, "tp": 4.885348080013739, "note": "sustained 4.9x"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "NMR", "prev_state": "QUIET", "state": "RUNNING", "price": 8.66, "tp": 2.2275747692322727, "note": "sustained 2.2x"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "XYLD", "prev_state": "QUIET", "state": "RUNNING", "price": 38.35, "tp": 2.3717482590365533, "note": "sustained 2.4x"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "GQGU", "prev_state": "RUNNING", "state": "IGNITING", "price": 21.21, "tp": 19.22372262212976, "note": "pace 19.2x and accelerating (3.6x vs prior window) \u00b7 +0.5% in window"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "CNA", "prev_state": "NEW MONEY", "state": "QUIET", "price": 48.51, "tp": 1.7387936886353252, "note": ""}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "SNDU", "prev_state": "QUIET", "state": "RUNNING", "price": 2.755, "tp": 2.1806369787577644, "note": "sustained 2.2x"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.09, "tp": 4.715700370943127, "note": "pace 4.7x and accelerating (7.5x vs prior window) \u00b7 +0.7% in window"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "GMEU", "prev_state": "QUIET", "state": "RUNNING", "price": 10.12, "tp": 2.533830555264089, "note": "sustained 2.5x"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "SVM", "prev_state": "RUNNING", "state": "IGNITING", "price": 6.66, "tp": 3.615673175346004, "note": "pace 3.6x and accelerating (2.0x vs prior window) \u00b7 +0.8% in window"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "FXU", "prev_state": "RUNNING", "state": "CHURN", "price": 48.37, "tp": 2.374925186967157, "note": "2.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "SNDK", "prev_state": "RUNNING", "state": "IGNITING", "price": 81.015, "tp": 9.524345710872156, "note": "pace 9.5x and accelerating (2.1x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "GDRX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.96, "tp": 0.5954961350950715, "note": "pace 0.6x off peak 2.0x"}
