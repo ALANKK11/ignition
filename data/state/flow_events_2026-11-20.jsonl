@@ -84,3 +84,13 @@
 {"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "FADING", "state": "RUNNING", "price": 20.11, "tp": 3.416187096187061, "note": "sustained 3.4x"}
 {"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "HYS", "prev_state": "RUNNING", "state": "COOLING", "price": 88.83, "tp": 0.0, "note": "pace 0.0x off peak 477.6x"}
 {"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "SA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.495, "tp": 8.532810877079672, "note": "sustained 8.5x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "CDX", "prev_state": "RUNNING", "state": "FADING", "price": 19.815, "tp": 8.334106366317698, "note": "pace 8.3x vs peak 234.5x \u00b7 -0.1% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "RUNNING", "state": "COOLING", "price": 6.1, "tp": 1.2555804130115165, "note": "pace 1.3x off peak 7.3x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "ASPI", "prev_state": "IGNITING", "state": "FADING", "price": 1.135, "tp": 0.7024987033718154, "note": "pace 0.7x vs peak 4.6x \u00b7 -3.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "FEGE", "prev_state": "RUNNING", "state": "CHURN", "price": 49.25, "tp": 41.16234140532244, "note": "41.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "FFLG", "prev_state": "RUNNING", "state": "COOLING", "price": 27.42, "tp": 0.0, "note": "pace 0.0x off peak 5.8x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "MANU", "prev_state": "QUIET", "state": "IGNITING", "price": 19.66, "tp": 20.01998049916835, "note": "pace 20.0x and accelerating (400.4x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "FELG", "prev_state": "IGNITING", "state": "COOLING", "price": 36.91, "tp": 1.767533435927198, "note": "pace 1.8x off peak 3.0x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "CNEQ", "prev_state": "RUNNING", "state": "COOLING", "price": 31.985, "tp": 1.196267634632461, "note": "pace 1.2x off peak 5.3x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "ECAT", "prev_state": "IGNITING", "state": "RUNNING", "price": 11.47, "tp": 4.190886345874915, "note": "sustained 4.2x"}
+{"ts": "2026-11-20T14:24:07.443799-05:00", "demo": 0, "ticker": "GIGL", "prev_state": "CHURN", "state": "RUNNING", "price": 48.63, "tp": 130.73857858695752, "note": "sustained 130.7x"}
