@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-20T16:10:37-05:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-11-20T16:11:22-05:00", "session": "post", "rows": [{"headline": "TEN Holdings, Inc. Announces Closing of $1.0 Million Offering", "pr_ts": "16:05", "catalyst": true, "flags": ["\u26a0OFFERING"], "ticker": "XHLD", "move": -0.0376, "last": 0.657, "dollars": 138.6903, "vs_adv": null, "off_hi": null, "state": null, "open": null, "ssr": false, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 55.0, "swings": null, "path": null, "first_seen": "16:11", "new": true}]}
