@@ -546,3 +546,4 @@
 {"ts": "2026-11-20T15:57:07.459928-05:00", "demo": 0, "ticker": "WLY", "prev_state": "COOLING", "state": "RUNNING", "price": 46.225, "tp": 1.9194236328774732, "note": "sustained 1.9x"}
 {"ts": "2026-11-20T16:11:22.447126-05:00", "demo": 0, "ticker": "XHLD", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "TEN Holdings, Inc. Announces Closing of $1.0 Million Offering"}
 {"ts": "2026-11-20T16:32:22.450764-05:00", "demo": 0, "ticker": "SPGI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "S&P Global to Present at UBS Global Technology and AI Conference on December 2, 2026"}
+{"ts": "2026-11-20T17:51:49.646389-05:00", "demo": 0, "ticker": "SPGI", "prev_state": null, "state": "CATALYST", "price": 0.0, "tp": null, "note": "S&P Global to Present at UBS Global Technology and AI Conference on December 2, 2026"}
