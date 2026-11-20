@@ -323,3 +323,22 @@
 {"ts": "2026-11-20T15:15:07.453080-05:00", "demo": 0, "ticker": "BSP", "prev_state": "RUNNING", "state": "IGNITING", "price": 42.07, "tp": 6.365974494862437, "note": "pace 6.4x and accelerating (1.9x vs prior window) \u00b7 +0.8% in window"}
 {"ts": "2026-11-20T15:15:07.453080-05:00", "demo": 0, "ticker": "COMT", "prev_state": "RUNNING", "state": "COOLING", "price": 33.715, "tp": 0.0, "note": "pace 0.0x off peak 20.4x"}
 {"ts": "2026-11-20T15:15:07.453080-05:00", "demo": 0, "ticker": "COPP", "prev_state": "RUNNING", "state": "COOLING", "price": 28.28, "tp": 0.0, "note": "pace 0.0x off peak 43.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "AOD", "prev_state": "RUNNING", "state": "COOLING", "price": 9.14, "tp": 1.2238021316071819, "note": "pace 1.2x off peak 7.9x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "AIPI", "prev_state": "RUNNING", "state": "COOLING", "price": 27.32, "tp": 0.0, "note": "pace 0.0x off peak 6.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.07, "tp": 2.2640030290944284, "note": "sustained 2.3x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "DSL", "prev_state": "RUNNING", "state": "COOLING", "price": 9.365, "tp": 1.7305925034427452, "note": "pace 1.7x off peak 4.6x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "GDRX", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.955, "tp": 2.8463389443386817, "note": "sustained 2.8x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "IGNITING", "state": "RUNNING", "price": 20.22, "tp": 7.500884077022196, "note": "sustained 7.5x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "BULZ", "prev_state": "RUNNING", "state": "COOLING", "price": 15.56, "tp": 1.3024208237298056, "note": "pace 1.3x off peak 6.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "AMWL", "prev_state": "IGNITING", "state": "RUNNING", "price": 10.75, "tp": 7.973058417273101, "note": "sustained 8.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CAIE", "prev_state": "IGNITING", "state": "RUNNING", "price": 23.295, "tp": 5.018553082127864, "note": "sustained 5.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "BLTE", "prev_state": "IGNITING", "state": "RUNNING", "price": 131.755, "tp": 6.3289795784472735, "note": "sustained 6.3x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CTGO", "prev_state": "RUNNING", "state": "IGNITING", "price": 9.53, "tp": 3.7622041601723972, "note": "pace 3.8x and accelerating (1.9x vs prior window) \u00b7 -0.5% in window"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CCC", "prev_state": "RUNNING", "state": "CHURN", "price": 7.665, "tp": 4.803418310667429, "note": "4.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CGMS", "prev_state": "RUNNING", "state": "CHURN", "price": 26.29, "tp": 5.416673313727666, "note": "5.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "BINC", "prev_state": "QUIET", "state": "COOLING", "price": 50.415, "tp": 1.585376063930705, "note": "pace 1.6x off peak 2.2x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "LQDT", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.235, "tp": 8.20158135447508, "note": "sustained 8.2x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "WLY", "prev_state": "COOLING", "state": "RUNNING", "price": 46.16, "tp": 3.0058769488204167, "note": "sustained 3.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "BSP", "prev_state": "IGNITING", "state": "RUNNING", "price": 42.395, "tp": 5.582748643293559, "note": "sustained 5.6x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "CARY", "prev_state": "CHURN", "state": "RUNNING", "price": 60.865, "tp": 19.028284747516278, "note": "sustained 19.0x"}
+{"ts": "2026-11-20T15:18:07.453320-05:00", "demo": 0, "ticker": "JMIA", "prev_state": "RUNNING", "state": "IGNITING", "price": 2.58, "tp": 3.125383593337891, "note": "pace 3.1x and accelerating (1.8x vs prior window) \u00b7 -0.6% in window"}
