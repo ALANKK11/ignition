@@ -298,3 +298,13 @@
 {"ts": "2026-11-20T15:09:07.451710-05:00", "demo": 0, "ticker": "CTGO", "prev_state": "RUNNING", "state": "COOLING", "price": 9.575, "tp": 0.7875744126794706, "note": "pace 0.8x off peak 4.2x"}
 {"ts": "2026-11-20T15:09:07.451710-05:00", "demo": 0, "ticker": "PDO", "prev_state": "RUNNING", "state": "COOLING", "price": 11.075, "tp": 1.7742898730442718, "note": "pace 1.8x off peak 6.2x"}
 {"ts": "2026-11-20T15:09:07.451710-05:00", "demo": 0, "ticker": "GQGU", "prev_state": "COOLING", "state": "RUNNING", "price": 20.85, "tp": 2.5971140150655323, "note": "sustained 2.6x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "RUNNING", "state": "IGNITING", "price": 20.16, "tp": 8.232968304543256, "note": "pace 8.2x and accelerating (2.1x vs prior window) \u00b7 +1.3% in window"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "CHPS", "prev_state": "COOLING", "state": "RUNNING", "price": 58.445, "tp": 8.529588653497926, "note": "sustained 8.5x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "DSL", "prev_state": "COOLING", "state": "RUNNING", "price": 9.365, "tp": 2.2786704489561895, "note": "sustained 2.3x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "PDO", "prev_state": "COOLING", "state": "RUNNING", "price": 11.075, "tp": 1.9453181805906283, "note": "sustained 1.9x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "BINC", "prev_state": "RUNNING", "state": "COOLING", "price": 50.415, "tp": 0.9777626066431286, "note": "pace 1.0x off peak 2.2x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "CRF", "prev_state": "RUNNING", "state": "COOLING", "price": 4.995, "tp": 0.9670149239928667, "note": "pace 1.0x off peak 10.4x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "ARLP", "prev_state": "QUIET", "state": "RUNNING", "price": 22.99, "tp": 2.5952857312575737, "note": "sustained 2.6x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "BILL", "prev_state": "CHURN", "state": "RUNNING", "price": 61.47, "tp": 4.640555525061164, "note": "sustained 4.6x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "WLY", "prev_state": "RUNNING", "state": "COOLING", "price": 46.15, "tp": 1.658866530069357, "note": "pace 1.7x off peak 7.1x"}
+{"ts": "2026-11-20T15:12:07.452315-05:00", "demo": 0, "ticker": "CTGO", "prev_state": "COOLING", "state": "RUNNING", "price": 9.57, "tp": 2.967298802502575, "note": "sustained 3.0x"}
