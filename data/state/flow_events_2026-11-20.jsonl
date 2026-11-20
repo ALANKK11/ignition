@@ -10,3 +10,6 @@
 {"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "FXU", "prev_state": "RUNNING", "state": "CHURN", "price": 48.37, "tp": 2.374925186967157, "note": "2.4x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "SNDK", "prev_state": "RUNNING", "state": "IGNITING", "price": 81.015, "tp": 9.524345710872156, "note": "pace 9.5x and accelerating (2.1x vs prior window) \u00b7 +1.3% in window"}
 {"ts": "2026-11-20T14:00:07.439166-05:00", "demo": 0, "ticker": "GDRX", "prev_state": "RUNNING", "state": "COOLING", "price": 2.96, "tp": 0.5954961350950715, "note": "pace 0.6x off peak 2.0x"}
+{"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "CTKB", "prev_state": "IGNITING", "state": "RUNNING", "price": 6.065, "tp": 4.661046713993953, "note": "sustained 4.7x"}
+{"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "CNA", "prev_state": "QUIET", "state": "NEW MONEY", "price": 48.42, "tp": 2.277299474530303, "note": "quiet open (0.8x) \u2192 now 2.3x \u00b7 taking +0.3% flow share"}
+{"ts": "2026-11-20T14:03:07.439501-05:00", "demo": 0, "ticker": "BTAL", "prev_state": "QUIET", "state": "RUNNING", "price": 13.92, "tp": 1.873605366398999, "note": "sustained 1.9x"}
