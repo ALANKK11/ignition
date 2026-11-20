@@ -257,3 +257,12 @@
 {"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "DQJN", "prev_state": "RUNNING", "state": "COOLING", "price": 26.88, "tp": 0.0, "note": "pace 0.0x off peak 37.7x"}
 {"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "SA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.6, "tp": 8.857090610575243, "note": "sustained 8.9x"}
 {"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "CGMS", "prev_state": "FADING", "state": "RUNNING", "price": 26.285, "tp": 3.1365257489058207, "note": "sustained 3.1x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "BLTE", "prev_state": "COOLING", "state": "RUNNING", "price": 133.495, "tp": 3.892013221087891, "note": "sustained 3.9x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "GSIE", "prev_state": "RUNNING", "state": "CHURN", "price": 43.27, "tp": 2.5171020316051487, "note": "2.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "BSMT", "prev_state": "CHURN", "state": "FADING", "price": 22.67, "tp": 0.0, "note": "pace 0.0x vs peak 102.8x \u00b7 -0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "CTAS", "prev_state": "CHURN", "state": "RUNNING", "price": 222.54, "tp": 4.940226559637048, "note": "sustained 4.9x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "CHPS", "prev_state": "IGNITING", "state": "RUNNING", "price": 58.81, "tp": 3.3218915926253962, "note": "sustained 3.3x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "BCAT", "prev_state": "COOLING", "state": "RUNNING", "price": 11.43, "tp": 2.0244161070990723, "note": "sustained 2.0x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "CNA", "prev_state": "NEW MONEY", "state": "CHURN", "price": 48.33, "tp": 3.5413382157772957, "note": "3.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "ASPI", "prev_state": "FADING", "state": "COOLING", "price": 1.125, "tp": 0.9049713362735152, "note": "pace 0.9x off peak 4.6x"}
+{"ts": "2026-11-20T15:03:07.450748-05:00", "demo": 0, "ticker": "WLY", "prev_state": "RUNNING", "state": "IGNITING", "price": 46.12, "tp": 6.570386956652391, "note": "pace 6.6x and accelerating (25.0x vs prior window) \u00b7 -0.7% in window"}
