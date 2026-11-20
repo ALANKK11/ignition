@@ -75,3 +75,12 @@
 {"ts": "2026-11-20T14:18:07.442745-05:00", "demo": 0, "ticker": "CNEQ", "prev_state": "IGNITING", "state": "RUNNING", "price": 31.985, "tp": 3.3215981807137522, "note": "sustained 3.3x"}
 {"ts": "2026-11-20T14:18:07.442745-05:00", "demo": 0, "ticker": "SA", "prev_state": "RUNNING", "state": "IGNITING", "price": 17.515, "tp": 9.44318859859321, "note": "pace 9.4x and accelerating (1.6x vs prior window) \u00b7 -0.9% in window"}
 {"ts": "2026-11-20T14:18:07.442745-05:00", "demo": 0, "ticker": "FQAL", "prev_state": "IGNITING", "state": "RUNNING", "price": 77.67, "tp": 215.0277888628418, "note": "sustained 215.0x"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "TDTT", "prev_state": "NEW MONEY", "state": "FADING", "price": 23.38, "tp": 0.0, "note": "pace 0.0x vs peak 8.0x \u00b7 +0.0% off HOD \u00b7 chart still +0% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "BLTE", "prev_state": "CHURN", "state": "RUNNING", "price": 134.67, "tp": 4.5723067284465095, "note": "sustained 4.6x"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "BSJQ", "prev_state": "COOLING", "state": "CHURN", "price": 22.84, "tp": 15.374836225518981, "note": "15.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "NBIL", "prev_state": "RUNNING", "state": "COOLING", "price": 2.435, "tp": 1.6558371236946967, "note": "pace 1.7x off peak 2.5x"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "FELG", "prev_state": "RUNNING", "state": "IGNITING", "price": 36.91, "tp": 2.9660481741850764, "note": "pace 3.0x and accelerating (2.2x vs prior window) \u00b7 -1.2% in window"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "IVOL", "prev_state": "RUNNING", "state": "FADING", "price": 17.01, "tp": 0.0, "note": "pace 0.0x vs peak 40.4x \u00b7 -0.0% off HOD \u00b7 chart still +2% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "YSWY", "prev_state": "FADING", "state": "RUNNING", "price": 20.11, "tp": 3.416187096187061, "note": "sustained 3.4x"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "HYS", "prev_state": "RUNNING", "state": "COOLING", "price": 88.83, "tp": 0.0, "note": "pace 0.0x off peak 477.6x"}
+{"ts": "2026-11-20T14:21:07.443488-05:00", "demo": 0, "ticker": "SA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.495, "tp": 8.532810877079672, "note": "sustained 8.5x"}
