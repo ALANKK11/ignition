@@ -247,3 +247,13 @@
 {"ts": "2026-11-20T14:57:07.449820-05:00", "demo": 0, "ticker": "BILL", "prev_state": "RUNNING", "state": "CHURN", "price": 61.5, "tp": 12.522924274157402, "note": "12.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-20T14:57:07.449820-05:00", "demo": 0, "ticker": "BMOP", "prev_state": "CHURN", "state": "RUNNING", "price": 23.91, "tp": 7.586001176329871, "note": "sustained 7.6x"}
 {"ts": "2026-11-20T14:57:07.449820-05:00", "demo": 0, "ticker": "AIPI", "prev_state": "QUIET", "state": "IGNITING", "price": 27.33, "tp": 3.1179742370745154, "note": "pace 3.1x and accelerating (62.4x vs prior window) \u00b7 -0.6% in window"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "BMM", "prev_state": "CHURN", "state": "RUNNING", "price": 2.645, "tp": 5.8611387371042225, "note": "sustained 5.9x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "CTGO", "prev_state": "IGNITING", "state": "RUNNING", "price": 9.575, "tp": 2.0388345778437915, "note": "sustained 2.0x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "PDO", "prev_state": "CHURN", "state": "RUNNING", "price": 11.07, "tp": 4.503640497033426, "note": "sustained 4.5x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "CARY", "prev_state": "RUNNING", "state": "CHURN", "price": 60.86, "tp": 9.19102929920494, "note": "9.2x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "CTAS", "prev_state": "RUNNING", "state": "CHURN", "price": 222.84, "tp": 5.682934112654834, "note": "5.7x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "WRD", "prev_state": "IGNITING", "state": "RUNNING", "price": 2.985, "tp": 3.2690182073607197, "note": "sustained 3.3x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "DMXF", "prev_state": "IGNITING", "state": "COOLING", "price": 77.46, "tp": 0.0, "note": "pace 0.0x off peak 13.1x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "DQJN", "prev_state": "RUNNING", "state": "COOLING", "price": 26.88, "tp": 0.0, "note": "pace 0.0x off peak 37.7x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "SA", "prev_state": "IGNITING", "state": "RUNNING", "price": 17.6, "tp": 8.857090610575243, "note": "sustained 8.9x"}
+{"ts": "2026-11-20T15:00:07.450371-05:00", "demo": 0, "ticker": "CGMS", "prev_state": "FADING", "state": "RUNNING", "price": 26.285, "tp": 3.1365257489058207, "note": "sustained 3.1x"}
