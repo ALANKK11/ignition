@@ -33,3 +33,13 @@
 {"ts": "2026-11-25T15:31:50.329584-05:00", "demo": 0, "ticker": "BGLC", "prev_state": "RUNNING", "state": "IGNITING", "price": 1.2, "tp": 9079.203595533807, "note": "pace 9079.2x and accelerating (1.6x vs prior window) \u00b7 -0.8% in window"}
 {"ts": "2026-11-25T15:31:50.329584-05:00", "demo": 0, "ticker": "JHEM", "prev_state": "RUNNING", "state": "CHURN", "price": 34.32, "tp": 1543.4953973270115, "note": "1543.5x participation, no progress at highs \u2014 absorption"}
 {"ts": "2026-11-25T15:31:50.329584-05:00", "demo": 0, "ticker": "ALEC", "prev_state": "IGNITING", "state": "CHURN", "price": 2.735, "tp": 6.481098816635486, "note": "6.5x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "BGLC", "prev_state": "IGNITING", "state": "RUNNING", "price": 1.27, "tp": 7437.486577242995, "note": "sustained 7437.5x"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "FINV", "prev_state": "RUNNING", "state": "CHURN", "price": 2.505, "tp": 3.838458640384484, "note": "3.8x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "BNAI", "prev_state": "COOLING", "state": "RUNNING", "price": 8.065, "tp": 2.073931342485882, "note": "sustained 2.1x"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "FFLX", "prev_state": "CHURN", "state": "RUNNING", "price": 9.445, "tp": 3.9231116159384776, "note": "sustained 3.9x"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "PPLT", "prev_state": "RUNNING", "state": "CHURN", "price": 11.54, "tp": 4.139489407648451, "note": "4.1x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "JHEM", "prev_state": "CHURN", "state": "RUNNING", "price": 34.28, "tp": 1459.0270095664218, "note": "sustained 1459.0x"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "VREX", "prev_state": "CHURN", "state": "RUNNING", "price": 17.74, "tp": 3.2404849561097393, "note": "sustained 3.2x"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "CNRG", "prev_state": "RUNNING", "state": "CHURN", "price": 68.44, "tp": 36.35609954436802, "note": "36.4x participation, no progress at highs \u2014 absorption"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "ALGS", "prev_state": "IGNITING", "state": "FADING", "price": 2.295, "tp": 15.224559745463415, "note": "pace 15.2x vs peak 44.7x \u00b7 -28.5% off HOD \u00b7 chart still +55% \u2014 crowd buying a cooled tape"}
+{"ts": "2026-11-25T15:35:35.330828-05:00", "demo": 0, "ticker": "ASPI", "prev_state": "QUIET", "state": "RUNNING", "price": 1.285, "tp": 2.7753218749835806, "note": "sustained 2.8x"}
