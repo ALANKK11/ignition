@@ -1,1 +1,1 @@
-{"v": 4, "ts": "2026-11-25T18:51:20-05:00", "session": "post", "rows": []}
+{"v": 4, "ts": "2026-11-26T14:56:45-05:00", "session": "rth", "rows": [{"headline": null, "pr_ts": null, "catalyst": false, "flags": null, "ticker": "STAK", "move": -0.2134, "last": 2.12, "dollars": 137314.52000000002, "vs_adv": 1.35, "off_hi": -0.6682, "state": null, "open": 2.8, "ssr": true, "vs_vwap": null, "tp": null, "hot": false, "pin": false, "heat": 1.7, "swings": null, "path": null, "first_seen": "14:56", "new": true}]}
